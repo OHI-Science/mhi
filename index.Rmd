@@ -27,7 +27,7 @@ This study uses the Ocean Health Index framework...I'm adding some text here to 
 <p class="post-excerpt">
 
 <!-- Suggested instructions: Add several sentences describing the team here.  -->
-The `r study_area` Ocean Health Index team consists of...
+Our team consists of...
 
 </p>
 </div>
