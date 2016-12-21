@@ -1,0 +1,15 @@
+name: "Ocean Health Index - Main Hawaiian Islands"
+navbar:
+  title: "MHI"
+  left:
+    - text: "Overview"
+      href: overview.html
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+#    include:
+#      after_body: _footer.html
+    css:
+      - "_sass/main.css"
