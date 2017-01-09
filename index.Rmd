@@ -4,10 +4,10 @@ title: "Ocean Health Index for the Main Hawaiian Islands"
 
 <div class="page-lead" style="background-image:url(images/regions_1600x800.png)">
 <div class="wrap page-lead-content">
-<h2>Will have to change this image, among other things...</h2>
+<h2>Tracking our progress towards sustainable ocean use in Hawaii</h2>
 
 </div><!-- /.page-lead-content. -->
 </div><!-- /.page-lead -->
 
-This study uses the Ocean Health Index framework...I'm adding some text here to test.
+Integrating social, economic, and environmental indicators of ocean and island health to support informed management decisions.
 
