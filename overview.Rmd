@@ -17,3 +17,5 @@ The Hawaii OHI+ will use the scientifically robust framework of the Ocean Health
 The Hawaii statewide assessment which will focus on the Main Hawaiian Islands and will be at the island scale. Regions will be Hawaii, Maui, Molokai, Lanai, Oahu, and Kauai. The island scale is used to designate districts of Hawaii, which are used in policy and management for the State of Hawaii. 
 To produce the spatial boundaries of these reporting units we use the Hawaii USA Exclusive Economic Zones (EEZ). A nearshore spatial scale is computed as the offshore 3nm boundary for Hawaii islands to be used in some goals. The OHI focus is on the entire EEZ, however, some goals are assessed on the nearshore (3 nm scale). 
 
+[give feedbak](link to google survey)
+[see others' feedback](link to survey results)
