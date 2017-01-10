@@ -9,7 +9,3 @@ output:
   html_document:
     theme: yeti
     highlight: textmate
-#    include:
-#      after_body: _footer.html
-    css:
-      - "_sass/main.css"
