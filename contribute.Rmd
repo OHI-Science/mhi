@@ -1,0 +1,21 @@
+---
+title: <center>Contribute
+author: 
+date: 
+output: html_document
+---
+----
+##Give Feedback
+Please take a few minutes to provide information on local priorities and needs that the Ocean Health Index can help communicate to the rest of the community, managers, and industry leaders.
+
+[give feedbak](https://goo.gl/forms/fO7bmQYAnDvwe2422)
+<br><br>
+
+##Contact Us
+To provide additional feedback or for additional questions please contact:
+
+Eva Schemmel
+
+Conservation International Hawaii
+
+eschemmel@conservation.org

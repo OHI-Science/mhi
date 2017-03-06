@@ -1,0 +1,27 @@
+---
+title: <center>About
+author: 
+date: 
+output: html_document
+---
+----
+## Assessing Ocean Health in the Main Hawaiian Islands
+ 
+We are building a scientifically robust index of ocean health for Hawaii that is supported by local stakeholders and integrated into ongoing policy initiatives to support sustainable ocean management. We are working within the Ocean Health Index framework to facilitate repeatable assessments of the index goals overtime allowing for progress toward a common vision for a healthy ocean and sustainable ocean management.  
+
+ 
+## Developing the Index
+The process of developing and adapting the OHI for West Hawaii is extremely important for creating a culturally, socially, and ecologically appropriate tool for measuring ocean health in West Hawaii. The Ocean Health Index is being adapted to meet the needs of West Hawaii and Hawaii with the support of local experts, stakeholder surveys, workshops and community meetings and integration with ongoing initiatives. This website will also serve as a communication platform for the development of the Ocean Health Index to be able to better communicate with all stakeholders.
+
+
+## Scale of Assessment
+The Hawaii OHI+ will use the scientifically robust framework of the Ocean Health Index at the scale of the Hawaiian archipelago. We will focus our development of the Hawaii Ocean Health Index at two scales:
+1)	The West Hawaii region; and
+2)	Statewide, for coastal waters.
+
+
+The Hawaii statewide assessment which will focus on the Main Hawaiian Islands and will be at the island or island group scale. Regions will be Hawaii, Maui Nui, Molokai, Lanai, Oahu, and Kauai and Niihau. This scale is used to designate districts of Hawaii, which are used in policy and management for the State of Hawaii. 
+To produce the spatial boundaries of these reporting units we use the Hawaii USA Exclusive Economic Zones (EEZ). A nearshore spatial scale is computed as the offshore 3nm boundary for Hawaii islands to be used in some goals. The OHI focus is on the entire EEZ, however, some goals are assessed on the nearshore (3 nm scale). 
+
+
+

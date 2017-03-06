@@ -1,13 +1,19 @@
 ---
-title: "Ocean Health Index for the Main Hawaiian Islands"
+title: <center>An Ocean Health Index for Hawaii
+author:  
+output:
+  html_document:
+    fig_width: 1
 ---
 
-<div class="page-lead" style="background-image:url(images/regions_1600x800.png)">
-<div class="wrap page-lead-content">
-<h2>Tracking our progress towards sustainable ocean use in Hawaii</h2>
+----
+The Hawaii Ocean Health Index measures and tracks the benefits and services that the ocean provides for people now and into the future. This index is being developed with the support of local stakeholders to better understand how to sustainably balance current and future ocean use.
 
-</div><!-- /.page-lead-content. -->
-</div><!-- /.page-lead -->
+Ocean health is defined as a state of being that is pono (sustainable/respectful); where functions and processes can exist, perpetuate, and evolve, including the presence and role of humans. 
 
-Integrating social, economic, and environmental indicators of ocean and island health to support informed management decisions.
+Our vision for the Hawaii's ocean is a resilient and productive system that provides services and resources to sustain Hawaii Island residents and economy perpetually into the future. To achieve this vision several measures were suggested by stakeholder which included: getting control of shoreline development and its impacts, reducing land-based pollution sources, feral cat control, sustainable fishing practices, invasive species management, healthy tourism and visitor education focused on sustainable use and conservation, and incorporation of traditional Hawaiian resource management practices and values.
+
+
+
+<center><img src="images/OH_Hawaii.png" width="1200px"></center>  
 

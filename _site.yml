@@ -1,9 +1,15 @@
 name: "Ocean Health Index - Main Hawaiian Islands"
 navbar:
-  title: "MHI"
+  title: "Home"
   left:
-    - text: "Overview"
-      href: overview.html
+    - text: "About"
+      href: about.html
+    - text: "Goals"
+      href: goals.html
+    - text: "Frequently Asked Questions"
+      href: frequentlyaskedquestions.html
+    - text: "Contribute"
+      href: contribute.html
 output_dir: "."
 output:
   html_document:
