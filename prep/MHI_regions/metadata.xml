@@ -1,0 +1,11 @@
+<metadata xml:lang="en"><Esri><CreaDate>20170222</CreaDate><CreaTime>14130900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><ModDate>20170222</ModDate><ModTime>14144000</ModTime><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>ItemDescription</ArcGISProfile></Esri><dataIdInfo><idPurp>Layer Name: MHI Regions
+Shapefile Name: MHI_regions.shp
+Status: draft
+Geographic Extent: EEZ of Main Hawaiian Islands excluding the Papahanaumokuakea 
+Projection: UTM, Zone 4, Meters
+Datum: NAD83
+Description: This data was created to depict OHI regions for Hawaii at the largest spatial extent (the EEZ). The geographic extent for each goal varies by goal and uses geographically relevant scales such as nearshore hard bottom extend for mapping goals that utilize coral reef data. Regions were created from modified Thiessen Polygons created from mapping the center point of Hawaii Island, Maui Nui, Oahu, and Kaui Niihau regions. The Theissen Polygon boundaries were shifted slightly to allow for the 12 nautical mile buffer around each island region to be inside each respective the OHI Region. 
+Layers used:
+ coastline.shp file from Hawaii Data Portal (https://data.hawaii.gov/)
+12_naut_mile_bndry.shp from Hawaii Data Portal (https://data.hawaii.gov/)
+</idPurp><idCitation><resTitle>Main Hawaiian Islands OHI regions</resTitle></idCitation></dataIdInfo><mdHrLv><ScopeCd value="005"></ScopeCd></mdHrLv></metadata>
