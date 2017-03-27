@@ -1,0 +1,81 @@
+rgn_id,rgn_name,Year,Cleanup Type,Adults,Children,People,Pounds,Miles,# of Bags
+1,Hawaii,2015,Beach,357,141,498,3612,22.75,82
+1,Hawaii,2015,Underwater,26,0,26,258,4,1
+1,Hawaii,2015,Watercraft,0,0,0,0,0,0
+1,Hawaii,2015,TOTAL,383,141,524,3870,26.75,83
+3,Oahu,2015,Beach,372,736,1108,16390,14.85,235
+3,Oahu,2015,Underwater,0,0,0,0,0,0
+3,Oahu,2015,Watercraft,0,0,0,0,0,0
+3,Oahu,2015,TOTAL,372,736,1108,16390,14.85,235
+4,Kauai,2015,Beach,20,0,20,645,0.75,0
+4,Kauai,2015,Underwater,0,0,0,0,0,0
+4,Kauai,2015,Watercraft,0,0,0,0,0,0
+4,Kauai,2015,TOTAL,20,0,20,645,0.75,0
+2,Maui Nui,2015,Beach,429,177,606,12807.96,27.3,331
+2,Maui Nui,2015,Underwater,0,0,0,0,0,0
+2,Maui Nui,2015,Watercraft,0,0,0,0,0,0
+2,Maui Nui,2015,TOTAL,429,177,606,12807.96,27.3,331
+2,Maui Nui,2014,Beach,311,175,486,11710,14,669
+2,Maui Nui,2014,Underwater,3,0,3,1,0.1,0
+2,Maui Nui,2014,Watercraft,0,0,0,0,0,0
+2,Maui Nui,2014,TOTAL,314,175,489,11711,14.1,669
+4,Kauai,2014,Beach,4,1,5,50,0.25,0
+4,Kauai,2014,Underwater,0,0,0,0,0,0
+4,Kauai,2014,Watercraft,0,0,0,0,0,0
+4,Kauai,2014,TOTAL,4,1,5,50,0.25,0
+3,Oahu,2014,Beach,1032,594,1626,11668,22,766
+3,Oahu,2014,Underwater,0,0,0,0,0,0
+3,Oahu,2014,Watercraft,0,0,0,0,0,0
+3,Oahu,2014,TOTAL,1032,594,1626,11668,22,766
+1,Hawaii,2014,Beach,458,254,712,18883.3,31.36,182
+1,Hawaii,2014,Underwater,10,0,10,5,2.75,0
+1,Hawaii,2014,Watercraft,0,0,0,0,0,0
+1,Hawaii,2014,TOTAL,468,254,722,18888.3,34.11,182
+1,Hawaii,2013,Beach,389,458,847,3490.47,27.5,193
+1,Hawaii,2013,Underwater,104,4,108,1612,3.6,28
+1,Hawaii,2013,Watercraft,0,0,0,0,0,0
+1,Hawaii,2013,TOTAL,493,462,955,5102.47,31.1,221
+3,Oahu,2013,Beach,662,432,1094,8275,16.6,383
+3,Oahu,2013,Underwater,6,0,6,12,0.1,0
+3,Oahu,2013,Watercraft,0,0,0,0,0,0
+3,Oahu,2013,TOTAL,668,432,1100,8287,16.7,383
+4,Kauai,2013,Beach,32,14,46,214,1,23
+4,Kauai,2013,Underwater,15,3,18,220.46,0.62,30
+4,Kauai,2013,Watercraft,0,0,0,0,0,0
+4,Kauai,2013,TOTAL,47,17,64,434.46,1.62,53
+2,Maui Nui,2013,Beach,171,29,200,1237,9.72,155
+2,Maui Nui,2013,Underwater,20,0,20,125,0.03,0
+2,Maui Nui,2013,Watercraft,0,0,0,0,0,0
+2,Maui Nui,2013,TOTAL,191,29,220,1362,9.75,155
+1,Hawaii,2012,Beach,N/A,N/A,783,4553.5,29.02,80
+1,Hawaii,2012,Underwater,N/A,N/A,24,160,3.5,0
+1,Hawaii,2012,Watercraft,N/A,N/A,3,30,10,0
+1,Hawaii,2012,TOTAL,0,0,810,4743.5,42.52,80
+3,Oahu,2012,Beach,N/A,N/A,2280,10354.5,28.78,52
+3,Oahu,2012,Underwater,0,0,0,0,0,0
+3,Oahu,2012,Watercraft,0,0,0,0,0,0
+3,Oahu,2012,TOTAL,0,0,2280,10354.5,28.78,52
+4,Kauai,2012,Beach,0,0,0,0,0,0
+4,Kauai,2012,Underwater,0,0,0,0,0,0
+4,Kauai,2012,Watercraft,0,0,0,0,0,0
+4,Kauai,2012,TOTAL,0,0,0,0,0,0
+2,Maui Nui,2012,Beach,N/A,N/A,456,3545,12.75,93
+2,Maui Nui,2012,Underwater,0,0,0,0,0,0
+2,Maui Nui,2012,Watercraft,0,0,0,0,0,0
+2,Maui Nui,2012,TOTAL,0,0,456,3545,12.75,93
+1,Hawaii,2011,Beach,N/A,N/A,908,7855,29.19,158
+1,Hawaii,2011,Underwater,0,0,0,0,0,0
+1,Hawaii,2011,Watercraft,0,0,0,0,0,0
+1,Hawaii,2011,TOTAL,0,0,908,7855,29.19,158
+3,Oahu,2011,Beach,N/A,N/A,1766,7960.48,22.54,34
+3,Oahu,2011,Underwater,N/A,N/A,98,385,170.45,56
+3,Oahu,2011,Watercraft,0,0,0,0,0,0
+3,Oahu,2011,TOTAL,0,0,1864,8345.48,192.99,90
+4,Kauai,2011,Beach,N/A,N/A,61,421,1.28,33
+4,Kauai,2011,Underwater,0,0,0,0,0,0
+4,Kauai,2011,Watercraft,0,0,0,0,0,0
+4,Kauai,2011,TOTAL,0,0,61,421,1.28,33
+3,Maui Nui,2011,Beach,N/A,N/A,340,1842,14,0
+3,Maui Nui,2011,Underwater,0,0,0,0,0,0
+3,Maui Nui,2011,Watercraft,0,0,0,0,0,0
+3,Maui Nui,2011,TOTAL,0,0,340,1842,14,0

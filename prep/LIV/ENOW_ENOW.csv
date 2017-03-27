@@ -1,0 +1,316 @@
+GeoID, GeoName,rgn_id, Year, OceanSectorId, OceanSector, Establishments, Employment, Wages, GDP,wage_per_employ
+15001,"Hawaii, HI",1,2005,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2005,2,Living Resources,16,88,3804000,7940000,43227.27273
+15001,"Hawaii, HI",1,2005,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2005,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2005,5,Tourism and Recreation,498,12568,322759000,719375000,25681.01528
+15001,"Hawaii, HI",1,2005,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2005,9,All Ocean Sectors,527,12656,326563000,727315000,25803.01833
+15001,"Hawaii, HI",1,2006,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2006,2,Living Resources,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2006,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2006,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2006,5,Tourism and Recreation,495,12364,325051000,724107000,26290.11647
+15001,"Hawaii, HI",1,2006,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2006,9,All Ocean Sectors,520,12364,325051000,724107000,26290.11647
+15001,"Hawaii, HI",1,2007,1,Marine Construction,4,11,490000,989000,44545.45455
+15001,"Hawaii, HI",1,2007,2,Living Resources,15,85,3609000,7122000,42458.82353
+15001,"Hawaii, HI",1,2007,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2007,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2007,5,Tourism and Recreation,515,12349,336506000,733725000,27249.65584
+15001,"Hawaii, HI",1,2007,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2007,9,All Ocean Sectors,544,12445,340604000,741836000,27368.74247
+15001,"Hawaii, HI",1,2008,1,Marine Construction,7,38,1817000,3474000,47815.78947
+15001,"Hawaii, HI",1,2008,2,Living Resources,17,89,3725000,7745000,41853.93258
+15001,"Hawaii, HI",1,2008,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2008,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2008,5,Tourism and Recreation,517,11894,328454000,697413000,27615.10005
+15001,"Hawaii, HI",1,2008,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2008,9,All Ocean Sectors,552,12021,333996000,708632000,27784.37734
+15001,"Hawaii, HI",1,2009,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2009,2,Living Resources,18,85,3663000,7805000,43094.11765
+15001,"Hawaii, HI",1,2009,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2009,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2009,5,Tourism and Recreation,531,10844,296867000,609900000,27376.15271
+15001,"Hawaii, HI",1,2009,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2009,9,All Ocean Sectors,567,10929,300531000,617705000,27498.49026
+15001,"Hawaii, HI",1,2010,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2010,2,Living Resources,17,71,3304000,8252000,46535.21127
+15001,"Hawaii, HI",1,2010,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2010,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2010,5,Tourism and Recreation,539,10725,302498000,629128000,28204.94172
+15001,"Hawaii, HI",1,2010,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2010,9,All Ocean Sectors,573,10796,305802000,637380000,28325.49092
+15001,"Hawaii, HI",1,2011,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2011,2,Living Resources,15,73,3377000,8848000,46260.27397
+15001,"Hawaii, HI",1,2011,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2011,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2011,5,Tourism and Recreation,532,10817,313673000,676532000,28998.15106
+15001,"Hawaii, HI",1,2011,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2011,9,All Ocean Sectors,562,10890,317050000,685380000,29113.86593
+15001,"Hawaii, HI",1,2012,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2012,2,Living Resources,15,77,3326000,8238000,43194.80519
+15001,"Hawaii, HI",1,2012,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2012,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2012,5,Tourism and Recreation,531,11125,325491000,709340000,29257.61798
+15001,"Hawaii, HI",1,2012,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2012,9,All Ocean Sectors,561,11202,328817000,717579000,29353.41903
+15001,"Hawaii, HI",1,2013,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2013,2,Living Resources,12,76,3293000,8748000,43328.94737
+15001,"Hawaii, HI",1,2013,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2013,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2013,5,Tourism and Recreation,537,11340,333060000,741923000,29370.37037
+15001,"Hawaii, HI",1,2013,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15001,"Hawaii, HI",1,2013,9,All Ocean Sectors,564,11416,336353000,750671000,29463.29713
+15003,"Honolulu, HI",3,2005,1,Marine Construction,18,408,29724000,63111000,72852.94118
+15003,"Honolulu, HI",3,2005,2,Living Resources,121,492,11686000,28518000,23752.03252
+15003,"Honolulu, HI",3,2005,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2005,4,Ship and Boat Building,17,4163,321442000,29907000,77214.02834
+15003,"Honolulu, HI",3,2005,5,Tourism and Recreation,2027,41214,668711000,1262543000,16225.33605
+15003,"Honolulu, HI",3,2005,6,Marine Transportation,80,2084,133974000,256747000,64286.94818
+15003,"Honolulu, HI",3,2005,9,All Ocean Sectors,2267,48361,1165536000,1640826000,24100.74233
+15003,"Honolulu, HI",3,2006,1,Marine Construction,18,387,28439000,58898000,73485.78811
+15003,"Honolulu, HI",3,2006,2,Living Resources,117,439,11284000,26930000,25703.87244
+15003,"Honolulu, HI",3,2006,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2006,4,Ship and Boat Building,16,4177,330237000,30749000,79060.80919
+15003,"Honolulu, HI",3,2006,5,Tourism and Recreation,2065,41673,705406000,1306955000,16927.17107
+15003,"Honolulu, HI",3,2006,6,Marine Transportation,76,2211,139115000,283441000,62919.49344
+15003,"Honolulu, HI",3,2006,9,All Ocean Sectors,2297,48887,1214481000,1706973000,24842.61665
+15003,"Honolulu, HI",3,2007,1,Marine Construction,16,368,29259000,59051000,79508.15217
+15003,"Honolulu, HI",3,2007,2,Living Resources,116,382,9945000,23059000,26034.03141
+15003,"Honolulu, HI",3,2007,3,Offshore Mineral Extraction,5,12,481000,782000,40083.33333
+15003,"Honolulu, HI",3,2007,4,Ship and Boat Building,18,3992,326474000,46827000,81782.06413
+15003,"Honolulu, HI",3,2007,5,Tourism and Recreation,2115,41684,725272000,1293562000,17399.2899
+15003,"Honolulu, HI",3,2007,6,Marine Transportation,84,2402,153083000,277653000,63731.47377
+15003,"Honolulu, HI",3,2007,9,All Ocean Sectors,2354,48840,1244513000,1700934000,25481.42916
+15003,"Honolulu, HI",3,2008,1,Marine Construction,17,420,35372000,67622000,84219.04762
+15003,"Honolulu, HI",3,2008,2,Living Resources,114,540,14821000,34500000,27446.2963
+15003,"Honolulu, HI",3,2008,3,Offshore Mineral Extraction,6,13,509000,853000,39153.84615
+15003,"Honolulu, HI",3,2008,4,Ship and Boat Building,21,4114,331413000,50949000,80557.36509
+15003,"Honolulu, HI",3,2008,5,Tourism and Recreation,2138,41731,744895000,1304790000,17849.91972
+15003,"Honolulu, HI",3,2008,6,Marine Transportation,84,2329,157391000,302822000,67578.78918
+15003,"Honolulu, HI",3,2008,9,All Ocean Sectors,2380,49147,1284401000,1761536000,26133.86371
+15003,"Honolulu, HI",3,2009,1,Marine Construction,17,386,35524000,72773000,92031.08808
+15003,"Honolulu, HI",3,2009,2,Living Resources,117,373,9456000,21629000,25351.20643
+15003,"Honolulu, HI",3,2009,3,Offshore Mineral Extraction,6,11,504000,819000,45818.18182
+15003,"Honolulu, HI",3,2009,4,Ship and Boat Building,20,4219,347798000,61597000,82436.1223
+15003,"Honolulu, HI",3,2009,5,Tourism and Recreation,2197,40360,721068000,1290994000,17865.90684
+15003,"Honolulu, HI",3,2009,6,Marine Transportation,75,2036,143602000,284104000,70531.43418
+15003,"Honolulu, HI",3,2009,9,All Ocean Sectors,2432,47385,1257951000,1731916000,26547.45173
+15003,"Honolulu, HI",3,2010,1,Marine Construction,19,493,42181000,87040000,85559.83773
+15003,"Honolulu, HI",3,2010,2,Living Resources,111,501,14146000,39593000,28235.52894
+15003,"Honolulu, HI",3,2010,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2010,4,Ship and Boat Building,21,4284,363651000,58186000,84885.85434
+15003,"Honolulu, HI",3,2010,5,Tourism and Recreation,2203,39615,724691000,1308808000,18293.34848
+15003,"Honolulu, HI",3,2010,6,Marine Transportation,67,1956,143263000,287551000,73242.84254
+15003,"Honolulu, HI",3,2010,9,All Ocean Sectors,2426,46849,1287932000,1781178000,27491.13108
+15003,"Honolulu, HI",3,2011,1,Marine Construction,21,512,43835000,89827000,85615.23438
+15003,"Honolulu, HI",3,2011,2,Living Resources,103,476,14163000,41225000,29754.20168
+15003,"Honolulu, HI",3,2011,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2011,4,Ship and Boat Building,25,4328,383099000,66959000,88516.40481
+15003,"Honolulu, HI",3,2011,5,Tourism and Recreation,2188,39901,744939000,1349611000,18669.68246
+15003,"Honolulu, HI",3,2011,6,Marine Transportation,68,1961,140810000,279824000,71805.20143
+15003,"Honolulu, HI",3,2011,9,All Ocean Sectors,2410,47178,1326845000,1827445000,28124.23163
+15003,"Honolulu, HI",3,2012,1,Marine Construction,23,523,48047000,99251000,91868.06883
+15003,"Honolulu, HI",3,2012,2,Living Resources,99,359,9010000,22287000,25097.49304
+15003,"Honolulu, HI",3,2012,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2012,4,Ship and Boat Building,25,4460,397622000,54833000,89152.9148
+15003,"Honolulu, HI",3,2012,5,Tourism and Recreation,2235,40308,773008000,1418317000,19177.533
+15003,"Honolulu, HI",3,2012,6,Marine Transportation,72,1891,144455000,287420000,76390.79852
+15003,"Honolulu, HI",3,2012,9,All Ocean Sectors,2460,47541,1372141000,1882107000,28862.26625
+15003,"Honolulu, HI",3,2013,1,Marine Construction,23,477,43453000,88569000,91096.43606
+15003,"Honolulu, HI",3,2013,2,Living Resources,98,459,14190000,44595000,30915.03268
+15003,"Honolulu, HI",3,2013,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15003,"Honolulu, HI",3,2013,4,Ship and Boat Building,25,4323,368625000,80281000,85270.64539
+15003,"Honolulu, HI",3,2013,5,Tourism and Recreation,2257,41751,817893000,1487834000,19589.78228
+15003,"Honolulu, HI",3,2013,6,Marine Transportation,69,1926,152949000,304802000,79412.77259
+15003,"Honolulu, HI",3,2013,9,All Ocean Sectors,2479,48936,1397111000,2006082000,28549.75887
+15005,"Kalawao, HI",2,2005,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2005,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2006,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2007,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2008,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2009,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2010,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2011,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2012,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,1,Marine Construction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,2,Living Resources,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,5,Tourism and Recreation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,6,Marine Transportation,0,0,0,0,#DIV/0!
+15005,"Kalawao, HI",2,2013,9,All Ocean Sectors,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2005,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2005,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2005,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2005,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2005,5,Tourism and Recreation,272,3830,62495000,122697000,16317.23238
+15007,"Kauai, HI",4,2005,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2005,9,All Ocean Sectors,286,3830,62495000,122697000,16317.23238
+15007,"Kauai, HI",4,2006,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2006,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2006,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2006,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2006,5,Tourism and Recreation,279,3540,58971000,114812000,16658.47458
+15007,"Kauai, HI",4,2006,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2006,9,All Ocean Sectors,291,3540,58971000,114812000,16658.47458
+15007,"Kauai, HI",4,2007,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2007,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2007,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2007,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2007,5,Tourism and Recreation,280,7850,221887000,491255000,28265.85987
+15007,"Kauai, HI",4,2007,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2007,9,All Ocean Sectors,292,7850,221887000,491255000,28265.85987
+15007,"Kauai, HI",4,2008,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2008,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2008,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2008,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2008,5,Tourism and Recreation,283,7935,224153000,479324000,28248.64524
+15007,"Kauai, HI",4,2008,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2008,9,All Ocean Sectors,298,7935,224153000,479324000,28248.64524
+15007,"Kauai, HI",4,2009,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2009,2,Living Resources,4,23,535000,1236000,23260.86957
+15007,"Kauai, HI",4,2009,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2009,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2009,5,Tourism and Recreation,283,3572,66236000,122564000,18543.1131
+15007,"Kauai, HI",4,2009,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2009,9,All Ocean Sectors,299,3595,66771000,123800000,18573.29624
+15007,"Kauai, HI",4,2010,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2010,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2010,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2010,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2010,5,Tourism and Recreation,288,3461,62006000,115906000,17915.63132
+15007,"Kauai, HI",4,2010,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2010,9,All Ocean Sectors,305,3461,62006000,115906000,17915.63132
+15007,"Kauai, HI",4,2011,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2011,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2011,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2011,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2011,5,Tourism and Recreation,291,3804,74457000,139496000,19573.34385
+15007,"Kauai, HI",4,2011,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2011,9,All Ocean Sectors,307,3804,74457000,139496000,19573.34385
+15007,"Kauai, HI",4,2012,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2012,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2012,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2012,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2012,5,Tourism and Recreation,291,3227,69135000,132424000,21423.92315
+15007,"Kauai, HI",4,2012,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2012,9,All Ocean Sectors,306,3227,69135000,132424000,21423.92315
+15007,"Kauai, HI",4,2013,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2013,2,Living Resources,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2013,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2013,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15007,"Kauai, HI",4,2013,5,Tourism and Recreation,298,4391,89031000,165068000,20275.79139
+15007,"Kauai, HI",4,2013,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15007,"Kauai, HI",4,2013,9,All Ocean Sectors,314,4391,89031000,165068000,20275.79139
+15009,"Maui, HI",2,2005,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2005,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2005,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2005,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2005,5,Tourism and Recreation,582,20149,605344000,1382071000,30043.37684
+15009,"Maui, HI",2,2005,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2005,9,All Ocean Sectors,600,20149,605344000,1382071000,30043.37684
+15009,"Maui, HI",2,2006,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2006,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2006,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2006,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2006,5,Tourism and Recreation,583,20411,649024000,1485516000,31797.75611
+15009,"Maui, HI",2,2006,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2006,9,All Ocean Sectors,602,20411,649024000,1485516000,31797.75611
+15009,"Maui, HI",2,2007,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2007,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2007,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2007,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2007,5,Tourism and Recreation,601,20356,661946000,1479961000,32518.47121
+15009,"Maui, HI",2,2007,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2007,9,All Ocean Sectors,623,20356,661946000,1479961000,32518.47121
+15009,"Maui, HI",2,2008,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2008,2,Living Resources,9,14,423000,977000,30214.28571
+15009,"Maui, HI",2,2008,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2008,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2008,5,Tourism and Recreation,600,20635,668973000,1431191000,32419.33608
+15009,"Maui, HI",2,2008,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2008,9,All Ocean Sectors,627,20649,669396000,1432167000,32417.84106
+15009,"Maui, HI",2,2009,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2009,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2009,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2009,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2009,5,Tourism and Recreation,605,18249,584142000,1195524000,32009.53477
+15009,"Maui, HI",2,2009,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2009,9,All Ocean Sectors,641,18249,584142000,1195524000,32009.53477
+15009,"Maui, HI",2,2010,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2010,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2010,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2010,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2010,5,Tourism and Recreation,590,18453,602025000,1247881000,32624.77646
+15009,"Maui, HI",2,2010,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2010,9,All Ocean Sectors,611,18453,602025000,1247881000,32624.77646
+15009,"Maui, HI",2,2011,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2011,2,Living Resources,6,26,593000,1427000,22807.69231
+15009,"Maui, HI",2,2011,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2011,4,Ship and Boat Building,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2011,5,Tourism and Recreation,612,19483,656335000,1395272000,33687.57378
+15009,"Maui, HI",2,2011,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2011,9,All Ocean Sectors,633,19509,656928000,1396699000,33673.07397
+15009,"Maui, HI",2,2012,1,Marine Construction,4,79,7999000,16524000,101253.1646
+15009,"Maui, HI",2,2012,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2012,3,Offshore Mineral Extraction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2012,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2012,5,Tourism and Recreation,630,20592,712793000,1536119000,34615.04468
+15009,"Maui, HI",2,2012,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2012,9,All Ocean Sectors,647,20671,720792000,1552643000,34869.72086
+15009,"Maui, HI",2,2013,1,Marine Construction,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2013,2,Living Resources,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2013,3,Offshore Mineral Extraction,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2013,4,Ship and Boat Building,0,0,0,0,#DIV/0!
+15009,"Maui, HI",2,2013,5,Tourism and Recreation,646,21094,745856000,1640505000,35358.68019
+15009,"Maui, HI",2,2013,6,Marine Transportation,-9999,-9999,-9999,-9999,1
+15009,"Maui, HI",2,2013,9,All Ocean Sectors,663,21094,745856000,1640505000,35358.68019
