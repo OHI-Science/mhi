@@ -1,19 +1,19 @@
 FIS = function(layers, status_year){
 
   #catch data
-  c = SelectLayersData(layers, layers='fis_meancatch', narrow = TRUE) %>% # replace fis_meancatch with fis_pelcatch or fis_deepcatch or fis_reefcatch
+  c = SelectLayersData(layers, layers='fis_pelagic_catch', narrow = TRUE) %>% # replace fis_meancatch with fis_pelagic_catch or fis_deepcatch or fis_reefcatch
     select(
       rgn_id    = id_num,
-      stock_id_taxonkey = category,
+      species = category,
       year,
       catch          = val_num)
-  # b_bmsy data
-  b = SelectLayersData(layers, layer='fis_b_bmsy', narrow = TRUE) %>%
+  # stock assessment score data
+  b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>%
     select(
       rgn_id         = id_num,
-      stock_id      = category,
+      species      = category,
       year,
-      bbmsy           = val_num) #score was BBMSY - using score so can use one name for each of the stock assessment indicators (reef fish = SPR, pelagics=sb/sbmsy, deep7=BBMSY)
+      score           = val_num)
 
 # The following stocks are fished in multiple regions and have high b/bmsy values
 # Due to the underfishing penalty, this actually penalizes the regions that have the highest

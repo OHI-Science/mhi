@@ -1,0 +1,805 @@
+rgn_id,species,type,Family,stock,year,score,ref
+1,Tombo,pelagic,Scombridae,Thunnus alalunga,2012,2.22,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+1,Tombo,pelagic,Scombridae,Thunnus alalunga,2011,2.23,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+1,Tombo,pelagic,Scombridae,Thunnus alalunga,2010,2.2,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+1,Tombo,pelagic,Scombridae,Thunnus alalunga,2009,2.11,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+1,Tombo,pelagic,Scombridae,Thunnus alalunga,2008,1.98,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+1,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2012,1.22,SPC
+1,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2011,1.3,SPC
+1,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2010,1.33,SPC
+1,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2009,1.46,SPC
+1,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2008,1.41,SPC
+1,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2012,0.79,SPC
+1,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2011,0.86,SPC
+1,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2010,0.92,SPC
+1,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2009,0.98,SPC
+1,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2008,1.01,SPC
+1,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2012,1.2,2014 stock assessment ISCT for West and Central North Pacific
+1,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2011,1.13,2014 stock assessment ISCT for West and Central North Pacific
+1,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2010,1.14,2014 stock assessment ISCT for West and Central North Pacific
+1,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2009,1.13,2014 stock assessment ISCT for West and Central North Pacific
+1,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2008,1.13,2014 stock assessment ISCT for West and Central North Pacific
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2013,0.39,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2012,0.36,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2011,0.31,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2010,0.35,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2009,0.34,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2008,0.42,ISC
+1,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2007,0.42,ISC
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2014,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2013,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2012,1.18,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2011,1.17,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2010,1.13,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2009,1.16,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2008,1.14,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+1,Onaga,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Onaga,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Ehu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Kalekale,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Opakapaka,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Gindai,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Hapuupuu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Lehi,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+1,Pualu,Reef,,Acanthurus blochii,2016,0.4,
+1,Palani,Reef,,Acanthurus dussmieri,2016,1.2,
+1,Kala,Reef,,Naso brevirostris,2016,0.47,
+1,Opelu kala,Reef,,Naso hexacanthus,2016,0.43,
+1,Umaumalei,Reef,,Naso lituratus,2016,0.83,
+1,Kala,Reef,,Naso unicornis,2016,0.1,
+1,Papa ulua,Reef,,Carangoides orthogrammus,2016,1.37,
+1,White ulua,Reef,,Caranx ignobilis,2016,0.93,
+1,Omilu,Reef,,Caranx melampygus,2016,1.33,
+1,Uku,Reef,,Aprion virescens,2016,1.1,
+1,Toau,Reef,,Lutjanus fulvus,2016,1.1,
+1,Taape,Reef,,Luthanus kasmira,2016,2.07,
+1,Weke a'a,Reef,,Mulloidichthys flavolineatus,2016,1.63,
+1,Weke nono,Reef,,Mulloidichthys pflueregi,2016,1.37,
+1,Weke ula,Reef,,Mulloidichthys vanicolensus,2016,1.83,
+1,Moana kale,Reef,,Parupeneus cyclostomus,2016,0.8,
+1,Munu,Reef,,Parupeneus insularis,2016,1.9,
+1,Kumu,Reef,,Parupeneus porphyreus,2016,0.5,
+1,Panuhunuhu,Reef,,Calotomus carolinus,2016,0.43,
+1,Uhu parrot-misc.,Reef,,Chlorurus perspicullatus,2016,1.8,
+1,Panunu,Reef,,Chlorurus spilurus,2016,0.77,
+1,Uhu parrot-misc.,Reef,,Scarus dubius,2016,1.5,
+1,Uhu parrot-misc.,Reef,,Scarus psittacus ,2016,1.37,
+1,Uhu parrot-misc.,Reef,,Scarus rubroviolaceus,2016,0.87,
+1,Roi,Reef,,Cephalophilis argus,2016,2.67,
+1,Mu,Reef,,Monotaxis grandoculis,2016,1.27,
+1,Menpachi,Reef,,Myripristis berndti,2016,1.97,
+2,Tombo,pelagic,Scombridae,Thunnus alalunga,2012,2.22,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+2,Tombo,pelagic,Scombridae,Thunnus alalunga,2011,2.23,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+2,Tombo,pelagic,Scombridae,Thunnus alalunga,2010,2.2,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+2,Tombo,pelagic,Scombridae,Thunnus alalunga,2009,2.11,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+2,Tombo,pelagic,Scombridae,Thunnus alalunga,2008,1.98,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+2,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2012,1.22,SPC
+2,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2011,1.3,SPC
+2,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2010,1.33,SPC
+2,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2009,1.46,SPC
+2,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2008,1.41,SPC
+2,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2012,0.79,SPC
+2,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2011,0.86,SPC
+2,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2010,0.92,SPC
+2,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2009,0.98,SPC
+2,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2008,1.01,SPC
+2,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2012,1.2,2014 stock assessment ISCT for West and Central North Pacific
+2,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2011,1.13,2014 stock assessment ISCT for West and Central North Pacific
+2,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2010,1.14,2014 stock assessment ISCT for West and Central North Pacific
+2,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2009,1.13,2014 stock assessment ISCT for West and Central North Pacific
+2,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2008,1.13,2014 stock assessment ISCT for West and Central North Pacific
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2013,0.39,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2012,0.36,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2011,0.31,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2010,0.35,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2009,0.34,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2008,0.42,ISC
+2,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2007,0.42,ISC
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2014,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2013,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2012,1.18,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2011,1.17,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2010,1.13,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2009,1.16,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2008,1.14,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+2,Onaga,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Onaga,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Ehu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Kalekale,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Opakapaka,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Gindai,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Hapuupuu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Lehi,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+2,Pualu,Reef,,Acanthurus blochii,,0.4,
+2,Palani,Reef,,Acanthurus dussmieri,,1.2,
+2,Kala,Reef,,Naso brevirostris,,0.47,
+2,Opelu kala,Reef,,Naso hexacanthus,,0.43,
+2,Umaumalei,Reef,,Naso lituratus,,0.83,
+2,Kala,Reef,,Naso unicornis,,0.1,
+2,Papa ulua,Reef,,Carangoides orthogrammus,,1.37,
+2,White ulua,Reef,,Caranx ignobilis,,0.93,
+2,Omilu,Reef,,Caranx melampygus,,1.33,
+2,Uku,Reef,,Aprion virescens,,1.1,
+2,Toau,Reef,,Lutjanus fulvus,,1.1,
+2,Taape,Reef,,Luthanus kasmira,,2.07,
+2,Weke a'a,Reef,,Mulloidichthys flavolineatus,,1.63,
+2,Weke nono,Reef,,Mulloidichthys pflueregi,,1.37,
+2,Weke ula,Reef,,Mulloidichthys vanicolensus,,1.83,
+2,Moana kale,Reef,,Parupeneus cyclostomus,,0.8,
+2,Munu,Reef,,Parupeneus insularis,,1.9,
+2,Kumu,Reef,,Parupeneus porphyreus,,0.5,
+2,Panuhunuhu,Reef,,Calotomus carolinus,,0.43,
+2,Uhu parrot-misc.,Reef,,Chlorurus perspicullatus,,1.8,
+2,Panunu,Reef,,Chlorurus spilurus,,0.77,
+2,Uhu parrot-misc.,Reef,,Scarus dubius,,1.5,
+2,Uhu parrot-misc.,Reef,,Scarus psittacus ,,1.37,
+2,Uhu parrot-misc.,Reef,,Scarus rubroviolaceus,,0.87,
+2,Roi,Reef,,Cephalophilis argus,,2.67,
+2,Mu,Reef,,Monotaxis grandoculis,,1.27,
+2,Menpachi,Reef,,Myripristis berndti,,1.97,
+3,Tombo,pelagic,Scombridae,Thunnus alalunga,2012,2.22,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+3,Tombo,pelagic,Scombridae,Thunnus alalunga,2011,2.23,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+3,Tombo,pelagic,Scombridae,Thunnus alalunga,2010,2.2,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+3,Tombo,pelagic,Scombridae,Thunnus alalunga,2009,2.11,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+3,Tombo,pelagic,Scombridae,Thunnus alalunga,2008,1.98,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+3,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2012,1.22,SPC
+3,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2011,1.3,SPC
+3,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2010,1.33,SPC
+3,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2009,1.46,SPC
+3,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2008,1.41,SPC
+3,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2012,0.79,SPC
+3,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2011,0.86,SPC
+3,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2010,0.92,SPC
+3,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2009,0.98,SPC
+3,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2008,1.01,SPC
+3,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2012,1.2,2014 stock assessment ISCT for West and Central North Pacific
+3,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2011,1.13,2014 stock assessment ISCT for West and Central North Pacific
+3,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2010,1.14,2014 stock assessment ISCT for West and Central North Pacific
+3,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2009,1.13,2014 stock assessment ISCT for West and Central North Pacific
+3,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2008,1.13,2014 stock assessment ISCT for West and Central North Pacific
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2013,0.39,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2012,0.36,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2011,0.31,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2010,0.35,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2009,0.34,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2008,0.42,ISC
+3,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2007,0.42,ISC
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2014,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2013,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2012,1.18,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2011,1.17,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2010,1.13,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2009,1.16,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2008,1.14,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+3,Onaga,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Onaga,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Ehu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Kalekale,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Opakapaka,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Gindai,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Hapuupuu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Lehi,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+3,Pualu,Reef,,Acanthurus blochii,,0.4,
+3,Palani,Reef,,Acanthurus dussmieri,,1.2,
+3,Kala,Reef,,Naso brevirostris,,0.47,
+3,Opelu kala,Reef,,Naso hexacanthus,,0.43,
+3,Umaumalei,Reef,,Naso lituratus,,0.83,
+3,Kala,Reef,,Naso unicornis,,0.1,
+3,Papa ulua,Reef,,Carangoides orthogrammus,,1.37,
+3,White ulua,Reef,,Caranx ignobilis,,0.93,
+3,Omilu,Reef,,Caranx melampygus,,1.33,
+3,Uku,Reef,,Aprion virescens,,1.1,
+3,Toau,Reef,,Lutjanus fulvus,,1.1,
+3,Taape,Reef,,Luthanus kasmira,,2.07,
+3,Weke a'a,Reef,,Mulloidichthys flavolineatus,,1.63,
+3,Weke nono,Reef,,Mulloidichthys pflueregi,,1.37,
+3,Weke ula,Reef,,Mulloidichthys vanicolensus,,1.83,
+3,Moana kale,Reef,,Parupeneus cyclostomus,,0.8,
+3,Munu,Reef,,Parupeneus insularis,,1.9,
+3,Kumu,Reef,,Parupeneus porphyreus,,0.5,
+3,Panuhunuhu,Reef,,Calotomus carolinus,,0.43,
+3,Uhu parrot-misc.,Reef,,Chlorurus perspicullatus,,1.8,
+3,Panunu,Reef,,Chlorurus spilurus,,0.77,
+3,Uhu parrot-misc.,Reef,,Scarus dubius,,1.5,
+3,Uhu parrot-misc.,Reef,,Scarus psittacus ,,1.37,
+3,Uhu parrot-misc.,Reef,,Scarus rubroviolaceus,,0.87,
+3,Roi,Reef,,Cephalophilis argus,,2.67,
+3,Mu,Reef,,Monotaxis grandoculis,,1.27,
+3,Menpachi,Reef,,Myripristis berndti,,1.97,
+4,Tombo,pelagic,Scombridae,Thunnus alalunga,2012,2.22,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+4,Tombo,pelagic,Scombridae,Thunnus alalunga,2011,2.23,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+4,Tombo,pelagic,Scombridae,Thunnus alalunga,2010,2.2,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+4,Tombo,pelagic,Scombridae,Thunnus alalunga,2009,2.11,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+4,Tombo,pelagic,Scombridae,Thunnus alalunga,2008,1.98,ISC; http://isc.fra.go.jp/pdf/ISC14/Annex%2011-%20NPALB%20Stock%20Assessment%20Report_revsied%2029Aug14.pdf
+4,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2012,1.22,SPC
+4,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2011,1.3,SPC
+4,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2010,1.33,SPC
+4,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2009,1.46,SPC
+4,Yellowfin tuna,pelagic,Scombridae,Thunnus albacares,2008,1.41,SPC
+4,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2012,0.79,SPC
+4,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2011,0.86,SPC
+4,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2010,0.92,SPC
+4,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2009,0.98,SPC
+4,Bigeye tuna,pelagic,Scombridae,Thunnus obesus,2008,1.01,SPC
+4,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2012,1.2,2014 stock assessment ISCT for West and Central North Pacific
+4,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2011,1.13,2014 stock assessment ISCT for West and Central North Pacific
+4,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2010,1.14,2014 stock assessment ISCT for West and Central North Pacific
+4,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2009,1.13,2014 stock assessment ISCT for West and Central North Pacific
+4,Swordfish,pelagic,Xiphiidae,Xiphias gladius,2008,1.13,2014 stock assessment ISCT for West and Central North Pacific
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2013,0.39,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2012,0.36,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2011,0.31,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2010,0.35,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2009,0.34,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2008,0.42,ISC
+4,Striped marlin,pelagic,Istiophoridae,Kajikia audax,2007,0.42,ISC
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2014,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2013,1.25,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2012,1.18,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2011,1.17,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2010,1.13,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2009,1.16,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Blue marlin,pelagic,Istiophoridae,Makaira nigricans,2008,1.14,ICS; http://isc.fra.go.jp/pdf/ISC16/ISC16_Annex_10_Stock%20Assessment%20Update%20for%20Blue%20Marlin%20in%20the%20Pacific%20Ocean%20through%202014%20(ISC%202016).pdf
+4,Onaga,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Onaga,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Ehu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Kalekale,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Opakapaka,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Gindai,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Hapuupuu,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2013,0.86,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2012,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2011,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2010,0.84,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2009,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2008,0.85,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2007,0.83,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2006,0.81,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2005,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2004,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2003,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2002,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2001,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,2000,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1999,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1998,0.77,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1997,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1996,0.78,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1995,0.8,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Lehi,bottom,,deep7,1994,0.79,NOAA Technical Memorandum NMFS-PIFSC-42 Nov 2014 (http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf)
+4,Pualu,Reef,,Acanthurus blochii,,0.4,
+4,Palani,Reef,,Acanthurus dussmieri,,1.2,
+4,Kala,Reef,,Naso brevirostris,,0.47,
+4,Opelu kala,Reef,,Naso hexacanthus,,0.43,
+4,Umaumalei,Reef,,Naso lituratus,,0.83,
+4,Kala,Reef,,Naso unicornis,,0.1,
+4,Papa ulua,Reef,,Carangoides orthogrammus,,1.37,
+4,White ulua,Reef,,Caranx ignobilis,,0.93,
+4,Omilu,Reef,,Caranx melampygus,,1.33,
+4,Uku,Reef,,Aprion virescens,,1.1,
+4,Toau,Reef,,Lutjanus fulvus,,1.1,
+4,Taape,Reef,,Luthanus kasmira,,2.07,
+4,Weke a'a,Reef,,Mulloidichthys flavolineatus,,1.63,
+4,Weke nono,Reef,,Mulloidichthys pflueregi,,1.37,
+4,Weke ula,Reef,,Mulloidichthys vanicolensus,,1.83,
+4,Moana kale,Reef,,Parupeneus cyclostomus,,0.8,
+4,Munu,Reef,,Parupeneus insularis,,1.9,
+4,Kumu,Reef,,Parupeneus porphyreus,,0.5,
+4,Panuhunuhu,Reef,,Calotomus carolinus,,0.43,
+4,Uhu parrot-misc.,Reef,,Chlorurus perspicullatus,,1.8,
+4,Panunu,Reef,,Chlorurus spilurus,,0.77,
+4,Uhu parrot-misc.,Reef,,Scarus dubius,,1.5,
+4,Uhu parrot-misc.,Reef,,Scarus psittacus ,,1.37,
+4,Uhu parrot-misc.,Reef,,Scarus rubroviolaceus,,0.87,
+4,Roi,Reef,,Cephalophilis argus,,2.67,
+4,Mu,Reef,,Monotaxis grandoculis,,1.27,
+4,Menpachi,Reef,,Myripristis berndti,,1.97,
