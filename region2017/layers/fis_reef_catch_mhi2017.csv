@@ -1,0 +1,983 @@
+species,year,rgn_id,total,licenses
+Aawa,2012,1,2448,59
+Aawa,2012,2,181,29
+Aawa,2012,3,1701,41
+Aawa,2012,4,435,13
+Aawa,2013,1,1920,58
+Aawa,2013,2,109,15
+Aawa,2013,3,1465,45
+Aawa,2013,4,140,12
+Aawa,2014,1,1359,44
+Aawa,2014,2,183,14
+Aawa,2014,3,1594,49
+Aawa,2014,4,409,9
+Aawa,2015,1,1024,34
+Aawa,2015,2,123,14
+Aawa,2015,3,1160,39
+Aawa,2015,4,247,5
+Aawa,2016,1,1902,45
+Aawa,2016,2,145,15
+Aawa,2016,3,1260,30
+Aawa,2016,4,44,10
+Ahaaha,2012,1,123,8
+Ahaaha,2012,2,371,4
+Ahaaha,2012,3,427,14
+Ahaaha,2013,1,83,10
+Ahaaha,2013,2,102,4
+Ahaaha,2013,3,233,16
+Ahaaha,2014,2,114,5
+Ahaaha,2014,3,341,26
+Ahaaha,2015,1,85,10
+Ahaaha,2015,3,194,13
+Ahaaha,2016,1,45,4
+Ahaaha,2016,3,301,11
+Aholehole,2012,1,591,15
+Aholehole,2012,2,287,7
+Aholehole,2012,3,728,19
+Aholehole,2012,4,217,5
+Aholehole,2013,1,721,17
+Aholehole,2013,2,47,6
+Aholehole,2013,3,1245,19
+Aholehole,2013,4,271,3
+Aholehole,2014,1,807,14
+Aholehole,2014,2,105,5
+Aholehole,2014,3,554,19
+Aholehole,2014,4,229,3
+Aholehole,2015,1,613,16
+Aholehole,2015,2,55,4
+Aholehole,2015,3,3748,17
+Aholehole,2015,4,273,4
+Aholehole,2016,1,690,13
+Aholehole,2016,2,220,6
+Aholehole,2016,3,760,15
+Akule,2012,1,18902,58
+Akule,2012,2,30101,29
+Akule,2012,3,180677,87
+Akule,2012,4,40054,33
+Akule,2013,1,14982,59
+Akule,2013,2,38610,31
+Akule,2013,3,154330,88
+Akule,2013,4,37280,34
+Akule,2014,1,13005,61
+Akule,2014,2,32013,39
+Akule,2014,3,171809,83
+Akule,2014,4,38603,39
+Akule,2015,1,17708,59
+Akule,2015,2,30937,30
+Akule,2015,3,290588,86
+Akule,2015,4,52506,43
+Akule,2016,1,20069,57
+Akule,2016,2,142269,26
+Akule,2016,3,206894,70
+Akule,2016,4,36583,46
+Alaihe,2012,1,218,18
+Alaihe,2012,2,43,6
+Alaihe,2012,3,390,21
+Alaihe,2013,1,375,26
+Alaihe,2013,3,368,25
+Alaihe,2014,1,231,22
+Alaihe,2014,3,246,17
+Alaihe,2015,1,133,19
+Alaihe,2015,2,10,4
+Alaihe,2015,3,74,5
+Alaihe,2016,1,88,14
+Alaihe,2016,3,27,5
+Alaihe mama,2012,1,67,8
+Alaihe mama,2012,2,10,3
+Alaihe mama,2013,1,45,7
+Alaihe mama,2014,1,9,5
+Alaihe mama,2015,1,47,5
+Alaihe mama,2016,1,10,4
+Amaama,2012,3,7048,11
+Amaama,2012,4,1380,3
+Amaama,2013,3,5708,10
+Amaama,2014,1,29,4
+Amaama,2014,3,3754,13
+Amaama,2015,3,3947,9
+Amaama,2016,3,2379,5
+Api,2012,1,35,5
+Api,2012,3,64,4
+Api,2013,1,21,3
+Api,2013,3,84,4
+Api,2014,1,59,4
+Api,2015,1,41,4
+Awa,2012,2,62,4
+Awa,2012,3,2165,8
+Awa,2013,3,667,9
+Awa,2014,3,1518,12
+Awa,2015,3,2068,10
+Awa,2016,3,397,6
+Awaawa,2012,3,1509,18
+Awaawa,2013,3,1231,16
+Awaawa,2014,3,689,15
+Awaawa,2015,3,374,10
+Awaawa,2016,3,336,5
+Aweoweo,2012,1,1651,56
+Aweoweo,2012,2,274,19
+Aweoweo,2012,3,843,37
+Aweoweo,2012,4,244,15
+Aweoweo,2013,1,2654,56
+Aweoweo,2013,2,331,26
+Aweoweo,2013,3,1764,48
+Aweoweo,2013,4,438,13
+Aweoweo,2014,1,3086,57
+Aweoweo,2014,2,280,24
+Aweoweo,2014,3,1700,50
+Aweoweo,2014,4,999,18
+Aweoweo,2015,1,3939,45
+Aweoweo,2015,2,549,22
+Aweoweo,2015,3,2274,47
+Aweoweo,2015,4,540,19
+Aweoweo,2016,1,2568,39
+Aweoweo,2016,2,550,18
+Aweoweo,2016,3,1556,35
+Aweoweo,2016,4,546,17
+Aweoweo (deepsea),2012,1,50,9
+Aweoweo (deepsea),2012,2,72,12
+Aweoweo (deepsea),2012,3,20,3
+Aweoweo (deepsea),2013,1,27,6
+Aweoweo (deepsea),2013,2,45,9
+Aweoweo (deepsea),2013,3,55,4
+Aweoweo (deepsea),2013,4,13,3
+Aweoweo (deepsea),2014,1,130,14
+Aweoweo (deepsea),2014,2,103,11
+Aweoweo (deepsea),2014,3,117,3
+Aweoweo (deepsea),2015,1,50,3
+Aweoweo (deepsea),2015,2,120,10
+Aweoweo (deepsea),2015,3,131,6
+Aweoweo (deepsea),2015,4,16,3
+Aweoweo (deepsea),2016,2,95,11
+Aweoweo (deepsea),2016,3,78,7
+Aweoweo (deepsea),2016,4,31,3
+Barred jack,2013,3,32,4
+Barred jack,2016,3,67,3
+Black kole,2012,1,194,5
+Black kole,2013,1,97,3
+Black kole,2016,1,24,4
+Dobe ulua,2012,2,1139,13
+Dobe ulua,2012,3,6709,8
+Dobe ulua,2013,1,157,4
+Dobe ulua,2013,2,1768,11
+Dobe ulua,2013,3,1130,10
+Dobe ulua,2014,1,471,3
+Dobe ulua,2014,2,139,8
+Dobe ulua,2014,3,3519,11
+Dobe ulua,2015,2,458,10
+Dobe ulua,2015,3,814,7
+Dobe ulua,2016,2,124,6
+Dobe ulua,2016,3,312,3
+Ea (wrasse),2012,1,41,5
+Ea (wrasse),2012,2,128,10
+Ea (wrasse),2012,3,142,8
+Ea (wrasse),2013,1,30,6
+Ea (wrasse),2013,2,115,8
+Ea (wrasse),2013,3,18,4
+Ea (wrasse),2014,2,113,7
+Ea (wrasse),2015,1,76,3
+Ea (wrasse),2015,2,23,5
+Ea (wrasse),2015,3,42,5
+Ea (wrasse),2016,2,26,4
+Ea (wrasse),2016,3,3,3
+Golden kali,2012,1,92,13
+Golden kali,2012,2,120,27
+Golden kali,2012,3,16,5
+Golden kali,2012,4,26,7
+Golden kali,2013,1,159,19
+Golden kali,2013,2,173,21
+Golden kali,2013,3,39,9
+Golden kali,2013,4,38,7
+Golden kali,2014,1,101,10
+Golden kali,2014,2,92,16
+Golden kali,2014,3,27,6
+Golden kali,2014,4,22,4
+Golden kali,2015,1,40,8
+Golden kali,2015,2,115,14
+Golden kali,2015,3,48,9
+Golden kali,2015,4,21,3
+Golden kali,2016,1,23,7
+Golden kali,2016,2,76,13
+Golden kali,2016,3,18,4
+Golden kali,2016,4,36,4
+Hahalalu,2012,1,278,6
+Hahalalu,2012,3,9652,32
+Hahalalu,2012,4,278,5
+Hahalalu,2013,3,20957,30
+Hahalalu,2013,4,104,4
+Hahalalu,2014,1,55,3
+Hahalalu,2014,3,37057,28
+Hahalalu,2014,4,192,5
+Hahalalu,2015,1,244,12
+Hahalalu,2015,3,6474,16
+Hahalalu,2015,4,144,5
+Hahalalu,2016,1,534,10
+Hahalalu,2016,3,13524,17
+Hauliuli,2013,1,11,3
+Hinalea,2012,3,36,9
+Hinalea,2013,3,46,13
+Hinalea,2014,3,25,6
+Hinalea,2015,3,21,4
+Hinalea,2016,3,1,3
+Hogo,2012,1,282,28
+Hogo,2012,2,926,58
+Hogo,2012,3,510,30
+Hogo,2012,4,245,19
+Hogo,2013,1,511,30
+Hogo,2013,2,834,50
+Hogo,2013,3,214,21
+Hogo,2013,4,191,10
+Hogo,2014,1,338,27
+Hogo,2014,2,729,41
+Hogo,2014,3,193,22
+Hogo,2014,4,240,14
+Hogo,2015,1,237,22
+Hogo,2015,2,545,33
+Hogo,2015,3,347,20
+Hogo,2015,4,373,14
+Hogo,2016,1,106,19
+Hogo,2016,2,558,32
+Hogo,2016,3,361,17
+Hogo,2016,4,362,17
+Humuhumu,2012,1,152,10
+Humuhumu,2012,2,79,8
+Humuhumu,2012,3,725,11
+Humuhumu,2013,1,25,6
+Humuhumu,2013,2,84,5
+Humuhumu,2013,3,618,15
+Humuhumu,2014,1,12,4
+Humuhumu,2014,2,31,5
+Humuhumu,2014,3,460,8
+Humuhumu,2015,2,49,3
+Humuhumu,2015,3,416,4
+Humuhumu,2015,4,19,3
+Humuhumu,2016,1,30,4
+Humuhumu,2016,2,62,6
+Humuhumu,2016,3,387,5
+Iheihe,2012,3,87,3
+Iheihe,2014,3,142,3
+Kagami ulua,2012,2,252,7
+Kagami ulua,2012,3,89,6
+Kagami ulua,2012,4,174,6
+Kagami ulua,2013,2,57,5
+Kagami ulua,2013,3,18,4
+Kagami ulua,2014,2,61,5
+Kagami ulua,2014,3,74,8
+Kagami ulua,2015,2,41,3
+Kagami ulua,2015,3,98,7
+Kagami ulua,2016,3,34,6
+Kagami ulua,2016,4,205,6
+Kaku,2012,1,303,19
+Kaku,2012,2,651,32
+Kaku,2012,3,1037,45
+Kaku,2012,4,747,16
+Kaku,2013,1,399,25
+Kaku,2013,2,1071,26
+Kaku,2013,3,520,45
+Kaku,2013,4,496,16
+Kaku,2014,1,470,28
+Kaku,2014,2,351,20
+Kaku,2014,3,569,30
+Kaku,2014,4,433,19
+Kaku,2015,1,325,36
+Kaku,2015,2,884,39
+Kaku,2015,3,438,35
+Kaku,2015,4,465,14
+Kaku,2016,1,238,20
+Kaku,2016,2,344,32
+Kaku,2016,3,214,20
+Kaku,2016,4,111,7
+Kala,2012,1,348,16
+Kala,2012,2,6601,11
+Kala,2012,3,35166,40
+Kala,2013,1,432,12
+Kala,2013,2,6595,12
+Kala,2013,3,24982,39
+Kala,2014,1,68,8
+Kala,2014,2,5284,13
+Kala,2014,3,24676,37
+Kala,2015,1,191,11
+Kala,2015,2,4878,11
+Kala,2015,3,16625,23
+Kala,2015,4,217,3
+Kala,2016,1,394,7
+Kala,2016,2,4279,9
+Kala,2016,3,12640,24
+Kamanu,2012,1,2416,56
+Kamanu,2012,2,606,19
+Kamanu,2012,3,201,7
+Kamanu,2012,4,570,10
+Kamanu,2013,1,1473,52
+Kamanu,2013,2,742,22
+Kamanu,2013,3,110,9
+Kamanu,2013,4,917,12
+Kamanu,2014,1,2932,70
+Kamanu,2014,2,1115,39
+Kamanu,2014,3,159,14
+Kamanu,2014,4,909,18
+Kamanu,2015,1,1484,64
+Kamanu,2015,2,1662,48
+Kamanu,2015,3,125,11
+Kamanu,2015,4,963,14
+Kamanu,2016,1,2189,64
+Kamanu,2016,2,2054,45
+Kamanu,2016,3,167,19
+Kamanu,2016,4,982,16
+Kawelea,2012,1,867,36
+Kawelea,2012,2,783,22
+Kawelea,2012,3,1548,31
+Kawelea,2012,4,143,11
+Kawelea,2013,1,908,45
+Kawelea,2013,2,571,18
+Kawelea,2013,3,1126,29
+Kawelea,2013,4,12,3
+Kawelea,2014,1,919,34
+Kawelea,2014,2,243,23
+Kawelea,2014,3,549,29
+Kawelea,2014,4,93,7
+Kawelea,2015,1,1735,30
+Kawelea,2015,2,524,21
+Kawelea,2015,3,1251,24
+Kawelea,2015,4,77,6
+Kawelea,2016,1,830,32
+Kawelea,2016,2,283,19
+Kawelea,2016,3,512,16
+Kawelea,2016,4,20,3
+Kole,2012,1,1619,23
+Kole,2012,2,2485,12
+Kole,2012,3,65,8
+Kole,2013,1,1393,16
+Kole,2013,2,993,9
+Kole,2013,3,346,12
+Kole,2014,1,1882,16
+Kole,2014,2,590,12
+Kole,2014,3,660,7
+Kole,2015,1,347,12
+Kole,2015,2,776,6
+Kole,2015,3,291,10
+Kole,2016,1,658,12
+Kole,2016,2,407,3
+Kole,2016,3,128,3
+Kumu,2012,1,1859,33
+Kumu,2012,2,450,17
+Kumu,2012,3,5512,52
+Kumu,2012,4,618,9
+Kumu,2013,1,1553,25
+Kumu,2013,2,153,10
+Kumu,2013,3,5069,62
+Kumu,2013,4,311,6
+Kumu,2014,1,369,24
+Kumu,2014,2,240,12
+Kumu,2014,3,3351,56
+Kumu,2014,4,451,3
+Kumu,2015,1,480,13
+Kumu,2015,2,121,7
+Kumu,2015,3,1955,46
+Kumu,2015,4,151,5
+Kumu,2016,1,708,14
+Kumu,2016,2,191,11
+Kumu,2016,3,835,31
+Kumu,2016,4,218,6
+Kupipi,2012,1,24,5
+Kupipi,2012,2,121,5
+Kupipi,2013,3,5,3
+Kupipi,2014,1,77,4
+Kupoupou,2012,3,17,5
+Kupoupou,2013,3,12,6
+Kupoupou,2014,3,10,5
+Kupoupou,2015,3,6,3
+Lae,2012,1,4,4
+Lae,2012,2,8,3
+Lae,2012,3,429,20
+Lae,2013,1,6,3
+Lae,2013,2,14,7
+Lae,2013,3,358,23
+Lae,2014,1,5,3
+Lae,2014,3,235,28
+Lae,2015,1,10,4
+Lae,2015,2,4,4
+Lae,2015,3,118,16
+Lae,2016,3,80,5
+Laenihi,2012,1,873,36
+Laenihi,2012,2,1197,29
+Laenihi,2012,3,578,22
+Laenihi,2012,4,35,5
+Laenihi,2013,1,791,37
+Laenihi,2013,2,1616,30
+Laenihi,2013,3,256,16
+Laenihi,2013,4,10,4
+Laenihi,2014,1,1041,22
+Laenihi,2014,2,1835,27
+Laenihi,2014,3,581,21
+Laenihi,2015,1,643,25
+Laenihi,2015,2,2666,29
+Laenihi,2015,3,226,20
+Laenihi,2016,1,832,26
+Laenihi,2016,2,2121,29
+Laenihi,2016,3,628,17
+Maiko,2012,1,234,12
+Maiko,2012,3,2047,19
+Maiko,2013,1,63,6
+Maiko,2013,3,3437,23
+Maiko,2014,1,194,7
+Maiko,2014,3,1229,13
+Maiko,2015,1,99,6
+Maiko,2015,3,350,10
+Maiko,2016,1,43,4
+Maiko,2016,3,909,8
+Malu,2012,1,28,7
+Malu,2012,3,279,23
+Malu,2012,4,22,3
+Malu,2013,1,8,6
+Malu,2013,3,261,26
+Malu,2014,3,208,22
+Malu,2015,3,90,17
+Malu,2016,3,18,8
+Manini,2012,1,1882,23
+Manini,2012,2,4022,17
+Manini,2012,3,8512,40
+Manini,2013,1,2655,12
+Manini,2013,2,3226,8
+Manini,2013,3,9192,43
+Manini,2014,1,1693,15
+Manini,2014,2,2156,11
+Manini,2014,3,7632,34
+Manini,2015,1,629,13
+Manini,2015,2,2284,12
+Manini,2015,3,6173,35
+Manini,2015,4,29,4
+Manini,2016,1,549,12
+Manini,2016,2,2814,8
+Manini,2016,3,5061,25
+Maomao,2012,1,11,5
+Maomao,2012,2,1773,4
+Maomao,2012,3,1110,22
+Maomao,2013,2,672,4
+Maomao,2013,3,1465,20
+Maomao,2014,2,235,3
+Maomao,2014,3,645,18
+Maomao,2015,2,464,3
+Maomao,2015,3,367,16
+Maomao,2016,3,259,14
+Menpachi,2012,1,23716,102
+Menpachi,2012,2,5848,46
+Menpachi,2012,3,13763,85
+Menpachi,2012,4,9984,38
+Menpachi,2013,1,23791,90
+Menpachi,2013,2,3607,32
+Menpachi,2013,3,16521,84
+Menpachi,2013,4,13895,38
+Menpachi,2014,1,16328,78
+Menpachi,2014,2,4428,40
+Menpachi,2014,3,12475,88
+Menpachi,2014,4,19804,27
+Menpachi,2015,1,14559,72
+Menpachi,2015,2,4547,33
+Menpachi,2015,3,12904,72
+Menpachi,2015,4,11872,32
+Menpachi,2016,1,15584,66
+Menpachi,2016,2,5310,32
+Menpachi,2016,3,13679,59
+Menpachi,2016,4,14140,30
+Moana,2012,1,2515,58
+Moana,2012,2,1757,25
+Moana,2012,3,1198,62
+Moana,2012,4,288,16
+Moana,2013,1,1850,67
+Moana,2013,2,1573,21
+Moana,2013,3,1644,67
+Moana,2013,4,155,11
+Moana,2014,1,1316,36
+Moana,2014,2,772,15
+Moana,2014,3,1243,58
+Moana,2014,4,160,14
+Moana,2015,1,1244,31
+Moana,2015,2,102,9
+Moana,2015,3,609,54
+Moana,2015,4,109,8
+Moana,2016,1,2140,39
+Moana,2016,2,83,12
+Moana,2016,3,447,38
+Moana,2016,4,112,10
+Moana kale,2012,1,1201,38
+Moana kale,2012,2,652,22
+Moana kale,2012,3,507,43
+Moana kale,2012,4,212,14
+Moana kale,2013,1,786,37
+Moana kale,2013,2,324,21
+Moana kale,2013,3,599,49
+Moana kale,2013,4,153,10
+Moana kale,2014,1,951,31
+Moana kale,2014,2,108,17
+Moana kale,2014,3,1433,52
+Moana kale,2014,4,286,7
+Moana kale,2015,1,522,23
+Moana kale,2015,2,79,7
+Moana kale,2015,3,529,46
+Moana kale,2015,4,117,7
+Moana kale,2016,1,948,30
+Moana kale,2016,2,142,14
+Moana kale,2016,3,569,38
+Moana kale,2016,4,68,8
+Moi,2012,2,124,3
+Moi,2012,3,156,10
+Moi,2013,3,44,8
+Moi,2014,1,34,4
+Moi,2014,2,32,3
+Moi,2014,3,75,7
+Moi,2015,1,173,5
+Moi,2015,3,89,6
+Moi,2016,2,27,3
+Moi,2016,3,137,5
+Moi,2016,4,137,3
+Mu,2012,1,1946,13
+Mu,2012,2,115,7
+Mu,2012,3,3539,20
+Mu,2012,4,164,4
+Mu,2013,1,1753,11
+Mu,2013,2,181,4
+Mu,2013,3,3699,30
+Mu,2014,1,171,14
+Mu,2014,2,28,3
+Mu,2014,3,3101,28
+Mu,2015,1,275,11
+Mu,2015,2,71,3
+Mu,2015,3,1497,27
+Mu,2015,4,230,3
+Mu,2016,1,275,14
+Mu,2016,2,97,5
+Mu,2016,3,1356,22
+Mu,2016,4,381,3
+Munu,2012,1,301,21
+Munu,2012,2,38,4
+Munu,2012,3,488,23
+Munu,2013,1,144,25
+Munu,2013,2,29,3
+Munu,2013,3,485,26
+Munu,2014,1,147,25
+Munu,2014,2,12,3
+Munu,2014,3,459,26
+Munu,2015,1,42,10
+Munu,2015,2,11,3
+Munu,2015,3,208,25
+Munu,2016,1,91,17
+Munu,2016,3,200,14
+Naenae,2012,1,77,9
+Naenae,2012,2,525,3
+Naenae,2012,3,8302,32
+Naenae,2013,1,110,5
+Naenae,2013,3,7887,36
+Naenae,2014,3,7965,25
+Naenae,2015,3,4213,22
+Naenae,2016,3,3094,17
+Nenue,2012,1,845,35
+Nenue,2012,2,7960,18
+Nenue,2012,3,22331,36
+Nenue,2012,4,99,5
+Nenue,2013,1,968,24
+Nenue,2013,2,5138,13
+Nenue,2013,3,21214,39
+Nenue,2014,1,1097,28
+Nenue,2014,2,6224,20
+Nenue,2014,3,9262,30
+Nenue,2014,4,54,7
+Nenue,2015,1,594,18
+Nenue,2015,2,5806,19
+Nenue,2015,3,10977,17
+Nenue,2015,4,72,3
+Nenue,2016,1,655,18
+Nenue,2016,2,3511,13
+Nenue,2016,3,5584,21
+Nenue,2016,4,27,3
+Nohu,2012,1,421,18
+Nohu,2012,2,1047,9
+Nohu,2012,3,378,12
+Nohu,2013,1,245,12
+Nohu,2013,2,393,7
+Nohu,2013,3,423,16
+Nohu,2014,1,175,11
+Nohu,2014,2,237,8
+Nohu,2014,3,185,13
+Nohu,2015,1,523,11
+Nohu,2015,2,557,5
+Nohu,2015,3,71,6
+Nohu,2016,1,346,9
+Nohu,2016,2,466,4
+Nohu,2016,3,126,3
+Nunu,2012,1,69,3
+Nunu,2012,3,130,15
+Nunu,2013,1,72,4
+Nunu,2013,3,138,13
+Nunu,2014,3,211,14
+Nunu,2015,3,121,9
+Nunu,2016,1,67,4
+Nunu,2016,3,60,8
+Oio,2012,2,402,7
+Oio,2012,3,10160,32
+Oio,2013,1,22,6
+Oio,2013,2,1220,7
+Oio,2013,3,9901,28
+Oio,2014,2,535,6
+Oio,2014,3,5480,25
+Oio,2014,4,1848,5
+Oio,2015,1,124,6
+Oio,2015,2,749,10
+Oio,2015,3,6729,25
+Oio,2016,1,90,5
+Oio,2016,2,728,5
+Oio,2016,3,4322,16
+Oio,2016,4,434,4
+Olililepa,2012,1,91,4
+Olililepa,2012,3,2601,9
+Olililepa,2013,3,755,13
+Olililepa,2014,3,1340,9
+Olililepa,2015,1,32,3
+Olililepa,2015,3,594,6
+Olililepa,2016,3,217,3
+Omaka,2012,3,28,5
+Omilu,2012,1,1268,16
+Omilu,2012,2,2458,36
+Omilu,2012,3,2113,57
+Omilu,2012,4,2423,25
+Omilu,2013,1,557,16
+Omilu,2013,2,1637,46
+Omilu,2013,3,1611,41
+Omilu,2013,4,2546,20
+Omilu,2014,1,420,19
+Omilu,2014,2,1502,39
+Omilu,2014,3,3573,50
+Omilu,2014,4,2093,26
+Omilu,2015,1,609,15
+Omilu,2015,2,1885,42
+Omilu,2015,3,1601,44
+Omilu,2015,4,2138,20
+Omilu,2016,1,490,16
+Omilu,2016,2,1958,45
+Omilu,2016,3,1172,36
+Omilu,2016,4,2175,20
+Oopuhue,2012,3,1054,5
+Opelu,2012,1,153202,83
+Opelu,2012,2,16140,39
+Opelu,2012,3,65136,82
+Opelu,2012,4,12550,32
+Opelu,2013,1,131477,77
+Opelu,2013,2,21701,54
+Opelu,2013,3,76620,84
+Opelu,2013,4,14508,33
+Opelu,2014,1,152367,76
+Opelu,2014,2,18891,48
+Opelu,2014,3,60422,73
+Opelu,2014,4,11851,36
+Opelu,2015,1,156360,61
+Opelu,2015,2,8450,34
+Opelu,2015,3,61774,50
+Opelu,2015,4,5768,26
+Opelu,2016,1,103566,57
+Opelu,2016,2,6865,24
+Opelu,2016,3,32071,29
+Opelu,2016,4,8801,20
+Opelu kala,2012,1,2148,26
+Opelu kala,2012,2,128,4
+Opelu kala,2012,3,2974,22
+Opelu kala,2013,1,2873,25
+Opelu kala,2013,2,644,5
+Opelu kala,2013,3,4668,17
+Opelu kala,2014,1,919,22
+Opelu kala,2014,2,110,4
+Opelu kala,2014,3,1723,16
+Opelu kala,2015,1,654,18
+Opelu kala,2015,2,116,3
+Opelu kala,2015,3,2676,9
+Opelu kala,2016,1,341,15
+Opelu kala,2016,2,373,5
+Opelu kala,2016,3,2291,3
+Opelu mama,2013,1,42,3
+Opelu mama,2014,1,37,5
+Pakii,2012,3,10,4
+Pakii,2013,3,14,3
+Pakii,2014,3,18,3
+Pakuikui (tang),2012,1,308,7
+Pakuikui (tang),2013,1,403,9
+Pakuikui (tang),2013,3,21,3
+Pakuikui (tang),2014,1,190,6
+Pakuikui (tang),2015,1,112,3
+Pakuikui (tang),2016,1,67,6
+Palani,2012,1,1349,20
+Palani,2012,2,4542,18
+Palani,2012,3,30206,46
+Palani,2013,1,1545,16
+Palani,2013,2,3488,11
+Palani,2013,3,28256,46
+Palani,2014,1,684,13
+Palani,2014,2,3634,8
+Palani,2014,3,27298,46
+Palani,2014,4,52,3
+Palani,2015,1,650,14
+Palani,2015,2,3454,13
+Palani,2015,3,17107,44
+Palani,2015,4,28,3
+Palani,2016,1,152,11
+Palani,2016,2,3336,6
+Palani,2016,3,19665,31
+Panuhunuhu,2012,1,12,3
+Panuhunuhu,2012,3,101,10
+Panuhunuhu,2013,1,11,3
+Panuhunuhu,2013,3,153,14
+Panuhunuhu,2014,1,69,4
+Panuhunuhu,2014,3,171,12
+Panuhunuhu,2015,3,146,13
+Panuhunuhu,2016,3,103,4
+Panunu,2012,3,302,8
+Panunu,2013,3,181,10
+Panunu,2014,3,460,9
+Panunu,2015,1,11,4
+Panunu,2015,3,494,8
+Panunu,2016,3,150,6
+Paopao ulua,2012,3,864,5
+Paopao ulua,2013,3,941,6
+Paopao ulua,2014,3,187,5
+Paopao ulua,2016,3,108,4
+Papa ulua,2012,1,32,8
+Papa ulua,2012,2,10579,39
+Papa ulua,2012,3,441,26
+Papa ulua,2012,4,302,11
+Papa ulua,2013,1,152,10
+Papa ulua,2013,2,5537,45
+Papa ulua,2013,3,452,24
+Papa ulua,2013,4,207,4
+Papa ulua,2014,1,137,7
+Papa ulua,2014,2,6016,49
+Papa ulua,2014,3,976,37
+Papa ulua,2014,4,567,11
+Papa ulua,2015,1,60,8
+Papa ulua,2015,2,7640,47
+Papa ulua,2015,3,493,26
+Papa ulua,2015,4,150,7
+Papa ulua,2016,1,222,8
+Papa ulua,2016,2,8294,44
+Papa ulua,2016,3,427,22
+Papa ulua,2016,4,160,7
+Poopaa,2012,1,30,12
+Poopaa,2012,2,278,6
+Poopaa,2012,3,430,26
+Poopaa,2013,1,21,9
+Poopaa,2013,2,97,3
+Poopaa,2013,3,1377,33
+Poopaa,2014,1,28,11
+Poopaa,2014,2,86,4
+Poopaa,2014,3,614,15
+Poopaa,2015,1,16,6
+Poopaa,2015,2,69,3
+Poopaa,2015,3,68,13
+Poopaa,2016,1,20,7
+Poopaa,2016,2,123,3
+Poopaa,2016,3,578,11
+Poou,2012,1,20,3
+Poou,2016,2,23,3
+Pualu,2012,1,693,9
+Pualu,2012,2,740,4
+Pualu,2012,3,11329,22
+Pualu,2013,1,563,7
+Pualu,2013,2,408,6
+Pualu,2013,3,6907,19
+Pualu,2014,1,1573,7
+Pualu,2014,2,880,5
+Pualu,2014,3,4718,22
+Pualu,2015,1,601,5
+Pualu,2015,2,890,3
+Pualu,2015,3,3787,17
+Pualu,2016,1,452,3
+Pualu,2016,2,680,3
+Pualu,2016,3,3221,11
+Puhi black,2012,3,1134,7
+Puhi black,2013,3,1023,4
+Puhi black,2014,3,520,3
+Puhi black,2015,3,267,5
+Puhi black,2016,3,434,4
+Puhi eel-misc.,2012,3,160,6
+Puhi eel-misc.,2013,1,338,3
+Puhi eel-misc.,2013,3,291,4
+Puhi eel-misc.,2014,3,565,5
+Puhi eel-misc.,2015,3,235,4
+Puhi eel-misc.,2016,3,166,5
+Puhi white,2012,3,242,5
+Puhi white,2013,3,293,3
+Puhi white,2014,3,367,3
+Puhi white,2015,3,155,4
+Randall's snapper,2013,1,51,4
+Randall's snapper,2015,1,72,3
+Roi,2012,1,131,4
+Roi,2012,2,1516,15
+Roi,2012,3,2930,24
+Roi,2013,2,979,14
+Roi,2013,3,2015,23
+Roi,2014,2,382,5
+Roi,2014,3,782,16
+Roi,2015,2,343,5
+Roi,2015,3,572,20
+Roi,2016,2,1380,4
+Roi,2016,3,436,13
+Sasa ulua,2012,1,58,3
+Sasa ulua,2012,2,224,3
+Sasa ulua,2012,3,387,11
+Sasa ulua,2013,1,158,4
+Sasa ulua,2013,2,64,3
+Sasa ulua,2013,3,191,8
+Sasa ulua,2014,3,70,4
+Sasa ulua,2014,4,89,3
+Sasa ulua,2015,1,268,3
+Sasa ulua,2015,3,40,6
+Sasa ulua,2016,2,380,5
+Sasa ulua,2016,3,34,4
+Shark-misc.,2012,1,304,13
+Shark-misc.,2012,2,34,11
+Shark-misc.,2012,3,2552,12
+Shark-misc.,2012,4,4,4
+Shark-misc.,2013,1,210,12
+Shark-misc.,2013,2,53,21
+Shark-misc.,2013,3,1369,8
+Shark-misc.,2014,1,103,6
+Shark-misc.,2014,2,0,15
+Shark-misc.,2014,3,1348,7
+Shark-misc.,2014,4,95,4
+Shark-misc.,2015,1,0,6
+Shark-misc.,2015,2,300,13
+Shark-misc.,2015,3,2069,3
+Shark-misc.,2015,4,40,4
+Shark-misc.,2016,1,249,6
+Shark-misc.,2016,2,880,11
+Shark-misc.,2016,3,2115,6
+Shark-misc.,2016,4,5,3
+Summer mullet,2016,3,477,3
+Tilapia,2012,3,1793,3
+Toau,2012,1,875,49
+Toau,2012,2,1844,14
+Toau,2012,3,3315,49
+Toau,2012,4,99,14
+Toau,2013,1,414,43
+Toau,2013,2,147,8
+Toau,2013,3,3392,67
+Toau,2013,4,122,12
+Toau,2014,1,233,34
+Toau,2014,2,42,10
+Toau,2014,3,4588,60
+Toau,2014,4,418,9
+Toau,2015,1,290,35
+Toau,2015,2,1125,9
+Toau,2015,3,1601,51
+Toau,2015,4,113,7
+Toau,2016,1,376,39
+Toau,2016,2,425,16
+Toau,2016,3,1670,44
+Toau,2016,4,126,9
+Uhu parrot-misc.,2012,1,14003,38
+Uhu parrot-misc.,2012,2,14556,25
+Uhu parrot-misc.,2012,3,53864,56
+Uhu parrot-misc.,2012,4,1506,4
+Uhu parrot-misc.,2013,1,7611,24
+Uhu parrot-misc.,2013,2,11126,10
+Uhu parrot-misc.,2013,3,55115,58
+Uhu parrot-misc.,2014,1,2812,25
+Uhu parrot-misc.,2014,2,8341,13
+Uhu parrot-misc.,2014,3,56044,49
+Uhu parrot-misc.,2014,4,1820,4
+Uhu parrot-misc.,2015,1,4119,16
+Uhu parrot-misc.,2015,2,1762,7
+Uhu parrot-misc.,2015,3,26341,42
+Uhu parrot-misc.,2015,4,766,7
+Uhu parrot-misc.,2016,1,3294,17
+Uhu parrot-misc.,2016,2,2319,10
+Uhu parrot-misc.,2016,3,17966,32
+Uhu parrot-misc.,2016,4,1346,4
+Ulua-misc.,2014,1,105,6
+Ulua-misc.,2014,2,1229,27
+Ulua-misc.,2014,3,682,24
+Ulua-misc.,2014,4,348,12
+Ulua-misc.,2015,1,237,9
+Ulua-misc.,2015,2,1629,38
+Ulua-misc.,2015,3,699,24
+Ulua-misc.,2015,4,189,5
+Ulua-misc.,2016,2,114,5
+Ulua-misc.,2016,3,21,4
+Umaumalei,2012,1,435,11
+Umaumalei,2012,2,2802,3
+Umaumalei,2012,3,675,18
+Umaumalei,2013,1,120,6
+Umaumalei,2013,2,2076,3
+Umaumalei,2013,3,1968,19
+Umaumalei,2014,2,1748,3
+Umaumalei,2014,3,919,13
+Umaumalei,2015,2,2401,3
+Umaumalei,2015,3,366,6
+Umaumalei,2016,2,2250,3
+Umaumalei,2016,3,1098,6
+Uouoa,2012,1,200,6
+Uouoa,2013,1,286,6
+Uouoa,2013,3,111,3
+Uouoa,2014,1,487,6
+Uouoa,2015,1,184,5
+Uouoa,2015,2,54,3
+Wahanui,2012,1,21,4
+Wahanui,2013,1,18,4
+Wahanui,2014,1,31,6
+Wahanui,2014,3,10,4
+Wahanui,2015,1,43,7
+Wahanui,2015,4,56,3
+Wahanui,2016,3,4,3
+Weke,2012,3,662,4
+Weke a'a,2012,1,157,13
+Weke a'a,2012,2,1140,8
+Weke a'a,2012,3,4924,29
+Weke a'a,2013,1,282,8
+Weke a'a,2013,2,1198,7
+Weke a'a,2013,3,3337,37
+Weke a'a,2014,1,91,12
+Weke a'a,2014,2,366,4
+Weke a'a,2014,3,3948,29
+Weke a'a,2015,1,118,6
+Weke a'a,2015,2,453,3
+Weke a'a,2015,3,3264,20
+Weke a'a,2016,1,131,7
+Weke a'a,2016,2,559,4
+Weke a'a,2016,3,4789,20
+Weke nono,2012,1,822,28
+Weke nono,2012,2,1831,33
+Weke nono,2012,3,2971,37
+Weke nono,2012,4,1502,12
+Weke nono,2013,1,644,35
+Weke nono,2013,2,1705,42
+Weke nono,2013,3,2981,37
+Weke nono,2013,4,1198,7
+Weke nono,2014,1,1041,29
+Weke nono,2014,2,715,35
+Weke nono,2014,3,3546,34
+Weke nono,2014,4,1477,13
+Weke nono,2015,1,611,24
+Weke nono,2015,2,1174,34
+Weke nono,2015,3,2545,36
+Weke nono,2015,4,1540,10
+Weke nono,2016,1,848,35
+Weke nono,2016,2,907,28
+Weke nono,2016,3,1615,24
+Weke nono,2016,4,2026,11
+Weke pueo,2013,1,31,4
+Weke pueo,2013,2,147,4
+Weke pueo,2013,3,203,5
+Weke ula,2012,1,439,36
+Weke ula,2012,2,4314,13
+Weke ula,2012,3,17576,47
+Weke ula,2012,4,420,15
+Weke ula,2013,1,420,28
+Weke ula,2013,2,1670,8
+Weke ula,2013,3,22415,46
+Weke ula,2013,4,429,11
+Weke ula,2014,1,784,27
+Weke ula,2014,2,5315,12
+Weke ula,2014,3,40946,43
+Weke ula,2014,4,204,8
+Weke ula,2015,1,477,21
+Weke ula,2015,2,7111,10
+Weke ula,2015,3,42632,39
+Weke ula,2015,4,63,6
+Weke ula,2016,1,1017,24
+Weke ula,2016,2,3124,10
+Weke ula,2016,3,29670,33
+Weke ula,2016,4,1038,8

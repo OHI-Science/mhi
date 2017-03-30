@@ -17,10 +17,12 @@ pkgs_installed <- sapply(pkgs_check, FUN = function(x) library(x, character.only
 
 ## load scenario configuration
 conf = ohicore::Conf(file.path(wd, 'conf'))
+conf=ohicore::Conf('conf')#went back to old code, couldn't get net code to work
 
 ## check that scenario layers files in the \layers folder match layers.csv registration. Layers files are not modified.
 ohicore::CheckLayers(file.path(wd, 'layers.csv'), file.path(wd, 'layers'), flds_id=conf$config$layers_id_fields)
-
+ohicore::CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_fields)#went back to old code, couldn't get net code to work
 ## load scenario layers for ohicore to access. Layers files are not modified.
 layers = ohicore::Layers(file.path(wd, 'layers.csv'), file.path(wd, 'layers'))
+layers = ohicore::Layers('layers.csv', 'layers')#went back to old code, couldn't get net code to work
 

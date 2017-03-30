@@ -1,0 +1,311 @@
+year,rgn_id,island,mus,family,species,licenses,catch
+2012,1,Hawaii,BMUS,Lutjanidae,Opakapaka,123,20533
+2012,1,Hawaii,BMUS,Lutjanidae,Uku,119,9518
+2012,1,Hawaii,BMUS,Lutjanidae,Onaga,63,6799
+2012,1,Hawaii,BMUS,Lutjanidae,Taape,99,8060
+2012,1,Hawaii,BMUS,Lutjanidae,Ehu,97,7838
+2012,1,Hawaii,BMUS,Carangidae,Kahala,35,1322
+2012,1,Hawaii,BMUS,Lutjanidae,Kalekale,80,3479
+2012,1,Hawaii,BMUS,Carangidae,White ulua,26,2138
+2012,1,Hawaii,BMUS,Lutjanidae,Lehi,83,5494
+2012,1,Hawaii,BMUS,Serranidae,Hapuupuu,54,2749
+2012,1,Hawaii,BMUS,Lutjanidae,Gindai,72,1671
+2012,1,Hawaii,BMUS,Carangidae,Gunkan ulua,3,60
+2013,1,Hawaii,BMUS,Lutjanidae,Opakapaka,123,26819
+2013,1,Hawaii,BMUS,Lutjanidae,Uku,125,11998
+2013,1,Hawaii,BMUS,Lutjanidae,Onaga,71,10435
+2013,1,Hawaii,BMUS,Lutjanidae,Taape,96,4882
+2013,1,Hawaii,BMUS,Lutjanidae,Ehu,93,11963
+2013,1,Hawaii,BMUS,Carangidae,Kahala,34,2077
+2013,1,Hawaii,BMUS,Lutjanidae,Kalekale,85,6933
+2013,1,Hawaii,BMUS,Carangidae,White ulua,23,1130
+2013,1,Hawaii,BMUS,Lutjanidae,Lehi,71,9888
+2013,1,Hawaii,BMUS,Serranidae,Hapuupuu,58,3363
+2013,1,Hawaii,BMUS,Lutjanidae,Gindai,73,2035
+2013,1,Hawaii,BMUS,Carangidae,Butaguchi ulua,3,27
+2013,1,Hawaii,BMUS,Carangidae,Gunkan ulua,5,132
+2013,1,Hawaii,BMUS,Berycidae,Alfonsin,5,54
+2014,1,Hawaii,BMUS,Lutjanidae,Opakapaka,126,32921
+2014,1,Hawaii,BMUS,Lutjanidae,Uku,115,13894
+2014,1,Hawaii,BMUS,Lutjanidae,Onaga,70,9860
+2014,1,Hawaii,BMUS,Lutjanidae,Taape,80,3490
+2014,1,Hawaii,BMUS,Lutjanidae,Ehu,96,7959
+2014,1,Hawaii,BMUS,Carangidae,Kahala,26,1152
+2014,1,Hawaii,BMUS,Lutjanidae,Kalekale,89,7165
+2014,1,Hawaii,BMUS,Carangidae,White ulua,13,929
+2014,1,Hawaii,BMUS,Lutjanidae,Lehi,72,4718
+2014,1,Hawaii,BMUS,Serranidae,Hapuupuu,49,2050
+2014,1,Hawaii,BMUS,Lutjanidae,Gindai,61,1505
+2014,1,Hawaii,BMUS,Berycidae,Alfonsin,4,16
+2015,1,Hawaii,BMUS,Lutjanidae,Opakapaka,115,28686
+2015,1,Hawaii,BMUS,Lutjanidae,Uku,133,16984
+2015,1,Hawaii,BMUS,Lutjanidae,Onaga,66,6748
+2015,1,Hawaii,BMUS,Lutjanidae,Taape,73,3107
+2015,1,Hawaii,BMUS,Lutjanidae,Ehu,74,11090
+2015,1,Hawaii,BMUS,Carangidae,Kahala,21,2554
+2015,1,Hawaii,BMUS,Lutjanidae,Kalekale,80,5749
+2015,1,Hawaii,BMUS,Carangidae,White ulua,22,941
+2015,1,Hawaii,BMUS,Lutjanidae,Lehi,79,5716
+2015,1,Hawaii,BMUS,Serranidae,Hapuupuu,39,2623
+2015,1,Hawaii,BMUS,Lutjanidae,Gindai,49,1229
+2016,1,Hawaii,BMUS,Lutjanidae,Opakapaka,113,36125
+2016,1,Hawaii,BMUS,Lutjanidae,Uku,137,19236
+2016,1,Hawaii,BMUS,Lutjanidae,Onaga,61,12121
+2016,1,Hawaii,BMUS,Lutjanidae,Taape,68,3610
+2016,1,Hawaii,BMUS,Lutjanidae,Ehu,74,6124
+2016,1,Hawaii,BMUS,Carangidae,Kahala,27,7207
+2016,1,Hawaii,BMUS,Lutjanidae,Kalekale,71,4502
+2016,1,Hawaii,BMUS,Carangidae,White ulua,17,1325
+2016,1,Hawaii,BMUS,Lutjanidae,Lehi,76,6073
+2016,1,Hawaii,BMUS,Serranidae,Hapuupuu,45,2452
+2016,1,Hawaii,BMUS,Lutjanidae,Gindai,58,841
+2016,1,Hawaii,BMUS,Carangidae,Gunkan ulua,3,140
+2012,2,Maui County,BMUS,Lutjanidae,Opakapaka,106,62535
+2012,2,Maui County,BMUS,Lutjanidae,Uku,107,17523
+2012,2,Maui County,BMUS,Lutjanidae,Onaga,83,31209
+2012,2,Maui County,BMUS,Lutjanidae,Taape,62,10386
+2012,2,Maui County,BMUS,Lutjanidae,Ehu,83,8582
+2012,2,Maui County,BMUS,Carangidae,Kahala,25,1955
+2012,2,Maui County,BMUS,Lutjanidae,Kalekale,51,4279
+2012,2,Maui County,BMUS,Carangidae,White ulua,40,4603
+2012,2,Maui County,BMUS,Lutjanidae,Lehi,24,3760
+2012,2,Maui County,BMUS,Serranidae,Hapuupuu,42,1759
+2012,2,Maui County,BMUS,Lutjanidae,Gindai,29,218
+2012,2,Maui County,BMUS,Carangidae,Butaguchi ulua,6,80
+2012,2,Maui County,BMUS,Carangidae,Gunkan ulua,3,88
+2013,2,Maui County,BMUS,Lutjanidae,Opakapaka,100,71081
+2013,2,Maui County,BMUS,Lutjanidae,Uku,92,19904
+2013,2,Maui County,BMUS,Lutjanidae,Onaga,76,38339
+2013,2,Maui County,BMUS,Lutjanidae,Taape,46,8063
+2013,2,Maui County,BMUS,Lutjanidae,Ehu,78,10180
+2013,2,Maui County,BMUS,Carangidae,Kahala,27,1229
+2013,2,Maui County,BMUS,Lutjanidae,Kalekale,58,3846
+2013,2,Maui County,BMUS,Carangidae,White ulua,46,3475
+2013,2,Maui County,BMUS,Lutjanidae,Lehi,26,2962
+2013,2,Maui County,BMUS,Serranidae,Hapuupuu,42,2542
+2013,2,Maui County,BMUS,Lutjanidae,Gindai,23,212
+2013,2,Maui County,BMUS,Carangidae,Butaguchi ulua,4,44
+2014,2,Maui County,BMUS,Lutjanidae,Opakapaka,103,86585
+2014,2,Maui County,BMUS,Lutjanidae,Uku,90,18340
+2014,2,Maui County,BMUS,Lutjanidae,Onaga,79,42864
+2014,2,Maui County,BMUS,Lutjanidae,Taape,51,6534
+2014,2,Maui County,BMUS,Lutjanidae,Ehu,78,11005
+2014,2,Maui County,BMUS,Carangidae,Kahala,17,823
+2014,2,Maui County,BMUS,Lutjanidae,Kalekale,56,5382
+2014,2,Maui County,BMUS,Carangidae,White ulua,39,3341
+2014,2,Maui County,BMUS,Lutjanidae,Lehi,38,3067
+2014,2,Maui County,BMUS,Serranidae,Hapuupuu,45,1988
+2014,2,Maui County,BMUS,Lutjanidae,Gindai,21,224
+2014,2,Maui County,BMUS,Carangidae,Gunkan ulua,3,100
+2015,2,Maui County,BMUS,Lutjanidae,Opakapaka,92,69638
+2015,2,Maui County,BMUS,Lutjanidae,Uku,95,20737
+2015,2,Maui County,BMUS,Lutjanidae,Onaga,57,25363
+2015,2,Maui County,BMUS,Lutjanidae,Taape,42,1608
+2015,2,Maui County,BMUS,Lutjanidae,Ehu,66,11156
+2015,2,Maui County,BMUS,Carangidae,Kahala,24,893
+2015,2,Maui County,BMUS,Lutjanidae,Kalekale,49,3243
+2015,2,Maui County,BMUS,Carangidae,White ulua,37,2315
+2015,2,Maui County,BMUS,Lutjanidae,Lehi,30,5157
+2015,2,Maui County,BMUS,Serranidae,Hapuupuu,38,2720
+2015,2,Maui County,BMUS,Lutjanidae,Gindai,27,214
+2016,2,Maui County,BMUS,Lutjanidae,Opakapaka,83,61500
+2016,2,Maui County,BMUS,Lutjanidae,Uku,91,31351
+2016,2,Maui County,BMUS,Lutjanidae,Onaga,61,18043
+2016,2,Maui County,BMUS,Lutjanidae,Taape,40,1188
+2016,2,Maui County,BMUS,Lutjanidae,Ehu,67,14205
+2016,2,Maui County,BMUS,Carangidae,Kahala,17,904
+2016,2,Maui County,BMUS,Lutjanidae,Kalekale,36,2227
+2016,2,Maui County,BMUS,Carangidae,White ulua,40,2764
+2016,2,Maui County,BMUS,Lutjanidae,Lehi,22,1861
+2016,2,Maui County,BMUS,Serranidae,Hapuupuu,34,1904
+2016,2,Maui County,BMUS,Lutjanidae,Gindai,15,119
+2016,2,Maui County,BMUS,Carangidae,Butaguchi ulua,3,105
+2012,3,Oahu,BMUS,Lutjanidae,Opakapaka,50,5630
+2012,3,Oahu,BMUS,Lutjanidae,Uku,75,7908
+2012,3,Oahu,BMUS,Lutjanidae,Onaga,46,3148
+2012,3,Oahu,BMUS,Lutjanidae,Taape,85,11731
+2012,3,Oahu,BMUS,Lutjanidae,Ehu,50,1688
+2012,3,Oahu,BMUS,Carangidae,Kahala,36,3901
+2012,3,Oahu,BMUS,Lutjanidae,Kalekale,24,305
+2012,3,Oahu,BMUS,Carangidae,White ulua,76,7980
+2012,3,Oahu,BMUS,Lutjanidae,Lehi,4,78
+2012,3,Oahu,BMUS,Serranidae,Hapuupuu,19,500
+2012,3,Oahu,BMUS,Lutjanidae,Gindai,24,153
+2012,3,Oahu,BMUS,Carangidae,Gunkan ulua,6,194
+2013,3,Oahu,BMUS,Lutjanidae,Opakapaka,50,9003
+2013,3,Oahu,BMUS,Lutjanidae,Uku,76,6848
+2013,3,Oahu,BMUS,Lutjanidae,Onaga,40,3429
+2013,3,Oahu,BMUS,Lutjanidae,Taape,75,16488
+2013,3,Oahu,BMUS,Lutjanidae,Ehu,46,1239
+2013,3,Oahu,BMUS,Carangidae,Kahala,36,2798
+2013,3,Oahu,BMUS,Lutjanidae,Kalekale,28,406
+2013,3,Oahu,BMUS,Carangidae,White ulua,66,5749
+2013,3,Oahu,BMUS,Lutjanidae,Lehi,8,116
+2013,3,Oahu,BMUS,Serranidae,Hapuupuu,24,398
+2013,3,Oahu,BMUS,Lutjanidae,Gindai,19,103
+2014,3,Oahu,BMUS,Lutjanidae,Opakapaka,47,17850
+2014,3,Oahu,BMUS,Lutjanidae,Uku,88,7204
+2014,3,Oahu,BMUS,Lutjanidae,Onaga,42,4758
+2014,3,Oahu,BMUS,Lutjanidae,Taape,90,16895
+2014,3,Oahu,BMUS,Lutjanidae,Ehu,40,1520
+2014,3,Oahu,BMUS,Carangidae,Kahala,36,4912
+2014,3,Oahu,BMUS,Lutjanidae,Kalekale,26,848
+2014,3,Oahu,BMUS,Carangidae,White ulua,53,3725
+2014,3,Oahu,BMUS,Lutjanidae,Lehi,7,265
+2014,3,Oahu,BMUS,Serranidae,Hapuupuu,21,450
+2014,3,Oahu,BMUS,Lutjanidae,Gindai,18,73
+2014,3,Oahu,BMUS,Carangidae,Butaguchi ulua,4,148
+2015,3,Oahu,BMUS,Lutjanidae,Opakapaka,44,11109
+2015,3,Oahu,BMUS,Lutjanidae,Uku,98,8370
+2015,3,Oahu,BMUS,Lutjanidae,Onaga,36,3424
+2015,3,Oahu,BMUS,Lutjanidae,Taape,77,19387
+2015,3,Oahu,BMUS,Lutjanidae,Ehu,44,2204
+2015,3,Oahu,BMUS,Carangidae,Kahala,42,4182
+2015,3,Oahu,BMUS,Lutjanidae,Kalekale,29,890
+2015,3,Oahu,BMUS,Carangidae,White ulua,57,4304
+2015,3,Oahu,BMUS,Lutjanidae,Lehi,3,40
+2015,3,Oahu,BMUS,Serranidae,Hapuupuu,22,803
+2015,3,Oahu,BMUS,Lutjanidae,Gindai,16,158
+2015,3,Oahu,BMUS,Carangidae,Butaguchi ulua,5,48
+2016,3,Oahu,BMUS,Lutjanidae,Opakapaka,46,9178
+2016,3,Oahu,BMUS,Lutjanidae,Uku,59,7355
+2016,3,Oahu,BMUS,Lutjanidae,Onaga,36,3843
+2016,3,Oahu,BMUS,Lutjanidae,Taape,65,26832
+2016,3,Oahu,BMUS,Lutjanidae,Ehu,44,1974
+2016,3,Oahu,BMUS,Carangidae,Kahala,38,2440
+2016,3,Oahu,BMUS,Lutjanidae,Kalekale,25,614
+2016,3,Oahu,BMUS,Carangidae,White ulua,48,1918
+2016,3,Oahu,BMUS,Lutjanidae,Lehi,8,70
+2016,3,Oahu,BMUS,Serranidae,Hapuupuu,21,625
+2016,3,Oahu,BMUS,Lutjanidae,Gindai,22,177
+2012,4,Kauai County,BMUS,Lutjanidae,Opakapaka,34,2535
+2012,4,Kauai County,BMUS,Lutjanidae,Uku,68,30512
+2012,4,Kauai County,BMUS,Lutjanidae,Onaga,31,4473
+2012,4,Kauai County,BMUS,Lutjanidae,Taape,44,2627
+2012,4,Kauai County,BMUS,Lutjanidae,Ehu,51,4873
+2012,4,Kauai County,BMUS,Carangidae,Kahala,41,8687
+2012,4,Kauai County,BMUS,Lutjanidae,Kalekale,35,2311
+2012,4,Kauai County,BMUS,Carangidae,White ulua,26,4230
+2012,4,Kauai County,BMUS,Lutjanidae,Lehi,6,469
+2012,4,Kauai County,BMUS,Serranidae,Hapuupuu,30,1822
+2012,4,Kauai County,BMUS,Lutjanidae,Gindai,47,1330
+2012,4,Kauai County,BMUS,Carangidae,Butaguchi ulua,8,485
+2012,4,Kauai County,BMUS,Carangidae,Gunkan ulua,5,140
+2013,4,Kauai County,BMUS,Lutjanidae,Opakapaka,27,1729
+2013,4,Kauai County,BMUS,Lutjanidae,Uku,68,28709
+2013,4,Kauai County,BMUS,Lutjanidae,Onaga,27,4336
+2013,4,Kauai County,BMUS,Lutjanidae,Taape,38,3272
+2013,4,Kauai County,BMUS,Lutjanidae,Ehu,40,3195
+2013,4,Kauai County,BMUS,Carangidae,Kahala,29,6019
+2013,4,Kauai County,BMUS,Lutjanidae,Kalekale,27,1122
+2013,4,Kauai County,BMUS,Carangidae,White ulua,26,2778
+2013,4,Kauai County,BMUS,Lutjanidae,Lehi,4,133
+2013,4,Kauai County,BMUS,Serranidae,Hapuupuu,23,2265
+2013,4,Kauai County,BMUS,Lutjanidae,Gindai,30,882
+2013,4,Kauai County,BMUS,Carangidae,Butaguchi ulua,3,388
+2013,4,Kauai County,BMUS,Carangidae,Gunkan ulua,6,486
+2014,4,Kauai County,BMUS,Lutjanidae,Opakapaka,28,3756
+2014,4,Kauai County,BMUS,Lutjanidae,Uku,57,28979
+2014,4,Kauai County,BMUS,Lutjanidae,Onaga,28,6738
+2014,4,Kauai County,BMUS,Lutjanidae,Taape,30,3166
+2014,4,Kauai County,BMUS,Lutjanidae,Ehu,39,3567
+2014,4,Kauai County,BMUS,Carangidae,Kahala,34,4844
+2014,4,Kauai County,BMUS,Lutjanidae,Kalekale,30,1881
+2014,4,Kauai County,BMUS,Carangidae,White ulua,26,3053
+2014,4,Kauai County,BMUS,Lutjanidae,Lehi,6,198
+2014,4,Kauai County,BMUS,Serranidae,Hapuupuu,21,3178
+2014,4,Kauai County,BMUS,Lutjanidae,Gindai,30,926
+2014,4,Kauai County,BMUS,Carangidae,Gunkan ulua,5,216
+2015,4,Kauai County,BMUS,Lutjanidae,Opakapaka,22,6862
+2015,4,Kauai County,BMUS,Lutjanidae,Uku,57,21202
+2015,4,Kauai County,BMUS,Lutjanidae,Onaga,23,3762
+2015,4,Kauai County,BMUS,Lutjanidae,Taape,30,1560
+2015,4,Kauai County,BMUS,Lutjanidae,Ehu,34,3476
+2015,4,Kauai County,BMUS,Carangidae,Kahala,35,7125
+2015,4,Kauai County,BMUS,Lutjanidae,Kalekale,22,1336
+2015,4,Kauai County,BMUS,Carangidae,White ulua,18,2739
+2015,4,Kauai County,BMUS,Lutjanidae,Lehi,4,119
+2015,4,Kauai County,BMUS,Serranidae,Hapuupuu,24,1654
+2015,4,Kauai County,BMUS,Lutjanidae,Gindai,24,502
+2015,4,Kauai County,BMUS,Carangidae,Butaguchi ulua,4,144
+2015,4,Kauai County,BMUS,Carangidae,Gunkan ulua,5,143
+2016,4,Kauai County,BMUS,Lutjanidae,Opakapaka,19,5576
+2016,4,Kauai County,BMUS,Lutjanidae,Uku,52,16516
+2016,4,Kauai County,BMUS,Lutjanidae,Onaga,16,3571
+2016,4,Kauai County,BMUS,Lutjanidae,Taape,32,2919
+2016,4,Kauai County,BMUS,Lutjanidae,Ehu,33,4182
+2016,4,Kauai County,BMUS,Carangidae,Kahala,23,4623
+2016,4,Kauai County,BMUS,Lutjanidae,Kalekale,22,1527
+2016,4,Kauai County,BMUS,Carangidae,White ulua,16,1685
+2016,4,Kauai County,BMUS,Lutjanidae,Lehi,4,201
+2016,4,Kauai County,BMUS,Serranidae,Hapuupuu,17,2602
+2016,4,Kauai County,BMUS,Lutjanidae,Gindai,22,761
+2016,4,Kauai County,BMUS,Carangidae,Gunkan ulua,3,130
+2012,NA,Other offshore,BMUS,Lutjanidae,Opakapaka,3,1694
+2012,NA,Other offshore,BMUS,Lutjanidae,Uku,4,3116
+2012,NA,Other offshore,BMUS,Lutjanidae,Ehu,3,57
+2012,NA,Other offshore,BMUS,Lutjanidae,Kalekale,4,281
+2012,NA,Other offshore,BMUS,Serranidae,Hapuupuu,3,3186
+2013,NA,Other offshore,BMUS,Lutjanidae,Uku,3,1699
+2014,NA,Other offshore,BMUS,Lutjanidae,Opakapaka,3,2167
+2014,NA,Other offshore,BMUS,Lutjanidae,Uku,4,859
+2014,NA,Other offshore,BMUS,Lutjanidae,Kalekale,3,149
+2014,NA,Other offshore,BMUS,Serranidae,Hapuupuu,4,1855
+2015,NA,Other offshore,BMUS,Lutjanidae,Uku,3,637
+2016,NA,Other offshore,BMUS,Lutjanidae,Uku,4,530
+2012,2,Penguin Bank,BMUS,Lutjanidae,Opakapaka,65,16362
+2012,2,Penguin Bank,BMUS,Lutjanidae,Uku,56,48216
+2012,2,Penguin Bank,BMUS,Lutjanidae,Onaga,52,14795
+2012,2,Penguin Bank,BMUS,Lutjanidae,Taape,15,199
+2012,2,Penguin Bank,BMUS,Lutjanidae,Ehu,59,4956
+2012,2,Penguin Bank,BMUS,Carangidae,Kahala,24,1729
+2012,2,Penguin Bank,BMUS,Lutjanidae,Kalekale,48,2683
+2012,2,Penguin Bank,BMUS,Carangidae,White ulua,13,1619
+2012,2,Penguin Bank,BMUS,Lutjanidae,Lehi,9,200
+2012,2,Penguin Bank,BMUS,Serranidae,Hapuupuu,29,735
+2012,2,Penguin Bank,BMUS,Lutjanidae,Gindai,32,423
+2013,2,Penguin Bank,BMUS,Lutjanidae,Opakapaka,56,14249
+2013,2,Penguin Bank,BMUS,Lutjanidae,Uku,50,51553
+2013,2,Penguin Bank,BMUS,Lutjanidae,Onaga,54,16319
+2013,2,Penguin Bank,BMUS,Lutjanidae,Taape,17,193
+2013,2,Penguin Bank,BMUS,Lutjanidae,Ehu,56,5720
+2013,2,Penguin Bank,BMUS,Carangidae,Kahala,24,1071
+2013,2,Penguin Bank,BMUS,Lutjanidae,Kalekale,47,2398
+2013,2,Penguin Bank,BMUS,Carangidae,White ulua,14,1347
+2013,2,Penguin Bank,BMUS,Lutjanidae,Lehi,11,220
+2013,2,Penguin Bank,BMUS,Serranidae,Hapuupuu,15,551
+2013,2,Penguin Bank,BMUS,Lutjanidae,Gindai,25,416
+2014,2,Penguin Bank,BMUS,Lutjanidae,Opakapaka,55,22041
+2014,2,Penguin Bank,BMUS,Lutjanidae,Uku,52,27552
+2014,2,Penguin Bank,BMUS,Lutjanidae,Onaga,39,15058
+2014,2,Penguin Bank,BMUS,Lutjanidae,Taape,17,172
+2014,2,Penguin Bank,BMUS,Lutjanidae,Ehu,48,4503
+2014,2,Penguin Bank,BMUS,Carangidae,Kahala,21,1297
+2014,2,Penguin Bank,BMUS,Lutjanidae,Kalekale,37,3134
+2014,2,Penguin Bank,BMUS,Carangidae,White ulua,14,931
+2014,2,Penguin Bank,BMUS,Lutjanidae,Lehi,12,295
+2014,2,Penguin Bank,BMUS,Serranidae,Hapuupuu,14,419
+2014,2,Penguin Bank,BMUS,Lutjanidae,Gindai,23,324
+2014,2,Penguin Bank,BMUS,Carangidae,Butaguchi ulua,3,62
+2015,2,Penguin Bank,BMUS,Lutjanidae,Opakapaka,43,12472
+2015,2,Penguin Bank,BMUS,Lutjanidae,Uku,52,34008
+2015,2,Penguin Bank,BMUS,Lutjanidae,Onaga,32,10861
+2015,2,Penguin Bank,BMUS,Lutjanidae,Taape,11,199
+2015,2,Penguin Bank,BMUS,Lutjanidae,Ehu,45,3435
+2015,2,Penguin Bank,BMUS,Carangidae,Kahala,18,1804
+2015,2,Penguin Bank,BMUS,Lutjanidae,Kalekale,30,2496
+2015,2,Penguin Bank,BMUS,Carangidae,White ulua,11,415
+2015,2,Penguin Bank,BMUS,Lutjanidae,Lehi,8,129
+2015,2,Penguin Bank,BMUS,Serranidae,Hapuupuu,12,229
+2015,2,Penguin Bank,BMUS,Lutjanidae,Gindai,26,213
+2016,2,Penguin Bank,BMUS,Lutjanidae,Opakapaka,58,16274
+2016,2,Penguin Bank,BMUS,Lutjanidae,Uku,47,42752
+2016,2,Penguin Bank,BMUS,Lutjanidae,Onaga,36,8854
+2016,2,Penguin Bank,BMUS,Lutjanidae,Taape,11,296
+2016,2,Penguin Bank,BMUS,Lutjanidae,Ehu,40,4176
+2016,2,Penguin Bank,BMUS,Carangidae,Kahala,21,2559
+2016,2,Penguin Bank,BMUS,Lutjanidae,Kalekale,32,2097
+2016,2,Penguin Bank,BMUS,Carangidae,White ulua,10,452
+2016,2,Penguin Bank,BMUS,Lutjanidae,Lehi,12,429
+2016,2,Penguin Bank,BMUS,Serranidae,Hapuupuu,19,546
+2016,2,Penguin Bank,BMUS,Lutjanidae,Gindai,22,295
