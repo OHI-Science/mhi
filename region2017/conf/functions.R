@@ -1,7 +1,7 @@
 FIS = function(layers, status_year){
 
   #catch data
-  c = SelectLayersData(layers, layers='fis_pelagic_catch', narrow = TRUE) %>% # replace fis_meancatch with fis_pelagic_catch or fis_deepcatch or fis_reefcatch
+  c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>% # replace fis_meancatch with fis_pelagic_catch or fis_deepcatch or fis_reefcatch
     select(
       rgn_id    = id_num,
       species = category,
@@ -13,17 +13,17 @@ FIS = function(layers, status_year){
       rgn_id         = id_num,
       species      = category,
       year,
-      score           = val_num)
+      value           = val_num)
 
 # The following stocks are fished in multiple regions and have high b/bmsy values
 # Due to the underfishing penalty, this actually penalizes the regions that have the highest
 # proportion of catch of these stocks.  The following corrects this problem:
 #  filter(b, stock_id %in% c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47'))
 
-high_bmsy <- c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47', 'Sardinella_aurita-34', 'Scomberomorus_cavalla-31')
+high_bmsy <- c('Tombo')
 
 b <- b %>%
-  mutate(bmsy = ifelse(stock_id %in% high_bmsy, 1, bmsy))
+  mutate(bmsy = ifelse(species %in% high_bmsy, 1, value))
 
 
     # separate out the stock_id and taxonkey:
@@ -39,10 +39,10 @@ b <- b %>%
 
   # general formatting:
   b <- b %>%
-    mutate(bmsy = as.numeric(bmsy)) %>%
+    mutate(value = as.numeric(value)) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
     mutate(year = as.numeric(as.character(year))) %>%
-    mutate(stock_id = as.character(stock_id))
+    mutate(stock_id = as.character(species))
 
 
   # ------------------------------------------------------------------------
@@ -56,8 +56,8 @@ b <- b %>%
   lowerBuffer <- 0.95
   upperBuffer <- 1.05
 
-  b$score = ifelse(b$bmsy < lowerBuffer, b$bmsy,
-                   ifelse (b$bmsy >= lowerBuffer & b$bmsy <= upperBuffer, 1, NA))
+  b$score = ifelse(b$value < lowerBuffer, b$value,
+                   ifelse (b$value >= lowerBuffer & b$value <= upperBuffer, 1, NA))
   b$score = ifelse(!is.na(b$score), b$score,
                    ifelse(1 - alpha*(b$bmsy - upperBuffer) > beta,
                           1 - alpha*(b$bmsy - upperBuffer),
@@ -68,8 +68,8 @@ b <- b %>%
   # STEP 1. Merge the b/bmsy data with catch data
   # -----------------------------------------------------------------------
   data_fis <- c %>%
-    left_join(b, by=c('rgn_id', 'stock_id', 'year')) %>%
-    select(rgn_id, stock_id, year, taxon_key, catch, bmsy, score)
+    left_join(b, by=c('rgn_id', 'species', 'year')) %>%
+    select(rgn_id, species, year, catch, value, value)
 
 
   # ------------------------------------------------------------------------
