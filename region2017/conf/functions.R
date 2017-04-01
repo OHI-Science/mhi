@@ -1,17 +1,17 @@
 FIS = function(layers, status_year){
 
   #catch data
-  c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>% # replace fis_meancatch with fis_pelagic_catch or fis_deepcatch or fis_reefcatch
+  c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>%
     select(
       rgn_id    = id_num,
-      species = category,
+      stock_key = category,
       year,
       catch          = val_num)
   # stock assessment score data
   b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>%
     select(
       rgn_id         = id_num,
-      species      = category,
+      stock_key      = category,
       year,
       value           = val_num)
 
@@ -20,29 +20,35 @@ FIS = function(layers, status_year){
 # proportion of catch of these stocks.  The following corrects this problem:
 #  filter(b, stock_id %in% c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47'))
 
-high_bmsy <- c('Tombo')
+high_bmsy <- c('Tombo',"Taape")
 
 b <- b %>%
-  mutate(bmsy = ifelse(species %in% high_bmsy, 1, value))
+  mutate(bmsy = ifelse(stock_key %in% high_bmsy, 1, value))#not sure this is working
 
 
-    # separate out the stock_id and taxonkey:
+    # formatting:
   c <- c %>%
-    mutate(stock_id_taxonkey = as.character(stock_id_taxonkey)) %>%
-    mutate(taxon_key = str_sub(stock_id_taxonkey, -6, -1)) %>%
-    mutate(stock_id = substr(stock_id_taxonkey, 1, nchar(stock_id_taxonkey)-7)) %>%
+    mutate(stock_key=as.character(stock_key))%>%
+    mutate(taxon_key=str_sub(stock_key, -4))%>%
+    mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
     mutate(catch = as.numeric(catch)) %>%
     mutate(year = as.numeric(as.character(year))) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
     mutate(taxon_key = as.numeric(as.character(taxon_key))) %>%
-    select(rgn_id, year, stock_id, taxon_key, catch)
+    select(rgn_id, year, species,taxon_key, catch)
 
   # general formatting:
   b <- b %>%
+    mutate(stock_key=as.character(stock_key))%>%
+    mutate(taxon_key=str_sub(stock_key, -4))%>%
+    mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
     mutate(value = as.numeric(value)) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
     mutate(year = as.numeric(as.character(year))) %>%
-    mutate(stock_id = as.character(species))
+    mutate(taxon_key = as.numeric(as.character(taxon_key))) %>%
+    mutate(species = as.character(species))
+
+
 
 
   # ------------------------------------------------------------------------
@@ -69,25 +75,25 @@ b <- b %>%
   # -----------------------------------------------------------------------
   data_fis <- c %>%
     left_join(b, by=c('rgn_id', 'species', 'year')) %>%
-    select(rgn_id, species, year, catch, value, value)
+    select(rgn_id, species, year, catch, type, value)
 
 
   # ------------------------------------------------------------------------
   # STEP 2. Estimate scores for taxa without b/bmsy values
   # Median score of other fish in the region is the starting point
-  # Then a penalty is applied based on the level the taxa are reported at
+  # Then a penalty is applied based on the level the taxa are reported at # will need to address this for non-fish species -shrimp, cucumber, etc
   # -----------------------------------------------------------------------
 
   ## this takes the median score within each region
   data_fis_gf <- data_fis %>%
     group_by(rgn_id, year) %>%
-    mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    mutate(Median_score = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup()
 
   ## this takes the median score across all regions (when no stocks have scores within a region)
   data_fis_gf <- data_fis_gf %>%
     group_by(year) %>%
-    mutate(Median_score_global = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    mutate(Median_score_global = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup() %>%
     mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
     select(-Median_score_global)
@@ -115,7 +121,7 @@ b <- b %>%
     filter(year == status_year)
 
   status_data <- data_fis_gf %>%
-    select(rgn_id, stock_id, year, catch, score)
+    select(rgn_id, species, year, catch, value)
 
 
   # ------------------------------------------------------------------------
@@ -134,7 +140,7 @@ b <- b %>%
 
   status_data <- status_data %>%
     group_by(rgn_id, year) %>%
-    summarize(status = prod(score^wprop)) %>%
+    summarize(status = prod(value^wprop)) %>%
     ungroup()
 
   # ------------------------------------------------------------------------

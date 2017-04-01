@@ -38,3 +38,12 @@ readr::write_csv(d_pel_islands, file.path(dir_layers, "fis_pel_propcatch_mhi2017
 
 ## You will see a notification in the "Git" window in RStudio once the layer is saved successfully.
 #dont forgt to register the layer in layers.csv
+
+#####all catch data in one file
+data_file  <- file.path(dir_layers, 'fis_catch_mhi2017.csv')
+d <- readr::read_csv(data_file)
+
+str(d)
+d<-ddply(d, .(species, year, rgn_id), numcolwise(sum) )
+readr::write_csv(d, file.path(dir_layers, "fis_catch_island_mhi2017.csv"))
+
