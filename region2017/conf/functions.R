@@ -15,40 +15,40 @@ FIS = function(layers, status_year){
       year,
       value           = val_num)
 
-# The following stocks are fished in multiple regions and have high b/bmsy values
-# Due to the underfishing penalty, this actually penalizes the regions that have the highest
-# proportion of catch of these stocks.  The following corrects this problem:
-#  filter(b, stock_id %in% c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47'))
-
-high_bmsy <- c('Tombo',"Taape")
-
-b <- b %>%
-  mutate(bmsy = ifelse(stock_key %in% high_bmsy, 1, value))#not sure this is working
 
 
     # formatting:
   c <- c %>%
     mutate(stock_key=as.character(stock_key))%>%
-    mutate(taxon_key=str_sub(stock_key, -4))%>%
+    mutate(key=str_sub(stock_key, -4))%>%
     mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
     mutate(catch = as.numeric(catch)) %>%
     mutate(year = as.numeric(as.character(year))) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
-    mutate(taxon_key = as.numeric(as.character(taxon_key))) %>%
-    select(rgn_id, year, species,taxon_key, catch)
+    mutate(key = as.character(key)) %>%
+    select(rgn_id, year, species,key, catch)
 
   # general formatting:
   b <- b %>%
     mutate(stock_key=as.character(stock_key))%>%
-    mutate(taxon_key=str_sub(stock_key, -4))%>%
+    mutate(key=str_sub(stock_key, -4))%>%
     mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
     mutate(value = as.numeric(value)) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
     mutate(year = as.numeric(as.character(year))) %>%
-    mutate(taxon_key = as.numeric(as.character(taxon_key))) %>%
-    mutate(species = as.character(species))
+    mutate(species = as.character(species)) %>%
+    mutate(key = as.character(key)) %>%
+    select(rgn_id, year, species,key, value)
 
+  # The following stocks are fished in multiple regions and have high b/bmsy values
+  # Due to the underfishing penalty, this actually penalizes the regions that have the highest
+  # proportion of catch of these stocks.  The following corrects this problem:
+  #  filter(b, stock_id %in% c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47'))
 
+  high_bmsy <- c('Tombo',"Taape", "Menpachi", "Munu","Roi")
+
+  b <- b %>%
+    mutate(value = ifelse(species %in% high_bmsy, 1, value))#not sure this is working
 
 
   # ------------------------------------------------------------------------
@@ -74,25 +74,25 @@ b <- b %>%
   # STEP 1. Merge the b/bmsy data with catch data
   # -----------------------------------------------------------------------
   data_fis <- c %>%
-    left_join(b, by=c('rgn_id', 'species', 'year')) %>%
-    select(rgn_id, species, year, catch, type, value)
+    left_join(b, by=c('rgn_id', 'species', 'year'))%>%
+    select(rgn_id, species, year, catch, key.x, value)
 
 
   # ------------------------------------------------------------------------
-  # STEP 2. Estimate scores for taxa without b/bmsy values
-  # Median score of other fish in the region is the starting point
+  # STEP 2. Estimate scores for taxa without stock assessment values
+  # Median score of other fish in the taxon group ("key.x"; bottom, pelagic, or reef fish) is an estimate
   # Then a penalty is applied based on the level the taxa are reported at # will need to address this for non-fish species -shrimp, cucumber, etc
   # -----------------------------------------------------------------------
 
   ## this takes the median score within each region
   data_fis_gf <- data_fis %>%
-    group_by(rgn_id, year) %>%
+    group_by(year, key.x) %>% #key.x is the taxon key to separate out bottom, pelagics, and reef fish
     mutate(Median_score = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup()
 
   ## this takes the median score across all regions (when no stocks have scores within a region)
   data_fis_gf <- data_fis_gf %>%
-    group_by(year) %>%
+    group_by(year, key.x) %>%
     mutate(Median_score_global = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup() %>%
     mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
@@ -103,6 +103,9 @@ b <- b %>%
   #  penalty for not identifying fisheries catch data to
   #  species level.
   #  ***********************************************
+
+  data_fis_gf <- data_fis_gf %>%
+    mutate(score = Median_score)
 
   penaltyTable <- data.frame(TaxonPenaltyCode=1:6,
                              penalty=c(0.1, 0.25, 0.5, 0.8, 0.9, 1))
@@ -121,7 +124,7 @@ b <- b %>%
     filter(year == status_year)
 
   status_data <- data_fis_gf %>%
-    select(rgn_id, species, year, catch, value)
+    select(rgn_id, species, year, catch, score)
 
 
   # ------------------------------------------------------------------------
@@ -140,7 +143,7 @@ b <- b %>%
 
   status_data <- status_data %>%
     group_by(rgn_id, year) %>%
-    summarize(status = prod(value^wprop)) %>%
+    summarize(status = prod(score^wprop)) %>%
     ungroup()
 
   # ------------------------------------------------------------------------
