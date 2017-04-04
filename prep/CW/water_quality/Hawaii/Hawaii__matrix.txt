@@ -1,0 +1,755 @@
+
+Code 	Short Name                	Long Name                                         	Hawaii Totals	    Hawaii	  Honolulu	   Kalawao	     Kauai	      Maui
+-----	--------------------------	--------------------------------------------------	-------------	----------	----------	----------	----------	----------
+00008	LAB      IDENT.   NUMBER  	NUMBER USED IN SAMPLE ACCOUNTING PROCEDURE        	          120	         0	       120	         0	         0	         0
+00010	WATER    TEMP     CENT    	TEMPERATURE, WATER (DEGREES CENTIGRADE)           	        16440	      2234	      9607	         0	      1999	      2600
+00020	AIR      TEMP     CENT    	TEMPERATURE, AIR (DEGREES CENTIGRADE)             	          207	         0	         0	         0	         0	       207
+00023	WEIGHT    POUNDS          	SAMPLE WEIGHT IN POUNDS                           	           62	         0	        62	         0	         0	         0
+00024	LENGTH    INCHES          	SAMPLE LENGTH IN INCHES                           	           67	         0	        67	         0	         0	         0
+00026	TOXICS   EPA IDEN FY      	TOXICS-IDENTIFY DATA COLLECTION BY EPA DIRECTIVE  	            4	         1	         2	         0	         0	         1
+00029	FIELD    IDENT    NUMBER  	NUMBER USED IN SAMPLE ACCOUNTING PROCEDURE        	            5	         2	         3	         0	         0	         0
+00032	CLOUD    COVER    PERCENT 	CLOUD COVER (PERCENT)                             	          110	         0	         0	         0	         0	       110
+00070	TURB     JKSN     JTU     	TURBIDITY, (JACKSON CANDLE UNITS)                 	         2313	         0	      2313	         0	         0	         0
+00074	TURB     TRANS    %       	TURBIDITY, TRANSMISSOMETER, PERCENT TRANSMISSION  	          669	         0	       669	         0	         0	         0
+00076	TURB     TRBIDMTR HACH FTU	TURBIDITY,HACH TURBIDIMETER (FORMAZIN TURB UNIT)  	          226	       155	        10	         0	        36	        25
+00077	TRANSP   SECCHI   INCHES  	TRANSPARENCY, SECCHI DISC (INCHES)                	         1827	         0	      1827	         0	         0	         0
+00078	TRANSP   SECCHI   METERS  	TRANSPARENCY, SECCHI DISC (METERS)                	         1729	       197	      1117	         0	       320	        95
+00095	CNDUCTVY AT 25C   MICROMHO	SPECIFIC CONDUCTANCE (UMHOS/CM @ 25C)             	          248	        29	       181	         0	        38	         0
+00299	DO       PROBE    MG/L    	OXYGEN ,DISSOLVED, ANALYSIS BY PROBE          MG/L	          431	       196	         0	         0	         0	       235
+00300	DO        MG/L            	OXYGEN, DISSOLVED                             MG/L	        14114	      1901	      8482	         0	      1797	      1934
+00301	DO       SATUR    PERCENT 	OXYGEN, DISSOLVED, PERCENT OF SATURATION         %	        14176	      2019	      8241	         0	      1786	      2130
+00310	BOD      5 DAY    MG/L    	BOD, 5 DAY, 20 DEG C                          MG/L	          243	         0	       243	         0	         0	         0
+00340	COD      HI LEVEL MG/L    	COD, .25N K2CR2O7                             MG/L	           43	        31	        12	         0	         0	         0
+00342	SEA COD   MG/L            	COD,  SALINE, .25N K2CR2O7                    MG/L	            9	         0	         9	         0	         0	         0
+00400	PH        SU              	PH (STANDARD UNITS)                               	        12428	      1691	      7120	         0	      1552	      2065
+00403	PH       LAB      SU      	PH, LAB, STANDARD UNITS                         SU	         1563	         0	      1557	         0	         0	         6
+00406	PH       FIELD    SU      	PH, FIELD, STANDARD UNITS                       SU	          460	       231	         0	         0	         0	       229
+00410	T ALK    CACO3    MG/L    	ALKALINITY, TOTAL (MG/L AS CACO3)                 	          236	         0	         0	         0	         0	       236
+00415	PHEN-PH- LFIN ALK MG/L    	ALKALINITY, PHENOLPHTHALEIN (MG/L)                	          236	         0	         0	         0	         0	       236
+00480	SALINITY  PPTH            	SALINITY - PARTS PER THOUSAND                     	        33268	      5869	     19367	         0	      3276	      4756
+00500	RESIDUE  TOTAL    MG/L    	RESIDUE, TOTAL (MG/L)                             	          183	        20	       163	         0	         0	         0
+00505	RESIDUE  TOT VOL  MG/L    	RESIDUE, TOTAL VOLATILE (MG/L)                    	           13	        13	         0	         0	         0	         0
+00530	RESIDUE  TOT NFLT MG/L    	RESIDUE, TOTAL NONFILTRABLE (MG/L)                	         8916	      1131	      6119	         0	       860	       806
+00535	RESIDUE  VOL NFLT MG/L    	RESIDUE, VOLATILE NONFILTRABLE (MG/L)             	           11	        11	         0	         0	         0	         0
+00546	RESIDUE  SETTLBLE MG/L    	RESIDUE, SETTLEABLE (MG/L)                        	          295	         0	       295	         0	         0	         0
+00550	OIL-GRSE TOT-SXLT MG/L    	OIL & GREASE (SOXHLET EXTRACTION) TOTAL,REC.,MG/L 	           27	         0	        27	         0	         0	         0
+00556	OIL-GRSE FREON-GR MG/L    	OIL & GREASE (FREON EXTR.-GRAV METH) TOT,REC,MG/L 	           14	         0	        14	         0	         0	         0
+00600	TOTAL N  N        MG/L    	NITROGEN, TOTAL (MG/L AS N)                       	        10249	      1545	      6706	         0	      1014	       984
+00601	N-TOTAL  NON-FILT MG/L-N  	NITROGEN TOTAL  NON-FILTERABLE   (MG/L AS N)      	         1927	       855	         0	         0	         0	      1072
+00607	ORG N    DISS-N   MG/L    	NITROGEN, ORGANIC, DISSOLVED (MG/L AS N)          	          199	       199	         0	         0	         0	         0
+00608	NH3+NH4- N DISS   MG/L    	NITROGEN, AMMONIA, DISSOLVED (MG/L AS N)          	         1925	       855	         0	         0	         0	      1070
+00610	NH3+NH4- N TOTAL  MG/L    	NITROGEN, AMMONIA, TOTAL (MG/L AS N)              	         8340	      1103	      5628	         0	       842	       767
+00612	UN-IONZD NH3-N    MG/L    	AMMONIA, UNIONZED                      (MG/L AS N)	         9015	      1485	      5392	         0	       644	      1494
+00615	NO2-N    TOTAL    MG/L    	NITRITE NITROGEN, TOTAL (MG/L AS N)               	          960	         0	       960	         0	         0	         0
+00618	NO3-N    DISS     MG/L    	NITRATE NITROGEN, DISSOLVED (MG/L AS N)           	           45	        45	         0	         0	         0	         0
+00619	UN-IONZD NH3-NH3  MG/L    	AMMONIA, UNIONIZED (CALC FR TEMP-PH-NH4)  (MG/L)  	         9015	      1485	      5392	         0	       644	      1494
+00620	NO3-N    TOTAL    MG/L    	NITRATE NITROGEN, TOTAL (MG/L AS N)               	          974	         1	       973	         0	         0	         0
+00625	TOT KJEL N        MG/L    	NITROGEN, KJELDAHL, TOTAL, (MG/L AS N)            	         9697	      1347	      6301	         0	      1034	      1015
+00630	NO2&NO3  N-TOTAL  MG/L    	NITRITE PLUS NITRATE, TOTAL 1 DET. (MG/L AS N)    	         9715	      1378	      6310	         0	      1014	      1013
+00631	NO2&NO3  N-DISS   MG/L    	NITRITE PLUS NITRATE, DISS. 1 DET. (MG/L AS N)    	         1926	       855	         0	         0	         0	      1071
+00650	T PO4    PO4      MG/L    	PHOSPHATE, TOTAL (MG/L AS PO4)                    	         1581	         6	      1364	         0	         0	       211
+00651	PHOS D   OP WTM G F/F MG/L	PHOSPHOROUS DISS ORTHOPHOSPHATE WTM GF/F MG/L     	         1927	       855	         0	         0	         0	      1072
+00652	PHOS-DIS TOT WTM  MG/L P  	PHOSPHOROUS DISSOLVED TOTAL WHATMAN GF/F MG/L P   	         1926	       854	         0	         0	         0	      1072
+00665	PHOS-TOT  MG/L P          	PHOSPHORUS, TOTAL (MG/L AS P)                     	        10633	      1860	      6326	         0	      1036	      1411
+00666	PHOS-DIS  MG/L P          	PHOSPHORUS, DISSOLVED (MG/L AS P)                 	            1	         1	         0	         0	         0	         0
+00671	PHOS-DIS ORTHO    MG/L P  	PHOSPHORUS, DISSOLVED ORTHOPHOSPHATE (MG/L AS P)  	          245	       245	         0	         0	         0	         0
+00673	PHOS-DIS ORGANIC  MG/L P  	PHOSPHORUS, DISSOLVED ORGANIC (MG/L AS P)         	          199	       199	         0	         0	         0	         0
+00680	T ORG C  C        MG/L    	CARBON, TOTAL ORGANIC (MG/L AS C)                 	         2997	       906	      1008	         0	        15	      1068
+00681	D ORG C  C        MG/L    	CARBON, DISSOLVED ORGANIC (MG/L AS C)             	           17	         4	         9	         0	         2	         2
+00720	CYANIDE  CN-TOT   MG/L    	CYANIDE, TOTAL (MG/L AS CN)                  MG/L 	            1	         0	         1	         0	         0	         0
+00900	TOT HARD CACO3    MG/L    	HARDNESS, TOTAL (MG/L AS CACO3)                   	          216	         0	         0	         0	         0	       216
+00901	C HARD   CACO3    MG/L    	HARDNESS, CARBONATE (MG/L AS CACO3)               	          206	         0	         0	         0	         0	       206
+00902	NC HARD  CACO3    MG/L    	HARDNESS, NON-CARBONATE (MG/L AS CACO3)           	          209	         0	         0	         0	         0	       209
+00916	CALCIUM  CA-TOT   MG/L    	CALCIUM, TOTAL (MG/L AS CA)                       	           20	         0	        20	         0	         0	         0
+00927	MGNSIUM  MG,TOT   MG/L    	MAGNESIUM, TOTAL (MG/L AS MG)                     	          261	         0	       261	         0	         0	         0
+00937	PTSSIUM  K,TOT    MG/L    	POTASSIUM, TOTAL MG/L AS  K)                      	          246	         0	       246	         0	         0	         0
+00940	CHLORIDE TOTAL    MG/L    	CHLORIDE,TOTAL IN WATER                MG/L       	          454	        36	       418	         0	         0	         0
+00948	ASBESTOS WHL SAMP CNT/LITR	ASBESTOS,WHL SAMP, COUNT/LITER WITH LENGTH/WIDTH>1	            1	         0	         1	         0	         0	         0
+00955	SILICA   DISOLVED MG/L    	SILICA, DISSOLVED (MG/L AS SI02)                  	         1971	       901	         0	         0	         0	      1070
+00956	SILICA   TOTAL    MG/L    	SILICA, TOTAL (MG/L AS SI02)                      	          199	       199	         0	         0	         0	         0
+01002	ARSENIC  AS,TOT   UG/L    	ARSENIC, TOTAL (UG/L AS AS)                       	          127	        17	        87	         0	        16	         7
+01003	ARSENIC  SEDMG/KG DRY WGT 	ARSENIC IN BOTTOM DEPOSITS (MG/KG AS AS DRY WGT)  	          640	       158	       379	         0	        54	        49
+01004	ARSENIC  TISMG/KG WET WGT 	ARSENIC TOTAL IN FISH OR ANIMAL WET WT MG/KG      	           45	         5	        40	         0	         0	         0
+01012	BERYLIUM BE,TOT   UG/L    	BERYLLIUM, TOTAL (UG/L AS BE)                     	           24	         6	        15	         0	         0	         3
+01013	BERYLIUM SEDMG/KG DRY WGT 	BERYLLIUM IN BOTTOM DEPOSITS(MG/KG AS BE DRY WGT) 	           17	         5	         8	         0	         0	         4
+01026	CADMIUM  CD,SUSP  UG/L    	CADMIUM, SUSPENDED (UG/L AS CD)                   	            3	         1	         2	         0	         0	         0
+01027	CADMIUM  CD,TOT   UG/L    	CADMIUM, TOTAL (UG/L AS CD)                       	          356	        17	       320	         0	        16	         3
+01028	CD MUD   DRY WGT  MG/KG-CD	CADMIUM,TOTAL IN BOTTOM DEPOSITS (MG/KG,DRY WGT)  	          616	       148	       368	         0	        51	        49
+01029	CHROMIUM SEDMG/KG DRY WGT 	CHROMIUM,TOTAL IN BOTTOM DEPOSITS (MG/KG,DRY WGT) 	          639	       157	       380	         0	        54	        48
+01034	CHROMIUM CR,TOT   UG/L    	CHROMIUM, TOTAL (UG/L AS CR)                      	          314	        18	       272	         0	        16	         8
+01042	COPPER   CU,TOT   UG/L    	COPPER, TOTAL (UG/L AS CU)                        	          884	        17	       842	         0	        16	         9
+01043	COPPER   SEDMG/KG DRY WGT 	COPPER IN BOTTOM DEPOSITS (MG/KG AS CU DRY WGT)   	          643	       158	       381	         0	        54	        50
+01044	IRON     FE,SUSP  UG/L    	IRON, SUSPENDED (UG/L AS FE)                      	            3	         1	         2	         0	         0	         0
+01045	IRON     FE,TOT   UG/L    	IRON, TOTAL (UG/L AS FE)                          	          535	         0	       535	         0	         0	         0
+01051	LEAD     PB,TOT   UG/L    	LEAD, TOTAL (UG/L AS PB)                          	          566	        17	       525	         0	        16	         8
+01052	LEAD     SEDMG/KG DRY WGT 	LEAD IN BOTTOM DEPOSITS (MG/KG AS PB DRY WGT)     	          656	       158	       396	         0	        52	        50
+01053	MN MUD   DRY WGT  MG/KG-MN	MANGANESE IN BOTTOM DEPOSITS (MG/KG AS MN DRY WGT)	            1	         0	         1	         0	         0	         0
+01055	MANGNESE MN       UG/L    	MANGANESE, TOTAL (UG/L AS MN)                     	          702	         0	       702	         0	         0	         0
+01059	THALLIUM TL,TOTAL UG/L    	THALLIUM, TOTAL (UG/L AS TL)                      	           22	         5	        14	         0	         0	         3
+01067	NICKEL   NI,TOTAL UG/L    	NICKEL, TOTAL (UG/L AS NI)                        	          176	        17	       135	         0	        16	         8
+01068	NICKEL   SEDMG/KG DRY WGT 	NICKEL, TOTAL IN BOTTOM DEPOSITS (MG/KG,DRY WGT)  	          644	       160	       380	         0	        54	        50
+01069	NICKEL   TISMG/KG WET WGT 	NICKEL, TOTAL IN FISH OR ANIMALS-WET WEIGHT MG/KG 	           36	         6	        30	         0	         0	         0
+01073	THALLIUM TIS-WET  MG/KG   	THALLIUM,TISSUE,WET WEIGHT,MG/KG                  	           18	         6	        12	         0	         0	         0
+01077	SILVER   AG,TOT   UG/L    	SILVER, TOTAL (UG/L AS AG)                        	          226	         5	       218	         0	         0	         3
+01078	SILVER   SEDMG/KG DRY WGT 	SILVER IN BOTTOM DEPOSITS (MG/KG AS AG DRY WGT)   	           15	         4	         8	         0	         0	         3
+01082	STRONTUM SR,TOT   UG/L    	STRONTIUM, TOTAL (UG/L AS SR)                     	           20	         0	        20	         0	         0	         0
+01092	ZINC     ZN,TOT   UG/L    	ZINC, TOTAL (UG/L AS ZN)                          	          856	        17	       813	         0	        18	         8
+01093	ZINC     SEDMG/KG DRY WGT 	ZINC IN BOTTOM DEPOSITS (MG/KG AS ZN DRY WGT)     	          644	       160	       380	         0	        54	        50
+01097	ANTIMONY SB,TOT   UG/L    	ANTIMONY, TOTAL (UG/L AS SB)                      	           24	         6	        15	         0	         0	         3
+01098	ANTIMONY SEDMG/KG DRY WGT 	ANTIMONY IN BOTTOM DEPOSITS (MG/KG AS SB DRY WGT) 	           17	         5	         8	         0	         0	         4
+01099	ANTIMONY TIS-WET  MG/KG   	ANTIMONY,TISSUE,WET WEIGHT,MG/KG                  	           19	         7	        12	         0	         0	         0
+01140	SILICON  SI,DISS  UG/L    	SILICON, DISSOLVED (UG/L AS SI)                   	            1	         1	         0	         0	         0	         0
+01147	SELENIUM SE,TOT   UG/L    	SELENIUM, TOTAL (UG/L AS SE)                      	           20	         5	        13	         0	         0	         2
+01148	SELENIUM SEDMG/KG DRY WGT 	SELENIUM IN BOTTOM DEPOSITS (MG/KG AS SE DRY WGT) 	           13	         4	         6	         0	         0	         3
+01149	SELENIUM TISMG/KG WET WGT 	SELENIUM, TOTAL IN FISH OR ANIMALS WET WGT MG/KG  	           29	         6	        23	         0	         0	         0
+01170	FE MUD   DRY WGT  MG/KG-FE	IRON IN BOTTOM DEPOSITS (MG/KG AS FE DRY WGT)     	            4	         0	         4	         0	         0	         0
+03726	TOC      ELUTRIAT MG/L    	TOTAL ORGANIC CARBON (TOC),LIQ FRAC,ELUTRIATE MG/L	           18	        18	         0	         0	         0	         0
+30344	PCD12378 DIOXIN   TIS PG/G	PENTACHLORODIBENZO-P-DIOXIN,12378,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+30345	HCD12347 8 DIOXIN TIS PG/G	HEXACHLORODIBENZO-P-DIOXIN,123478,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+30346	HCD12367 8 DIOXIN TIS PG/G	HEXACHLORODIBENZO-P-DIOXIN,123678,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+30347	HCD12378 9 DIOXIN TIS PG/G	HEXACHLORODIBENZO-P-DIOXIN,123789,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+30348	HCD12346 78DIOXIN FISHPG/G	HEPTACHLORODIBENZO-P-DIOXIN,1234678,TIS,WETWT,PG/G	            4	         2	         2	         0	         0	         0
+30349	TCD2378  FURAN    TIS PG/G	TETRACHLORODIBENZOFURAN, 2378- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30350	PCD12378 FURAN    TIS PG/G	PENTACHLORODIBENZOFURAN,12378- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30351	PCD23478 FURAN    TIS PG/G	PENTACHLORODIBENZOFURAN,23478- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30352	HCD12347 8 FURAN  TIS PG/G	HEXACHLORODIBENZOFURAN,123478- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30353	HCD12367 8 FURAN  TIS PG/G	HEXACHLORODIBENZOFURAN,123678- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30354	HCD12378 9 FURAN  TIS PG/G	HEXACHLORODIBENZOFURAN,123789- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30355	HCD23467 8 FURAN  TIS PG/G	HEXACHLORODIBENZOFURAN,234678- , FISH,WET WT.,PG/G	            4	         2	         2	         0	         0	         0
+30356	HCD12346 78 FURAN TIS PG/G	HEPTACHLORODIBENZOFURAN,1234678- ,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+30357	HCD12347 89 FURAN TIS PG/G	HEPTACHLORODIBENZOFURAN,1234789- ,FISH,WET WT,PG/G	            4	         2	         2	         0	         0	         0
+31501	TOT COLI MFIMENDO /100ML  	COLIFORM,TOT,MEMBRANE FILTER,IMMED.M-ENDO MED,35C 	          986	         0	       986	         0	         0	         0
+31503	TOT COLI MFDLENDO /100ML  	COLIFORM,TOT,MEMBR FILTER,DELAYED,M-ENDO MED,35 C 	            1	         0	         1	         0	         0	         0
+31504	TOT COLI MFIM LES /100ML  	COLIFORM,TOT,MEMBR FILTER,IMMED,LES ENDO AGAR,35C 	           12	        10	         0	         0	         2	         0
+31505	TOT COLI MPN CONF /100ML  	COLIFORM,TOT,MPN,CONFIRMED TEST,35C (TUBE 31506)  	        23105	      6679	     11991	         0	      2343	      2092
+31613	FEC COLI M-FCAGAR /100ML  	FECAL COLIFORM,MEMBR FILTER,M-FC AGAR,44.5C,24HR  	            1	         1	         0	         0	         0	         0
+31615	FEC COLI MPNECMED /100ML  	FECAL COLIFORM,MPN,EC MED,44.5C (TUBE 31614)      	        23582	      6915	     12135	         0	      2304	      2228
+31616	FEC COLI MFM-FCBR /100ML  	FECAL COLIFORM,MEMBR FILTER,M-FC BROTH,44.5 C     	        15051	      2466	     10073	         0	      1235	      1277
+31621	FEC COLI A-1M H20 MPN     	FECAL COLIFORM,A-1 MOD,WATER,44.5C,24HR MPN/100ML 	           26	        26	         0	         0	         0	         0
+31626	FECSTREP MPNADPS  E #/100M	FECAL STREP, 5 TUBE MPN AD PSE  #/100 ML          	           18	        18	         0	         0	         0	         0
+31628	TOT COLI MF VERI  #/100ML 	TOTAL COLIFORM,MF,MFC MEDIUM,VERIFIED #/100ML     	           25	        25	         0	         0	         0	         0
+31639	ENTCOCCI GR D,MF  #/100ML 	ENTEROCOCCI GROUP D,MF TRANS,M-E,EIA  #/100ML     	        27143	      4804	     15619	         0	      2616	      4104
+31678	FECSTREP MPN      TUBECODE	FECAL STREPTOCOCCI,MPN,AD-EVA,TUBE CONFIGURATION  	         1342	       489	       199	         0	       568	        86
+31710	STAPH    AUR CONF /100ML  	STAPHYLOCOCCUS AUREUS MF TECH. CONF GRAM STAIN    	          251	         0	       251	         0	         0	         0
+32101	DICLBRMT  TOTUG/L         	BROMODICHLOROMETHANE,WHOLE WATER,UG/L             	           21	         6	        11	         0	         3	         1
+32102	CARBNTET  TOTUG/L         	CARBON TETRACHLORIDE,WHOLE WATER,UG/L             	           13	         4	         8	         0	         0	         1
+32103	12DICLET  TOTUG/L         	1,2-DICHLOROETHANE,WHOLE WATER,UG/L               	           13	         4	         8	         0	         0	         1
+32104	BROMOFRM WHL-WTR  UG/L    	BROMOFORM,WHOLE WATER,UG/L                        	           13	         4	         8	         0	         0	         1
+32105	CLDIBRMT  TOTUG/L         	DIBROMOCHLOROMETHANE,WHOLE WATER,UG/L             	           21	         6	        11	         0	         3	         1
+32106	CHLRFORM  TOTUG/L         	CHLOROFORM,WHOLE WATER,UG/L                       	           37	        10	        13	         5	         6	         3
+32209	CHLRPHYL A        UG/L    	CHLOROPHYLL A UG/L FLUOROMETRIC CORRECTED         	         9292	      1771	      4971	         0	       794	      1756
+32230	CHLRPHYL A        MG/L    	CHLOROPHYLL A (MG/L)                              	          225	       225	         0	         0	         0	         0
+32730	PHENOLS  TOTAL    UG/L    	PHENOLICS, TOTAL, RECOVERABLE (UG/L)              	          181	         0	       181	         0	         0	         0
+34010	TOLUENE   TOT UG/L        	TOLUENE IN WTR SMPLE GC-MS, HEXADECONE EXTR.(UG/L)	           37	        10	        13	         5	         6	         3
+34030	BENZENE   TOT UG/L        	BENZENE IN WTR SMPLE GC-MS, HEXADECONE EXTR.(UG/L)	           37	        10	        13	         5	         6	         3
+34198	DELTABHC WTR WHL  LBS/DAY 	BHC-DELTA, WATER, WHOLE                    LBS/DAY	            1	         0	         1	         0	         0	         0
+34200	ACENAPHT HYLENE   TOTWUG/L	ACENAPHTHYLENE                            TOTWUG/L	           23	         5	        12	         0	         2	         4
+34203	ACNAPTHY SEDUG/KG DRY WGT 	ACENAPHTHYLENE                     DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34204	ACNAPTHY TISMG/KG WET WGT 	ACENAPHTHYLENE                     WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34205	ACENAPHT HENE     TOTWUG/L	ACENAPHTHENE                              TOTWUG/L	           23	         5	        12	         0	         2	         4
+34208	ACNAPTHE SEDUG/KG DRY WGT 	ACENAPHTHENE                       DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34209	ACNAPTHE TISMG/KG WET WGT 	ACENAPHTHENE                       WET WGTTISMG/KG	            7	         1	         6	         0	         0	         0
+34210	ACROLEIN  TOTWUG/L        	ACROLEIN                                  TOTWUG/L	           10	         4	         5	         0	         0	         1
+34213	ACROLEIN SEDUG/KG DRY WGT 	ACROLEIN                           DRY WGTBOTUG/KG	           11	         3	         4	         0	         0	         4
+34214	ACROLEIN TISMG/KG WET WGT 	ACROLEIN                           WET WGTTISMG/KG	           10	         7	         3	         0	         0	         0
+34215	ACRYLONI TRILE    TOTWUG/L	ACRYLONITRILE                             TOTWUG/L	           10	         4	         5	         0	         0	         1
+34218	ACRYLNIT SEDUG/KG DRY WGT 	ACRYLONITRILE                      DRY WGTBOTUG/KG	           11	         3	         4	         0	         0	         4
+34219	ACRYLNIT TISMG/KG WET WGT 	ACRYLONITRILE                      WET WGTTISMG/KG	           10	         7	         3	         0	         0	         0
+34220	ANTHRACE NE       TOTWUG/L	ANTHRACENE                                TOTWUG/L	           20	         5	         9	         0	         2	         4
+34223	ANTHRACE SEDUG/KG DRY WGT 	ANTHRACENE                         DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34224	ANTHRACE TISMG/KG WET WGT 	ANTHRACENE                         WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34230	BENZBFLU ORANT TO TAL UG/L	BENZO(B)FLUORANTHENE,WHOLE WATER,UG/L             	           22	         5	        11	         0	         2	         4
+34233	BENZBFLU ORANTMUD DRYUG/KG	BENZO(B)FLUORANTHENE,SEDIMENTS,DRY WGT,UG/KG      	           19	         4	        11	         0	         0	         4
+34234	BENZBFLU ORANTTIS WETMG/KG	BENZO(B)FLUORANTHENE,TISSUE,WET WGT,MG/KG         	           19	         7	        11	         0	         0	         1
+34237	BENZENE  SEDUG/KG DRY WGT 	BENZENE                            DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34238	BENZENE  TISMG/KG WET WGT 	BENZENE                            WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34241	BENZIDIN TISMG/KG WET WGT 	BENZIDINE                          WET WGTTISMG/KG	           16	         7	         8	         0	         0	         1
+34242	BENZO(K) FLUORANT TOTWUG/L	BENZO(K)FLUORANTHENE, TOTAL, WATER            UG/L	           20	         5	        12	         0	         0	         3
+34243	BENZO(K) FLUORANT DISSUG/L	BENZO(K)FLUORANTHENE, DISSOLVED, WATER        UG/L	            3	         0	         0	         0	         2	         1
+34245	BENZKFLU SEDUG/KG DRY WGT 	BENZO(K)FLUORANTHENE, DRY WT, SEDIMENT       UG/KG	           19	         4	        11	         0	         0	         4
+34246	BENZKFLU TISMG/KG WET WGT 	BENZO(K)FLUORANTHENE, WET WT, TISSUE         MG/KG	           19	         7	        11	         0	         0	         1
+34247	BENZO(A) PYRENE   TOTWUG/L	BENZO-A-PYRENE                            TOTWUG/L	           23	         5	        12	         0	         2	         4
+34250	BENZAPYR SEDUG/KG DRY WGT 	BENZO-A-PYRENE                     DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34251	BENZAPYR TISMG/KG WET WGT 	BENZO-A-PYRENE                     WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34252	BERYLIUM TISMG/KG WET WGT 	BERYLLIUM                          WET WGTTISMG/KG	           19	         7	        12	         0	         0	         0
+34257	BETA BHC SEDUG/KG DRY WGT 	B-BHC-BETA                         DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34258	BETA BHC TISMG/KG WET WGT 	B-BHC-BETA                         WET WGTTISMG/KG	           20	         8	        11	         0	         0	         1
+34259	DELTABHC  TOTUG/L         	DELTA BENZENE HEXACHLORIDE                TOTWUG/L	           19	         5	        11	         0	         0	         3
+34262	DELTABHC SEDUG/KG DRY WGT 	DELTA BENZENE HEXACHLORIDE         DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34263	DELTABHC TISMG/KG WET WGT 	DELTA BENZENE HEXACHLORIDE         WET WGTTISMG/KG	           20	         8	        11	         0	         0	         1
+34271	BCLMTETR SEDUG/KG DRY WGT 	BIS (CHLOROMETHYL) ETHER           DRY WGTBOTUG/KG	            1	         0	         1	         0	         0	         0
+34272	BCLMTETR TISMG/KG WET WGT 	BIS (CHLOROMETHYL) ETHER           WET WGTTISMG/KG	            1	         0	         1	         0	         0	         0
+34273	BIS2CHLO ROETHYLE TOTWUG/L	BIS (2-CHLOROETHYL) ETHER                 TOTWUG/L	           23	         5	        12	         0	         2	         4
+34276	B2CETETR SEDUG/KG DRY WGT 	BIS (2-CHLOROETHYL) ETHER          DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34277	B2CETETR TISMG/KG WET WGT 	BIS (2-CHLOROETHYL) ETHER          WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34278	BIS2CHLO ROETHOXY TOTWUG/L	BIS (2-CHLOROETHOXY) METHANE              TOTWUG/L	           23	         5	        12	         0	         2	         4
+34281	B2CETOXM SEDUG/KG DRY WGT 	BIS (2-CHLOROETHOXY) METHANE       DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34282	B2CETOXM TISMG/KG WET WGT 	BIS (2-CHLOROETHOXY) METHANE       WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34283	BIS2CHLO ROISOPRO TOTWUG/L	BIS (2-CHLOROISOPROPYL) ETHER             TOTWUG/L	           20	         5	         9	         0	         2	         4
+34286	B2CIPETR SEDUG/KG DRY WGT 	BIS (2-CHLOROISOPROPYL) ETHER      DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34287	B2CIPETR TISMG/KG WET WGT 	BIS (2-CHLOROISOPROPYL) ETHER      WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34288	BROMOFOR  DISSUG/L        	BROMOFORM                                 DISSUG/L	           24	         6	         5	         5	         6	         2
+34290	BROMOFOR SEDUG/KG DRY WGT 	BROMOFORM                          DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34291	BROMOFOR TISMG/KG WET WGT 	BROMOFORM                          WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34292	NBB PHTH TOTAL    UG/L    	N-BUTYL BENZYL PHTHALATE,WHOLE WATER,UG/L         	           23	         5	        12	         0	         2	         4
+34293	NBB PHTH DISS     UG/L    	N-BUTYL BENZYL PHTHALATE,DISSOLVED,UG/L           	            3	         0	         3	         0	         0	         0
+34295	NBB PHTH MUD-DRY  UG/KG   	N-BUTYL BENZYL PHTHALATE,SEDIMENTS,DRY WGT,UG/KG  	           19	         4	        11	         0	         0	         4
+34296	NBB PHTH TIS-WET  MG/KG   	N-BUTYL BENZYL PHTHALATE,TISSUE,WET WGT,MG/KG     	           19	         7	        11	         0	         0	         1
+34297	CARBONTE TRACHLOR DISSUG/L	CARBON TETRACHLORIDE                      DISSUG/L	           27	         6	         8	         5	         6	         2
+34299	CARBNTET SEDUG/KG DRY WGT 	CARBON TETRACHLORIDE               DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34300	CARBNTET TISMG/KG WET WGT 	CARBON TETRACHLORIDE               WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34301	CHLOROBE NZENE    TOTWUG/L	CHLOROBENZENE                             TOTWUG/L	           13	         4	         8	         0	         0	         1
+34303	CHLOROBE NZENE    SUSPUG/L	CHLOROBENZENE                             SUSPUG/L	           24	         6	         5	         5	         6	         2
+34304	CLBENZEN SEDUG/KG DRY WGT 	CHLOROBENZENE                      DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34305	CLBENZEN TISMG/KG WET WGT 	CHLOROBENZENE                      WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34306	CHLORODI BROMOMET TOTWUG/L	CHLORODIBROMOMETHANE                      TOTWUG/L	           16	         4	         2	         5	         3	         2
+34309	CLDIBRMT SEDUG/KG DRY WGT 	CHLORODIBROMOMETHANE               DRY WGTBOTUG/KG	           14	         2	         8	         0	         0	         4
+34310	CLDIBRMT TISMG/KG WET WGT 	CHLORODIBROMOMETHANE               WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34311	CHLOROET HANE     TOTWUG/L	CHLOROETHANE                              TOTWUG/L	           36	        10	        12	         5	         6	         3
+34314	CLETHANE SEDUG/KG DRY WGT 	CHLOROETHANE                       DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34315	CLETHANE TISMG/KG WET WGT 	CHLOROETHANE                       WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34318	CHLRFORM SEDUG/KG DRY WGT 	CHLOROFORM                         DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34319	CHLRFORM TISMG/KG WET WGT 	CHLOROFORM                         WET WGTTISMG/KG	           11	         7	         4	         0	         0	         0
+34320	CHRYSENE  TOTWUG/L        	CHRYSENE                                  TOTWUG/L	           23	         5	        12	         0	         2	         4
+34323	CHRYSENE SEDUG/KG DRY WGT 	CHRYSENE                           DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34324	CHRYSENE TISMG/KG WET WGT 	CHRYSENE                           WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34328	DICHLORO BROMOMET DISSUG/L	DICHLOROBROMOMETHANE                      DISSUG/L	            3	         0	         0	         0	         2	         1
+34330	DICLBRMT SEDUG/KG DRY WGT 	DICHLOROBROMOMETHANE               DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34331	DICLBRMT TISMG/KG WET WGT 	DICHLOROBROMOMETHANE               WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34335	DCLDFLMT TISMG/KG WET WGT 	DICHLORODIFLUOROMETHANE            WET WGTTISMG/KG	            1	         1	         0	         0	         0	         0
+34336	DIETHYLP HTHALATE TOTWUG/L	DIETHYL PHTHALATE                         TOTWUG/L	           27	         9	        12	         0	         2	         4
+34339	DETHPHTH SEDUG/KG DRY WGT 	DIETHYL PHTHALATE                  DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34340	DETHPHTH TISMG/KG WET WGT 	DIETHYL PHTHALATE                  WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34341	DIMETHYL PHTHALAT TOTWUG/L	DIMETHYL PHTHALATE                        TOTWUG/L	           23	         5	        12	         0	         2	         4
+34344	DMETPHTH SEDUG/KG DRY WGT 	DIMETHYL PHTHALATE                 DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34345	DMETPHTH TISMG/KG WET WGT 	DIMETHYL PHTHALATE                 WET WGTTISMG/KG	           18	         7	        10	         0	         0	         1
+34346	12DIPHEN YLHYDRAZ TOTWUG/L	1,2-DIPHENYLHYDRAZINE                     TOTWUG/L	           17	         5	         9	         0	         0	         3
+34349	12DPHNHY SEDUG/KG DRY WGT 	1,2-DIPHENYLHYDRAZINE              DRY WGTBOTUG/KG	           16	         4	         8	         0	         0	         4
+34350	12DPHNHY TISMG/KG WET WGT 	1,2-DIPHENYLHYDRAZINE              WET WGTTISMG/KG	           16	         7	         8	         0	         0	         1
+34351	ENDSULSF  TOTUG/L         	ENDOSULFAN SULFATE                        TOTWUG/L	           20	         5	        12	         0	         0	         3
+34354	ENDSULSF SEDUG/KG DRY WGT 	ENDOSULFAN SULFATE                 DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34355	ENDSULSF TISMG/KG WET WGT 	ENDOSULFAN SULFATE                 WET WGTTISMG/KG	           20	         8	        11	         0	         0	         1
+34356	B-ENDO   SULFAN   TOTWUG/L	ENDOSULFAN, BETA                          TOTWUG/L	           22	         5	        14	         0	         0	         3
+34359	BENDOSUL SEDUG/KG DRY WGT 	ENDOSULFAN, BETA                   DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34360	BENDOSUL TISMG/KG WET WGT 	ENDOSULFAN, BETA                   WET WGTTISMG/KG	           15	         7	         7	         0	         0	         1
+34361	A-ENDO   SULFAN   TOTWUG/L	ENDOSULFAN, ALPHA                         TOTWUG/L	           20	         5	        12	         0	         0	         3
+34364	AENDOSUL SEDUG/KG DRY WGT 	ENDOSULFAN, ALPHA                  DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34365	AENDOSUL TISMG/KG WET WGT 	ENDOSULFAN, ALPHA                  WET WGTTISMG/KG	           23	        10	        12	         0	         0	         1
+34366	ENDRINAL DEHYDE   TOTWUG/L	ENDRIN ALDEHYDE                           TOTWUG/L	           25	         7	        13	         0	         0	         5
+34369	ENDRINAL SEDUG/KG DRY WGT 	ENDRIN ALDEHYDE                    DRY WGTBOTUG/KG	            5	         2	         2	         0	         0	         1
+34370	ENDRINAL TISMG/KG WET WGT 	ENDRIN ALDEHYDE                    WET WGTTISMG/KG	           13	         5	         7	         0	         0	         1
+34371	ETHYLBEN ZENE     TOTWUG/L	ETHYLBENZENE                              TOTWUG/L	           12	         4	         7	         0	         0	         1
+34374	ETHYLBEN SEDUG/KG DRY WGT 	ETHYLBENZENE                       DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34375	ETHYLBEN TISMG/KG WET WGT 	ETHYLBENZENE                       WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34376	FLUORANT HENE     TOTWUG/L	FLUORANTHENE                              TOTWUG/L	           23	         5	        12	         0	         2	         4
+34379	FLANTENE SEDUG/KG DRY WGT 	FLUORANTHENE                       DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34380	FLANTENE TISMG/KG WET WGT 	FLUORANTHENE                       WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34381	FLUORENE  TOTWUG/L        	FLUORENE                                  TOTWUG/L	           20	         5	         9	         0	         2	         4
+34384	FLUORENE SEDUG/KG DRY WGT 	FLUORENE                           DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34385	FLUORENE TISMG/KG WET WGT 	FLUORENE                           WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34386	HEXACHLO ROCYCLOP TOTWUG/L	HEXACHLOROCYCLOPENTADIENE                 TOTWUG/L	           23	         5	        12	         0	         2	         4
+34389	HEXCLCPD SEDUG/KG DRY WGT 	HEXACHLOROCYCLOPENTADIENE          DRY WGTBOTUG/KG	            8	         1	         6	         0	         0	         1
+34390	HEXCLCPD TISMG/KG WET WGT 	HEXACHLOROCYCLOPENTADIENE          WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34391	HEXACHLO ROBUTADI TOTWUG/L	HEXACHLOROBUTADIENE                       TOTWUG/L	           10	         1	         5	         0	         2	         2
+34395	HEXCLBD  TISMG/KG WET WGT 	HEXACHLOROBUTADIENE                WET WGTTISMG/KG	           22	         8	        13	         0	         0	         1
+34396	HEXACHLO ROETHANE TOTWUG/L	HEXACHLOROETHANE                          TOTWUG/L	           23	         5	        12	         0	         2	         4
+34399	HEXACLET SEDUG/KG DRY WGT 	HEXACHLOROETHANE                   DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34400	HEXACLET TISMG/KG WET WGT 	HEXACHLOROETHANE                   WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34403	INDENO(1 23CD)PYR TOTWUG/L	INDENO (1,2,3-CD) PYRENE                  TOTWUG/L	           23	         5	        12	         0	         2	         4
+34406	I123CDPR SEDUG/KG DRY WGT 	INDENO (1,2,3-CD) PYRENE           DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34407	I123CDPR TISMG/KG WET WGT 	INDENO (1,2,3-CD) PYRENE           WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34408	ISPHRONE  TOTUG/L         	ISOPHORONE                                TOTWUG/L	           23	         5	        12	         0	         2	         4
+34411	ISPHRONE SEDUG/KG DRY WGT 	ISOPHORONE                         DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34412	ISPHRONE TISMG/KG WET WGT 	ISOPHORONE                         WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34413	METHYLBR OMIDE    TOTWUG/L	METHYL BROMIDE                            TOTWUG/L	           37	        10	        13	         5	         6	         3
+34416	METHYLBR SEDUG/KG DRY WGT 	METHYL BROMIDE                     DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34417	METHYLBR TISMG/KG WET WGT 	METHYL BROMIDE                     WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34418	METHYLCH LORIDE   TOTWUG/L	METHYL CHLORIDE                           TOTWUG/L	           34	        10	        13	         5	         4	         2
+34420	METHYLCH LORIDE   SUSPUG/L	METHYL CHLORIDE                           SUSPUG/L	            3	         0	         3	         0	         0	         0
+34421	METHYLCL SEDUG/KG DRY WGT 	METHYL CHLORIDE                    DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34422	METHYLCL TISMG/KG WET WGT 	METHYL CHLORIDE                    WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34423	METHYLEN ECHLORID TOTWUG/L	METHYLENE CHLORIDE                        TOTWUG/L	           29	         8	        10	         5	         3	         3
+34426	MTHLENCL SEDUG/KG DRY WGT 	METHYLENE CHLORIDE                 DRY WGTBOTUG/KG	           13	         3	         6	         0	         0	         4
+34427	MTHLENCL TISMG/KG WET WGT 	METHYLENE CHLORIDE                 WET WGTTISMG/KG	           11	         6	         5	         0	         0	         0
+34428	NITROSOD IPROPYLA TOTWUG/L	N-NITROSODI-N-PROPYLAMINE                 TOTWUG/L	           23	         5	        12	         0	         2	         4
+34431	NITDNPRA SEDUG/KG DRY WGT 	N-NITROSODI-N-PROPYLAMINE          DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34432	NITDNPRA TISMG/KG WET WGT 	N-NITROSODI-N-PROPYLAMINE          WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34433	NITROSOD IPHENYLA TOTWUG/L	N-NITROSODIPHENYLAMINE                    TOTWUG/L	           23	         5	        12	         0	         2	         4
+34436	NITRSDPA SEDUG/KG DRY WGT 	N-NITROSODIPHENYLAMINE             DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34437	NITRSDPA TISMG/KG WET WGT 	N-NITROSODIPHENYLAMINE             WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34438	NITROSOD IMETHYLA TOTWUG/L	N-NITROSODIMETHYLAMINE                    TOTWUG/L	           20	         5	         9	         0	         2	         4
+34441	NITRSDMA SEDUG/KG DRY WGT 	N-NITROSODIMETHYLAMINE             DRY WGTBOTUG/KG	           16	         4	         8	         0	         0	         4
+34442	NITRSDMA TISMG/KG WET WGT 	N-NITROSODIMETHYLAMINE             WET WGTTISMG/KG	            4	         1	         3	         0	         0	         0
+34445	NAPTHALE SEDUG/KG DRY WGT 	NAPHTHALENE                        DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34446	NAPTHALE TISMG/KG WET WGT 	NAPHTHALENE                        WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34447	NITROBEN ZENE     TOTWUG/L	NITROBENZENE                              TOTWUG/L	           22	         5	        12	         0	         2	         3
+34450	NITROBEN SEDUG/KG DRY WGT 	NITROBENZENE                       DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34451	NITROBEN TISMG/KG WET WGT 	NITROBENZENE                       WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34452	PARACHLO ROMETACR TOTWUG/L	PARACHLOROMETA CRESOL                     TOTWUG/L	           20	         5	         9	         0	         2	         4
+34455	PCLMCRES SEDUG/KG DRY WGT 	PARACHLOROMETA CRESOL              DRY WGTBOTUG/KG	           15	         4	         7	         0	         0	         4
+34456	PCLMCRES TISMG/KG WET WGT 	PARACHLOROMETA CRESOL              WET WGTTISMG/KG	           16	         7	         8	         0	         0	         1
+34461	PHENANTH RENE     TOTWUG/L	PHENANTHRENE                              TOTWUG/L	           23	         5	        12	         0	         2	         4
+34464	PHENANTH SEDUG/KG DRY WGT 	PHENANTHRENE                       DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34465	PHENANTH TISMG/KG WET WGT 	PHENANTHRENE                       WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34468	PHENOL   TISMG/KG WET WGT 	PHENOL                             WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34469	PYRENE    TOTWUG/L        	PYRENE                                    TOTWUG/L	           23	         5	        12	         0	         2	         4
+34472	PYRENE   SEDUG/KG DRY WGT 	PYRENE                             DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34473	PYRENE   TISMG/KG WET WGT 	PYRENE                             WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34474	SILVER   TISMG/KG WET WGT 	SILVER                             WET WGTTISMG/KG	           18	         6	        12	         0	         0	         0
+34475	TETRACHL OROETHYL TOTWUG/L	TETRACHLOROETHYLENE                       TOTWUG/L	           96	        22	        49	         8	         8	         9
+34478	TETCLETE SEDUG/KG DRY WGT 	TETRACHLOROETHYLENE                DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34479	TETCLETE TISMG/KG WET WGT 	TETRACHLOROETHYLENE                WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34480	THALLIUM SEDMG/KG DRY WGT 	THALLIUM                           DRY WGTBOTMG/KG	           15	         4	         8	         0	         0	         3
+34483	TOLUENE  SEDUG/KG DRY WGT 	TOLUENE                            DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34484	TOLUENE  TISMG/KG WET WGT 	TOLUENE                            WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34485	TRICHLOR OETHYLEN DISSUG/L	TRICHLOROETHYLENE                         DISSUG/L	           71	        17	        31	         8	         9	         6
+34487	TRICLETE SEDUG/KG DRY WGT 	TRICHLOROETHYLENE                  DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34488	TRICHLOR OFLUOROM TOTWUG/L	TRICHLOROFLUOROMETHANE                    TOTWUG/L	            7	         3	         3	         0	         0	         1
+34491	TRCLFLMT SEDUG/KG DRY WGT 	TRICHLOROFLUOROMETHANE             DRY WGTBOTUG/KG	            9	         1	         4	         0	         0	         4
+34492	TRCLFLMT TISMG/KG WET WGT 	TRICHLOROFLUOROMETHANE             WET WGTTISMG/KG	            5	         2	         3	         0	         0	         0
+34495	VINYLCHL SEDUG/KG DRY WGT 	VINYL CHLORIDE                     DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34496	11DICHLO ROETHANE TOTWUG/L	1,1-DICHLOROETHANE                        TOTWUG/L	           13	         4	         8	         0	         0	         1
+34497	11DICHLO ROETHANE DISSUG/L	1,1-DICHLOROETHANE                        DISSUG/L	           25	         6	         6	         5	         6	         2
+34499	11DICLET SEDUG/KG DRY WGT 	1,1-DICHLOROETHANE                 DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34500	11DICLET TISMG/KG WET WGT 	1,1-DICHLOROETHANE                 WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34501	11DICHLO ROETHYLE TOTWUG/L	1,1-DICHLOROETHYLENE                      TOTWUG/L	           38	        10	        14	         5	         6	         3
+34504	11DCETEN SEDUG/KG DRY WGT 	1,1-DICHLOROETHYLENE               DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34505	11DCETEN TISMG/KG WET WGT 	1,1-DICHLOROETHYLENE               WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34506	111TRICH LOROETHA TOTWUG/L	1,1,1-TRICHLOROETHANE                     TOTWUG/L	           38	        10	        14	         5	         6	         3
+34509	111TCLET SEDUG/KG DRY WGT 	1,1,1-TRICHLOROETHANE              DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34510	111TCLET TISMG/KG WET WGT 	1,1,1-TRICHLOROETHANE              WET WGTTISMG/KG	           15	         8	         7	         0	         0	         0
+34511	112TRICH LOROETHA TOTWUG/L	1,1,2-TRICHLOROETHANE                     TOTWUG/L	           37	        10	        13	         5	         6	         3
+34514	112TCLET SEDUG/KG DRY WGT 	1,1,2-TRICHLOROETHANE              DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34515	112TCLET TISMG/KG WET WGT 	1,1,2-TRICHLOROETHANE              WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34516	1122TETR ACHLOROE TOTWUG/L	1,1,2,2-TETRACHLOROETHANE                 TOTWUG/L	           12	         3	         8	         0	         0	         1
+34517	1122TETR ACHLOROE DISSUG/L	1,1,2,2-TETRACHLOROETHANE                 DISSUG/L	           24	         6	         5	         5	         6	         2
+34519	1122TCLE SEDUG/KG DRY WGT 	1,1,2,2-TETRACHLOROETHANE          DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34520	1122TCLE TISMG/KG WET WGT 	1,1,2,2-TETRACHLOROETHANE          WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34521	BENZO(GH I)PERYLE TOTWUG/L	BENZO(GHI)PERYLENE1,12-BENZOPERYLENE      TOTWUG/L	           23	         5	        12	         0	         2	         4
+34524	BZGHIPER SEDUG/KG DRY WGT 	BENZO(GHI)PERYLENE1,12-BENZOPERYLENDRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34525	BZGHIPER TISMG/KG WET WGT 	BENZO(GHI)PERYLENE1,12-BENZOPERYLENWET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34526	BENZO(A) ANTHRACE TOTWUG/L	BENZO(A)ANTHRACENE1,2-BENZANTHRACENE      TOTWUG/L	           20	         5	        12	         0	         0	         3
+34527	BENZO(A) ANTHRACE DISSUG/L	BENZO(A)ANTHRACENE1,2-BENZANTHRACENE      DISSUG/L	            3	         0	         0	         0	         2	         1
+34529	BENZAANT SEDUG/KG DRY WGT 	BENZO(A)ANTHRACENE1,2-BENZANTHRACENDRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34530	BENZAANT TISMG/KG WET WGT 	BENZO(A)ANTHRACENE1,2-BENZANTHRACENWET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34532	12DICHLO ROETHANE DISSUG/L	1,2-DICHLOROETHANE                        DISSUG/L	           25	         6	         6	         5	         6	         2
+34534	12DICLET SEDUG/KG DRY WGT 	1,2-DICHLOROETHANE                 DRY WGTBOTUG/KG	           14	         3	         7	         0	         0	         4
+34535	12DICLET TISMG/KG WET WGT 	1,2-DICHLOROETHANE                 WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34536	12DICHLO ROBENZEN TOTWUG/L	1,2-DICHLOROBENZENE                       TOTWUG/L	           20	         5	        12	         0	         0	         3
+34537	12DICHLO ROBENZEN DISSUG/L	1,2-DICHLOROBENZENE                       DISSUG/L	           16	         4	         2	         5	         3	         2
+34539	12DCLBEN SEDUG/KG DRY WGT 	1,2-DICHLOROBENZENE                DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34540	12DCLBEN TISMG/KG WET WGT 	1,2-DICHLOROBENZENE                WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34541	12DICHLO ROPROPAN TOTWUG/L	1,2-DICHLOROPROPANE                       TOTWUG/L	           37	        10	        13	         5	         6	         3
+34544	12DCLPRP SEDUG/KG DRY WGT 	1,2-DICHLOROPROPANE                DRY WGTBOTUG/KG	           15	         3	         8	         0	         0	         4
+34545	12DCLPRP TISMG/KG WET WGT 	1,2-DICHLOROPROPANE                WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34546	12DICHLO ROETHENE TOTWUG/L	TRANS-1,2-DICHLOROETHENE, TOTAL, IN WATER     UG/L	           29	         8	        10	         5	         3	         3
+34549	12TDCETE SEDUG/KG DRY WGT 	TRANS-1,2-DICHLOROETHENE, IN SED. DRY WT.    UG/KG	           15	         3	         8	         0	         0	         4
+34550	12TDCETE TISMG/KG WET WGT 	TRANS-1,2-DICHLOROETHENE, IN TISSUE, WET WT. MG/KG	           14	         7	         7	         0	         0	         0
+34551	124TRICH LOROBENZ TOTWUG/L	1,2,4-TRICHLOROBENZENE                    TOTWUG/L	           23	         5	        12	         0	         2	         4
+34554	124TCBEN SEDUG/KG DRY WGT 	1,2,4-TRICHLOROBENZENE             DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34555	124TCBEN TISMG/KG WET WGT 	1,2,4-TRICHLOROBENZENE             WET WGTTISMG/KG	           22	         8	        13	         0	         0	         1
+34556	DIBENZ(A H)ANTHRA TOTWUG/L	1,2,5,6-DIBENZANTHRACENE                  TOTWUG/L	           20	         5	        12	         0	         0	         3
+34557	DIBENZ(A H)ANTHRA DISSUG/L	1,2,5,6-DIBENZANTHRACENE                  DISSUG/L	            3	         0	         0	         0	         2	         1
+34559	DBAHANTH SEDUG/KG DRY WGT 	1,2,5,6-DIBENZANTHRACENE           DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34560	DBAHANTH TISMG/KG WET WGT 	1,2,5,6-DIBENZANTHRACENE           WET WGTTISMG/KG	           16	         7	         8	         0	         0	         1
+34561	13DICHLO ROPROPEN TOTWUG/L	1,3-DICHLOROPROPENE                       TOTWUG/L	           11	         3	         7	         0	         0	         1
+34564	13DCPRPE SEDUG/KG DRY WGT 	1,3-DICHLOROPROPENE                DRY WGTBOTUG/KG	           11	         2	         6	         0	         0	         3
+34565	13DCPRPE TISMG/KG WET WGT 	1,3-DICHLOROPROPENE                WET WGTTISMG/KG	           11	         7	         4	         0	         0	         0
+34566	13DICHLO ROBENZEN TOTWUG/L	1,3-DICHLOROBENZENE                       TOTWUG/L	           44	        11	        17	         5	         6	         5
+34569	13DCLBEN SEDUG/KG DRY WGT 	1,3-DICHLOROBENZENE                DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34570	13DCLBEN TISMG/KG WET WGT 	1,3-DICHLOROBENZENE                WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34571	14DICHLO ROBENZEN TOTWUG/L	1,4-DICHLOROBENZENE                       TOTWUG/L	           36	         9	        14	         5	         3	         5
+34574	14DCLBEN SEDUG/KG DRY WGT 	1,4-DICHLOROBENZENE                DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34575	14DCLBEN TISMG/KG WET WGT 	1,4-DICHLOROBENZENE                WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34576	2CHLOROE THYLVINY TOTWUG/L	2-CHLOROETHYL VINYL ETHER                 TOTWUG/L	           27	         8	         8	         5	         3	         3
+34579	2CLEVETR SEDUG/KG DRY WGT 	2-CHLOROETHYL VINYL ETHER          DRY WGTBOTUG/KG	           13	         3	         6	         0	         0	         4
+34580	2CLEVETR TISMG/KG WET WGT 	2-CHLOROETHYL VINYL ETHER          WET WGTTISMG/KG	           11	         7	         4	         0	         0	         0
+34581	2CHLORON APHTHALE TOTWUG/L	2-CHLORONAPHTHALENE                       TOTWUG/L	           21	         4	        12	         0	         2	         3
+34584	2CLNAPTH SEDUG/KG DRY WGT 	2-CHLORONAPHTHALENE                DRY WGTBOTUG/KG	            8	         1	         6	         0	         0	         1
+34585	2CLNAPTH TISMG/KG WET WGT 	2-CHLORONAPHTHALENE                WET WGTTISMG/KG	           30	        10	        16	         0	         0	         4
+34586	2CHLOROP HENOL    TOTWUG/L	2-CHLOROPHENOL                            TOTWUG/L	           23	         5	        12	         0	         2	         4
+34589	2CLPHENO SEDUG/KG DRY WGT 	2-CHLOROPHENOL                     DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34590	2CLPHENO TISMG/KG WET WGT 	2-CHLOROPHENOL                     WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34591	2NITROPH ENOL     TOTWUG/L	2-NITROPHENOL                             TOTWUG/L	           23	         5	        12	         0	         2	         4
+34594	2NPHENOL SEDUG/KG DRY WGT 	2-NITROPHENOL                      DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34595	2NPHENOL TISMG/KG WET WGT 	2-NITROPHENOL                      WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34596	DINOCTPH  TOTUG/L         	DI-N-OCTYL PHTHALATE                      TOTWUG/L	           23	         5	        12	         0	         2	         4
+34599	DINOCTPH SEDUG/KG DRY WGT 	DI-N-OCTYL PHTHALATE               DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34600	DINOCTPH TISMG/KG WET WGT 	DI-N-OCTYL PHTHALATE               WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34601	24DICHLO ROPHENOL TOTWUG/L	2,4-DICHLOROPHENOL                        TOTWUG/L	           23	         5	        12	         0	         2	         4
+34604	24DCPHEN SEDUG/KG DRY WGT 	2,4-DICHLOROPHENOL                 DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34605	24DCPHEN TISMG/KG WET WGT 	2,4-DICHLOROPHENOL                 WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34606	24DIMETH YLPHENOL TOTWUG/L	2,4-DIMETHYLPHENOL                        TOTWUG/L	           23	         5	        12	         0	         2	         4
+34609	24DMPHEN SEDUG/KG DRY WGT 	2,4-DIMETHYLPHENOL                 DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34610	24DMPHEN TISMG/KG WET WGT 	2,4-DIMETHYLPHENOL                 WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34611	24DINITR OTOLUENE TOTWUG/L	2,4-DINITROTOLUENE                        TOTWUG/L	           23	         5	        12	         0	         2	         4
+34614	24DNTOLU SEDUG/KG DRY WGT 	2,4-DINITROTOLUENE                 DRY WGTBOTUG/KG	           19	         5	        10	         0	         0	         4
+34615	24DNTOLU TISMG/KG WET WGT 	2,4-DINITROTOLUENE                 WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34616	24DINITR OPHENOL  TOTWUG/L	2,4-DINITROPHENOL                         TOTWUG/L	           20	         5	        12	         0	         0	         3
+34619	24DNPHEN SEDUG/KG DRY WGT 	2,4-DINITROPHENOL                  DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34620	24DNPHEN TISMG/KG WET WGT 	2,4-DINITROPHENOL                  WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34621	246TRICH LOROPHEN TOTWUG/L	2,4,6-TRICHLOROPHENOL                     TOTWUG/L	           23	         5	        12	         0	         2	         4
+34624	246TCPHN SEDUG/KG DRY WGT 	2,4,6-TRICHLOROPHENOL              DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34625	246TCPHN TISMG/KG WET WGT 	2,4,6-TRICHLOROPHENOL              WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34626	26DINITR OTOLUENE TOTWUG/L	2,6-DINITROTOLUENE                        TOTWUG/L	           23	         5	        12	         0	         2	         4
+34629	26DNTOLU SEDUG/KG DRY WGT 	2,6-DINITROTOLUENE                 DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34630	26DNTOLU TISMG/KG WET WGT 	2,6-DINITROTOLUENE                 WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34631	33DICHLO ROBENZID TOTWUG/L	3,3'-DICHLOROBENZIDINE                    TOTWUG/L	           20	         5	        12	         0	         0	         3
+34634	33DCBNZD SEDUG/KG DRY WGT 	3,3'-DICHLOROBENZIDINE             DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34635	33DCBNZD TISMG/KG WET WGT 	3,3'-DICHLOROBENZIDINE             WET WGTTISMG/KG	           26	        10	        15	         0	         0	         1
+34636	4BROMOPH ENYLPHEN TOTWUG/L	4-BROMOPHENYL PHENYL ETHER                TOTWUG/L	           23	         5	        12	         0	         2	         4
+34639	4BRPPETR SEDUG/KG DRY WGT 	4-BROMOPHENYL PHENYL ETHER         DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34640	4BRPPETR TISMG/KG WET WGT 	4-BROMOPHENYL PHENYL ETHER         WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34641	4CHLOROP HENYLPHE TOTWUG/L	4-CHLOROPHENYL PHENYL ETHER               TOTWUG/L	           23	         5	        12	         0	         2	         4
+34644	4CLPPETR SEDUG/KG DRY WGT 	4-CHLOROPHENYL PHENYL ETHER        DRY WGTBOTUG/KG	           19	         4	        11	         0	         0	         4
+34645	4CLPPETR TISMG/KG WET WGT 	4-CHLOROPHENYL PHENYL ETHER        WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34646	4NITROPH ENOL     TOTWUG/L	4-NITROPHENOL                             TOTWUG/L	           23	         5	        12	         0	         2	         4
+34649	4NPHENOL SEDUG/KG DRY WGT 	4-NITROPHENOL                      DRY WGTBOTUG/KG	           18	         4	        10	         0	         0	         4
+34650	4NPHENOL TISMG/KG WET WGT 	4-NITROPHENOL                      WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34654	P,P'DDE   SUS UG/L        	P,P'-DDE                                  SUSPUG/L	            1	         0	         1	         0	         0	         0
+34657	46DINITR OORTHOCR TOTWUG/L	DNOC (4,6-DINITRO-ORTHO-CRESOL)           TOTWUG/L	           20	         5	        12	         0	         0	         3
+34660	46DNOCRE SEDUG/KG DRY WGT 	DNOC (4,6-DINITRO-ORTHO-CRESOL)    DRY WGTBOTUG/KG	           15	         4	         7	         0	         0	         4
+34661	46DNOCRE TISMG/KG WET WGT 	DNOC (4,6-DINITRO-ORTHO-CRESOL)    WET WGTTISMG/KG	           19	         7	        11	         0	         0	         1
+34664	PCB-1221 TISMG/KG WET WGT 	PCB - 1221                         WET WGTTISMG/KG	           19	         8	        10	         0	         0	         1
+34667	PCB-1232 TISMG/KG WET WGT 	PCB - 1232                         WET WGTTISMG/KG	           32	        12	        17	         0	         0	         3
+34669	PCB-1248 TISMG/KG WET WGT 	PCB - 1248                         WET WGTTISMG/KG	           19	         8	        10	         0	         0	         1
+34670	PCB-1260 TISMG/KG WET WGT 	PCB - 1260                         WET WGTTISMG/KG	           20	         8	        11	         0	         0	         1
+34671	PCB      1016     TOTWUG/L	PCB - 1016                                TOTWUG/L	           20	         5	        12	         0	         0	         3
+34674	PCB-1016 TISMG/KG WET WGT 	PCB - 1016                         WET WGTTISMG/KG	           19	         8	        10	         0	         0	         1
+34675	TCDD      TOTWUG/L        	2,3,7,8-TETRACHLORODIBENZO-P-DIOXIN(TCDD) TOTWUG/L	            3	         1	         1	         0	         0	         1
+34680	ALDRIN   TISMG/KG WET WGT 	ALDRIN             IN FISH TISSUE WET WEIGHT MG/KG	           21	         8	        12	         0	         0	         1
+34682	CDANEWET TECH&MET TISMG/KG	CHLORDANE(TECH MIX & METABS),TISSUEWET WGTT,MG/KG 	           17	         6	        10	         0	         0	         1
+34683	DNB PHTH TIS-WET  MG/KG   	DI-N-BUTYL PHTHALATE,TISSUE,WET WGTWET WGT        	           19	         7	        11	         0	         0	         1
+34684	DIELDRIN  TISMG/KG        	DIELDRIN                                  TISMG/KG	           68	         0	        68	         0	         0	         0
+34685	ENDRIN   TISMG/KG WET WGT 	ENDRIN                             WET WGTTISMG/KG	           91	         9	        81	         0	         0	         1
+34686	HPCHLREP TISMG/KG WET WGT 	HEPTACHLOR EPOXIDE                 WET WGTTISMG/KG	           24	         9	        14	         0	         0	         1
+34687	HEPTCHLR TISMG/KG WET WGT 	HEPTACHLOR                         WET WGTTISMG/KG	           91	         9	        81	         0	         0	         1
+34688	HCB      TISMG/KG WET WGT 	HEXACHLOROBENZENE                  WET WGTTISMG/KG	           46	         8	        37	         0	         0	         1
+34689	PCB-1242 TISMG/KG WET WGT 	PCB - 1242                         WET WGTTISMG/KG	           19	         8	        10	         0	         0	         1
+34690	PCB-1254 TISMG/KG WET WGT 	PCB - 1254                         WET WGTTISMG/KG	           19	         8	        10	         0	         0	         1
+34691	TOXAPHEN TISMG/KG WET WGT 	TOXAPHENE                          WET WGTTISMG/KG	           79	         8	        70	         0	         0	         1
+34692	TRICLETE TISMG/KG WET WGT 	TRICHLOROETHYLENE                  WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34693	VINYLCHL TISMG/KG WET WGT 	VINYL CHLORIDE                     WET WGTTISMG/KG	           14	         7	         7	         0	         0	         0
+34694	PHENOL    TOT UG/L        	PHENOL(C6H5OH)-SINGLE COMPOUND          TOTWUG/L  	           22	         5	        12	         0	         1	         4
+34695	PHENOL   SEDUG/KG DRY WGT 	PHENOL(C6H5OH)-SINGLE COMPOUND     DRY WGTTUG/KG  	           18	         4	        10	         0	         0	         4
+34696	NAPTHALE NE     T OTWUG/L 	NAPHTHALENE                             TOTWUG/L  	            6	         1	         1	         0	         2	         2
+34697	T183-DCP SED DRY  WGTUG/KG	TRANS-1,3-DICHLOROPROPENE SEDIMENT DRY WGT UG/KG  	            3	         0	         3	         0	         0	         0
+34698	T1,3-DCP FISH WET WGTMG/KG	TRANS-1,3-DICHLOROPROPENEFISH TISSUE WET WGT MG/KG	            3	         0	         3	         0	         0	         0
+34699	T1,3-DCP TOT WAT  UG/L    	TRANS-1,3-DICHLOROPROPENETOTAL IN WATER UG/L      	           19	         5	        10	         0	         3	         1
+34702	C1,3-DCP SED DRY  WGTUG/KG	CIS-1,3-DICHLOROPROPENE  SEDIMENT DRY WEIGHT UG/KG	           13	         2	         8	         0	         0	         3
+34703	C1,3-DCP FISH WET WGTMG/K6	CIS-1,3-DICHLOROPROPENE  FISH TISSUE WET WGT MG/KG	           14	         7	         7	         0	         0	         0
+34704	C1,3-DCP TOT WAT  UG/L    	CIS-1,3-DICHLOROPROPENE  TOTAL IN WATER UG/L      	           12	         4	         7	         0	         0	         1
+34705	C1,3-DCP DISS WAT UG/L    	CIS-1,3-DICHLOROPROPENE  DISSOLVED IN WATER UG/L  	            8	         2	         3	         0	         3	         0
+34754	TCDD     TISPG/G  WETWGT  	2,3,7,8-TETRACHLORODIBENZO-P-DIOXIN   TISWETWTPG/G	            4	         2	         2	         0	         0	         0
+38401	AMETRYN   DISSUG/L        	AMETRYN                             WATER,DISSUG/L	           17	         8	         0	         0	         8	         1
+38496	MERPHOS   DISSUG/L        	MERPHOS                             WATER,DISSUG/L	            6	         1	         3	         0	         2	         0
+38535	PROPZINE  DISSUG/L        	PROPAZINE                           WATER,DISSUG/L	            3	         0	         0	         0	         2	         1
+38715	BOLSTAR   TOTWUG/L        	BOLSTAR                             WATER, TOTUG/L	            6	         1	         3	         0	         2	         0
+38740	CLRPYFOS -METHYL  TOTWUG/L	CHLORPYRIFOS-METHYL                 WATER, TOTUG/L	            6	         1	         3	         0	         2	         0
+38745	2,4-DB    TOTWUG/L        	2,4-DB                              WATER, TOTUG/L	            2	         0	         1	         0	         1	         0
+38775	DICLRVOS  DISSUG/L        	DICHLORVOS                          WATER, DISUG/L	            6	         1	         3	         0	         2	         0
+38779	DINOSEB   DISSUG/L        	DINOSEB                             WATER, DISUG/L	            2	         0	         1	         0	         1	         0
+38797	FENSULFO THION    DISSUG/L	FENSULFOTHION                       WATER, DISUG/L	            6	         1	         3	         0	         2	         0
+38801	FENTHION  DISSUG/L        	FENTHION                            WATER, DISUG/L	            6	         1	         3	         0	         2	         0
+38815	HEXA     ZINONE   TOTWUG/L	HEXAZINONE                          WATER, TOTUG/L	           15	         9	         0	         0	         4	         2
+38824	ISOPROPA LIN      TISMG/KG	ISOPROPALIN                         TISWETWGTMG/KG	            3	         1	         2	         0	         0	         0
+38855	NALED     TOTWUG/L        	NALED                               WATER, TOTUG/L	            6	         1	         3	         0	         2	         0
+39015	ETHYL PR WTR  KCL UG/L    	ETHYLPARATHION, FLAME IONIFATION,WTR SMPLE(UG/L)  	            6	         1	         3	         0	         2	         0
+39032	PCP       TOT UG/L        	PCP (PENTACHLOROPHENOL) WHOLE WATER SAMPLE    UG/L	           24	         6	        12	         0	         2	         4
+39038	PHORSULF WHL SMPL UG/L    	PHORATE SULFONE IN WHOLE WATER SAMPLE (UG/L)      	            6	         1	         3	         0	         2	         0
+39054	SIMETRYN WH.WATER (UG/L)  	SIMETRYNE IN WHOLE WATER (UG/L)                   	            3	         0	         0	         0	         2	         1
+39055	SIMAZINE WH.WATER (UG/L)  	SIMAZINE IN WHOLE WATER (UG/L)                    	            3	         0	         0	         0	         2	         1
+39056	PROMETON WH.WATER (UG/L)  	PROMETONE IN WHOLE WATER (UG/L)                   	            3	         0	         0	         0	         2	         1
+39057	PRMETRYN WH.WATER (UG/L)  	PROMETRYNE IN WHOLE WATER (UG/L)                  	            9	         1	         3	         0	         4	         1
+39060	PCP      TISMG/KG WET WGT 	PCP (PENTACHLOROPHENOL) IN TISSUE WET WGT     UG/G	           19	         7	        11	         0	         0	         1
+39061	PCP      SEDUG/KG DRY WGT 	PCP (PENTACHLOROPHENOL) IN BOT DEPOS DRY SOL UG/KG	          210	        54	       112	         0	        14	        30
+39062	CHLORDAN C ISOMER WWS-UG/L	CHLORDANE-CIS ISOMER,WHOLE WATER SAMPL (UG/L)     	            3	         1	         0	         0	         2	         0
+39063	CHLORDAN C ISOMER TIS-UG/G	CHLORDANE-CIS ISOMER,TISSUE WET WGT (UG/G)        	           29	         3	        26	         0	         0	         0
+39064	CHLORDAN C ISOMER BOTUG/KG	CHLORDANE-CIS ISOMER BOTTOM DEPOS (UG/KG DRY SOL  	          325	        76	       198	         0	        15	        36
+39065	CHLORDAN T ISOMER WWS-UG/L	CHLORDANE-TRNS ISOMER,WHOLE WATER SAMPL (UG/L)    	            3	         1	         0	         0	         2	         0
+39066	CHLORDAN T ISOMER TIS-UG/G	CHLORDANE-TRANS ISOMER,TISSUE WET WGT (UG/G)      	           29	         3	        26	         0	         0	         0
+39067	CHLORDAN T ISOMER BOTUG/KG	CHLORDANE-TRANS ISOMER,BOTTOM DEPOS(UG/KG DRY SL  	          321	        75	       195	         0	        15	        36
+39069	NONACHLR C ISOMER TIS UG/G	CHLORDANE-NONACHLOR,CIS ISO,TISSUE WET WGT(UG/G)  	           24	         0	        24	         0	         0	         0
+39071	NONACHLR T ISOMER WWS-UG/L	CHLORDANE-NONACHLOR,TPANS ISO,WHOLE WTR (UG/L)    	            3	         1	         0	         0	         2	         0
+39072	NONCHLOR T ISOMER TIS-UG/G	CHLORDANE-NONACHLOR,TRANS ISO,TISSUE,WET WT,UG/G  	           24	         0	        24	         0	         0	         0
+39073	NONACHLR T ISOMER BOTUG/KG	CHLORDANE-NONACHLOR,TRANS ISO,BOTTOM DEP UG/KG    	          316	        75	       190	         0	        15	        36
+39074	ALPHABHC TISMG/KG WET WGT 	BHC-ALPHA ISOMER,TISSUE UG/G       WET WGT        	           55	         9	        45	         0	         0	         1
+39076	ALPHABHC SEDUG/KG DRY WGT 	BHC-ALPHA ISOMER, BOTTOM DEPOS (UG/KG DRY SOL)    	          336	        75	       206	         0	        15	        40
+39082	12DIBROM ETHYLENE TOT UG/L	1,2-DIBROMOETHYLENE IN WATER,            TOTALUG/L	           13	         4	         2	         5	         1	         1
+39099	B2ETHXPH TISMG/KG WET WGT 	BIS(2-ETHYLHEXYL)PHTHALATE,TISSUE,WET WGT,MG/KG   	           19	         7	        11	         0	         0	         1
+39100	B2ETHHXL PHTHALAT TOT UG/L	BIS(2-ETHYLHEXYL) PHTHALATE,WHOLE WATER,UG/L      	           22	         5	        12	         0	         2	         3
+39102	B2E PHTH MUD-DRY  UG/KG   	BIS(2-ETHYLHEXYL) PHTHALATE,SEDIMENT,DRY WGT,UG/KG	           19	         4	        11	         0	         0	         4
+39105	PERCENT  FAT      HEX EXTR	PERCENT FAT HEXANE EXTRACTION                     	           67	         0	        67	         0	         0	         0
+39110	DNB PHTH TOTAL    UG/L    	DI-N-BUTYL PHTHALATE,WHOLE WATER,UG/L             	           23	         5	        12	         0	         2	         4
+39112	DNB PHTH MUD-DRY  UG/KG   	DI-N-BUTYL PHTHALATE,SEDIMENTS,DRY WGT,UG/KG      	           19	         4	        11	         0	         0	         4
+39120	BENZIDIN  TOTUG/L         	BENZIDINE IN WHOLE WATER SAMPLE (UG/L)            	           17	         5	         9	         0	         0	         3
+39121	BENZIDIN SEDUG/KG DRY WGT 	BENZIDINE IN BOTTOM DEPOS UG/KG DRY SOLIDS        	           16	         4	         8	         0	         0	         4
+39175	VINYLCHL ORIDE    TOT UG/L	VINYL CHLORIDE-WHOLE WATER SAMPLE-UG/L            	           37	        10	        13	         5	         6	         3
+39180	TRICHLOR ETHYLENE TOT UG/L	TRICHLOROETHYLENE-WHOLE WATER SAMPLE-UG/L         	           13	         4	         8	         0	         0	         1
+39250	NAPTHAL  ENES, PC . UG/L  	NAPTHALENES, POLYCHLORINATED (UG/L)               	           17	         4	        11	         0	         0	         2
+39290	TOT DDT  TISSUE   UG/G    	DDT TOTAL IN TISSUE WET WGT BASIS (UG/G)          	           68	         0	        68	         0	         0	         0
+39300	P,P'DDT   TOT UG/L        	P,P' DDT IN WHOLE WATER SAMPLE (UG/L)             	           25	         6	        14	         0	         2	         3
+39301	P,P'DDT  SEDUG/KG DRY WGT 	P,P' DDT IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)    	          331	        80	       196	         0	        15	        40
+39302	P,P'DDT  TISMG/KG WET WGT 	P P DDT IN TISSUE WET WGT (UG/G)                  	           20	         8	        11	         0	         0	         1
+39305	O,P' DDT WHL SMPL UG/L    	O,P' DDT IN WHOLE WATER SAMPLE (UG/L)             	            4	         1	         0	         0	         2	         1
+39306	O,P' DDT MUD DRY  UG/KG   	O,P' DDT IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)    	          322	        76	       192	         0	        15	        39
+39307	O P  DDT TISSUE   UG/G    	O P DDT IN TISSUE WET WGT (UG/G)                  	            4	         0	         3	         0	         0	         1
+39310	P,P'DDD   TOT UG/L        	P,P' DDD IN WHOLE WATER SAMPLE (UG/L)             	           23	         6	        12	         0	         2	         3
+39311	P,P'DDD  SEDUG/KG DRY WGT 	P,P' DDD IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)    	          331	        79	       197	         0	        15	        40
+39312	P,P'DDD  TISMG/KG WET WGT 	P  P  DDD IN TISSUE WET WGT (UG/G)                	           17	         7	         9	         0	         0	         1
+39315	O,P' DDD WHL SMPL UG/L    	O,P' DDD IN WHOLE WATER SAMPLE (UG/L)             	            4	         1	         0	         0	         2	         1
+39316	O,P' DDD MUD DRY  UG/KG   	O,P' DDD IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)    	          327	        72	       201	         0	        15	        39
+39319	MNCLBIPN TOT,TIS  WETMG/KG	MONOCHLOROBIPHENYL,TOTAL,      TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39320	P,P'DDE   TOT UG/L        	P,P' DDE IN WHOLE WATER SAMPLE (UG/L)             	           25	         6	        14	         0	         2	         3
+39321	P,P'DDE  SEDUG/KG DRY WGT 	P,P' DDE IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)    	          337	        76	       206	         0	        15	        40
+39322	P,P'DDE  TISMG/KG WET WGT 	P,P'-DDE IN TISSUE WET WGT  MG/KG                 	           23	         9	        13	         0	         0	         1
+39325	O,P DDD  TISSUE   UG/G    	O,P DDD IN TISSUE WET WGT (UG/G)                  	            3	         0	         2	         0	         0	         1
+39327	O P DDE  WHL SMP  L UG/L  	ORTHO PARA DDE IN WHOLE WATER SAMPLE (UG/L)       	            4	         1	         0	         0	         2	         1
+39328	O,P'DDE  MUD      UG/KG   	O,P'DDE IN      BOTTOM DEPOS  (UG/KG DRY SOLIDS)  	          327	        72	       201	         0	        15	        39
+39330	ALDRIN    TOT UG/L        	ALDRIN IN WHOLE WATER SAMPLE (UG/L)               	           26	         6	        15	         0	         2	         3
+39333	ALDRIN   SEDUG/KG DRY WGT 	ALDRIN IN BOTTOM DEPOS. (UG/KILOGRAM DRY SOLIDS)  	          336	        75	       206	         0	        15	        40
+39335	DICLBIPN TOT,TIS  WETMG/KG	DICHLOROBIPHENYL,TOTAL,        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39336	ALPHABHC WTR WHL  LBS/DAY 	BHC-ALPHA, WATER, WHOLE                    LBS/DAY	            1	         0	         1	         0	         0	         0
+39337	ALPHABHC  TOTUG/L         	ALPHA BENZENE HEXACHLORIDE IN WHOLE WATER SAMP    	           21	         5	        11	         0	         2	         3
+39338	BETA BHC  TOTUG/L         	BETA BENZENE HEXACHLORIDE IN WHOLE WATER SAMP     	           18	         4	        12	         0	         0	         2
+39339	TRICLBPN TOT,TIS  WETMG/KG	TRICHLOROBIPHENYL,TOTAL,       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39340	GAMMABHC LINDANE  TOT.UG/L	GAMMA-BHC(LINDANE),WHOLE WATER,UG/L               	           19	         5	        11	         0	         0	         3
+39343	GBHC-MUD LINDANE  DRYUG/KG	GAMMA-BHC(LINDANE),SEDIMENTS,DRY WGT,UG/KG        	           10	         2	         4	         0	         0	         4
+39344	GAMMABHC WTR WHL  LBS/DAY 	BHC-GAMMA, WATER, WHOLE                    LBS/DAY	            1	         0	         1	         0	         0	         0
+39345	TETCLBPN TOT,TIS  WETMG/KG	TETRACHLOROBIPHENYL,TOT,       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39347	PECLBIPN TOT,TIS  WETMG/KG	PENTACHLOROBIPHENYL,TOT,       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39348	A-CHLRDN WHL SMPL UG/L    	CHLORDANE, ALPHA, IN WHOLE WATER SAMPLE (UG/L)    	            3	         0	         3	         0	         0	         0
+39350	CHLRDANE TECH&MET TOT UG/L	CHLORDANE(TECH MIX & METABS),WHOLE WATER,UG/L     	           19	         5	        11	         0	         0	         3
+39351	CDANEDRY TECH&MET MUDUG/KG	CHLORDANE(TECH MIX&METABS),SEDIMENTS,DRY WGT,UG/KG	           10	         2	         4	         0	         0	         4
+39354	HPCLBIPN TOT,TIS  WETMG/KG	HEPTACHLOROBIPHENYL,TOT,       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39355	OCTCLBPN TOT,TIS  WETMG/KG	OCTACHLOROBIPHENYL,TOT,        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39357	RONNEL   WHL SAMP UG/L    	RONNEL IN WHOLE WATER SAMPLE (UG/L)               	            6	         1	         3	         0	         2	         0
+39379	TOT DDT  WHL SMPL UG/L    	SUM OF ALL DDT,DDE& DDD VALUES IN WHL WATER SAMP  	            1	         0	         1	         0	         0	         0
+39380	DIELDRIN  TOTUG/L         	DIELDRIN IN WHOLE WATER SAMPLE (UG/L)             	           28	         6	        17	         0	         2	         3
+39383	DIELDRIN SEDUG/KG DRY WGT 	DIELDRIN IN BOTTOM DEPOS. (UG/KILOGRAM DRY SOL.)  	          344	        75	       214	         0	        15	        40
+39388	ENDOSULN WHL SMPL UG/L    	ENDOSULFAN IN WHOLE WATER SAMPLE (UG/L)           	            2	         1	         0	         0	         0	         1
+39389	ENDOSULN MUD      UG/KG   	ENDOSULFAN IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)  	            6	         1	         2	         0	         0	         3
+39390	ENDRIN    TOT UG/L        	ENDRIN IN WHOLE WATER SAMPLE (UG/L)               	           26	         6	        14	         0	         2	         4
+39393	ENDRIN   SEDUG/KG DRY WGT 	ENDRIN IN BOTTOM DEPOS. (UG/KILOGRAM DRY SOLIDS)  	          329	        78	       196	         0	        15	        40
+39400	TOXAPHEN  TOTUG/L         	TOXAPHENE IN WHOLE WATER SAMPLE (UG/L)            	           21	         5	        12	         0	         0	         4
+39403	TOXAPHEN SEDUG/KG DRY WGT 	TOXAPHENE IN BOTTOM DEPOS. (UG/KILOGRAM DRY SOL.) 	           14	         3	         7	         0	         0	         4
+39404	DIELDRIN TISMG/KG WET WGT 	DIELDRIN IN TISSUE WET WGT  (UG/G)                	           23	         9	        13	         0	         0	         1
+39408	NCLBIPNL TOT,TIS  WETMG/KG	NONACHLOROBIPHENYL,TOT,        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39409	DCDLBIPN TOT,TIS  WETMG/KG	DECACHLOROBIPHENYL,TOT,        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+39410	HEPTCHLR  TOTUG/L         	HEPTACHLOR IN WHOLE WATER SAMPLE (UG/L)           	           18	         4	        12	         0	         0	         2
+39413	HEPTCHLR SEDUG/KG DRY WGT 	HEPTACHLOR IN BOT. DEP. (UG/KILOGRAM DRY SOLIDS)  	           37	         3	        23	         0	         0	        11
+39420	HPCHLREP  TOTUG/L         	HEPTACHLOR EPOXIDE IN WHOLE WATER SAMPLE (UG/L)   	           20	         5	        12	         0	         0	         3
+39423	HPCHLREP SEDUG/KG DRY WGT 	HEPTACHLOR EPOXIDE IN BOT. DEP. (UG/KG DRY SOL.)  	           14	         3	         7	         0	         0	         4
+39480	MTHXYCLR WHL SMPL UG/L    	METHOXYCHLOR IN WHOLE WATER SAMPLE (UG/L)         	           12	         1	         7	         0	         2	         2
+39481	MTHXYCLR MUD DRY  UG/KG   	METHOXYCHLOR IN BOTTOM DEPOSITS (UG/KG DRY SOL.)  	          324	        76	       195	         0	        15	        38
+39488	PCB-1221  TOTUG/L         	PCB - 1221          IN THE WHOLE WATER SAMPLE UG/L	           20	         5	        12	         0	         0	         3
+39491	PCB-1221 SEDUG/KG DRY WGT 	PCB - 1221      BOT. DEP.,PCB SERIES DRY SOL UG/KG	           14	         3	         7	         0	         0	         4
+39492	PCB-1232  TOTUG/L         	PCB - 1232      PCB SERIES WHOLE WATER SAMPLE UG/L	            5	         1	         3	         0	         0	         1
+39495	PCB-1232 SEDUG/KG DRY WGT 	PCB - 1232      BOT. DEP.,PCB-SERIES DRY SOL UG/KG	           14	         4	         6	         0	         0	         4
+39496	PCB-1242  TOTUG/L         	PCB - 1242      PCB SERIES WHOLE WATER SAMPLE UG/L	           20	         5	        12	         0	         0	         3
+39499	PCB-1242 SEDUG/KG DRY WGT 	PCB - 1242      BOT. DEP.,PCB-SERIES DRY SOL UG/KG	           14	         3	         7	         0	         0	         4
+39500	PCB-1248  TOTUG/L         	PCB - 1248      PCB SERIES WHOLE WATER SAMPLE UG/L	           20	         5	        12	         0	         0	         3
+39503	PCB-1248 SEDUG/KG DRY WGT 	PCB - 1248       IN BOTTOM DEPOS. DRY SOLIDS UG/KG	           21	         5	        12	         0	         0	         4
+39504	PCB-1254  TOTUG/L         	PCB - 1254      PCB SERIES WHOLE WATER SAMPLE UG/L	           23	         6	        12	         0	         2	         3
+39507	PCB-1254 SEDUG/KG DRY WGT 	PCB - 1254       IN BOTTOM DEPOS. DRY SOLIDS UG/KG	          300	        73	       172	         0	        15	        40
+39508	PCB-1260  TOTUG/L         	PCB - 1260      PCB SERIES WHOLE WATER SAMPLE UG/L	           20	         5	        12	         0	         0	         3
+39511	PCB-1260 SEDUG/KG DRY WGT 	PCB - 1260       IN BOTTOM DEPOS. DRY SOLIDS UG/KG	           99	         3	        92	         0	         0	         4
+39514	PCB-1016 SEDUG/KG DRY WGT 	PCB - 1016        IN BOTTOM SEDIMENTS DRY WT UG/KG	           14	         3	         7	         0	         0	         4
+39530	MALATHN  WHL SMPL UG/L    	MALATHION IN WHOLE WATER SAMPLE (UG/L)            	            6	         1	         3	         0	         2	         0
+39560	DEMETON  WHL SMPL UG/L    	DEMETON IN WHOLE WATER SAMPLE (UG/L)              	            6	         1	         3	         0	         2	         0
+39570	DIAZINON WHL SMPL UG/L    	DIAZINON IN WHOLE WATER SAMPLE (UG/L)             	            6	         1	         3	         0	         2	         0
+39600	MPARATHN WHL SMPL UG/L    	METHYL PARATHION IN WHOLE WATER SAMPLE (UG/L)     	            6	         1	         3	         0	         2	         0
+39632	ATRAZINE DISS.    PPB     	ATRAZINE DISSOLVED IN WATER                    PPB	           36	        19	         1	         0	        13	         3
+39700	HCB       TOT UG/L        	HEXACHLOROBENZENE IN WHOLE WATER SAMPLE (UG/L)    	           23	         6	        11	         0	         2	         4
+39701	HCB      SEDUG/KG DRY WGT 	HEXACHLOROBENZENE IN BOT DEPOS (UG/KG DRY SOLIDS) 	          195	        40	       138	         0	         3	        14
+39702	HEXCLBD   TOT UG/L        	HEXACHLOROBUTADIENE IN WHOLE WATER SAMPLE(UG/L)   	           13	         4	         7	         0	         0	         2
+39705	HEXCLBD  SEDUG/KG DRY WGT 	HEXACHLOROBUTADIENE BOT. DEPOS.(UG/KG DRY WGT)    	           18	         4	        10	         0	         0	         4
+39730	2,4-D    WHL SMPL UG/L    	2,4-D IN WHOLE WATER SAMPLE (UG/L)                	            3	         0	         1	         0	         1	         1
+39740	2,4,5-T  WHL SMPL UG/L    	2,4,5-T IN WHOLE WATER SAMPLE (UG/L)              	            2	         0	         1	         0	         1	         0
+39750	SEVIN    WHL SMPL UG/L    	SEVIN IN WHOLE WATER SAMPLE (UG/L)                	            4	         4	         0	         0	         0	         0
+39760	SILVEX   WHL SMPL UG/L    	SILVEX IN WHOLE WATER SAMPLE (UG/L)               	            3	         0	         1	         0	         1	         1
+39781	LINDANE  ORGANISM TOT UG/G	LINDANE AQUATIC ORGANISMS WT WGT BASIS(UG/G)      	            1	         0	         1	         0	         0	         0
+39782	LINDANE  WHL SMPL UG/L    	LINDANE IN WHOLE WATER SAMPLE (UG/L)              	            5	         0	         2	         0	         2	         1
+39783	LINDANE  MUD DRY  UG/KG   	LINDANE IN BOTTOM DEPOSITS (UG/KG DRY SOLIDS)     	          318	        75	       190	         0	        17	        36
+39785	GBHC-TIS LINDANE  WETMG/KG	GAMMA-BHC(LINDANE),TISSUE,WET WEIGHT,MG/KG        	           46	         9	        36	         0	         0	         1
+39810	G-CHLRDN WHL SMPL UG/L    	CHLORDANE,GAMMA,IN WHOLE WATER  SAMPLE (UG/L)     	            3	         0	         3	         0	         0	         0
+39811	G-CHLRDN MUD      UG/KG   	CHLORDANE,GAMMA,IN BOTTOM DEPOS(UG/KG DRY SOLIDS) 	            4	         1	         3	         0	         0	         0
+39941	ROUNDUP  WHL SMPL UG/L    	ROUNDUP                 IN WHOLE WATER SAMPLE UG/L	            4	         4	         0	         0	         0	         0
+45145	DIMETHYL NAPTHSED UG/KG   	DIMETHYLNAPHTHALENE IN SEDIMENT  UG/KG            	            7	         1	         5	         0	         0	         1
+45510	XYLENE   SED DRY  WGTUG/KG	XYLENE                      SEDIMENT,DRY WGT,UG/KG	            4	         0	         4	         0	         0	         0
+45511	XYLENE   TISS WET WGTMG/KG	XYLENE                      TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+46333	PCNB     TIS WET  MG/KG   	PENTACHLORONITROBENZENE (PCNB) IN TISSUE WET MG/KG	            3	         1	         2	         0	         0	         0
+50050	CONDUIT  FLOW     MGD     	FLOW, IN CONDUIT OR THRU A TREATMENT PLANT     MGD	          151	         0	       151	         0	         0	         0
+50261	DO INTER GRVL WNK LR  MG/L	DISSOLVED OXYGEN, INTERGRAVEL WINKLER TITRATN MG/L	           32	        32	         0	         0	         0	         0
+50274	AMPA      UG/L            	AMINOMETHYLPHOSPHONIC ACID                    MG/L	            4	         4	         0	         0	         0	         0
+70300	RESIDUE  DISS-180 C   MG/L	RESIDUE,TOTAL FILTRABLE (DRIED AT 180C),MG/L      	          281	        56	       146	         0	        39	        40
+70301	DISS SOL SUM      MG/L    	SOLIDS, DISSOLVED-SUM OF CONSTITUENTS (MG/L)      	           15	         0	        15	         0	         0	         0
+70304	SOLIDS,  DISS.TO  T.MG/L  	SOLIDS, TOTAL DISSOLVED-COND. METER (MG/L)        	          196	         0	         0	         0	         0	       196
+70320	MOISTURE CONTENT  PERCENT 	MOISTURE CONTENT (PERCENT OF TOTAL WET WEIGHT)    	           22	         0	        22	         0	         0	         0
+70507	PHOS-T   ORTHO    MG/L P  	PHOSPHORUS,IN TOTAL ORTHOPHOSPHATE (MG/L AS P)    	         8112	      1059	      5419	         0	       854	       780
+70977	INSTRMNT LAB/FLD  RATIONUM	INSTRUMENT RATIO, LAB/FIELD CONCENTRATIONS, NUMBER	            4	         2	         2	         0	         0	         0
+71830	OH ION   OH       MG/L    	HYDROXIDE ION   (MG/L AS OH)                      	            2	         1	         1	         0	         0	         0
+71845	AMMONIA  TOT-NH4  MG/L    	NITROGEN, AMMONIA, TOTAL (MG/L AS NH4)            	          236	         0	         0	         0	         0	       236
+71846	AMMONIA  DISS-NH4 MG/L    	NITROGEN, AMMONIA, DISSOLVED (MG/L AS NH4)        	          244	       244	         0	         0	         0	         0
+71850	NITRATE  TOT-NO3  MG/L    	NITRATE NITROGEN,TOTAL (MG/L AS NO3)              	          220	         6	         0	         0	         0	       214
+71851	NITRATE  DISS-NO3 MG/L    	NITRATE NITROGEN, DISSOLVED (MG/L AS NO3)         	          199	       199	         0	         0	         0	         0
+71889	SOLORTHO P AS PO4 MG/L    	PHOSPHATE, ORTHO, SOLUBLE, AS PO4 (MG/L)          	           32	        32	         0	         0	         0	         0
+71900	MERCURY  HG,TOTAL UG/L    	MERCURY, TOTAL  (UG/L AS HG)                      	          213	         6	       194	         0	        10	         3
+71920	MERCURY  SED-PULP MG/KG WT	MERCURY,TOT IN BOT DEPOS OR PULP(MG/KG,WET WGT)   	            1	         0	         1	         0	         0	         0
+71921	MERCURY  SEDMG/KG DRY WGT 	MERCURY,TOT. IN BOT. DEPOS. (MG/KG AS HG DRY WGT) 	          612	       160	       367	         0	        37	        48
+71930	MERCURY  TISMG/KG WET WGT 	MERCURY,TOTAL IN FISH OR ANIMAL-WET WEIGHT BASIS  	           17	         6	        11	         0	         0	         0
+71935	MERCURY  FISH     PPM-WET 	MERCURY, TOTAL IN FISH (PPM,WET WEIGHT BASIS)     	           19	         2	        17	         0	         0	         0
+71936	LEAD     TISMG/KG WET WGT 	LEAD,TOTAL IN FISH OR ANIMALS-WET WEIGHT BASIS    	           49	         6	        43	         0	         0	         0
+71937	COPPER   TISMG/KG WET WGT 	COPPER,TOTAL IN FISH OR ANIMALS-WET WEIGHT BASIS  	           46	         7	        39	         0	         0	         0
+71938	ZINC     TISMG/KG WET WGT 	ZINC,TOTAL IN FISH OR ANIMALS-WET WEIGHT BASIS    	           46	         7	        39	         0	         0	         0
+71939	CR-FISH  UG/G  OR MG/KG WT	CHROMIUM,TOT IN FISH OR ANIMALS-WET WEIGHT BASIS  	           15	         5	        10	         0	         0	         0
+71940	CADMIUM  TISMG/KG WET WGT 	CADMIUM,TOTAL IN FISH OR ANIMAL-WET WEIGHT BASIS  	           33	         7	        26	         0	         0	         0
+71941	CD TOTAL FISH DWT UG/GM   	CADMIUM,TOTAL IN FISH-DRY WEIGHT BASIS            	            3	         1	         2	         0	         0	         0
+73529	BENZEMIN 4-CHLORO TOTWUG/L	BENZENAMINE, 4-CHLORO-                    TOTWUG/L	            3	         0	         3	         0	         0	         0
+73605	BENZEMIN 4-NITRO- TOTWUG/L	BENZENAMINE, 4-NITRO-                     TOTWUG/L	            3	         0	         3	         0	         0	         0
+74055	FEC COLI PERMIT   GENERAL 	FECAL COLIFORM, GENERAL (PERMIT)                  	            7	         0	         7	         0	         0	         0
+74990	FISH     SPECIES  NUMERIC 	FISH SPECIES NUMERIC CODE - F&W SERVICE           	           91	         2	        89	         0	         0	         0
+74995	ANATOMY   CODE            	ANATOMY CODE (SEE APPENDIX FOR ANATOMY LIST)      	           26	         2	        24	         0	         0	         0
+75059	ACETONE  SED DRY  WGTUG/KG	ACETONE                     SEDIMENT,DRY WGT,UG/KG	            4	         1	         1	         0	         0	         2
+75078	MTH ETH  KET SED  DRYUG/KG	METHYL ETHYL KETONE         SEDIMENT,DRY WGT,UG/KG	            2	         0	         2	         0	         0	         0
+75166	2HEXANON SED DRY  WGTUG/KG	2-HEXANONE                  SEDIMENT,DRY WGT,UG/KG	            7	         1	         4	         0	         0	         2
+75169	MTH IBT  KET SED  DRYUG/KG	METHYL ISOBUTYL KETONE      SEDIMENT,DRY WGT,UG/KG	            2	         0	         2	         0	         0	         0
+75192	STYRENE  SED DRY  WGTUG/KG	STYRENE                     SEDIMENT,DRY WGT,UG/KG	            7	         1	         4	         0	         0	         2
+75212	BNZYLALC SED DRY  WGTUG/KG	BENZYL ALCOHOL              SEDIMENT,DRY WGT,UG/KG	            7	         1	         5	         0	         0	         1
+75315	BENZOICA SED DRY  WGTUG/KG	BENZOIC ACID                SEDIMENT,DRY WGT,UG/KG	            7	         1	         4	         0	         0	         2
+75647	DBNZOFUR SED DRY  WGTUG/KG	DIBENZOFURAN                SEDIMENT,DRY WGT,UG/KG	            7	         1	         5	         0	         0	         1
+76031	ACETONE  TISS WET WGTMG/KG	ACETONE                     TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76050	MTH ETH  KET TIS  WETMG/KG	METHYL ETHYL KETONE           TISSUE,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76138	2HEXANON TISS WET WGTMG/KG	2-HEXANONE                  TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76141	MTH IBT  KET TIS  WETMG/KG	METHYL ISOBUTYL KETONE        TISSUE,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76164	STYRENE  TISS WET WGTMG/KG	STYRENE                     TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76184	BNZYLALC TISS WET WGTMG/KG	BENZYL ALCOHOL              TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76287	BENZOICA TISS WET WGTMG/KG	BENZOIC ACID                TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76530	BIPHENYL TISS WET WGTMG/KG	BIPHENYL                    TISSUE  ,WET WGT,MG/KG	            3	         1	         2	         0	         0	         0
+76619	DBNZOFUR TISS WET WGTMG/KG	DIBENZOFURAN                TISSUE  ,WET WGT,MG/KG	            3	         0	         3	         0	         0	         0
+76982	4CHLR3,5 DIMETHYL FNL UG/L	4-CHLORO-3,5-DIMETHYLPHENOL, IN WATER         UG/L	            3	         0	         3	         0	         0	         0
+77041	CRBN DIS TOTAL    UG/L    	CARBON DISULFIDE                  WHOLE WATER,UG/L	            7	         3	         4	         0	         0	         0
+77057	VINYL AC TOTAL    UG/L    	VINYL ACETATE                     WHOLE WATER,UG/L	            6	         2	         4	         0	         0	         0
+77089	ANILINE  TOTAL    UG/L    	ANILINE                           WHOLE WATER,UG/L	           10	         4	         5	         0	         0	         1
+77103	2HEXANON TOTAL    UG/L    	2-HEXANONE                        WHOLE WATER,UG/L	            7	         3	         4	         0	         0	         0
+77128	STYRENE  TOTAL    UG/L    	STYRENE                           WHOLE WATER,UG/L	           28	         9	         9	         5	         4	         1
+77135	O-XYLENE TOTAL    UG/L    	O-XYLENE                          WHOLE WATER,UG/L	            7	         3	         4	         0	         0	         0
+77146	P-CRESOL TOTAL    UG/L    	P-CRESOL                          WHOLE WATER,UG/L	            3	         0	         3	         0	         0	         0
+77147	BNZYLALC TOTAL    UG/L    	BENZYL ALCOHOL                    WHOLE WATER,UG/L	           13	         4	         8	         0	         0	         1
+77152	O-CRESOL TOTAL    UG/L    	O-CRESOL                          WHOLE WATER,UG/L	            3	         0	         3	         0	         0	         0
+77163	1,3DCLPR TOTAL    UG/L    	1,3-DICHLOROPROPENE-1             WHOLE WATER,UG/L	            3	         0	         2	         1	         0	         0
+77170	2,2DCLPR TOTAL    UG/L    	2,2-DICHLOROPROPANE               WHOLE WATER,UG/L	            8	         2	         3	         0	         3	         0
+77173	1,3DCLPR TOTAL    UG/L    	1,3-DICHLOROPROPANE               WHOLE WATER,UG/L	           24	         6	         5	         5	         6	         2
+77247	BENZOICA TOTAL    UG/L    	BENZOIC ACID                      WHOLE WATER,UG/L	           12	         4	         7	         0	         0	         1
+77416	2MNAPTHA TOTAL    UG/L    	2-METHYLNAPHTHALENE               WHOLE WATER,UG/L	           13	         4	         8	         0	         0	         1
+77443	1,2,3TCP TOTAL    UG/L    	1,2,3-TRICHLOROPROPANE            WHOLE WATER,UG/L	          620	         0	       609	         1	         1	         9
+77562	1112TCLE TOTAL    UG/L    	1,1,1,2-TETRACHLOROETHANE         WHOLE WATER,UG/L	            8	         2	         3	         0	         3	         0
+77596	DBRMETHA TOTAL    UG/L    	METHYLENE BROMIDE                 WHOLE WATER,UG/L	            8	         2	         3	         0	         3	         0
+77641	N-TRIDEC TOTAL    UG/L    	N-TRIDECANE                       WHOLE WATER,UG/L	           24	         6	         5	         5	         6	         2
+77687	245TCLPH TOTAL    UG/L    	2,4,5-TRICHLOROPHENOL             WHOLE WATER,UG/L	           12	         4	         7	         0	         0	         1
+77689	DBNZLAMN TOTAL    UG/L    	DIBENZYLAMINE                     WHOLE WATER,UG/L	            9	         4	         4	         0	         0	         1
+77779	DBRDCLM  TOTAL    UG/L    	DIBROMODICHLOROMETHANE            WHOLE WATER,UG/L	          963	        10	       884	        21	        15	        33
+77970	CHLORO   TOLUENE  UG/L    	CHLOROTOLUENE IN WATER  UG/L                      	            8	         2	         3	         0	         3	         0
+78008	ENDRIN   KETONE   UG/L    	ENDRIN KETONE IN WATER  UG/L                      	            3	         0	         3	         0	         0	         0
+78113	ETH BENZ WH WTR   UG/L    	ETHYL BENZENE WHOLE WATER SAMPLE  UG/L            	           24	         6	         5	         5	         6	         2
+78133	4-METHYL -2-PNTN  HOH UG/L	4-METHYL-2-PENTANONE IN WATER  UG/L               	            3	         0	         3	         0	         0	         0
+78142	O-NITRO  ANILINE  WW UG/L 	ORTHO NITROANILINE IN WHOLE WATER  UG/L           	            3	         0	         3	         0	         0	         0
+78211	ENDRINKE TISWETWT MG/KG   	ENDRIN KETONE IN FISH TISSUE       WETWTMG/KG     	            6	         3	         3	         0	         0	         0
+78299	2NITRANL DRY WT.  SEDUG/KG	2-NITROANILINE IN SEDIMENT, DRY WEIGHT       UG/KG	            3	         0	         3	         0	         0	         0
+78300	3-NITRO  ANILINE  TOT UG/L	3-NITROANILINE, TOTAL, IN WATER               UG/L	            3	         0	         3	         0	         0	         0
+78361	VINYLACT SEDIMENT WETMG/KG	VINYL ACETATE                         SEDWETWTMG/K	            1	         0	         1	         0	         0	         0
+78395	2MTHPHEN SEDIMENT WETMG/KG	2-METHYLPHENOL                       SEDWETWTMG/KG	            3	         0	         3	         0	         0	         0
+78396	4MTHPHEN SEDIMENT WETMG/KG	4METHYLPHENOL                        SEDWETWTMG/KG	            3	         0	         3	         0	         0	         0
+78401	245TCLPH SEDIMENT DRYUG/KG	2,4,5-TRICHLOROPHENOL IN SEDIMENT,DRY WEIGHT,UG/KG	            3	         0	         3	         0	         0	         0
+78498	VINLACET SED, DRY WT.UG/KG	VINYL ACETATE, SEDIMENT, DRY WEIGHT,         UG/KG	            2	         0	         2	         0	         0	         0
+78544	CARBON   DISULFID UG/KG   	CARBON DISULFIDE IN SEDIMENT  UG/KG               	            3	         0	         3	         0	         0	         0
+78866	ANILINE  DRY WGT  SEDUG/KG	ANILINE IN SEDIMENT               DRY WEIGHT UG/KG	            1	         0	         1	         0	         0	         0
+78867	4-CHLANL DRY WGT  SEDUG/KG	4-CHLOROANILINE IN SEDIMENT       DRY WEIGHT UG/KG	            4	         0	         4	         0	         0	         0
+78869	3NITRANL DRY WGT  SEDUG/KG	3-NITROANILINE IN SEDIMENT        DRY WEIGHT UG/KG	            4	         0	         4	         0	         0	         0
+78870	4NITRANL DRY WGT  SEDUG/KG	4-NITROANILINE IN SEDIMENT        DRY WEIGHT UG/KG	            4	         0	         4	         0	         0	         0
+78907	HEXCLBPH FISH TIS WETMG/KG	HEXACHLOROBIPHENYLS IN FISH TISSUE WET WGT.  MG/KG	            3	         1	         2	         0	         0	         0
+78922	NONACHLR TRNS TIS WETMG/KG	NONACHLOR, TRANS, TISSUE, WET WEIGHT         MG/KG	            3	         1	         2	         0	         0	         0
+78923	NONACHLR CIS  TIS WETMG/KG	NONACHLOR, CIS, TISSUE, WET WEIGHT           MG/KG	            3	         1	         2	         0	         0	         0
+79025	CHLORDAN A-FISH   WW UG/KG	CHLORDANE, ALPHA, IN FISH  WET WEIGHT  UG/KG      	            4	         1	         3	         0	         0	         0
+79026	1234TET  CLRBENZ  TISMG/KG	1,2,3,4,-TETRACHLOROBENZENE IN FISH WET WGT  MG/KG	            3	         1	         2	         0	         0	         0
+79040	DBENAHAN TISWETWT MG/KG   	DIBENZ(A,H)ANTHRACENE                TISWETWTMG/KG	            3	         0	         3	         0	         0	         0
+79059	ACENAPTN FISH TIS DRYMG/KG	ACENAPHTHENE                         TISDRYWTMG/KG	            2	         0	         2	         0	         0	         0
+79111	VINYLACT FISH TIS DRYMG/KG	VINYL ACETATE                         TISDRYWTMG/K	            1	         0	         1	         0	         0	         0
+79178	PCB-1242 FISH TIS DRYMG/KG	PCB-1242                             TISDRYWTMG/KG	           22	         0	        22	         0	         0	         0
+79179	PCB-1254 FISH TIS DRYMG/KG	PCB-1254                             TISDRYWTMG/KG	           68	         0	        68	         0	         0	         0
+79182	PCB-1248 FISH TIS DRYMG/KG	PCB-1248                             TISDRYWTMG/KG	           24	         0	        24	         0	         0	         0
+79183	PCB-1260 FISH TIS DRYMG/KG	PCB-1260                             TISDRYWTMG/KG	           40	         0	        40	         0	         0	         0
+79531	3,4BENZO FLRNTHEN WASMG/KG	3,4-BENZOFLUORANTHENE IN WASTE               MG/KG	            1	         0	         1	         0	         0	         0
+81010	BOD5     REMOVAL  PERCENT 	BOD, PERCENT REMOVAL, 5 DAY                      %	           70	         0	        70	         0	         0	         0
+81011	SUS SOL  REMOVAL  PERCENT 	SOLIDS, SUSPENDED (PERCENT REMOVAL)               	           70	         0	        70	         0	         0	         0
+81292	AZINPHOS ETHYL    TOT UG/L	AZINPHOSETHYL C12H16N3O3PS2WHOLE WATER SAMPLE UG/L	            6	         1	         3	         0	         2	         0
+81293	COUMAPHS TOT      UG/L    	COUMAPHOS(C14H16CLO5PS)    WHOLE WATER SAMPLE UG/L	            6	         1	         3	         0	         2	         0
+81302	DIBENZO  FURAN    TOT UG/L	DIBENZOFURAN(C12H8O)       WHOLE WATER SAMPLE UG/L	           13	         4	         8	         0	         0	         1
+81312	PCBS     FISH WET WGTMG/KG	POLYCHLORINATEDBIPHENYLS FISH TISSUE WET WGT MG/KG	            4	         1	         3	         0	         0	         0
+81327	DICHLORO PROPANE  TOT UG/L	DICHLOROPROPANE            WHOLE WATER SAMPLE UG/L	           13	         4	         2	         5	         1	         1
+81333	DICLBENZ ISOMER   TOT UG/L	DICHLOROBENZENE ISOMER     WHOLE WATER SAMPLE UG/L	            8	         2	         3	         0	         3	         0
+81403	DURSBAN  TOT      UG/L    	DURSBAN(CHLOROPYRIFOS)WHOLE WATER SAMPLE (UG/L)   	            4	         4	         0	         0	         0	         0
+81408	MTRBUZIN TOT      UG/L    	METRIBUZIN (SENCOR), WATER, WHOLE             UG/L	            4	         4	         0	         0	         0	         0
+81501	PENTACL  ETHANE   TOT UG/L	PENTACHLOROETHANE              WHL WATER SMPL UG/L	            8	         2	         3	         0	         3	         0
+81522	DIBROMO  ETHANE   TOT UG/L	DIBROMOETHANE                  WHL WATER SMPL UG/L	          901	        10	       843	        16	        12	        20
+81551	XYLENE    TOT UG/L        	XYLENE                         WHL WATER SMPL UG/L	            8	         2	         3	         0	         3	         0
+81552	ACETONE   TOT UG/L        	ACETONE                        WHL WATER SMPL UG/L	            7	         3	         4	         0	         0	         0
+81555	BROMO    BENZENE  TOT UG/L	BROMOBENZENE                   WHL WATER SMPL UG/L	            8	         2	         3	         0	         3	         0
+81574	DICHLORO ETHYLENE TOT UG/L	DICHLOROETHYLENE               WHL WATER SMPL UG/L	            9	         2	         4	         0	         3	         0
+81595	MTH ETH  KETONE   TOT UG/L	METHYL ETHYL KETONE            WHL WATER SMPL UG/L	            2	         0	         2	         0	         0	         0
+81614	NO.INDV. IN THE   SAMPLE  	NUMBER OF INDIVIDUALS IN THE SAMPLE               	           21	         0	        21	         0	         0	         0
+81637	SHELFISH SPECIES  NUMERIC 	SHELLFISH SPECIES NUMERIC CODE                    	            3	         0	         3	         0	         0	         0
+81644	MTXCHLOR FISH WET WGT UG/G	METHOXYCHLOR IN FISH TISSUE,UG/G WET WEIGHT       	           11	         4	         7	         0	         0	         0
+81645	MIREX  F ISH WETW GT UG/G 	MIREX IN FISH TISSUE WET WEIGHT UG/G              	           15	         1	        14	         0	         0	         0
+81649	PCB-1262 TOT      UG/L    	PCB - 1262          IN THE WHOLE WATER SAMPLE UG/L	            5	         2	         2	         0	         0	         1
+81652	TREFLAN  FISH WET WGTMG/KG	TREFLAN IN FISH TISSUE WET WEIGHT MG/KG           	            3	         1	         2	         0	         0	         0
+81660	FE FISH  WET WGT  MG/KG   	IRON IN FISH TISSUE WET WEIGHT MG/KG              	           18	         0	        18	         0	         0	         0
+81680	DICHLORO ETHANE   TOT MG/L	DICHLOROETHANE IN THE WHOLE WATER SAMPLE MG/L     	           16	         4	         3	         5	         3	         1
+81743	ARSENIC  SHELL    WETMG/KG	ARSENIC IN SHELLFISH TISSUE WET WEIGHT PPM (MG/KG)	            3	         0	         3	         0	         0	         0
+81746	COPPER   SHELL    WETMG/KG	COPPER IN SHELLFISH TISSUE WET WEIGHT PPM(MG/KG)  	            3	         0	         3	         0	         0	         0
+81748	LEAD     SHELL    WETMG/KG	LEAD IN SHELLFISH TISSUE WET WEIGHT PPM(MG/KG)    	            3	         0	         3	         0	         0	         0
+81749	ZINC     SHELL    WETMG/KG	ZINC IN SHELLFISH TISSUE WET WEIGHT PPM(MG/KG)    	            3	         0	         3	         0	         0	         0
+81757	CYANAZIN WHL WAT  UG/L    	CYANAZINE IN THE WHOLE WATER SAMPLE UG/L          	            3	         0	         0	         0	         2	         1
+81758	ETHOPROP WHL WAT  UG/L    	ETHOPROP IN THE WHOLE WATER SAMPLE UG/L           	            6	         1	         3	         0	         2	         0
+81760	O,P'-DDE FISH WET WGTMG/KG	O,P'-DDE IN FISH TISSUE WET WEIGHT MG/KG          	            4	         0	         3	         0	         0	         1
+81807	DURSBAN  FISH WET WGTMG/KG	DURSBAN IN FISH TISSUE WET WEIGHT MG/KG           	            3	         1	         2	         0	         0	         0
+81811	NICKEL   SHELLWET WGTMG/KG	NICKEL IN SHELLFISH TISSUE        WET WEIGHT MG/KG	            3	         0	         3	         0	         0	         0
+81813	IRON     SHELLWET WGTMG/KG	IRON IN SHELLFISH TISSUE          WET WEIGHT MG/KG	            3	         0	         3	         0	         0	         0
+81823	PCA FISH TIS WET  WGTMG/KG	PENTACHLOROANISOLE(PCA)INFISH TISSUE WET WGT MG/KG	           15	         1	        14	         0	         0	         0
+81896	DDE TOT  TISS WET WGTMG/KG	DDE TOTAL               IN TISSUE WET WEIGHT MG/KG	           68	         0	        68	         0	         0	         0
+81944	DDT,DDE& DDD TISS WETMG/KG	DDT(INCLUDES DDE & DDD) IN TISSUE WET WEIGHT MG/KG	            1	         0	         1	         0	         0	         0
+81987	SED PART SIZE %>  9.00PHI 	TOTAL SEDIMENT PARTICLE SIZE %COARSER THAN 9.00PHI	           68	         0	        68	         0	         0	         0
+82004	DACTHAL  TISS     WETMG/KG	DACTHAL IN TISSUE SAMPLE          WET WEIGHT MG/KG	           18	         0	        18	         0	         0	         0
+82028	RATIO    FEC COL  FEC STRP	RATIO OF FECAL COLIFORM TO FECAL STREPTOCOCCI(CAL)	         1331	       483	       198	         0	       564	        86
+82029	OXYCHLRD TISS     WETMG/KG	OXYCHLORDANE IN TISSUE SAMPLE     WET WEIGHT MG/KG	           21	         1	        20	         0	         0	         0
+82079	TURBIDTY LAB      NTU     	TURBIDITY,LAB NEPHELOMETRIC TURBIDITY UNITS, NTU  	        10918	      1965	      6250	         0	       970	      1733
+82195	THIOCARB AMATES   UG/L    	THIOCARBAMATES       IN WATER                 UG/L	            6	         1	         3	         0	         2	         0
+82227	TRICHLOR PHENATE  UG/L    	TRICHLOROPHENATE (ISOMERS) IN WATER           UG/L	            6	         1	         3	         0	         2	         0
+82617	DISULFTN WATR TOT REC UG/L	DISULFOTON, WHOLE WATER, TOTAL RECOVERABLE    UG/L	            6	         1	         3	         0	         2	         0
+82700	CF/100ML                  	CLOSTRIDIUM PORFRINGENS, MF              CFU/100ML	         8611	      1707	      3991	         0	      1233	      1680
+84005	FISH     SPECIES  F &WL   	FISH SPECIES CODE-FISH & WILDLIFE SER             	           91	         2	        89	         0	         0	         0
+84007	ANATOMY  ALPHA    CODE    	ANATOMY ALPHA CODE                                	           26	         2	        24	         0	         0	         0
+84008	LIFE     STYLE/   HABITAT 	LIFE STYLE/HABITAT OF THEINDIVIDUALS IN THE SAMPLE	           21	         0	        21	         0	         0	         0
+84009	SHELFISH SPECIES  ALPHA   	SHELLFISH SPECIES ALPHANUMERIC CODE               	            3	         0	         3	         0	         0	         0
+84099	RELATIVE WATER LV CODE    	WATER - RELATIVE WATER LEVEL                  CODE	           22	        22	         0	         0	         0	         0
+84104	DIOXIN   STUDY    ALPHACOD	DIOXIN STUDY                            ALPHA CODE	            5	         2	         3	         0	         0	         0
+85675	TRICLBEN 135TIS   WETMG/KG	TRICHLOROBENZENE,1,3,5-        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85676	TRICLBEN 123TIS   WETMG/KG	TRICHLOROBENZENE,1,2,3-        TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85677	TETCLBEN 1245TIS  WETMG/KG	TETRACHLOROBENZENE,1,2,4,5-    TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85678	TETCLBEN 1235TIS  WETMG/KG	TETRACHLOROBENZENE,1,2,3,5-    TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85679	PENCLBEN TIS,WET  WT,MG/KG	PENTACHLOROBENZENE             TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85680	DIPNDISU TIS,WET  WT,MG/KG	DIPHENYL DISULFIDE             TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85681	OCTCLSTY TIS,WET  WT,MG/KG	OCTACHLOROSTYRENE              TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85682	NITROFEN TIS,WET  WT,MG/KG	NITROFEN                       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85683	PERTHANE TIS,WET  WT,MG/KG	PERTHANE                       TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85684	DICOFOL  TIS,WET  WT,MG/KG	DICOFOL (KELTHANE)             TISSUE,WET,WT,MG/KG	            3	         1	         2	         0	         0	         0
+85759	NITRANL2 WET WT   TISMG/KG	NITROANILINE, 2- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85760	CHLANL 4 WET WT   TISMG/KG	CHLORANILINE, 4- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85761	VINYLACT WET WT   TISMG/KG	VINYL ACETATE, TISSUE, WET WT,               MG/KG	            3	         0	         3	         0	         0	         0
+85762	NITRANL4 WET WT   TISMG/KG	NITROANILINE, 4- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85763	NITRANL3 WET WT   TISMG/KG	NITROANILINE, 3- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85766	MEPHENO4 WET WT   TISMG/KG	METHYLPHENOL, 4- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85767	MEPHENO2 WET WT   TISMG/KG	METHYLPHENOL, 2- , TISSUE, WET WT,           MG/KG	            3	         0	         3	         0	         0	         0
+85768	CBDISULF WET WT   TISMG/KG	CARBON DISULFIDE, TISSUE, WET WT,            MG/KG	            3	         0	         3	         0	         0	         0
+85791	ENDRINKE SED DRY  WT UG/KG	ENDRIN KETONE, SEDIMENT, DRY WT,(SF)         UG/KG	            4	         1	         3	         0	         0	         0
+85811	_CHLORO- ETHANE   EFF UG/L	CHLOROETHANE, EFFLUENT                        UG/L	            1	         0	         1	         0	         0	         0

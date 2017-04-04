@@ -1,0 +1,17 @@
+rgn_id,rgn_name,year,value
+1,Hawaii,2011,2
+1,Hawaii,2012,0
+1,Hawaii,2013,0
+1,Hawaii,2014,0
+2,Maui Nui,2011,5
+2,Maui Nui,2012,5
+2,Maui Nui,2013,6
+2,Maui Nui,2014,5
+3,Oahu,2011,5
+3,Oahu,2012,0
+3,Oahu,2013,0
+3,Oahu,2014,13
+4,Kauai,2011,5
+4,Kauai,2012,1
+4,Kauai,2013,9
+4,Kauai,2014,2
