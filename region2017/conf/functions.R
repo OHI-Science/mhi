@@ -974,14 +974,43 @@ CP <- function(layers){
 }
 
 
-TR = function(layers, status_year, pct_ref = 90) {
+TR = function(layers, status_year) {
+#formula
+  #t_sentiment is average score our of 100 of three consistent HTA questions on resident feelings towards tourism
+  t_sent_ref=80#t_sentiment reference from HTA report goal of 80% of Hawaii residents that agree that tourism has brought more benefits than problems
+
+  #reference for inflation adjusted GDP spending is estimated at 2.5% increase per year (calculated as annual rate from 2020 goal of $13,280 mil compared to 2015 11,796 mil)
 
      ## formula:
-  ##  E   = Ep                         # Ep: % of direct tourism jobs. tr_jobs_pct_tourism.csv
-  ##  S   = (S_score - 1) / (7 - 1)    # S_score: raw TTCI score, not normalized (1-7). tr_sustainability.csv
-  ##  Xtr = E * S
+  ##  E   = Eg                         # Eg: % growth of visitor contribution to Hawaii's gdp. t_visitor_gdp_mhi2017.csv reference value comes from HTA's goal for 2020 and coresponds to a 2.5% annual growth
+  ##  S   = resident sentiment        # resident feelings toward tourism
+  ##  env = environmental sustainability # score based on 30% protected area reference for effectively managing nearshore waters
+  ##Xtr = E * S
 
   ## read in layers
+
+  sent = SelectLayersData(layers, layers='t_sentiment', narrow = TRUE) %>%
+    select(
+      rgn_id    = id_num,
+      year,
+      value          = val_num)
+  growth = SelectLayersData(layers, layers='t_growth', narrow = TRUE) %>%
+    select(
+      year,
+      rgn_id    = id_num,
+      county_gdp         = val_num)
+  env = SelectLayersData(layers, layers='t_env_sus', narrow = TRUE) %>%
+    select(
+      year,
+      percent         = val_num)
+
+ # need to scale the t_sentiment score to a reference level of 80 or 80%
+
+
+  #need to scale estimated county growth to a reference of 2.5% increase per year
+
+
+
   tr_data  <- full_join(
     layers$data[['tr_jobs_pct_tourism']] %>%
       select(-layer),
@@ -998,25 +1027,8 @@ TR = function(layers, status_year, pct_ref = 90) {
     filter(year <= status_year & year > status_year - 5)
   # five data years for trend calcs
 
-  # regions with Travel Warnings
-  ### adjust the travel warning years...these always reflect the current year
-  ### but the other datasets will lag
-  if (exists('scenarios')) { ## if global scenarios
-    scenario_year <- as.numeric(substring(scenario, 4,7))
-    offset_years <- scenario_year - status_year
 
-    ## read in layers for regions with Travel Warnings
-    rgn_travel_warnings <- layers$data[['tr_travelwarnings']] %>%
-      select(rgn_id, year, multiplier) %>%
-      mutate(year = year - offset_years)
 
-    ## incorporate Travel Warnings
-    tr_model <- tr_model %>%
-      left_join(rgn_travel_warnings, by = c('rgn_id', 'year')) %>%
-      mutate(Xtr = ifelse(!is.na(multiplier), multiplier * Xtr, Xtr)) %>%
-      select(-multiplier)
-
-  } ## end if (exists('scenarios'))
 
   ### Calculate status based on quantile reference (see function call for pct_ref)
   tr_model <- tr_model %>%

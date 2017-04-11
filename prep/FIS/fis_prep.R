@@ -8,7 +8,7 @@ library(tidyverse) # install.packages('tidyverse')
 dir_layers <- file.path('~/github/mhi/prep/FIS')
 
 
-## import dummy 'local data' that is already formatted nicely. Note the naming convention of the data file: it is "goalcode_layername_assessmentYEAR.csv".
+#naming convention of the data file: it is "goalcode_layername_assessmentYEAR.csv".
 data_file  <- file.path(dir_layers, 'fis_catch_dar.csv')
 d <- readr::read_csv(data_file)
 
