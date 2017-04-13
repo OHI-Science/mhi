@@ -977,7 +977,7 @@ CP <- function(layers){
 TR = function(layers, status_year) {
 #formula
   #t_sentiment is average score our of 100 of three consistent HTA questions on resident feelings towards tourism
-  t_sent_ref=80#t_sentiment reference from HTA report goal of 80% of Hawaii residents that agree that tourism has brought more benefits than problems
+  #t_sentiment reference from HTA report goal of 80% of Hawaii residents that agree that tourism has brought more benefits than problems
 
   #reference for inflation adjusted GDP spending is estimated at 2.5% increase per year (calculated as annual rate from 2020 goal of $13,280 mil compared to 2015 11,796 mil)
 
@@ -998,103 +998,90 @@ TR = function(layers, status_year) {
     select(
       year,
       rgn_id    = id_num,
+      value      = category,
       county_gdp         = val_num)
   env = SelectLayersData(layers, layers='t_env_sus', narrow = TRUE) %>%
     select(
       year,
+      rgn_id    = id_num,
       percent         = val_num)
 
  # need to scale the t_sentiment score to a reference level of 80 or 80%
-
+sent$score<-sent$value/80*100
 
   #need to scale estimated county growth to a reference of 2.5% increase per year
 
+growth<-growth %>% group_by(rgn_id) %>%
+  arrange(value)%>%
+  mutate(growth_rate=((county_gdp-lag(county_gdp,1))/lag(county_gdp,1))) #takes the difference between county gdp each year
 
 
-  tr_data  <- full_join(
-    layers$data[['tr_jobs_pct_tourism']] %>%
-      select(-layer),
-    layers$data[['tr_sustainability']] %>%
-      select(-layer),
-    by = c('rgn_id')) %>%
-    filter(year <= status_year)
+#growth rate calucaltion not accurate for 2010 - remove to get last 5 years
+growth<-subset(growth, year!=2010)
+#need to normalize score between 0 and 1.
+#if greater than 2.5% than score =1
 
-  tr_model <- tr_data %>%
-    mutate(
-      E   = Ep,
-      S   = (S_score - 1) / (7 - 1), # scale score from 1 to 7.
-      Xtr = E * S ) %>%
-    filter(year <= status_year & year > status_year - 5)
-  # five data years for trend calcs
+r=0.025
+growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
+growth$n_score<-growth$n_score*100
+#need to score environmental data to reference - use 30%
+env$env_score<-(env$percent/30)*100
+str(env)
 
+#basic formatting of data
+env$rgn_id<-as.numeric(env$rgn_id)
+sent$rgn_id<-as.numeric(sent$rgn_id)
+growth$rgn_id<-as.numeric(growth$rgn_id)
+env$year<-as.numeric(env$year)
+sent$year<-as.numeric(sent$year)
+growth$year<-as.numeric(growth$year)
+sent<-subset(sent, year!=2009&year!=2010)
+tr_data <- sent %>%
+  left_join(env,by=c('rgn_id', 'year'))%>%
+  select(rgn_id, year, score, env_score)
+tr_data<-tr_data %>%
+  left_join(growth,by=c('rgn_id', 'year'))%>%
+  select(rgn_id, year, score, env_score,n_score)
+#Tourism goal is an average of the enivronmental protection, resident sentiment about tourism, and growth rate
+tr_data$status<-rowMeans(tr_data[,c("score","env_score","n_score")])
+tr_data_sum<-tr_data %>%
+  group_by(rgn_id)%>%
+  summarize(status=mean(status))
 
+# ------------------------------------------------------------------------
+#Get yearly status and trend
+# -----------------------------------------------------------------------
 
+status <-  tr_data_sum %>%
+  mutate(
+    score     = round(status, 1),
+    dimension = 'status') %>%
+  select(region_id=rgn_id, score, dimension)
 
-  ### Calculate status based on quantile reference (see function call for pct_ref)
-  tr_model <- tr_model %>%
-    select(rgn_id, year, Xtr) %>%
-    left_join(tr_model %>%
-                group_by(year) %>%
-                summarize(Xtr_q = quantile(Xtr, probs = pct_ref/100, na.rm = TRUE)),
-              by = 'year') %>%
-    mutate(
-      Xtr_rq  = ifelse(Xtr / Xtr_q > 1, 1, Xtr / Xtr_q)) # rescale to qth percentile, cap at 1
+trend_years <- year:(year-4)#only 5 years of data so not relevent
+first_trend_year <- min(tr_data$year)
 
-  ## reference points
-  ref_point <- tr_model %>%
-    filter(year == status_year) %>%
-    select(Xtr_q) %>%
-    unique()
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "TR", method = paste0('spatial: ', pct_ref, "th quantile"),
-                     reference_point = ref_point$Xtr_q))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+status_data=tr_data
 
+trend <- status_data %>%
+  #filter(year) %>%
+  group_by(rgn_id) %>%
+  do(mdl = lm(status ~ year, data=.),
+     adjust_trend = .$status[.$year == first_trend_year]) %>%
+  summarize(region_id = rgn_id,
+            score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+            dimension = 'trend') %>%
+  ungroup() %>%
+  mutate(score = ifelse(score > 1, 1, score)) %>%
+  mutate(score = ifelse(score < (-1), (-1), score))
 
-  adj_trend_year <- min(tr_model$year)
+# assemble dimensions
+scores <- rbind(status, trend) %>%
+  mutate(goal='TR')
+scores <- data.frame(scores)
 
+return(scores)
 
-  # calculate trend
-  tr_trend <- tr_model %>%
-    filter(!is.na(Xtr_rq)) %>%
-    arrange(year, rgn_id) %>%
-    group_by(rgn_id) %>%
-    do(mdl = lm(Xtr_rq ~ year, data=.),
-       adjust_trend = .$Xtr_rq[.$year == adj_trend_year]) %>%
-    summarize(rgn_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
-    ungroup() %>%
-    mutate(trend = ifelse(trend>1, 1, trend)) %>%
-    mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
-    mutate(trend = round(trend, 4)) %>%
-    select(rgn_id, score = trend) %>%
-    mutate(dimension = "trend")
-
-  # get status (as last year's value)
-  tr_status <- tr_model %>%
-    arrange(year, rgn_id) %>%
-    group_by(rgn_id) %>%
-    summarize(
-      dimension = 'status',
-      score     = last(Xtr_rq) * 100)
-
-  # bind status and trend by rows
-  tr_score <- bind_rows(tr_status, tr_trend) %>%
-    mutate(goal = 'TR')
-
-  if (conf$config$layer_region_labels=='rgn_global'){
-    # assign NA for uninhabitated islands
-    unpopulated = layers$data[['le_popn']] %>%
-      group_by(rgn_id) %>%
-      filter(count==0) %>%
-      select(rgn_id)
-    tr_score$score = ifelse(tr_score$rgn_id %in% unpopulated$rgn_id, NA, tr_score$score)
-  }
-
-  # return final scores
-  scores = tr_score %>%
-    select(region_id=rgn_id, goal, dimension, score)
-
-  return(scores)
 }
 
 LIV_ECO = function(layers, subgoal){

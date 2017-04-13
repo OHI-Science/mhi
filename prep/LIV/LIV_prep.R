@@ -14,9 +14,9 @@ v <- readr::read_csv(data_file)
 library(plyr)#install.packages('plyr')
 t_economic<-join(d,v, by=c("year"))
 t_economic$county_gdp<-t_economic$percent/100*t_economic$visitor_real_gdp #the visitor created gdp for Hawaii weighted to county estimates by the average number of visitor by county by day
-growth<-subset(t_economic, select=c("county_gdp", "year","rgn_id"))
+growth<-subset(t_economic, select=c("county_gdp","year","value","rgn_id"))
+
 
 dir_layers <- file.path('~/github/mhi/region2017/layers')
 #create the data layer
-data_file  <- file.path(dir_layers, 't_growth.csv')
 readr::write_csv(growth, file.path(dir_layers, "t_growth_mhi2017.csv"))
