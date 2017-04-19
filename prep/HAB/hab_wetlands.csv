@@ -1,0 +1,26 @@
+rgn_id,year,rgn_name,m,acres,km,class_name
+4,2010,Kauai,293852.2,72.61246002,0.2938522,estuarine forested wetland
+4,2010,Kauai,16289.3,4.025173693,0.0162893,estuarine scrub/shrub wetland
+4,2010,Kauai,140855,34.80602853,0.140855,estuarine emergent wetland
+3,2010,Oahu,1846880.6,456.3741355,1.8468806,estuarine forested wetland
+3,2010,Oahu,707305,174.7788719,0.707305,estuarine scrub/shrub wetland
+3,2010,Oahu,669991.7,165.5585547,0.6699917,estuarine emergent wetland
+2,2010,Maui Nui,1930389.1,477.0095352,1.9303891,estuarine forested wetland
+2,2010,Maui Nui,2060190.7,509.0842091,2.0601907,estuarine scrub/shrub wetland
+2,2010,Maui Nui,2334948.5,576.9783401,2.3349485,estuarine emergent wetland
+1,2010,Hawaii,48297.6,11.93459688,0.0482976,estuarine forested wetland
+1,2010,Hawaii,973.4,0.240532378,0.0009734,estuarine scrub/shrub wetland
+1,2010,Hawaii,115585.9,28.56189793,0.1155859,estuarine emergent wetland
+2,2010,Maui Nui,972587.52,240.3316103,0.97258752,palustrine forested wetland
+2,2010,Maui Nui,956096.6,236.2566152,0.9560966,palustrine scrub/shrub wetland
+2,2010,Maui Nui,1517938.6,375.090797,1.5179386,palustrine emergent wetland
+4,2010,Kauai,1448956.8,358.045023,1.4489568,palustrine forested wetland
+4,2010,Kauai,390873.6,96.58697009,0.3908736,palustrine scrub/shrub wetland
+4,2010,Kauai,1515386.9,374.4602582,1.5153869,palustrine emergent wetland
+3,2010,Oahu,700243.2,173.0338632,0.7002432,palustrine forested wetland
+3,2010,Oahu,678257.3,167.6010289,0.6782573,palustrine scrub/shrub wetland
+3,2010,Oahu,2142063.6,529.3154433,2.1420636,palustrine emergent wetland
+2,2010,Kauai,5316.48,1.313730819,0.00531648,palustrine emergent wetland
+2,2010,Molokai,1246475.5,308.0108041,1.2464755,palustrine forested wetland
+2,2010,Molokai,576616.3,142.4849909,0.5766163,palustrine scrub/shrub wetland
+2,2010,Molokai,272062.1,67.22800904,0.2720621,palustrine emergent wetland

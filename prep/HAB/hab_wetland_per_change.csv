@@ -1,5 +1,6 @@
-rgn_id,rgn_name,per_change_m2
-1,Hawaii,0.013
-2,Maui Nui,0.11
-3,Oahu,-0.1
-4,Kauai and Niihau,0.15
+rgn_id,rgn_name,change_sq_miles,acres,perc_change
+1,Hawaii,,,-20.94
+2,Molokai,,,1.71
+2,Maui,100.510333,60708.24113,0.11
+3,Oahu,,,0.14
+4,Kauai and Niihau,,,11.47
