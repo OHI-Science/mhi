@@ -1,7 +1,15 @@
-rgn_id,year,rgn_name,sq_m,acres,km,Ref
-2,2010,Maui,1446065.2,357.3304931,1.4460652,ccap_unconsolidated_shore
-2,2010,Lanai,213166.1,52.67449049,0.2131661,ccap_unconsolidated_shore
-2,2010,Molakai,1333059.8,329.4062506,1.3330598,ccap_unconsolidated_shore
-3,2010,Oahu,998064,246.6269856,0.998064,ccap_unconsolidated_shore
-4,2010,Kauai,733870.1,181.3432511,0.7338701,ccap_unconsolidated_shore
-1,2010,Hawaii,62853.1,15.53133926,0.0628531,ccap_unconsolidated_shore
+rgn_id,year,rgn_name,m,count,km expected,,acres,km,Ref
+2,2010,Maui,1446065.2,,,,357.3304931,1.4460652,ccap_unconsolidated_shore
+2,2010,Lanai,213166.1,,,,52.67449049,0.2131661,ccap_unconsolidated_shore
+2,2010,Molakai,1333059.8,,,,329.4062506,1.3330598,ccap_unconsolidated_shore
+3,2010,Oahu,998064,,,,246.6269856,0.998064,ccap_unconsolidated_shore
+4,2010,Kauai,733870.1,294515,1696406.4,1.6964064,181.3432511,0.7338701,ccap_unconsolidated_shore
+1,2010,Hawaii,62853.1,,,,15.53133926,0.0628531,ccap_unconsolidated_shore
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,4787078.3,,,,,,
+,,,,,,,,,
+,,count,sq meters,,area,,,,
+,,2481457,14293192.32,,14.29319232,,,,
+,,2.481457,2.985786199,,,,,,
