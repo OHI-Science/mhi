@@ -186,19 +186,17 @@ MAR = function(layers, status_year){
   harvest_tonnes <- SelectLayersData(layers, layers='mar_harvest_tonnes', narrow = TRUE) %>%
     select(rgn_id=id_num, species_code=category, year, tonnes=val_num)
 
-  sustainability_score <- SelectLayersData(layers, layers='mar_sustainability_score', narrow = TRUE) %>%
+  mar_operations <- SelectLayersData(layers, layers='mar_operations', narrow = TRUE) %>%
     select(rgn_id=id_num, species_code=category, sust_coeff=val_num)
 
-  popn_inland25mi <- SelectLayersData(layers, layers='mar_coastalpopn_inland25mi', narrow = TRUE) %>%
-    select(rgn_id=id_num, year, popsum=val_num) %>%
-    mutate(popsum = popsum + 1)
 
 
-  rky <-  harvest_tonnes %>%
+
+  rky <-  harvest_lbs %>%
     left_join(sustainability_score, by = c('rgn_id', 'species_code'))
 
   # fill in gaps with no data
-  rky <- spread(rky, year, tonnes)
+  rky <- spread(rky, year, lbs)
   rky <- gather(rky, "year", "tonnes", 4:dim(rky)[2])
 
 
@@ -207,7 +205,7 @@ MAR = function(layers, status_year){
     mutate(year = as.numeric(as.character(year))) %>%
     group_by(rgn_id, species_code, sust_coeff) %>%
     arrange(rgn_id, species_code, year) %>%
-    mutate(sm_tonnes = zoo::rollapply(tonnes, 4, mean, na.rm=TRUE, partial=TRUE)) %>%
+    mutate(sm_tonnes = zoo::rollapply(lbs, 4, mean, na.rm=TRUE, partial=TRUE)) %>%
     ungroup()
 
   # smoothed mariculture harvest * sustainability coefficient

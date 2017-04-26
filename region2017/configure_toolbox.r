@@ -21,8 +21,7 @@ conf=ohicore::Conf('conf')#went back to old code, couldn't get net code to work
 
 ## check that scenario layers files in the \layers folder match layers.csv registration. Layers files are not modified.
 ohicore::CheckLayers(file.path(wd, 'layers.csv'), file.path(wd, 'layers'), flds_id=conf$config$layers_id_fields)
-ohicore::CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_fields)#went back to old code, couldn't get net code to work
+ohicore::CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_fields)#went back to old code,
 ## load scenario layers for ohicore to access. Layers files are not modified.
 layers = ohicore::Layers(file.path(wd, 'layers.csv'), file.path(wd, 'layers'))
-layers = ohicore::Layers('layers.csv', 'layers')#went back to old code, couldn't get net code to work
-
+layers = ohicore::Layers('layers.csv', 'layers') #went back to old code,

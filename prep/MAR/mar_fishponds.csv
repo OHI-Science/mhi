@@ -1,0 +1,154 @@
+FID,rgn_id,AREA,Area_acres,PERIMETER,FISHPONDS_,FISHPOND_1,CORIALID,ISLAND,NAME1,NAME2,NAME3,TYPE_,CLASS,SIZE_,SOURCE,OWNERSHIP,WALLCONDIT,HREGSTAT,NATREGSTAT,SUBSURFACE,REF1,REF2,REF3,REF4,REF5,DHMFIELDCH,SEFACTOR1,SEFACTOR2,TMK,WATERQUALI,AQUACULTUR,HIARCHSITE
+0,4,20586.931,5.087133585,788.26,2,48,K48,Kauai,nameless or,Kanoa, ,3,3,6.77,2,P, ,N,N, ,Kikuchi-1973,Madden & Paulsen-1977, , , ,1-Jun-90,Mr. Sheehan (Owner) stated he plans to bring this pond back,into production.  He noted that most of the silt whi,5-5-01:2,Class 2,N,?
+1,4,1308.141,0.323248182,145.469,3,4,K4,Kauai,Kawaihau, , ,3,2,0,2,P, , , , , , , , , , , , ,4-3-03:, , ,?
+2,4,1867.375,0.461437699,171.237,4,4,K4,Kauai,Kawaihau, , ,3,2,0,2,P, , , , , , , , , , , , ,4-3-03:, , ,?
+3,4,6636.151,1.639826093,358.839,5,4,K4,Kauai,Kawaihau, , ,3,2,0,2,P, , , , , , , , , , , , ,4-3-03:, , ,?
+4,4,8693.994,2.148329387,768.28,6,5,K5,Kauai,nameless, , ,2,2,0,2,P, , , , , , , , , , , , ,4-1-03:16, , ,?
+5,4,11251.228,2.780234695,440.975,7,15,K15,Kauai,Kalalalehua or,Pepe'awa, ,3,4,0,2,P, , , , , , , , , , , , ,3-1-02:1, , ,?
+6,4,899.665,0.22231172,131.83,8,21,K21,Kauai,nameless,Ho'ai,BPBM 50-Ka-B4-5,2,2,0,2,P, , , , , , , , , , , , ,2-6-06:2, , ,30-10-75?
+7,4,2880.454,0.711774586,218.243,9,19,K19,Kauai,nameless,Weliweli ponds,BPBM 50-Ka-B4-7,2,2,0,2,P, , , , , , , , , , , , ,2-8-16:6, , ,30-10-77?
+8,4,1485.489,0.367071759,156.752,10,20,K20,Kauai,nameless,Weliweli ponds,BPBM 50-Ka-B4-7,2,2,0,2,P, , , , , , , , , , , , ,2-8-16:6, , ,30-10-77?
+9,4,679.19,0.167831245,106.119,11,18,K18,Kauai,nameless,Weliweli ponds,BPBM 50-Ka-B4-7,2,2,0,2,P, , , , , , , , , , , , ,2-8-16:6, , ,30-10-77?
+10,4,224.198,0.055400447,53.243,12,17,K17,Kauai,nameless, , ,2,4,0,7,P, , , , , , , , , , , , ,2-8-17:25, , ,30-10-77?
+11,3,58517.832,14.46004888,1151.138,13,124,O124,Oahu,"Ka'auhelemoa or Kahaluu, or",Ki'i (McAllister #268),BPBM #50-Oa-F4-10 & 11),3,4,0,2, , , , , , , , , , , , , , , , ,?
+12,3,2984.716,0.737538247,220.42,14,121,O121,Oahu,Kalou or,Kalouwai, ,3,1,0,2,S, , , , , , , , , , , , ,5-8-01:15, , ,80-01-257?
+13,3,16667.645,4.118658418,591.931,15,130,O130,Oahu,Huilua, , ,1,2,4.5,2,S,Poor,Y,Y, ,Apple & Kikuchi-1975,Hommon & Bevaqua-1973,Kelly-1979,McAllister-1933,MINARK-1989,9-May-89, , ,5-2-05:21 portion,Class AA, ,80-06-301?
+14,3,196619.18,48.58558247,1810.34,16,133,O133,Oahu,Moli'i, , ,1,1,124.1,2,P,Good,N,Y, ,Apple & Kikuchi-1975,McAllister-1933,MINARK-1989,Sterling & Summers-1978, ,9-May-89,"Moli'i Fishpond has been stocked, harvested, and maintained",by George Uyemura and his family for many years. Mr. Uye,4-9-03:43,Class AA, ,80-06-313?
+15,3,15009.759,3.708986498,628.203,17,131,O131,Oahu,Koholalele, , ,2,2,5.3,2,CCH,No wall,N,N, ,Apple & Kikuchi-1975,Gunness-1987,McAllister-1933,MINARK-1989,Sterling & Summers-1978,9-May-89,Identified in the Hawaiian Waterbird Recovery Plan as an,essential habitat area for Hawaiian waterbirds (U.S. Fish &,4-9-04:1 portion,Class 2, ,80-06-312?
+16,3,127223.813,31.43764031,1313.271,18,134,O134,Oahu,Kahalu'u or,Kahouna, ,1,2,39.4,2,P,Excellent,N,Y, ,McAllister-1933,MINARK-1989, , , ,10-May-89,Pond is being maintained but not used for fish production.,"Dr. Yap, Linda Wong's father, reports that pollution",4-7-11:1,Class AA, ,80-10-319?
+17,3,3029.776,0.748672798,198.123,19,135,O135,Oahu,nameless (or Fong),(McAllister #319A), ,1,2,1.5,2,P,Good,N,N, ,McAllister-1933, , , , ,24-May-89,The pond is being maintained but not used for commercial fish,"production.  Approximately one acre of the pond, which",4-7-09:4 portion,Class AA, ,?
+18,3,331582.042,81.93558049,2378.967,20,137,O137,Oahu,He'eia or,He'eia-uli, ,1,2,96.7,2,P,Good,N,Y, ,Kelly-1975,McAllister-1933,Sterling & Summers-1978, , ,8-May-89, , ,4-6-05:1,Class AA, ,80-10-327?
+19,3,101067.576,24.97430337,1364.903,21,155,O155,Oahu,Halehou or,Halekou, ,2,3,0,"2, 6, 7",F, , , , , , , , , , , , ,4-4-08:1, , ,80-11-1002?
+20,3,150277.402,37.13429742,3025.781,22,156,O156,Oahu,Kaluapuhi, , ,1,3,0,"2, 6, 7",F, , , , , , , , , , , , ,4-4-08:1, , ,80-11-1002?
+21,3,365616.056,90.34555552,2829.783,23,154,O154,Oahu,Nu'upia, , ,2,3,0,"2, 6, 7",F, , , , , , , , , , , , ,4-4-08:1, , ,80-11-1002?
+22,3,11856.312,2.929753977,458.185,24,0,O0, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+23,3,9668.166,2.389052159,375.061,25,142,O142,Oahu,Kanohuluiwi, , ,1,1,3,2,P,Good,N, , ,Apple & Kikuchi-1975,McAllister-1933,MINARK-1989, , ,24-May-89,Fishpond owners report problems with pollution from adjacent,Makani Kai Marina.  They also shared information,4-5-57:1&9 portions,Class AA, ,80-10-344?
+24,3,6165.059,1.523416904,361.919,26,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+25,3,1730.626,0.427646338,159.286,27,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+26,3,7452.066,1.841442769,397.323,28,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+27,3,989.537,0.24451954,125.444,29,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+28,3,1078.538,0.266512132,171.837,30,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+29,3,706.88,0.174673582,102.547,31,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+30,3,777.036,0.192009481,122.413,32,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+31,3,46483.72,11.48635963,1764.108,33,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+32,3,320.815,0.079274991,73.281,34,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+33,3,355.503,0.087846569,71.046,35,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+34,3,429.879,0.10622525,85.742,36,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+35,3,27333.153,6.754158772,1336.602,37,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+36,3,713.6,0.176334128,108.227,38,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+37,3,723.163,0.178697193,105.464,39,159,O159,Oahu,Kawainui,(McAllister #370),BPBM #50-Oa-G6-2,3,3,0,2,CCH, , , , , , , , , , , , ,4-2-16:1, , ,?
+38,3,27397.381,6.770029832,685.929,40,96,O96,Oahu,Loko Moo, , ,1,3,0,2, , , , , , , , , , , , , ,9-6-01:1, , ,80-09-120?
+39,3,32300.6,7.981639763,1005.491,41,95,O95,Oahu,Loko Kuhialoko, , ,1,4,0,2, , , , , , , , , , , , , ,9-6-01:1, , ,80-09-119?
+40,3,761279.486,188.1159674,12055.14,42,1,O1,Oahu,Keahupua-O-Maunalua or,Kuapa (McAllister #49),BPBM 50-Oa-A1-51,1,3,0,2,P, , , , , , , , , , , , ,3-9-08:35 portion, , ,?
+41,,16077.511,3.972833356,504.941,43,0,O0, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+42,,5602.849,1.384492002,295.099,44,0,O0, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+43,,56972.419,14.0781696,917.183,45,0,O0, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+44,2,4140.458,1.023127874,261.923,46,71,N71,Molokai,'Ohalahala, , ,1,4,0,1,S, , , , , , , , , , , , ,5-8-01:3, , ,60-05-231?
+45,2,19179.268,4.739293019,719.157,47,70,N70,Molokai,Kahinapohaku or,Ka'apohaku, ,1,3,0,7,S, , , , , , , , , , , , ,5-8-01:2, , ,60-05-228?
+46,2,34812.619,8.602372218,1233.487,48,14,N14,Molokai,'O'o'ia, , ,1,3,0,1,P, , , , , , , , , , , , ,5-2-11:25, , ,60-02-103?
+47,2,35493.928,8.770727078,874.676,49,15,N15,Molokai,Kalua'apuhi, , ,1,2,19,1,P,Excellent,N,N, ,Estioko-Griifin-1987,MINARK-1989,Summers-1971, , ,18-May-89,Located adjacent to Molokai's biomass electric plant. Identi-,fied in the Hawaiian Waterbirds Recovery Plan as an esse,5-2-11:25,Class A, ,60-03-104?
+48,2,3976.403,0.982589063,260.545,50,13,N13,Molokai,Punalau, , ,2,3,0,7,P, , , , , , , , , , , , ,5-2-11:11, , ,60-02-102?
+49,2,9237.223,2.282563989,490.961,51,18,N18,Molokai,'Ohaipilo or,'Ohi'apilo, ,2,4,0,2,HHL, , , , , , , , , , , , ,5-2-11:1, , ,60-03-118?
+50,2,7292.627,1.802044595,339.921,52,17,N17,Molokai,Kahokai or,Kakokahi, ,2,3,0,7,HHL, , , , , , , , , , , , ,_-2-11:1, , ,60-03-117?
+51,2,123042.053,30.40430651,1678.275,53,7,N7,Molokai,Pakanaka, , ,5,3,0,1,P, , , , , , , , , , , , ,5-1-02:4, , ,60-02-97?
+52,2,50248.298,12.41660568,1022.832,54,6,N6,Molokai,nameless, , ,1,3,0,1,P, , , , , , , , , , , , ,5-1-02:4, , ,60-02-80?
+53,2,83592.382,20.65609555,1270.34,55,5,N5,Molokai,Naninaniku'eku'e, , ,5,3,0,1,P, , , , , , , , , , , , ,5-1-02:4, , ,60-02-79?
+54,2,8213.611,2.029624346,397.744,56,4,N4,Molokai,Hikauhi, , ,1,3,0,1,P, , , , , , , , , , , , ,5-1-02:4, , ,60-02-78?
+55,2,4527.914,1.118870189,298.428,57,63,N63,Molokai,Kula'alamihi, , ,1,3,0,1,P, , , , , , , , , , , , ,5-7-04:34, , ,60-05-214?
+56,2,5822.004,1.438646298,332.169,58,62,N62,Molokai,Waihilahila, , ,1,3,4.7,1,P,Fair,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1975, , ,19-May-89,Directly associated with two other fishponds (Kihaloko and,Kula'alamihi).,5-7-06:27,Class AA, ,60-05-213?
+57,2,13915.808,3.438665736,459.641,59,61,N61,Molokai,Kihaloko, , ,1,3,9.8,7,P,Poor,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1971, , ,18 & 19 May 1989,Possible fresh water source is located directly west of,the fishpond.  Directly associated with two other fish,5-7-06:22,Class AA, ,60-05-212?
+58,2,190.597,0.047097472,51.851,60,23,N23,Molokai,Kapa'akea, , ,2,4,0,7,P, , , , , , , , , , , , ,_-4-03:9, , ,60-03-132?
+59,2,106391.175,26.2897913,1237.078,61,24,N24,Molokai,Kaloko'eli, , ,1,2,28.2,7,S,Good,Y,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1971, ,18-May-89,Bordered on its western side by Molokai Shores Condominium,and on its eastern side by Hotel Molokai.,5-4-02:14,Class AA, ,60-03-133?
+60,2,96049.252,23.73425042,1241.524,62,59,N59,Molokai,Kupeke, , ,1,2,33.8,7,P,Fair,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1975, , ,19-May-89,"An active fresh water source, Kupeke Stream is located to the",east of the pond.,5-7-06:1,Class AA, ,60-05-206?
+61,2,84272.534,20.82416451,1129.762,63,57,N57,Molokai,Puko'o, , ,7,4,0,1,P, , , , , , , , , , , , ,5-7-07:21, , ,60-05-203?
+62,2,69490.951,17.17156145,1058.511,64,25,N25,Molokai,Ali'i, , ,1,2,0,1,HHL, , , , , , , , , , , , ,5-4-06:25, , ,60-03-135?
+63,2,54423.247,13.44825645,927.44,65,56,N56,Molokai,Panahaha, , ,1,3,0,1,S, , , , , , , , , , , , ,5-7-07:22, , ,60-05-202?
+64,2,43222.444,10.68048202,879.596,66,26,N26,Molokai,Kaoaini or,Kaonini, ,1,3,29.8,1,P,Fair,N,N,Y,Estioko-Griffin-1987,MINARK-1989,Summers-1971, , ,18-May-89, , ,5-4-03:23,Class AA, ,60-03-136?
+65,2,113327.876,28.0038848,1427.937,67,53,N53,Molokai,Ni'aupala or,Ni'ahuhala, ,1,3,35.6,1,P,Fair,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1975, , ,19-May-89,A caretaker's house has recently been constructed on the west,shore of the fishpond.,5-7-07:8,Class AA, ,60-05-192?
+66,2,29220.442,7.22051732,823.667,68,55,N55,Molokai,Pipi'o,Pi'opi'o or,Mapulehu,1,3,17.8,7,P,Poor,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1971, , ,19-May-89,The southern side of fishpond has been recently bulldozed.,Ocean waters reflected extensive mixing with deposits,5-7-08:77,Class AA, ,60-05-196?
+67,2,172994.114,42.74771054,1566.607,69,27,N27,Molokai,Kanoa, , ,1,3,0,1,P, , , , , , , , , , , , ,5-4-17:49,Class AA, ,60-03-137?
+68,2,72205.829,17.84242138,991.545,70,52,N52,Molokai,Ka'opeahina, , ,1,1,19.7,1,P,Excellent,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1975, , ,Visitation denied., , ,5-7-09:1,Class AA, ,60-05-190?
+69,2,26578.576,6.567699022,688.621,71,29,N29,Molokai,Kakaha'ia, , ,2,2,0,7,F, , , , , , , , , , , , ,5-4-01:5, , ,60-04-143?
+70,2,53032.182,13.10451733,887.404,72,51,N51,Molokai,Mahilika, , ,1,3,0,7,S, , , , , , , , , , , , ,5-7-10:31, , ,60-04-189?
+71,2,388.662,0.096040324,72.75,73,30,N30,Molokai,Uluanui, , ,2,4,0,1,P, , , , , , , , , , , , ,5-5-01:31, , ,60-04-145?
+72,2,57407.904,14.18578012,1013.415,74,49,N49,Molokai,'Ualapu'e, , ,1,2,22.3,1,S,Good,N,Y, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1975, ,18-May-89,"Mr. Blissard, property owner near 'Ualapu'e Fishpond, noted",that there is a spring on his property and other property,5-6-01:1,Class AA, ,60-04-185?
+73,2,47513.659,11.74086271,970.683,75,31,N31,Molokai,Kawi'u, , ,1,3,12.5,7,P,Poor,N,N, ,Estioko-Griffin-1987,MINARK-1989,Summers-1971, , ,Visitation denied.,The owners of Kawi'u Fishpond have submitted an application,with the U.S. Army Corps of Engineers for a dredging permit,5-5-01:39,Class AA, ,60-04-146?
+74,2,154738.125,38.23656438,1703.816,76,32,N32,Molokai,Panahaha, , ,5,3,0,1,P, , , , , , , , , , , , ,5-5-01:21, , ,60-04-147?
+75,2,13905.044,3.436005898,457.773,77,48,N48,Molokai,Halemahana, , ,1,3,0,1,S, , , , , , , , , , , , ,5-6-03:35, , ,60-04-184?
+76,2,200103.392,49.44654868,1849.461,78,42,N42,Molokai,Keawa Nui or,Mikimiki or,Hinau,1,1,73,1,P,Good,N,Y, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1975, ,19-May-89,Pond was reported to be heavily infested with jellyfish. An,aquaculture farm is currently in operation just east of,5-6-06:8,Class AA, ,60-04-163?
+77,2,20153.67,4.980072625,641.365,79,41,N41,Molokai,Papa'ili'ili, , ,5,4,0,1,S, , , , , , , , , , , , , , , ,60-04-161?
+78,2,43383.872,10.72037169,942.956,80,40,N40,Molokai,Kaina'ohe, , ,1,2,17.2,1,P,Fair,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1975, ,19-May-89, , ,5-6-05:22,Class AA, ,60-04-160?
+79,2,71032.228,17.5524187,1239.082,81,33,N33,Molokai,Kanukunukuawa, , ,5,3,0,1,P, , , , , , , , , , , , ,5-5-01:12, , ,60-04-148?
+80,2,33202.106,8.204406403,682.15,82,34,N34,Molokai,Pahiomu, , ,1,2,19.8,1,S,Fair,Y,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1975, ,18-May-89, , ,5-5-01:10,Class AA, ,60-04-149?
+81,2,17282.474,4.270585738,558.268,83,47,N47,Molokai,Puhaloa, , ,1,3,0,7,P, , , , , , , , , , , , ,5-6-04:25, , ,60-04-179?
+82,2,20191.1,4.989321765,601.078,84,35,N35,Molokai,Kipapa, , ,1,3,8.5,1,S,Good,Y,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1971, ,18-May-89, , ,5-5-01:8,Class AA, ,60-04-150?
+83,2,74235.384,18.34393456,1225.215,85,39,N39,Molokai,Paialoa, , ,1,4,0,1,P, , , , , , , , , , , , ,5-6-02:12&5-6-07:1, , ,60-04-158?
+84,2,41842.555,10.33950455,779.385,86,43,N43,Molokai,Mikiawa, , ,5,3,0,1,S, , , , , , , , , , , , ,5-6-06:9, , ,60-04-162?
+85,2,166706.725,41.19406528,1683.812,87,42,N42,Molokai,Keawa Nui or,Mikimiki or,Hinau,1,1,73,1,P,Good,N,Y, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,MINARK-1989,Summers-1975, ,19-May-89,Pond was reported to be heavily infested with jellyfish. An,aquaculture farm is currently in operation just east of,5-6-06:8,Class AA, ,60-04-163?
+86,2,221237.263,54.66883387,2151.449,88,36,N36,Molokai,Kamahu'ehu'e, , ,1,3,0,1,P, , , , , , , , , , , , ,5-5-02:5, , ,60-04-151?
+87,2,32324.063,7.987437588,831.816,89,38,N38,Molokai,nameless, , ,5,3,0,1,S, , , , , , , , , , , , ,5-6-09:, , ,60-04-156?
+88,2,144511.251,35.70945268,1648.759,90,37,N37,Molokai,Kalokoiki, , ,1,2,4,7,P,Good,N,N, ,Apple & Kikuchi-1975,Estioko-Griffin-1987,Summers-1975, , ,18-May-89,The caretaker of the fishpond Mr. George Maioho of Kapualei,Ranch noted previous dredging east of the area,5-6-08:20,Class AA, ,60-04-157?
+89,,4905.02,1.212054967,312.708,91,27,27, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+90,,109270.27,27.00123007,2027.713,92,29,29, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+91,,55437.285,13.69883031,1410.899,93,30,30, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+92,,5865.846,1.449479876,434.458,94,31,31, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+93,,694.993,0.171736245,97.071,95,32,32, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+94,2,16756.665,4.140655705,803.775,96,1,L1,Lanai,Ka'a, , ,5,3,0,6,P, , , , , , , , , , , , ,4-9-02:1, , ,40-98-81?
+95,2,4184.983,1.034130224,384.766,97,2,L2,Lanai,Waiaopae, , ,5,3,0,6,P, , , , , , , , , , , , ,4-9-02:1, , ,40-98-80?
+96,,913009.588,225.6092342,5627.259,98,18,18, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+97,,198.869,0.049141524,54.338,99,33,33, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+98,,466.349,0.11523717,85.094,100,33,33, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+99,,249.735,0.061710767,63.33,101,34,34, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+100,,170.968,0.042247048,51.962,102,34,34, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+101,,2149.801,0.531226576,181.014,103,36,36, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+102,,516.218,0.127560049,80.832,104,17,17, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+103,,2270.93,0.561158158,175.348,105,42,42, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+104,,615.711,0.152145267,100.127,106,11,11, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+105,,1427.489,0.352739669,144.035,107,8,8, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+106,,588.612,0.145448968,96.137,108,6,6, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+107,,1193.129,0.294828142,158.605,109,9,9, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+108,,593.92,0.146760602,100.318,110,5,5, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+109,,425.028,0.105026544,81.376,111,4,4, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+110,,565.61,0.139765059,100.584,112,3,3, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+111,,457.213,0.112979618,87.77,113,2,2, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+112,,476.43,0.117728235,88.426,114,1,1, , , , ,0,0,0, , , , , , , , , , , , , , , , , , 
+113,1,42852.775,10.58913497,1121.891,115,72,H72,Hawaii,nameless, , ,4,2,0,2,UNK, , , , , , , , , , , , ,1-May, , ,?
+114,1,46328.97,11.44812013,974.067,116,74,H74,Hawaii,Muliwai, , ,4,3,3,"2, 5",S,N/A,N,N, ,Kikuchi-1971,Loo & Bonk-1973, , , ,15-Jun-90,Open water area of pond is large but entirely surrounded,by swamp; pond was probably once much larger than,4-9-03:6,Class 2,N,"10-07-10,333?"
+115,1,526993.438,130.2227135,4580.069,117,70,H70,Hawaii,nameless ponds, , ,6,2,0,7,S/P, , , , , , , , , , , , ,"6-9-02,03,04,05,06", , ,?
+116,1,1675.268,0.413967099,217.89,118,66,H66,Hawaii,Waipuhi, , ,1,1,0,2,P, , , , , , , , , , , , ,6-8-22:16, , ,?
+117,1,470.265,0.116204833,91.233,119,53,H53,Hawaii,Weliweli ponds, , ,2,1,0.4,"2, 5",P,Unknown,N,N, ,Kikuchi-1973,Kikuchi & Belshe-1971,Maciolek & Brock-1974,Rosendahl-1973, ,Visitation denied., , ,7-1-03:9,Class 2,U,?
+118,1,2160.263,0.533811789,221.76,120,51,H51,Hawaii,Keawaiki, , ,2,1,0.8,"2, 5",P,N/A,N,N, ,Kikuchi-1973,Kikuchi & Belshe-1971,Maciolek & Brock-1974, , ,5-Jul-90, , ,7-1-03:3,Class 2,N,?
+119,1,6899.327,1.704858198,489.951,121,49,H49,Hawaii,Kiholo, , ,2,2,3,"2, 5",S,Good,N,N, ,Apple & Kikuchi-1975,Kikuchi-1973,Maciolek & Brock-1974, , ,6-Jul-90, , ,7-1-02:4,Class 2,N,?
+120,1,1680.109,0.415163334,169.881,122,44,H44,Hawaii,Luahinewai, , ,2,3,0,2,F, , , , , , , , , , , , ,7-1-02:8, , ,?
+121,1,950.205,0.234800407,126.103,123,46,H46,Hawaii,Waielepi, , ,6,2,0,2,P, , , , , , , , , , , , ,7-1-02:2, , ,?
+122,1,503.199,0.124342989,105.681,124,42,H42,Hawaii,Ka'upulehu, , ,2,2,1.7,"2, 5",P,Good,N,N, ,Apple & Kikuchi-1975,Kikuchi-1973,Kikuchi & Belshe-1971,Maciolek & Brock-1974,Soehren-1963,5-Jul-90,Freshwater spring at SE corner of pond.  According to the,"caretaker, the pond will be maintained in the future, inclu",7-2-03:2,Class 2,N,?
+123,1,1262.793,0.312042464,145.693,125,40,H40,Hawaii,Waiakuhi, , ,2,3,0,2,P, , , , , , , , , , , , ,7-2-03:1, , ,?
+124,1,101517.909,25.0855829,2938.152,126,113,H113,Hawaii,Keahialaka, ,BPBM 50-Ha-A11-10,1,3,0,7,S, , , , , , , , , , , , ,1-3-08:15, , ,10-46-2518?
+125,1,12474.976,3.082628944,615.715,127,34,H34,Hawaii,'Opae'ula (Kapo'ikai), ,BPBM 50-Ha-D20-7/8:internal,2,3,7,"2, 5",P,Good,N,N, ,Apple & Kikuchi-1975,Ching-1971,Donham-1986,Kikuchi-1973,Kikuchi & Belshe-1971,Visitation denied.,In Hawaii's ENDANGERED WATERBIRDS (Bureau of Sport Fisheries,"and Wildlife, 1970), 'Opae'ula Pond is listed as one of",7-2-04:1,Class 1,N,?
+126,1,11392.861,2.815232917,378.436,128,89,H89,Hawaii,Keokea, ,BPBM 50-Ha-H22-42,2,2,0,2,H, , , , , , , , , , , , ,2-1-14:13, , ,?
+127,1,330898.235,81.76660836,12896.289,129,30,H30,Hawaii,Pa'aiea, , ,2,4,0,5,S, , , , , , , , , , , , ,various TMKs, , ,?
+128,1,429.967,0.106246996,82.473,130,90,H90,Hawaii,nameless, , ,2,3,1.7,"2, 5",H,N/A,N,N, ,Kikuchi-1973, , , , ,13-Jun-90,"General area of the nameless fishponds CORIAL ID: 90, 91 & 92","appear now as one contiguous, heavily vegetated marsh.",2-1-14:35,Class 2,N,?
+129,1,1170.088,0.289134595,167.213,131,98,H98,Hawaii,Haleolono, ,BPBM 50-Ha-H22-33,2,3,2,2,P,Fair,N,N, ,Kikuchi-1973,McEldowney-1979, , , ,13-Jun-90, , ,2-1-15:42,Class A,N,"10-36-10,260?"
+130,1,7143.931,1.76530107,621.979,132,100,H100,Hawaii,Kionakapahu, ,BPBM 50-Ha-H22-43,2,2,2.8,2,S,N/A,N,N, ,Kikuchi-1973,McEldowney-1979, , , ,13-Jun-90,Kionakapahu is contiguous with Lokoaka Fishpond and is leased,for aquaculture by the Nakagawa family.  The USGS map c,2-1-16:1,Class 2,Y,"10-36-10,262?"
+131,1,303.311,0.074949665,73.925,133,106,H106,Hawaii,nameless ponds, , ,2,2,0,2,S/P, , , , , , , , , , , , ,"2-1-18,19: various", , ,?
+132,1,76113.219,18.80795698,1568.089,134,102,H102,Hawaii,Lokoaka,Lokowaka,BPBM 50-Ha-H22-4,2,1,14.4,"2, 5",S,Good,N,N, ,Apple & Kikuchi-1975,Kikuchi-1973,Madden & Paulsen-1977,McEldowney-1979,MINARK-1989,13-Jun-90,"The pond is used for aquaculture by the Nakagawa family, who",lease this pond as well as Kionakapahu and Akahi Fishponds.,2-1-16:1,Class 2,Y,"10-36-10,263?"
+133,1,327.842,0.081011397,68.446,135,105,H105,Hawaii,nameless,Richardson, ,1,2,0,2,S, , , , , , , , , , , , ,2-1-18:26, , ,?
+134,1,7480.917,1.848571995,633.234,136,84,H84,Hawaii,Waihonu, ,BPBM 50-Ha-H22-47,1,2,0,2,S, , , , , , , , , , , , ,2-1-03:1, , ,?
+135,1,22632.454,5.592592546,533.341,137,29,H29,Hawaii,nameless concentration,(80 ponds),(counted as one),6,2,0.01,2,P,Fair,N,N, ,Donham-1986,Kikuchi & Belshe-1971,Maciolek & Brock-1974, , ,3-Jul-90, , ,7-3-09:3, , ,?
+136,1,47134.596,11.64719434,1085.829,138,28,H28,Hawaii,Kaloko, ,BPBM 50-Ha-D13-11,1,1,0,"2, 5",F, , , , , , , , , , , , ,7-3-09:2,Class 2,N,10-27-2166?
+137,1,47321.492,11.69337728,1006.096,139,25,H25,Hawaii,'Aimakapa'a, ,BPBM 50-Ha-D12-30,2,2,60,"2, 5",P,Poor,N,N, ,Apple & Kikuchi-1975,Dept. of Interior-1975,Emory-1970,Emory & Soehren-1961,Kelly-1973,2-Jul-90,A garbage dump is located up-slope of the pond and possibly,may be contaminating ground water. Mr. R.K. Greenwell re,7-4-08:10,Class 2,N,10-27-3845?
+138,1,24625.755,6.085147189,1020.314,140,107,H107,Hawaii,Ha'ena,Shipman's,BPBM 50-Ha-A1-64,2,2,2.2,"2, 5",P,Unknown,N,N, ,Kikuchi-1973,Madden & Paulsen-1979,McEldowney-1979, , ,None., , ,1-6-01:1,Class AA,U,?
+139,1,13864.481,3.425982578,513.995,141,110,H110,Hawaii,nameless, , ,1,2,4.3,5,P,Fair,N,N, ,Cox-1983,Kikuchi-1973, , , ,14-Jun-90,Mangrove currently encroaching on two sides of pond. Young,mangrove shoots are growing out of the wall.  The pond,1-4-02:36,Class AA,N,?
+140,1,433.709,0.107171662,81.348,142,112,H112,Hawaii,Waiopae (concentration), , ,6,2,0,2,P, , , , , , , , , , , , ,"1-4-2:3,51,68various", , ,?
+141,1,86.753,0.0214371,37.962,143,5,H5,Hawaii,named pond concentration, , ,2,2,0,2,F, , , , , , , , , , , , ,8-4-11:, , ,?
+142,1,132.911,0.032842973,48.992,144,4,H4,Hawaii,Makaloa, , ,2,2,0,2,F, , , , , , , , , , , , ,8-4-11:, , ,?
+143,1,157.037,0.038804628,47.282,145,3,H3,Hawaii,Heleipala, , ,2,2,0,2,F, , , , , , , , , , , , ,8-4-11:, , ,?
+144,1,6191.43,1.52993331,353.032,146,115,H115,Hawaii,Waiakolea, ,BPBM 50-Ha-A21-6,2,4,0,2,S, , , , , , , , , , , , ,"1-2-03:5,6", , ,?
+145,1,3706.249,0.915832659,388.256,147,116,H116,Hawaii,Kikoa, , ,1,4,0,2,S, , , , , , , , , , , , ,1-2-03:12, , ,?
+146,1,4028.508,0.995464469,322.095,148,122,H122,Hawaii,nameless, , ,2,2,0,2,P, , , , , , , , , , , , ,9-5-19:12, , ,?
+147,1,3080.42,0.761187184,231.138,149,124,H124,Hawaii,nameless, , ,2,2,1.5,"5, 6",P,N/A,N,N, ,Apple & Kikuchi-1975,Barrera & Hommon-1972,Kikuchi-1973,Rosendahl & Rosendahl-1987, ,22-Jun-90, , ,9-5-19:12,Class AA,N,?
+148,1,15530.299,3.837614534,604.539,150,123,H123,Hawaii,Ninole,Hilo'e,BPBM 50-Ha-B9-2,1,3,4.1,"5, 6",P,Destroyed,N,N, ,Apple & Kikuchi-1975,Barrera & Hommon-1972,Kelly-1980,Kikuchi-1973,Rosendahl & Rosendahl-1987,22-Jun-90,"Close to 1 m of silt, gravel and boulders now fill the pond",basin.  Ninole Spring is still visible in the west (mauka,9-5-19:12,Class AA,N,10-68-3552?
+149,1,16368.93,4.044844448,624.162,151,129,H129,Hawaii,nameless, ,BPBM 50 Ha-B13-73,1,2,10,"2, 5",P,Fair,N,N, ,Apple & Kikuchi-1975,Ayres-1970,Kelly-1980,Kikuchi-1973,MINARK-1989,22-Jun-90,"A 6.4 m concrete bridge (arched), with electrical conduits","underneath, crosses a narrow area of pond near the northeast",9-5-14:7,Class AA,N,?
+150,1,1592.229,0.393447747,169.943,152,137,H137,Hawaii,Kanonone, ,BPBM 50-Ha-B23-46,2,2,0,"2, 5",P,Unknown,N,N, ,Haun & Walker-1987,Maciolek & Brock-1974,MINARK-1989, , ,Visitation denied., , ,9-2-01:72,Class 2,N,?
+151,1,17743.581,4.384527583,713.446,153,132,H132,Hawaii,nameless, ,BPBM 50-Ha-B18-11,1,3,3.6,7,S,Poor,N,N, ,Hansen & Kelly-1972,MINARK-1989, , , ,19-Jun-90, , ,9-4-01:14,Class AA,N,?
+152,1,471.895,0.116607614,84.839,154,133,H133,Hawaii,Lua O Palahemo, ,BPBM 50-Ha-B20-7,6,1,0,2,HHL, , , , , , , , , , , , ,9-3-01:1, , ,10-76-3610?
