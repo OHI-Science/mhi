@@ -6,7 +6,7 @@ FIS = function(layers, status_year){
       rgn_id    = id_num,
       stock_key = category,
       year,
-      catch          = val_num)
+      catch          = val_chr)
   # stock assessment score data
   b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>%
     select(

@@ -12,13 +12,14 @@
 ## in functions.R is a good workflow.
 
 ## run the configure_toolbox.r script to check configuration
-wd <- 'region2017'
-source(file.path(wd,'configure_toolbox.r'))
+setwd("~/github/mhi/region2017")
+
+source('configure_toolbox.r')
 
 ## calculate scenario scores
 scores = ohicore::CalculateAll(conf, layers)
 
 ## save scores as scores.csv
-write.csv(scores, file.path(wd, 'scores.csv'), na='', row.names=F)
+write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 
 
