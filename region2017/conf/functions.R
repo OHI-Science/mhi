@@ -1032,7 +1032,10 @@ growth<-subset(growth, year!=2010)
 #if greater than 2.5% than score =1
 
 r=0.025
-growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
+#growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
+growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.1, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
+#if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <105 score is 0
+
 growth$n_score<-growth$n_score*100
 #need to score environmental data to reference - use 30%
 env$env_score<-(env$percent/30)*100
@@ -1054,10 +1057,11 @@ tr_data<-tr_data %>%
   select(rgn_id, year, score, env_score,n_score)
 #Tourism goal is an average of the enivronmental protection, resident sentiment about tourism, and growth rate
 tr_data$status<-rowMeans(tr_data[,c("score","env_score","n_score")])
-tr_data_sum<-tr_data %>%
-  group_by(rgn_id)%>%
-  summarize(status=mean(status))
+tr_data_sum<-tr_data
 
+
+tr_data_sum<-ddply(tr_data, .(rgn_id),
+  summarize, status=mean(status))
 # ------------------------------------------------------------------------
 #Get yearly status and trend
 # -----------------------------------------------------------------------
@@ -1068,19 +1072,21 @@ status <-  tr_data_sum %>%
     dimension = 'status') %>%
   select(region_id=rgn_id, score, dimension)
 
-trend_years <- year:(year-4)#only 5 years of data so not relevent
+trend_years <- year:(year-4)
 first_trend_year <- min(tr_data$year)
 
 status_data=tr_data
 
 trend <- status_data %>%
-  #filter(year) %>%
+  filter(year) %>%
   group_by(rgn_id) %>%
   do(mdl = lm(status ~ year, data=.),
-     adjust_trend = .$status[.$year == first_trend_year]) %>%
+   adjust_trend = .$status[.$year == first_trend_year]) %>%
+  do(mdl = lm(status ~ year, data=status_data),
+  adjust_trend = trend[status_data$year == first_trend_year]) %>%
   summarize(region_id = rgn_id,
-            score = round(coef(mdl)['year']/adjust_trend * 5, 4),
-            dimension = 'trend') %>%
+          score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+          dimension = 'trend') %>%
   ungroup() %>%
   mutate(score = ifelse(score > 1, 1, score)) %>%
   mutate(score = ifelse(score < (-1), (-1), score))
