@@ -183,42 +183,54 @@ FIS = function(layers, status_year){
 
 MAR = function(layers, status_year){
     # layers used: mar_harvest_tonnes, mar_harvest_species, mar_sustainability_score, mar_coastalpopn_inland25mi, mar_trend_years
-  harvest_tonnes <- SelectLayersData(layers, layers='mar_harvest_tonnes', narrow = TRUE) %>%
-    select(rgn_id=id_num, species_code=category, year, tonnes=val_num)
+  harvest_tonnes <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
+    select(rgn_id=id_num, commodity=category, year, tonnes=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
 
+##species_code=commodity,
   mar_operations <- SelectLayersData(layers, layers='mar_operations', narrow = TRUE) %>%
-    select(rgn_id=id_num, species_code=category, sust_coeff=val_num)
+    select(rgn_id=id_num, year, commodity=category, value=val_num)
+
+  mar_fp_current <- SelectLayersData(layers, layers='mar_fishpond_current', narrow = TRUE) %>%
+    select(rgn_id=id_num, Area_acres=val_num)
+
+#need to get score of risk applyed to harvest
 
 
 
 
-  rky <-  harvest_lbs %>%
-    left_join(sustainability_score, by = c('rgn_id', 'species_code'))
+#join operator and harvest data
+  mar_harv <-  harvest_tonnes %>%
+    left_join(mar_operations, by = c('rgn_id', 'commodity','year'))
 
-  # fill in gaps with no data
-  rky <- spread(rky, year, lbs)
-  rky <- gather(rky, "year", "tonnes", 4:dim(rky)[2])
+#determine % of production by rgn as an estimate based on #operators per island/#state operators
 
+  sums<- ddply(mar_harv, .(commodity, year), summarize, sum_value=sum(value))
 
-  # 4-year rolling mean of data
-  m <- rky %>%
-    mutate(year = as.numeric(as.character(year))) %>%
-    group_by(rgn_id, species_code, sust_coeff) %>%
-    arrange(rgn_id, species_code, year) %>%
-    mutate(sm_tonnes = zoo::rollapply(lbs, 4, mean, na.rm=TRUE, partial=TRUE)) %>%
-    ungroup()
+  str(sums)
+  str(mar_harv)
+  mar_harv<-cbind(sums, mar_harv)
+  mar_harv$prop<-mar_harv$value/mar_harv$sum_value
+  mar_harv$est_harv<-mar_harv$prop*mar_harv$tonnes
 
-  # smoothed mariculture harvest * sustainability coefficient
-  m <- m %>%
-    mutate(sust_tonnes = sust_coeff * sm_tonnes)
+  #  mariculture harvest * sustainability coefficient (i.e risk)
+  risk=0.67 #allcultured species 0.67
+  risks=0.5 # average of Trujilo scores with added scores for biosecurity threat for Hawaii for shellfish
+  riskf=0.44 # average of Trujilo scores with added scores for biosecurity threat for Hawaii for finfish (includes tilapia because can not separate out tilapia farms given data)
+mar_harvs<-subset(mar_harv, commodity=="shellfish")
+mar_harvf<-subset(mar_harv, commodity=="finfish")
+mar_harvs$estimate<-mar_harvs$est_harv*risks
+mar_harvf$estimate<-mar_harvf$est_harv*riskf
+mar_harv<-rbind(mar_harvs, mar_harvf)
 
+# aggregate all weighted timeseries per region,
+ ry<-ddply(mar_harv, .(rgn_id, year), summarize, sust_tones_sum=sum(estimate))
 
-  # aggregate all weighted timeseries per region, and divide by coastal human population
-  ry = m %>%
+ #need to deside if including population as part of the model
+ ry = mar_harv %>%
     group_by(rgn_id, year) %>%
-    summarize(sust_tonnes_sum = sum(sust_tonnes, na.rm=TRUE)) %>%  #na.rm = TRUE assumes that NA values are 0
-    left_join(popn_inland25mi, by = c('rgn_id','year')) %>%
-    mutate(mar_pop = sust_tonnes_sum / popsum) %>%
+    summarize(sust_tonnes_sum = sum(estimate)) %>%  #na.rm = TRUE assumes that NA values are 0
+   # left_join(popn_inland25mi, by = c('rgn_id','year')) %>%
+   # mutate(mar_pop = sust_tonnes_sum / popsum) %>%
     ungroup()
 
 
