@@ -224,7 +224,7 @@ mar_harv<-rbind(mar_harvs, mar_harvf)
 
 # aggregate all weighted timeseries per region,
  ry<-ddply(mar_harv, .(rgn_id, year), summarize, sust_tones_sum=sum(estimate))
-
+  max_harv<-max(ry$sust_tones_sum)
  #need to deside if including population as part of the model
  ry = mar_harv %>%
     group_by(rgn_id, year) %>%
