@@ -1106,10 +1106,10 @@ LIV_ECO = function(layers, subgoal){
   le_gdp   = SelectLayersData(layers, layers='le_gdp')  %>%
     dplyr::select(rgn_id = id_num, year, gdp_usd = val_num)
 
-  le_wages = SelectLayersData(layers, layers='le_wage_sector_year') %>%
+  le_wages = SelectLayersData(layers, layers='le_wage') %>%
     dplyr::select(rgn_id = id_num, year, sector = category, wage_usd = val_num)
 
-  le_jobs  = SelectLayersData(layers, layers='le_jobs_sector_year') %>%
+  le_jobs  = SelectLayersData(layers, layers='le_jobs') %>%
     dplyr::select(rgn_id = id_num, year, sector = category, jobs = val_num)
 
   le_workforce_size = SelectLayersData(layers, layers='le_wkforce') %>%
@@ -1118,7 +1118,7 @@ LIV_ECO = function(layers, subgoal){
   le_unemployment = SelectLayersData(layers, layers='le_unemployment') %>%
     dplyr::select(rgn_id = id_num, year, pct_unemployed = val_num)
 
-
+  #need local multiplies - jobs not identified as mammal watching, mariculture, etc from ENOW
   # multipliers from Table S10 (Halpern et al 2012 SOM)
   multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
                                 'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
@@ -1142,10 +1142,10 @@ LIV_ECO = function(layers, subgoal){
   liv =
     # adjust jobs
     le_jobs %>%
-    left_join(multipliers_jobs, by = 'sector') %>%
-    mutate(jobs_mult = jobs * multiplier) %>%  # adjust jobs by multipliers
+    #left_join(multipliers_jobs, by = 'sector') %>% # if using multiplies run this code
+    #mutate(jobs_mult = jobs * multiplier) %>%  # adjust jobs by multipliers
     left_join(le_employed, by= c('rgn_id', 'year')) %>%
-    mutate(jobs_adj = jobs_mult * proportion_employed) %>% # adjust jobs by proportion employed
+    mutate(jobs_adj = jobs * proportion_employed) %>% # adjust jobs by proportion employed #assumes unemployment rate is equal to county unemployment rate and equal accross sectors
     left_join(le_wages, by=c('rgn_id','year','sector')) %>%
     arrange(year, sector, rgn_id)
 
