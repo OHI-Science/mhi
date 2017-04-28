@@ -1033,7 +1033,7 @@ growth<-subset(growth, year!=2010)
 
 r=0.025
 #growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
-growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.1, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
+growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.05, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
 #if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <105 score is 0
 
 growth$n_score<-growth$n_score*100
@@ -1072,18 +1072,18 @@ status <-  tr_data_sum %>%
     dimension = 'status') %>%
   select(region_id=rgn_id, score, dimension)
 
-trend_years <- year:(year-4)
+#year=as.data.frame(tr_data$year)#work around for not finding status_year
+trend_years <- status_year:(status_year-4)
 first_trend_year <- min(tr_data$year)
 
 status_data=tr_data
+str(status_data)
 
 trend <- status_data %>%
   filter(year) %>%
   group_by(rgn_id) %>%
   do(mdl = lm(status ~ year, data=.),
    adjust_trend = .$status[.$year == first_trend_year]) %>%
-  do(mdl = lm(status ~ year, data=status_data),
-  adjust_trend = trend[status_data$year == first_trend_year]) %>%
   summarize(region_id = rgn_id,
           score = round(coef(mdl)['year']/adjust_trend * 5, 4),
           dimension = 'trend') %>%
@@ -1112,7 +1112,7 @@ LIV_ECO = function(layers, subgoal){
   le_jobs  = SelectLayersData(layers, layers='le_jobs_sector_year') %>%
     dplyr::select(rgn_id = id_num, year, sector = category, jobs = val_num)
 
-  le_workforce_size = SelectLayersData(layers, layers='le_workforcesize_adj') %>%
+  le_workforce_size = SelectLayersData(layers, layers='le_wkforce') %>%
     dplyr::select(rgn_id = id_num, year, jobs_all = val_num)
 
   le_unemployment = SelectLayersData(layers, layers='le_unemployment') %>%
