@@ -47,6 +47,7 @@ sector_weight$weight<-sector_weight$Employment/sector_weight$sum
 sector_weight<-subset(sector_weight, OceanSectorId!=9)
 dir_layers <- file.path('~/github/mhi/region2017/layers')
 #create the data layer
+
 readr::write_csv(jobs, file.path(dir_layers, "le_jobs_mhi2017.csv"))
 readr::write_csv(per_person_wages, file.path(dir_layers, "le_wages_mhi2017.csv"))
 readr::write_csv(GDP, file.path(dir_layers, "le_gdp_mhi2017.csv"))
