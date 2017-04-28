@@ -1154,6 +1154,9 @@ LIV_ECO = function(layers, subgoal){
   # LIV status
   liv_status = liv %>%
     filter(!is.na(jobs_adj) & !is.na(wage_usd))
+liv_status<-subset(liv_status, sector!="All Ocean Sectors")
+
+
   # aia/subcountry2014 crashing b/c no concurrent wage data, so adding this check
   if (nrow(liv_status)==0){
     liv_status = liv %>%
