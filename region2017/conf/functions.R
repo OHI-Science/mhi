@@ -1100,7 +1100,7 @@ return(scores)
 
 }
 
-LIV_ECO = function(layers, subgoal){
+LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
 
   ## read in all data: gdp, wages, jobs and workforce_size data
   le_gdp   = SelectLayersData(layers, layers='le_gdp')  %>%
@@ -1153,9 +1153,9 @@ LIV_ECO = function(layers, subgoal){
 
   # LIV status
   liv_status = liv %>%
-    filter(!is.na(jobs_adj) & !is.na(wage_usd))
-liv_status<-subset(liv_status, sector!="All Ocean Sectors")
-liv_status<-subset(liv_status, sector!="Offshore Mineral Extraction")
+    filter(!is.na(jobs_adj) & !is.na(wage_usd),
+           sector!="All Ocean Sectors",
+           sector!="Offshore Mineral Extraction")
 
 
   # aia/subcountry2014 crashing b/c no concurrent wage data, so adding this check
@@ -1185,6 +1185,7 @@ liv_status<-subset(liv_status, sector!="Offshore Mineral Extraction")
         jobs_sum  = sum(jobs_adj, na.rm=T),
         # across sectors, wages are averaged
         wages_avg = mean(wage_usd, na.rm=T)) %>%
+      ungroup() %>%
       group_by(rgn_id) %>%
       arrange(rgn_id, year) %>%
       mutate(
@@ -1196,18 +1197,22 @@ liv_status<-subset(liv_status, sector!="Offshore Mineral Extraction")
       # calculate final scores
       ungroup() %>%
       mutate(
-        x_jobs  = pmax(-1, pmin(1,  jobs_sum / jobs_sum_first)),
-        x_wages = pmax(-1, pmin(1, wages_avg / wages_avg_first)),
-        score   = mean(c(x_jobs, x_wages), na.rm=T) * 100) %>%
+        x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
+        x_wages = pmin(1, wages_avg / wages_avg_first)) %>%
+      mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
       # filter for most recent year
       filter(year == max(year, na.rm=T)) %>%
       # format
-      dplyr::select(
-        region_id = rgn_id,
-        score) %>%
       mutate(
         goal      = 'LIV',
-        dimension = 'status')
+        dimension = 'status') %>%
+      dplyr::select(
+        goal,
+        dimension,
+        region_id = rgn_id,
+        score)
+
+  }
 
     # LIV trend
     # From SOM p. 29: trend was calculated as the slope in the individual sector values (not summed sectors)
@@ -1257,7 +1262,6 @@ liv_status<-subset(liv_status, sector!="Offshore Mineral Extraction")
         goal, dimension,
         region_id = rgn_id,
         score)
-  }
 
 
   # ECO calculations ----
