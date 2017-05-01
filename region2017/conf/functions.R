@@ -1156,7 +1156,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     filter(!is.na(jobs_adj) & !is.na(wage_usd),
            sector!="All Ocean Sectors",
            sector!="Offshore Mineral Extraction")
-
+#liv_status$wage_score=liv_status$wage_usd/32818
 
   # aia/subcountry2014 crashing b/c no concurrent wage data, so adding this check
   if (nrow(liv_status)==0){
@@ -1193,12 +1193,15 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
         jobs_sum_first  = first(jobs_sum),                     # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
         # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
         # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-        wages_avg_first = first(wages_avg)) %>% # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
-      # calculate final scores
+        wages_avg_first = 32818) %>% #may need to weight by number of jobs at livable wage not by sector-scores artificially inflated
+        #wages_avg_first = first(wages_avg)) %>% # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
+      #senario for hawaii replace first_wage with livable wage #1 adult =32,818, if 2 adults and 2 childen - typical family? then 87,789 combined income.
+      #calculate final scores
       ungroup() %>%
       mutate(
         x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
-        x_wages = pmin(1, wages_avg / wages_avg_first)) %>%
+        x_wages = pmin(1, wages_avg / wages_avg_first)) %>% #use this code for original, global model estimate
+      # x_wages = pmin(1, wages_avg / 32818)) %>% #use this code if reference for Liv wages is livable wage
       mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
       # filter for most recent year
       filter(year == max(year, na.rm=T)) %>%
@@ -1221,7 +1224,11 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     # ... averaging slopes across sectors weighted by the revenue in each sector
 
     # get trend across years as slope of individual sectors for jobs and wages
-    liv_trend = liv %>%
+    liv_trend =
+      liv %>%
+      filter(!is.na(jobs_adj) & !is.na(wage_usd),
+             sector!="All Ocean Sectors",
+             sector!="Offshore Mineral Extraction")%>%
       filter(!is.na(jobs_adj) & !is.na(wage_usd)) %>%
       # TODO: consider "5 year time spans" as having 5 [(max(year)-4):max(year)] or 6 [(max(year)-5):max(year)] member years
       filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
@@ -1271,6 +1278,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
       sector = 'gdp') %>%
     # adjust rev with national GDP rates if available. Example: (rev_adj = gdp_usd / ntl_gdp)
     dplyr::select(rgn_id, year, sector, rev_adj)
+
 
   # ECO status
   eco_status = eco %>%
