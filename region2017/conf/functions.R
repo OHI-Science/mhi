@@ -984,7 +984,7 @@ CP <- function(layers){
 }
 
 
-TR = function(layers, status_year) {
+TR = function(layers, status_year=2015) {
 #formula
   #t_sentiment is average score our of 100 of three consistent HTA questions on resident feelings towards tourism
   #t_sentiment reference from HTA report goal of 80% of Hawaii residents that agree that tourism has brought more benefits than problems
@@ -995,7 +995,7 @@ TR = function(layers, status_year) {
   ##  E   = Eg                         # Eg: % growth of visitor contribution to Hawaii's gdp. t_visitor_gdp_mhi2017.csv reference value comes from HTA's goal for 2020 and coresponds to a 2.5% annual growth
   ##  S   = resident sentiment        # resident feelings toward tourism
   ##  env = environmental sustainability # score based on 30% protected area reference for effectively managing nearshore waters
-  ##Xtr = E * S
+  ##Xtr = (E + S + env)/3
 
   ## read in layers
 
@@ -1073,6 +1073,7 @@ status <-  tr_data_sum %>%
   select(region_id=rgn_id, score, dimension)
 
 #year=as.data.frame(tr_data$year)#work around for not finding status_year
+status_year=2015
 trend_years <- status_year:(status_year-4)
 first_trend_year <- min(tr_data$year)
 
@@ -1080,11 +1081,11 @@ status_data=tr_data
 str(status_data)
 
 trend <- status_data %>%
-  filter(year) %>%
+  #filter(year) %>%
   group_by(rgn_id) %>%
   do(mdl = lm(status ~ year, data=.),
    adjust_trend = .$status[.$year == first_trend_year]) %>%
-  summarize(region_id = rgn_id,
+  dplyr::summarize(region_id = rgn_id,
           score = round(coef(mdl)['year']/adjust_trend * 5, 4),
           dimension = 'trend') %>%
   ungroup() %>%
