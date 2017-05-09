@@ -350,22 +350,55 @@ AO = function(layers,
               Sustainability=1.0){
 
 
-  r <- SelectLayersData(layers, layers = 'ao_access', narrow=TRUE) %>%
+  r <- SelectLayersData(layers, layers = 'ao_access', narrow=TRUE) %>%   ##global access data for management of fisheries and mpas- need to be updated
     select(region_id=id_num, access=val_num)
   r <- na.omit(r)
 
-  ry <- SelectLayersData(layers, layers = 'ao_need', narrow=TRUE) %>%
+  ry <- SelectLayersData(layers, layers = 'ao_need', narrow=TRUE) %>% ##households that fish
     select(region_id = id_num, year, need=val_num) %>%
     left_join(r, by="region_id")
 
-  # model
+  ao_data <- SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE) %>% ##resource measured as biomass of resource fish
+    select(region_id=id_num,bio=val_num)%>%
+    left_join(ry, by="region_id")
 
-  ry <- ry %>%
-    mutate(Du = (1 - need) * (1 - access)) %>%
-    mutate(status = (1 - Du) * Sustainability)
+  ao_data <- SelectLayersData(layers, layers = 'ao_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
+    select(region_id=id_num, year,res=val_num)%>%
+    left_join(ao_data)
 
+  ao_data <- na.omit(ao_data)
+
+  ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
+
+  ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
+  left_join(ao_data, by="year")
+
+  ao_data$need_score<-ao_data$fishers/ao_data$total_fishers
+  ao_data$bio<-ao_data$bio/max(ao_data$bio) #nood to score biomass to some reference- ask MARY D.
+
+  # Hawaii model
+  ao_data <- ao_data %>%
+    mutate(Du = (1 - need_score) * (1 - access)) %>% #not good model - penalizes regions with high number of fishers
+    mutate(status = (1 - Du) * bio)
+
+
+  #Hawaii model 2
+  ao_data <- ao_data %>%
+    mutate(status = (need_score + access+bio)/3) #not good model - higher score for regions that have more fishers, doesn't mean demand is met
+
+  # Hawaii model #3
+  ao_data <- ao_data %>%
+    mutate(status= (bio/need_score+access)/2) #this model requires total rgn biomass and phycial or beach access information which we do not have for all regions yet
+#need to standardize between 0 and 1 the biomass available/need or number of fishers
+
+  #global model
+# ry <- ry %>%
+#    mutate(Du = (1 - need) * (1 - access)) %>%
+#   mutate(status = (1 - Du) * Sustainability)
+
+  status_year=2013
   # status
-  r.status <- ry %>%
+  r.status <- ao_data %>%
     filter(year==status_year) %>%
     select(region_id, status) %>%
     mutate(status=status*100)
@@ -375,15 +408,17 @@ AO = function(layers,
   trend_years <- (status_year-4):(status_year)
   adj_trend_year <- min(trend_years)
 
-  r.trend = ry %>%
+  r.trend = ao_data %>%
     group_by(region_id) %>%
     do(mdl = lm(status ~ year, data=., subset=year %in% trend_years),
        adjust_trend = .$status[.$year == adj_trend_year]) %>%
-    summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
+    dplyr::summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
     ungroup() %>%
     mutate(trend = ifelse(trend>1, 1, trend)) %>%
     mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
     mutate(trend = round(trend, 4))
+
+
 
   ## reference points
   rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
