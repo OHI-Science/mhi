@@ -374,7 +374,7 @@ AO = function(layers,
   left_join(ao_data, by="year")
 
   ao_data$need_score<-ao_data$fishers/ao_data$total_fishers
-  ao_data$bio<-ao_data$bio/max(ao_data$bio) #nood to score biomass to some reference- ask MARY D.
+  ao_data$bio<-ao_data$bio/max(ao_data$bio) #need to score biomass to some reference- ask MARY D.
 
   # Hawaii model
   ao_data <- ao_data %>%
