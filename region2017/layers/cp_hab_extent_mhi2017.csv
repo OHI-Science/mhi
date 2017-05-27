@@ -3,10 +3,6 @@ rgn_id,habitat,km2,reference
 2,reef,461.29,cumulative impacts
 3,reef,374.17,cumulative impacts
 4,reef,347.26,cumulative impacts
-1,soft,16.95,cumulative impacts
-2,soft,156.21,cumulative impacts
-3,soft,92.82,cumulative impacts
-4,soft,55.96,cumulative impacts
 1,beach,0.0628531,NOAA ccap
 2,beach,2.9922911,NOAA ccap
 3,beach,0.998064,NOAA ccap
@@ -15,7 +11,3 @@ rgn_id,habitat,km2,reference
 2,wetlands,23.36679111,National Wetland Inventory
 3,wetlands,25.49104485,National Wetland Inventory
 4,wetlands,27.61529859,National Wetland Inventory
-1,watersheds,"2,337",DLNR
-2,watersheds,562,DLNR
-3,watersheds,187,DLNR
-4,watersheds,326,DLNR

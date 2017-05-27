@@ -891,22 +891,6 @@ CP <- function(layers){
     mutate(habitat = as.character(habitat))
 
 
-  ## sum mangrove_offshore + mangrove_inland1km = mangrove to match with extent and trend
-  mangrove_extent <- extent %>%
-    filter(habitat %in% c('mangrove_inland1km','mangrove_offshore'))
-
-  if (nrow(mangrove_extent) > 0){
-    mangrove_extent <- mangrove_extent %>%
-      group_by(rgn_id) %>%
-      summarize(km2 = sum(km2, na.rm = TRUE)) %>%
-      mutate(habitat='mangrove') %>%
-      ungroup()
-  }
-
-  extent <- extent %>%
-    filter(!habitat %in% c('mangrove','mangrove_inland1km','mangrove_offshore')) %>%  #do not use all mangrove
-    rbind(mangrove_extent)  #just the inland 1km and offshore
-
   ## join layer data
   d <-  extent %>%
     full_join(health, by=c("rgn_id", "habitat")) %>%
@@ -914,10 +898,10 @@ CP <- function(layers){
 
   ## set ranks for each habitat
   habitat.rank <- c('coral'            = 4,
-                    'mangrove'         = 4,
-                    'saltmarsh'        = 3,
-                    'seagrass'         = 1,
-                    'seaice_shoreline' = 4)
+                    #'mangrove'         = 4,
+                    'wetland'        = 3,
+                    #'seagrass'         = 1,
+                    'beach' = 4) #need to look up reference for Hawaii coastal protection to justify weighting
 
   ## limit to CP habitats and add rank
   d <- d %>%
