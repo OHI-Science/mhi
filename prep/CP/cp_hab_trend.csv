@@ -1,0 +1,13 @@
+rgn_id,habitat,trend,reference
+1,wetland,-0.020842431,NOAA CCAP 2010-1992 extent
+2,wetland,0.009115214,NOAA CCAP 2010-1992 extent
+3,wetland,-0.032686586,NOAA CCAP 2010-1992 extent
+4,wetland,-0.003481862,NOAA CCAP 2010-1992 extent
+1,beaches,-0.06,Romine short term loss (meters per year)
+2,beaches,-0.15,Romine short term loss (meters per year)
+3,beaches,-0.05,Romine short term loss (meters per year)
+4,beaches,0.02,Romine short term loss (meters per year)
+1,coral reef,,
+2,coral reef,,
+3,coral reef,,
+4,coral reef,,

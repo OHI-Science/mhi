@@ -899,7 +899,7 @@ CP <- function(layers){
   ## set ranks for each habitat
   habitat.rank <- c('coral'            = 4,
                     #'mangrove'         = 4,
-                    'wetland'        = 3,
+                    'saltmarsh'        = 3,
                     #'seagrass'         = 1,
                     'beach' = 4) #need to look up reference for Hawaii coastal protection to justify weighting
 
