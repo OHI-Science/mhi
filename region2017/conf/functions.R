@@ -350,7 +350,7 @@ AO = function(layers,
               Sustainability=1.0){
 
 
-  r <- SelectLayersData(layers, layers = 'ao_access', narrow=TRUE) %>%   ##global access data for management of fisheries and mpas- need to be updated
+  r <- SelectLayersData(layers, layers = 'ao_access_mhi2017', narrow=TRUE) %>%   ##global access data for management of fisheries and mpas- need to be updated
     select(region_id=id_num, access=val_num)
   r <- na.omit(r)
 
@@ -361,6 +361,8 @@ AO = function(layers,
   ao_data <- SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE) %>% ##resource measured as biomass of resource fish
     select(region_id=id_num,bio=val_num)%>%
     left_join(ry, by="region_id")
+
+  ao_data$bio<-ao_data$bio/100
 
   ao_data <- SelectLayersData(layers, layers = 'ao_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
     select(region_id=id_num, year,res=val_num)%>%
@@ -374,7 +376,7 @@ AO = function(layers,
   left_join(ao_data, by="year")
 
   ao_data$need_score<-ao_data$fishers/ao_data$total_fishers
-  ao_data$bio<-ao_data$bio/max(ao_data$bio) #need to score biomass to some reference- ask MARY D.
+  #ao_data$bio<-ao_data$bio/max(ao_data$bio) #need to score biomass to some reference- ask MARY D.
 
   # Hawaii model
   ao_data <- ao_data %>%
@@ -384,12 +386,26 @@ AO = function(layers,
 
   #Hawaii model 2
   ao_data <- ao_data %>%
-    mutate(status = (need_score + access+bio)/3) #not good model - higher score for regions that have more fishers, doesn't mean demand is met
+    mutate(status = (((need/100) + access)/2 +bio)/2) #not good model - higher score for regions that have more fishers, doesn't mean demand is met
 
   # Hawaii model #3
   ao_data <- ao_data %>%
     mutate(status= (bio/need_score+access)/2) #this model requires total rgn biomass and phycial or beach access information which we do not have for all regions yet
-#need to standardize between 0 and 1 the biomass available/need or number of fishers
+
+   # Hawaii model #4
+  ao_data <- ao_data %>%
+    mutate(status= ((bio+access)/2)*(need/100))
+
+  max_status<-max(ao_data$status)
+
+  ao_data <- ao_data %>%
+    mutate(status= ((status)/max_status))
+
+  #Hawaii model 5
+  ao_data <- ao_data %>%
+    mutate(status = (access+bio)/2) #not good model - Oahu scores highest
+
+  #need to standardize between 0 and 1 the biomass available/need or number of fishers
 
   #global model
 # ry <- ry %>%
@@ -878,15 +894,15 @@ CS <- function(layers){
 CP <- function(layers){
 
   ## read in layers
-  extent <- layers$data[['hab_extent']] %>%
+  extent <- layers$data[['cp_hab_extent_mhi2017']] %>%
     select(rgn_id, habitat, km2) %>%
     mutate(habitat = as.character(habitat))
 
-  health <-  layers$data[['hab_health']] %>%
+  health <-  layers$data[['cp_hab_condition_mhi2017']] %>%
     select(rgn_id, habitat, health) %>%
     mutate(habitat = as.character(habitat))
 
-  trend <-layers$data[['hab_trend']] %>%
+  trend <-layers$data[['cp_hab_trend_mhi2017']] %>%
     select(rgn_id, habitat, trend) %>%
     mutate(habitat = as.character(habitat))
 
@@ -897,9 +913,9 @@ CP <- function(layers){
     full_join(trend, by=c("rgn_id", "habitat"))
 
   ## set ranks for each habitat
-  habitat.rank <- c('coral'            = 4,
+  habitat.rank <- c('reef'            = 4,
                     #'mangrove'         = 4,
-                    'saltmarsh'        = 3,
+                    'wetlands'        = 3,
                     #'seagrass'         = 1,
                     'beach' = 4) #need to look up reference for Hawaii coastal protection to justify weighting
 
@@ -908,7 +924,7 @@ CP <- function(layers){
     filter(habitat %in% names(habitat.rank)) %>%
     mutate(
       rank = habitat.rank[habitat],
-      extent = ifelse(km2==0, NA, km2))
+     extent = ifelse(km2==0, NA, km2))
 
   ## output file to temp folder that describes how much each habitat
   ## contributes to the score based on rank and extent
@@ -923,18 +939,27 @@ CP <- function(layers){
   write.csv(dp, file.path(wd, 'temp/cp_hab_contributions.csv'), row.names=FALSE)
 
   ## status and trend models; ensure at least one habitat-region has extent (km2) > 0, otherwise set NA.
-  if (sum(d$km2, na.rm=TRUE) > 0){
+  #if (sum(d$km2, na.rm=TRUE) > 0){
     # status
-    scores_CP <- d %>%
-      filter(!is.na(rank) & !is.na(health) & !is.na(extent)) %>%
-      group_by(rgn_id) %>%
-      summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
-                               (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
-      mutate(dimension = 'status') %>%
-      ungroup()
+   # scores_CP <- d %>%
+    #  filter(!is.na(rank) & !is.na(health) & !is.na(extent)) %>%
+     # group_by(rgn_id) %>%
+      #summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
+       #                        (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
+      #mutate(dimension = 'status') %>%
+      #ungroup()
+
+     scores_CP <- ddply(d, .(rgn_id),mutate, score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
+                               (sum(extent * rank, na.rm=TRUE)) ) * 100)
+      scores_CP$dimension <-"status"
+
 
     # trend
-    d_trend <- d %>%
+    d$trend<-d$trend*5#need to multiple trend per year times 5 to get future status?
+
+
+
+     d_trend <- d %>%
       filter(!is.na(rank) & !is.na(trend) & !is.na(extent))
 
     if (nrow(d_trend) > 0 ){

@@ -1,13 +1,13 @@
 rgn_id,habitat,trend,reference
-1,wetland,-0.020842431,NOAA CCAP 2010-1992 extent
-2,wetland,0.009115214,NOAA CCAP 2010-1992 extent
-3,wetland,-0.032686586,NOAA CCAP 2010-1992 extent
-4,wetland,-0.003481862,NOAA CCAP 2010-1992 extent
-1,beaches,-0.06,Romine short term loss (meters per year)
-2,beaches,-0.15,Romine short term loss (meters per year)
-3,beaches,-0.05,Romine short term loss (meters per year)
-4,beaches,0.02,Romine short term loss (meters per year)
-1,coral reef,,
-2,coral reef,,
-3,coral reef,,
-4,coral reef,,
+1,wetlands,-0.115791283,NOAA CCAP 2010-1992 extent (difference in extent/total years (=18) to get % change per year
+2,wetlands,0.050640078,NOAA CCAP 2010-1992 extent (difference in extent/total years (=18) to get % change per year
+3,wetlands,-0.181592144,NOAA CCAP 2010-1992 extent (difference in extent/total years (=18) to get % change per year
+4,wetlands,-0.019343678,NOAA CCAP 2010-1992 extent (difference in extent/total years (=18) to get % change per year
+1,beach,-0.00006,Romine short term loss (km per year)
+2,beach,-0.00015,Romine short term loss (km per year)
+3,beach,-0.00005,Romine short term loss (km per year)
+4,beach,0.00002,Romine short term loss (km per year)
+1,reef,-0.107792,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016)
+2,reef,-0.107792,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016)
+3,reef,-0.107792,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016)
+4,reef,-0.107792,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016)

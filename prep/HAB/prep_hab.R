@@ -7,10 +7,12 @@ dir_layers <- file.path('~/github/mhi/prep/HAB')
 #naming convention of the data file: it is "goalcode_layername_assessmentYEAR.csv".
 data_file  <- file.path(dir_layers, 'hab_wetlands_mhi2017.csv')
 d <- readr::read_csv(data_file)
-d <- ddply(d, .(year,rgn_id), summarize, km2=sum(sq_km))
+d <- ddply(d, .(year,rgn_id), summarize, km2=sum(km2))
 d$habitat<-"wetlands"
+d <- ddply(d, .(year,rgn_id), summarize, km2=sum(km2))
 
-d$trend<-ddply(d, .(rgn_id, year), mutate, trend=c(diff(km2)))
+
+#d$trend<-ddply(d, .(rgn_id, year), mutate, trend=c(diff(km2)))
 
 
 d_2010<-subset(d, year=="2010") #current wetland extent
