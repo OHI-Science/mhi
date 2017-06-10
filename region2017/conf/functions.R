@@ -199,8 +199,7 @@ MAR = function(layers, status_year){
 
 
 #join operator and harvest data
-  mar_harv <-  harvest_tonnes %>%
-    left_join(mar_operations, by = c('rgn_id', 'commodity','year'))
+
 
 #determine % of production by rgn as an estimate based on #operators per island/#state operators
 
@@ -936,26 +935,29 @@ CP <- function(layers){
     mutate(prop_score = weighted_cont/sum(weighted_cont)) %>%
     mutate(prop_score = round(prop_score, 3)) %>%
     select(rgn_id, habitat, prop_score)
-  write.csv(dp, file.path(wd, 'temp/cp_hab_contributions.csv'), row.names=FALSE)
+  write.csv(dp, file.path('temp/cp_hab_contributions.csv'), row.names=FALSE)
 
-  ## status and trend models; ensure at least one habitat-region has extent (km2) > 0, otherwise set NA.
+   #status and trend models; ensure at least one habitat-region has extent (km2) > 0, otherwise set NA.
   #if (sum(d$km2, na.rm=TRUE) > 0){
     # status
-   # scores_CP <- d %>%
-    #  filter(!is.na(rank) & !is.na(health) & !is.na(extent)) %>%
-     # group_by(rgn_id) %>%
-      #summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
-       #                        (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
-      #mutate(dimension = 'status') %>%
-      #ungroup()
+   scores_CP <- d %>%
+      filter(!is.na(rank) & !is.na(health) & !is.na(extent)) %>%
+     group_by(rgn_id) %>%
+     dplyr::summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
+                               (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
+      mutate(dimension = 'status') %>%
+      ungroup()
 
-     scores_CP <- ddply(d, .(rgn_id),mutate, score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
-                               (sum(extent * rank, na.rm=TRUE)) ) * 100)
-      scores_CP$dimension <-"status"
+
+   #code was added to work around if else for scores_CP
+   # scores_CP <- ddply(d, .(rgn_id),mutate, score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
+    #                           (sum(extent * rank, na.rm=TRUE)) ) * 100)
+    #  scores_CP$dimension <-"status"
 
 
     # trend
     d$trend<-d$trend*5#need to multiple trend per year times 5 to get future status?
+
 
 
 
@@ -967,7 +969,7 @@ CP <- function(layers){
         scores_CP,
         d_trend %>%
           group_by(rgn_id) %>%
-          summarize(
+          dplyr::summarize(
             score = sum(rank * trend * extent, na.rm=TRUE) / (sum(extent*rank, na.rm=TRUE)),
             dimension = 'trend'))
     } else { # if no trend score, assign NA
@@ -975,10 +977,12 @@ CP <- function(layers){
         scores_CP,
         d %>%
           group_by(rgn_id) %>%
-          summarize(
+          dplyr::summarize(
             score = NA,
             dimension = 'trend'))
     }
+
+
 
     ### output data file for checking and data review
     scores_check <- spread(scores_CP, dimension, score) %>%
@@ -996,34 +1000,31 @@ CP <- function(layers){
         goal = 'CP') %>%
       select(region_id=rgn_id, goal, dimension, score)
 
-  } else { ## else -- if sum(d$km2) is not greater than 0
+ { ## else -- if sum(d$km2) is not greater than 0
 
     ## set status and trend to NA for all regions
-    message('CP status and trend are NA, consider removing goal if no CP habitats in assessment area')
+ #   message('CP status and trend are NA, consider removing goal if no CP habitats in assessment area')
 
-    rgns <-layers$data[['rgn_labels']]
-    scores_CP <- bind_rows(
-      rgns %>%
-        mutate(goal      = 'CP',
-               dimension = 'status',
-               score     = NA),
-      rgns %>%
-        mutate(goal      = 'CP',
-               dimension = 'trend',
-               score     = NA)) %>%
-      select(goal, dimension, region_id = rgn_id, score)
+  #  rgns <-layers$data[['rgn_labels']]
+  #  scores_CP <- bind_rows(
+   #   rgns %>%
+      #  mutate(goal      = 'CP',
+       #        dimension = 'status',
+        #       score     = NA),
+    #  rgns %>%
+     #   mutate(goal      = 'CP',
+      #         dimension = 'trend',
+       #        score     = NA)) %>%
+      #select(goal, dimension, region_id = rgn_id, score)
 
   } ## end -- if (sum(d$km2) > 0)
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path('temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "CP", method = "Health/condition variable based on current vs. historic extent",
                      reference_point = "varies for each region/habitat"))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
-
-  # return scores
-  return(scores_CP)
 
 }
 
@@ -1077,8 +1078,8 @@ growth<-subset(growth, year!=2010)
 
 r=0.025
 #growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
-growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.05, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
-#if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <105 score is 0
+growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.03, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
+#if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <1.5 score is 0
 
 growth$n_score<-growth$n_score*100
 #need to score environmental data to reference - use 30%
