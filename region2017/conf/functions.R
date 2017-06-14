@@ -1631,7 +1631,7 @@ CW = function(layers){
     filter(layer %in% grep('po_', lyrs, value=TRUE))  %>%
     mutate(pressure = 1 - value) %>%  # invert pressures
     group_by(region_id) %>%
-    summarize(score = geometric.mean2(pressure, na.rm=TRUE)) %>% # take geometric mean
+    dplyr::summarize(score = geometric.mean2(pressure, na.rm=TRUE)) %>% # take geometric mean
     mutate(score = score * 100) %>%
     mutate(dimension = "status") %>%
     ungroup()
@@ -1640,7 +1640,7 @@ CW = function(layers){
     filter(layer %in% grep('_trend', lyrs, value=TRUE)) %>%
     mutate(trend = -1 * value)  %>%  # invert trends
     group_by(region_id) %>%
-    summarize(score = mean(trend, na.rm = TRUE)) %>%
+    dplyr::summarize(score = mean(trend, na.rm = TRUE)) %>%
     mutate(dimension = "trend") %>%
     ungroup()
 
