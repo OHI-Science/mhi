@@ -15,5 +15,5 @@ Our vision for the Hawaii's ocean is a resilient and productive system that prov
 
 
 
-<center><img src="images/OH_Hawaii.png" width="1200px"></center>  
+<center><img src="images/coastline.jpg" width="1200px"></center>  
 
