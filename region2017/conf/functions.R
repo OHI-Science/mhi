@@ -374,37 +374,26 @@ AO = function(layers,
   ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
   left_join(ao_data, by="year")
 
-  ao_data$need_score<-ao_data$fishers/ao_data$total_fishers
-  #ao_data$bio<-ao_data$bio/max(ao_data$bio) #need to score biomass to some reference- ask MARY D.
+  ao_data<-ddply(ao_data, .(year), summarize, total_res=sum(res))%>% #total fishers in Hawaii
+    left_join(ao_data, by="year")
+  ao_data$need_score<-ao_data$fishers/ao_data$total_fishers # need standardized to number of fishers
+
+  ao_data$need_score<-ao_data$res*.106/ao_data$total_res
+  #need standardized to poverty level
+
 
   # Hawaii model
-  ao_data <- ao_data %>%
-    mutate(Du = (1 - need_score) * (1 - access)) %>% #not good model - penalizes regions with high number of fishers
-    mutate(status = (1 - Du) * bio)
-
-
-  #Hawaii model 2
-  ao_data <- ao_data %>%
-    mutate(status = (((need/100) + access)/2 +bio)/2) #not good model - higher score for regions that have more fishers, doesn't mean demand is met
-
-  # Hawaii model #3
-  ao_data <- ao_data %>%
-    mutate(status= (bio/need_score+access)/2) #this model requires total rgn biomass and phycial or beach access information which we do not have for all regions yet
-
-   # Hawaii model #4
-  ao_data <- ao_data %>%
-    mutate(status= ((bio+access)/2)*(need/100))
-
-  max_status<-max(ao_data$status)
 
   ao_data <- ao_data %>%
-    mutate(status= ((status)/max_status))
+    mutate(Du = (1-need/100) * (1-access)) %>%  #need based on # of fishers
+             mutate(status = (1-Du) * bio)
 
-  #Hawaii model 5
   ao_data <- ao_data %>%
-    mutate(status = (access+bio)/2) #not good model - Oahu scores highest
+    mutate(Du = (1-.106) * (1-access)) %>% #need based on poverty level
+    mutate(status = (1-Du) * bio)
 
-  #need to standardize between 0 and 1 the biomass available/need or number of fishers
+
+
 
   #global model
 # ry <- ry %>%
@@ -419,27 +408,33 @@ AO = function(layers,
     mutate(status=status*100)
 
   # trend
+#trend is based on change in %fishers per year and % change in fish biomass #
 
-  trend_years <- (status_year-4):(status_year)
-  adj_trend_year <- min(trend_years)
+  r.trend<-SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE)
+  str(r.trend)
+ r.trend$region_id=r.trend$id_num
+  r.trend$category<-r.trend$category+0.007 #access increased by 0.7% per year
 
-  r.trend = ao_data %>%
-    group_by(region_id) %>%
-    do(mdl = lm(status ~ year, data=., subset=year %in% trend_years),
-       adjust_trend = .$status[.$year == adj_trend_year]) %>%
-    dplyr::summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
-    ungroup() %>%
-    mutate(trend = ifelse(trend>1, 1, trend)) %>%
-    mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
-    mutate(trend = round(trend, 4))
+  #trend_years <- (status_year-4):(status_year)
+  #adj_trend_year <- min(trend_years)
+
+  #r.trend = ao_data %>%
+   # group_by(region_id) %>%
+    #do(mdl = lm(status ~ year, data=., subset=year %in% trend_years),
+    #   adjust_trend = .$status[.$year == adj_trend_year]) %>%
+    #dplyr::summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
+    #ungroup() %>%
+    #mutate(trend = ifelse(trend>1, 1, trend)) %>%
+    #mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
+    #mutate(trend = round(trend, 4))
 
 
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "AO", method = "some method here",
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+    rbind(data.frame(goal = "AO", method = "poverty, access/km, biomass/pristine biomass",
                      reference_point = NA))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
 
   # return scores
@@ -448,7 +443,7 @@ AO = function(layers,
     mutate(dimension='status') %>%
     rbind(
       r.trend %>%
-        select(region_id, score=trend) %>%
+        select(region_id, score=category) %>%
         mutate(dimension='trend')) %>%
     mutate(goal='AO') # dlply(scores, .(dimension), summary)
   return(scores)
