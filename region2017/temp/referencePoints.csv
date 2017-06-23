@@ -25,3 +25,4 @@
 "SPP","Average of IUCN risk categories, scaled to historic extinction",NA
 "CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"
 "AO","poverty, access/km, biomass/pristine biomass",NA
+"SPP","Average of ESA status and fish biomass scores",NA

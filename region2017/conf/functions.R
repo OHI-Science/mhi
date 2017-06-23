@@ -1423,6 +1423,7 @@ ICO = function(layers, status_year){
     select(region_id = id_num, sciname = category, iucn_cat=val_chr, year, layer) %>%
     mutate(iucn_cat = as.character(iucn_cat))
 
+  #global model
   # lookup for weights status
   #  LC <- "LOWER RISK/LEAST CONCERN (LR/LC)"
   #  NT <- "LOWER RISK/NEAR THREATENED (LR/NT)"
@@ -1434,10 +1435,17 @@ ICO = function(layers, status_year){
   #  DD <- "INSUFFICIENTLY KNOWN (K)"
   #  DD <- "INDETERMINATE (I)"
   #  DD <- "STATUS INADEQUATELY KNOWN-SURVEY REQUIRED OR DATA SOUGHT"
-  w.risk_category = data.frame(iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
-                               risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)) %>%
-                    mutate(status_score = 1-risk_score) %>%
-    mutate(iucn_cat = as.character(iucn_cat))
+
+  #hawaii model
+  #Look up for weights
+  #E<-Endangered = 0.6
+  #T<-Threatened = 0.4
+
+
+  #w.risk_category = data.frame(iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
+    #                           risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)) %>%
+    #                mutate(status_score = 1-risk_score) %>%
+  #  mutate(iucn_cat = as.character(iucn_cat))
 
   ####### status
   # STEP 1: take mean of subpopulation scores
@@ -1716,16 +1724,42 @@ HAB = function(layers){
 
 
 SPP = function(layers){
-  scores <-   SelectLayersData(layers, layers=c('spp_status'='status','spp_trend'='trend'), narrow = TRUE) %>%
-    select(region_id = id_num, dimension = layer, score = val_num) %>%
-    mutate(goal = 'SPP') %>%
-    mutate(score = ifelse(dimension == 'status', score*100, score))
 
-  ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "SPP", method = "Average of IUCN risk categories, scaled to historic extinction",
+   fish_score<-  layers$data[['spp_fish']]#score for fish populations from NOAA report card - fish biomass/pristine fish biomass
+
+    #ESA scores for marine mammals, turtles, marine birds, and coastal plants
+   scores <-  layers$data[['spp_status_mhi']] %>%
+    select(rgn_id, score)  %>%
+    dplyr::group_by(rgn_id)%>%
+    summarize(
+    score=mean(score*100))%>%
+    mutate(goal = 'SPP')%>%
+   mutate(dimension="status")
+
+   scores <- scores %>%
+     full_join(fish_score, by = c('rgn_id'))
+    scores$score=
+      (scores$score+scores$value)/2
+  scores<-scores%>%
+    select(rgn_id, score, goal, dimension)
+
+  #trend from change in fish biomass from last CREP surveys 2010-2011 to 2014-2015
+  trend<-fish_score %>%
+    select(rgn_id, trend)%>%
+    mutate(dimension="trend")%>%
+    mutate(goal="SPP")%>%
+    mutate(score=trend)%>%
+  select(rgn_id, score, dimension, goal)
+
+  scores<-scores%>%
+    full_join(trend)%>%
+    select(goal, dimension, rgn_id, score)
+
+    ## reference points
+  rp <- read.csv(file.path('temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+    rbind(data.frame(goal = "SPP", method = "Average of ESA status and fish biomass scores",
                      reference_point = NA))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
 
   return(scores)
