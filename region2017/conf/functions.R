@@ -1743,7 +1743,7 @@ SPP = function(layers){
   scores<-scores%>%
     select(rgn_id, score, goal, dimension)
 
-  #trend from change in fish biomass from last CREP surveys 2010-2011 to 2014-2015
+  #trend from change in fish biomass from last NOAA CREP surveys 2010-2011 to 2014-2015
   trend<-fish_score %>%
     select(rgn_id, trend)%>%
     mutate(dimension="trend")%>%
