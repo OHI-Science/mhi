@@ -1,25 +1,21 @@
-rgn_id,habitat,health
-1,beach,0.58
-2,beach,0.29
-3,beach,0.78
-4,beach,0.56
-1,reef,0.274
-2,reef,0.242
-3,reef,0.115
-4,reef,0.201
-1,wetlands,0.5
-2,wetlands,0.5
-3,wetlands,0.5
-4,wetlands,0.5
-1,soft,
-2,soft,
-3,soft,
-4,soft,
-1,fishponds,
-2,fishponds,
-3,fishponds,
-4,fishponds,
-1,watersheds,0.401603087
-2,watersheds,1
-3,watersheds,0.252883538
-4,watersheds,0.242638837
+rgn_id,habitat,health,reference
+1,beach,0.58,
+2,beach,0.29,
+3,beach,0.78,
+4,beach,0.56,
+1,reef,0.274,
+2,reef,0.242,
+3,reef,0.115,
+4,reef,0.201,
+1,wetlands,0.5,unknown
+2,wetlands,0.5,unknown
+3,wetlands,0.5,unknown
+4,wetlands,0.5,unknown
+1,soft,0.5,unknown - look up area dedged and cabled
+2,soft,0.5,unknown - look up area dedged and cabled
+3,soft,0.5,unknown - look up area dedged and cabled
+4,soft,0.5,unknown - look up area dedged and cabled
+1,watersheds,0.401603087,km managed
+2,watersheds,1,km managed
+3,watersheds,0.252883538,km managed
+4,watersheds,0.242638837,km managed

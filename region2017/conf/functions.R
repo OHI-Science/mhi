@@ -1660,17 +1660,16 @@ CW = function(layers){
 
 
 HAB = function(layers){
-
-  ## get the data:
-  health <-  layers$data[['hab_health']] %>%
+   ## get the data:
+  health <-  layers$data[['hab_health_mhi']] %>%
     select(rgn_id, habitat, health) %>%
     mutate(habitat = as.character(habitat))
 
-  trend <-  layers$data[['hab_trend']] %>%
+  trend <-  layers$data[['hab_trend_mhi']] %>%
     select(rgn_id, habitat, trend) %>%
     mutate(habitat = as.character(habitat))
 
-  extent <- layers$data[['hab_extent']] %>%
+  extent <- layers$data[['hab_extent_mhi']] %>%
     select(rgn_id, habitat, extent=km2) %>%
     mutate(habitat = as.character(habitat))
 
@@ -1678,45 +1677,49 @@ HAB = function(layers){
   d <- health %>%
     full_join(trend, by = c('rgn_id', 'habitat')) %>%
     full_join(extent, by = c('rgn_id', 'habitat')) %>%
-    filter(habitat %in% c('coral','mangrove','saltmarsh','seaice_edge','seagrass','soft_bottom')) %>%
-    mutate(w  = ifelse(!is.na(extent) & extent > 0, 1, NA)) %>%
-    filter(!is.na(w))
+   # filter(habitat %in% c('reef','wetlands-estuary','beach','soft','priority-watersheds')) %>%
+    #mutate(w  = ifelse(!is.na(extent) & extent > 0, 1, NA))%>%
+    filter(!is.na(rgn_id))
 
-  if(sum(d$w %in% 1 & is.na(d$trend)) > 0){
-    warning("Some regions/habitats have extent data, but no trend data.  Consider estimating these values.")
-  }
+  #if(sum(d$w %in% 1 & is.na(d$trend)) > 0){
+  #  warning("Some regions/habitats have extent data, but no trend data.  Consider estimating these values.")
+  #}
 
-  if(sum(d$w %in% 1 & is.na(d$health)) > 0){
-    warning("Some regions/habitats have extent data, but no health data.  Consider estimating these values.")
-  }
+  #if(sum(d$w %in% 1 & is.na(d$health)) > 0){
+  #  warning("Some regions/habitats have extent data, but no health data.  Consider estimating these values.")
+  #}
+
 
 
   ## calculate scores
   status <- d %>%
-    group_by(rgn_id) %>%
-    filter(!is.na(health)) %>%
+    group_by(rgn_id, habitat) %>%
     summarize(
-      score = pmin(1, sum(health) / sum(w)) * 100,
-      dimension = 'status') %>%
-    ungroup()
+      score = (health*extent)/extent*100)%>% #health already as proportion protected or historical extent so multiply times current extent to get score
+     ungroup()%>%
+    group_by(rgn_id) %>%
+    summarize(
+      score=mean(score),
+    dimension = 'status')
 
   trend <- d %>%
-    group_by(rgn_id) %>%
+    dplyr::group_by(rgn_id) %>%
     filter(!is.na(trend)) %>%
     summarize(
-      score =  sum(trend) / sum(w),
+      score = mean(trend),
       dimension = 'trend')  %>%
     ungroup()
 
   scores_HAB <- rbind(status, trend) %>%
     mutate(goal = "HAB") %>%
+    mutate(region_id=rgn_id)%>%
     select(region_id=rgn_id, goal, dimension, score)
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "HAB", method = "Health/condition variable based on current vs. historic extent",
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+    rbind(data.frame(goal = "HAB", method = "Health/condition variable based on current vs. historic extent and area protected for watersheds",
                      reference_point = "varies for each region/habitat"))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
   # return scores
   return(scores_HAB)
@@ -1749,11 +1752,12 @@ SPP = function(layers){
     mutate(dimension="trend")%>%
     mutate(goal="SPP")%>%
     mutate(score=trend)%>%
-  select(rgn_id, score, dimension, goal)
+    select(rgn_id, score, dimension, goal)
 
   scores<-scores%>%
     full_join(trend)%>%
-    select(goal, dimension, rgn_id, score)
+    select(goal, dimension, rgn_id, score)%>%
+    mutate(region_id=rgn_id)
 
     ## reference points
   rp <- read.csv(file.path('temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
@@ -1767,6 +1771,7 @@ SPP = function(layers){
 
 BD = function(scores){
   d <- scores %>%
+    full_join(scores_HAB)%>%
     filter(goal %in% c('HAB', 'SPP')) %>%
     filter(!(dimension %in% c('pressures', 'resilience'))) %>%
     group_by(region_id, dimension) %>%
