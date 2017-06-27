@@ -6,7 +6,7 @@ FIS = function(layers, status_year){
       rgn_id    = id_num,
       stock_key = category,
       year,
-      catch          = val_chr)
+      catch          = val_num)
   # stock assessment score data
   b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>%
     select(
@@ -65,8 +65,8 @@ FIS = function(layers, status_year){
   b$score = ifelse(b$value < lowerBuffer, b$value,
                    ifelse (b$value >= lowerBuffer & b$value <= upperBuffer, 1, NA))
   b$score = ifelse(!is.na(b$score), b$score,
-                   ifelse(1 - alpha*(b$bmsy - upperBuffer) > beta,
-                          1 - alpha*(b$bmsy - upperBuffer),
+                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
+                          1 - alpha*(b$value - upperBuffer),
                           beta))
 
 
@@ -75,7 +75,7 @@ FIS = function(layers, status_year){
   # -----------------------------------------------------------------------
   data_fis <- c %>%
     left_join(b, by=c('rgn_id', 'species', 'year'))%>%
-    select(rgn_id, species, year, catch, key.x, value)
+    select(rgn_id, species, year, catch, key.x, score)
 
 
   # ------------------------------------------------------------------------
@@ -86,17 +86,17 @@ FIS = function(layers, status_year){
 
   ## this takes the median score within each region
   data_fis_gf <- data_fis %>%
-    group_by(year, key.x) %>% #key.x is the taxon key to separate out bottom, pelagics, and reef fish
-    mutate(Median_score = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
+    dplyr::group_by(year, key.x) %>% #key.x is the taxon key to separate out bottom, pelagics, and reef fish
+    mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup()
 
   ## this takes the median score across all regions (when no stocks have scores within a region)
-  data_fis_gf <- data_fis_gf %>%
-    group_by(year, key.x) %>%
-    mutate(Median_score_global = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
-    ungroup() %>%
-    mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
-    select(-Median_score_global)
+  #data_fis_gf <- data_fis_gf %>%
+  #  group_by(year, key.x) %>%
+  #  mutate(Median_score_global = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
+  #  ungroup() %>%
+  #  mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
+  #  select(-Median_score_global)
 
   #  *************NOTE *****************************
   #  In some cases, it may make sense to alter the
@@ -107,25 +107,24 @@ FIS = function(layers, status_year){
   data_fis_gf <- data_fis_gf %>%
     mutate(score = Median_score)
 
-  penaltyTable <- data.frame(TaxonPenaltyCode=1:6,
-                             penalty=c(0.1, 0.25, 0.5, 0.8, 0.9, 1))
+  #didn't apply a penalty to taxon reported to family since there are only two - misc parrots and misc ulua
+  #instead used the lowest stock assessment value reported for the family and applied to the category
+  #penaltyTable <- data.frame(TaxonPenaltyCode=1:2,
+   #                          penalty=c(1, 0.5))
 
   data_fis_gf <- data_fis_gf %>%
-    mutate(TaxonPenaltyCode = as.numeric(substring(taxon_key, 1, 1))) %>%
-    left_join(penaltyTable, by='TaxonPenaltyCode') %>%
-    mutate(score_gf = Median_score * penalty) %>%
+    mutate(score_gf = Median_score) %>%
     mutate(score_gapfilled = ifelse(is.na(score), "Median gapfilled", "none")) %>%
     mutate(score = ifelse(is.na(score), score_gf, score))
 
 
-  gap_fill_data <- data_fis_gf %>%
-    mutate(gap_fill = ifelse(is.na(penalty), "none", "median")) %>%
-    select(rgn_id, stock_id, taxon_key, year, catch, score, gap_fill) %>%
-    filter(year == status_year)
+  data_fis_gf <- data_fis_gf %>%
+    select(rgn_id, species, key.x, year, catch, score, score_gapfilled)
+
 
   status_data <- data_fis_gf %>%
     select(rgn_id, species, year, catch, score)
-
+    #filter(year == status_year)
 
   # ------------------------------------------------------------------------
   # STEP 4. Calculate status for each region
@@ -136,14 +135,14 @@ FIS = function(layers, status_year){
   # sum of mean catch of all species in region/year
 
   status_data <- status_data %>%
-    group_by(year, rgn_id) %>%
+    dplyr::group_by(year, rgn_id) %>%
     mutate(SumCatch = sum(catch)) %>%
     ungroup() %>%
     mutate(wprop = catch/SumCatch)
 
   status_data <- status_data %>%
-    group_by(rgn_id, year) %>%
-    summarize(status = prod(score^wprop)) %>%
+    dplyr::group_by(rgn_id, year) %>%
+    dplyr::summarize(status = prod(score^wprop)) %>%
     ungroup()
 
   # ------------------------------------------------------------------------
@@ -157,11 +156,11 @@ FIS = function(layers, status_year){
       dimension = 'status') %>%
     select(region_id=rgn_id, score, dimension)
 
-  trend_years <- status_year:(status_year-4)
+  trend_years <- status_year:(2016-4)###need to set status year or adjust this year value for each assessment
   first_trend_year <- min(trend_years)
 
   trend <- status_data %>%
-    filter(year %in% trend_years) %>%
+    #filter(year %in% trend_years) %>%
     group_by(rgn_id) %>%
     do(mdl = lm(status ~ year, data=.),
        adjust_trend = .$status[.$year == first_trend_year]) %>%

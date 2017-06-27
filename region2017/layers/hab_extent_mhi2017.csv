@@ -15,7 +15,7 @@ rgn_id,habitat,km2,reference
 2,wetlands-estuary,23.37,National Wetland Inventory
 3,wetlands-estuary,25.49,National Wetland Inventory
 4,wetlands-estuary,27.62,National Wetland Inventory
-1,priority-watersheds,2337.00,DLNR
-2,priority-watersheds,562.00,DLNR
-3,priority-watersheds,187.00,DLNR
-4,priority-watersheds,326.00,DLNR
+1,priority-watersheds,2337,DLNR
+2,priority-watersheds,562,DLNR
+3,priority-watersheds,187,DLNR
+4,priority-watersheds,326,DLNR
