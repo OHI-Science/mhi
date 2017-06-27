@@ -181,96 +181,125 @@ FIS = function(layers, status_year){
 }
 
 MAR = function(layers, status_year){
-    # layers used: mar_harvest_tonnes, mar_harvest_species, mar_sustainability_score, mar_coastalpopn_inland25mi, mar_trend_years
-  harvest_tonnes <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
+#mariculture operators and yield
+  mar_harv <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
     select(rgn_id=id_num, commodity=category, year, tonnes=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
 
-##species_code=commodity,
+
   mar_operations <- SelectLayersData(layers, layers='mar_operations', narrow = TRUE) %>%
     select(rgn_id=id_num, year, commodity=category, value=val_num)
 
+#fishpond number and area
   mar_fp_current <- SelectLayersData(layers, layers='mar_fishpond_current', narrow = TRUE) %>%
     select(rgn_id=id_num, Area_acres=val_num)
 
-#need to get score of risk applyed to harvest
 
-
-
+  mar_fp_number<- SelectLayersData(layers, layers='mar_fishpond_numbers', narrow = TRUE) %>%
+    select(rgn_id=id_num, current=val_num)
 
 #join operator and harvest data
 
 
 #determine % of production by rgn as an estimate based on #operators per island/#state operators
 
-  sums<- ddply(mar_harv, .(commodity, year), summarize, sum_value=sum(value))
+  mar_d<-mar_harv %>%
+    left_join(mar_operations, by=c('year','commodity','rgn_id'))
 
-  str(sums)
-  str(mar_harv)
-  mar_harv<-cbind(sums, mar_harv)
-  mar_harv$prop<-mar_harv$value/mar_harv$sum_value
-  mar_harv$est_harv<-mar_harv$prop*mar_harv$tonnes
+  mar_d<- ddply(mar_d, .(commodity, year), mutate, sum_value=sum(value))
+
+  mar_d$prop<-(mar_d$value/mar_d$sum_value)
+  mar_d$est_harv<-mar_d$prop*mar_d$tonnes
 
   #  mariculture harvest * sustainability coefficient (i.e risk)
   risk=0.67 #allcultured species 0.67
   risks=0.5 # average of Trujilo scores with added scores for biosecurity threat for Hawaii for shellfish
   riskf=0.44 # average of Trujilo scores with added scores for biosecurity threat for Hawaii for finfish (includes tilapia because can not separate out tilapia farms given data)
-mar_harvs<-subset(mar_harv, commodity=="shellfish")
-mar_harvf<-subset(mar_harv, commodity=="finfish")
-mar_harvs$estimate<-mar_harvs$est_harv*risks
-mar_harvf$estimate<-mar_harvf$est_harv*riskf
-mar_harv<-rbind(mar_harvs, mar_harvf)
+#mar_ds<-subset(mar_d, commodity=="shellfish")
+#mar_df<-subset(mar_d, commodity=="finfish")
+#mar_ds$estimate_s<-mar_ds$est_harv*risks
+#mar_df$estimate_f<-mar_df$est_harv*riskf
+#mar_data<-mar_df%>%
+#    left_join(mar_ds, by=c('rgn_id', 'year','commodity'))
+
+  mar_d<-mar_d%>%
+    dplyr::group_by(rgn_id,year)%>%
+    dplyr::mutate(total_harvest=sum(tonnes))
+    #dplyr::summarize(score = est_harv*risk)
+    #dplyr::mutate(score=est_harv/total_harvest)#spatial reference score
+    #dplyr::ungroup()
+  mar_d<-mar_d%>%
+    dplyr::group_by(rgn_id,commodity)%>%
+    dplyr::mutate(ref=max(est_harv))%>%
+    dplyr::ungroup()%>%
+
+  mar_d$score<-(mar_d$est_harv/mar_d$ref)
+  mar_d<-mar_d %>%
+    dplyr::group_by(rgn_id,year) %>%
+    dplyr::summarize(score=mean(score))
+  mar_d$score<-mar_d$score*risk
+
+  #if want to separate out finfish and shellfish risk scores
+  #mar_ds<-subset(mar_d, commodity=="shellfish")
+  #mar_df<-subset(mar_d, commodity=="finfish")
+  #mar_ds$score<-mar_ds$score*risks
+  #mar_df$score<-mar_df$score*riskf
+  #mar_data<-mar_df%>%
+  #    left_join(mar_ds, by=c('rgn_id', 'year','commodity'))
 
 # aggregate all weighted timeseries per region,
- ry<-ddply(mar_harv, .(rgn_id, year), summarize, sust_tones_sum=sum(estimate))
-  max_harv<-max(ry$sust_tones_sum)
+ #ry<-ddply(mar_harv, .(rgn_id, year), summarize, sust_tones_sum=sum(estimate))
+#  max_harv<-max(ry$sust_tones_sum)
  #need to deside if including population as part of the model
- ry = mar_harv %>%
-    group_by(rgn_id, year) %>%
-    summarize(sust_tonnes_sum = sum(estimate)) %>%  #na.rm = TRUE assumes that NA values are 0
+# ry = mar_harv %>%
+#    group_by(rgn_id, year) %>%
+#    summarize(sust_tonnes_sum = sum(estimate)) %>%  #na.rm = TRUE assumes that NA values are 0
    # left_join(popn_inland25mi, by = c('rgn_id','year')) %>%
    # mutate(mar_pop = sust_tonnes_sum / popsum) %>%
-    ungroup()
+#    ungroup()
 
 
   # get reference quantile based on argument years
-  ref_95pct_data <- ry %>%
-    filter(year <= status_year)
+#  ref_95pct_data <- ry %>%
+#    filter(year <= status_year)
 
-  ref_95pct <- quantile(ref_95pct_data$mar_pop, 0.95, na.rm=TRUE)
+#  ref_95pct <- quantile(ref_95pct_data$mar_pop, 0.95, na.rm=TRUE)
 
   # identify reference rgn_id
-  ry_ref = ref_95pct_data %>%
-    arrange(mar_pop) %>%
-    filter(mar_pop >= ref_95pct)
-  message(sprintf('95th percentile for MAR ref pt is: %s\n', ref_95pct)) # rgn_id 25 = Thailand
-  message(sprintf('95th percentile rgn_id for MAR ref pt is: %s\n', ry_ref$rgn_id[1])) # rgn_id 25 = Thailand
+#  ry_ref = ref_95pct_data %>%
+#    arrange(mar_pop) %>%
+#    filter(mar_pop >= ref_95pct)
+#  message(sprintf('95th percentile for MAR ref pt is: %s\n', ref_95pct)) # rgn_id 25 = Thailand
+#  message(sprintf('95th percentile rgn_id for MAR ref pt is: %s\n', ry_ref$rgn_id[1])) # rgn_id 25 = Thailand
 
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "MAR", method = "spatial 95th quantile",
-                     reference_point = paste0("region id: ", ry_ref$rgn_id[1], ' value: ', ref_95pct)))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+#  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+#    rbind(data.frame(goal = "MAR", method = "temporal maximum per region times risk score",
+#                     reference_point = paste0("region id: ", ry_ref$rgn_id[1], ' value: ', ref_95pct)))
+#  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
 
-  ry = ry %>%
-    mutate(status = ifelse(mar_pop / ref_95pct > 1,
-                           1,
-                           mar_pop / ref_95pct))
-  status <- ry %>%
+ # ry = ry %>%
+#    mutate(status = ifelse(mar_pop / ref_95pct > 1,
+ #                          1,
+#                           mar_pop / ref_95pct))
+  status_year=max(mar_d$year)
+
+
+  status <- mar_d %>%
     filter(year == status_year) %>%
-    select(rgn_id, status) %>%
-    mutate(status = round(status*100, 2))
+    select(rgn_id, score) %>%
+    mutate(status = round(score*100, 2))
+ # status <- data.frame(status)
 
   trend_years <- (status_year-4):(status_year)
   first_trend_year <- min(trend_years)
 
   # get MAR trend
-  trend = ry %>%
-    group_by(rgn_id) %>%
+  trend = mar_d %>%
+    dplyr::group_by(rgn_id) %>%
     filter(year %in% trend_years) %>%
-    filter(!is.na(popsum)) %>%
-    do(mdl = lm(status ~ year, data=.),
-       adjust_trend = .$status[.$year == first_trend_year]) %>%
-    summarize(rgn_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
+    do(mdl = lm(score ~ year, data=.),
+       adjust_trend = .$score[.$year == first_trend_year]) %>%
+    dplyr::summarize(rgn_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
     ungroup()
 
   trend <- trend %>%
@@ -281,13 +310,15 @@ mar_harv<-rbind(mar_harvs, mar_harvf)
     mutate(dimension = "trend")
 
   # return scores
-  scores = status %>%
+  status = status %>%
     select(region_id = rgn_id,
            score     = status) %>%
-    mutate(dimension='status') %>%
-    rbind(trend) %>%
-    mutate(goal='MAR')
+    mutate(dimension='status')
 
+  scores<-
+   rbind(trend,status) %>%
+  mutate(goal='MAR')
+  scores <- data.frame(scores)
   return(scores)
 }
 
