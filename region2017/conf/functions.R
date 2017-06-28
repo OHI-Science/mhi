@@ -1761,7 +1761,8 @@ HAB = function(layers){
       score=mean(score),
     dimension = 'status')%>%
     dplyr::mutate(region_id=rgn_id)%>%
-    select(region_id, score, dimension)
+    select(region_id, score, dimension) %>%
+    ungroup()
 
   trend <- d %>%
     dplyr::group_by(rgn_id) %>%
@@ -1788,7 +1789,7 @@ HAB = function(layers){
   write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
   # return scores
-  return(scores)
+  return(scores_HAB)
 }
 
 
@@ -1837,7 +1838,6 @@ SPP = function(layers){
 
 BD = function(scores){
   d <- scores %>%
-    full_join(scores_HAB)%>%
     filter(goal %in% c('HAB', 'SPP')) %>%
     filter(!(dimension %in% c('pressures', 'resilience'))) %>%
     group_by(region_id, dimension) %>%
