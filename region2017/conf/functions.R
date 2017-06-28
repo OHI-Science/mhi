@@ -1220,8 +1220,8 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
 
   #need local multiplies - jobs not identified as mammal watching, mariculture, etc from ENOW
   # multipliers from Table S10 (Halpern et al 2012 SOM)
-  multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
-                                'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
+  #multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
+  #                              'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
   # multipliers_rev  = data.frame('sector' = c('mar', 'tour'), 'multiplier' = c(1.59, 1)) # not used because GDP data is not by sector
 
 
