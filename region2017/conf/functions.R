@@ -1482,10 +1482,10 @@ ICO = function(layers, status_year){
   #T<-Threatened = 0.4
 
 
-  #w.risk_category = data.frame(iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
-    #                           risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)) %>%
-    #                mutate(status_score = 1-risk_score) %>%
-  #  mutate(iucn_cat = as.character(iucn_cat))
+  w.risk_category = data.frame(iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
+                              risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)) %>%
+                    mutate(status_score = 1-risk_score) %>%
+   mutate(iucn_cat = as.character(iucn_cat))
 
   ####### status
   # STEP 1: take mean of subpopulation scores
@@ -1733,27 +1733,34 @@ HAB = function(layers){
 
   ## calculate scores
   status <- d %>%
-    group_by(rgn_id, habitat) %>%
-    summarize(
+    dplyr::group_by(rgn_id, habitat) %>%
+    dplyr::summarize(
       score = (health*extent)/extent*100)%>% #health already as proportion protected or historical extent so multiply times current extent to get score
-     ungroup()%>%
-    group_by(rgn_id) %>%
-    summarize(
+    dplyr::ungroup()%>%
+    dplyr::group_by(rgn_id) %>%
+    dplyr::summarize(
       score=mean(score),
-    dimension = 'status')
+    dimension = 'status')%>%
+    dplyr::mutate(region_id=rgn_id)%>%
+    select(region_id, score, dimension)
 
   trend <- d %>%
     dplyr::group_by(rgn_id) %>%
     filter(!is.na(trend)) %>%
-    summarize(
+    dplyr::summarize(
       score = mean(trend),
       dimension = 'trend')  %>%
+    dplyr::mutate(region_id=rgn_id) %>%
+    select(region_id, score, dimension)%>%
     ungroup()
 
-  scores_HAB <- rbind(status, trend) %>%
-    mutate(goal = "HAB") %>%
-    mutate(region_id=rgn_id)%>%
-    select(region_id=rgn_id, goal, dimension, score)
+  trend<-as.data.frame(trend)
+
+  str(trend)
+  str(status)
+
+  scores_HAB<- rbind(status, trend) %>%
+    mutate(goal = "HAB")
 
   ## reference points
   rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
@@ -1762,7 +1769,7 @@ HAB = function(layers){
   write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
   # return scores
-  return(scores_HAB)
+  return(scores)
 }
 
 
