@@ -1,4 +1,4 @@
-FIS = function(layers, status_year){
+FIS = function(layers, status_year=2016){
 
   #catch data
   c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>%
@@ -51,9 +51,9 @@ FIS = function(layers, status_year){
     mutate(value = ifelse(species %in% high_bmsy, 1, value))#not sure this is working
 
 
-  # ------------------------------------------------------------------------
-  # STEP 1. Calculate scores for Bbmsy values
-  # -----------------------------------------------------------------------
+  # ---
+  ## STEP 1. Calculate scores for Bbmsy values
+  # ---
   #  *************NOTE *****************************
   #  These values can be altered
   #  ***********************************************
@@ -70,19 +70,19 @@ FIS = function(layers, status_year){
                           beta))
 
 
-  # ------------------------------------------------------------------------
+  # ---
   # STEP 1. Merge the b/bmsy data with catch data
-  # -----------------------------------------------------------------------
+  # ---
   data_fis <- c %>%
     left_join(b, by=c('rgn_id', 'species', 'year'))%>%
     select(rgn_id, species, year, catch, key.x, score)
 
 
-  # ------------------------------------------------------------------------
+  # ---
   # STEP 2. Estimate scores for taxa without stock assessment values
   # Median score of other fish in the taxon group ("key.x"; bottom, pelagic, or reef fish) is an estimate
   # Then a penalty is applied based on the level the taxa are reported at # will need to address this for non-fish species -shrimp, cucumber, etc
-  # -----------------------------------------------------------------------
+  # ---
 
   ## this takes the median score within each region
   data_fis_gf <- data_fis %>%
@@ -126,9 +126,9 @@ FIS = function(layers, status_year){
     select(rgn_id, species, year, catch, score)
     #filter(year == status_year)
 
-  # ------------------------------------------------------------------------
+  # ---
   # STEP 4. Calculate status for each region
-  # -----------------------------------------------------------------------
+  # ---
 
   # 4a. To calculate the weight (i.e, the relative catch of each stock per region),
   # the mean catch of taxon i is divided by the
@@ -147,10 +147,10 @@ FIS = function(layers, status_year){
     dplyr::summarize(status = prod(score^wprop)) %>%
     ungroup()
 
-  # ------------------------------------------------------------------------
+  # ---
   # STEP 5. Get yearly status and trend
-  # -----------------------------------------------------------------------
-status_year=2016 #2016
+  # ---
+#status_year=2016 #2016 ## @jules32 moved this to the function call and deleted from conf/goals.csv too
 
   status <-  status_data %>%
     filter(year==status_year) %>%
@@ -183,7 +183,7 @@ status_year=2016 #2016
   return(scores)
 }
 
-MAR = function(layers, status_year){
+MAR = function(layers){
 #mariculture operators and yield
   mar_harv <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
     select(rgn_id=id_num, commodity=category, year, tonnes=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
@@ -287,7 +287,7 @@ MAR = function(layers, status_year){
 #    mutate(status = ifelse(mar_pop / ref_95pct > 1,
  #                          1,
 #                           mar_pop / ref_95pct))
-  status_year=max(mar_d$year)
+  status_year=max(mar_d$year) #@eschemmel: double-check that this is where you want to set the status year and not at the function call
 
 
   status <- mar_d %>%
@@ -321,8 +321,8 @@ MAR = function(layers, status_year){
            score     = status) %>%
     mutate(dimension='status')
 
-  str(status)
-  str(trend)
+  #str(status)
+  #str(trend)
 
    scores<-
    rbind(trend,status) %>%
@@ -483,7 +483,7 @@ AO = function(layers,
 
 
   # return scores
-  s = r.status %>%
+  scores = r.status %>%
     select(region_id, score=status) %>%
     mutate(dimension='status') %>%
     rbind(
@@ -495,10 +495,10 @@ AO = function(layers,
 
 
   # return all scores
-  return(rbind(scores, s))
+  return(scores)
 }
 
-NP <- function(scores, layers, status_year, debug = FALSE){
+NP <- function(scores, layers, status_year=2013, debug = FALSE){
 
   ### new code version - load combined harvest variables
   r_cyanide    = layers$data[['np_cyanide']] # cyanide & blast used to calculate risk variable
@@ -728,7 +728,7 @@ NP <- function(scores, layers, status_year, debug = FALSE){
     return(np_sust)
   }
 
-  np_calc_scores <- function(np_sust, status_year) {
+  np_calc_scores <- function(np_sust, status_year=2013) {
     ### Calculates NP status for all production years for each region, based
     ### upon weighted mean of all products produced.
     ### From this, reports the most recent year as the NP status.
@@ -1132,7 +1132,7 @@ env<-env %>%
   dplyr::group_by(rgn_id, year)%>%
   dplyr::summarize(env_score=mean(env_score), percent=mean(percent)) #####need to FIX### otherwise duplicates in env scores
 env<-env[order(env$year),]
-str(env)
+#str(env)
 
 #basic formatting of data
 env$rgn_id<-as.numeric(env$rgn_id)
@@ -1172,12 +1172,12 @@ status <-  tr_data_sum %>%
   select(region_id=rgn_id, score, dimension)
 
 #year=as.data.frame(tr_data$year)#work around for not finding status_year
-status_year=2015
+##status_year=2015 @eschemmel can delete; set at the function call above
 trend_years <- status_year:(status_year-4)
 first_trend_year <- min(tr_data$year)
 
 status_data=tr_data
-str(status_data)
+#str(status_data)
 
 trend <- status_data %>%
   #filter(year) %>%
@@ -1381,7 +1381,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
 
 
   # ECO status
-    str(eco)
+    #str(eco)
     eco$rev_adj<-as.numeric(eco$rev_adj)#summarize needs data to be numeric
 
   eco_status = eco %>%
@@ -1475,7 +1475,7 @@ LE = function(scores, layers){
 }
 
 
-ICO = function(layers, status_year){
+ICO = function(layers, status_year=2016){
     layers_data = SelectLayersData(layers, layers=c('ico_spp_iucn_status'))
 
   rk <- layers_data %>%
@@ -1564,7 +1564,7 @@ ICO = function(layers, status_year){
 }
 
 
-LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year){
+LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
 
       trend_years = (status_year-4):status_year
 
@@ -1775,8 +1775,8 @@ HAB = function(layers){
 
   trend<-as.data.frame(trend)
 
-  str(trend)
-  str(status)
+  #str(trend)
+  #str(status)
 
   scores_HAB<- rbind(status, trend) %>%
     mutate(goal = "HAB")
