@@ -91,12 +91,12 @@ FIS = function(layers, status_year){
     ungroup()
 
   ## this takes the median score across all regions (when no stocks have scores within a region)
-  #data_fis_gf <- data_fis_gf %>%
-  #  group_by(year, key.x) %>%
-  #  mutate(Median_score_global = quantile(value, probs=c(0.5), na.rm=TRUE)) %>%
+ # data_fis_gf <- data_fis_gf %>%
+#    group_by(year, key.x) %>%
+ #   mutate(Median_score_global = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
   #  ungroup() %>%
-  #  mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
-  #  select(-Median_score_global)
+   # mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
+    #select(-Median_score_global)
 
   #  *************NOTE *****************************
   #  In some cases, it may make sense to alter the
@@ -136,9 +136,11 @@ FIS = function(layers, status_year){
 
   status_data <- status_data %>%
     dplyr::group_by(year, rgn_id) %>%
-    mutate(SumCatch = sum(catch)) %>%
+    dplyr::mutate(SumCatch = sum(catch)) %>%
     ungroup() %>%
-    mutate(wprop = catch/SumCatch)
+    dplyr::mutate(wprop = catch/SumCatch)
+
+
 
   status_data <- status_data %>%
     dplyr::group_by(rgn_id, year) %>%
@@ -148,6 +150,7 @@ FIS = function(layers, status_year){
   # ------------------------------------------------------------------------
   # STEP 5. Get yearly status and trend
   # -----------------------------------------------------------------------
+status_year=2016 #2016
 
   status <-  status_data %>%
     filter(year==status_year) %>%
@@ -156,20 +159,20 @@ FIS = function(layers, status_year){
       dimension = 'status') %>%
     select(region_id=rgn_id, score, dimension)
 
-  trend_years <- status_year:(2016-4)###need to set status year or adjust this year value for each assessment
+  trend_years <- (status_year-4):(status_year)###need to set status year or adjust this year value for each assessment
   first_trend_year <- min(trend_years)
 
   trend <- status_data %>%
     #filter(year %in% trend_years) %>%
-    group_by(rgn_id) %>%
+    dplyr::group_by(rgn_id) %>%
     do(mdl = lm(status ~ year, data=.),
        adjust_trend = .$status[.$year == first_trend_year]) %>%
-    summarize(region_id = rgn_id,
+    dplyr::summarize(region_id = rgn_id,
               score = round(coef(mdl)['year']/adjust_trend * 5, 4),
               dimension = 'trend') %>%
     ungroup() %>%
-    mutate(score = ifelse(score > 1, 1, score)) %>%
-    mutate(score = ifelse(score < (-1), (-1), score))
+    dplyr::mutate(score = ifelse(score > 1, 1, score)) %>%
+    dplyr::mutate(score = ifelse(score < (-1), (-1), score))
 
   # assemble dimensions
   scores <- rbind(status, trend) %>%
@@ -230,7 +233,7 @@ MAR = function(layers, status_year){
   mar_d<-mar_d%>%
     dplyr::group_by(rgn_id,commodity)%>%
     dplyr::mutate(ref=max(est_harv))%>%
-    dplyr::ungroup()%>%
+    dplyr::ungroup()
 
   mar_d$score<-(mar_d$est_harv/mar_d$ref)
   mar_d<-mar_d %>%
@@ -288,7 +291,7 @@ MAR = function(layers, status_year){
     filter(year == status_year) %>%
     select(rgn_id, score) %>%
     mutate(status = round(score*100, 2))
- # status <- data.frame(status)
+ status <- data.frame(status)
 
   trend_years <- (status_year-4):(status_year)
   first_trend_year <- min(trend_years)
@@ -308,14 +311,17 @@ MAR = function(layers, status_year){
     mutate(trend = round(trend, 4)) %>%
     select(region_id = rgn_id, score = trend) %>%
     mutate(dimension = "trend")
-
+  trend <- data.frame(trend)
   # return scores
   status = status %>%
     select(region_id = rgn_id,
            score     = status) %>%
     mutate(dimension='status')
 
-  scores<-
+  str(status)
+  str(trend)
+
+   scores<-
    rbind(trend,status) %>%
   mutate(goal='MAR')
   scores <- data.frame(scores)
@@ -362,11 +368,11 @@ FP = function(layers, scores){
                    paste(as.character(tmp$region_id), collapse = ", ")))}
 
   s <- s  %>%
-    group_by(region_id, dimension) %>%
-    summarize(score = weighted.mean(score, weight, na.rm=TRUE)) %>%
-    mutate(goal = "FP") %>%
-    ungroup() %>%
-    select(region_id, goal, dimension, score) %>%
+    dplyr::group_by(region_id, dimension) %>%
+    dplyr::summarize(score = weighted.mean(score, weight, na.rm=TRUE)) %>%
+    dplyr::mutate(goal = "FP") %>%
+    dplyr::ungroup() %>%
+    dplyr::select(region_id, goal, dimension, score) %>%
     data.frame()
 
   # return all scores
@@ -780,10 +786,10 @@ NP <- function(scores, layers, status_year, debug = FALSE){
   np_scores  <- np_calc_scores(np_sust, status_year)
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "NP", method = "Harvest peak within region times 0.65 buffer",
                      reference_point = "varies for each region"))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
 
   return(np_scores)
@@ -832,7 +838,7 @@ CS <- function(layers){
     mutate(prop_score = weighted_cont/sum(weighted_cont)) %>%
     mutate(prop_score = round(prop_score, 3)) %>%
     select(rgn_id, habitat, prop_score)
-  write.csv(dp, file.path(wd, 'temp/cs_hab_contributions.csv'), row.names=FALSE)
+  write.csv(dp, file.path( 'temp/cs_hab_contributions.csv'), row.names=FALSE)
 
   ## status and trend models; ensure at least one habitat-region has extent (km2) > 0, otherwise set NA.
   if (sum(d$km2, na.rm=TRUE) > 0){
@@ -903,10 +909,10 @@ CS <- function(layers){
   } ## end -- if (sum(d$km2) > 0)
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "CS", method = "Health/condition variable based on current vs. historic extent",
                      reference_point = "varies for each region/habitat"))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
 
   # return scores
@@ -1020,7 +1026,7 @@ CP <- function(layers){
 
 
     ## finalize scores_CP
-    scores_CP <- scores_CP %>%
+    scores<- scores_CP %>%
       mutate(
         goal = 'CP') %>%
       select(region_id=rgn_id, goal, dimension, score)
@@ -1050,7 +1056,7 @@ CP <- function(layers){
                      reference_point = "varies for each region/habitat"))
   write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
-
+  return(scores)
 }
 
 
@@ -1522,10 +1528,10 @@ ICO = function(layers, status_year){
     select(region_id, score, dimension)
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "ICO", method = "scaled IUCN risk categories",
                      reference_point = NA))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
 
   # return scores
@@ -1604,11 +1610,11 @@ r.yrs = r.yrs %>%
 
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "LSP", method = paste0(ref_pct_cmpa, "% marine protected area; ",
                                                    ref_pct_cp, "% coastal protected area"),
                      reference_point = "varies by area of region's eez and 1 km inland"))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
 
   # return scores
@@ -1684,10 +1690,10 @@ CW = function(layers){
     data.frame()
 
   ## reference points
-  rp <- read.csv(file.path(wd, 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
+  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
     rbind(data.frame(goal = "CW", method = "spatial: pressures scaled from 0-1 at raster level",
                      reference_point = NA))
-  write.csv(rp, file.path(wd, 'temp/referencePoints.csv'), row.names=FALSE)
+  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
   return(scores)
 }
