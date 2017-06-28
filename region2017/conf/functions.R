@@ -208,7 +208,10 @@ MAR = function(layers, status_year){
   mar_d<-mar_harv %>%
     left_join(mar_operations, by=c('year','commodity','rgn_id'))
 
-  mar_d<- ddply(mar_d, .(commodity, year), mutate, sum_value=sum(value))
+  # mar_d<- ddply(mar_d, .(commodity, year), mutate, sum_value=sum(value)) # @jules32 commenting out in favor of dplyr
+  mar_d<- mar_d %>%
+    arrange(commodity, year) %>%
+    mutate(sum_value = sum(value))
 
   mar_d$prop<-(mar_d$value/mar_d$sum_value)
   mar_d$est_harv<-mar_d$prop*mar_d$tonnes
@@ -381,7 +384,7 @@ FP = function(layers, scores){
 
 
 AO = function(layers,
-              status_year,
+              status_year = 2013,
               Sustainability=1.0){
 
 
@@ -401,17 +404,25 @@ AO = function(layers,
 
   ao_data <- SelectLayersData(layers, layers = 'ao_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
     select(region_id=id_num, year,res=val_num)%>%
-    left_join(ao_data)
+    left_join(ao_data, by = c("region_id", "year"))
 
   ao_data <- na.omit(ao_data)
 
   ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
 
-  ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
-  left_join(ao_data, by="year")
+  ## @jules32 rewrote these lines below without ddply; use mutate() instead of summarize() and left_join()
+  # ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
+  # left_join(ao_data, by="year")
+  # ao_data<-ddply(ao_data, .(year), summarize, total_res=sum(res))%>% #total fishers in Hawaii
+  #   left_join(ao_data, by="year")
 
-  ao_data<-ddply(ao_data, .(year), summarize, total_res=sum(res))%>% #total fishers in Hawaii
-    left_join(ao_data, by="year")
+  ## calculate total fishers and total res for each year
+  ao_data <- ao_data %>%
+    group_by(year) %>%
+    mutate(total_fishers = sum(fishers), # total fishers  in Hawaii
+           total_res = sum(res)) %>%     # total res
+    ungroup()
+
   ao_data$need_score<-ao_data$fishers/ao_data$total_fishers # need standardized to number of fishers
 
   ao_data$need_score<-ao_data$res*.106/ao_data$total_res
@@ -429,14 +440,12 @@ AO = function(layers,
     mutate(status = (1-Du) * bio)
 
 
-
-
   #global model
 # ry <- ry %>%
 #    mutate(Du = (1 - need) * (1 - access)) %>%
 #   mutate(status = (1 - Du) * Sustainability)
 
-  status_year=2013
+  # status_year=2013 ## @eschemmel: this is overwriting the variable set in conf/goals.csv from 2014. @jules32 removed it from goals.csv and moves this 2013 value up to the function call <-  doublecheck to make sure this is what you want!
   # status
   r.status <- ao_data %>%
     filter(year==status_year) %>%
@@ -447,7 +456,7 @@ AO = function(layers,
 #trend is based on change in %fishers per year and % change in fish biomass #
 
   r.trend<-SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE)
-  str(r.trend)
+  # str(r.trend)
  r.trend$region_id=r.trend$id_num
   r.trend$category<-r.trend$category+0.007 #access increased by 0.7% per year
 
@@ -474,15 +483,19 @@ AO = function(layers,
 
 
   # return scores
-  scores = r.status %>%
+  s = r.status %>%
     select(region_id, score=status) %>%
     mutate(dimension='status') %>%
     rbind(
       r.trend %>%
         select(region_id, score=category) %>%
         mutate(dimension='trend')) %>%
-    mutate(goal='AO') # dlply(scores, .(dimension), summary)
-  return(scores)
+    mutate(goal='AO') %>% # dlply(scores, .(dimension), summary)
+    select(goal, dimension, region_id, score)
+
+
+  # return all scores
+  return(rbind(scores, s))
 }
 
 NP <- function(scores, layers, status_year, debug = FALSE){
@@ -1140,8 +1153,14 @@ tr_data$status<-rowMeans(tr_data[,c("score","env_score","n_score")])
 tr_data_sum<-tr_data
 
 
-tr_data_sum<-ddply(tr_data, .(rgn_id),
-  summarize, status=mean(status))
+ ## @jules32 rewrote these lines below without ddply
+# tr_data_sum<-ddply(tr_data, .(rgn_id),
+#  summarize, status=mean(status))
+
+tr_data_sum <- tr_data %>%
+  group_by(rgn_id) %>%
+  summarize(status=mean(status))
+
 # ------------------------------------------------------------------------
 #Get yearly status and trend
 # -----------------------------------------------------------------------
