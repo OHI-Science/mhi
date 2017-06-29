@@ -45,8 +45,12 @@ if (!file.exists(dir_data)){
 
 }
 
-# read config
-config = new.env()
-source(file.path(dir_scenario, 'conf/config.R'), config)
+# # read config # @jules32 6/29/17 don't think this is what we need
+# config = new.env()
+# source(file.path(dir_scenario, 'conf/config.R'), config)
 
+## read in variables
+scores <- readr::read_csv(file.path(dir_scenario, 'scores.csv'))
+layers <- readr::read_csv(file.path(dir_scenario, 'layers.csv'))
+weight <- readr::read_csv(file.path(dir_scenario, 'conf/goals.csv')) %>% select(goal, weight)
 
