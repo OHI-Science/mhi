@@ -9,10 +9,9 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="" />
 
 
-<title>Frequently Asked Questions</title>
+<title>Preliminary OHI scores for the Main Hawaiian Islands</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -162,6 +164,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -200,34 +297,21 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Frequently Asked Questions</h1>
+<h1 class="title toc-ignore">Preliminary OHI scores for the Main Hawaiian Islands</h1>
 
 </div>
 
 
-<p>The Ocean Health Index was developed to measure the benefits that people recieve from the ocean now and into the future. The index was originally developed to measure global ocean health (<a href="http://www.oceanhealthindex.org/" class="uri">http://www.oceanhealthindex.org/</a>). Since then, regional assessments have been done in over 32 regions to meet local needs to track sustainable ocean use.</p>
-<div id="frequently-asked-questions" class="section level1">
-<h1>Frequently Asked Questions</h1>
-<div id="why-is-this-study-being-done" class="section level2">
-<h2>Why is this study being done?</h2>
-<p>There is a need to assess and track the health of Hawai‘i’s natural environment and chart a path forward to increase economic opportunities and human wellbeing while sustainably managing these critical resources.</p>
-</div>
-<div id="what-is-the-purpose-of-this-project" class="section level2">
-<h2>What is the purpose of this project?</h2>
-<p>Develop shared metrics for measuring progress toward sustainable economic growth and ocean health through: Building a coalition for sustainable ocean management; Collaborating with coastal stakeholders, natural resource managers, scientific experts, and communities;Using objective scientific data to inform decision-making;Monitor ocean health through time using the OHI as a repeatable tool.</p>
-</div>
-<div id="what-is-the-ultimate-goal-of-this-project" class="section level2">
-<h2>What is the ultimate goal of this project?</h2>
-<p>Enable the State of Hawaiʻi, community stakeholders, the corporate and finance sectors and non-profit organizations to prioritize investments and policy decisions that affect the sustainability of Hawai‘i’s economic and ocean health.</p>
-</div>
-<div id="how-far-along-is-this-project" class="section level2">
-<h2>How far along is this project?</h2>
-<p>We are in the development and planning stages. Stakeholder engagement and outreach is continuing and we are working with local advisors and experts to facilitate the development of the Ocean Health Index for Hawaii.</p>
-</div>
-</div>
+<p>Ocean Health Index scores are calculated for each region for each goal before being combined into an overall Index score for Hawaii. The four regions are Hawaii, Maui Nui, Oahu, and Kauai &amp; Niihau. <!---could bring back the Regions page to be only linked from here---></p>
+<p>Flower plots display preliminary scores, with each petal representing an individual goal. Petal lengths convey the score of the goal, thus longer petals are closer to achieving their target. Only goals that are relevant to a region are scored, otherwise they are set to NA with grey petals. All scores are on a scale from 0-100, and the center number is the region’s Index score.</p>
+<hr />
+<p><a href="http://ohi-science.org"><img src="https://docs.google.com/drawings/d/1633uvIYgsBhiKBddQAaTlvYDJgOK1uiDB6wkooNyhFc/pub?w=576&h=288" width="100px"></a><br />
+<a href="http://ohi-science.org">ohi-science.org home</a></p>
 
 
 
+</div>
+</div>
 
 </div>
 

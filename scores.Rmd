@@ -1,5 +1,5 @@
 ---
-title: "Global Ocean Health Index scores"
+title: "Preliminary OHI scores for the Main Hawaiian Islands"
 output:
   html_document:
     toc: true
@@ -11,14 +11,14 @@ output:
 source("./_site.R")
 ```
 
-Ocean Health Index scores are calculated for each region for each goal before being combined into an overall Index score. Methods have incrementally improved each year with new information and knowledge. Thus, for annual scores to be comparable through time, previous scores are recalculated with the most recent methods for each past assessment year. **All scores below use 2016 methods**.
+Ocean Health Index scores are calculated for each region for each goal before being combined into an overall Index score for Hawaii. The four regions are Hawaii, Maui Nui, Oahu, and Kauai & Niihau. <!---could bring back the Regions page to be only linked from here---> 
 
-Below are five years of global assessment scores for 220 regions (coastal nations and territories). <!---could bring back the Regions page to be only linked from here---> Flower plots display the 2016 scores, with each petal representing an individual goal. Petal lengths convey the score of the goal, thus longer petals are closer to achieving their target. Only goals that are relevant to a region are scored, otherwise they are set to NA with grey petals. All scores are on a scale from 0-100, and the center number is the region's Index score.
+Flower plots display preliminary scores, with each petal representing an individual goal. Petal lengths convey the score of the goal, thus longer petals are closer to achieving their target. Only goals that are relevant to a region are scored, otherwise they are set to NA with grey petals. All scores are on a scale from 0-100, and the center number is the region's Index score.
 
 ----
 
 ```{r plot flowers for current scenario year}
-redo_flowers = F
+redo_flowers = TRUE
 
 # vars
 png_res = 72
@@ -28,7 +28,7 @@ regions_csv = sprintf('%s/layers/%s.csv', dir_scenario, config$layer_region_labe
 
 # data
 scores  = read_csv(scores_csv)  # View(scores)
-regions = read_csv(regions_csv) %>% filter(label != 'Antarctica') # View(regions)
+regions = read_csv(regions_csv) # View(regions)
 goals   = read_csv(goals_csv)   # View(goals)
 
 # prep
@@ -94,75 +94,6 @@ for (rid in regions$rgn_id){ # rid = regions$rgn_id[1]
 }
 ```
 
-```{r table all years, results='asis'}
-
-## TODO: move past this for loop
-# files <- list.files(path=sprintf('%s/data', dir_report), pattern = 'scores_eez*.csv', full.names = TRUE)
-
-## create data frame of all years
-data_all_years <- data.frame()
-
-for(yr in 2012:2016){ #yr=2012
-  
-  data <- read.csv(sprintf('%s/data/scores_eez%s.csv', dir_report, yr),
-                   stringsAsFactors=FALSE) %>% 
-    mutate(year = yr)
-  
-  data_all_years <- rbind(data_all_years, data)
-}
-data_all_years$country[data_all_years$country == 'eez_weighted_avg'] = 'Global'
-
-
-## loop through and display each rgn_id
-for (rid in regions$rgn_id){ # rid = regions$rgn_id[1]
-  
-  ## prepare ----
-  r = filter(regions, rgn_id==rid)
-  
-  ## filter rgn_id and transpose
-  rid_score <- data_all_years %>% 
-    filter(region_id == r$rgn_id) %>%
-    select(-region_id) %>%
-    gather(key=goal, value=scores, -country, -year) %>%
-    spread(year, scores)
-  
-  ## reorder as set in goal_labels
-  rid_score <- data_frame(
-    goal = c('Index', names(goal_labels))) %>%
-      left_join(rid_score, by='goal')
-  
-  ## replace 2/3-letter code
-  rid_score <- rid_score %>%
-    mutate(goal = str_replace_all(goal, "FP",  "Food Provision"),
-           goal = str_replace_all(goal, "FIS", "Wild Caught Fisheries"),
-           goal = str_replace_all(goal, "MAR", "Mariculture"),
-           goal = str_replace_all(goal, "AO",  "Artisanal Fishing Opportunity"),
-           goal = str_replace_all(goal, "NP",  "Natural Products"),
-           goal = str_replace_all(goal, "CS",  "Carbon Storage"),
-           goal = str_replace_all(goal, "CP",  "Coastal Protection"),
-           goal = str_replace_all(goal, "LE",  "Livelihoods and Economies"),
-           goal = str_replace_all(goal, "LIV", "Coastal Livelihoods"),
-           goal = str_replace_all(goal, "ECO", "Coastal Economies"),
-           goal = str_replace_all(goal, "TR",  "Tourism and Recreation"),
-           goal = str_replace_all(goal, "LSP", "Lasting Special Places"),
-           goal = str_replace_all(goal, "ICO", "Iconic Species"),
-           goal = str_replace_all(goal, "CW",  "Clean Waters"),
-           goal = str_replace_all(goal, "BD",  "Biodiversity"),
-           goal = str_replace_all(goal, "SPP", "Species"),
-           goal = str_replace_all(goal, "SP",  "Sense of Place"),
-           goal = str_replace_all(goal, "HAB", "Habitats"))
-  
-  ## display ----
-  
-  # header, flower
-  cat(sprintf('## %s\n\n![](%s)\n\n', unique(rid_score$country), r$flower_png))
-  
-  kable(rid_score %>% select(-country)) %>%
-    print()
-  cat('\n\n')
-#  cat('----')
-}
-```
 
 [<img src="https://docs.google.com/drawings/d/1633uvIYgsBhiKBddQAaTlvYDJgOK1uiDB6wkooNyhFc/pub?w=576&h=288" width="100px">](http://ohi-science.org)  
 [ohi-science.org home](http://ohi-science.org)
