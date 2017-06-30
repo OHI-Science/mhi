@@ -1,12 +1,17 @@
 ---
-title: "Preliminary OHI scores for the Main Hawaiian Islands"
+title: "Preliminary OHI scores"
 output:
-  html_document
+  html_document:
+    toc: true
+    toc_float: true
 #    keep_md: true
 ---
 
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
 source("./_site.R")
+
+## redo flower plots? (they are created in master branch)
+redo_flowers = FALSE
 ```
 
 Ocean Health Index scores are calculated for each region for each goal before being combined into an overall Index score for Hawaii. The four regions are Hawaii, Maui Nui, Oahu, and Kauai & Niihau. <!---could bring back the Regions page to be only linked from here---> 
@@ -15,7 +20,7 @@ Flower plots display preliminary scores, with each petal representing an individ
 
 ----
 
-```{r plot_flower Casey}
+```{r plot_flower Casey, results='asis'}
 
 ## All borrowed from Casey: https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
 source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.R')
@@ -23,26 +28,20 @@ source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/regionHoweSou
 
 ## goal_names
 goal_names <- read_csv('goal_names.csv')
-regions <- scores %>%
-  select(region_id) %>%
-  distinct() %>%
-  left_join(
-    read_csv(file.path(dir_scenario, 'spatial/regions_list.csv')) %>%
-      select(region_id = rgn_id, 
-             region_name = rgn_name), 
-    by = 'region_id')
-regions$region_name[regions$region_id == 0] <- study_area
+regions <- bind_rows(
+  data_frame(                # order regions to start with whole study_area
+    region_id   = 0,
+    region_name = study_area),
+  read_csv(file.path(dir_scenario, 'spatial/regions_list.csv')) %>%
+    select(region_id = rgn_id, 
+           region_name = rgn_name)) %>%
+  mutate(
+    flower_png = sprintf('images/flower_%s.png', str_replace_all(region_name, ' ', '_')))
 
 for (i in regions$region_id) { #i = 0
   
-  title_label <- regions %>%
-    filter(region_id == i) %>%
-    select(region_name)
-  
-   title_label <- regions$region_name[regions$region_id == i]
-  
-  # Display header
-  cat(sprintf('## %s\n\n', title_label))
+  # skip if flower png exists and not redoing
+  if (file.exists(regions$flower_png) & !redo_flowers) next
   
   ## set up for plotting
   score_df <- scores %>%
@@ -58,19 +57,19 @@ for (i in regions$region_id) { #i = 0
            goal_label = paste(goal_label, round(score), sep = '\n')) %>%
     select(goal, goal_label)
   
-  title_label <- regions %>%
-    filter(region_id == i) %>%
-    select(region_name)
   
   ## Casey's new flower plot!!
   plot_obj <- plot_flower(score_df,
-                          filename    = file.path('images', 'mhi_test.png'),
+                          #  filename    = sprintf('images/flower_%s.png', title_filename),
                           goal_labels = goal_labels, 
                           incl_legend = TRUE) 
   
-  ## add a title
-  plot_obj <- plot_obj + 
-    ggtitle(title_label)
+  # ## add a title
+  # plot_obj <- plot_obj + 
+  #   ggtitle(title_label)
+  
+  # Display header
+  # cat(sprintf('## %s\n\n![](%s)\n\n', title_label, plot_obj))
   
   ## and plotly
   ### NOTE:: currently plotly doesn't work with polar coordinates https://github.com/ropensci/plotly/issues/878
@@ -80,9 +79,16 @@ for (i in regions$region_id) { #i = 0
 }
 
 ## display ----
-  
 
-  
+# header, flower
+cat(sprintf('## %s\n\n![](%s)\n\n', regions$region_name, regions$flower_png), sep = "")
+
+# kable(rid_score %>% select(-country)) %>%
+#   print()
+cat('\n\n')
+#  cat('----')
+
+
 
 ```
 
