@@ -36,48 +36,52 @@ regions <- bind_rows(
     select(region_id = rgn_id, 
            region_name = rgn_name)) %>%
   mutate(
-    flower_png = sprintf('images/flower_%s.png', str_replace_all(region_name, ' ', '_')))
+    flower_png = sprintf('%s/figures/flower_%s.png', 
+                         dir_scenario,
+                         str_replace_all(region_name, ' ', '_')))
 
-## cycle through each region
-for (i in regions$region_id) { #i = 0
-  
-  # don't create new pngs if they exist and if flower png exists and not redoing here
-  if (file.exists(regions$flower_png) & !redo_flowers) next
-  
-  ## set up for plotting
-  score_df <- scores %>%
-    filter(dimension == 'score') %>%
-    filter(region_id == i) %>%
-    select(-region_id) %>%
-    distinct() %>%
-    inner_join(weight, by = 'goal')
-  
-  goal_labels <- score_df %>%
-    left_join(goal_names, by = 'goal') %>%
-    mutate(goal_label = str_replace(goal_label, ' ', '\n'),
-           goal_label = paste(goal_label, round(score), sep = '\n')) %>%
-    select(goal, goal_label)
-  
 
-  ## Casey's new flower plot
-  plot_obj <- plot_flower(score_df,
-                          goal_labels = goal_labels, 
-                          incl_legend = TRUE) 
-
+# don't create new pngs if they exist and if flower png exists and not redoing here
+if (redo_flowers) {
   
-  ## make interactive with plotly
-  ### NOTE:: currently plotly doesn't work with polar coordinates. https://github.com/ropensci/plotly/issues/878
-  ### NOTE:: When this feature is available, redo display below. 
-  # library(plotly) # devtools::install_github("ropensci/plotly")
-  # p <- ggplotly(plot_obj)
-  
+  ## cycle through each region
+  for (i in regions$region_id) { # i = 0
+    
+    ## set up for plotting
+    score_df <- scores %>%
+      filter(dimension == 'score') %>%
+      filter(region_id == i) %>%
+      select(-region_id) %>%
+      distinct() %>%
+      inner_join(weight, by = 'goal')
+    
+    goal_labels <- score_df %>%
+      left_join(goal_names, by = 'goal') %>%
+      mutate(goal_label = str_replace(goal_label, ' ', '\n'),
+             goal_label = paste(goal_label, round(score), sep = '\n')) %>%
+      select(goal, goal_label)
+    
+    
+    ## Casey's new flower plot
+    plot_obj <- plot_flower(score_df,
+                            goal_labels = goal_labels, 
+                            incl_legend = TRUE) 
+    
+    
+    ## make interactive with plotly
+    ### NOTE:: currently plotly doesn't work with polar coordinates. https://github.com/ropensci/plotly/issues/878
+    ### NOTE:: When this feature is available, redo display below. 
+    # library(plotly) # devtools::install_github("ropensci/plotly")
+    # p <- ggplotly(plot_obj)
+    
+  }
 }
-
 
 ## display ----
 
 # header, flower
-cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), sep = "")
+cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
+    sep = "")
 
 ```
 
