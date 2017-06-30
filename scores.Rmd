@@ -22,7 +22,7 @@ Flower plots display preliminary scores, with each petal representing an individ
 
 ```{r plot_flower Casey, results='asis'}
 
-## All borrowed from Casey: https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
+## Source from ohibc until added to ohicore, see https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
 source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.R')
 source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/regionHoweSound/plot_flower.R')
 
@@ -38,9 +38,10 @@ regions <- bind_rows(
   mutate(
     flower_png = sprintf('images/flower_%s.png', str_replace_all(region_name, ' ', '_')))
 
+## cycle through each region
 for (i in regions$region_id) { #i = 0
   
-  # skip if flower png exists and not redoing
+  # don't create new pngs if they exist and if flower png exists and not redoing here
   if (file.exists(regions$flower_png) & !redo_flowers) next
   
   ## set up for plotting
@@ -57,38 +58,26 @@ for (i in regions$region_id) { #i = 0
            goal_label = paste(goal_label, round(score), sep = '\n')) %>%
     select(goal, goal_label)
   
-  
-  ## Casey's new flower plot!!
+
+  ## Casey's new flower plot
   plot_obj <- plot_flower(score_df,
-                          #  filename    = sprintf('images/flower_%s.png', title_filename),
                           goal_labels = goal_labels, 
                           incl_legend = TRUE) 
+
   
-  # ## add a title
-  # plot_obj <- plot_obj + 
-  #   ggtitle(title_label)
-  
-  # Display header
-  # cat(sprintf('## %s\n\n![](%s)\n\n', title_label, plot_obj))
-  
-  ## and plotly
-  ### NOTE:: currently plotly doesn't work with polar coordinates https://github.com/ropensci/plotly/issues/878
+  ## make interactive with plotly
+  ### NOTE:: currently plotly doesn't work with polar coordinates. https://github.com/ropensci/plotly/issues/878
+  ### NOTE:: When this feature is available, redo display below. 
   # library(plotly) # devtools::install_github("ropensci/plotly")
   # p <- ggplotly(plot_obj)
   
 }
 
+
 ## display ----
 
 # header, flower
-cat(sprintf('## %s\n\n![](%s)\n\n', regions$region_name, regions$flower_png), sep = "")
-
-# kable(rid_score %>% select(-country)) %>%
-#   print()
-cat('\n\n')
-#  cat('----')
-
-
+cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), sep = "")
 
 ```
 
