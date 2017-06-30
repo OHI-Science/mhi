@@ -7,15 +7,15 @@ rgn_id,habitat,health,reference
 2,reef,0.242,HMARC
 3,reef,0.115,HMARC
 4,reef,0.201,HMARC
-1,wetlands-estuary,0.5,unknown
-2,wetlands-estuary,0.5,unknown
-3,wetlands-estuary,0.5,unknown
-4,wetlands-estuary,0.5,unknown
-1,soft,0.5,unknown - look up area dedged and cabled
-2,soft,0.5,unknown - look up area dedged and cabled
-3,soft,0.5,unknown - look up area dedged and cabled
-4,soft,0.5,unknown - look up area dedged and cabled
-1,priority-watersheds,0.401603087,km of priority area fenced
-2,priority-watersheds,1,km of priority area fenced
-3,priority-watersheds,0.252883538,km of priority area fenced
-4,priority-watersheds,0.242638837,km of priority area fenced
+1,wetland,0.5,unknown
+2,wetland,0.5,unknown
+3,wetland,0.5,unknown
+4,wetland,0.5,unknown
+1,soft-bottom,0.5,unknown - look up area dedged and cabled
+2,soft-bottom,0.5,unknown - look up area dedged and cabled
+3,soft-bottom,0.5,unknown - look up area dedged and cabled
+4,soft-bottom,0.5,unknown - look up area dedged and cabled
+1,watershed,0.401603087,km of priority area fenced
+2,watershed,1,km of priority area fenced
+3,watershed,0.252883538,km of priority area fenced
+4,watershed,0.242638837,km of priority area fenced
