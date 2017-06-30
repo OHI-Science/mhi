@@ -1,34 +1,34 @@
-goal,element,element_name,po_chemicals,po_chemicals_3nm,po_pathogens,po_nutrients,po_nutrients_3nm,po_trash,po_marinedebris,sp_aquacul_terrest,sp_ispp_a_m,hd_coasteng,hd_benstr,hd_subtidal_sb,hd_subtidal_hb,hd_intertidal,fp_reeffish_t,fp_fish_aquarium,fp_com_hb,fp_com_lb,fp_art_lb,fp_art_hb,cc_sst,cc_warm,cc_acid,cc_uv,cc_slr_nearshore,ss_wgi,ss_spi
-AO,,,,1,,,1,,1,1,1,1,,1,3,1,1,1,2,1,,3,,,,,,1,1
-CP,reef,,,1,,,2,,2,1,1,1,2,,3,,1,1,,,,,3,3,1,1,2,1,1
-CP,wetland,,,1,,,2,,,1,1,1,1,,,3,,,,,,,,,,,3,1,1
-CP,beach,,,1,,,2,,,1,1,1,1,,,3,,,,,,,,,,,2,1,1
-CS,wetland,,,1,,,2,,,1,1,1,1,,,3,,,,,,,,,,,2,1,1
-CS,seagrass,,,2,,,3,,,1,1,1,1,,,3,,,,,,,2,2,1,,2,1,1
-CW,,,,3,3,,3,3,3,,,,,,,,,,,,,,,,,,,1,1
-ECO,aqf,Aquarium Trade Fishing,2,,,1,,,,,1,,1,,3,,,,,,1,3,1,1,1,,,1,1
-ECO,cf,Commericial Fishing,2,,,1,,,,,1,,1,2,2,1,1,,3,1,1,2,,,,,,1,1
-ECO,mar,Mariculture,2,,,,3,,,,,,,,,,,,,,,,,,,,1,1,1
-ECO,mmw,Marine Mammal Watching,,,,,,1,2,,,,,,,,,,1,,,,,,,,,1,1
-ECO,tour,Tourism,3,,3,,3,3,3,,,,,,,,,1,,,,,,,,,2,1,1
-FIS,,,1,,,1,,,,,1,,,2,2,1,,,3,1,1,2,,,,,,1,1
-HAB,reef,,,1,,,2,,2,1,1,,2,,3,,1,1,,,,3,3,3,1,1,1,1,1
-HAB,wetland,,,1,,,2,,,1,1,,1,,,3,,,,,,,,,,,2,1,1
-HAB,watershed,,,2,,,3,,,1,1,,1,,,3,,,,,,,2,2,1,,2,1,1
-HAB,beach,,,,,,,,,,,,1,,,,,,,,,,3,3,,,1,1,1
-HAB,soft_bottom,,,2,,,2,,,,1,,1,3,,,,,3,1,1,,,,,,,1,1
-ICO,,,,3,,,1,1,2,,1,,,,2,3,,,2,,,2,1,1,1,,,1,1
-LIV,cf,Commericial Fishing,2,,,1,,,,,1,,1,2,2,1,1,,3,1,1,2,,,,,,1,1
-LIV,mar,Mariculture,2,,,,3,,,,,,,,,,,,,,,,,,,,1,1,1
-LIV,mmw,Marine Mammal Watching,,,,,,1,2,,,,,,,,,,1,,,,,,,,,1,1
-LIV,tour,Tourism,3,,3,,3,3,,,,,,,,,,1,,,,,,,,,2,1,1
-LIV,aqf,Commericial Fishing,2,,,1,,,,,1,,,,3,,1,,,,1,3,1,1,1,,,1,1
-LSP,,,,2,,,2,3,3,,1,,,,2,3,,,,,,,,,,,1,1,1
-MAR,,,2,,,,3,,,,,,,,,,,,,,,,,,,,1,1,1
-NP,corals,,1,,,2,,,,1,1,,2,,3,,,,,,,,3,3,1,1,1,1,1
-NP,fish_oil,,2,,,1,,,,1,1,,,2,,,,,,2,,,1,1,,,,1,1
-NP,ornamentals,,2,,,1,,,,1,1,,,,3,,,,,,1,3,1,1,,,,1,1
-NP,seaweeds,,2,,,2,,,,1,1,,,,,1,,,,,,,1,1,,,,1,1
-NP,sponges,,,,,1,,,,1,1,,,3,,,,,,,,1,1,1,1,,,1,1
-SPP,,,2,,,3,,1,2,1,1,,,3,2,2,1,1,3,1,1,2,1,1,1,1,,1,1
-TR,,,,3,3,,3,3,3,,,,,,,,1,1,,,,,,,,,2,1,1
+goal,element,element_name,po_chemicals,po_lbsp_sed,po_lbspurbanrunoff,po_lbsp_nosds_bil,po_nutrients,po_lbspaggolfrunoff,po_trash,po_marinedebris,po_shipbased_shipp,sp_aquacul_terrest,sp_ispp_a_m,hd_tourrec_direct_h,hd_shipbased_ground,hd_dredging,hd_coasteng,hd_benstr,hd_subtidal_sb,hd_subtidal_hb,hd_intertidal,fp_reeffish_t,fp_fish_aquarium,fp_com_hb,fp_com_lb,fp_art_lb,fp_art_hb,cc_sst,cc_warm,cc_acid,cc_uv,cc_slr_nearshore,ss_wgi,ss_spi
+AO,,,,1,1,,,1,,1,1,1,1,2,1,,1,,1,3,1,1,1,2,1,,3,,,,,,1,1
+CP,reef,,,2,2,,,2,,2,1,1,1,2,2,,1,2,,3,,1,1,,,,,3,3,1,1,2,1,1
+CP,wetland,,,,2,,,2,,,1,1,1,,,,1,1,,,3,,,,,,,,,,,3,1,1
+CP,beach,,,,2,,,2,,,1,1,1,,,,1,1,,,3,,,,,,,,,,,2,1,1
+CS,wetland,,,,2,,,2,,,1,1,1,,,,1,1,,,3,,,,,,,,,,,2,1,1
+CS,seagrass,,,,3,,,3,,,1,1,1,,,,1,1,,,3,,,,,,,2,2,1,,2,1,1
+CW,,,,,3,3,,3,3,3,,,,,,,,,,,,,,,,,,,,,,,1,1
+ECO,aqf,Aquarium Trade Fishing,2,2,,,1,,,,1,,1,2,2,,,1,,3,,,,,,1,3,1,1,1,,,1,1
+ECO,cf,Commericial Fishing,2,1,,,1,,,,1,,1,1,1,,,1,2,2,1,1,,3,1,1,2,,,,,,1,1
+ECO,mar,Mariculture,2,,3,,,3,,,,,,,,,,,,,,,,,,,,,,,,1,1,1
+ECO,mmw,Marine Mammal Watching,,,,,,,1,2,,,,,,,,,,,,,,1,,,,,,,,,1,1
+ECO,tour,Tourism,3,1,3,3,,3,3,3,,,,,,,,,,,,,1,,,,,,,,,2,1,1
+FIS,,,1,,,,1,,,,,,1,,,,,,2,2,1,,,3,1,1,2,,,,,,1,1
+HAB,reef,,,2,2,,,2,,2,1,1,1,2,2,,,2,,3,,1,1,,,,3,3,3,1,1,1,1,1
+HAB,wetland,,,,2,,,2,,,1,1,1,,,,,1,,,3,,,,,,,,,,,2,1,1
+HAB,watershed,,,,3,,,3,,,1,1,1,,,,,1,,,3,,,,,,,2,2,1,,2,1,1
+HAB,beach,,,,,,,,,,1,,,,,,,1,,,,,,,,,,3,3,,,1,1,1
+HAB,soft_bottom,,,,2,,,2,,,1,,1,,,3,,1,3,,,,,3,1,1,,,,,,,1,1
+ICO,,,,,1,,,1,1,2,,,1,,,,,,,2,3,,,2,,,2,1,1,1,,,1,1
+LIV,cf,Commericial Fishing,2,1,,,1,,,,1,,1,1,1,,,1,2,2,1,1,,3,1,1,2,,,,,,1,1
+LIV,mar,Mariculture,2,,3,,,3,,,,,,,,,,,,,,,,,,,,,,,,1,1,1
+LIV,mmw,Marine Mammal Watching,,,,,,,1,2,,,,,,,,,,,,,,1,,,,,,,,,1,1
+LIV,tour,Tourism,3,1,3,3,,3,3,,,,,,,,,,,,,,1,,,,,,,,,2,1,1
+LIV,aqf,Commericial Fishing,2,,,,1,,,,1,,1,1,1,,,,,3,,1,,,,1,3,1,1,1,,,1,1
+LSP,,,,,2,,,2,3,3,,,1,,,,,,,2,3,,,,,,,,,,,1,1,1
+MAR,,,2,,3,,,3,,,,,,,,,,,,,,,,,,,,,,,,1,1,1
+NP,corals,,1,,,,2,,,,1,1,1,,,,,2,,3,,,,,,,,3,3,1,1,1,1,1
+NP,fish_oil,,2,,,,1,,,,1,1,1,,,,,,2,,,,,,2,,,1,1,,,,1,1
+NP,ornamentals,,2,1,,,1,,,,1,1,1,,,,,,,3,,,,,,1,3,1,1,,,,1,1
+NP,seaweeds,,2,,,,2,,,,1,1,1,,,,,,,,1,,,,,,,1,1,,,,1,1
+NP,sponges,,,,,,1,,,,1,1,1,,,,,,3,,,,,,,,1,1,1,1,,,1,1
+SPP,,,2,1,,,3,,1,2,1,1,1,,,,,,3,2,2,1,1,3,1,1,2,1,1,1,1,,1,1
+TR,,,,2,3,3,,3,3,3,,,,,,,,,,,,1,1,,,,,,,,,2,1,1

@@ -1,9 +1,6 @@
 layer,category,subcategory
 po_chemicals,ecological,pollution
-po_chemicals_3nm,ecological,pollution
-po_pathogens,ecological,pollution
 po_nutrients,ecological,pollution
-po_nutrients_3nm,ecological,pollution
 po_trash,ecological,pollution
 hd_subtidal_sb,ecological,habitat_destruction
 hd_subtidal_hb,ecological,habitat_destruction
@@ -29,6 +26,7 @@ sp_ispp_a_m,ecological,alien_species
 po_lbsp_nosds_bil,ecological,pollution
 po_lbsp_sed,ecological,pollution
 po_lbspaggolfrunoff,ecological,pollution
+po_lbspurbanrunoff,ecological,pollution
 po_marinedebris,ecological,pollution
 hd_shipbased_ground,ecological,habitat_destruction
 po_shipbased_shipp,ecological,pollution
