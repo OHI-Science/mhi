@@ -200,9 +200,26 @@ MAR = function(layers){
   mar_fp_number<- SelectLayersData(layers, layers='mar_fishpond_numbers', narrow = TRUE) %>%
     select(rgn_id=id_num, current=val_num)
 
-#join operator and harvest data
+
+  mar_fp_health<- SelectLayersData(layers, layers='mar_fishpond_health', narrow = TRUE) %>% #potential of fishponds/mariculture
+    select(rgn_id=id_num, status=val_num)
 
 
+  #join area and fp potential data
+  mar_fp<-mar_fp_current %>%
+    left_join(mar_fp_number, by=c('rgn_id'))
+
+  mar_fp<-mar_fp %>%
+    left_join(mar_fp_health, by=c('rgn_id'))
+
+  mar_fp<-mar_fp%>%
+    dplyr::mutate(total_area=sum(Area_acres))
+
+  mar_fp<-mar_fp%>%
+    dplyr::mutate(value=status/.30)%>%
+    dplyr::mutate(value= ifelse(score>1, 1, score))
+
+  #join operator and harvest data
 #determine % of production by rgn as an estimate based on #operators per island/#state operators
 
   mar_d<-mar_harv %>%
@@ -287,20 +304,29 @@ MAR = function(layers){
 #    mutate(status = ifelse(mar_pop / ref_95pct > 1,
  #                          1,
 #                           mar_pop / ref_95pct))
+
+
+
   status_year=max(mar_d$year) #@eschemmel: double-check that this is where you want to set the status year and not at the function call
 
+  #merge fp and opperater data - mariculture score is an average of fp and opperators
+  mar_data<-mar_d %>%
+    left_join(mar_fp)%>%
+    dplyr::mutate(score=(score+status)/2)%>%
+    select(rgn_id, year, score)
 
-  status <- mar_d %>%
+  status <- mar_data %>%
     filter(year == status_year) %>%
     select(rgn_id, score) %>%
     mutate(status = round(score*100, 2))
  status <- data.frame(status)
 
+
   trend_years <- (status_year-4):(status_year)
   first_trend_year <- min(trend_years)
 
   # get MAR trend
-  trend = mar_d %>%
+  trend = mar_data %>%
     dplyr::group_by(rgn_id) %>%
     filter(year %in% trend_years) %>%
     do(mdl = lm(score ~ year, data=.),
