@@ -1,13 +1,5 @@
 "rgn_id","habitat","prop_score"
-1,"mangrove",0.04
-1,"saltmarsh",0.662
-1,"seagrass",0.298
-2,"mangrove",0.04
-2,"saltmarsh",0.662
-2,"seagrass",0.298
-3,"mangrove",0.04
-3,"saltmarsh",0.662
-3,"seagrass",0.298
-4,"mangrove",0.04
-4,"saltmarsh",0.662
-4,"seagrass",0.298
+1,"wetland",1
+2,"wetland",1
+3,"wetland",1
+4,"wetland",1

@@ -838,15 +838,15 @@ NP <- function(scores, layers, status_year=2013, debug = FALSE){
 CS <- function(layers){
 
   ## read in layers
-  extent <- layers$data[['hab_extent']] %>%
+  extent <- layers$data[['cp_hab_extent_mhi2017']] %>%
     select(rgn_id, habitat, km2) %>%
     mutate(habitat = as.character(habitat))
 
-  health <-  layers$data[['hab_health']] %>%
+  health <-  layers$data[['cp_hab_condition_mhi2017']] %>%
     select(rgn_id, habitat, health) %>%
     mutate(habitat = as.character(habitat))
 
-  trend <-layers$data[['hab_trend']] %>%
+  trend <-layers$data[['cp_hab_trend_mhi2017']] %>%
     select(rgn_id, habitat, trend) %>%
     mutate(habitat = as.character(habitat))
 
@@ -856,9 +856,7 @@ CS <- function(layers){
     full_join(trend, by=c("rgn_id", "habitat"))
 
   ## set ranks for each habitat
-  habitat.rank <- c('mangrove'         = 139,
-                    'saltmarsh'        = 210,
-                    'seagrass'         = 83)
+  habitat.rank <- c('wetland' = 210)
 
   ## limit to CS habitats and add rank
   d <- d %>%
