@@ -217,7 +217,7 @@ MAR = function(layers){
 
   mar_fp<-mar_fp%>%
     dplyr::mutate(value=status/.30)%>%
-    dplyr::mutate(value= ifelse(score>1, 1, score))
+    dplyr::mutate(value= ifelse(value>1, 1, value))
 
   #join operator and harvest data
 #determine % of production by rgn as an estimate based on #operators per island/#state operators
@@ -312,7 +312,7 @@ MAR = function(layers){
   #merge fp and opperater data - mariculture score is an average of fp and opperators
   mar_data<-mar_d %>%
     left_join(mar_fp)%>%
-    dplyr::mutate(score=(score+status)/2)%>%
+    dplyr::mutate(score=(score+value)/2)%>%
     select(rgn_id, year, score)
 
   status <- mar_data %>%
