@@ -36,7 +36,7 @@ regions <- bind_rows(
     select(region_id = rgn_id, 
            region_name = rgn_name)) %>%
   mutate(
-    flower_png = sprintf('%s/figures/flower_%s.png', 
+    flower_png = sprintf('%s/reports/figures/flower_%s.png', 
                          dir_scenario,
                          str_replace_all(region_name, ' ', '_')))
 
