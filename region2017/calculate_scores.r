@@ -30,7 +30,8 @@ write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 ## source from ohibc until added to ohicore, see https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
 ohibc_url <- 'https://raw.githubusercontent.com/OHI-Science/ohibc/'
 source(paste0(ohibc_url, 'master/src/R/common.R'))
-source(paste0(ohibc_url, 'master/regionHoweSound/plot_flower.R'))
+# source(paste0(ohibc_url, 'master/regionHoweSound/plot_flower.R'))
+source('plot_flower_local.R')
 
 ## goal info
 goal_names <- readr::read_csv('conf/goals.csv') %>% select(goal, name)
@@ -69,6 +70,7 @@ for (i in regions$region_id) { # i = 0
   plot_obj <- plot_flower(score_df,
                           goal_labels = goal_labels,
                           filename    = regions$flower_png[regions$region_id == i],
+                          goals_csv   = 'conf/goals.csv',
                           incl_legend = TRUE)
 
 }

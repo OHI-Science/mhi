@@ -1,3 +1,103 @@
+# This generates the flower plots:
+
+## weights for FIS vs. MAR
+weights <- read.csv(sprintf("../../eez%s/layers/fp_wildcaught_weight.csv", scenario), stringsAsFactors=FALSE)
+weights_global <- data.frame(rgn_id=0, w_fis=mean(weights$w_fis))
+weights <- rbind(weights_global, weights)
+
+# getting the goals that will be plotted:
+conf <-  read.csv(sprintf("../../eez%s/conf/goals.csv", scenario), stringsAsFactors=FALSE)
+
+goals_supra = na.omit(unique(conf$parent)) # goals comprised of subgoals, not included in plot
+
+conf <- conf %>%
+  filter(!(goal %in% goals_supra)) %>%
+  select(goal, order_color, order_hierarchy, weight, name_flower) %>%
+  mutate(name_flower = gsub("\\n", "\n", name_flower, fixed = TRUE)) %>%
+  arrange(order_hierarchy)
+
+
+data <- read.csv(sprintf('../radical_%s.csv', radicalFile), stringsAsFactors=FALSE)
+data <- data[data$scenario == scenario, ]
+
+data <- data %>%
+  filter(dimension == "score") %>%   # focus only on score data
+  filter(region_id != 0) %>%         # this weighted mean includes high seas and Antarctica
+  mutate(region_id = ifelse(region_id==300, 0, region_id)) %>%   #convert the 300 (i.e., only eez's averaged to zero)
+  filter(region_id <= 250) %>%       # get rid of high seas regions
+  filter(region_id != 213)
+
+# region names, ordered by GLOBAL and alphabetical
+rgn_names2 = rbind(
+  data.frame(
+    region_id=0,
+    country='GLOBAL'),
+  rgn_names) %>%
+    arrange(country) %>%
+  filter(region_id != 213)
+
+# loop through regions to plot flowers
+for (rgn_id in unique(rgn_names2$region_id)){  #rgn_id=0
+
+  # header md
+  rgn_name = subset(rgn_names2, region_id==rgn_id, country, drop=T)
+  message(sprintf('\n## %s (%d)\n\n', rgn_name, rgn_id))
+
+    # region scores
+  g_x <- subset(data, region_id==rgn_id) %>%
+         inner_join(conf, by="goal") %>%
+         arrange(order_color)
+  x <-  subset(data, region_id==rgn_id & goal == 'Index', value, drop=T)
+
+    # get colors for aster, based on 10 colors, but extended to all goals. subselect for goals.wts
+if(colorScheme == "new"){
+ reds <-  colorRampPalette(c("#A50026", "#D73027", "#F46D43", "#FDAE61", "#FEE090"), space="Lab")(65)
+ blues <-  colorRampPalette(c("#E0F3F8", "#ABD9E9", "#74ADD1", "#4575B4", "#313695"))(35)
+ colors <-   c(reds, blues)
+
+  g_x$cols.goals.all = cut(g_x$value, breaks=seq(0, 100, by=1), include.lowest=TRUE,
+                       labels = colors) } else {
+    g_x$cols.goals.all = colorRampPalette(RColorBrewer::brewer.pal(11, 'Spectral'), space='Lab')(length(goals.all))
+   }
+
+       #weights after correcting for fisheries/mariculture contributions
+  g_x$weight[g_x$goal == "FIS"] <-   weights$w_fis[weights$rgn_id == rgn_id]
+  g_x$weight[g_x$goal == "MAR"] <- 1 - weights$w_fis[weights$rgn_id == rgn_id]
+
+
+  # res=72
+
+  res=150
+   ## start plot
+   png(sprintf('figures/FlowerPlots/flower_%s_%s.png', rgn_name, scenario),
+          width=res*6, height=res*6, bg = "transparent")
+#par(oma=c(0,0,3,0), mar=c(6, 4, 0, 2) + 0.1)
+   PlotFlower(main = ifelse(rgn_name=="GLOBAL", "", as.character(rgn_name)),
+                 lengths=ifelse(
+                   is.na(g_x$value),
+                   100,
+                   g_x$value),
+                 widths=g_x$weight,
+                 fill.col=ifelse(
+                   is.na(g_x$cols.goals.all),
+                   'grey80',
+                   as.character(g_x$cols.goals.all)),
+                 labels  =ifelse(
+                   is.na(g_x$value),
+                   paste(g_x$name_flower, '-', sep='\n'),
+                   paste(as.character(g_x$name_flower), round(g_x$value), sep='\n')),
+                 center=round(x),
+               #  max.length = 100, disk=0.4, label.cex=0.9, label.offset=0.155, cex=2.2, cex.main=2.5)
+           max.length = 100, disk=0.3, label.cex=1.5, label.offset=0.15, cex=3, cex.main=3)
+
+      dev.off()
+      #system(sprintf('convert -density 150x150 %s %s', fig_pdf, fig_png)) # imagemagick's convert
+
+  }
+
+
+
+
 plot_flower <- function(score_df,
                         score_ref   = 100,    ### scale from 0-1 or 0-100? default is 0-100
                         outline     = TRUE,   ### show the outer borders; default is yes indeedy
@@ -6,7 +106,8 @@ plot_flower <- function(score_df,
                         center_score = TRUE,  ### overridden if center_text != NULL
                         goal_labels = TRUE,   ### show goal labels? TRUE goes with generics; FALSE hides the goal labels;
                           ### a data frame with cols 'goal' and 'goal_label' will replace generic goal labels
-                        incl_legend = FALSE,   ### show the legend? FALSE hides the legend
+                        goals_csv    = NULL,   ### filepath for configuration info: goals.csv  # goals_csv = 'conf/goals.csv'
+                        incl_legend = FALSE,  ### show the legend? FALSE hides the legend
                         show_plot   = TRUE) {
 
   ### set up positions for the bar centers:
@@ -25,8 +126,31 @@ plot_flower <- function(score_df,
       mutate(goal_labels = goal)
   }
 
+
+  ## goals.csv configuration information, if available
+  if(!is.null(goals_csv)) {
+
+    conf <-  read.csv(goals_csv, stringsAsFactors=FALSE)
+
+    conf <- conf %>%
+      # filter(!(goal %in% goals_supra)) %>%
+      select(goal, order_color, order_hierarchy, weight, name_flower) %>%
+      mutate(name_flower = gsub("\\n", "\n", name_flower, fixed = TRUE)) %>%
+      arrange(order_hierarchy)
+
+    # region scores
+    score_df <- score_df %>%
+      inner_join(conf, by="goal") %>%
+      arrange(order_color)
+    # x <-  subset(data, region_id==rgn_id & goal == 'Index', value, drop=T)
+  }
+
+
+  ### set up for displaying NAs
   score_df_na <- score_df %>%
     mutate(score = ifelse(is.na(score), 100, NA))
+
+
 
   p_labels <- score_df$goal
   p_breaks <- score_df$pos
