@@ -3,14 +3,10 @@ species_diversity_eez,ecological,ecosystem,ecological,1
 species_diversity_3nm,ecological,ecosystem,ecological,1
 sp_alien_species,ecological,regulatory,alien_species,1
 g_cites,ecological,regulatory,goal,0.5
-fp_mpa_coast,ecological,regulatory,fishing_pressure,1
-fp_mpa_eez,ecological,regulatory,fishing_pressure,1
 fp_habitat,ecological,regulatory,fishing_pressure,1
 fp_mora,ecological,regulatory,fishing_pressure,1
 fp_mora_artisanal,ecological,regulatory,fishing_pressure,1
 hd_habitat,ecological,regulatory,habitat_destruction,1
-hd_mpa_coast,ecological,regulatory,habitat_destruction,1
-hd_mpa_eez,ecological,regulatory,habitat_destruction,1
 g_mariculture,ecological,regulatory,goal,1
 g_msi_gov,ecological,regulatory,goal,1
 g_tourism,ecological,regulatory,goal,1
@@ -22,3 +18,7 @@ res_spi,social,social,social,1
 watershed_partnerships,ecological,regulatory,habitat_destruction,1
 li_economic_index,social,social,social,1
 sp_OHA_culture,social,social,social,1
+fp_MPA_3nm,ecological,regulatory,fishing_pressure,1
+hd_MPA_3nm,ecological,regulatory,habitat_destruction,1
+fp_MPA_eez,ecological,regulatory,fishing_pressure,1
+hd_MPA_eez,ecological,regulatory,habitat_destruction,1
