@@ -1,4 +1,4 @@
-goal,element,sp_OHA_culture,po_water,watershed_partnerships,hd_mpa_coast,hd_mpa_eez,hd_habitat,sp_alien_species,fp_mpa_coast,fp_mpa_eez,fp_habitat,fp_mora,fp_mora_artisanal,g_tourism,g_mariculture,g_msi_gov,g_cites,species_diversity_3nm,species_diversity_eez,wgi_all,res_spi,li_economic_index,li_gci,li_sector_evenness
+goal,element,sp_OHA_culture,po_water,watershed_partnerships,hd_MPA_3nm,hd_MPA_eez,hd_habitat,sp_alien_species,fp_MPA_3nm,fp_MPA_eez,fp_habitat,fp_mora,fp_mora_artisanal,g_tourism,g_mariculture,g_msi_gov,g_cites,species_diversity_3nm,species_diversity_eez,wgi_all,res_spi,li_economic_index,li_gci,li_sector_evenness
 AO,,,,,x,,x,,x,,x,x,,,,,,x,,x,x,,,
 CP,reef,x,x,x,x,,x,,,,,,,,,,,,,x,x,,,
 CP,beach,x,,,x,,x,,,,,,,,,,,,,x,x,,,
