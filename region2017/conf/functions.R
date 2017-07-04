@@ -1222,6 +1222,60 @@ return(scores)
 
 }
 
+#R = function(layers, status_year=2015) {
+#access is important
+#county and state beach park area
+#national_parks
+
+#  surf = SelectLayersData(layers, layers='r_surf', narrow = TRUE) %>%
+#    select(
+#      rgn_id    = id_num,
+#      year,
+#      value          = val_num)
+
+
+  # ------------------------------------------------------------------------
+  #Get yearly status and trend
+  # -----------------------------------------------------------------------
+
+#  status <-  rec_d %>%
+#    mutate(
+#      score     = round(status, 1),
+#      dimension = 'status') %>%
+#    select(region_id=rgn_id, score, dimension)
+
+#  trend_years <- status_year:(status_year-4)
+#  first_trend_year <- min(tr_data$year)
+
+#  status_data=rec_data
+  #str(status_data)
+
+ # trend <- status_data %>%
+    #filter(year) %>%
+  #  group_by(rgn_id) %>%
+  #  do(mdl = lm(status ~ year, data=.),
+  #     adjust_trend = .$status[.$year == first_trend_year]) %>%
+  #  dplyr::summarize(region_id = rgn_id,
+   #                  score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+    #                 dimension = 'trend') %>%
+  #  ungroup() %>%
+  #  mutate(score = ifelse(score > 1, 1, score)) %>%
+  #  mutate(score = ifelse(score < (-1), (-1), score))
+
+  # assemble dimensions
+#  scores <- rbind(status, trend) %>%
+#    mutate(goal='R')
+#  scores <- data.frame(scores)
+
+ # return(scores)
+
+#}
+
+
+
+
+
+
 LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
 
   ## read in all data: gdp, wages, jobs and workforce_size data
@@ -1317,10 +1371,8 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
       ungroup() %>%
       mutate(
         x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
-        x_wages = pmin(1, wages_avg / wages_avg_first)) %>% #use this code for original, global model estimate
+        x_wages = pmin(1, wages_avg / wages_avg_first)) %>%
       mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
-      #mutate(score= x_jobs*x_wages*100) %>% # score as number of jobs times wage score so as to scale
-      # filter for most recent year
       filter(year == max(year, na.rm=T)) %>%
       # format
       mutate(
@@ -1589,45 +1641,77 @@ ICO = function(layers, status_year=2016){
 LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
 
       trend_years = (status_year-4):status_year
-
+#update with regional protected areas offshore and inshore and number of preserved historic sites/sacred places
   # select data ----
-  r = SelectLayersData(layers, layers=c('rgn_area_inland1km', 'rgn_area_offshore3nm'))  #total offshore/inland areas
-  ry = SelectLayersData(layers, layers=c('lsp_prot_area_offshore3nm', 'lsp_prot_area_inland1km')) #total protected areas
+  #need to add CBSFA areas also and community areas
+
+  #r = SelectLayersData(layers, layers=c('rgn_area_inland1km', 'rgn_area_offshore3nm'))  #total offshore/inland areas
+  #ry = SelectLayersData(layers, layers=c('lsp_prot_area_offshore3nm', 'lsp_prot_area_inland1km')) #total protected areas
+
+  r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
+  #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
+
+  layers_data = SelectLayersData(layers, layers=c('lsp_mpa_3nm'))#inland protected conservation districts
+
+  mpa<- layers_data %>%
+    select(region_id = id_num,  mpa=val_num)
+
+
+  layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
+
+  ry <- layers_data %>%
+    select(region_id = id_num, condist = category, km2=val_num)
+
+
+  ## set ranks for each conservation district protective ability
+
+  rank <- c('P'            = 1,
+            'L'            = .9,
+            'R'            = .8,
+            'G'            =.7,
+            'SS'           =.6)
+
+  ## limit to conservation districts R, L, R, G, and SS, and add rank
+  ry <- ry %>%
+    filter(condist %in% names(rank)) %>%
+    mutate(
+      rank = rank[condist],
+      extent = ifelse(km2==0, NA, km2))%>%
+    mutate(weighted_cont = rank*extent)%>%
+    filter(!is.na(weighted_cont))
+
+   ry <- ry %>%
+    group_by(region_id) %>%
+    mutate(cp=sum(weighted_cont)) %>%
+    select(region_id, cp)
+
+  ry<-ry[1:4,]
 
   r <- r %>%
-    select(region_id = id_num, val_num, layer) %>%
+    dplyr::select(region_id = id_num, val_num, layer) %>%
     spread(layer, val_num) %>%
-    select(region_id, area_inland1km = rgn_area_inland1km,
-           area_offshore3nm = rgn_area_offshore3nm)
+    select(region_id, area_inland1km = lsp_area_1km_coast,
+           area_offshore3nm = lsp_area_3nm_mhi2017)
 
   ry <- ry %>%
-    select(region_id = id_num, year, val_num, layer) %>%
-    spread(layer, val_num) %>%
-    select(region_id, year, cmpa = lsp_prot_area_offshore3nm,
-           cp = lsp_prot_area_inland1km)
+    left_join(mpa)
 
   # fill in time series for all regions
 
-r.yrs <- expand.grid(region_id = unique(ry$region_id),
-                         year = unique(ry$year)) %>%
-  left_join(ry, by=c('region_id', 'year')) %>%
-  arrange(region_id, year) %>%
-  mutate(cp= ifelse(is.na(cp), 0, cp),
-         cmpa = ifelse(is.na(cmpa), 0, cmpa)) %>%
- mutate(pa     = cp + cmpa)
+r.yrs <-r %>%
+  left_join(ry, by=c('region_id'))
 
-  # get percent of total area that is protected for inland1km (cp) and offshore3nm (cmpa) per year
+  # get percent of total area that is protected for inland1km (cp) and offshore3nm (cmpa) per year (note currently do not have time series data for protection)
   # and calculate status score
 r.yrs = r.yrs %>%
-  full_join(r, by="region_id") %>%
   mutate(pct_cp    = pmin(cp   / area_inland1km   * 100, 100),
-         pct_cmpa  = pmin(cmpa / area_offshore3nm * 100, 100),
+         pct_cmpa  = pmin(mpa / area_offshore3nm * 100, 100),
          prop_protected    = ( pmin(pct_cp / ref_pct_cp, 1) + pmin(pct_cmpa / ref_pct_cmpa, 1) ) / 2) %>%
   filter(!is.na(prop_protected))
 
 # extract status based on specified year
   r.status = r.yrs %>%
-    filter(year==status_year) %>%
+    #filter(year==status_year) %>%
     select(region_id, status=prop_protected) %>%
     mutate(status=status*100) %>%
     select(region_id, score = status) %>%
@@ -1635,20 +1719,26 @@ r.yrs = r.yrs %>%
 
   # calculate trend
 
-  adj_trend_year <- min(trend_years)
+  #adj_trend_year <- min(trend_years)
 
-  r.trend =   r.yrs %>%
-    group_by(region_id) %>%
-    do(mdl = lm(prop_protected ~ year, data=., subset=year %in% trend_years),
-       adjust_trend = .$prop_protected[.$year == adj_trend_year]) %>%
-    summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
-    ungroup() %>%
-    mutate(trend = ifelse(trend>1, 1, trend)) %>%
-    mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
-    mutate(trend = round(trend, 4)) %>%
-    select(region_id, score = trend) %>%
+  #r.trend =   r.yrs %>%
+  #  group_by(region_id) %>%
+  #  do(mdl = lm(prop_protected ~ year, data=., subset=year %in% trend_years),
+  #     adjust_trend = .$prop_protected[.$year == adj_trend_year]) %>%
+  #  summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
+  #  ungroup() %>%
+  #  mutate(trend = ifelse(trend>1, 1, trend)) %>%
+  #  mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
+  #  mutate(trend = round(trend, 4)) %>%
+  #  select(region_id, score = trend) %>%
+  #  mutate(dimension = "trend")
+
+
+ #currently do not have year or time series data so setting trend to 0
+    r.trend<-r.yrs %>%
+    select(region_id) %>%
+    mutate(score=0) %>%
     mutate(dimension = "trend")
-
 
   ## reference points
   rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
