@@ -23,7 +23,7 @@ scenario_dir    = "region2017"
 dir_data        = sprintf('%s_%s', gh_repo, gh_branch_data)
 dir_scenario    = sprintf('%s/%s', dir_data, scenario_dir)
 gh_url          = sprintf('https://github.com/OHI-Science/%s.git', gh_repo)
-dir_report      = sprintf('%s/global2016/Reporting', dir_data)
+dir_report      = sprintf('%s/reports', dir_scenario)
 
 # knitr options
 knitr::opts_chunk$set(echo = F, message = F, warning = F)
