@@ -38,8 +38,9 @@ plot_flower <- function(score_df,
   ### cumulative sum of weights (incl current) minus half the current weight
   score_df <- score_df %>%
     mutate(score   = score * 100/score_ref,   ### if 0-1, turn into 0-100; otherwise leave as is
-           pos     = cumsum(weight) - 0.5 * weight,
-           pos_end = last(pos) + 0.5 * last(weight)) %>%
+           pos     = sum(weight) - (cumsum(weight) - 0.5 * weight),
+           pos_end = sum(weight)) %>%
+    arrange(pos) %>%
     filter(weight != 0)
 
 
@@ -96,7 +97,7 @@ plot_flower <- function(score_df,
       geom_errorbar(aes(x = pos, ymin = 0, ymax = 0),
                     size = 0.5, color = dark_line, show.legend = NA) +
     ### turns linear bar chart into polar coordinates:
-      coord_polar(start = - score_df$pos[1]/score_df$pos_end[1] * 2 * pi) +
+      coord_polar(start = pi * 0.5) +
     ### sets petal colors to the red-yellow-blue color scale:
       scale_fill_gradientn(colors = brewer.pal(n = 11, name = 'RdYlBu'),
                            limits = c(0, 100),
