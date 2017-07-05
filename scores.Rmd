@@ -34,44 +34,22 @@ regions <- bind_rows(
 
 ## set figure name
 regions <- regions %>%
- mutate(flower_png = sprintf('images/flower_%s.png',
-                       str_replace_all(region_name, ' ', '_')))
+ mutate(flower_png = sprintf('%s/reports/figures/flower_%s.png',
+                             dir_scenario,
+                             str_replace_all(region_name, ' ', '_')))
 
-
-## cycle through each region
-for (i in regions$region_id) { # i = 0
-
-  ## fig_name to save
-  fig_name <- regions$flower_png[regions$region_id == i]
-  
-  ## set up for plotting
-  score_df <- scores %>%
-    filter(dimension == 'score') %>%
-    filter(region_id == i) %>%
-    select(-region_id) %>%
-    distinct() %>%
-    inner_join(weight, by = 'goal')
-
-  ## Casey's new flower plot
-  plot_obj <- plot_flower(score_df,
-                          filename    = fig_name,
-                          goals_csv   = sprintf('%s/conf/goals.csv', dir_scenario),
-                          incl_legend = TRUE)
-
-
-  ## make interactive with plotly
-  ### NOTE:: currently plotly doesn't work with polar coordinates. https://github.com/ropensci/plotly/issues/878
-  ### NOTE:: When this feature is available, redo display below.
-  # library(plotly) # devtools::install_github("ropensci/plotly")
-  # p <- ggplotly(plot_obj)
-
-}
 
 ## display ----
 
-# header, flower
-cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
-    sep = "")
+if (all(file.exists(regions$flower_png))) {
+
+  # header, flower
+  cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
+      sep = "")
+} else { 
+  
+  print(sprintf('please check that flower plots were created in the %s branch', gh_branch_data))
+}
 
 ```
 
