@@ -1656,7 +1656,6 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   mpa<- layers_data %>%
     select(region_id = id_num,  mpa=val_num)
 
-
   layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
 
   ry <- layers_data %>%
@@ -1737,7 +1736,7 @@ r.yrs = r.yrs %>%
  #currently do not have year or time series data so setting trend to 0
     r.trend<-r.yrs %>%
     select(region_id) %>%
-    mutate(score=0) %>%
+    mutate(score=0.31) %>% #comes from state marine managed area dashboard data estimates percent of marine managed areas per year from 1972-2009 in relation to 30% goal
     mutate(dimension = "trend")
 
   ## reference points
