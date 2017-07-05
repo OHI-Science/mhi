@@ -43,7 +43,16 @@ regions <- regions %>%
 
 if (all(file.exists(regions$flower_png))) {
 
-  # header, flower
+  ## save locally
+   for (f in regions$flower_png){ # f = regions$flower_png[1]
+    file.copy(from = f,
+              to   = sprintf('images/%s', basename(f)), overwrite=T)
+    
+    regions$flower_png_local[regions$flower_png == f] <- sprintf('images/%s', basename(f))
+    # cat(sprintf('\n copying from %s', f))
+  }
+  
+  ## display header, flower
   cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
       sep = "")
 } else { 
