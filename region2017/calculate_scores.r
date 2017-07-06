@@ -43,7 +43,7 @@ regions <- bind_rows(
 regions <- regions %>%
  mutate(flower_png = sprintf('reports/figures/flower_%s.png',
                        str_replace_all(region_name, ' ', '_')))
-
+readr::write_csv(regions, 'reports/figures/regions_figs.csv')
 
 ## save flower plot for each region
 for (i in regions$region_id) { # i = 0
