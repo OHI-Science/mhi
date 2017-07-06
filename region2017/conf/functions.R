@@ -1222,54 +1222,103 @@ return(scores)
 
 }
 
-#R = function(layers, status_year=2015) {
+
+RC = function(layers, status_year=2015) {
 #access is important
 #county and state beach park area
 #national_parks
 
-#  surf = SelectLayersData(layers, layers='r_surf', narrow = TRUE) %>%
-#    select(
-#      rgn_id    = id_num,
-#      year,
-#      value          = val_num)
+  parks = SelectLayersData(layers, layers='r_parks', narrow = TRUE) %>%
+     select(
+     rgn_id    = id_num,
+     value          = val_num)
+
+  res <- SelectLayersData(layers, layers = 'r_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
+    select(region_id=id_num, year,res=val_num)
+
+
+  shore = SelectLayersData(layers, layers='r_shoreline', narrow = TRUE) %>%
+    select(
+      rgn_id    = id_num,
+      length          = val_num)
+
+  access = SelectLayersData(layers, layers='ao_access_mhi2017', narrow = TRUE) %>% #score is # shoreline access points/shoreline length in miles
+    select(
+      rgn_id    = id_num,
+      value          = val_num)
+
+  #get score for beach parks based on resident population
+  #rec_d<-res %>%
+  #  mutate(rgn_id=region_id) %>%
+  #  left_join(parks)%>%
+  #  mutate(park_density=res/value)%>%
+
+    rec_d<-res %>%
+      mutate(rgn_id=region_id) %>%
+      left_join(shore) %>%
+      mutate(density=res/length) %>% ## of people per km of shoreline
+      select(rgn_id, year, density)
+
+    #weighting parks score as number of parks weighted by the desity of residents per km of coastline
+    rec_d<-rec_d %>%
+      left_join(parks) %>%
+      mutate(value=value/density) %>%
+      group_by(year)  %>%
+      mutate(score = value/max(value)) %>%
+      select(rgn_id, year,score)
+
+    #join shoreline access data and park scores
+    rec_d<-rec_d %>%
+      left_join(access)%>%
+      mutate(status=(score+value)/2*100) %>%
+    select(rgn_id, year, status)
+
+    #weigthing park score as # of parks per 5 km
+    #rec_d<-parks %>%
+    #  left_join(shore) %>%
+    #  mutate(value=value/(length/5))
 
 
   # ------------------------------------------------------------------------
   #Get yearly status and trend
   # -----------------------------------------------------------------------
 
-#  status <-  rec_d %>%
-#    mutate(
-#      score     = round(status, 1),
-#      dimension = 'status') %>%
-#    select(region_id=rgn_id, score, dimension)
+ status <-  rec_d %>%
+    filter(year==status_year)
+ status<-as.data.frame(status)
 
-#  trend_years <- status_year:(status_year-4)
-#  first_trend_year <- min(tr_data$year)
+  status<-status %>%
+   mutate(score     = round(status, 1),
+   dimension = 'status') %>%
+   select(region_id=rgn_id, score, dimension)
 
-#  status_data=rec_data
+ trend_years <- status_year:(status_year-4)
+ first_trend_year <- min(rec_d$year)
+  status_data=rec_d
   #str(status_data)
 
- # trend <- status_data %>%
+  rec_d<-as.data.frame(rec_d)
+
+  trend <- rec_d %>%
     #filter(year) %>%
-  #  group_by(rgn_id) %>%
-  #  do(mdl = lm(status ~ year, data=.),
-  #     adjust_trend = .$status[.$year == first_trend_year]) %>%
-  #  dplyr::summarize(region_id = rgn_id,
-   #                  score = round(coef(mdl)['year']/adjust_trend * 5, 4),
-    #                 dimension = 'trend') %>%
-  #  ungroup() %>%
-  #  mutate(score = ifelse(score > 1, 1, score)) %>%
-  #  mutate(score = ifelse(score < (-1), (-1), score))
+   group_by(rgn_id) %>%
+   do(mdl = lm(status ~ year, data=.),
+     adjust_trend = .$status[.$year == first_trend_year]) %>%
+    dplyr::summarize(region_id = rgn_id,
+                score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+                   dimension = 'trend') %>%
+   ungroup() %>%
+   mutate(score = ifelse(score > 1, 1, score)) %>%
+   mutate(score = ifelse(score < (-1), (-1), score))
 
   # assemble dimensions
-#  scores <- rbind(status, trend) %>%
-#    mutate(goal='R')
-#  scores <- data.frame(scores)
+ scores <- rbind(status, trend) %>%
+   mutate(goal='RC')
+ scores <- data.frame(scores)
 
- # return(scores)
+  return(scores)
 
-#}
+}
 
 
 
@@ -1641,13 +1690,16 @@ ICO = function(layers, status_year=2016){
 LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
 
       trend_years = (status_year-4):status_year
-#update with regional protected areas offshore and inshore and number of preserved historic sites/sacred places
+  #updated with regional protected areas offshore and inshore and number of preserved historic sites/sacred places
   # select data ----
-  #need to add CBSFA areas also and community areas
 
-  #r = SelectLayersData(layers, layers=c('rgn_area_inland1km', 'rgn_area_offshore3nm'))  #total offshore/inland areas
-  #ry = SelectLayersData(layers, layers=c('lsp_prot_area_offshore3nm', 'lsp_prot_area_inland1km')) #total protected areas
+  #listed historic places (dbedt data section 7.46)
+  layers_data = SelectLayersData(layers, layers=c('lsp_historic_sites'))#inland protected conservation districts
 
+   hs<- layers_data %>%
+     select(region_id = id_num,  year, sites=val_num) ##need to get support on choosing a reference point
+
+ #managed marine areas
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
 
@@ -1662,8 +1714,10 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
     select(region_id = id_num, condist = category, km2=val_num)
 
 
-  ## set ranks for each conservation district protective ability
 
+
+
+  ## set ranks for each conservation district protective ability
   rank <- c('P'            = 1,
             'L'            = .9,
             'R'            = .8,

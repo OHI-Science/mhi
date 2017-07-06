@@ -1,9 +1,9 @@
 # region data layers----
 # a list of possible id fields used in datalayers (most will use rgn_id, but not always)
-layers_id_fields        = c('rgn_id','cntry_key', 'fao_id', 'fao_saup_id', 'country_id','saup_id','fao_ohi_id') 
+layers_id_fields        = c('rgn_id','cntry_key', 'fao_id', 'fao_saup_id', 'country_id','saup_id','fao_ohi_id')
 
 # the official list of regions (and corresponding names)
-layer_region_labels     = 'rgn_global'   
+layer_region_labels     = 'rgn_global'
 
 # the official ocean areas of each region (used to weight each subregions contribution to the region score)
 layer_region_areas      = 'rgn_area'
