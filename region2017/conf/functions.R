@@ -16,6 +16,10 @@ FIS = function(layers, status_year=2016){
       value           = val_num)
 
 
+  r = SelectLayersData(layers, layer='fis_reef_catch_multiplier', narrow = TRUE) %>% #weight to multiply commercial catch data to estimate and add on recreational catch data for CHCR fishery
+    select(
+      rgn_id         = id_num,
+      value           = val_num)
 
     # formatting:
   c <- c %>%
@@ -84,7 +88,7 @@ FIS = function(layers, status_year=2016){
   # Then a penalty is applied based on the level the taxa are reported at # will need to address this for non-fish species -shrimp, cucumber, etc
   # ---
 
-  ## this takes the median score within each region
+  ## this takes the median score within each fishery type (Bottom, Pelagic, Nearshore) for each year
   data_fis_gf <- data_fis %>%
     dplyr::group_by(year, key.x) %>% #key.x is the taxon key to separate out bottom, pelagics, and reef fish
     mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
@@ -104,8 +108,8 @@ FIS = function(layers, status_year=2016){
   #  species level.
   #  ***********************************************
 
-  data_fis_gf <- data_fis_gf %>%
-    mutate(score = Median_score)
+  #data_fis_gf <- data_fis_gf %>%
+  #  mutate(score = Median_score)
 
   #didn't apply a penalty to taxon reported to family since there are only two - misc parrots and misc ulua
   #instead used the lowest stock assessment value reported for the family and applied to the category
@@ -121,10 +125,10 @@ FIS = function(layers, status_year=2016){
   data_fis_gf <- data_fis_gf %>%
     select(rgn_id, species, key.x, year, catch, score, score_gapfilled)
 
+##  status_data <- data_fis_gf %>%
+##   select(rgn_id, species, year, catch, score)
+ ##filter(year == status_year)
 
-  status_data <- data_fis_gf %>%
-    select(rgn_id, species, year, catch, score)
-    #filter(year == status_year)
 
   # ---
   # STEP 4. Calculate status for each region
@@ -134,17 +138,35 @@ FIS = function(layers, status_year=2016){
   # the mean catch of taxon i is divided by the
   # sum of mean catch of all species in region/year
 
-  status_data <- status_data %>%
-    dplyr::group_by(year, rgn_id) %>%
-    dplyr::mutate(SumCatch = sum(catch)) %>%
-    ungroup() %>%
-    dplyr::mutate(wprop = catch/SumCatch)
 
+  #ADD IN RECREATIONAL CATCH r
+  status_data <- data_fis_gf %>%
+    select(rgn_id, species, key.x,year, catch, score)
+  #filter(year == status_year)
+
+  status_data <- status_data %>%
+    group_by(year, rgn_id, key.x) %>% #summarize catch data
+    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
+
+
+  status_data <- status_data %>% #join with recreational catch multiplier
+    left_join(r)
+
+   status_data <- status_data %>%
+    dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
+    group_by(rgn_id,year)%>%
+    dplyr::mutate(SumCatch = sum(catch_w))%>%
+    dplyr::mutate(wprop = catch_w/SumCatch)
+
+   #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
+  #total_fisheries_c<-status_data %>%
+  #dplyr::group_by(rgn_id) %>%
+  #summarize(Total=sum(SumCatch))
 
 
   status_data <- status_data %>%
     dplyr::group_by(rgn_id, year) %>%
-    dplyr::summarize(status = prod(score^wprop)) %>%
+    dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
 
   # ---
@@ -160,10 +182,13 @@ FIS = function(layers, status_year=2016){
     select(region_id=rgn_id, score, dimension)
 
   trend_years <- (status_year-4):(status_year)###need to set status year or adjust this year value for each assessment
-  first_trend_year <- min(trend_years)
 
-  trend <- status_data %>%
-    #filter(year %in% trend_years) %>%
+   first_trend_year <- min(trend_years)
+
+  status_data<-as.data.frame(status_data)
+
+   trend <- status_data %>%
+    filter(year %in% trend_years) %>%
     dplyr::group_by(rgn_id) %>%
     do(mdl = lm(status ~ year, data=.),
        adjust_trend = .$status[.$year == first_trend_year]) %>%
@@ -186,7 +211,7 @@ FIS = function(layers, status_year=2016){
 MAR = function(layers){
 #mariculture operators and yield
   mar_harv <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
-    select(rgn_id=id_num, commodity=category, year, tonnes=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
+    select(rgn_id=id_num, commodity=category, year, lbs=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
 
 
   mar_operations <- SelectLayersData(layers, layers='mar_operations', narrow = TRUE) %>%
@@ -230,8 +255,17 @@ MAR = function(layers){
     arrange(commodity, year) %>%
     mutate(sum_value = sum(value))
 
+
   mar_d$prop<-(mar_d$value/mar_d$sum_value)
-  mar_d$est_harv<-mar_d$prop*mar_d$tonnes
+  mar_d$est_harv<-mar_d$prop*mar_d$lbs
+
+   #to get total lbs for mariculture weight of pf
+ # total_mar<-as.data.frame(mar_d)
+  #total_mar<- total_mar%>%
+  #  group_by(rgn_id) %>%
+  #  summarize(sum_value = sum(est_harv))
+
+
 
   #  mariculture harvest * sustainability coefficient (i.e risk)
   risk=0.67 #allcultured species 0.67
@@ -244,9 +278,10 @@ MAR = function(layers){
 #mar_data<-mar_df%>%
 #    left_join(mar_ds, by=c('rgn_id', 'year','commodity'))
 
+
   mar_d<-mar_d%>%
-    dplyr::group_by(rgn_id,year)%>%
-    dplyr::mutate(total_harvest=sum(tonnes))
+    dplyr::group_by(rgn_id, year)%>%
+    dplyr::mutate(total_harvest=sum(lbs))
     #dplyr::summarize(score = est_harv*risk)
     #dplyr::mutate(score=est_harv/total_harvest)#spatial reference score
     #dplyr::ungroup()
@@ -361,15 +396,23 @@ MAR = function(layers){
 FP = function(layers, scores){
 
   # weights
-  w <-  SelectLayersData(layers, layers='fp_wildcaught_weight', narrow = TRUE) %>%
-    select(region_id = id_num, w_FIS = val_num); head(w)
+  w <-  SelectLayersData(layers, layers='fp_wildcaught_weight_mhi', narrow = TRUE) %>%
+    select(region_id = id_num,  w_FIS = val_num); head(w)
 
   # scores
+ # s <- scores %>%
+#    filter(goal %in% c('FIS', 'MAR')) %>%
+#    filter(!(dimension %in% c('pressures', 'resilience'))) %>%
+#    left_join(w, by="region_id")  %>%
+#    mutate(w_MAR = 1 - w_FIS) %>%
+#    mutate(weight = ifelse(goal == "FIS", w_FIS, w_MAR))
+
+  #to give equal weight to mar and fis
   s <- scores %>%
     filter(goal %in% c('FIS', 'MAR')) %>%
     filter(!(dimension %in% c('pressures', 'resilience'))) %>%
     left_join(w, by="region_id")  %>%
-    mutate(w_MAR = 1 - w_FIS) %>%
+    mutate(w_MAR = 1 - 0.5) %>%
     mutate(weight = ifelse(goal == "FIS", w_FIS, w_MAR))
 
 
@@ -1703,12 +1746,28 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
 
-  layers_data = SelectLayersData(layers, layers=c('lsp_mpa_3nm'))#inland protected conservation districts
+  layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#inland protected conservation districts
 
   mpa<- layers_data %>%
-    select(region_id = id_num,  mpa=val_num)
+    select(region_id = id_num, type=category, mpa=val_num)
 
   layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
+
+  rank <- c('zoned_w_no_take'            = 1,
+            'multiple_use'            = .5)
+
+  mpa <- mpa%>%
+    filter(type %in% names(rank)) %>%
+    mutate(
+      rank = rank[type],
+      mpa = ifelse(mpa==0, NA, mpa))%>%
+    mutate(mpa_weighted = rank*mpa)%>%
+    filter(!is.na(mpa_weighted))%>%
+    group_by(region_id)%>%
+    summarize(mpa_weighted=sum(mpa_weighted))%>%
+    select(rgn_id=region_id, mpa=mpa_weighted)
+
+  mpa<-as.data.frame(mpa)
 
   ry <- layers_data %>%
     select(region_id = id_num, condist = category, km2=val_num)
@@ -1736,14 +1795,14 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
    ry <- ry %>%
     group_by(region_id) %>%
     mutate(cp=sum(weighted_cont)) %>%
-    select(region_id, cp)
+    select(rgn_id=region_id, cp)
 
   ry<-ry[1:4,]
 
   r <- r %>%
     dplyr::select(region_id = id_num, val_num, layer) %>%
     spread(layer, val_num) %>%
-    select(region_id, area_inland1km = lsp_area_1km_coast,
+    select(rgn_id=region_id, area_inland1km = lsp_area_1km_coast,
            area_offshore3nm = lsp_area_3nm_mhi2017)
 
   ry <- ry %>%
@@ -1752,7 +1811,7 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   # fill in time series for all regions
 
 r.yrs <-r %>%
-  left_join(ry, by=c('region_id'))
+  left_join(ry, by=c('rgn_id'))
 
   # get percent of total area that is protected for inland1km (cp) and offshore3nm (cmpa) per year (note currently do not have time series data for protection)
   # and calculate status score
@@ -1765,7 +1824,7 @@ r.yrs = r.yrs %>%
 # extract status based on specified year
   r.status = r.yrs %>%
     #filter(year==status_year) %>%
-    select(region_id, status=prop_protected) %>%
+    select(region_id=rgn_id, status=prop_protected) %>%
     mutate(status=status*100) %>%
     select(region_id, score = status) %>%
     mutate(dimension = "status")
@@ -1789,7 +1848,7 @@ r.yrs = r.yrs %>%
 
  #currently do not have year or time series data so setting trend to 0
     r.trend<-r.yrs %>%
-    select(region_id) %>%
+    select(region_id=rgn_id) %>%
     mutate(score=0.31) %>% #comes from state marine managed area dashboard data estimates percent of marine managed areas per year from 1972-2009 in relation to 30% goal
     mutate(dimension = "trend")
 
