@@ -3,10 +3,10 @@ rgn_id,habitat,health,reference
 2,beach,0.29,Romine_et_al_2014
 3,beach,0.78,Romine_et_al_2015
 4,beach,0.56,Romine_et_al_2016
-1,reef,0.274,HMARC
-2,reef,0.242,HMARC
-3,reef,0.115,HMARC
-4,reef,0.201,HMARC
+1,reef,0.81,NOAA
+2,reef,0.70,NOAA
+3,reef,0.60,NOAA
+4,reef,0.61,NOAA
 1,wetland,0.5,unknown
 2,wetland,0.5,unknown
 3,wetland,0.5,unknown
