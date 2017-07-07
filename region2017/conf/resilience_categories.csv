@@ -22,3 +22,5 @@ fp_MPA_3nm,ecological,regulatory,fishing_pressure,1
 hd_MPA_3nm,ecological,regulatory,habitat_destruction,1
 fp_MPA_eez,ecological,regulatory,fishing_pressure,1
 hd_MPA_eez,ecological,regulatory,habitat_destruction,1
+community_stewardship,ecological,regulatory,fishing_pressure,1
+community_stewardship,ecological,regulatory,habitat_destruction,1
