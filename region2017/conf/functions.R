@@ -1746,28 +1746,34 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
 
-  layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#inland protected conservation districts
+  layers_data = SelectLayersData(layers, layers=c('lsp_mma_mhi2017'))#inland protected conservation districts
 
   mpa<- layers_data %>%
-    select(region_id = id_num, type=category, mpa=val_num)
+    select(rgn_id = id_num, mpa=val_num)
+
+
+  #layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#inland protected conservation districts
+
+  #mpa<- layers_data %>%
+  #  select(region_id = id_num, type=category, mpa=val_num)
 
   layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
 
-  rank <- c('zoned_w_no_take'            = 1,
-            'multiple_use'            = .5)
+  #rank <- c('zoned_w_no_take'            = 1,
+  #          'multiple_use'            = .5)
 
-  mpa <- mpa%>%
-    filter(type %in% names(rank)) %>%
-    mutate(
-      rank = rank[type],
-      mpa = ifelse(mpa==0, NA, mpa))%>%
-    mutate(mpa_weighted = rank*mpa)%>%
-    filter(!is.na(mpa_weighted))%>%
-    group_by(region_id)%>%
-    summarize(mpa_weighted=sum(mpa_weighted))%>%
-    select(rgn_id=region_id, mpa=mpa_weighted)
+  #mpa <- mpa%>%
+  #  filter(type %in% names(rank)) %>%
+  #  mutate(
+  #    rank = rank[type],
+  #    mpa = ifelse(mpa==0, NA, mpa))%>%
+  #  mutate(mpa_weighted = rank*mpa)%>%
+  #  filter(!is.na(mpa_weighted))%>%
+  #  group_by(region_id)%>%
+  #  summarize(mpa_weighted=sum(mpa_weighted))%>%
+  #  select(rgn_id=region_id, mpa=mpa_weighted)
 
-  mpa<-as.data.frame(mpa)
+  #mpa<-as.data.frame(mpa)
 
   ry <- layers_data %>%
     select(region_id = id_num, condist = category, km2=val_num)
@@ -1805,7 +1811,8 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
     select(rgn_id=region_id, area_inland1km = lsp_area_1km_coast,
            area_offshore3nm = lsp_area_3nm_mhi2017)
 
-  ry <- ry %>%
+
+   ry <- ry %>%
     left_join(mpa)
 
   # fill in time series for all regions
