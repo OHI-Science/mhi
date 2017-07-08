@@ -1004,7 +1004,7 @@ RC = function(layers, status_year=2015) {
     rec_d<-rec_d %>%
       left_join(access)%>%
       mutate(status=(score+value)/2*100) %>%
-    select(rgn_id, year, status)
+      select(rgn_id, year, status)
 
     #weigthing park score as # of parks per 5 km
     #rec_d<-parks %>%

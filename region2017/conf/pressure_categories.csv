@@ -1,14 +1,7 @@
 layer,category,subcategory
-po_chemicals,ecological,pollution
-po_nutrients,ecological,pollution
-po_trash,ecological,pollution
-hd_subtidal_sb,ecological,habitat_destruction
-hd_subtidal_hb,ecological,habitat_destruction
 hd_intertidal,ecological,habitat_destruction
 fp_com_hb,ecological,fishing_pressure
 fp_com_lb,ecological,fishing_pressure
-fp_art_lb,ecological,fishing_pressure
-fp_art_hb,ecological,fishing_pressure
 cc_sst,ecological,climate_change
 cc_acid,ecological,climate_change
 cc_uv,ecological,climate_change
