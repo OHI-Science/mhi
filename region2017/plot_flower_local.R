@@ -146,7 +146,7 @@ plot_flower <- function(score_df,
     plot_obj <- plot_obj +
       geom_text(aes(label = name_flower, x = pos, y = 130),
                 hjust = .5, vjust = .5,
-                size = 3,
+                size = 4,
                 fontface = 'italic',
                 color = dark_line)
 

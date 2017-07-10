@@ -1588,7 +1588,7 @@ CW = function(layers){
   lyrs <- c('po_pathogens', 'po_nutrients_3nm', 'po_chemicals_3nm', 'po_trash',
             'cw_chemical_trend', 'cw_nutrient_trend', 'cw_trash_trend', 'cw_pathogen_trend') #global CW layers
 
-  #lyrs <- c('po_lbsp_nosds_bil', 'po_lbsp_sed', 'po_lbspaggolfrunoff', 'po_marinedebris') #local CW layers
+  #lyrs <- c('cw_po_lbsp_nosds_bil', 'cw_po_lbsp_sed', 'cw_po_lbspaggolfrunoff', 'cw_po_lbsurbanruoff',  'cw_po_marinedebris', 'cw_po_shipbased_shipp') #local CW layers
 
 
   d <-  SelectLayersData(layers, layers=lyrs)  %>%
