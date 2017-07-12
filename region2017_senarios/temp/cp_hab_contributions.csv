@@ -1,0 +1,13 @@
+"rgn_id","habitat","prop_score"
+1,"reef",0.895
+2,"reef",0.855
+3,"reef",0.835
+4,"reef",0.835
+1,"beach",0.105
+2,"beach",0.134
+3,"beach",0.157
+4,"beach",0.161
+1,"wetland",0
+2,"wetland",0.011
+3,"wetland",0.008
+4,"wetland",0.005

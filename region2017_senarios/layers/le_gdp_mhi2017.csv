@@ -1,0 +1,253 @@
+rgn_id,year,sector,gdp_usd
+1,2005,Marine Construction,NA
+1,2005,Living Resources,7940000
+1,2005,Offshore Mineral Extraction,NA
+1,2005,Ship and Boat Building,NA
+1,2005,Tourism and Recreation,719375000
+1,2005,Marine Transportation,NA
+1,2005,All Ocean Sectors,727315000
+1,2006,Marine Construction,NA
+1,2006,Living Resources,NA
+1,2006,Offshore Mineral Extraction,NA
+1,2006,Ship and Boat Building,NA
+1,2006,Tourism and Recreation,724107000
+1,2006,Marine Transportation,NA
+1,2006,All Ocean Sectors,724107000
+1,2007,Marine Construction,989000
+1,2007,Living Resources,7122000
+1,2007,Offshore Mineral Extraction,NA
+1,2007,Ship and Boat Building,NA
+1,2007,Tourism and Recreation,733725000
+1,2007,Marine Transportation,NA
+1,2007,All Ocean Sectors,741836000
+1,2008,Marine Construction,3474000
+1,2008,Living Resources,7745000
+1,2008,Offshore Mineral Extraction,NA
+1,2008,Ship and Boat Building,NA
+1,2008,Tourism and Recreation,697413000
+1,2008,Marine Transportation,NA
+1,2008,All Ocean Sectors,708632000
+1,2009,Marine Construction,NA
+1,2009,Living Resources,7805000
+1,2009,Offshore Mineral Extraction,NA
+1,2009,Ship and Boat Building,NA
+1,2009,Tourism and Recreation,609900000
+1,2009,Marine Transportation,NA
+1,2009,All Ocean Sectors,617705000
+1,2010,Marine Construction,NA
+1,2010,Living Resources,8252000
+1,2010,Offshore Mineral Extraction,NA
+1,2010,Ship and Boat Building,NA
+1,2010,Tourism and Recreation,629128000
+1,2010,Marine Transportation,NA
+1,2010,All Ocean Sectors,637380000
+1,2011,Marine Construction,NA
+1,2011,Living Resources,8848000
+1,2011,Offshore Mineral Extraction,NA
+1,2011,Ship and Boat Building,NA
+1,2011,Tourism and Recreation,676532000
+1,2011,Marine Transportation,NA
+1,2011,All Ocean Sectors,685380000
+1,2012,Marine Construction,NA
+1,2012,Living Resources,8238000
+1,2012,Offshore Mineral Extraction,NA
+1,2012,Ship and Boat Building,NA
+1,2012,Tourism and Recreation,709340000
+1,2012,Marine Transportation,NA
+1,2012,All Ocean Sectors,717579000
+1,2013,Marine Construction,NA
+1,2013,Living Resources,8748000
+1,2013,Offshore Mineral Extraction,NA
+1,2013,Ship and Boat Building,NA
+1,2013,Tourism and Recreation,741923000
+1,2013,Marine Transportation,NA
+1,2013,All Ocean Sectors,750671000
+2,2005,Marine Construction,NA
+2,2005,Living Resources,NA
+2,2005,Offshore Mineral Extraction,0
+2,2005,Ship and Boat Building,0
+2,2005,Tourism and Recreation,1382071000
+2,2005,Marine Transportation,NA
+2,2005,All Ocean Sectors,1382071000
+2,2006,Marine Construction,NA
+2,2006,Living Resources,NA
+2,2006,Offshore Mineral Extraction,0
+2,2006,Ship and Boat Building,0
+2,2006,Tourism and Recreation,1485516000
+2,2006,Marine Transportation,NA
+2,2006,All Ocean Sectors,1485516000
+2,2007,Marine Construction,NA
+2,2007,Living Resources,NA
+2,2007,Offshore Mineral Extraction,NA
+2,2007,Ship and Boat Building,NA
+2,2007,Tourism and Recreation,1479961000
+2,2007,Marine Transportation,NA
+2,2007,All Ocean Sectors,1479961000
+2,2008,Marine Construction,NA
+2,2008,Living Resources,977000
+2,2008,Offshore Mineral Extraction,NA
+2,2008,Ship and Boat Building,NA
+2,2008,Tourism and Recreation,1431191000
+2,2008,Marine Transportation,NA
+2,2008,All Ocean Sectors,1432167000
+2,2009,Marine Construction,NA
+2,2009,Living Resources,NA
+2,2009,Offshore Mineral Extraction,NA
+2,2009,Ship and Boat Building,NA
+2,2009,Tourism and Recreation,1195524000
+2,2009,Marine Transportation,NA
+2,2009,All Ocean Sectors,1195524000
+2,2010,Marine Construction,NA
+2,2010,Living Resources,NA
+2,2010,Offshore Mineral Extraction,NA
+2,2010,Ship and Boat Building,NA
+2,2010,Tourism and Recreation,1247881000
+2,2010,Marine Transportation,NA
+2,2010,All Ocean Sectors,1247881000
+2,2011,Marine Construction,NA
+2,2011,Living Resources,1427000
+2,2011,Offshore Mineral Extraction,NA
+2,2011,Ship and Boat Building,NA
+2,2011,Tourism and Recreation,1395272000
+2,2011,Marine Transportation,NA
+2,2011,All Ocean Sectors,1396699000
+2,2012,Marine Construction,16524000
+2,2012,Living Resources,NA
+2,2012,Offshore Mineral Extraction,NA
+2,2012,Ship and Boat Building,0
+2,2012,Tourism and Recreation,1536119000
+2,2012,Marine Transportation,NA
+2,2012,All Ocean Sectors,1552643000
+2,2013,Marine Construction,NA
+2,2013,Living Resources,NA
+2,2013,Offshore Mineral Extraction,0
+2,2013,Ship and Boat Building,0
+2,2013,Tourism and Recreation,1640505000
+2,2013,Marine Transportation,NA
+2,2013,All Ocean Sectors,1640505000
+3,2005,Marine Construction,63111000
+3,2005,Living Resources,28518000
+3,2005,Offshore Mineral Extraction,NA
+3,2005,Ship and Boat Building,29907000
+3,2005,Tourism and Recreation,1262543000
+3,2005,Marine Transportation,256747000
+3,2005,All Ocean Sectors,1640826000
+3,2006,Marine Construction,58898000
+3,2006,Living Resources,26930000
+3,2006,Offshore Mineral Extraction,NA
+3,2006,Ship and Boat Building,30749000
+3,2006,Tourism and Recreation,1306955000
+3,2006,Marine Transportation,283441000
+3,2006,All Ocean Sectors,1706973000
+3,2007,Marine Construction,59051000
+3,2007,Living Resources,23059000
+3,2007,Offshore Mineral Extraction,782000
+3,2007,Ship and Boat Building,46827000
+3,2007,Tourism and Recreation,1293562000
+3,2007,Marine Transportation,277653000
+3,2007,All Ocean Sectors,1700934000
+3,2008,Marine Construction,67622000
+3,2008,Living Resources,34500000
+3,2008,Offshore Mineral Extraction,853000
+3,2008,Ship and Boat Building,50949000
+3,2008,Tourism and Recreation,1304790000
+3,2008,Marine Transportation,302822000
+3,2008,All Ocean Sectors,1761536000
+3,2009,Marine Construction,72773000
+3,2009,Living Resources,21629000
+3,2009,Offshore Mineral Extraction,819000
+3,2009,Ship and Boat Building,61597000
+3,2009,Tourism and Recreation,1290994000
+3,2009,Marine Transportation,284104000
+3,2009,All Ocean Sectors,1731916000
+3,2010,Marine Construction,87040000
+3,2010,Living Resources,39593000
+3,2010,Offshore Mineral Extraction,NA
+3,2010,Ship and Boat Building,58186000
+3,2010,Tourism and Recreation,1308808000
+3,2010,Marine Transportation,287551000
+3,2010,All Ocean Sectors,1781178000
+3,2011,Marine Construction,89827000
+3,2011,Living Resources,41225000
+3,2011,Offshore Mineral Extraction,NA
+3,2011,Ship and Boat Building,66959000
+3,2011,Tourism and Recreation,1349611000
+3,2011,Marine Transportation,279824000
+3,2011,All Ocean Sectors,1827445000
+3,2012,Marine Construction,99251000
+3,2012,Living Resources,22287000
+3,2012,Offshore Mineral Extraction,NA
+3,2012,Ship and Boat Building,54833000
+3,2012,Tourism and Recreation,1418317000
+3,2012,Marine Transportation,287420000
+3,2012,All Ocean Sectors,1882107000
+3,2013,Marine Construction,88569000
+3,2013,Living Resources,44595000
+3,2013,Offshore Mineral Extraction,NA
+3,2013,Ship and Boat Building,80281000
+3,2013,Tourism and Recreation,1487834000
+3,2013,Marine Transportation,304802000
+3,2013,All Ocean Sectors,2006082000
+4,2005,Marine Construction,NA
+4,2005,Living Resources,NA
+4,2005,Offshore Mineral Extraction,0
+4,2005,Ship and Boat Building,NA
+4,2005,Tourism and Recreation,122697000
+4,2005,Marine Transportation,NA
+4,2005,All Ocean Sectors,122697000
+4,2006,Marine Construction,NA
+4,2006,Living Resources,NA
+4,2006,Offshore Mineral Extraction,0
+4,2006,Ship and Boat Building,NA
+4,2006,Tourism and Recreation,114812000
+4,2006,Marine Transportation,NA
+4,2006,All Ocean Sectors,114812000
+4,2007,Marine Construction,NA
+4,2007,Living Resources,NA
+4,2007,Offshore Mineral Extraction,0
+4,2007,Ship and Boat Building,0
+4,2007,Tourism and Recreation,491255000
+4,2007,Marine Transportation,NA
+4,2007,All Ocean Sectors,491255000
+4,2008,Marine Construction,NA
+4,2008,Living Resources,NA
+4,2008,Offshore Mineral Extraction,0
+4,2008,Ship and Boat Building,0
+4,2008,Tourism and Recreation,479324000
+4,2008,Marine Transportation,NA
+4,2008,All Ocean Sectors,479324000
+4,2009,Marine Construction,NA
+4,2009,Living Resources,1236000
+4,2009,Offshore Mineral Extraction,0
+4,2009,Ship and Boat Building,0
+4,2009,Tourism and Recreation,122564000
+4,2009,Marine Transportation,NA
+4,2009,All Ocean Sectors,123800000
+4,2010,Marine Construction,NA
+4,2010,Living Resources,NA
+4,2010,Offshore Mineral Extraction,0
+4,2010,Ship and Boat Building,0
+4,2010,Tourism and Recreation,115906000
+4,2010,Marine Transportation,NA
+4,2010,All Ocean Sectors,115906000
+4,2011,Marine Construction,NA
+4,2011,Living Resources,NA
+4,2011,Offshore Mineral Extraction,0
+4,2011,Ship and Boat Building,0
+4,2011,Tourism and Recreation,139496000
+4,2011,Marine Transportation,NA
+4,2011,All Ocean Sectors,139496000
+4,2012,Marine Construction,NA
+4,2012,Living Resources,NA
+4,2012,Offshore Mineral Extraction,0
+4,2012,Ship and Boat Building,0
+4,2012,Tourism and Recreation,132424000
+4,2012,Marine Transportation,NA
+4,2012,All Ocean Sectors,132424000
+4,2013,Marine Construction,NA
+4,2013,Living Resources,NA
+4,2013,Offshore Mineral Extraction,0
+4,2013,Ship and Boat Building,0
+4,2013,Tourism and Recreation,165068000
+4,2013,Marine Transportation,NA
+4,2013,All Ocean Sectors,165068000

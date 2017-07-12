@@ -1683,12 +1683,15 @@ HAB = function(layers){
   #  warning("Some regions/habitats have extent data, but no health data.  Consider estimating these values.")
   #}
 
-
+  #d <- d %>%
+  #  dplyr::group_by(rgn_id)%>%
+  #  dplyr::mutate(
+  #    total_extent=sum(extent) )
 
   ## calculate scores
   status <- d %>%
     dplyr::group_by(rgn_id, habitat) %>%
-    dplyr::summarize(
+    dplyr::mutate(
       score = (health*extent)/extent*100)%>% #health already as proportion protected or historical extent so multiply times current extent to get score
     dplyr::ungroup()%>%
     dplyr::group_by(rgn_id) %>%
