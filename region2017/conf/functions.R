@@ -68,12 +68,15 @@ FIS = function(layers, status_year=2016){
 
   b$score = ifelse(b$value < lowerBuffer, b$value,
                    ifelse (b$value >= lowerBuffer & b$value <= upperBuffer, 1, NA))
+
+  #removed unnderharvesting penalty
+  # b$score = ifelse(!is.na(b$score), b$score,
+#                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
+#                          1 - alpha*(b$value - upperBuffer),
+#                          beta))
   b$score = ifelse(!is.na(b$score), b$score,
-                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
-                          1 - alpha*(b$value - upperBuffer),
-                          beta))
-
-
+  ifelse(1 - alpha*(b$value - upperBuffer) > beta,
+                  1,b$score))
   # ---
   # STEP 1. Merge the b/bmsy data with catch data
   # ---
@@ -508,6 +511,8 @@ AO = function(layers,
     mutate(Du = (1-.106) * (1-access)) %>% #need based on poverty level
     mutate(status = (1-Du) * bio)
 
+ #ao_data <-ao_data %>%
+#    mutate(status=(access+bio)/2)
 
   #global model
 # ry <- ry %>%
@@ -589,7 +594,8 @@ CS <- function(layers){
     full_join(trend, by=c("rgn_id", "habitat"))
 
   ## set ranks for each habitat
-  habitat.rank <- c('wetland' = 210)
+  #habitat.rank <- c('wetland' = 210)#if using more than 1 habitat assing carbon storage potential ranks
+  habitat.rank <- c('wetland' = 1) #set to 1 because only one habitat being assessed
 
   ## limit to CS habitats and add rank
   d <- d %>%
@@ -659,6 +665,8 @@ CS <- function(layers){
         goal = 'CS') %>%
       select(region_id=rgn_id, goal, dimension, score)
 
+    scores_CS$score[scores_CS$goal == 'CS'] = NA
+
   } else { ## else -- if sum(d$km2) is not greater than 0
 
      ## set status and trend to NA for all regions
@@ -676,6 +684,9 @@ CS <- function(layers){
                score     = NA)) %>%
         select(goal, dimension, region_id = rgn_id, score)
 
+
+
+
   } ## end -- if (sum(d$km2) > 0)
 
   ## reference points
@@ -683,6 +694,7 @@ CS <- function(layers){
     rbind(data.frame(goal = "CS", method = "Health/condition variable based on current vs. historic extent",
                      reference_point = "varies for each region/habitat"))
   write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
+
 
 
   # return scores
@@ -713,9 +725,9 @@ CP <- function(layers){
     full_join(trend, by=c("rgn_id", "habitat"))
 
   ## set ranks for each habitat
-  habitat.rank <- c('reef'            = 4,
-                    'wetland'        = 3,
-                    'beach' = 4) #need to look up reference for Hawaii coastal protection to justify weighting
+  habitat.rank <- c('reef'            = 2,
+                    'wetland'        = 1,
+                    'beach' = 1) #need to look up reference for Hawaii coastal protection to justify weighting
 
   ## limit to CP habitats and add rank
   d <- d %>%
@@ -1408,13 +1420,14 @@ ICO = function(layers, status_year=2016){
                      reference_point = NA))
   write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
 
+  scores$score[scores$goal == 'ICO'] = NA
 
   # return scores
   scores <-  rbind(r.status, r.trend) %>%
     mutate('goal'='ICO') %>%
     select(goal, dimension, region_id, score) %>%
     data.frame()
-
+  scores$score[scores$goal == 'ICO'] = NA
   return(scores)
 
 }
@@ -1628,6 +1641,7 @@ CW = function(layers){
     mutate(goal = "CW") %>%
     select(region_id, goal, dimension, score) %>%
     data.frame()
+  scores$score[scores$goal == 'CW'] = NA
 
   ## reference points
   rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
