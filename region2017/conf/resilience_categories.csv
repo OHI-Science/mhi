@@ -5,7 +5,7 @@ sp_alien_species,ecological,regulatory,alien_species,1
 g_cites,ecological,regulatory,goal,0.5
 fp_mora,ecological,regulatory,fishing_pressure,1
 fp_mora_artisanal,ecological,regulatory,fishing_pressure,1
-g_tourism,ecological,regulatory,goal,1
+tourism_experience,ecological,social,social,1
 li_gci,social,social,social,1
 li_sector_evenness,social,social,social,1
 wgi_all,social,social,social,1
