@@ -18,7 +18,9 @@ Flower plots display preliminary scores, with each petal representing an individ
 ----
 
 <!---
-NOTE: Here the flower plots are displayed for each region and the overall assessment area (rgn_id = 0). Figures will be displayed directly from online in the reports/figures folder.
+NOTE: Here the flower plots are displayed for each region and the overall assessment area (rgn_id = 0). Figures will be displayed directly from online in the reports/figures folder: to make sure you're displaying the most recent flower plots here's what to do: 
+1. from the master branch, save new flower plots, and push
+2. from the gh-pages branch, reknit this page or rebuild the website, and push!
 --->
 
 ```{r plot_flower, results='asis'}
