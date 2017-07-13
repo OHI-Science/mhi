@@ -1,56 +1,26 @@
+## load any libraries needed across website pages
 suppressPackageStartupMessages({
   library(readr)
   library(dplyr)
   library(tidyr)
   library(stringr)
-  library(sp)
-  library(geojsonio)
-  library(leaflet)
-  library(htmltools)
-  library(DT)
   library(knitr)
-  library(printr)  # devtools::install_github('yihui/printr')
-  library(ohicore) # devtools::install_github('ohi-science/ohicore')
 })
 
 ## brewed vars
 study_area      = "Main Hawaiian Islands"
-gh_repo         = "mhi"
-gh_branch_data  = "master"
-scenario_dir    = "region2017"
+key             = "mhi"
+dir_scenario_gh = "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017"
 
-# derived vars
-dir_data        = sprintf('%s_%s', gh_repo, gh_branch_data)
-dir_scenario    = sprintf('%s/%s', dir_data, scenario_dir)
-gh_url          = sprintf('https://github.com/OHI-Science/%s.git', gh_repo)
-dir_report      = sprintf('%s/reports', dir_scenario)
+## derived vars
+gh_url     = sprintf('https://github.com/OHI-Science/%s.git', key)
 
-# knitr options
-knitr::opts_chunk$set(echo = F, message = F, warning = F)
-
-run_cmd = function(cmd){
-   system.time(system(cmd))
- }
-
- # data branch: fetch existing, or clone new
-if (!file.exists(dir_data)){
-
-  # clone data branch, shallowly and quietly
-  run_cmd(sprintf('git clone -q --depth 1 --branch %s %s %s', gh_branch_data, gh_url, dir_data))
-
-} else {
-
-  # git fetch & overwrite
-  run_cmd(sprintf('cd %s; git fetch -q; git reset -q --hard origin/%s; git checkout -q %s; git pull -q', dir_data, gh_branch_data, gh_branch_data))
-
-}
-
-# # read config # @jules32 6/29/17 don't think this is what we need
-# config = new.env()
-# source(file.path(dir_scenario, 'conf/config.R'), config)
+## knitr options for all webpages
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 ## read in variables
-scores <- readr::read_csv(file.path(dir_scenario, 'scores.csv'))
-layers <- readr::read_csv(file.path(dir_scenario, 'layers.csv'))
-weight <- readr::read_csv(file.path(dir_scenario, 'conf/goals.csv')) %>% select(goal, weight)
+scores <- readr::read_csv(file.path(dir_scenario_gh, 'scores.csv'))
+layers <- readr::read_csv(file.path(dir_scenario_gh, 'layers.csv'))
+weight <- readr::read_csv(file.path(dir_scenario_gh, 'conf/goals.csv')) %>%
+  select(goal, weight)
 

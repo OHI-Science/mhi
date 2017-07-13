@@ -19,46 +19,46 @@ Flower plots display preliminary scores, with each petal representing an individ
 
 ```{r plot_flower Casey, results='asis'}
 
-## source from ohibc until added to ohicore, see https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
-source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.R')
-source('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/plot_flower_local.R')
+# ## source from ohibc until added to ohicore, see https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
+# source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.R')
+# source('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/plot_flower_local.R')
 
 ## regions info
 regions <- bind_rows(
   data_frame(                # order regions to start with whole study_area
     region_id   = 0,
     region_name = 'Main Hawaiian Islands'),
-  read_csv(sprintf('%s/spatial/regions_list.csv', dir_scenario)) %>%
+  read_csv(sprintf('%s/spatial/regions_list.csv', dir_scenario_gh)) %>%
     select(region_id   = rgn_id,
            region_name = rgn_name))
 
 ## set figure name
 regions <- regions %>%
  mutate(flower_png = sprintf('%s/reports/figures/flower_%s.png',
-                             dir_scenario,
-                             str_replace_all(region_name, ' ', '_')))
+                             dir_scenario_gh,
+                             stringr::str_replace_all(region_name, ' ', '_')))
 
 
 ## display ----
 
-if (all(file.exists(regions$flower_png))) {
+# if (all(file.exists(regions$flower_png))) {
 
   ## save locally
    for (f in regions$flower_png){ # f = regions$flower_png[1]
     file.copy(from = f,
               to   = sprintf('images/%s', basename(f)), overwrite=T)
     
-    regions$flower_png_local[regions$flower_png == f] <- sprintf('images/%s', basename(f))
+    regions$flower_png[regions$flower_png == f] <- sprintf('images/%s', basename(f))
     # cat(sprintf('\n copying from %s', f))
   }
   
   ## display header, flower
   cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
       sep = "")
-} else { 
-  
-  print(sprintf('please check that flower plots were created in the %s branch', gh_branch_data))
-}
+# } else { 
+#   
+#   print(sprintf('please check that flower plots were created in the %s branch', gh_branch_data))
+# }
 
 ```
 
