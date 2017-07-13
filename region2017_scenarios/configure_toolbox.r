@@ -15,7 +15,7 @@ pkgs_required <- c('ohicore', 'tidyverse', 'stringr', 'zoo')
 pkgs_check <- pkgs_required[!pkgs_required %in% (.packages())]
 pkgs_installed <- sapply(pkgs_check, FUN = function(x) library(x, character.only = TRUE))
 
-setwd("~/github/mhi/region2017_senarios")
+setwd("~/github/mhi/region2017_scenarios")
 
 ## load scenario configuration
 conf = ohicore::Conf('conf')
