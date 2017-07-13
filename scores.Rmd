@@ -1,9 +1,9 @@
 ---
 title: "Preliminary OHI scores"
 output:
-html_document:
-toc: true
-toc_float: true
+  html_document:
+    toc: true
+    toc_float: true
 #    keep_md: true
 ---
 
