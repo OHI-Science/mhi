@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -174,7 +171,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -183,8 +180,8 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
-    options.smoothScroll = true;
+    options.showAndHide = false;
+    options.smoothScroll = false;
 
     // tocify
     var toc = $("#TOC").tocify(options).data("toc-tocify");
@@ -203,6 +200,11 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+#TOC {
+  display: none !important;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -246,6 +248,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -305,38 +313,41 @@ div.tocify {
 <p>Ocean Health Index scores are calculated for each region for each goal before being combined into an overall Index score for Hawaii. The four regions are Hawaii, Maui Nui, Oahu, and Kauai &amp; Niihau. <!---could bring back the Regions page to be only linked from here---></p>
 <p>Flower plots display preliminary scores, with each petal representing an individual goal. Petal lengths convey the score of the goal, thus longer petals are closer to achieving their target. Only goals that are relevant to a region are scored, otherwise they are set to NA with grey petals. All scores are on a scale from 0-100, and the center number is the region’s Index score.</p>
 <hr />
+<!---
+NOTE: Here the flower plots are displayed for each region and the overall assessment area (rgn_id = 0). Figures will be displayed directly from online in the reports/figures folder.
+--->
 <div id="main-hawaiian-islands" class="section level2">
 <h2>Main Hawaiian Islands</h2>
 <div class="figure">
-<img src="images/flower_Main_Hawaiian_Islands.png" />
+<img src="https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/reports/figures/flower_Main_Hawaiian_Islands.png" />
 
 </div>
 </div>
 <div id="hawaii" class="section level2">
 <h2>Hawaii</h2>
 <div class="figure">
-<img src="images/flower_Hawaii.png" />
+<img src="https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/reports/figures/flower_Hawaii.png" />
 
 </div>
 </div>
 <div id="maui-nui" class="section level2">
 <h2>Maui Nui</h2>
 <div class="figure">
-<img src="images/flower_Maui_Nui.png" />
+<img src="https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/reports/figures/flower_Maui_Nui.png" />
 
 </div>
 </div>
 <div id="oahu" class="section level2">
 <h2>Oahu</h2>
 <div class="figure">
-<img src="images/flower_Oahu.png" />
+<img src="https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/reports/figures/flower_Oahu.png" />
 
 </div>
 </div>
 <div id="kauai-niihau" class="section level2">
 <h2>Kauai &amp; Niihau</h2>
 <div class="figure">
-<img src="images/flower_Kauai_&amp;_Niihau.png" />
+<img src="https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/reports/figures/flower_Kauai_&amp;_Niihau.png" />
 
 </div>
 <p><a href="http://ohi-science.org"><img src="https://docs.google.com/drawings/d/1633uvIYgsBhiKBddQAaTlvYDJgOK1uiDB6wkooNyhFc/pub?w=576&h=288" width="100px"></a><br />

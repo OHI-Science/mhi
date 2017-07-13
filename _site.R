@@ -13,7 +13,7 @@ key             = "mhi"
 dir_scenario_gh = "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017"
 
 ## derived vars
-gh_url     = sprintf('https://github.com/OHI-Science/%s.git', key)
+# gh_url     = sprintf('https://github.com/OHI-Science/%s.git', key)
 
 ## knitr options for all webpages
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)

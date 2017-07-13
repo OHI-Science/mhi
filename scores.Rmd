@@ -1,9 +1,9 @@
 ---
 title: "Preliminary OHI scores"
 output:
-  html_document:
-    toc: true
-    toc_float: true
+html_document:
+toc: true
+toc_float: true
 #    keep_md: true
 ---
 
@@ -17,48 +17,32 @@ Flower plots display preliminary scores, with each petal representing an individ
 
 ----
 
-```{r plot_flower Casey, results='asis'}
+<!---
+NOTE: Here the flower plots are displayed for each region and the overall assessment area (rgn_id = 0). Figures will be displayed directly from online in the reports/figures folder.
+--->
 
-# ## source from ohibc until added to ohicore, see https://github.com/OHI-Science/ohibc/blob/master/regionHoweSound/ohibc_howesound_2016.Rmd
-# source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.R')
-# source('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/plot_flower_local.R')
+```{r plot_flower, results='asis'}
 
-## regions info
+## regions info: order regions to start with whole study_area
 regions <- bind_rows(
-  data_frame(                # order regions to start with whole study_area
+  data_frame(                
     region_id   = 0,
     region_name = 'Main Hawaiian Islands'),
   read_csv(sprintf('%s/spatial/regions_list.csv', dir_scenario_gh)) %>%
     select(region_id   = rgn_id,
            region_name = rgn_name))
 
-## set figure name
+## path for figures to display
 regions <- regions %>%
- mutate(flower_png = sprintf('%s/reports/figures/flower_%s.png',
-                             dir_scenario_gh,
-                             stringr::str_replace_all(region_name, ' ', '_')))
+  mutate(flower_png = sprintf('%s/reports/figures/flower_%s.png',
+                              dir_scenario_gh,
+                              stringr::str_replace_all(region_name, ' ', '_')))
 
 
-## display ----
+## display header, flower ----
 
-# if (all(file.exists(regions$flower_png))) {
-
-  ## save locally
-   for (f in regions$flower_png){ # f = regions$flower_png[1]
-    file.copy(from = f,
-              to   = sprintf('images/%s', basename(f)), overwrite=T)
-    
-    regions$flower_png[regions$flower_png == f] <- sprintf('images/%s', basename(f))
-    # cat(sprintf('\n copying from %s', f))
-  }
-  
-  ## display header, flower
-  cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
-      sep = "")
-# } else { 
-#   
-#   print(sprintf('please check that flower plots were created in the %s branch', gh_branch_data))
-# }
+cat(sprintf('## %s\n\n![](%s)\n\n\n\n', regions$region_name, regions$flower_png), 
+    sep = "")
 
 ```
 
