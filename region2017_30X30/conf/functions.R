@@ -894,7 +894,7 @@ growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.012
 
 growth$n_score<-growth$n_score*100
 #need to score environmental data to reference - use 30%
-env$env_score<-ifelse(env$percent>30, 100,(env$percent/30)*100) #set score equal to 100 for 30 by 30
+env$env_score<-ifelse(env$percent>=30, 100,(env$percent/30)*100) #set score equal to 100 for 30 by 30
 env<-env %>%
   dplyr::group_by(rgn_id, year)%>%
   dplyr::summarize(env_score=mean(env_score), percent=mean(percent)) #####need to FIX### otherwise duplicates in env scores

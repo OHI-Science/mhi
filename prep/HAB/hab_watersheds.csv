@@ -1,5 +1,5 @@
-rgn_id,County,Watershed Priority areas (ac),Watershed Priority areas fenced (acres),km2,fenced_km2
-1,Hawaii,"577,386","69,564",2336.600308,281.515769
-2,Maui,"138,958","50,302",562.3435719,203.5651517
-3,Oahu,"46,095","3,497",186.5400117,14.15186942
-4,Kauai,"80,490","5,859",325.7317614,23.71055274
+rgn_id,County,Watershed Priority areas (ac),Watershed Priority areas fenced (acres),km2,fenced_km2,
+1,Hawaii,"577,386","69,564",2336.600308,281.515769,0.120480926
+2,Maui,"138,958","50,302",562.3435719,203.5651517,0.361994272
+3,Oahu,"46,095","3,497",186.5400117,14.15186942,0.075865061
+4,Kauai,"80,490","5,859",325.7317614,23.71055274,0.072791651

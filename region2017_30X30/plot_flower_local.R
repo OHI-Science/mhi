@@ -22,6 +22,9 @@ plot_flower <- function(score_df,
       mutate(name_flower = gsub("\\n", "\n", name_flower, fixed = TRUE)) %>%
       arrange(order_hierarchy)
 
+    ## extract Index score for center labeling
+    score_index  <- round(score_df$score[score_df$goal == 'Index'])
+
     # region scores
     score_df <- score_df %>%
       inner_join(conf, by="goal") %>%
@@ -124,7 +127,7 @@ plot_flower <- function(score_df,
                 color = dark_line)
   } else if(center_score) {
     plot_obj <- plot_obj +
-      geom_text(aes(label = p_score),
+      geom_text(aes(label = score_index),
                 x = 0, y = -blank_circle_rad,
                 hjust = .5, vjust = .5,
                 size = 12,

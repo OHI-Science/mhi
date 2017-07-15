@@ -97,6 +97,7 @@ FIS = function(layers, status_year=2016){
     mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
     ungroup()
 
+
   ## this takes the median score across all regions (when no stocks have scores within a region)
  # data_fis_gf <- data_fis_gf %>%
 #    group_by(year, key.x) %>%
@@ -151,8 +152,11 @@ FIS = function(layers, status_year=2016){
     group_by(year, rgn_id, key.x) %>% #summarize catch data
     dplyr::summarize(catch = sum(catch), mean_score=mean(score))
 
+  fishery_summaries <- status_data %>%
+    group_by(key.x) %>% #summarize catch data
+    dplyr::summarize(catch = sum(catch), mean_score=mean(mean_score))
 
-  status_data <- status_data %>% #join with recreational catch multiplier
+   status_data <- status_data %>% #join with recreational catch multiplier
     left_join(r)
 
    status_data <- status_data %>%
@@ -511,6 +515,10 @@ AO = function(layers,
     mutate(Du = (1-.106) * (1-access)) %>% #need based on poverty level
     mutate(status = (1-Du) * bio)
 
+
+  ao_sum<-ao_data %>%
+    group_by(region_id) %>%
+    summarize(bio_m=mean(bio), access_m=mean(access))
  #ao_data <-ao_data %>%
 #    mutate(status=(access+bio)/2)
 
