@@ -15,13 +15,14 @@ pkgs_required <- c('ohicore', 'tidyverse', 'stringr', 'zoo')
 pkgs_check <- pkgs_required[!pkgs_required %in% (.packages())]
 pkgs_installed <- sapply(pkgs_check, FUN = function(x) library(x, character.only = TRUE))
 
+## set working directory
 setwd("~/github/mhi/region2017")
 
 ## load scenario configuration
 conf = ohicore::Conf('conf')
 
-## check that scenario layers files in the \layers folder match layers.csv registration. Layers files are not modified.
+## check that files in the \layers folder match layers.csv registration.
 ohicore::CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_fields)
 
-## load scenario layers for ohicore to access. Layers files are not modified.
+## load layers for ohicore to access.
 layers = ohicore::Layers('layers.csv', 'layers')
