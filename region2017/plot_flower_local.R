@@ -43,6 +43,10 @@ plot_flower <- function(score_df,
     mutate(score   = score * 100/score_ref,   ### if 0-1, turn into 0-100; otherwise leave as is
            pos     = sum(weight) - (cumsum(weight) - 0.5 * weight),
            pos_end = sum(weight)) %>%
+           # supra_weight = just less than 2 subgoal weights added, (weight is the angular width)
+           # supra_pos = average of the pos of the 2 subgoals
+           # supra_pos_end =
+           # supra_scores = 150)) %>% since scores are from 0-100, play with this to position it outside the circle and text
     arrange(pos) %>%
     filter(weight != 0)
 
@@ -94,8 +98,12 @@ plot_flower <- function(score_df,
   plot_obj <- plot_obj +
     ### plots the actual scores on top of background/borders:
       geom_bar(stat = 'identity', color = dark_line, size = .2) +
+    ### emphasize edge of petal
       geom_errorbar(aes(x = pos, ymin = score, ymax = score),
                     size = 0.5, color = dark_line, show.legend = NA) +
+    # ### add supragoal line TODO JSL
+    # geom_errorbar(aes(x = pos, ymin = score, ymax = score),
+    #               size = 0.5, color = dark_line, show.legend = NA) +
     ### plot zero as a baseline:
       geom_errorbar(aes(x = pos, ymin = 0, ymax = 0),
                     size = 0.5, color = dark_line, show.legend = NA) +
@@ -152,6 +160,12 @@ plot_flower <- function(score_df,
                 size = 4.5,
                 fontface = 'italic',
                 color = dark_line)
+    ### TODO JSL:add supra_text and position it outside of the arc
+    # geom_text(aes(label = supra_text, x = supra_pos, y = supra_text_score), # x is the angle, y is distance from the center
+    #           hjust = .5, vjust = .5,
+    #           size = 4.5,
+    #           fontface = 'italic',
+    #           color = dark_line)
 
 
   ### include or exclude the legend
