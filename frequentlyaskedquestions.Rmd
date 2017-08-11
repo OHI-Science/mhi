@@ -4,31 +4,129 @@ author:
 date: 
 output: html_document
 ---
+
 ----
-The Ocean Health Index was developed to measure the benefits that people recieve from the ocean now and into the future. 
-The index was originally developed to measure global ocean health (http://www.oceanhealthindex.org/). Since then, regional assessments have been done in over 32 regions to meet local needs to track sustainable ocean use. 
-<br><br>
 
+## Why is this study being done in Hawaii?
 
-##Why is this study being done in Hawaii?
 There is a need to assess and track the health of Hawaii’s natural environment and chart a path forward to increase economic opportunities and human wellbeing while sustainably managing these critical resources.
-<br><br>
 
+We will be developing shared metrics for measuring progress toward sustainable economic growth and ocean health through:
 
-##What is the purpose of this project?
-To develop shared metrics for measuring progress toward sustainable economic growth and ocean health through:
 1. Building a coalition for sustainable ocean management, 
 2. Collaborating with coastal stakeholders, natural resource managers, scientific experts, and communities, 
 3. Using objective scientific data to inform decision-making, and
 4. Monitor ocean health through time using the OHI as a repeatable tool.
-<br><br>
 
+<br>
 
-##What is the ultimate goal of this project?
+## What is the ultimate goal of this project?
+
 Enable the State of Hawaiʻi, community stakeholders, the corporate and finance sectors and non-profit organizations to prioritize investments and policy decisions that affect the sustainability of Hawaii’s economic and ocean health.
-<br><br>
 
+<br>
 
-##How far along is this project?
+## How far along is this project?
+
 We are in the development and planning stages. Stakeholder engagement and outreach is continuing and we are working with local advisors and experts to facilitate the development of the Ocean Health Index for Hawaii. 
+
+<br>
+
+## How it will the OHI assessment for Hawaii be shared and communicated?
+
+This website [**ohi-science.org/mhi**](http://ohi-science.org/mhi) is the best place to learn about the assessment as it progresses. It will also be on the Aloha+ state dashboard [**dashboard.hawaii.gov**](https://dashboard.hawaii.gov/). We will also share on social media, radio, and through scientific publications.
+
+<br>
+
+## Will the data layers be available?
+
+Yes. All data layers will be available on this website when they are finalized. And, many of the data layers are already publicly available datasets housed on [**geoportal.hawaii.gov**](http://geoportal.hawaii.gov/) and [pacioos.hawaii.edu/data](http://www.pacioos.hawaii.edu/data/).
+
+<br>
+
+## What year does this OHI assessment represent? 
+
+The first assessment will be completed by 2018. This first assessment will serve as our baseline for future assessments. The most recent data available will be incorporated into the assessment for each goal, and we rely on data that will continue to be updated in the future.
+
+<br>
+
+## What is the projected life for this project?
+
+OHI assessments can be updated annually or on other management time frames with less effort than its initial development. This is because all analysis is done with open source collaborative software and can be updated with the most recent data.
+This is because all analysis is done with open source collaborative software (R, RStudio, Git, GitHub) and can be updated with the most recent data. The Hawaii OHI will continue as long as there is ongoing interest and support from ocean management agencies and stakeholders. 
+
+<br>
+
+## What does each goal score mean? 
+
+Scores for each goal represent the present status for each goal measured against a set reference point (50% of the score) and the likely future status of the goal (50% of the score). Likely future status is assessed based on the status trend (status score over the last 5 years), resilience actions (policies, initiatives, habitat protection, enforcement, local stewardship, etc), and cumulative pressures (human impacts to ocean habitats, pollution, social pressures, economic indicators, etc).
+
+<br>
+
+## How are each goal’s reference points chosen or set?
+
+Goals are developed with stakeholders and experts. Reference points are specific to each goal and can be temporal reference point, a spatial reference point, established targets (management targets, policies or mandates, or established goal), or production function or established model (example: maximum sustainable yield equation). Goal reference points are set use SMART principles to set reference points that are specific, measurable, agreed upon and ambitious, realistic, and time-bound.
+
+<br>
+
+## What proportion of the index contains things that local management can change or influence? 
+
+Goal scores will respond to management targets through interactions with resilience layers. Some of the goals have management targets as set reference points and so those goals will directly change as we approach those targets. 
+
+<br>
+
+## How can we have a large impact and create meaningful change using the OHI?
+
+The OHI incorporates diverse stakeholders to create a coalition for ocean health. The index will work to incorporate management and local stewardship actions to incentivize actions across private partners, agencies, managers, and policy makers to increase sustainable ocean use and ultimately ocean health. 
+
+<br>
+
+## What is the spatial extent for each goal?
+
+The Hawaii Statewide assessment will focus on the Main Hawaiian Islands and will be at the Island scale. Regions will be Hawaii, Maui, Molokai, Lanai, Oahu, and Kauai. The island scale is used to designate districts of Hawaii, which are used in policy and management for the State of Hawaii. 
+
+To produce the spatial boundaries of these reporting units we use the Hawaii USA Exclusive Economic Zones (EEZ). A nearshore spatial scale computed as the offshore 3nm boundary for Hawaii islands to be used in some goals. The OHI focus is on the entire EEZ, which is divided into each of the six reporting sub-regions. However, some goals are assessed on the nearshore (3 nm from shore and 1km coastal terrestrial zone). 
+
+| Goal |Sub-Goal | Spatial Scale |
+| ---- | ---- | ---- |
+|Food Provision |	Fisheries |	EEZ & Nearshore |
+| |	Mariculture	| Nearshore |
+| Artisanal Fishing Opportunities	|Nearshore |
+| Coastal Protection |Nearshore |
+| Carbon Storage | Nearshore |
+| Coastal Livelihoods & Economies |	Livelihoods |	EEZ |
+| | Economies	| EEZ |
+| Tourism	 | Nearshore |
+| Recreation	| Nearshore |
+| Sense of Place	| Lasting Special Places |	Nearshore |
+| |	Connection to Place	| Nearshore |
+| Clean Water |	Nearshore |
+| Biodiversity | Species | EEZ |
+| |	Habitats | EEZ |
+
+<br>
+
+## How does the OHI relate to ongoing ocean management efforts?
+
+Management strategies can be tested with the OHI to understand cross sector impacts and benefits. The OHI is a conceptual model to better understand across sector ocean health. It is designed to provide context for management decisions and incentivize actions that support sustainable ocean use. The OHI can be utilized to set management targets or specific goal reference points that are ambitious yet achievable. The OHI can then be used to communicate how achieving these targets will support ocean health in Hawaii. 
+
+<br>
+
+## How adaptive is OHI to adaptive managment?
+
+The OHI is very adaptable and can incorporate new management targets, policies, and new scientific research. This information is generally incorporated into pressure or resilience scores for each goal. For example, new research on the impacts of marine debris can be incorporated as a more precise pressure layer for clean water and tourism goals. If goal metrics and reference points are updated then the goal score not be comparable to prior assessments. However, previous assessments can be back-calculated using the updated methods to make them comparable to track progress. Updating goal metrics and reference points will be done in future assessments if there is consensus to do so and updating the goal will increase our understanding of sustainable ocean use and ocean health.
+
+<br>
+
+## Will Papahanaumokuakea be represented in the OHI?
+
+Currently Papahanaumokuakea is not incorporated into the Main Hawaiian OHI. Papahanaumokuakea will be referenced in the OHI report, however the Hawaii OHI scale is set at the county level to be used as a tool for managing human and environmental interactions within the Main Hawaiian Islands.
+
+<br>
+
+## How do you track changes in ocean health if the weights of different sectors change as well? 
+
+Once each goal weight is established the goal weight will remain constant unless there is a consensus from working groups and stakeholders to change goal weighting. 
+
+<br>
 
