@@ -1,0 +1,59 @@
+Title:
+National Coral Reef Monitoring Program: Socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii from 2014-11-11 to 2014-11-26
+
+Submitter Information:
+Matt Gorstein
+matt.gorstein@noaa.gov
+NOAA National Centers for Coastal Ocean Science
+Authors: Peter Edwards, Jarrod Loerzel, Arielle Levine, Matt Gorstein, CRCP, NCCOS
+
+Project Information:
+Project Number: 743
+Project title: National Coral Reef Monitoring Program (NCRMP) Socioeconomic Component: Hawaii
+DOI: N/A
+Dates of Project: November 11, 2014 - November 26, 2014
+
+Location:
+North  22.231938
+South  18.906932
+West -159.812667
+East -154.799814
+
+Name of organization collecting data: NOAA Coral Reef Conservation Program 
+Affiliations with any other projects: National Coral Reef Monitoring Program (NCRMP) Biological Component
+                                      National Coral Reef Monitoring Program (NCRMP) Climate Component 
+
+Principal Investigator: Peter Edwards
+                        peter.edwards@noaa.gov
+						NOAA Coral Reef Conservation Program
+Other Point of Contact: Jarrod Loerzel
+						jarrod.loerzel@noaa.gov	
+						NOAA National Centers for Coastal Ocean Science
+						
+Abstract:
+The data in this file come from a survey of adult residents in Hawaii. 
+The survey was conducted for a random stratified sample of households 
+on the islands of Oahu, Hawaii, Maui, Kauai, Molokai, and Lanai in 
+Hawaii in the year 2014. These data were collected to record baseline 
+human dimensions information and socioeconomic characteristics of Hawaii’s 
+coral reef adjacent populations such as human use patterns, management 
+support/opposition, and knowledge, attitudes, and perceptions of coral 
+reefs/coral reef management. These baseline data are being used as a 
+starting point for socioeconomic monitoring of Hawaii’s coral reefs. 
+Data were collected through the telephone random digit dial survey method, 
+and the total sample size for this survey was 2,240 with a response rate 
+(number of complete interviews divided by the number of eligible reporting 
+units in the sample) of 1.5% and a cooperation rate (proportion of all cases 
+interviewed divided by all eligible units ever contacted) of 28.6%. 
+
+Keywords:
+Geographic Information > Socioeconomic
+EARTH SCIENCE > Biosphere > Zoology > Corals > Reef Monitoring and Assessment > Baseline studies
+EARTH SCIENCE > Biosphere > Zoology > Corals > Reef Monitoring and Assessment > Socio-economic Survey
+COUNTRY/TERRITORY > United States of America > Hawaii > Hawaii > Hawaii Island (19N155W0003)
+COUNTRY/TERRITORY > United States of America > Hawaii > Honolulu > Oahu (21N157W0003)
+COUNTRY/TERRITORY > United States of America > Hawaii > Maui > Maui Island (20N156W0004)
+COUNTRY/TERRITORY > United States of America > Hawaii > Hawaii > Kauai Island (22N159W0001)
+COUNTRY/TERRITORY > United States of America > Hawaii > Hawaii > Molokai Island (21N157W0001)
+COUNTRY/TERRITORY > United States of America > Hawaii > Maui > Lanai Island (20N156W0002)
+COUNTRY/TERRITORY > United States of America > Hawaiian Islands (21N157W0027)
