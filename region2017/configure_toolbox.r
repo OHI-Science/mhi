@@ -16,7 +16,8 @@ pkgs_check <- pkgs_required[!pkgs_required %in% (.packages())]
 pkgs_installed <- sapply(pkgs_check, FUN = function(x) library(x, character.only = TRUE))
 
 ## set working directory
-setwd("~/github/mhi/region2017")
+setwd("~eschemmel/Documents/github/mhi/region2017")
+
 
 ## load scenario configuration
 conf = ohicore::Conf('conf')
