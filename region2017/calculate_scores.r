@@ -12,7 +12,8 @@
 ## in functions.R is a good workflow.
 
 ## run the configure_toolbox.r script to check configuration
-setwd("~/github/mhi/region2017")
+
+setwd("~eschemmel/Documents/github/mhi/region2017")
 
 source('configure_toolbox.r')
 
