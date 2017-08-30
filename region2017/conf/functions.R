@@ -170,11 +170,18 @@ FIS = function(layers, status_year=2016){
   #dplyr::group_by(rgn_id) %>%
   #summarize(Total=sum(SumCatch))
 
+  #to get sus scores for each fishery
+   status_data_summary <- status_data %>%
+     dplyr::group_by(year,key.x) %>%
+     dplyr::summarize(status = prod(mean_score^wprop))
+
 
   status_data <- status_data %>%
     dplyr::group_by(rgn_id, year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
+
+
 
   # ---
   # STEP 5. Get yearly status and trend
