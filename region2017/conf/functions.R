@@ -735,7 +735,8 @@ CP <- function(layers){
     full_join(health, by=c("rgn_id", "habitat")) %>%
     full_join(trend, by=c("rgn_id", "habitat"))
 
-  ## set ranks for each habitat
+  ## set ranks for each habitat # they are all equally important in Hawaii MHI assessment so all = 1
+
   habitat.rank <- c('reef'            = 1,
                     'wetland'        = 1,
                     'beach' = 1) #need to look up reference for Hawaii coastal protection to justify weighting
@@ -977,106 +978,6 @@ scores <- data.frame(scores)
 return(scores)
 
 }
-
-
-RC = function(layers, status_year=2015) {
-#access is important
-#county and state beach park area
-#national_parks
-
-  parks = SelectLayersData(layers, layers='r_parks', narrow = TRUE) %>%
-     select(
-     rgn_id    = id_num,
-     value          = val_num)
-
-  res <- SelectLayersData(layers, layers = 'r_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
-    select(region_id=id_num, year,res=val_num)
-
-
-  shore = SelectLayersData(layers, layers='r_shoreline', narrow = TRUE) %>%
-    select(
-      rgn_id    = id_num,
-      length          = val_num)
-
-  access = SelectLayersData(layers, layers='ao_access_mhi2017', narrow = TRUE) %>% #score is # shoreline access points/shoreline length in miles
-    select(
-      rgn_id    = id_num,
-      value          = val_num)
-
-  #get score for beach parks based on resident population
-  #rec_d<-res %>%
-  #  mutate(rgn_id=region_id) %>%
-  #  left_join(parks)%>%
-  #  mutate(park_density=res/value)%>%
-
-    rec_d<-res %>%
-      mutate(rgn_id=region_id) %>%
-      left_join(shore) %>%
-      mutate(density=res/length) %>% ## of people per km of shoreline
-      select(rgn_id, year, density)
-
-    #weighting parks score as number of parks weighted by the desity of residents per km of coastline
-    rec_d<-rec_d %>%
-      left_join(parks) %>%
-      mutate(value=value/density) %>%
-      group_by(year)  %>%
-      mutate(score = value/max(value)) %>%
-      select(rgn_id, year,score)
-
-    #join shoreline access data and park scores
-    rec_d<-rec_d %>%
-      left_join(access)%>%
-      mutate(status=(score+value)/2*100) %>%
-      select(rgn_id, year, status)
-
-    #weigthing park score as # of parks per 5 km
-    #rec_d<-parks %>%
-    #  left_join(shore) %>%
-    #  mutate(value=value/(length/5))
-
-
-  # ------------------------------------------------------------------------
-  #Get yearly status and trend
-  # -----------------------------------------------------------------------
-
- status <-  rec_d %>%
-    filter(year==status_year)
- status<-as.data.frame(status)
-
-  status<-status %>%
-   mutate(score     = round(status, 1),
-   dimension = 'status') %>%
-   select(region_id=rgn_id, score, dimension)
-
- trend_years <- status_year:(status_year-4)
- first_trend_year <- min(rec_d$year)
-  status_data=rec_d
-  #str(status_data)
-
-  rec_d<-as.data.frame(rec_d)
-
-  trend <- rec_d %>%
-    #filter(year) %>%
-   group_by(rgn_id) %>%
-   do(mdl = lm(status ~ year, data=.),
-     adjust_trend = .$status[.$year == first_trend_year]) %>%
-    dplyr::summarize(region_id = rgn_id,
-                score = round(coef(mdl)['year']/adjust_trend * 5, 4),
-                   dimension = 'trend') %>%
-   ungroup() %>%
-   mutate(score = ifelse(score > 1, 1, score)) %>%
-   mutate(score = ifelse(score < (-1), (-1), score))
-
-  # assemble dimensions
- scores <- rbind(status, trend) %>%
-   mutate(goal='RC')
- scores <- data.frame(scores)
-
-  return(scores)
-
-}
-
-
 
 
 
@@ -1353,93 +1254,105 @@ LE = function(scores, layers){
   return(scores)
 }
 
-
-ICO = function(layers, status_year=2016){
-    layers_data = SelectLayersData(layers, layers=c('ico_spp_iucn_status'))
-
-  rk <- layers_data %>%
-    select(region_id = id_num, sciname = category, iucn_cat=val_chr, year, layer) %>%
-    mutate(iucn_cat = as.character(iucn_cat))
-
-  #global model
-  # lookup for weights status
-  #  LC <- "LOWER RISK/LEAST CONCERN (LR/LC)"
-  #  NT <- "LOWER RISK/NEAR THREATENED (LR/NT)"
-  #  T  <- "THREATENED (T)" treat as "EN"
-  #  VU <- "VULNERABLE (V)"
-  #  EN <- "ENDANGERED (E)"
-  #  LR/CD <- "LOWER RISK/CONSERVATION DEPENDENT (LR/CD)" treat as between VU and NT
-  #  CR <- "VERY RARE AND BELIEVED TO BE DECREASING IN NUMBERS"
-  #  DD <- "INSUFFICIENTLY KNOWN (K)"
-  #  DD <- "INDETERMINATE (I)"
-  #  DD <- "STATUS INADEQUATELY KNOWN-SURVEY REQUIRED OR DATA SOUGHT"
-
-  #hawaii model
-  #Look up for weights
-  #E<-Endangered = 0.6
-  #T<-Threatened = 0.4
+#this is the "Connection to Place" subgoal of sense of place
+CON = function(layers, status_year=2015){
+#ocean use data from ocean use atlas (# of acitivites that take place in or near the ocean including cultural activities)
 
 
-  w.risk_category = data.frame(iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
-                              risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)) %>%
-                    mutate(status_score = 1-risk_score) %>%
-   mutate(iucn_cat = as.character(iucn_cat))
+  #access is important
+  #county and state beach park area
+  #national_parks
 
-  ####### status
-  # STEP 1: take mean of subpopulation scores
-  r.status_spp <- rk %>%
-    left_join(w.risk_category, by = 'iucn_cat') %>%
-    group_by(region_id, sciname, year) %>%
-    summarize(spp_mean = mean(status_score, na.rm=TRUE)) %>%
-    ungroup()
+  parks = SelectLayersData(layers, layers='r_parks', narrow = TRUE) %>%
+    select(
+      rgn_id    = id_num,
+      value          = val_num)
 
-  # STEP 2: take mean of populations within regions
-  r.status <- r.status_spp %>%
-    group_by(region_id, year) %>%
-    summarize(score = mean(spp_mean, na.rm=TRUE)) %>%
-    ungroup()
-
-  ####### trend
-  trend_years <- c(status_year:(status_year - 9)) # trend based on 10 years of data, due to infrequency of IUCN assessments
-  adj_trend_year <- min(trend_years)
+  res <- SelectLayersData(layers, layers = 'r_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
+    select(region_id=id_num, year,res=val_num)
 
 
-  r.trend <- r.status %>%
-    group_by(region_id) %>%
-    do(mdl = lm(score ~ year, data=., subset=year %in% trend_years),
-                adjust_trend = .$score[.$year == adj_trend_year]) %>%
-    summarize(region_id,
-              trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
+  shore = SelectLayersData(layers, layers='r_shoreline', narrow = TRUE) %>%
+    select(
+      rgn_id    = id_num,
+      length          = val_num)
+
+  access = SelectLayersData(layers, layers='ao_access_mhi2017', narrow = TRUE) %>% #score is # shoreline access points/shoreline length in miles
+    select(
+      rgn_id    = id_num,
+      value          = val_num)
+
+  #get score for beach parks based on resident population
+  #rec_d<-res %>%
+  #  mutate(rgn_id=region_id) %>%
+  #  left_join(parks)%>%
+  #  mutate(park_density=res/value)%>%
+
+  rec_d<-res %>%
+    mutate(rgn_id=region_id) %>%
+    left_join(shore) %>%
+    mutate(density=res/length) %>% ## of people per km of shoreline
+    select(rgn_id, year, density)
+
+  #weighting parks score as number of parks weighted by the desity of residents per km of coastline
+  rec_d<-rec_d %>%
+    left_join(parks) %>%
+    mutate(value=value/density) %>%
+    group_by(year)  %>%
+    mutate(score = value/max(value)) %>%
+    select(rgn_id, year,score)
+
+  #join shoreline access data and park scores
+  rec_d<-rec_d %>%
+    left_join(access)%>%
+    mutate(status=(score+value)/2*100) %>%
+    select(rgn_id, year, status)
+
+  #weigthing park score as # of parks per 5 km
+  #rec_d<-parks %>%
+  #  left_join(shore) %>%
+  #  mutate(value=value/(length/5))
+
+
+  # ------------------------------------------------------------------------
+  #Get yearly status and trend
+  # -----------------------------------------------------------------------
+
+  status <-  rec_d %>%
+    filter(year==status_year)
+  status<-as.data.frame(status)
+
+  status<-status %>%
+    mutate(score     = round(status, 1),
+           dimension = 'status') %>%
+    select(region_id=rgn_id, score, dimension)
+
+  trend_years <- status_year:(status_year-4)
+  first_trend_year <- min(rec_d$year)
+  status_data=rec_d
+  #str(status_data)
+
+  rec_d<-as.data.frame(rec_d)
+
+  trend <- rec_d %>%
+    #filter(year) %>%
+    group_by(rgn_id) %>%
+    do(mdl = lm(status ~ year, data=.),
+       adjust_trend = .$status[.$year == first_trend_year]) %>%
+    dplyr::summarize(region_id = rgn_id,
+                     score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+                     dimension = 'trend') %>%
     ungroup() %>%
-    mutate(trend = ifelse(trend>1, 1, trend)) %>%
-    mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
-    mutate(trend = round(trend, 4)) %>%
-    select(region_id, score = trend) %>%
-    mutate(dimension = "trend")
+    mutate(score = ifelse(score > 1, 1, score)) %>%
+    mutate(score = ifelse(score < (-1), (-1), score))
 
+  # assemble dimensions
+  scores <- rbind(status, trend) %>%
+    mutate(goal='CON')
+  scores <- data.frame(scores)
 
-  ####### status
-  r.status <- r.status %>%
-    filter(year == status_year) %>%
-    mutate(score = score * 100) %>%
-    mutate(dimension = "status") %>%
-    select(region_id, score, dimension)
-
-  ## reference points
-  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "ICO", method = "scaled IUCN risk categories",
-                     reference_point = NA))
-  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
-
-  scores$score[scores$goal == 'ICO'] = NA
-
-  # return scores
-  scores <-  rbind(r.status, r.trend) %>%
-    mutate('goal'='ICO') %>%
-    select(goal, dimension, region_id, score) %>%
-    data.frame()
-  scores$score[scores$goal == 'ICO'] = NA
   return(scores)
+
 
 }
 
