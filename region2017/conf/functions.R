@@ -16,10 +16,6 @@ FIS = function(layers, status_year=2016){
       value           = val_num)
 
 
-  r = SelectLayersData(layers, layer='fis_reef_catch_multiplier', narrow = TRUE) %>% #weight to multiply commercial catch data to estimate and add on recreational catch data for CHCR fishery
-    select(
-      rgn_id         = id_num,
-      value           = val_num)
 
     # formatting:
   c <- c %>%
@@ -84,7 +80,7 @@ FIS = function(layers, status_year=2016){
     left_join(b, by=c('rgn_id', 'species', 'year'))%>%
     select(rgn_id, species, year, catch, key.x, score)
 
-
+sum(is.na(data_fis$score))
   # ---
   # STEP 2. Estimate scores for taxa without stock assessment values
   # Median score of other fish in the taxon group ("key.x"; bottom, pelagic, or reef fish) is an estimate
@@ -740,7 +736,7 @@ CP <- function(layers){
     full_join(trend, by=c("rgn_id", "habitat"))
 
   ## set ranks for each habitat
-  habitat.rank <- c('reef'            = 2,
+  habitat.rank <- c('reef'            = 1,
                     'wetland'        = 1,
                     'beach' = 1) #need to look up reference for Hawaii coastal protection to justify weighting
 
