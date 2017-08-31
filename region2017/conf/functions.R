@@ -1,5 +1,4 @@
 FIS = function(layers, status_year=2016){
-
   #catch data
   c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>%
     select(
@@ -17,7 +16,7 @@ FIS = function(layers, status_year=2016){
 
 
 
-    # formatting:
+  # formatting:
   c <- c %>%
     mutate(stock_key=as.character(stock_key))%>%
     mutate(key=str_sub(stock_key, -4))%>%
@@ -67,12 +66,12 @@ FIS = function(layers, status_year=2016){
 
   #removed unnderharvesting penalty
   # b$score = ifelse(!is.na(b$score), b$score,
-#                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
-#                          1 - alpha*(b$value - upperBuffer),
-#                          beta))
+  #                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
+  #                          1 - alpha*(b$value - upperBuffer),
+  #                          beta))
   b$score = ifelse(!is.na(b$score), b$score,
-  ifelse(1 - alpha*(b$value - upperBuffer) > beta,
-                  1,b$score))
+                   ifelse(1 - alpha*(b$value - upperBuffer) > beta,
+                          1,b$score))
   # ---
   # STEP 1. Merge the b/bmsy data with catch data
   # ---
@@ -80,7 +79,7 @@ FIS = function(layers, status_year=2016){
     left_join(b, by=c('rgn_id', 'species', 'year'))%>%
     select(rgn_id, species, year, catch, key.x, score)
 
-sum(is.na(data_fis$score))
+  sum(is.na(data_fis$score))
   # ---
   # STEP 2. Estimate scores for taxa without stock assessment values
   # Median score of other fish in the taxon group ("key.x"; bottom, pelagic, or reef fish) is an estimate
@@ -95,12 +94,12 @@ sum(is.na(data_fis$score))
 
 
   ## this takes the median score across all regions (when no stocks have scores within a region)
- # data_fis_gf <- data_fis_gf %>%
-#    group_by(year, key.x) %>%
- #   mutate(Median_score_global = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+  # data_fis_gf <- data_fis_gf %>%
+  #    group_by(year, key.x) %>%
+  #   mutate(Median_score_global = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
   #  ungroup() %>%
-   # mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
-    #select(-Median_score_global)
+  # mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
+  #select(-Median_score_global)
 
   #  *************NOTE *****************************
   #  In some cases, it may make sense to alter the
@@ -114,7 +113,7 @@ sum(is.na(data_fis$score))
   #didn't apply a penalty to taxon reported to family since there are only two - misc parrots and misc ulua
   #instead used the lowest stock assessment value reported for the family and applied to the category
   #penaltyTable <- data.frame(TaxonPenaltyCode=1:2,
-   #                          penalty=c(1, 0.5))
+  #                          penalty=c(1, 0.5))
 
   data_fis_gf <- data_fis_gf %>%
     mutate(score_gf = Median_score) %>%
@@ -125,9 +124,9 @@ sum(is.na(data_fis$score))
   data_fis_gf <- data_fis_gf %>%
     select(rgn_id, species, key.x, year, catch, score, score_gapfilled)
 
-##  status_data <- data_fis_gf %>%
-##   select(rgn_id, species, year, catch, score)
- ##filter(year == status_year)
+  ##  status_data <- data_fis_gf %>%
+  ##   select(rgn_id, species, year, catch, score)
+  ##filter(year == status_year)
 
 
   # ---
@@ -152,24 +151,24 @@ sum(is.na(data_fis$score))
     group_by(key.x) %>% #summarize catch data
     dplyr::summarize(catch = sum(catch), mean_score=mean(mean_score))
 
-   status_data <- status_data %>% #join with recreational catch multiplier
-    left_join(r)
+  #status_data <- status_data %>% #join with recreational catch multiplier
+  #  left_join(r)
 
-   status_data <- status_data %>%
-    dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
+  status_data <- status_data %>%
+    #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
     group_by(rgn_id,year)%>%
-    dplyr::mutate(SumCatch = sum(catch_w))%>%
-    dplyr::mutate(wprop = catch_w/SumCatch)
+    dplyr::mutate(SumCatch = sum(catch))%>%
+    dplyr::mutate(wprop = catch/SumCatch)
 
-   #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
+  #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
   #total_fisheries_c<-status_data %>%
   #dplyr::group_by(rgn_id) %>%
   #summarize(Total=sum(SumCatch))
 
   #to get sus scores for each fishery
-   status_data_summary <- status_data %>%
-     dplyr::group_by(year,key.x) %>%
-     dplyr::summarize(status = prod(mean_score^wprop))
+  status_data_summary <- status_data %>%
+    dplyr::group_by(year,key.x) %>%
+    dplyr::summarize(status = prod(mean_score^wprop))
 
 
   status_data <- status_data %>%
@@ -182,7 +181,7 @@ sum(is.na(data_fis$score))
   # ---
   # STEP 5. Get yearly status and trend
   # ---
-#status_year=2016 #2016 ## @jules32 moved this to the function call and deleted from conf/goals.csv too
+  #status_year=2016 #2016 ## @jules32 moved this to the function call and deleted from conf/goals.csv too
 
   status <-  status_data %>%
     filter(year==status_year) %>%
@@ -193,18 +192,18 @@ sum(is.na(data_fis$score))
 
   trend_years <- (status_year-4):(status_year)###need to set status year or adjust this year value for each assessment
 
-   first_trend_year <- min(trend_years)
+  first_trend_year <- min(trend_years)
 
   status_data<-as.data.frame(status_data)
 
-   trend <- status_data %>%
+  trend <- status_data %>%
     filter(year %in% trend_years) %>%
     dplyr::group_by(rgn_id) %>%
     do(mdl = lm(status ~ year, data=.),
        adjust_trend = .$status[.$year == first_trend_year]) %>%
     dplyr::summarize(region_id = rgn_id,
-              score = round(coef(mdl)['year']/adjust_trend * 5, 4),
-              dimension = 'trend') %>%
+                     score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+                     dimension = 'trend') %>%
     ungroup() %>%
     dplyr::mutate(score = ifelse(score > 1, 1, score)) %>%
     dplyr::mutate(score = ifelse(score < (-1), (-1), score))
@@ -1502,9 +1501,9 @@ r.yrs = r.yrs %>%
 
 SP = function(scores){
 
-  ## to calculate the four SP dimesions, average those dimensions for ICO and LSP
+  ## to calculate the four SP dimesions, average those dimensions for CON and LSP
   s <- scores %>%
-    filter(goal %in% c('ICO','LSP'),
+    filter(goal %in% c('CON','LSP'),
            dimension %in% c('status', 'trend', 'future', 'score')) %>%
     group_by(region_id, dimension) %>%
     summarize(score = mean(score, na.rm=TRUE)) %>%
