@@ -676,24 +676,24 @@ CS <- function(layers){
         goal = 'CS') %>%
       select(region_id=rgn_id, goal, dimension, score)
 
-    scores_CS$score[scores_CS$goal == 'CS'] = NA
+    scores_CS$score[scores_CS$goal == 'CS']
 
   } else { ## else -- if sum(d$km2) is not greater than 0
 
      ## set status and trend to NA for all regions
-      message('CS status and trend are NA, consider removing goal if no CS habitats in assessment area')
+     # message('CS status and trend are NA, consider removing goal if no CS habitats in assessment area')
 
-      rgns <-layers$data[['rgn_labels']]
-      scores_CS <- bind_rows(
-        rgns %>%
-        mutate(goal      = 'CS',
-               dimension = 'status',
-               score     = NA),
-      rgns %>%
-        mutate(goal      = 'CS',
-               dimension = 'trend',
-               score     = NA)) %>%
-        select(goal, dimension, region_id = rgn_id, score)
+     # rgns <-layers$data[['rgn_labels']]
+     # scores_CS <- bind_rows(
+      #  rgns %>%
+      #  mutate(goal      = 'CS',
+      #         dimension = 'status',
+      #         score     = NA),
+      #rgns %>%
+      #  mutate(goal      = 'CS',
+      #         dimension = 'trend',
+      #         score     = NA)) %>%
+      #  select(goal, dimension, region_id = rgn_id, score)
 
 
 
