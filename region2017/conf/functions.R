@@ -750,10 +750,11 @@ CP <- function(layers){
   ## output file to temp folder that describes how much each habitat
   ## contributes to the score based on rank and extent
   ## this output is for the dataplayground website
+  #this section needs to be updated - weight all habitats equally - each have a role in coastal protection
   dp <- d %>%
     mutate(weighted_cont = rank*extent) %>%
     filter(!is.na(weighted_cont)) %>%
-    group_by(rgn_id) %>%
+    dplyr::group_by(rgn_id) %>%
     mutate(prop_score = weighted_cont/sum(weighted_cont)) %>%
     mutate(prop_score = round(prop_score, 3)) %>%
     select(rgn_id, habitat, prop_score)
@@ -762,12 +763,17 @@ CP <- function(layers){
    #status and trend models; ensure at least one habitat-region has extent (km2) > 0, otherwise set NA.
   #if (sum(d$km2, na.rm=TRUE) > 0){
     # status
+
+  #remove extent from model to set all habitats equal in weight = to add back in habitat weights then multiply score* extent
    scores_CP <- d %>%
       filter(!is.na(rank) & !is.na(health) & !is.na(extent)) %>%
      group_by(rgn_id) %>%
-     dplyr::summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
-                               (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
-      mutate(dimension = 'status') %>%
+     #dplyr::summarize(score = pmin(1, sum(rank * health * extent, na.rm=TRUE) /
+      #                         (sum(extent * rank, na.rm=TRUE)) ) * 100) %>%
+     dplyr::summarize(score = pmin(1, sum(rank * health, na.rm=TRUE) /
+                              (sum(rank, na.rm=TRUE)) ) * 100) %>%
+
+     mutate(dimension = 'status') %>%
       ungroup()
 
 
@@ -1281,6 +1287,7 @@ CON = function(layers, status_year=2015){
       rgn_id    = id_num,
       value          = val_num)
 
+
   #get score for beach parks based on resident population
   #rec_d<-res %>%
   #  mutate(rgn_id=region_id) %>%
@@ -1301,7 +1308,7 @@ CON = function(layers, status_year=2015){
     mutate(score = value/max(value)) %>%
     select(rgn_id, year,score)
 
-  #join shoreline access data and park scores
+    #join shoreline access data and park scores
   rec_d<-rec_d %>%
     left_join(access)%>%
     mutate(status=(score+value)/2*100) %>%
