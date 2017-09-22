@@ -1,54 +1,105 @@
 FIS = function(layers, status_year=2016){
   #catch data
-  c = SelectLayersData(layers, layers='fis_catch', narrow = TRUE) %>%
+  reef = SelectLayersData(layers, layers='fis_reef_catch', narrow = TRUE) %>%
     select(
       rgn_id    = id_num,
-      stock_key = category,
+      key_sp = category,
       year,
       catch          = val_num)
-  # stock assessment score data
-  b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>%
+
+ deep = SelectLayersData(layers, layers='fis_deep_catch', narrow = TRUE) %>%
     select(
-      rgn_id         = id_num,
-      stock_key      = category,
+      rgn_id    = id_num,
+      key_sp = category,
+      year,
+      catch          = val_num)
+
+  coast_pelagic = SelectLayersData(layers, layers='fis_coast_pelagic_catch', narrow = TRUE) %>%
+   select(
+     rgn_id    = id_num,
+     key_sp = category,
+     year,
+     catch          = val_num)
+
+  pelagic = SelectLayersData(layers, layers='fis_pelagic_catch', narrow = TRUE) %>%
+    select(
+      rgn_id    = id_num,
+      key_sp = category,
+      year,
+      catch          = val_num)
+
+  # stock assessment score data
+  b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>% #has rgn_id (will also need to use fish_sus for fisheries that are not separated out into regions)
+    select(
+     rgn_id         = id_num,
+      key_sp      = category,
       year,
       value           = val_num)
 
-
-
-  # formatting:
-  c <- c %>%
-    mutate(stock_key=as.character(stock_key))%>%
-    mutate(key=str_sub(stock_key, -4))%>%
-    mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
+  reef <- reef %>%
+    mutate(key_sp=as.character(key_sp))%>%
     mutate(catch = as.numeric(catch)) %>%
-    mutate(year = as.numeric(as.character(year))) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
-    mutate(key = as.character(key)) %>%
-    select(rgn_id, year, species,key, catch)
+    mutate(year = as.numeric(as.character(year))) %>%
+    select(rgn_id, year, key_sp, catch)
+
+  reef <- reef %>%
+    mutate(key_sp=as.character(key_sp))%>%
+    mutate(catch = as.numeric(catch)) %>%
+    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
+    mutate(year = as.numeric(as.character(year))) %>%
+    select(rgn_id, year, key_sp, catch)
+
+  pelagic <-pelagic %>%
+    mutate(key_sp=as.character(key_sp))%>%
+    mutate(catch = as.numeric(catch)) %>%
+    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
+    mutate(year = as.numeric(as.character(year))) %>%
+    select(rgn_id, year, key_sp, catch)
+
+  coast_pelagic<- coast_pelagic %>%
+    mutate(key_sp=as.character(key_sp))%>%
+    mutate(catch = as.numeric(catch)) %>%
+    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
+    mutate(year = as.numeric(as.character(year))) %>%
+    select(rgn_id, year, key_sp, catch)
+
+  deep <- deep %>%
+    mutate(key_sp=as.character(key_sp))%>%
+    mutate(catch = as.numeric(catch)) %>%
+    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
+    mutate(year = as.numeric(as.character(year))) %>%
+    select(rgn_id, year, key_sp, catch)
+
 
   # general formatting:
   b <- b %>%
-    mutate(stock_key=as.character(stock_key))%>%
-    mutate(key=str_sub(stock_key, -4))%>%
-    mutate(species=substr(stock_key, 1, nchar(stock_key)-5))%>%
+    mutate(key_sp=as.character(key_sp))%>%
     mutate(value = as.numeric(value)) %>%
     mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
     mutate(year = as.numeric(as.character(year))) %>%
-    mutate(species = as.character(species)) %>%
-    mutate(key = as.character(key)) %>%
-    select(rgn_id, year, species,key, value)
+    select(rgn_id, year, key_sp, value)
 
-  # The following stocks are fished in multiple regions and have high b/bmsy values
-  # Due to the underfishing penalty, this actually penalizes the regions that have the highest
-  # proportion of catch of these stocks.  The following corrects this problem:
-  #  filter(b, stock_id %in% c('Katsuwonus_pelamis-71', 'Clupea_harengus-27', 'Trachurus_capensis-47'))
 
-  high_bmsy <- c('Tombo',"Taape", "Menpachi", "Munu","Roi")
-
-  b <- b %>%
-    mutate(value = ifelse(species %in% high_bmsy, 1, value))#not sure this is working
-
+#separate Family 4 letter code back out to use to apply median family sustainability scores for species with no formal stock assessment
+  reef<-reef %>%
+    mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
+    mutate(code="reef")
+  pelagic<-pelagic %>%
+    mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
+    mutate(code="pelagic")
+  deep<-deep %>%
+    mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
+    mutate(code="deef")
+  coast_pelagic<-coast_pelagic %>%
+    mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
+    mutate(code="coast_pelagic")
+  fis_data<-coast_pelagic %>%
+    rbind(pelagic)
+  fis_data<-fis_data %>%
+   rbind(deep)
+  fis_data<-fis_data %>%
+     rbind(reef)
 
   # ---
   ## STEP 1. Calculate scores for Bbmsy values
@@ -73,11 +124,12 @@ FIS = function(layers, status_year=2016){
                    ifelse(1 - alpha*(b$value - upperBuffer) > beta,
                           1,b$score))
   # ---
-  # STEP 1. Merge the b/bmsy data with catch data
-  # ---
-  data_fis <- c %>%
-    left_join(b, by=c('rgn_id', 'species', 'year'))%>%
-    select(rgn_id, species, year, catch, key.x, score)
+  # STEP 1. Merge the b/bmsy data with catch data #
+
+  fis_data <- fis_data %>%
+    left_join(b) %>%
+    select(rgn_id, year, code, catch, key_sp, Fam, score)
+
 
   sum(is.na(data_fis$score))
   # ---

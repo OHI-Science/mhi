@@ -1,433 +1,348 @@
-year,rgn_id,island,mus,family,X6,species,licenses,catch
-2012,0,Cross Seamount,PMUS,Scombridae,NA,Yellowfin tuna,11,97952
-2012,0,Cross Seamount,PMUS,Scombridae,NA,Bigeye tuna,14,716406
-2012,0,Cross Seamount,PMUS,Coryphaenidae,NA,Mahimahi,12,13355
-2012,0,Cross Seamount,PMUS,Scombridae,NA,Ono,9,1102
-2012,0,Cross Seamount,PMUS,Scombridae,NA,Aku,9,5263
-2012,0,Cross Seamount,PMUS,Istiophoridae,NA,Blue marlin,4,4804
-2012,0,Cross Seamount,PMUS,Scombridae,NA,Tombo,3,703
-2012,0,Cross Seamount,PMUS,Bramidae,NA,Monchong,6,11548
-2012,0,Cross Seamount,PMUS,Istiophoridae,NA,S.N. spearfish,4,327
-2012,0,Cross Seamount,PMUS,Exocoetidae,NA,Walu,4,1667
-2013,0,Cross Seamount,PMUS,Scombridae,NA,Yellowfin tuna,10,100636
-2013,0,Cross Seamount,PMUS,Scombridae,NA,Bigeye tuna,15,880658
-2013,0,Cross Seamount,PMUS,Coryphaenidae,NA,Mahimahi,11,9201
-2013,0,Cross Seamount,PMUS,Scombridae,NA,Ono,10,2707
-2013,0,Cross Seamount,PMUS,Scombridae,NA,Aku,10,12530
-2013,0,Cross Seamount,PMUS,Istiophoridae,NA,Blue marlin,8,7278
-2013,0,Cross Seamount,PMUS,Scombridae,NA,Tombo,7,2829
-2013,0,Cross Seamount,PMUS,Bramidae,NA,Monchong,7,21553
-2013,0,Cross Seamount,PMUS,Istiophoridae,NA,S.N. spearfish,7,1156
-2013,0,Cross Seamount,PMUS,Istiophoridae,NA,Striped marlin,5,1766
-2013,0,Cross Seamount,PMUS,Xiphiidae,NA,Swordfish,6,2886
-2013,0,Cross Seamount,PMUS,Lamnidae,NA,Mako,3,723
-2013,0,Cross Seamount,PMUS,Exocoetidae,NA,Walu,7,2589
-2013,0,Cross Seamount,PMUS,Carcharhinidae,NA,Blue shark,3,300
-2014,0,Cross Seamount,PMUS,Scombridae,NA,Yellowfin tuna,9,66792
-2014,0,Cross Seamount,PMUS,Scombridae,NA,Bigeye tuna,9,418122
-2014,0,Cross Seamount,PMUS,Coryphaenidae,NA,Mahimahi,8,7592
-2014,0,Cross Seamount,PMUS,Scombridae,NA,Ono,5,1588
-2014,0,Cross Seamount,PMUS,Scombridae,NA,Aku,8,2507
-2014,0,Cross Seamount,PMUS,Istiophoridae,NA,Blue marlin,7,7160
-2014,0,Cross Seamount,PMUS,Scombridae,NA,Tombo,5,1706
-2014,0,Cross Seamount,PMUS,Bramidae,NA,Monchong,4,18047
-2014,0,Cross Seamount,PMUS,Istiophoridae,NA,S.N. spearfish,5,1039
-2014,0,Cross Seamount,PMUS,Xiphiidae,NA,Swordfish,4,995
-2014,0,Cross Seamount,PMUS,Exocoetidae,NA,Walu,4,1336
-2015,0,Cross Seamount,PMUS,Scombridae,NA,Yellowfin tuna,8,50274
-2015,0,Cross Seamount,PMUS,Scombridae,NA,Bigeye tuna,9,430102
-2015,0,Cross Seamount,PMUS,Coryphaenidae,NA,Mahimahi,7,4628
-2015,0,Cross Seamount,PMUS,Scombridae,NA,Ono,5,1613
-2015,0,Cross Seamount,PMUS,Scombridae,NA,Aku,7,2864
-2015,0,Cross Seamount,PMUS,Istiophoridae,NA,Blue marlin,5,5644
-2015,0,Cross Seamount,PMUS,Bramidae,NA,Monchong,4,3725
-2015,0,Cross Seamount,PMUS,Istiophoridae,NA,S.N. spearfish,7,749
-2015,0,Cross Seamount,PMUS,Istiophoridae,NA,Striped marlin,3,1024
-2015,0,Cross Seamount,PMUS,Xiphiidae,NA,Swordfish,3,1068
-2015,0,Cross Seamount,PMUS,Lamnidae,NA,Mako,3,1126
-2015,0,Cross Seamount,PMUS,Exocoetidae,NA,Walu,5,386
-2016,0,Cross Seamount,PMUS,Scombridae,NA,Yellowfin tuna,6,55207
-2016,0,Cross Seamount,PMUS,Scombridae,NA,Bigeye tuna,6,349087
-2016,0,Cross Seamount,PMUS,Coryphaenidae,NA,Mahimahi,6,615
-2016,0,Cross Seamount,PMUS,Scombridae,NA,Ono,5,247
-2016,0,Cross Seamount,PMUS,Scombridae,NA,Aku,5,868
-2016,0,Cross Seamount,PMUS,Scombridae,NA,Tombo,3,464
-2016,0,Cross Seamount,PMUS,Bramidae,NA,Monchong,4,10565
-2012,0,NOAA WB,PMUS,Scombridae,NA,Yellowfin tuna,4,3389
-2012,0,NOAA WB,PMUS,Scombridae,NA,Bigeye tuna,6,22039
-2012,0,NOAA WB,PMUS,Coryphaenidae,NA,Mahimahi,7,6303
-2012,0,NOAA WB,PMUS,Scombridae,NA,Ono,3,196
-2012,0,NOAA WB,PMUS,Scombridae,NA,Aku,4,589
-2013,0,NOAA WB,PMUS,Scombridae,NA,Yellowfin tuna,5,3304
-2013,0,NOAA WB,PMUS,Scombridae,NA,Bigeye tuna,6,44820
-2013,0,NOAA WB,PMUS,Coryphaenidae,NA,Mahimahi,7,6991
-2013,0,NOAA WB,PMUS,Scombridae,NA,Ono,3,233
-2013,0,NOAA WB,PMUS,Scombridae,NA,Aku,4,665
-2012,0,Other offshore,PMUS,Scombridae,NA,Yellowfin tuna,7,873
-2012,0,Other offshore,PMUS,Scombridae,NA,Ono,6,4948
-2013,0,Other offshore,PMUS,Scombridae,NA,Yellowfin tuna,4,16077
-2013,0,Other offshore,PMUS,Coryphaenidae,NA,Mahimahi,5,995
-2013,0,Other offshore,PMUS,Scombridae,NA,Ono,5,1244
-2014,0,Other offshore,PMUS,Scombridae,NA,Yellowfin tuna,8,2122
-2014,0,Other offshore,PMUS,Coryphaenidae,NA,Mahimahi,4,155
-2014,0,Other offshore,PMUS,Scombridae,NA,Ono,5,4068
-2015,0,Other offshore,PMUS,Scombridae,NA,Yellowfin tuna,7,3259
-2015,0,Other offshore,PMUS,Scombridae,NA,Bigeye tuna,6,27223
-2015,0,Other offshore,PMUS,Coryphaenidae,NA,Mahimahi,6,1887
-2015,0,Other offshore,PMUS,Scombridae,NA,Ono,6,3401
-2015,0,Other offshore,PMUS,Scombridae,NA,Aku,4,310
-2015,0,Other offshore,PMUS,Bramidae,NA,Monchong,3,353
-2016,0,Other offshore,PMUS,Coryphaenidae,NA,Mahimahi,5,765
-2016,0,Other offshore,PMUS,Scombridae,NA,Ono,4,1603
-2012,1,Hawaii,PMUS,Scombridae,NA,Yellowfin tuna,572,1003857
-2012,1,Hawaii,PMUS,Scombridae,NA,Bigeye tuna,174,251332
-2012,1,Hawaii,PMUS,Coryphaenidae,NA,Mahimahi,533,344688
-2012,1,Hawaii,PMUS,Scombridae,NA,Ono,569,262911
-2012,1,Hawaii,PMUS,Scombridae,NA,Aku,313,88083
-2012,1,Hawaii,PMUS,Istiophoridae,NA,Blue marlin,220,147167
-2012,1,Hawaii,PMUS,Scombridae,NA,Tombo,250,562319
-2012,1,Hawaii,PMUS,Bramidae,NA,Monchong,21,9295
-2012,1,Hawaii,PMUS,Istiophoridae,NA,S.N. spearfish,118,14151
-2012,1,Hawaii,PMUS,Istiophoridae,NA,Striped marlin,70,7169
-2012,1,Hawaii,PMUS,Scombridae,NA,Kawakawa,35,697
-2012,1,Hawaii,PMUS,Xiphiidae,NA,Swordfish,57,14196
-2012,1,Hawaii,PMUS,Istiophoridae,NA,Black marlin,10,2255
-2012,1,Hawaii,PMUS,Istiophoridae,NA,Sailfish,10,701
-2012,1,Hawaii,PMUS,Alopiidae,NA,Thresher shark,22,3164
-2012,1,Hawaii,PMUS,Lamnidae,NA,Mako,11,1613
-2012,1,Hawaii,PMUS,Exocoetidae,NA,Walu,8,268
-2012,1,Hawaii,PMUS,Scombridae,NA,Tuna-misc.,5,1293
-2012,1,Hawaii,PMUS,Scombridae,NA,Keokeo,4,84
-2013,1,Hawaii,PMUS,Scombridae,NA,Yellowfin tuna,548,1178558
-2013,1,Hawaii,PMUS,Scombridae,NA,Bigeye tuna,188,290378
-2013,1,Hawaii,PMUS,Coryphaenidae,NA,Mahimahi,522,254074
-2013,1,Hawaii,PMUS,Scombridae,NA,Ono,573,260548
-2013,1,Hawaii,PMUS,Scombridae,NA,Aku,267,71446
-2013,1,Hawaii,PMUS,Istiophoridae,NA,Blue marlin,222,129479
-2013,1,Hawaii,PMUS,Scombridae,NA,Tombo,156,104248
-2013,1,Hawaii,PMUS,Bramidae,NA,Monchong,36,39341
-2013,1,Hawaii,PMUS,Istiophoridae,NA,S.N. spearfish,118,14093
-2013,1,Hawaii,PMUS,Istiophoridae,NA,Striped marlin,58,6065
-2013,1,Hawaii,PMUS,Scombridae,NA,Kawakawa,29,943
-2013,1,Hawaii,PMUS,Xiphiidae,NA,Swordfish,44,14781
-2013,1,Hawaii,PMUS,Istiophoridae,NA,Black marlin,12,3380
-2013,1,Hawaii,PMUS,Istiophoridae,NA,Sailfish,13,899
-2013,1,Hawaii,PMUS,Alopiidae,NA,Thresher shark,12,1345
-2013,1,Hawaii,PMUS,Lamnidae,NA,Mako,6,815
-2013,1,Hawaii,PMUS,Exocoetidae,NA,Walu,9,448
-2013,1,Hawaii,PMUS,Scombridae,NA,Tuna-misc.,4,168
-2013,1,Hawaii,PMUS,Carcharhinidae,NA,Blue shark,3,0
-2013,1,Hawaii,PMUS,Carcharhinidae,NA,Oceanic whitetip,6,80
-2013,1,Hawaii,PMUS,Scombridae,NA,Keokeo,3,85
-2014,1,Hawaii,PMUS,Scombridae,NA,Yellowfin tuna,573,1241338
-2014,1,Hawaii,PMUS,Scombridae,NA,Bigeye tuna,184,250672
-2014,1,Hawaii,PMUS,Coryphaenidae,NA,Mahimahi,524,349617
-2014,1,Hawaii,PMUS,Scombridae,NA,Ono,583,292721
-2014,1,Hawaii,PMUS,Scombridae,NA,Aku,278,61938
-2014,1,Hawaii,PMUS,Istiophoridae,NA,Blue marlin,227,155614
-2014,1,Hawaii,PMUS,Scombridae,NA,Tombo,174,111298
-2014,1,Hawaii,PMUS,Bramidae,NA,Monchong,24,37469
-2014,1,Hawaii,PMUS,Istiophoridae,NA,S.N. spearfish,101,10562
-2014,1,Hawaii,PMUS,Istiophoridae,NA,Striped marlin,68,7485
-2014,1,Hawaii,PMUS,Scombridae,NA,Kawakawa,61,2433
-2014,1,Hawaii,PMUS,Xiphiidae,NA,Swordfish,62,16814
-2014,1,Hawaii,PMUS,Istiophoridae,NA,Black marlin,11,2225
-2014,1,Hawaii,PMUS,Istiophoridae,NA,Sailfish,17,1178
-2014,1,Hawaii,PMUS,Alopiidae,NA,Thresher shark,12,1916
-2014,1,Hawaii,PMUS,Exocoetidae,NA,Walu,14,344
-2014,1,Hawaii,PMUS,Scombridae,NA,Tuna-misc.,6,103
-2014,1,Hawaii,PMUS,Carcharhinidae,NA,Oceanic whitetip,3,0
-2015,1,Hawaii,PMUS,Scombridae,NA,Yellowfin tuna,535,1176385
-2015,1,Hawaii,PMUS,Scombridae,NA,Bigeye tuna,115,106997
-2015,1,Hawaii,PMUS,Coryphaenidae,NA,Mahimahi,483,274956
-2015,1,Hawaii,PMUS,Scombridae,NA,Ono,537,275308
-2015,1,Hawaii,PMUS,Scombridae,NA,Aku,262,42465
-2015,1,Hawaii,PMUS,Istiophoridae,NA,Blue marlin,252,153758
-2015,1,Hawaii,PMUS,Scombridae,NA,Tombo,165,143860
-2015,1,Hawaii,PMUS,Bramidae,NA,Monchong,31,27631
-2015,1,Hawaii,PMUS,Istiophoridae,NA,S.N. spearfish,102,14442
-2015,1,Hawaii,PMUS,Istiophoridae,NA,Striped marlin,60,8020
-2015,1,Hawaii,PMUS,Scombridae,NA,Kawakawa,75,3925
-2015,1,Hawaii,PMUS,Xiphiidae,NA,Swordfish,63,11982
-2015,1,Hawaii,PMUS,Istiophoridae,NA,Black marlin,16,2301
-2015,1,Hawaii,PMUS,Istiophoridae,NA,Sailfish,24,2775
-2015,1,Hawaii,PMUS,Alopiidae,NA,Thresher shark,6,1863
-2015,1,Hawaii,PMUS,Lamnidae,NA,Mako,3,831
-2015,1,Hawaii,PMUS,Exocoetidae,NA,Walu,9,236
-2015,1,Hawaii,PMUS,Scombridae,NA,Tuna-misc.,5,253
-2015,1,Hawaii,PMUS,Carcharhinidae,NA,Oceanic whitetip,6,0
-2015,1,Hawaii,PMUS,Scombridae,NA,Keokeo,4,14
-2016,1,Hawaii,PMUS,Scombridae,NA,Yellowfin tuna,467,740211
-2016,1,Hawaii,PMUS,Scombridae,NA,Bigeye tuna,136,128835
-2016,1,Hawaii,PMUS,Coryphaenidae,NA,Mahimahi,384,190230
-2016,1,Hawaii,PMUS,Scombridae,NA,Ono,456,166182
-2016,1,Hawaii,PMUS,Scombridae,NA,Aku,219,47913
-2016,1,Hawaii,PMUS,Istiophoridae,NA,Blue marlin,207,105665
-2016,1,Hawaii,PMUS,Scombridae,NA,Tombo,113,52097
-2016,1,Hawaii,PMUS,Bramidae,NA,Monchong,27,29422
-2016,1,Hawaii,PMUS,Istiophoridae,NA,S.N. spearfish,126,21601
-2016,1,Hawaii,PMUS,Istiophoridae,NA,Striped marlin,66,7797
-2016,1,Hawaii,PMUS,Scombridae,NA,Kawakawa,69,2885
-2016,1,Hawaii,PMUS,Xiphiidae,NA,Swordfish,37,8757
-2016,1,Hawaii,PMUS,Istiophoridae,NA,Black marlin,16,2926
-2016,1,Hawaii,PMUS,Istiophoridae,NA,Sailfish,18,1050
-2016,1,Hawaii,PMUS,Alopiidae,NA,Thresher shark,9,591
-2016,1,Hawaii,PMUS,Lamnidae,NA,Mako,8,1634
-2016,1,Hawaii,PMUS,Exocoetidae,NA,Walu,4,112
-2016,1,Hawaii,PMUS,Scombridae,NA,Tuna-misc.,3,115
-2012,2,Maui County,PMUS,Scombridae,NA,Yellowfin tuna,167,209498
-2012,2,Maui County,PMUS,Scombridae,NA,Bigeye tuna,95,115316
-2012,2,Maui County,PMUS,Coryphaenidae,NA,Mahimahi,243,269318
-2012,2,Maui County,PMUS,Scombridae,NA,Ono,185,51366
-2012,2,Maui County,PMUS,Scombridae,NA,Aku,141,41637
-2012,2,Maui County,PMUS,Istiophoridae,NA,Blue marlin,35,24581
-2012,2,Maui County,PMUS,Scombridae,NA,Tombo,3,213
-2012,2,Maui County,PMUS,Bramidae,NA,Monchong,7,348
-2012,2,Maui County,PMUS,Istiophoridae,NA,S.N. spearfish,29,2687
-2012,2,Maui County,PMUS,Istiophoridae,NA,Striped marlin,21,2862
-2012,2,Maui County,PMUS,Scombridae,NA,Kawakawa,32,843
-2012,2,Maui County,PMUS,Istiophoridae,NA,Sailfish,3,100
-2012,2,Maui County,PMUS,Exocoetidae,NA,Walu,3,99
-2012,2,Maui County,PMUS,Scombridae,NA,Tuna-misc.,12,274
-2012,2,Maui County,PMUS,Scombridae,NA,Keokeo,3,7
-2013,2,Maui County,PMUS,Scombridae,NA,Yellowfin tuna,126,106959
-2013,2,Maui County,PMUS,Scombridae,NA,Bigeye tuna,84,98342
-2013,2,Maui County,PMUS,Coryphaenidae,NA,Mahimahi,224,167682
-2013,2,Maui County,PMUS,Scombridae,NA,Ono,173,43145
-2013,2,Maui County,PMUS,Scombridae,NA,Aku,135,50649
-2013,2,Maui County,PMUS,Istiophoridae,NA,Blue marlin,37,23198
-2013,2,Maui County,PMUS,Bramidae,NA,Monchong,9,847
-2013,2,Maui County,PMUS,Istiophoridae,NA,S.N. spearfish,21,1854
-2013,2,Maui County,PMUS,Istiophoridae,NA,Striped marlin,14,1116
-2013,2,Maui County,PMUS,Scombridae,NA,Kawakawa,21,589
-2013,2,Maui County,PMUS,Istiophoridae,NA,Sailfish,4,225
-2013,2,Maui County,PMUS,Exocoetidae,NA,Walu,3,443
-2013,2,Maui County,PMUS,Scombridae,NA,Tuna-misc.,10,215
-2014,2,Maui County,PMUS,Scombridae,NA,Yellowfin tuna,141,139654
-2014,2,Maui County,PMUS,Scombridae,NA,Bigeye tuna,78,89580
-2014,2,Maui County,PMUS,Coryphaenidae,NA,Mahimahi,238,296034
-2014,2,Maui County,PMUS,Scombridae,NA,Ono,175,56185
-2014,2,Maui County,PMUS,Scombridae,NA,Aku,141,30675
-2014,2,Maui County,PMUS,Istiophoridae,NA,Blue marlin,37,20979
-2014,2,Maui County,PMUS,Scombridae,NA,Tombo,3,408
-2014,2,Maui County,PMUS,Bramidae,NA,Monchong,6,789
-2014,2,Maui County,PMUS,Istiophoridae,NA,S.N. spearfish,18,1680
-2014,2,Maui County,PMUS,Istiophoridae,NA,Striped marlin,26,3567
-2014,2,Maui County,PMUS,Scombridae,NA,Kawakawa,56,3195
-2014,2,Maui County,PMUS,Scombridae,NA,Tuna-misc.,8,100
-2015,2,Maui County,PMUS,Scombridae,NA,Yellowfin tuna,117,133641
-2015,2,Maui County,PMUS,Scombridae,NA,Bigeye tuna,56,67217
-2015,2,Maui County,PMUS,Coryphaenidae,NA,Mahimahi,209,261324
-2015,2,Maui County,PMUS,Scombridae,NA,Ono,164,48066
-2015,2,Maui County,PMUS,Scombridae,NA,Aku,117,26257
-2015,2,Maui County,PMUS,Istiophoridae,NA,Blue marlin,57,36568
-2015,2,Maui County,PMUS,Bramidae,NA,Monchong,7,1014
-2015,2,Maui County,PMUS,Istiophoridae,NA,S.N. spearfish,26,1482
-2015,2,Maui County,PMUS,Istiophoridae,NA,Striped marlin,11,1283
-2015,2,Maui County,PMUS,Scombridae,NA,Kawakawa,69,4540
-2015,2,Maui County,PMUS,Exocoetidae,NA,Walu,4,141
-2015,2,Maui County,PMUS,Scombridae,NA,Tuna-misc.,5,106
-2016,2,Maui County,PMUS,Scombridae,NA,Yellowfin tuna,112,134253
-2016,2,Maui County,PMUS,Scombridae,NA,Bigeye tuna,48,23164
-2016,2,Maui County,PMUS,Coryphaenidae,NA,Mahimahi,159,180910
-2016,2,Maui County,PMUS,Scombridae,NA,Ono,133,34824
-2016,2,Maui County,PMUS,Scombridae,NA,Aku,92,24394
-2016,2,Maui County,PMUS,Istiophoridae,NA,Blue marlin,48,23483
-2016,2,Maui County,PMUS,Bramidae,NA,Monchong,10,1214
-2016,2,Maui County,PMUS,Istiophoridae,NA,S.N. spearfish,26,3601
-2016,2,Maui County,PMUS,Istiophoridae,NA,Striped marlin,18,2593
-2016,2,Maui County,PMUS,Scombridae,NA,Kawakawa,45,2485
-2016,2,Maui County,PMUS,Istiophoridae,NA,Sailfish,4,148
-2016,2,Maui County,PMUS,Scombridae,NA,Tuna-misc.,7,200
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Yellowfin tuna,47,5717
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Bigeye tuna,8,711
-2012,2,Penguin Bank,PMUS,Coryphaenidae,NA,Mahimahi,126,28115
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Ono,77,8894
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Aku,54,4782
-2012,2,Penguin Bank,PMUS,Istiophoridae,NA,Blue marlin,10,4545
-2012,2,Penguin Bank,PMUS,Bramidae,NA,Monchong,14,684
-2012,2,Penguin Bank,PMUS,Istiophoridae,NA,S.N. spearfish,3,84
-2012,2,Penguin Bank,PMUS,Istiophoridae,NA,Striped marlin,10,686
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Kawakawa,45,1726
-2012,2,Penguin Bank,PMUS,Scombridae,NA,Tuna-misc.,10,303
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Yellowfin tuna,49,5198
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Bigeye tuna,5,1865
-2013,2,Penguin Bank,PMUS,Coryphaenidae,NA,Mahimahi,127,23014
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Ono,73,8677
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Aku,50,2859
-2013,2,Penguin Bank,PMUS,Istiophoridae,NA,Blue marlin,14,2782
-2013,2,Penguin Bank,PMUS,Bramidae,NA,Monchong,9,289
-2013,2,Penguin Bank,PMUS,Istiophoridae,NA,S.N. spearfish,8,333
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Kawakawa,49,2066
-2013,2,Penguin Bank,PMUS,Scombridae,NA,Tuna-misc.,10,157
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Yellowfin tuna,39,4130
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Bigeye tuna,3,347
-2014,2,Penguin Bank,PMUS,Coryphaenidae,NA,Mahimahi,126,22952
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Ono,87,12972
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Aku,43,3029
-2014,2,Penguin Bank,PMUS,Istiophoridae,NA,Blue marlin,7,2466
-2014,2,Penguin Bank,PMUS,Bramidae,NA,Monchong,10,590
-2014,2,Penguin Bank,PMUS,Istiophoridae,NA,S.N. spearfish,8,216
-2014,2,Penguin Bank,PMUS,Istiophoridae,NA,Striped marlin,7,371
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Kawakawa,60,4696
-2014,2,Penguin Bank,PMUS,Scombridae,NA,Tuna-misc.,15,438
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Yellowfin tuna,30,3850
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Bigeye tuna,4,616
-2015,2,Penguin Bank,PMUS,Coryphaenidae,NA,Mahimahi,91,18414
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Ono,80,8197
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Aku,23,3458
-2015,2,Penguin Bank,PMUS,Istiophoridae,NA,Blue marlin,14,3284
-2015,2,Penguin Bank,PMUS,Bramidae,NA,Monchong,5,263
-2015,2,Penguin Bank,PMUS,Istiophoridae,NA,S.N. spearfish,7,257
-2015,2,Penguin Bank,PMUS,Istiophoridae,NA,Striped marlin,4,356
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Kawakawa,58,8698
-2015,2,Penguin Bank,PMUS,Scombridae,NA,Tuna-misc.,7,177
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Yellowfin tuna,23,2670
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Bigeye tuna,6,418
-2016,2,Penguin Bank,PMUS,Coryphaenidae,NA,Mahimahi,85,13052
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Ono,62,7374
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Aku,26,2002
-2016,2,Penguin Bank,PMUS,Istiophoridae,NA,Blue marlin,6,1108
-2016,2,Penguin Bank,PMUS,Bramidae,NA,Monchong,10,1175
-2016,2,Penguin Bank,PMUS,Istiophoridae,NA,S.N. spearfish,6,212
-2016,2,Penguin Bank,PMUS,Istiophoridae,NA,Striped marlin,4,354
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Kawakawa,53,3399
-2016,2,Penguin Bank,PMUS,Scombridae,NA,Tuna-misc.,13,327
-2012,3,Oahu,PMUS,Scombridae,NA,Yellowfin tuna,405,402342
-2012,3,Oahu,PMUS,Scombridae,NA,Bigeye tuna,109,38200
-2012,3,Oahu,PMUS,Coryphaenidae,NA,Mahimahi,479,331620
-2012,3,Oahu,PMUS,Scombridae,NA,Ono,344,40215
-2012,3,Oahu,PMUS,Scombridae,NA,Aku,349,182213
-2012,3,Oahu,PMUS,Istiophoridae,NA,Blue marlin,142,78412
-2012,3,Oahu,PMUS,Scombridae,NA,Tombo,3,255
-2012,3,Oahu,PMUS,Bramidae,NA,Monchong,3,207
-2012,3,Oahu,PMUS,Istiophoridae,NA,S.N. spearfish,104,7043
-2012,3,Oahu,PMUS,Istiophoridae,NA,Striped marlin,70,10972
-2012,3,Oahu,PMUS,Scombridae,NA,Kawakawa,88,2678
-2012,3,Oahu,PMUS,Istiophoridae,NA,Black marlin,6,1999
-2012,3,Oahu,PMUS,Istiophoridae,NA,Sailfish,13,839
-2012,3,Oahu,PMUS,Scombridae,NA,Tuna-misc.,11,338
-2013,3,Oahu,PMUS,Scombridae,NA,Yellowfin tuna,371,275461
-2013,3,Oahu,PMUS,Scombridae,NA,Bigeye tuna,51,34939
-2013,3,Oahu,PMUS,Coryphaenidae,NA,Mahimahi,402,187942
-2013,3,Oahu,PMUS,Scombridae,NA,Ono,313,35448
-2013,3,Oahu,PMUS,Scombridae,NA,Aku,351,406388
-2013,3,Oahu,PMUS,Istiophoridae,NA,Blue marlin,180,103683
-2013,3,Oahu,PMUS,Scombridae,NA,Tombo,4,27
-2013,3,Oahu,PMUS,Bramidae,NA,Monchong,10,777
-2013,3,Oahu,PMUS,Istiophoridae,NA,S.N. spearfish,83,4995
-2013,3,Oahu,PMUS,Istiophoridae,NA,Striped marlin,55,8492
-2013,3,Oahu,PMUS,Scombridae,NA,Kawakawa,91,3935
-2013,3,Oahu,PMUS,Istiophoridae,NA,Black marlin,8,2218
-2013,3,Oahu,PMUS,Istiophoridae,NA,Sailfish,14,1054
-2013,3,Oahu,PMUS,Lamnidae,NA,Mako,3,48
-2013,3,Oahu,PMUS,Scombridae,NA,Tuna-misc.,7,98
-2014,3,Oahu,PMUS,Scombridae,NA,Yellowfin tuna,345,246370
-2014,3,Oahu,PMUS,Scombridae,NA,Bigeye tuna,54,51573
-2014,3,Oahu,PMUS,Coryphaenidae,NA,Mahimahi,365,238172
-2014,3,Oahu,PMUS,Scombridae,NA,Ono,325,48105
-2014,3,Oahu,PMUS,Scombridae,NA,Aku,293,117906
-2014,3,Oahu,PMUS,Istiophoridae,NA,Blue marlin,181,110833
-2014,3,Oahu,PMUS,Scombridae,NA,Tombo,3,587
-2014,3,Oahu,PMUS,Bramidae,NA,Monchong,6,1828
-2014,3,Oahu,PMUS,Istiophoridae,NA,S.N. spearfish,78,5418
-2014,3,Oahu,PMUS,Istiophoridae,NA,Striped marlin,85,13882
-2014,3,Oahu,PMUS,Scombridae,NA,Kawakawa,119,13133
-2014,3,Oahu,PMUS,Istiophoridae,NA,Black marlin,7,2026
-2014,3,Oahu,PMUS,Istiophoridae,NA,Sailfish,7,398
-2014,3,Oahu,PMUS,Scombridae,NA,Tuna-misc.,14,786
-2014,3,Oahu,PMUS,Scombridae,NA,Keokeo,5,28
-2015,3,Oahu,PMUS,Scombridae,NA,Yellowfin tuna,329,256765
-2015,3,Oahu,PMUS,Scombridae,NA,Bigeye tuna,36,18667
-2015,3,Oahu,PMUS,Coryphaenidae,NA,Mahimahi,351,152765
-2015,3,Oahu,PMUS,Scombridae,NA,Ono,303,45066
-2015,3,Oahu,PMUS,Scombridae,NA,Aku,322,146397
-2015,3,Oahu,PMUS,Istiophoridae,NA,Blue marlin,222,161250
-2015,3,Oahu,PMUS,Bramidae,NA,Monchong,5,406
-2015,3,Oahu,PMUS,Istiophoridae,NA,S.N. spearfish,78,7140
-2015,3,Oahu,PMUS,Istiophoridae,NA,Striped marlin,72,10256
-2015,3,Oahu,PMUS,Scombridae,NA,Kawakawa,127,14764
-2015,3,Oahu,PMUS,Istiophoridae,NA,Black marlin,10,2772
-2015,3,Oahu,PMUS,Istiophoridae,NA,Sailfish,16,1488
-2015,3,Oahu,PMUS,Scombridae,NA,Tuna-misc.,18,625
-2015,3,Oahu,PMUS,Scombridae,NA,Keokeo,3,9
-2016,3,Oahu,PMUS,Scombridae,NA,Yellowfin tuna,289,245569
-2016,3,Oahu,PMUS,Scombridae,NA,Bigeye tuna,25,3823
-2016,3,Oahu,PMUS,Coryphaenidae,NA,Mahimahi,308,134586
-2016,3,Oahu,PMUS,Scombridae,NA,Ono,238,22764
-2016,3,Oahu,PMUS,Scombridae,NA,Aku,274,155173
-2016,3,Oahu,PMUS,Istiophoridae,NA,Blue marlin,174,135713
-2016,3,Oahu,PMUS,Bramidae,NA,Monchong,4,210
-2016,3,Oahu,PMUS,Istiophoridae,NA,S.N. spearfish,100,7054
-2016,3,Oahu,PMUS,Istiophoridae,NA,Striped marlin,68,13452
-2016,3,Oahu,PMUS,Scombridae,NA,Kawakawa,70,2620
-2016,3,Oahu,PMUS,Istiophoridae,NA,Black marlin,6,2888
-2016,3,Oahu,PMUS,Istiophoridae,NA,Sailfish,11,2180
-2016,3,Oahu,PMUS,Scombridae,NA,Tuna-misc.,13,359
-2016,3,Oahu,PMUS,Scombridae,NA,Keokeo,4,40
-2012,4,Kauai County,PMUS,Scombridae,NA,Yellowfin tuna,201,480378
-2012,4,Kauai County,PMUS,Scombridae,NA,Bigeye tuna,29,79056
-2012,4,Kauai County,PMUS,Coryphaenidae,NA,Mahimahi,170,79011
-2012,4,Kauai County,PMUS,Scombridae,NA,Ono,167,72748
-2012,4,Kauai County,PMUS,Scombridae,NA,Aku,138,39484
-2012,4,Kauai County,PMUS,Istiophoridae,NA,Blue marlin,60,26281
-2012,4,Kauai County,PMUS,Scombridae,NA,Tombo,5,1048
-2012,4,Kauai County,PMUS,Bramidae,NA,Monchong,4,222
-2012,4,Kauai County,PMUS,Istiophoridae,NA,S.N. spearfish,20,1261
-2012,4,Kauai County,PMUS,Istiophoridae,NA,Striped marlin,17,2771
-2012,4,Kauai County,PMUS,Scombridae,NA,Kawakawa,30,913
-2012,4,Kauai County,PMUS,Xiphiidae,NA,Swordfish,5,749
-2012,4,Kauai County,PMUS,Istiophoridae,NA,Black marlin,4,1071
-2012,4,Kauai County,PMUS,Istiophoridae,NA,Sailfish,3,197
-2013,4,Kauai County,PMUS,Scombridae,NA,Yellowfin tuna,188,408168
-2013,4,Kauai County,PMUS,Scombridae,NA,Bigeye tuna,28,55497
-2013,4,Kauai County,PMUS,Coryphaenidae,NA,Mahimahi,152,44972
-2013,4,Kauai County,PMUS,Scombridae,NA,Ono,163,65391
-2013,4,Kauai County,PMUS,Scombridae,NA,Aku,131,48602
-2013,4,Kauai County,PMUS,Istiophoridae,NA,Blue marlin,58,26797
-2013,4,Kauai County,PMUS,Scombridae,NA,Tombo,3,418
-2013,4,Kauai County,PMUS,Bramidae,NA,Monchong,5,195
-2013,4,Kauai County,PMUS,Istiophoridae,NA,S.N. spearfish,27,3314
-2013,4,Kauai County,PMUS,Istiophoridae,NA,Striped marlin,14,2118
-2013,4,Kauai County,PMUS,Scombridae,NA,Kawakawa,34,1850
-2013,4,Kauai County,PMUS,Istiophoridae,NA,Black marlin,4,1338
-2013,4,Kauai County,PMUS,Istiophoridae,NA,Sailfish,3,295
-2014,4,Kauai County,PMUS,Scombridae,NA,Yellowfin tuna,197,391518
-2014,4,Kauai County,PMUS,Scombridae,NA,Bigeye tuna,24,27384
-2014,4,Kauai County,PMUS,Coryphaenidae,NA,Mahimahi,162,47099
-2014,4,Kauai County,PMUS,Scombridae,NA,Ono,177,74367
-2014,4,Kauai County,PMUS,Scombridae,NA,Aku,105,19654
-2014,4,Kauai County,PMUS,Istiophoridae,NA,Blue marlin,69,32867
-2014,4,Kauai County,PMUS,Scombridae,NA,Tombo,11,2946
-2014,4,Kauai County,PMUS,Bramidae,NA,Monchong,6,262
-2014,4,Kauai County,PMUS,Istiophoridae,NA,S.N. spearfish,15,636
-2014,4,Kauai County,PMUS,Istiophoridae,NA,Striped marlin,14,2531
-2014,4,Kauai County,PMUS,Scombridae,NA,Kawakawa,46,2152
-2014,4,Kauai County,PMUS,Xiphiidae,NA,Swordfish,7,882
-2014,4,Kauai County,PMUS,Istiophoridae,NA,Black marlin,3,1230
-2014,4,Kauai County,PMUS,Istiophoridae,NA,Sailfish,6,457
-2015,4,Kauai County,PMUS,Scombridae,NA,Yellowfin tuna,185,406625
-2015,4,Kauai County,PMUS,Scombridae,NA,Bigeye tuna,23,7105
-2015,4,Kauai County,PMUS,Coryphaenidae,NA,Mahimahi,145,52909
-2015,4,Kauai County,PMUS,Scombridae,NA,Ono,178,58438
-2015,4,Kauai County,PMUS,Scombridae,NA,Aku,110,31712
-2015,4,Kauai County,PMUS,Istiophoridae,NA,Blue marlin,94,48378
-2015,4,Kauai County,PMUS,Bramidae,NA,Monchong,8,2013
-2015,4,Kauai County,PMUS,Istiophoridae,NA,S.N. spearfish,23,1540
-2015,4,Kauai County,PMUS,Istiophoridae,NA,Striped marlin,27,3454
-2015,4,Kauai County,PMUS,Scombridae,NA,Kawakawa,43,2844
-2015,4,Kauai County,PMUS,Xiphiidae,NA,Swordfish,5,591
-2015,4,Kauai County,PMUS,Istiophoridae,NA,Black marlin,12,3649
-2015,4,Kauai County,PMUS,Istiophoridae,NA,Sailfish,6,551
-2016,4,Kauai County,PMUS,Scombridae,NA,Yellowfin tuna,171,392557
-2016,4,Kauai County,PMUS,Scombridae,NA,Bigeye tuna,10,2361
-2016,4,Kauai County,PMUS,Coryphaenidae,NA,Mahimahi,122,35253
-2016,4,Kauai County,PMUS,Scombridae,NA,Ono,154,39628
-2016,4,Kauai County,PMUS,Scombridae,NA,Aku,91,29065
-2016,4,Kauai County,PMUS,Istiophoridae,NA,Blue marlin,61,34613
-2016,4,Kauai County,PMUS,Scombridae,NA,Tombo,3,177
-2016,4,Kauai County,PMUS,Bramidae,NA,Monchong,7,1898
-2016,4,Kauai County,PMUS,Istiophoridae,NA,S.N. spearfish,35,2210
-2016,4,Kauai County,PMUS,Istiophoridae,NA,Striped marlin,22,2361
-2016,4,Kauai County,PMUS,Scombridae,NA,Kawakawa,30,1304
-2016,4,Kauai County,PMUS,Istiophoridae,NA,Sailfish,8,726
+rgn_id,year,key_sp,catch,Fam,code
+0,2012,Bram_Monchong,11548,Bram,pelagic
+0,2013,Bram_Monchong,21553,Bram,pelagic
+0,2014,Bram_Monchong,18047,Bram,pelagic
+0,2015,Bram_Monchong,4078,Bram,pelagic
+0,2016,Bram_Monchong,10565,Bram,pelagic
+0,2013,Carc_Blue shark,300,Carc,pelagic
+0,2012,Cory_Mahimahi,19658,Cory,pelagic
+0,2013,Cory_Mahimahi,17187,Cory,pelagic
+0,2014,Cory_Mahimahi,7747,Cory,pelagic
+0,2015,Cory_Mahimahi,6515,Cory,pelagic
+0,2016,Cory_Mahimahi,1380,Cory,pelagic
+0,2012,Exoc_Walu,1667,Exoc,pelagic
+0,2013,Exoc_Walu,2589,Exoc,pelagic
+0,2014,Exoc_Walu,1336,Exoc,pelagic
+0,2015,Exoc_Walu,386,Exoc,pelagic
+0,2012,Isti_Blue marlin,4804,Isti,pelagic
+0,2013,Isti_Blue marlin,7278,Isti,pelagic
+0,2014,Isti_Blue marlin,7160,Isti,pelagic
+0,2015,Isti_Blue marlin,5644,Isti,pelagic
+0,2012,Isti_S.N. spearfish,327,Isti,pelagic
+0,2013,Isti_S.N. spearfish,1156,Isti,pelagic
+0,2014,Isti_S.N. spearfish,1039,Isti,pelagic
+0,2015,Isti_S.N. spearfish,749,Isti,pelagic
+0,2013,Isti_Striped marlin,1766,Isti,pelagic
+0,2015,Isti_Striped marlin,1024,Isti,pelagic
+0,2013,Lamn_Mako,723,Lamn,pelagic
+0,2015,Lamn_Mako,1126,Lamn,pelagic
+0,2012,Scom_Bigeye tuna,738445,Scom,pelagic
+0,2013,Scom_Bigeye tuna,925478,Scom,pelagic
+0,2014,Scom_Bigeye tuna,418122,Scom,pelagic
+0,2015,Scom_Bigeye tuna,457325,Scom,pelagic
+0,2016,Scom_Bigeye tuna,349087,Scom,pelagic
+0,2012,Scom_Ono,6246,Scom,pelagic
+0,2013,Scom_Ono,4184,Scom,pelagic
+0,2014,Scom_Ono,5656,Scom,pelagic
+0,2015,Scom_Ono,5014,Scom,pelagic
+0,2016,Scom_Ono,1850,Scom,pelagic
+0,2012,Scom_Tombo,703,Scom,pelagic
+0,2013,Scom_Tombo,2829,Scom,pelagic
+0,2014,Scom_Tombo,1706,Scom,pelagic
+0,2016,Scom_Tombo,464,Scom,pelagic
+0,2012,Scom_Yellowfin tuna,102214,Scom,pelagic
+0,2013,Scom_Yellowfin tuna,120017,Scom,pelagic
+0,2014,Scom_Yellowfin tuna,68914,Scom,pelagic
+0,2015,Scom_Yellowfin tuna,53533,Scom,pelagic
+0,2016,Scom_Yellowfin tuna,55207,Scom,pelagic
+0,2013,Xiph_Swordfish,2886,Xiph,pelagic
+0,2014,Xiph_Swordfish,995,Xiph,pelagic
+0,2015,Xiph_Swordfish,1068,Xiph,pelagic
+1,2012,Alop_Thresher shark,3164,Alop,pelagic
+1,2013,Alop_Thresher shark,1345,Alop,pelagic
+1,2014,Alop_Thresher shark,1916,Alop,pelagic
+1,2015,Alop_Thresher shark,1863,Alop,pelagic
+1,2016,Alop_Thresher shark,591,Alop,pelagic
+1,2012,Bram_Monchong,9295,Bram,pelagic
+1,2013,Bram_Monchong,39341,Bram,pelagic
+1,2014,Bram_Monchong,37469,Bram,pelagic
+1,2015,Bram_Monchong,27631,Bram,pelagic
+1,2016,Bram_Monchong,29422,Bram,pelagic
+1,2013,Carc_Blue shark,0,Carc,pelagic
+1,2013,Carc_Oceanic whitetip,80,Carc,pelagic
+1,2014,Carc_Oceanic whitetip,0,Carc,pelagic
+1,2015,Carc_Oceanic whitetip,0,Carc,pelagic
+1,2012,Cory_Mahimahi,344688,Cory,pelagic
+1,2013,Cory_Mahimahi,254074,Cory,pelagic
+1,2014,Cory_Mahimahi,349617,Cory,pelagic
+1,2015,Cory_Mahimahi,274956,Cory,pelagic
+1,2016,Cory_Mahimahi,190230,Cory,pelagic
+1,2012,Exoc_Walu,268,Exoc,pelagic
+1,2013,Exoc_Walu,448,Exoc,pelagic
+1,2014,Exoc_Walu,344,Exoc,pelagic
+1,2015,Exoc_Walu,236,Exoc,pelagic
+1,2016,Exoc_Walu,112,Exoc,pelagic
+1,2012,Isti_Black marlin,2255,Isti,pelagic
+1,2013,Isti_Black marlin,3380,Isti,pelagic
+1,2014,Isti_Black marlin,2225,Isti,pelagic
+1,2015,Isti_Black marlin,2301,Isti,pelagic
+1,2016,Isti_Black marlin,2926,Isti,pelagic
+1,2012,Isti_Blue marlin,147167,Isti,pelagic
+1,2013,Isti_Blue marlin,129479,Isti,pelagic
+1,2014,Isti_Blue marlin,155614,Isti,pelagic
+1,2015,Isti_Blue marlin,153758,Isti,pelagic
+1,2016,Isti_Blue marlin,105665,Isti,pelagic
+1,2012,Isti_S.N. spearfish,14151,Isti,pelagic
+1,2013,Isti_S.N. spearfish,14093,Isti,pelagic
+1,2014,Isti_S.N. spearfish,10562,Isti,pelagic
+1,2015,Isti_S.N. spearfish,14442,Isti,pelagic
+1,2016,Isti_S.N. spearfish,21601,Isti,pelagic
+1,2012,Isti_Sailfish,701,Isti,pelagic
+1,2013,Isti_Sailfish,899,Isti,pelagic
+1,2014,Isti_Sailfish,1178,Isti,pelagic
+1,2015,Isti_Sailfish,2775,Isti,pelagic
+1,2016,Isti_Sailfish,1050,Isti,pelagic
+1,2012,Isti_Striped marlin,7169,Isti,pelagic
+1,2013,Isti_Striped marlin,6065,Isti,pelagic
+1,2014,Isti_Striped marlin,7485,Isti,pelagic
+1,2015,Isti_Striped marlin,8020,Isti,pelagic
+1,2016,Isti_Striped marlin,7797,Isti,pelagic
+1,2012,Lamn_Mako,1613,Lamn,pelagic
+1,2013,Lamn_Mako,815,Lamn,pelagic
+1,2015,Lamn_Mako,831,Lamn,pelagic
+1,2016,Lamn_Mako,1634,Lamn,pelagic
+1,2012,Scom_Aku,93935,Scom,pelagic
+1,2013,Scom_Aku,84641,Scom,pelagic
+1,2014,Scom_Aku,64445,Scom,pelagic
+1,2015,Scom_Aku,45639,Scom,pelagic
+1,2016,Scom_Aku,48781,Scom,pelagic
+1,2012,Scom_Bigeye tuna,251332,Scom,pelagic
+1,2013,Scom_Bigeye tuna,290378,Scom,pelagic
+1,2014,Scom_Bigeye tuna,250672,Scom,pelagic
+1,2015,Scom_Bigeye tuna,106997,Scom,pelagic
+1,2016,Scom_Bigeye tuna,128835,Scom,pelagic
+1,2012,Scom_Kawakawa,697,Scom,pelagic
+1,2013,Scom_Kawakawa,943,Scom,pelagic
+1,2014,Scom_Kawakawa,2433,Scom,pelagic
+1,2015,Scom_Kawakawa,3925,Scom,pelagic
+1,2016,Scom_Kawakawa,2885,Scom,pelagic
+1,2012,Scom_Keokeo,84,Scom,pelagic
+1,2013,Scom_Keokeo,85,Scom,pelagic
+1,2015,Scom_Keokeo,14,Scom,pelagic
+1,2012,Scom_Ono,262911,Scom,pelagic
+1,2013,Scom_Ono,260548,Scom,pelagic
+1,2014,Scom_Ono,292721,Scom,pelagic
+1,2015,Scom_Ono,275308,Scom,pelagic
+1,2016,Scom_Ono,166182,Scom,pelagic
+1,2012,Scom_Tombo,562319,Scom,pelagic
+1,2013,Scom_Tombo,104248,Scom,pelagic
+1,2014,Scom_Tombo,111298,Scom,pelagic
+1,2015,Scom_Tombo,143860,Scom,pelagic
+1,2016,Scom_Tombo,52097,Scom,pelagic
+1,2012,Scom_Tuna-misc.,1293,Scom,pelagic
+1,2013,Scom_Tuna-misc.,168,Scom,pelagic
+1,2014,Scom_Tuna-misc.,103,Scom,pelagic
+1,2015,Scom_Tuna-misc.,253,Scom,pelagic
+1,2016,Scom_Tuna-misc.,115,Scom,pelagic
+1,2012,Scom_Yellowfin tuna,1003857,Scom,pelagic
+1,2013,Scom_Yellowfin tuna,1178558,Scom,pelagic
+1,2014,Scom_Yellowfin tuna,1241338,Scom,pelagic
+1,2015,Scom_Yellowfin tuna,1176385,Scom,pelagic
+1,2016,Scom_Yellowfin tuna,740211,Scom,pelagic
+1,2012,Xiph_Swordfish,14196,Xiph,pelagic
+1,2013,Xiph_Swordfish,14781,Xiph,pelagic
+1,2014,Xiph_Swordfish,16814,Xiph,pelagic
+1,2015,Xiph_Swordfish,11982,Xiph,pelagic
+1,2016,Xiph_Swordfish,8757,Xiph,pelagic
+2,2012,Bram_Monchong,1032,Bram,pelagic
+2,2013,Bram_Monchong,1136,Bram,pelagic
+2,2014,Bram_Monchong,1379,Bram,pelagic
+2,2015,Bram_Monchong,1277,Bram,pelagic
+2,2016,Bram_Monchong,2389,Bram,pelagic
+2,2012,Cory_Mahimahi,297433,Cory,pelagic
+2,2013,Cory_Mahimahi,190696,Cory,pelagic
+2,2014,Cory_Mahimahi,318986,Cory,pelagic
+2,2015,Cory_Mahimahi,279738,Cory,pelagic
+2,2016,Cory_Mahimahi,193962,Cory,pelagic
+2,2012,Exoc_Walu,99,Exoc,pelagic
+2,2013,Exoc_Walu,443,Exoc,pelagic
+2,2015,Exoc_Walu,141,Exoc,pelagic
+2,2012,Isti_Blue marlin,29126,Isti,pelagic
+2,2013,Isti_Blue marlin,25980,Isti,pelagic
+2,2014,Isti_Blue marlin,23445,Isti,pelagic
+2,2015,Isti_Blue marlin,39852,Isti,pelagic
+2,2016,Isti_Blue marlin,24591,Isti,pelagic
+2,2012,Isti_S.N. spearfish,2771,Isti,pelagic
+2,2013,Isti_S.N. spearfish,2187,Isti,pelagic
+2,2014,Isti_S.N. spearfish,1896,Isti,pelagic
+2,2015,Isti_S.N. spearfish,1739,Isti,pelagic
+2,2016,Isti_S.N. spearfish,3813,Isti,pelagic
+2,2012,Isti_Sailfish,100,Isti,pelagic
+2,2013,Isti_Sailfish,225,Isti,pelagic
+2,2016,Isti_Sailfish,148,Isti,pelagic
+2,2012,Isti_Striped marlin,3548,Isti,pelagic
+2,2013,Isti_Striped marlin,1116,Isti,pelagic
+2,2014,Isti_Striped marlin,3938,Isti,pelagic
+2,2015,Isti_Striped marlin,1639,Isti,pelagic
+2,2016,Isti_Striped marlin,2947,Isti,pelagic
+2,2012,Scom_Aku,46419,Scom,pelagic
+2,2013,Scom_Aku,53508,Scom,pelagic
+2,2014,Scom_Aku,33704,Scom,pelagic
+2,2015,Scom_Aku,29715,Scom,pelagic
+2,2016,Scom_Aku,26396,Scom,pelagic
+2,2012,Scom_Bigeye tuna,116027,Scom,pelagic
+2,2013,Scom_Bigeye tuna,100207,Scom,pelagic
+2,2014,Scom_Bigeye tuna,89927,Scom,pelagic
+2,2015,Scom_Bigeye tuna,67833,Scom,pelagic
+2,2016,Scom_Bigeye tuna,23582,Scom,pelagic
+2,2012,Scom_Kawakawa,2569,Scom,pelagic
+2,2013,Scom_Kawakawa,2655,Scom,pelagic
+2,2014,Scom_Kawakawa,7891,Scom,pelagic
+2,2015,Scom_Kawakawa,13238,Scom,pelagic
+2,2016,Scom_Kawakawa,5884,Scom,pelagic
+2,2012,Scom_Keokeo,7,Scom,pelagic
+2,2012,Scom_Ono,60260,Scom,pelagic
+2,2013,Scom_Ono,51822,Scom,pelagic
+2,2014,Scom_Ono,69157,Scom,pelagic
+2,2015,Scom_Ono,56263,Scom,pelagic
+2,2016,Scom_Ono,42198,Scom,pelagic
+2,2012,Scom_Tombo,213,Scom,pelagic
+2,2014,Scom_Tombo,408,Scom,pelagic
+2,2012,Scom_Tuna-misc.,577,Scom,pelagic
+2,2013,Scom_Tuna-misc.,372,Scom,pelagic
+2,2014,Scom_Tuna-misc.,538,Scom,pelagic
+2,2015,Scom_Tuna-misc.,283,Scom,pelagic
+2,2016,Scom_Tuna-misc.,527,Scom,pelagic
+2,2012,Scom_Yellowfin tuna,215215,Scom,pelagic
+2,2013,Scom_Yellowfin tuna,112157,Scom,pelagic
+2,2014,Scom_Yellowfin tuna,143784,Scom,pelagic
+2,2015,Scom_Yellowfin tuna,137491,Scom,pelagic
+2,2016,Scom_Yellowfin tuna,136923,Scom,pelagic
+3,2012,Bram_Monchong,207,Bram,pelagic
+3,2013,Bram_Monchong,777,Bram,pelagic
+3,2014,Bram_Monchong,1828,Bram,pelagic
+3,2015,Bram_Monchong,406,Bram,pelagic
+3,2016,Bram_Monchong,210,Bram,pelagic
+3,2012,Cory_Mahimahi,331620,Cory,pelagic
+3,2013,Cory_Mahimahi,187942,Cory,pelagic
+3,2014,Cory_Mahimahi,238172,Cory,pelagic
+3,2015,Cory_Mahimahi,152765,Cory,pelagic
+3,2016,Cory_Mahimahi,134586,Cory,pelagic
+3,2012,Isti_Black marlin,1999,Isti,pelagic
+3,2013,Isti_Black marlin,2218,Isti,pelagic
+3,2014,Isti_Black marlin,2026,Isti,pelagic
+3,2015,Isti_Black marlin,2772,Isti,pelagic
+3,2016,Isti_Black marlin,2888,Isti,pelagic
+3,2012,Isti_Blue marlin,78412,Isti,pelagic
+3,2013,Isti_Blue marlin,103683,Isti,pelagic
+3,2014,Isti_Blue marlin,110833,Isti,pelagic
+3,2015,Isti_Blue marlin,161250,Isti,pelagic
+3,2016,Isti_Blue marlin,135713,Isti,pelagic
+3,2012,Isti_S.N. spearfish,7043,Isti,pelagic
+3,2013,Isti_S.N. spearfish,4995,Isti,pelagic
+3,2014,Isti_S.N. spearfish,5418,Isti,pelagic
+3,2015,Isti_S.N. spearfish,7140,Isti,pelagic
+3,2016,Isti_S.N. spearfish,7054,Isti,pelagic
+3,2012,Isti_Sailfish,839,Isti,pelagic
+3,2013,Isti_Sailfish,1054,Isti,pelagic
+3,2014,Isti_Sailfish,398,Isti,pelagic
+3,2015,Isti_Sailfish,1488,Isti,pelagic
+3,2016,Isti_Sailfish,2180,Isti,pelagic
+3,2012,Isti_Striped marlin,10972,Isti,pelagic
+3,2013,Isti_Striped marlin,8492,Isti,pelagic
+3,2014,Isti_Striped marlin,13882,Isti,pelagic
+3,2015,Isti_Striped marlin,10256,Isti,pelagic
+3,2016,Isti_Striped marlin,13452,Isti,pelagic
+3,2013,Lamn_Mako,48,Lamn,pelagic
+3,2012,Scom_Aku,182213,Scom,pelagic
+3,2013,Scom_Aku,406388,Scom,pelagic
+3,2014,Scom_Aku,117906,Scom,pelagic
+3,2015,Scom_Aku,146397,Scom,pelagic
+3,2016,Scom_Aku,155173,Scom,pelagic
+3,2012,Scom_Bigeye tuna,38200,Scom,pelagic
+3,2013,Scom_Bigeye tuna,34939,Scom,pelagic
+3,2014,Scom_Bigeye tuna,51573,Scom,pelagic
+3,2015,Scom_Bigeye tuna,18667,Scom,pelagic
+3,2016,Scom_Bigeye tuna,3823,Scom,pelagic
+3,2012,Scom_Kawakawa,2678,Scom,pelagic
+3,2013,Scom_Kawakawa,3935,Scom,pelagic
+3,2014,Scom_Kawakawa,13133,Scom,pelagic
+3,2015,Scom_Kawakawa,14764,Scom,pelagic
+3,2016,Scom_Kawakawa,2620,Scom,pelagic
+3,2014,Scom_Keokeo,28,Scom,pelagic
+3,2015,Scom_Keokeo,9,Scom,pelagic
+3,2016,Scom_Keokeo,40,Scom,pelagic
+3,2012,Scom_Ono,40215,Scom,pelagic
+3,2013,Scom_Ono,35448,Scom,pelagic
+3,2014,Scom_Ono,48105,Scom,pelagic
+3,2015,Scom_Ono,45066,Scom,pelagic
+3,2016,Scom_Ono,22764,Scom,pelagic
+3,2012,Scom_Tombo,255,Scom,pelagic
+3,2013,Scom_Tombo,27,Scom,pelagic
+3,2014,Scom_Tombo,587,Scom,pelagic
+3,2012,Scom_Tuna-misc.,338,Scom,pelagic
+3,2013,Scom_Tuna-misc.,98,Scom,pelagic
+3,2014,Scom_Tuna-misc.,786,Scom,pelagic
+3,2015,Scom_Tuna-misc.,625,Scom,pelagic
+3,2016,Scom_Tuna-misc.,359,Scom,pelagic
+3,2012,Scom_Yellowfin tuna,402342,Scom,pelagic
+3,2013,Scom_Yellowfin tuna,275461,Scom,pelagic
+3,2014,Scom_Yellowfin tuna,246370,Scom,pelagic
+3,2015,Scom_Yellowfin tuna,256765,Scom,pelagic
+3,2016,Scom_Yellowfin tuna,245569,Scom,pelagic
+4,2012,Bram_Monchong,222,Bram,pelagic
+4,2013,Bram_Monchong,195,Bram,pelagic
+4,2014,Bram_Monchong,262,Bram,pelagic
+4,2015,Bram_Monchong,2013,Bram,pelagic
+4,2016,Bram_Monchong,1898,Bram,pelagic
+4,2012,Cory_Mahimahi,79011,Cory,pelagic
+4,2013,Cory_Mahimahi,44972,Cory,pelagic
+4,2014,Cory_Mahimahi,47099,Cory,pelagic
+4,2015,Cory_Mahimahi,52909,Cory,pelagic
+4,2016,Cory_Mahimahi,35253,Cory,pelagic
+4,2012,Isti_Black marlin,1071,Isti,pelagic
+4,2013,Isti_Black marlin,1338,Isti,pelagic
+4,2014,Isti_Black marlin,1230,Isti,pelagic
+4,2015,Isti_Black marlin,3649,Isti,pelagic
+4,2012,Isti_Blue marlin,26281,Isti,pelagic
+4,2013,Isti_Blue marlin,26797,Isti,pelagic
+4,2014,Isti_Blue marlin,32867,Isti,pelagic
+4,2015,Isti_Blue marlin,48378,Isti,pelagic
+4,2016,Isti_Blue marlin,34613,Isti,pelagic
+4,2012,Isti_S.N. spearfish,1261,Isti,pelagic
+4,2013,Isti_S.N. spearfish,3314,Isti,pelagic
+4,2014,Isti_S.N. spearfish,636,Isti,pelagic
+4,2015,Isti_S.N. spearfish,1540,Isti,pelagic
+4,2016,Isti_S.N. spearfish,2210,Isti,pelagic
+4,2012,Isti_Sailfish,197,Isti,pelagic
+4,2013,Isti_Sailfish,295,Isti,pelagic
+4,2014,Isti_Sailfish,457,Isti,pelagic
+4,2015,Isti_Sailfish,551,Isti,pelagic
+4,2016,Isti_Sailfish,726,Isti,pelagic
+4,2012,Isti_Striped marlin,2771,Isti,pelagic
+4,2013,Isti_Striped marlin,2118,Isti,pelagic
+4,2014,Isti_Striped marlin,2531,Isti,pelagic
+4,2015,Isti_Striped marlin,3454,Isti,pelagic
+4,2016,Isti_Striped marlin,2361,Isti,pelagic
+4,2012,Scom_Aku,39484,Scom,pelagic
+4,2013,Scom_Aku,48602,Scom,pelagic
+4,2014,Scom_Aku,19654,Scom,pelagic
+4,2015,Scom_Aku,31712,Scom,pelagic
+4,2016,Scom_Aku,29065,Scom,pelagic
+4,2012,Scom_Bigeye tuna,79056,Scom,pelagic
+4,2013,Scom_Bigeye tuna,55497,Scom,pelagic
+4,2014,Scom_Bigeye tuna,27384,Scom,pelagic
+4,2015,Scom_Bigeye tuna,7105,Scom,pelagic
+4,2016,Scom_Bigeye tuna,2361,Scom,pelagic
+4,2012,Scom_Kawakawa,913,Scom,pelagic
+4,2013,Scom_Kawakawa,1850,Scom,pelagic
+4,2014,Scom_Kawakawa,2152,Scom,pelagic
+4,2015,Scom_Kawakawa,2844,Scom,pelagic
+4,2016,Scom_Kawakawa,1304,Scom,pelagic
+4,2012,Scom_Ono,72748,Scom,pelagic
+4,2013,Scom_Ono,65391,Scom,pelagic
+4,2014,Scom_Ono,74367,Scom,pelagic
+4,2015,Scom_Ono,58438,Scom,pelagic
+4,2016,Scom_Ono,39628,Scom,pelagic
+4,2012,Scom_Tombo,1048,Scom,pelagic
+4,2013,Scom_Tombo,418,Scom,pelagic
+4,2014,Scom_Tombo,2946,Scom,pelagic
+4,2016,Scom_Tombo,177,Scom,pelagic
+4,2012,Scom_Yellowfin tuna,480378,Scom,pelagic
+4,2013,Scom_Yellowfin tuna,408168,Scom,pelagic
+4,2014,Scom_Yellowfin tuna,391518,Scom,pelagic
+4,2015,Scom_Yellowfin tuna,406625,Scom,pelagic
+4,2016,Scom_Yellowfin tuna,392557,Scom,pelagic
+4,2012,Xiph_Swordfish,749,Xiph,pelagic
+4,2014,Xiph_Swordfish,882,Xiph,pelagic
+4,2015,Xiph_Swordfish,591,Xiph,pelagic

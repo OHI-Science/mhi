@@ -5,14 +5,14 @@
 
 ## setup: libraries, file paths ----
 library(tidyverse) # install.packages('tidyverse')
-dir_layers <- file.path('~/github/mhi/prep/FIS')
+dir_layers <- file.path('~/documents/github/mhi/prep/FIS')
 
 
 #naming convention of the data file: it is "goalcode_layername_assessmentYEAR.csv".
 data_file  <- file.path(dir_layers, 'fis_sus_scores_updated.csv')
 d <- readr::read_csv('fis_sus_scores_updated.csv')
 
-catch
+#catch
 data_file  <- file.path(dir_layers, 'fis_catch_dar.csv')
 c <- readr::read_csv('fis_catch_dar.csv')
 c<-subset(c, mus!="PMUS")

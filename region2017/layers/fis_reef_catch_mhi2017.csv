@@ -1,1 +1,983 @@
-year,rgn_id,island,mus,family,species,licenses,catch2012,1,Hawaii,CHCRT,Carangidae,Akule,58,189022012,1,Hawaii,CHCRT,Carangidae,Opelu,83,1532022012,1,Hawaii,CHCRT,Scaridae,Uhu parrot-misc.,38,140032012,1,Hawaii,CHCRT,Holocentridae,Menpachi,102,237162012,1,Hawaii,CHCRT,Mullidae,Weke ula,36,4392012,1,Hawaii,CHCRT,Acanthuridae,Palani,20,13492012,1,Hawaii,CHCRT,Acanthuridae,Kala,16,3482012,1,Hawaii,CHCRT,Kyphosidae,Nenue,35,8452012,1,Hawaii,CHCRT,Carangidae,Hahalalu,6,2782012,1,Hawaii,CHCRT,Acanthuridae,Manini,23,18822012,1,Hawaii,CHCRT,Acanthuridae,Pualu,9,6932012,1,Hawaii,CHCRT,Acanthuridae,Naenae,9,772012,1,Hawaii,CHCRT,Mullidae,Weke nono,28,8222012,1,Hawaii,CHCRT,Priacanthidae,Aweoweo,56,16512012,1,Hawaii,CHCRT,Mullidae,Weke a'a,13,1572012,1,Hawaii,CHCRT,Mullidae,Kumu,33,18592012,1,Hawaii,CHCRT,Acanthuridae,Opelu kala,26,21482012,1,Hawaii,CHCRT,Mullidae,Moana,58,25152012,1,Hawaii,CHCRT,Acanthuridae,Maiko,12,2342012,1,Hawaii,CHCRT,Labridae,Aawa,59,24482012,1,Hawaii,CHCRT,Acanthuridae,Umaumalei,11,4352012,1,Hawaii,CHCRT,Labridae,Laenihi,36,8732012,1,Hawaii,CHCRT,Sphyraenidae,Kawelea,36,8672012,1,Hawaii,CHCRT,Acanthuridae,Kole,23,16192012,1,Hawaii,CHCRT,Kuhliidae,Aholehole,15,5912012,1,Hawaii,CHCRT,Carcharhinidae,Shark-misc.,13,3042012,1,Hawaii,CHCRT,Sphyraenidae,Kaku,19,3032012,1,Hawaii,CHCRT,Mullidae,Moana kale,38,12012012,1,Hawaii,CHCRT,Balistidae,Humuhumu,10,1522012,1,Hawaii,CHCRT,Mullidae,Munu,21,3012012,1,Hawaii,CHCRT,Holocentridae,Alaihe,18,2182012,1,Hawaii,CHCRT,Mugilidae,Uouoa,6,2002012,1,Hawaii,CHCRT,Acanthuridae,Pakuikui (tang),7,3082012,1,Hawaii,CHCRT,Mullidae,Malu,7,282012,1,Hawaii,CHCRT,Scaridae,Panuhunuhu,3,122012,1,Hawaii,CHCRT,Acanthuridae,Api,5,352012,1,Hawaii,CHCRT,Labridae,Poou,3,202012,1,Hawaii,CHCRT,Holocentridae,Alaihe mama,8,672013,1,Hawaii,CHCRT,Carangidae,Akule,59,149822013,1,Hawaii,CHCRT,Carangidae,Opelu,77,1314772013,1,Hawaii,CHCRT,Scaridae,Uhu parrot-misc.,24,76112013,1,Hawaii,CHCRT,Holocentridae,Menpachi,90,237912013,1,Hawaii,CHCRT,Mullidae,Weke ula,28,4202013,1,Hawaii,CHCRT,Acanthuridae,Palani,16,15452013,1,Hawaii,CHCRT,Acanthuridae,Kala,12,4322013,1,Hawaii,CHCRT,Kyphosidae,Nenue,24,9682013,1,Hawaii,CHCRT,Acanthuridae,Manini,12,26552013,1,Hawaii,CHCRT,Acanthuridae,Pualu,7,5632013,1,Hawaii,CHCRT,Acanthuridae,Naenae,5,1102013,1,Hawaii,CHCRT,Mullidae,Weke nono,35,6442013,1,Hawaii,CHCRT,Priacanthidae,Aweoweo,56,26542013,1,Hawaii,CHCRT,Mullidae,Weke a'a,8,2822013,1,Hawaii,CHCRT,Mullidae,Kumu,25,15532013,1,Hawaii,CHCRT,Acanthuridae,Opelu kala,25,28732013,1,Hawaii,CHCRT,Mullidae,Moana,67,18502013,1,Hawaii,CHCRT,Acanthuridae,Maiko,6,632013,1,Hawaii,CHCRT,Labridae,Aawa,58,19202013,1,Hawaii,CHCRT,Acanthuridae,Umaumalei,6,1202013,1,Hawaii,CHCRT,Labridae,Laenihi,37,7912013,1,Hawaii,CHCRT,Sphyraenidae,Kawelea,45,9082013,1,Hawaii,CHCRT,Acanthuridae,Kole,16,13932013,1,Hawaii,CHCRT,Kuhliidae,Aholehole,17,7212013,1,Hawaii,CHCRT,Carcharhinidae,Shark-misc.,12,2102013,1,Hawaii,CHCRT,Sphyraenidae,Kaku,25,3992013,1,Hawaii,CHCRT,Mullidae,Moana kale,37,7862013,1,Hawaii,CHCRT,Balistidae,Humuhumu,6,252013,1,Hawaii,CHCRT,Muraenidae,Puhi eel-misc.,3,3382013,1,Hawaii,CHCRT,Mullidae,Munu,25,1442013,1,Hawaii,CHCRT,Holocentridae,Alaihe,26,3752013,1,Hawaii,CHCRT,Mugilidae,Uouoa,6,2862013,1,Hawaii,CHCRT,Acanthuridae,Pakuikui (tang),9,4032013,1,Hawaii,CHCRT,Mullidae,Malu,6,82013,1,Hawaii,CHCRT,Scaridae,Panuhunuhu,3,112013,1,Hawaii,CHCRT,Mullidae,Weke pueo,4,312013,1,Hawaii,CHCRT,Acanthuridae,Api,3,212013,1,Hawaii,CHCRT,Holocentridae,Alaihe mama,7,452014,1,Hawaii,CHCRT,Carangidae,Akule,61,130052014,1,Hawaii,CHCRT,Carangidae,Opelu,76,1523672014,1,Hawaii,CHCRT,Scaridae,Uhu parrot-misc.,25,28122014,1,Hawaii,CHCRT,Holocentridae,Menpachi,78,163282014,1,Hawaii,CHCRT,Mullidae,Weke ula,27,7842014,1,Hawaii,CHCRT,Acanthuridae,Palani,13,6842014,1,Hawaii,CHCRT,Acanthuridae,Kala,8,682014,1,Hawaii,CHCRT,Kyphosidae,Nenue,28,10972014,1,Hawaii,CHCRT,Carangidae,Hahalalu,3,552014,1,Hawaii,CHCRT,Acanthuridae,Manini,15,16932014,1,Hawaii,CHCRT,Acanthuridae,Pualu,7,15732014,1,Hawaii,CHCRT,Mullidae,Weke nono,29,10412014,1,Hawaii,CHCRT,Priacanthidae,Aweoweo,57,30862014,1,Hawaii,CHCRT,Mugilidae,Amaama,4,292014,1,Hawaii,CHCRT,Mullidae,Weke a'a,12,912014,1,Hawaii,CHCRT,Mullidae,Kumu,24,3692014,1,Hawaii,CHCRT,Acanthuridae,Opelu kala,22,9192014,1,Hawaii,CHCRT,Mullidae,Moana,36,13162014,1,Hawaii,CHCRT,Acanthuridae,Maiko,7,1942014,1,Hawaii,CHCRT,Labridae,Aawa,44,13592014,1,Hawaii,CHCRT,Labridae,Laenihi,22,10412014,1,Hawaii,CHCRT,Sphyraenidae,Kawelea,34,9192014,1,Hawaii,CHCRT,Acanthuridae,Kole,16,18822014,1,Hawaii,CHCRT,Kuhliidae,Aholehole,14,8072014,1,Hawaii,CHCRT,Carcharhinidae,Shark-misc.,6,1032014,1,Hawaii,CHCRT,Sphyraenidae,Kaku,28,4702014,1,Hawaii,CHCRT,Mullidae,Moana kale,31,9512014,1,Hawaii,CHCRT,Balistidae,Humuhumu,4,122014,1,Hawaii,CHCRT,Mullidae,Munu,25,1472014,1,Hawaii,CHCRT,Polynemidae,Moi,4,342014,1,Hawaii,CHCRT,Holocentridae,Alaihe,22,2312014,1,Hawaii,CHCRT,Mugilidae,Uouoa,6,4872014,1,Hawaii,CHCRT,Acanthuridae,Pakuikui (tang),6,1902014,1,Hawaii,CHCRT,Scaridae,Panuhunuhu,4,692014,1,Hawaii,CHCRT,Acanthuridae,Api,4,592014,1,Hawaii,CHCRT,Holocentridae,Alaihe mama,5,92015,1,Hawaii,CHCRT,Carangidae,Akule,59,177082015,1,Hawaii,CHCRT,Carangidae,Opelu,61,1563602015,1,Hawaii,CHCRT,Scaridae,Uhu parrot-misc.,16,41192015,1,Hawaii,CHCRT,Holocentridae,Menpachi,72,145592015,1,Hawaii,CHCRT,Mullidae,Weke ula,21,4772015,1,Hawaii,CHCRT,Acanthuridae,Palani,14,6502015,1,Hawaii,CHCRT,Acanthuridae,Kala,11,1912015,1,Hawaii,CHCRT,Kyphosidae,Nenue,18,5942015,1,Hawaii,CHCRT,Carangidae,Hahalalu,12,2442015,1,Hawaii,CHCRT,Acanthuridae,Manini,13,6292015,1,Hawaii,CHCRT,Acanthuridae,Pualu,5,6012015,1,Hawaii,CHCRT,Mullidae,Weke nono,24,6112015,1,Hawaii,CHCRT,Priacanthidae,Aweoweo,45,39392015,1,Hawaii,CHCRT,Mullidae,Weke a'a,6,1182015,1,Hawaii,CHCRT,Mullidae,Kumu,13,4802015,1,Hawaii,CHCRT,Acanthuridae,Opelu kala,18,6542015,1,Hawaii,CHCRT,Mullidae,Moana,31,12442015,1,Hawaii,CHCRT,Acanthuridae,Maiko,6,992015,1,Hawaii,CHCRT,Labridae,Aawa,34,10242015,1,Hawaii,CHCRT,Labridae,Laenihi,25,6432015,1,Hawaii,CHCRT,Sphyraenidae,Kawelea,30,17352015,1,Hawaii,CHCRT,Acanthuridae,Kole,12,3472015,1,Hawaii,CHCRT,Kuhliidae,Aholehole,16,6132015,1,Hawaii,CHCRT,Carcharhinidae,Shark-misc.,6,02015,1,Hawaii,CHCRT,Sphyraenidae,Kaku,36,3252015,1,Hawaii,CHCRT,Mullidae,Moana kale,23,5222015,1,Hawaii,CHCRT,Mullidae,Munu,10,422015,1,Hawaii,CHCRT,Polynemidae,Moi,5,1732015,1,Hawaii,CHCRT,Holocentridae,Alaihe,19,1332015,1,Hawaii,CHCRT,Mugilidae,Uouoa,5,1842015,1,Hawaii,CHCRT,Scaridae,Panunu,4,112015,1,Hawaii,CHCRT,Acanthuridae,Pakuikui (tang),3,1122015,1,Hawaii,CHCRT,Acanthuridae,Api,4,412015,1,Hawaii,CHCRT,Holocentridae,Alaihe mama,5,472016,1,Hawaii,CHCRT,Carangidae,Akule,57,200692016,1,Hawaii,CHCRT,Carangidae,Opelu,57,1035662016,1,Hawaii,CHCRT,Scaridae,Uhu parrot-misc.,17,32942016,1,Hawaii,CHCRT,Holocentridae,Menpachi,66,155842016,1,Hawaii,CHCRT,Mullidae,Weke ula,24,10172016,1,Hawaii,CHCRT,Acanthuridae,Palani,11,1522016,1,Hawaii,CHCRT,Acanthuridae,Kala,7,3942016,1,Hawaii,CHCRT,Kyphosidae,Nenue,18,6552016,1,Hawaii,CHCRT,Carangidae,Hahalalu,10,5342016,1,Hawaii,CHCRT,Acanthuridae,Manini,12,5492016,1,Hawaii,CHCRT,Acanthuridae,Pualu,3,4522016,1,Hawaii,CHCRT,Mullidae,Weke nono,35,8482016,1,Hawaii,CHCRT,Priacanthidae,Aweoweo,39,25682016,1,Hawaii,CHCRT,Mullidae,Weke a'a,7,1312016,1,Hawaii,CHCRT,Mullidae,Kumu,14,7082016,1,Hawaii,CHCRT,Acanthuridae,Opelu kala,15,3412016,1,Hawaii,CHCRT,Mullidae,Moana,39,21402016,1,Hawaii,CHCRT,Acanthuridae,Maiko,4,432016,1,Hawaii,CHCRT,Labridae,Aawa,45,19022016,1,Hawaii,CHCRT,Labridae,Laenihi,26,8322016,1,Hawaii,CHCRT,Sphyraenidae,Kawelea,32,8302016,1,Hawaii,CHCRT,Acanthuridae,Kole,12,6582016,1,Hawaii,CHCRT,Kuhliidae,Aholehole,13,6902016,1,Hawaii,CHCRT,Carcharhinidae,Shark-misc.,6,2492016,1,Hawaii,CHCRT,Sphyraenidae,Kaku,20,2382016,1,Hawaii,CHCRT,Mullidae,Moana kale,30,9482016,1,Hawaii,CHCRT,Balistidae,Humuhumu,4,302016,1,Hawaii,CHCRT,Mullidae,Munu,17,912016,1,Hawaii,CHCRT,Holocentridae,Alaihe,14,882016,1,Hawaii,CHCRT,Acanthuridae,Pakuikui (tang),6,672016,1,Hawaii,CHCRT,Holocentridae,Alaihe mama,4,102012,1,Hawaii,PHCRT,Carangidae,Papa ulua,8,322012,1,Hawaii,PHCRT,Carangidae,Omilu,16,12682012,1,Hawaii,PHCRT,Carangidae,Kamanu,56,24162012,1,Hawaii,PHCRT,Lutjanidae,Toau,49,8752012,1,Hawaii,PHCRT,Lethrinidae,Mu,13,19462012,1,Hawaii,PHCRT,Serranidae,Roi,4,1312012,1,Hawaii,PHCRT,Scorpaenidae,Hogo,28,2822012,1,Hawaii,PHCRT,Pomacentridae,Maomao,5,112012,1,Hawaii,PHCRT,Monacanthidae,Olililepa,4,912012,1,Hawaii,PHCRT,Scorpaenidae,Nohu,18,4212012,1,Hawaii,PHCRT,Cirrhitidae,Poopaa,12,302012,1,Hawaii,PHCRT,Carangidae,Sasa ulua,3,582012,1,Hawaii,PHCRT,Belonidae,Ahaaha,8,1232012,1,Hawaii,PHCRT,Carangidae,Lae,4,42012,1,Hawaii,PHCRT,Emmelichthyidae,Golden kali,13,922012,1,Hawaii,PHCRT,Priacanthidae,Aweoweo (deepsea),9,502012,1,Hawaii,PHCRT,Aulostamidae,Nunu,3,692012,1,Hawaii,PHCRT,Labridae,Ea (wrasse),5,412012,1,Hawaii,PHCRT,Acanthuridae,Black kole,5,1942012,1,Hawaii,PHCRT,Pomacentridae,Kupipi,5,242012,1,Hawaii,PHCRT,Lutjanidae,Wahanui,4,212013,1,Hawaii,PHCRT,Albulidae,Oio,6,222013,1,Hawaii,PHCRT,Carangidae,Papa ulua,10,1522013,1,Hawaii,PHCRT,Carangidae,Omilu,16,5572013,1,Hawaii,PHCRT,Carangidae,Kamanu,52,14732013,1,Hawaii,PHCRT,Lutjanidae,Toau,43,4142013,1,Hawaii,PHCRT,Lethrinidae,Mu,11,17532013,1,Hawaii,PHCRT,Carangidae,Dobe ulua,4,1572013,1,Hawaii,PHCRT,Scorpaenidae,Hogo,30,5112013,1,Hawaii,PHCRT,Scorpaenidae,Nohu,12,2452013,1,Hawaii,PHCRT,Cirrhitidae,Poopaa,9,212013,1,Hawaii,PHCRT,Carangidae,Sasa ulua,4,1582013,1,Hawaii,PHCRT,Belonidae,Ahaaha,10,832013,1,Hawaii,PHCRT,Carangidae,Lae,3,62013,1,Hawaii,PHCRT,Emmelichthyidae,Golden kali,19,1592013,1,Hawaii,PHCRT,Priacanthidae,Aweoweo (deepsea),6,272013,1,Hawaii,PHCRT,Aulostamidae,Nunu,4,722013,1,Hawaii,PHCRT,Labridae,Ea (wrasse),6,302013,1,Hawaii,PHCRT,Carangidae,Opelu mama,3,422013,1,Hawaii,PHCRT,Acanthuridae,Black kole,3,972013,1,Hawaii,PHCRT,Lutjanidae,Wahanui,4,182013,1,Hawaii,PHCRT,Gempylidae,Hauliuli,3,112013,1,Hawaii,PHCRT,Lutjanidae,Randall's snapper,4,512014,1,Hawaii,PHCRT,Carangidae,Papa ulua,7,1372014,1,Hawaii,PHCRT,Carangidae,Omilu,19,4202014,1,Hawaii,PHCRT,Carangidae,Kamanu,70,29322014,1,Hawaii,PHCRT,Lutjanidae,Toau,34,2332014,1,Hawaii,PHCRT,Lethrinidae,Mu,14,1712014,1,Hawaii,PHCRT,Carangidae,Dobe ulua,3,4712014,1,Hawaii,PHCRT,Scorpaenidae,Hogo,27,3382014,1,Hawaii,PHCRT,Scorpaenidae,Nohu,11,1752014,1,Hawaii,PHCRT,Carangidae,Ulua-misc.,6,1052014,1,Hawaii,PHCRT,Cirrhitidae,Poopaa,11,282014,1,Hawaii,PHCRT,Carangidae,Lae,3,52014,1,Hawaii,PHCRT,Emmelichthyidae,Golden kali,10,1012014,1,Hawaii,PHCRT,Priacanthidae,Aweoweo (deepsea),14,1302014,1,Hawaii,PHCRT,Carangidae,Opelu mama,5,372014,1,Hawaii,PHCRT,Pomacentridae,Kupipi,4,772014,1,Hawaii,PHCRT,Lutjanidae,Wahanui,6,312015,1,Hawaii,PHCRT,Albulidae,Oio,6,1242015,1,Hawaii,PHCRT,Carangidae,Papa ulua,8,602015,1,Hawaii,PHCRT,Carangidae,Omilu,15,6092015,1,Hawaii,PHCRT,Carangidae,Kamanu,64,14842015,1,Hawaii,PHCRT,Lutjanidae,Toau,35,2902015,1,Hawaii,PHCRT,Lethrinidae,Mu,11,2752015,1,Hawaii,PHCRT,Scorpaenidae,Hogo,22,2372015,1,Hawaii,PHCRT,Monacanthidae,Olililepa,3,322015,1,Hawaii,PHCRT,Scorpaenidae,Nohu,11,5232015,1,Hawaii,PHCRT,Carangidae,Ulua-misc.,9,2372015,1,Hawaii,PHCRT,Cirrhitidae,Poopaa,6,162015,1,Hawaii,PHCRT,Carangidae,Sasa ulua,3,2682015,1,Hawaii,PHCRT,Belonidae,Ahaaha,10,852015,1,Hawaii,PHCRT,Carangidae,Lae,4,102015,1,Hawaii,PHCRT,Emmelichthyidae,Golden kali,8,402015,1,Hawaii,PHCRT,Priacanthidae,Aweoweo (deepsea),3,502015,1,Hawaii,PHCRT,Labridae,Ea (wrasse),3,762015,1,Hawaii,PHCRT,Lutjanidae,Wahanui,7,432015,1,Hawaii,PHCRT,Lutjanidae,Randall's snapper,3,722016,1,Hawaii,PHCRT,Albulidae,Oio,5,902016,1,Hawaii,PHCRT,Carangidae,Papa ulua,8,2222016,1,Hawaii,PHCRT,Carangidae,Omilu,16,4902016,1,Hawaii,PHCRT,Carangidae,Kamanu,64,21892016,1,Hawaii,PHCRT,Lutjanidae,Toau,39,3762016,1,Hawaii,PHCRT,Lethrinidae,Mu,14,2752016,1,Hawaii,PHCRT,Scorpaenidae,Hogo,19,1062016,1,Hawaii,PHCRT,Scorpaenidae,Nohu,9,3462016,1,Hawaii,PHCRT,Cirrhitidae,Poopaa,7,202016,1,Hawaii,PHCRT,Belonidae,Ahaaha,4,452016,1,Hawaii,PHCRT,Emmelichthyidae,Golden kali,7,232016,1,Hawaii,PHCRT,Aulostamidae,Nunu,4,672016,1,Hawaii,PHCRT,Acanthuridae,Black kole,4,242012,2,Cross Seamount,CHCRT,Sphyraenidae,Kaku,3,2722013,2,Cross Seamount,CHCRT,Sphyraenidae,Kaku,5,7372015,2,Cross Seamount,CHCRT,Sphyraenidae,Kaku,4,4652012,2,Maui County,CHCRT,Carangidae,Akule,29,301012012,2,Maui County,CHCRT,Carangidae,Opelu,39,161402012,2,Maui County,CHCRT,Scaridae,Uhu parrot-misc.,25,145562012,2,Maui County,CHCRT,Holocentridae,Menpachi,39,58042012,2,Maui County,CHCRT,Mullidae,Weke ula,13,43142012,2,Maui County,CHCRT,Acanthuridae,Palani,18,45422012,2,Maui County,CHCRT,Acanthuridae,Kala,11,66012012,2,Maui County,CHCRT,Kyphosidae,Nenue,18,79602012,2,Maui County,CHCRT,Acanthuridae,Manini,17,40222012,2,Maui County,CHCRT,Acanthuridae,Pualu,4,7402012,2,Maui County,CHCRT,Acanthuridae,Naenae,3,5252012,2,Maui County,CHCRT,Mullidae,Weke nono,27,17422012,2,Maui County,CHCRT,Priacanthidae,Aweoweo,14,1682012,2,Maui County,CHCRT,Mullidae,Weke a'a,8,11402012,2,Maui County,CHCRT,Mullidae,Kumu,17,4502012,2,Maui County,CHCRT,Acanthuridae,Opelu kala,4,1282012,2,Maui County,CHCRT,Mullidae,Moana,25,17572012,2,Maui County,CHCRT,Labridae,Aawa,23,1412012,2,Maui County,CHCRT,Acanthuridae,Umaumalei,3,28022012,2,Maui County,CHCRT,Labridae,Laenihi,29,11972012,2,Maui County,CHCRT,Sphyraenidae,Kawelea,18,7222012,2,Maui County,CHCRT,Acanthuridae,Kole,12,24852012,2,Maui County,CHCRT,Kuhliidae,Aholehole,7,2872012,2,Maui County,CHCRT,Carcharhinidae,Shark-misc.,7,102012,2,Maui County,CHCRT,Sphyraenidae,Kaku,16,2232012,2,Maui County,CHCRT,Mullidae,Moana kale,22,6522012,2,Maui County,CHCRT,Balistidae,Humuhumu,8,792012,2,Maui County,CHCRT,Mullidae,Munu,4,382012,2,Maui County,CHCRT,Polynemidae,Moi,3,1242012,2,Maui County,CHCRT,Holocentridae,Alaihe,6,432012,2,Maui County,CHCRT,Carangidae,Kagami ulua,7,2522012,2,Maui County,CHCRT,Holocentridae,Alaihe mama,3,102013,2,Maui County,CHCRT,Carangidae,Akule,27,383292013,2,Maui County,CHCRT,Carangidae,Opelu,54,217012013,2,Maui County,CHCRT,Scaridae,Uhu parrot-misc.,10,111262013,2,Maui County,CHCRT,Holocentridae,Menpachi,24,35872013,2,Maui County,CHCRT,Mullidae,Weke ula,8,16702013,2,Maui County,CHCRT,Acanthuridae,Palani,11,34882013,2,Maui County,CHCRT,Acanthuridae,Kala,12,65952013,2,Maui County,CHCRT,Kyphosidae,Nenue,13,51382013,2,Maui County,CHCRT,Acanthuridae,Manini,8,32262013,2,Maui County,CHCRT,Acanthuridae,Pualu,6,4082013,2,Maui County,CHCRT,Mullidae,Weke nono,32,15722013,2,Maui County,CHCRT,Priacanthidae,Aweoweo,14,2482013,2,Maui County,CHCRT,Mullidae,Weke a'a,7,11982013,2,Maui County,CHCRT,Mullidae,Kumu,10,1532013,2,Maui County,CHCRT,Acanthuridae,Opelu kala,5,6442013,2,Maui County,CHCRT,Mullidae,Moana,21,15732013,2,Maui County,CHCRT,Labridae,Aawa,12,942013,2,Maui County,CHCRT,Acanthuridae,Umaumalei,3,20762013,2,Maui County,CHCRT,Labridae,Laenihi,30,16162013,2,Maui County,CHCRT,Sphyraenidae,Kawelea,11,3442013,2,Maui County,CHCRT,Acanthuridae,Kole,9,9932013,2,Maui County,CHCRT,Kuhliidae,Aholehole,6,472013,2,Maui County,CHCRT,Carcharhinidae,Shark-misc.,10,02013,2,Maui County,CHCRT,Sphyraenidae,Kaku,14,2622013,2,Maui County,CHCRT,Mullidae,Moana kale,21,3242013,2,Maui County,CHCRT,Balistidae,Humuhumu,5,842013,2,Maui County,CHCRT,Mullidae,Munu,3,292013,2,Maui County,CHCRT,Carangidae,Kagami ulua,5,572013,2,Maui County,CHCRT,Mullidae,Weke pueo,4,1472014,2,Maui County,CHCRT,Carangidae,Akule,36,318042014,2,Maui County,CHCRT,Carangidae,Opelu,43,186232014,2,Maui County,CHCRT,Scaridae,Uhu parrot-misc.,13,83412014,2,Maui County,CHCRT,Holocentridae,Menpachi,30,43832014,2,Maui County,CHCRT,Mullidae,Weke ula,9,52842014,2,Maui County,CHCRT,Acanthuridae,Palani,8,36342014,2,Maui County,CHCRT,Acanthuridae,Kala,13,52842014,2,Maui County,CHCRT,Kyphosidae,Nenue,20,62242014,2,Maui County,CHCRT,Acanthuridae,Manini,11,21562014,2,Maui County,CHCRT,Acanthuridae,Pualu,5,8802014,2,Maui County,CHCRT,Mullidae,Weke nono,28,6672014,2,Maui County,CHCRT,Priacanthidae,Aweoweo,15,2012014,2,Maui County,CHCRT,Mullidae,Weke a'a,4,3662014,2,Maui County,CHCRT,Mullidae,Kumu,12,2402014,2,Maui County,CHCRT,Acanthuridae,Opelu kala,4,1102014,2,Maui County,CHCRT,Mullidae,Moana,15,7722014,2,Maui County,CHCRT,Labridae,Aawa,10,1722014,2,Maui County,CHCRT,Acanthuridae,Umaumalei,3,17482014,2,Maui County,CHCRT,Labridae,Laenihi,23,17942014,2,Maui County,CHCRT,Sphyraenidae,Kawelea,18,1992014,2,Maui County,CHCRT,Acanthuridae,Kole,12,5902014,2,Maui County,CHCRT,Kuhliidae,Aholehole,5,1052014,2,Maui County,CHCRT,Carcharhinidae,Shark-misc.,9,02014,2,Maui County,CHCRT,Sphyraenidae,Kaku,14,2482014,2,Maui County,CHCRT,Mullidae,Moana kale,17,1082014,2,Maui County,CHCRT,Balistidae,Humuhumu,5,312014,2,Maui County,CHCRT,Mullidae,Munu,3,122014,2,Maui County,CHCRT,Polynemidae,Moi,3,322014,2,Maui County,CHCRT,Carangidae,Kagami ulua,5,612015,2,Maui County,CHCRT,Carangidae,Akule,30,309372015,2,Maui County,CHCRT,Carangidae,Opelu,30,83402015,2,Maui County,CHCRT,Scaridae,Uhu parrot-misc.,7,17622015,2,Maui County,CHCRT,Holocentridae,Menpachi,29,45422015,2,Maui County,CHCRT,Mullidae,Weke ula,10,71112015,2,Maui County,CHCRT,Acanthuridae,Palani,13,34542015,2,Maui County,CHCRT,Acanthuridae,Kala,11,48782015,2,Maui County,CHCRT,Kyphosidae,Nenue,19,58062015,2,Maui County,CHCRT,Acanthuridae,Manini,12,22842015,2,Maui County,CHCRT,Acanthuridae,Pualu,3,8902015,2,Maui County,CHCRT,Mullidae,Weke nono,26,10722015,2,Maui County,CHCRT,Priacanthidae,Aweoweo,16,4932015,2,Maui County,CHCRT,Mullidae,Weke a'a,3,4532015,2,Maui County,CHCRT,Mullidae,Kumu,7,1212015,2,Maui County,CHCRT,Acanthuridae,Opelu kala,3,1162015,2,Maui County,CHCRT,Mullidae,Moana,9,1022015,2,Maui County,CHCRT,Labridae,Aawa,10,992015,2,Maui County,CHCRT,Acanthuridae,Umaumalei,3,24012015,2,Maui County,CHCRT,Labridae,Laenihi,25,23992015,2,Maui County,CHCRT,Sphyraenidae,Kawelea,16,3562015,2,Maui County,CHCRT,Acanthuridae,Kole,6,7762015,2,Maui County,CHCRT,Kuhliidae,Aholehole,4,552015,2,Maui County,CHCRT,Carcharhinidae,Shark-misc.,10,3002015,2,Maui County,CHCRT,Sphyraenidae,Kaku,25,2622015,2,Maui County,CHCRT,Mullidae,Moana kale,7,792015,2,Maui County,CHCRT,Balistidae,Humuhumu,3,492015,2,Maui County,CHCRT,Mullidae,Munu,3,112015,2,Maui County,CHCRT,Holocentridae,Alaihe,4,102015,2,Maui County,CHCRT,Mugilidae,Uouoa,3,542015,2,Maui County,CHCRT,Carangidae,Kagami ulua,3,412016,2,Maui County,CHCRT,Carangidae,Akule,26,1422692016,2,Maui County,CHCRT,Carangidae,Opelu,21,68452016,2,Maui County,CHCRT,Scaridae,Uhu parrot-misc.,10,23192016,2,Maui County,CHCRT,Holocentridae,Menpachi,25,52802016,2,Maui County,CHCRT,Mullidae,Weke ula,10,31242016,2,Maui County,CHCRT,Acanthuridae,Palani,6,33362016,2,Maui County,CHCRT,Acanthuridae,Kala,9,42792016,2,Maui County,CHCRT,Kyphosidae,Nenue,13,35112016,2,Maui County,CHCRT,Acanthuridae,Manini,8,28142016,2,Maui County,CHCRT,Acanthuridae,Pualu,3,6802016,2,Maui County,CHCRT,Mullidae,Weke nono,18,7552016,2,Maui County,CHCRT,Priacanthidae,Aweoweo,12,4472016,2,Maui County,CHCRT,Mullidae,Weke a'a,4,5592016,2,Maui County,CHCRT,Mullidae,Kumu,11,1912016,2,Maui County,CHCRT,Acanthuridae,Opelu kala,5,3732016,2,Maui County,CHCRT,Mullidae,Moana,12,832016,2,Maui County,CHCRT,Labridae,Aawa,10,982016,2,Maui County,CHCRT,Acanthuridae,Umaumalei,3,22502016,2,Maui County,CHCRT,Labridae,Laenihi,23,18142016,2,Maui County,CHCRT,Sphyraenidae,Kawelea,12,1742016,2,Maui County,CHCRT,Acanthuridae,Kole,3,4072016,2,Maui County,CHCRT,Kuhliidae,Aholehole,6,2202016,2,Maui County,CHCRT,Carcharhinidae,Shark-misc.,6,5802016,2,Maui County,CHCRT,Sphyraenidae,Kaku,17,1962016,2,Maui County,CHCRT,Mullidae,Moana kale,14,1422016,2,Maui County,CHCRT,Balistidae,Humuhumu,6,622016,2,Maui County,CHCRT,Polynemidae,Moi,3,272016,2,Maui County,CHCRT,Labridae,Poou,3,232012,2,Maui County,PHCRT,Albulidae,Oio,7,4022012,2,Maui County,PHCRT,Carangidae,Papa ulua,29,103542012,2,Maui County,PHCRT,Carangidae,Omilu,28,17942012,2,Maui County,PHCRT,Carangidae,Kamanu,14,5242012,2,Maui County,PHCRT,Lutjanidae,Toau,14,18442012,2,Maui County,PHCRT,Lethrinidae,Mu,7,1152012,2,Maui County,PHCRT,Carangidae,Dobe ulua,13,11392012,2,Maui County,PHCRT,Serranidae,Roi,15,15162012,2,Maui County,PHCRT,Scorpaenidae,Hogo,22,2792012,2,Maui County,PHCRT,Pomacentridae,Maomao,4,17732012,2,Maui County,PHCRT,Chanidae,Awa,4,622012,2,Maui County,PHCRT,Scorpaenidae,Nohu,9,10472012,2,Maui County,PHCRT,Cirrhitidae,Poopaa,6,2782012,2,Maui County,PHCRT,Belonidae,Ahaaha,4,3712012,2,Maui County,PHCRT,Carangidae,Lae,3,82012,2,Maui County,PHCRT,Emmelichthyidae,Golden kali,10,532012,2,Maui County,PHCRT,Priacanthidae,Aweoweo (deepsea),4,472012,2,Maui County,PHCRT,Labridae,Ea (wrasse),10,1282012,2,Maui County,PHCRT,Pomacentridae,Kupipi,5,1212013,2,Maui County,PHCRT,Albulidae,Oio,7,12202013,2,Maui County,PHCRT,Carangidae,Papa ulua,26,51372013,2,Maui County,PHCRT,Carangidae,Omilu,37,11242013,2,Maui County,PHCRT,Carangidae,Kamanu,17,5992013,2,Maui County,PHCRT,Lutjanidae,Toau,8,1472013,2,Maui County,PHCRT,Lethrinidae,Mu,4,1812013,2,Maui County,PHCRT,Carangidae,Dobe ulua,8,15922013,2,Maui County,PHCRT,Serranidae,Roi,14,9792013,2,Maui County,PHCRT,Scorpaenidae,Hogo,14,2142013,2,Maui County,PHCRT,Pomacentridae,Maomao,4,6722013,2,Maui County,PHCRT,Scorpaenidae,Nohu,7,3932013,2,Maui County,PHCRT,Cirrhitidae,Poopaa,3,972013,2,Maui County,PHCRT,Carangidae,Sasa ulua,3,642013,2,Maui County,PHCRT,Belonidae,Ahaaha,4,1022013,2,Maui County,PHCRT,Carangidae,Lae,7,142013,2,Maui County,PHCRT,Emmelichthyidae,Golden kali,5,662013,2,Maui County,PHCRT,Labridae,Ea (wrasse),8,1152014,2,Maui County,PHCRT,Albulidae,Oio,6,5352014,2,Maui County,PHCRT,Carangidae,Papa ulua,32,53912014,2,Maui County,PHCRT,Carangidae,Omilu,29,11902014,2,Maui County,PHCRT,Carangidae,Kamanu,31,10592014,2,Maui County,PHCRT,Lutjanidae,Toau,10,422014,2,Maui County,PHCRT,Lethrinidae,Mu,3,282014,2,Maui County,PHCRT,Carangidae,Dobe ulua,4,1152014,2,Maui County,PHCRT,Serranidae,Roi,5,3822014,2,Maui County,PHCRT,Scorpaenidae,Hogo,15,2222014,2,Maui County,PHCRT,Pomacentridae,Maomao,3,2352014,2,Maui County,PHCRT,Scorpaenidae,Nohu,8,2372014,2,Maui County,PHCRT,Carangidae,Ulua-misc.,19,8122014,2,Maui County,PHCRT,Cirrhitidae,Poopaa,4,862014,2,Maui County,PHCRT,Belonidae,Ahaaha,5,1142014,2,Maui County,PHCRT,Emmelichthyidae,Golden kali,4,292014,2,Maui County,PHCRT,Labridae,Ea (wrasse),7,1132015,2,Maui County,PHCRT,Albulidae,Oio,10,7492015,2,Maui County,PHCRT,Carangidae,Papa ulua,34,70492015,2,Maui County,PHCRT,Carangidae,Omilu,33,16302015,2,Maui County,PHCRT,Carangidae,Kamanu,35,14412015,2,Maui County,PHCRT,Lutjanidae,Toau,9,11252015,2,Maui County,PHCRT,Lethrinidae,Mu,3,712015,2,Maui County,PHCRT,Carangidae,Dobe ulua,5,582015,2,Maui County,PHCRT,Serranidae,Roi,5,3432015,2,Maui County,PHCRT,Scorpaenidae,Hogo,11,1642015,2,Maui County,PHCRT,Pomacentridae,Maomao,3,4642015,2,Maui County,PHCRT,Scorpaenidae,Nohu,5,5572015,2,Maui County,PHCRT,Carangidae,Ulua-misc.,30,13432015,2,Maui County,PHCRT,Cirrhitidae,Poopaa,3,692015,2,Maui County,PHCRT,Carangidae,Lae,4,42015,2,Maui County,PHCRT,Emmelichthyidae,Golden kali,4,272015,2,Maui County,PHCRT,Priacanthidae,Aweoweo (deepsea),4,722015,2,Maui County,PHCRT,Labridae,Ea (wrasse),5,232016,2,Maui County,PHCRT,Albulidae,Oio,5,7282016,2,Maui County,PHCRT,Carangidae,Papa ulua,29,73792016,2,Maui County,PHCRT,Carangidae,Omilu,29,14632016,2,Maui County,PHCRT,Carangidae,Kamanu,31,17812016,2,Maui County,PHCRT,Lutjanidae,Toau,16,4252016,2,Maui County,PHCRT,Lethrinidae,Mu,5,972016,2,Maui County,PHCRT,Carangidae,Dobe ulua,3,1182016,2,Maui County,PHCRT,Serranidae,Roi,4,13802016,2,Maui County,PHCRT,Scorpaenidae,Hogo,12,2472016,2,Maui County,PHCRT,Scorpaenidae,Nohu,4,4662016,2,Maui County,PHCRT,Carangidae,Ulua-misc.,5,1142016,2,Maui County,PHCRT,Cirrhitidae,Poopaa,3,1232016,2,Maui County,PHCRT,Emmelichthyidae,Golden kali,5,242016,2,Maui County,PHCRT,Priacanthidae,Aweoweo (deepsea),5,422016,2,Maui County,PHCRT,Labridae,Ea (wrasse),4,262012,2,Penguin Bank,PHCRT,Carangidae,Papa ulua,10,2252012,2,Penguin Bank,PHCRT,Carangidae,Omilu,8,6642012,2,Penguin Bank,PHCRT,Carangidae,Kamanu,5,822012,2,Penguin Bank,PHCRT,Scorpaenidae,Hogo,36,6472012,2,Penguin Bank,PHCRT,Carangidae,Sasa ulua,3,2242012,2,Penguin Bank,PHCRT,Emmelichthyidae,Golden kali,17,672012,2,Penguin Bank,PHCRT,Priacanthidae,Aweoweo (deepsea),8,252013,2,Penguin Bank,PHCRT,Carangidae,Papa ulua,19,4002013,2,Penguin Bank,PHCRT,Carangidae,Omilu,9,5132013,2,Penguin Bank,PHCRT,Carangidae,Kamanu,5,1432013,2,Penguin Bank,PHCRT,Carangidae,Dobe ulua,3,1762013,2,Penguin Bank,PHCRT,Scorpaenidae,Hogo,36,6202013,2,Penguin Bank,PHCRT,Emmelichthyidae,Golden kali,16,1072013,2,Penguin Bank,PHCRT,Priacanthidae,Aweoweo (deepsea),9,452014,2,Penguin Bank,PHCRT,Carangidae,Papa ulua,17,6252014,2,Penguin Bank,PHCRT,Carangidae,Omilu,10,3122014,2,Penguin Bank,PHCRT,Carangidae,Kamanu,8,562014,2,Penguin Bank,PHCRT,Carangidae,Dobe ulua,4,242014,2,Penguin Bank,PHCRT,Scorpaenidae,Hogo,26,5072014,2,Penguin Bank,PHCRT,Carangidae,Ulua-misc.,8,4172014,2,Penguin Bank,PHCRT,Emmelichthyidae,Golden kali,12,632014,2,Penguin Bank,PHCRT,Priacanthidae,Aweoweo (deepsea),11,1032015,2,Penguin Bank,PHCRT,Carangidae,Papa ulua,13,5912015,2,Penguin Bank,PHCRT,Carangidae,Omilu,9,2552015,2,Penguin Bank,PHCRT,Carangidae,Kamanu,13,2212015,2,Penguin Bank,PHCRT,Carangidae,Dobe ulua,5,4002015,2,Penguin Bank,PHCRT,Scorpaenidae,Hogo,22,3812015,2,Penguin Bank,PHCRT,Carangidae,Ulua-misc.,8,2862015,2,Penguin Bank,PHCRT,Emmelichthyidae,Golden kali,10,882015,2,Penguin Bank,PHCRT,Priacanthidae,Aweoweo (deepsea),6,482016,2,Penguin Bank,PHCRT,Carangidae,Papa ulua,15,9152016,2,Penguin Bank,PHCRT,Carangidae,Omilu,16,4952016,2,Penguin Bank,PHCRT,Carangidae,Kamanu,14,2732016,2,Penguin Bank,PHCRT,Carangidae,Dobe ulua,3,62016,2,Penguin Bank,PHCRT,Scorpaenidae,Hogo,20,3112016,2,Penguin Bank,PHCRT,Carangidae,Sasa ulua,5,3802016,2,Penguin Bank,PHCRT,Emmelichthyidae,Golden kali,8,522016,2,Penguin Bank,PHCRT,Priacanthidae,Aweoweo (deepsea),6,532012,3,Oahu,CHCRT,Carangidae,Akule,87,1806772012,3,Oahu,CHCRT,Carangidae,Opelu,82,651362012,3,Oahu,CHCRT,Scaridae,Uhu parrot-misc.,56,538642012,3,Oahu,CHCRT,Holocentridae,Menpachi,85,137632012,3,Oahu,CHCRT,Mullidae,Weke ula,47,175762012,3,Oahu,CHCRT,Acanthuridae,Palani,46,302062012,3,Oahu,CHCRT,Acanthuridae,Kala,40,351662012,3,Oahu,CHCRT,Kyphosidae,Nenue,36,223312012,3,Oahu,CHCRT,Carangidae,Hahalalu,32,96522012,3,Oahu,CHCRT,Acanthuridae,Manini,40,85122012,3,Oahu,CHCRT,Acanthuridae,Pualu,22,113292012,3,Oahu,CHCRT,Acanthuridae,Naenae,32,83022012,3,Oahu,CHCRT,Mullidae,Weke nono,37,29712012,3,Oahu,CHCRT,Priacanthidae,Aweoweo,37,8432012,3,Oahu,CHCRT,Mugilidae,Amaama,11,70482012,3,Oahu,CHCRT,Mullidae,Weke a'a,29,49242012,3,Oahu,CHCRT,Mullidae,Kumu,52,55122012,3,Oahu,CHCRT,Acanthuridae,Opelu kala,22,29742012,3,Oahu,CHCRT,Mullidae,Moana,62,11982012,3,Oahu,CHCRT,Acanthuridae,Maiko,19,20472012,3,Oahu,CHCRT,Labridae,Aawa,41,17012012,3,Oahu,CHCRT,Acanthuridae,Umaumalei,18,6752012,3,Oahu,CHCRT,Labridae,Laenihi,22,5782012,3,Oahu,CHCRT,Sphyraenidae,Kawelea,31,15482012,3,Oahu,CHCRT,Acanthuridae,Kole,8,652012,3,Oahu,CHCRT,Kuhliidae,Aholehole,19,7282012,3,Oahu,CHCRT,Carcharhinidae,Shark-misc.,12,25522012,3,Oahu,CHCRT,Sphyraenidae,Kaku,45,10372012,3,Oahu,CHCRT,Mullidae,Moana kale,43,5072012,3,Oahu,CHCRT,Muraenidae,Puhi black,7,11342012,3,Oahu,CHCRT,Balistidae,Humuhumu,11,7252012,3,Oahu,CHCRT,Muraenidae,Puhi eel-misc.,6,1602012,3,Oahu,CHCRT,Mullidae,Munu,23,4882012,3,Oahu,CHCRT,Polynemidae,Moi,10,1562012,3,Oahu,CHCRT,Holocentridae,Alaihe,21,3902012,3,Oahu,CHCRT,Scaridae,Panunu,8,3022012,3,Oahu,CHCRT,Carangidae,Kagami ulua,6,892012,3,Oahu,CHCRT,Mullidae,Malu,23,2792012,3,Oahu,CHCRT,Scaridae,Panuhunuhu,10,1012012,3,Oahu,CHCRT,Mullidae,Weke,4,6622012,3,Oahu,CHCRT,Acanthuridae,Api,4,642012,3,Oahu,CHCRT,Labridae,Kupoupou,5,172013,3,Oahu,CHCRT,Carangidae,Akule,88,1543302013,3,Oahu,CHCRT,Carangidae,Opelu,84,766202013,3,Oahu,CHCRT,Scaridae,Uhu parrot-misc.,58,551152013,3,Oahu,CHCRT,Holocentridae,Menpachi,84,165212013,3,Oahu,CHCRT,Mullidae,Weke ula,46,224152013,3,Oahu,CHCRT,Acanthuridae,Palani,46,282562013,3,Oahu,CHCRT,Acanthuridae,Kala,39,249822013,3,Oahu,CHCRT,Kyphosidae,Nenue,39,212142013,3,Oahu,CHCRT,Carangidae,Hahalalu,30,209572013,3,Oahu,CHCRT,Acanthuridae,Manini,43,91922013,3,Oahu,CHCRT,Acanthuridae,Pualu,19,69072013,3,Oahu,CHCRT,Acanthuridae,Naenae,36,78872013,3,Oahu,CHCRT,Mullidae,Weke nono,37,29812013,3,Oahu,CHCRT,Priacanthidae,Aweoweo,48,17642013,3,Oahu,CHCRT,Mugilidae,Amaama,10,57082013,3,Oahu,CHCRT,Mullidae,Weke a'a,37,33372013,3,Oahu,CHCRT,Mullidae,Kumu,62,50692013,3,Oahu,CHCRT,Acanthuridae,Opelu kala,17,46682013,3,Oahu,CHCRT,Mullidae,Moana,67,16442013,3,Oahu,CHCRT,Acanthuridae,Maiko,23,34372013,3,Oahu,CHCRT,Labridae,Aawa,45,14652013,3,Oahu,CHCRT,Acanthuridae,Umaumalei,19,19682013,3,Oahu,CHCRT,Labridae,Laenihi,16,2562013,3,Oahu,CHCRT,Sphyraenidae,Kawelea,29,11262013,3,Oahu,CHCRT,Acanthuridae,Kole,12,3462013,3,Oahu,CHCRT,Kuhliidae,Aholehole,19,12452013,3,Oahu,CHCRT,Carcharhinidae,Shark-misc.,8,13692013,3,Oahu,CHCRT,Sphyraenidae,Kaku,45,5202013,3,Oahu,CHCRT,Mullidae,Moana kale,49,5992013,3,Oahu,CHCRT,Muraenidae,Puhi black,4,10232013,3,Oahu,CHCRT,Balistidae,Humuhumu,15,6182013,3,Oahu,CHCRT,Muraenidae,Puhi eel-misc.,4,2912013,3,Oahu,CHCRT,Mullidae,Munu,26,4852013,3,Oahu,CHCRT,Polynemidae,Moi,8,442013,3,Oahu,CHCRT,Holocentridae,Alaihe,25,3682013,3,Oahu,CHCRT,Mugilidae,Uouoa,3,1112013,3,Oahu,CHCRT,Scaridae,Panunu,10,1812013,3,Oahu,CHCRT,Carangidae,Kagami ulua,4,182013,3,Oahu,CHCRT,Acanthuridae,Pakuikui (tang),3,212013,3,Oahu,CHCRT,Mullidae,Malu,26,2612013,3,Oahu,CHCRT,Scaridae,Panuhunuhu,14,1532013,3,Oahu,CHCRT,Mullidae,Weke pueo,5,2032013,3,Oahu,CHCRT,Acanthuridae,Api,4,842013,3,Oahu,CHCRT,Labridae,Kupoupou,6,122014,3,Oahu,CHCRT,Carangidae,Akule,83,1718092014,3,Oahu,CHCRT,Carangidae,Opelu,73,604222014,3,Oahu,CHCRT,Scaridae,Uhu parrot-misc.,49,560442014,3,Oahu,CHCRT,Holocentridae,Menpachi,88,124752014,3,Oahu,CHCRT,Mullidae,Weke ula,43,409462014,3,Oahu,CHCRT,Acanthuridae,Palani,46,272982014,3,Oahu,CHCRT,Acanthuridae,Kala,37,246762014,3,Oahu,CHCRT,Kyphosidae,Nenue,30,92622014,3,Oahu,CHCRT,Carangidae,Hahalalu,28,370572014,3,Oahu,CHCRT,Acanthuridae,Manini,34,76322014,3,Oahu,CHCRT,Acanthuridae,Pualu,22,47182014,3,Oahu,CHCRT,Acanthuridae,Naenae,25,79652014,3,Oahu,CHCRT,Mullidae,Weke nono,34,35462014,3,Oahu,CHCRT,Priacanthidae,Aweoweo,50,17002014,3,Oahu,CHCRT,Mugilidae,Amaama,13,37542014,3,Oahu,CHCRT,Mullidae,Weke a'a,29,39482014,3,Oahu,CHCRT,Mullidae,Kumu,56,33512014,3,Oahu,CHCRT,Acanthuridae,Opelu kala,16,17232014,3,Oahu,CHCRT,Mullidae,Moana,58,12432014,3,Oahu,CHCRT,Acanthuridae,Maiko,13,12292014,3,Oahu,CHCRT,Labridae,Aawa,49,15942014,3,Oahu,CHCRT,Acanthuridae,Umaumalei,13,9192014,3,Oahu,CHCRT,Labridae,Laenihi,21,5812014,3,Oahu,CHCRT,Sphyraenidae,Kawelea,29,5492014,3,Oahu,CHCRT,Acanthuridae,Kole,7,6602014,3,Oahu,CHCRT,Kuhliidae,Aholehole,19,5542014,3,Oahu,CHCRT,Carcharhinidae,Shark-misc.,7,13482014,3,Oahu,CHCRT,Sphyraenidae,Kaku,30,5692014,3,Oahu,CHCRT,Mullidae,Moana kale,52,14332014,3,Oahu,CHCRT,Muraenidae,Puhi black,3,5202014,3,Oahu,CHCRT,Balistidae,Humuhumu,8,4602014,3,Oahu,CHCRT,Muraenidae,Puhi eel-misc.,5,5652014,3,Oahu,CHCRT,Mullidae,Munu,26,4592014,3,Oahu,CHCRT,Polynemidae,Moi,7,752014,3,Oahu,CHCRT,Holocentridae,Alaihe,17,2462014,3,Oahu,CHCRT,Scaridae,Panunu,9,4602014,3,Oahu,CHCRT,Carangidae,Kagami ulua,8,742014,3,Oahu,CHCRT,Mullidae,Malu,22,2082014,3,Oahu,CHCRT,Scaridae,Panuhunuhu,12,1712014,3,Oahu,CHCRT,Labridae,Kupoupou,5,102015,3,Oahu,CHCRT,Carangidae,Akule,86,2905882015,3,Oahu,CHCRT,Carangidae,Opelu,50,617742015,3,Oahu,CHCRT,Scaridae,Uhu parrot-misc.,42,263412015,3,Oahu,CHCRT,Holocentridae,Menpachi,72,129042015,3,Oahu,CHCRT,Mullidae,Weke ula,39,426322015,3,Oahu,CHCRT,Acanthuridae,Palani,44,171072015,3,Oahu,CHCRT,Acanthuridae,Kala,23,166252015,3,Oahu,CHCRT,Kyphosidae,Nenue,17,109772015,3,Oahu,CHCRT,Carangidae,Hahalalu,16,64742015,3,Oahu,CHCRT,Acanthuridae,Manini,35,61732015,3,Oahu,CHCRT,Acanthuridae,Pualu,17,37872015,3,Oahu,CHCRT,Acanthuridae,Naenae,22,42132015,3,Oahu,CHCRT,Mullidae,Weke nono,36,25452015,3,Oahu,CHCRT,Priacanthidae,Aweoweo,47,22742015,3,Oahu,CHCRT,Mugilidae,Amaama,9,39472015,3,Oahu,CHCRT,Mullidae,Weke a'a,20,32642015,3,Oahu,CHCRT,Mullidae,Kumu,46,19552015,3,Oahu,CHCRT,Acanthuridae,Opelu kala,9,26762015,3,Oahu,CHCRT,Mullidae,Moana,54,6092015,3,Oahu,CHCRT,Acanthuridae,Maiko,10,3502015,3,Oahu,CHCRT,Labridae,Aawa,39,11602015,3,Oahu,CHCRT,Acanthuridae,Umaumalei,6,3662015,3,Oahu,CHCRT,Labridae,Laenihi,20,2262015,3,Oahu,CHCRT,Sphyraenidae,Kawelea,24,12512015,3,Oahu,CHCRT,Acanthuridae,Kole,10,2912015,3,Oahu,CHCRT,Kuhliidae,Aholehole,17,37482015,3,Oahu,CHCRT,Carcharhinidae,Shark-misc.,3,20692015,3,Oahu,CHCRT,Sphyraenidae,Kaku,35,4382015,3,Oahu,CHCRT,Mullidae,Moana kale,46,5292015,3,Oahu,CHCRT,Muraenidae,Puhi black,5,2672015,3,Oahu,CHCRT,Balistidae,Humuhumu,4,4162015,3,Oahu,CHCRT,Muraenidae,Puhi eel-misc.,4,2352015,3,Oahu,CHCRT,Mullidae,Munu,25,2082015,3,Oahu,CHCRT,Polynemidae,Moi,6,892015,3,Oahu,CHCRT,Holocentridae,Alaihe,5,742015,3,Oahu,CHCRT,Scaridae,Panunu,8,4942015,3,Oahu,CHCRT,Carangidae,Kagami ulua,7,982015,3,Oahu,CHCRT,Mullidae,Malu,17,902015,3,Oahu,CHCRT,Scaridae,Panuhunuhu,13,1462015,3,Oahu,CHCRT,Labridae,Kupoupou,3,62016,3,Oahu,CHCRT,Carangidae,Akule,70,2068942016,3,Oahu,CHCRT,Carangidae,Opelu,29,320712016,3,Oahu,CHCRT,Scaridae,Uhu parrot-misc.,32,179662016,3,Oahu,CHCRT,Holocentridae,Menpachi,59,136792016,3,Oahu,CHCRT,Mullidae,Weke ula,33,296702016,3,Oahu,CHCRT,Acanthuridae,Palani,31,196652016,3,Oahu,CHCRT,Acanthuridae,Kala,24,126402016,3,Oahu,CHCRT,Kyphosidae,Nenue,21,55842016,3,Oahu,CHCRT,Carangidae,Hahalalu,17,135242016,3,Oahu,CHCRT,Acanthuridae,Manini,25,50612016,3,Oahu,CHCRT,Acanthuridae,Pualu,11,32212016,3,Oahu,CHCRT,Acanthuridae,Naenae,17,30942016,3,Oahu,CHCRT,Mullidae,Weke nono,24,16152016,3,Oahu,CHCRT,Priacanthidae,Aweoweo,35,15562016,3,Oahu,CHCRT,Mugilidae,Amaama,5,23792016,3,Oahu,CHCRT,Mullidae,Weke a'a,20,47892016,3,Oahu,CHCRT,Mullidae,Kumu,31,8352016,3,Oahu,CHCRT,Acanthuridae,Opelu kala,3,22912016,3,Oahu,CHCRT,Mullidae,Moana,38,4472016,3,Oahu,CHCRT,Acanthuridae,Maiko,8,9092016,3,Oahu,CHCRT,Labridae,Aawa,30,12602016,3,Oahu,CHCRT,Acanthuridae,Umaumalei,6,10982016,3,Oahu,CHCRT,Labridae,Laenihi,17,6282016,3,Oahu,CHCRT,Sphyraenidae,Kawelea,16,5122016,3,Oahu,CHCRT,Acanthuridae,Kole,3,1282016,3,Oahu,CHCRT,Kuhliidae,Aholehole,15,7602016,3,Oahu,CHCRT,Carcharhinidae,Shark-misc.,6,21152016,3,Oahu,CHCRT,Sphyraenidae,Kaku,20,2142016,3,Oahu,CHCRT,Mullidae,Moana kale,38,5692016,3,Oahu,CHCRT,Mugilidae,Summer mullet,3,4772016,3,Oahu,CHCRT,Muraenidae,Puhi black,4,4342016,3,Oahu,CHCRT,Balistidae,Humuhumu,5,3872016,3,Oahu,CHCRT,Muraenidae,Puhi eel-misc.,5,1662016,3,Oahu,CHCRT,Mullidae,Munu,14,2002016,3,Oahu,CHCRT,Polynemidae,Moi,5,1372016,3,Oahu,CHCRT,Holocentridae,Alaihe,5,272016,3,Oahu,CHCRT,Scaridae,Panunu,6,1502016,3,Oahu,CHCRT,Carangidae,Kagami ulua,6,342016,3,Oahu,CHCRT,Mullidae,Malu,8,182016,3,Oahu,CHCRT,Scaridae,Panuhunuhu,4,1032012,3,Oahu,PHCRT,Albulidae,Oio,32,101602012,3,Oahu,PHCRT,Carangidae,Papa ulua,26,4412012,3,Oahu,PHCRT,Carangidae,Omilu,57,21132012,3,Oahu,PHCRT,Carangidae,Kamanu,7,2012012,3,Oahu,PHCRT,Lutjanidae,Toau,49,33152012,3,Oahu,PHCRT,Cichlidae,Tilapia,3,17932012,3,Oahu,PHCRT,Lethrinidae,Mu,20,35392012,3,Oahu,PHCRT,Carangidae,Dobe ulua,8,67092012,3,Oahu,PHCRT,Serranidae,Roi,24,29302012,3,Oahu,PHCRT,Scorpaenidae,Hogo,30,5102012,3,Oahu,PHCRT,Pomacentridae,Maomao,22,11102012,3,Oahu,PHCRT,Chanidae,Awa,8,21652012,3,Oahu,PHCRT,Monacanthidae,Olililepa,9,26012012,3,Oahu,PHCRT,Scorpaenidae,Nohu,12,3782012,3,Oahu,PHCRT,Elopidae,Awaawa,18,15092012,3,Oahu,PHCRT,Cirrhitidae,Poopaa,26,4302012,3,Oahu,PHCRT,Carangidae,Sasa ulua,11,3872012,3,Oahu,PHCRT,Belonidae,Ahaaha,14,4272012,3,Oahu,PHCRT,Carangidae,Paopao ulua,5,8642012,3,Oahu,PHCRT,Carangidae,Lae,20,4292012,3,Oahu,PHCRT,Emmelichthyidae,Golden kali,5,162012,3,Oahu,PHCRT,Priacanthidae,Aweoweo (deepsea),3,202012,3,Oahu,PHCRT,Congridae,Puhi white,5,2422012,3,Oahu,PHCRT,Aulostamidae,Nunu,15,1302012,3,Oahu,PHCRT,Diodontidae,Oopuhue,5,10542012,3,Oahu,PHCRT,Labridae,Ea (wrasse),8,1422012,3,Oahu,PHCRT,Hemiramphidae,Iheihe,3,872012,3,Oahu,PHCRT,Labridae,Hinalea,9,362012,3,Oahu,PHCRT,Bothidae,Pakii,4,102012,3,Oahu,PHCRT,Carangidae,Omaka,5,282013,3,Oahu,PHCRT,Albulidae,Oio,28,99012013,3,Oahu,PHCRT,Carangidae,Papa ulua,24,4522013,3,Oahu,PHCRT,Carangidae,Omilu,41,16112013,3,Oahu,PHCRT,Carangidae,Kamanu,9,1102013,3,Oahu,PHCRT,Lutjanidae,Toau,67,33922013,3,Oahu,PHCRT,Lethrinidae,Mu,30,36992013,3,Oahu,PHCRT,Carangidae,Dobe ulua,10,11302013,3,Oahu,PHCRT,Serranidae,Roi,23,20152013,3,Oahu,PHCRT,Scorpaenidae,Hogo,21,2142013,3,Oahu,PHCRT,Pomacentridae,Maomao,20,14652013,3,Oahu,PHCRT,Chanidae,Awa,9,6672013,3,Oahu,PHCRT,Monacanthidae,Olililepa,13,7552013,3,Oahu,PHCRT,Scorpaenidae,Nohu,16,4232013,3,Oahu,PHCRT,Elopidae,Awaawa,16,12312013,3,Oahu,PHCRT,Cirrhitidae,Poopaa,33,13772013,3,Oahu,PHCRT,Carangidae,Sasa ulua,8,1912013,3,Oahu,PHCRT,Belonidae,Ahaaha,16,2332013,3,Oahu,PHCRT,Carangidae,Paopao ulua,6,9412013,3,Oahu,PHCRT,Carangidae,Lae,23,3582013,3,Oahu,PHCRT,Emmelichthyidae,Golden kali,9,392013,3,Oahu,PHCRT,Priacanthidae,Aweoweo (deepsea),4,552013,3,Oahu,PHCRT,Congridae,Puhi white,3,2932013,3,Oahu,PHCRT,Aulostamidae,Nunu,13,1382013,3,Oahu,PHCRT,Labridae,Ea (wrasse),4,182013,3,Oahu,PHCRT,Pomacentridae,Kupipi,3,52013,3,Oahu,PHCRT,Carangidae,Barred jack,4,322013,3,Oahu,PHCRT,Labridae,Hinalea,13,462013,3,Oahu,PHCRT,Bothidae,Pakii,3,142014,3,Oahu,PHCRT,Albulidae,Oio,25,54802014,3,Oahu,PHCRT,Carangidae,Papa ulua,37,9762014,3,Oahu,PHCRT,Carangidae,Omilu,50,35732014,3,Oahu,PHCRT,Carangidae,Kamanu,14,1592014,3,Oahu,PHCRT,Lutjanidae,Toau,60,45882014,3,Oahu,PHCRT,Lethrinidae,Mu,28,31012014,3,Oahu,PHCRT,Carangidae,Dobe ulua,11,35192014,3,Oahu,PHCRT,Serranidae,Roi,16,7822014,3,Oahu,PHCRT,Scorpaenidae,Hogo,22,1932014,3,Oahu,PHCRT,Pomacentridae,Maomao,18,6452014,3,Oahu,PHCRT,Chanidae,Awa,12,15182014,3,Oahu,PHCRT,Monacanthidae,Olililepa,9,13402014,3,Oahu,PHCRT,Scorpaenidae,Nohu,13,1852014,3,Oahu,PHCRT,Carangidae,Ulua-misc.,24,6822014,3,Oahu,PHCRT,Elopidae,Awaawa,15,6892014,3,Oahu,PHCRT,Cirrhitidae,Poopaa,15,6142014,3,Oahu,PHCRT,Carangidae,Sasa ulua,4,702014,3,Oahu,PHCRT,Belonidae,Ahaaha,26,3412014,3,Oahu,PHCRT,Carangidae,Paopao ulua,5,1872014,3,Oahu,PHCRT,Carangidae,Lae,28,2352014,3,Oahu,PHCRT,Emmelichthyidae,Golden kali,6,272014,3,Oahu,PHCRT,Priacanthidae,Aweoweo (deepsea),3,1172014,3,Oahu,PHCRT,Congridae,Puhi white,3,3672014,3,Oahu,PHCRT,Aulostamidae,Nunu,14,2112014,3,Oahu,PHCRT,Hemiramphidae,Iheihe,3,1422014,3,Oahu,PHCRT,Lutjanidae,Wahanui,4,102014,3,Oahu,PHCRT,Labridae,Hinalea,6,252014,3,Oahu,PHCRT,Bothidae,Pakii,3,182015,3,Oahu,PHCRT,Albulidae,Oio,25,67292015,3,Oahu,PHCRT,Carangidae,Papa ulua,26,4932015,3,Oahu,PHCRT,Carangidae,Omilu,44,16012015,3,Oahu,PHCRT,Carangidae,Kamanu,11,1252015,3,Oahu,PHCRT,Lutjanidae,Toau,51,16012015,3,Oahu,PHCRT,Lethrinidae,Mu,27,14972015,3,Oahu,PHCRT,Carangidae,Dobe ulua,7,8142015,3,Oahu,PHCRT,Serranidae,Roi,20,5722015,3,Oahu,PHCRT,Scorpaenidae,Hogo,20,3472015,3,Oahu,PHCRT,Pomacentridae,Maomao,16,3672015,3,Oahu,PHCRT,Chanidae,Awa,10,20682015,3,Oahu,PHCRT,Monacanthidae,Olililepa,6,5942015,3,Oahu,PHCRT,Scorpaenidae,Nohu,6,712015,3,Oahu,PHCRT,Carangidae,Ulua-misc.,24,6992015,3,Oahu,PHCRT,Elopidae,Awaawa,10,3742015,3,Oahu,PHCRT,Cirrhitidae,Poopaa,13,682015,3,Oahu,PHCRT,Carangidae,Sasa ulua,6,402015,3,Oahu,PHCRT,Belonidae,Ahaaha,13,1942015,3,Oahu,PHCRT,Carangidae,Lae,16,1182015,3,Oahu,PHCRT,Emmelichthyidae,Golden kali,9,482015,3,Oahu,PHCRT,Priacanthidae,Aweoweo (deepsea),6,1312015,3,Oahu,PHCRT,Congridae,Puhi white,4,1552015,3,Oahu,PHCRT,Aulostamidae,Nunu,9,1212015,3,Oahu,PHCRT,Labridae,Ea (wrasse),5,422015,3,Oahu,PHCRT,Labridae,Hinalea,4,212016,3,Oahu,PHCRT,Albulidae,Oio,16,43222016,3,Oahu,PHCRT,Carangidae,Papa ulua,22,4272016,3,Oahu,PHCRT,Carangidae,Omilu,36,11722016,3,Oahu,PHCRT,Carangidae,Kamanu,19,1672016,3,Oahu,PHCRT,Lutjanidae,Toau,44,16702016,3,Oahu,PHCRT,Lethrinidae,Mu,22,13562016,3,Oahu,PHCRT,Carangidae,Dobe ulua,3,3122016,3,Oahu,PHCRT,Serranidae,Roi,13,4362016,3,Oahu,PHCRT,Scorpaenidae,Hogo,17,3612016,3,Oahu,PHCRT,Pomacentridae,Maomao,14,2592016,3,Oahu,PHCRT,Chanidae,Awa,6,3972016,3,Oahu,PHCRT,Monacanthidae,Olililepa,3,2172016,3,Oahu,PHCRT,Scorpaenidae,Nohu,3,1262016,3,Oahu,PHCRT,Carangidae,Ulua-misc.,4,212016,3,Oahu,PHCRT,Elopidae,Awaawa,5,3362016,3,Oahu,PHCRT,Cirrhitidae,Poopaa,11,5782016,3,Oahu,PHCRT,Carangidae,Sasa ulua,4,342016,3,Oahu,PHCRT,Belonidae,Ahaaha,11,3012016,3,Oahu,PHCRT,Carangidae,Paopao ulua,4,1082016,3,Oahu,PHCRT,Carangidae,Lae,5,802016,3,Oahu,PHCRT,Emmelichthyidae,Golden kali,4,182016,3,Oahu,PHCRT,Priacanthidae,Aweoweo (deepsea),7,782016,3,Oahu,PHCRT,Aulostamidae,Nunu,8,602016,3,Oahu,PHCRT,Labridae,Ea (wrasse),3,32016,3,Oahu,PHCRT,Lutjanidae,Wahanui,3,42016,3,Oahu,PHCRT,Carangidae,Barred jack,3,672016,3,Oahu,PHCRT,Labridae,Hinalea,3,12012,4,Kauai County,CHCRT,Carangidae,Akule,33,400542012,4,Kauai County,CHCRT,Carangidae,Opelu,32,125502012,4,Kauai County,CHCRT,Scaridae,Uhu parrot-misc.,4,15062012,4,Kauai County,CHCRT,Holocentridae,Menpachi,38,99842012,4,Kauai County,CHCRT,Mullidae,Weke ula,15,4202012,4,Kauai County,CHCRT,Kyphosidae,Nenue,5,992012,4,Kauai County,CHCRT,Carangidae,Hahalalu,5,2782012,4,Kauai County,CHCRT,Mullidae,Weke nono,12,15022012,4,Kauai County,CHCRT,Priacanthidae,Aweoweo,15,2442012,4,Kauai County,CHCRT,Mugilidae,Amaama,3,13802012,4,Kauai County,CHCRT,Mullidae,Kumu,9,6182012,4,Kauai County,CHCRT,Mullidae,Moana,16,2882012,4,Kauai County,CHCRT,Labridae,Aawa,13,4352012,4,Kauai County,CHCRT,Labridae,Laenihi,5,352012,4,Kauai County,CHCRT,Sphyraenidae,Kawelea,11,1432012,4,Kauai County,CHCRT,Kuhliidae,Aholehole,5,2172012,4,Kauai County,CHCRT,Carcharhinidae,Shark-misc.,4,42012,4,Kauai County,CHCRT,Sphyraenidae,Kaku,16,7472012,4,Kauai County,CHCRT,Mullidae,Moana kale,14,2122012,4,Kauai County,CHCRT,Carangidae,Kagami ulua,6,1742012,4,Kauai County,CHCRT,Mullidae,Malu,3,222013,4,Kauai County,CHCRT,Carangidae,Akule,34,372802013,4,Kauai County,CHCRT,Carangidae,Opelu,33,145082013,4,Kauai County,CHCRT,Holocentridae,Menpachi,38,138952013,4,Kauai County,CHCRT,Mullidae,Weke ula,11,4292013,4,Kauai County,CHCRT,Carangidae,Hahalalu,4,1042013,4,Kauai County,CHCRT,Mullidae,Weke nono,7,11982013,4,Kauai County,CHCRT,Priacanthidae,Aweoweo,13,4382013,4,Kauai County,CHCRT,Mullidae,Kumu,6,3112013,4,Kauai County,CHCRT,Mullidae,Moana,11,1552013,4,Kauai County,CHCRT,Labridae,Aawa,12,1402013,4,Kauai County,CHCRT,Labridae,Laenihi,4,102013,4,Kauai County,CHCRT,Sphyraenidae,Kawelea,3,122013,4,Kauai County,CHCRT,Kuhliidae,Aholehole,3,2712013,4,Kauai County,CHCRT,Sphyraenidae,Kaku,16,4962013,4,Kauai County,CHCRT,Mullidae,Moana kale,10,1532014,4,Kauai County,CHCRT,Carangidae,Akule,39,386032014,4,Kauai County,CHCRT,Carangidae,Opelu,36,118512014,4,Kauai County,CHCRT,Scaridae,Uhu parrot-misc.,4,18202014,4,Kauai County,CHCRT,Holocentridae,Menpachi,27,198042014,4,Kauai County,CHCRT,Mullidae,Weke ula,8,2042014,4,Kauai County,CHCRT,Acanthuridae,Palani,3,522014,4,Kauai County,CHCRT,Kyphosidae,Nenue,7,542014,4,Kauai County,CHCRT,Carangidae,Hahalalu,5,1922014,4,Kauai County,CHCRT,Mullidae,Weke nono,13,14772014,4,Kauai County,CHCRT,Priacanthidae,Aweoweo,18,9992014,4,Kauai County,CHCRT,Mullidae,Kumu,3,4512014,4,Kauai County,CHCRT,Mullidae,Moana,14,1602014,4,Kauai County,CHCRT,Labridae,Aawa,9,4092014,4,Kauai County,CHCRT,Sphyraenidae,Kawelea,7,932014,4,Kauai County,CHCRT,Kuhliidae,Aholehole,3,2292014,4,Kauai County,CHCRT,Carcharhinidae,Shark-misc.,4,952014,4,Kauai County,CHCRT,Sphyraenidae,Kaku,19,4332014,4,Kauai County,CHCRT,Mullidae,Moana kale,7,2862015,4,Kauai County,CHCRT,Carangidae,Akule,43,525062015,4,Kauai County,CHCRT,Carangidae,Opelu,26,57682015,4,Kauai County,CHCRT,Scaridae,Uhu parrot-misc.,7,7662015,4,Kauai County,CHCRT,Holocentridae,Menpachi,32,118722015,4,Kauai County,CHCRT,Mullidae,Weke ula,6,632015,4,Kauai County,CHCRT,Acanthuridae,Palani,3,282015,4,Kauai County,CHCRT,Acanthuridae,Kala,3,2172015,4,Kauai County,CHCRT,Kyphosidae,Nenue,3,722015,4,Kauai County,CHCRT,Carangidae,Hahalalu,5,1442015,4,Kauai County,CHCRT,Acanthuridae,Manini,4,292015,4,Kauai County,CHCRT,Mullidae,Weke nono,10,15402015,4,Kauai County,CHCRT,Priacanthidae,Aweoweo,19,5402015,4,Kauai County,CHCRT,Mullidae,Kumu,5,1512015,4,Kauai County,CHCRT,Mullidae,Moana,8,1092015,4,Kauai County,CHCRT,Labridae,Aawa,5,2472015,4,Kauai County,CHCRT,Sphyraenidae,Kawelea,6,772015,4,Kauai County,CHCRT,Kuhliidae,Aholehole,4,2732015,4,Kauai County,CHCRT,Carcharhinidae,Shark-misc.,4,402015,4,Kauai County,CHCRT,Sphyraenidae,Kaku,14,4652015,4,Kauai County,CHCRT,Mullidae,Moana kale,7,1172015,4,Kauai County,CHCRT,Balistidae,Humuhumu,3,192016,4,Kauai County,CHCRT,Carangidae,Akule,46,365832016,4,Kauai County,CHCRT,Carangidae,Opelu,20,88012016,4,Kauai County,CHCRT,Scaridae,Uhu parrot-misc.,4,13462016,4,Kauai County,CHCRT,Holocentridae,Menpachi,30,141402016,4,Kauai County,CHCRT,Mullidae,Weke ula,8,10382016,4,Kauai County,CHCRT,Kyphosidae,Nenue,3,272016,4,Kauai County,CHCRT,Mullidae,Weke nono,11,20262016,4,Kauai County,CHCRT,Priacanthidae,Aweoweo,17,5462016,4,Kauai County,CHCRT,Mullidae,Kumu,6,2182016,4,Kauai County,CHCRT,Mullidae,Moana,10,1122016,4,Kauai County,CHCRT,Labridae,Aawa,10,442016,4,Kauai County,CHCRT,Sphyraenidae,Kawelea,3,202016,4,Kauai County,CHCRT,Carcharhinidae,Shark-misc.,3,52016,4,Kauai County,CHCRT,Sphyraenidae,Kaku,7,1112016,4,Kauai County,CHCRT,Mullidae,Moana kale,8,682016,4,Kauai County,CHCRT,Polynemidae,Moi,3,1372016,4,Kauai County,CHCRT,Carangidae,Kagami ulua,6,2052012,4,Kauai County,PHCRT,Carangidae,Papa ulua,11,3022012,4,Kauai County,PHCRT,Carangidae,Omilu,25,24232012,4,Kauai County,PHCRT,Carangidae,Kamanu,10,5702012,4,Kauai County,PHCRT,Lutjanidae,Toau,14,992012,4,Kauai County,PHCRT,Lethrinidae,Mu,4,1642012,4,Kauai County,PHCRT,Scorpaenidae,Hogo,19,2452012,4,Kauai County,PHCRT,Emmelichthyidae,Golden kali,7,262013,4,Kauai County,PHCRT,Carangidae,Papa ulua,4,2072013,4,Kauai County,PHCRT,Carangidae,Omilu,20,25462013,4,Kauai County,PHCRT,Carangidae,Kamanu,12,9172013,4,Kauai County,PHCRT,Lutjanidae,Toau,12,1222013,4,Kauai County,PHCRT,Scorpaenidae,Hogo,10,1912013,4,Kauai County,PHCRT,Emmelichthyidae,Golden kali,7,382013,4,Kauai County,PHCRT,Priacanthidae,Aweoweo (deepsea),3,132014,4,Kauai County,PHCRT,Albulidae,Oio,5,18482014,4,Kauai County,PHCRT,Carangidae,Papa ulua,11,5672014,4,Kauai County,PHCRT,Carangidae,Omilu,26,20932014,4,Kauai County,PHCRT,Carangidae,Kamanu,18,9092014,4,Kauai County,PHCRT,Lutjanidae,Toau,9,4182014,4,Kauai County,PHCRT,Scorpaenidae,Hogo,14,2402014,4,Kauai County,PHCRT,Carangidae,Ulua-misc.,12,3482014,4,Kauai County,PHCRT,Carangidae,Sasa ulua,3,892014,4,Kauai County,PHCRT,Emmelichthyidae,Golden kali,4,222015,4,Kauai County,PHCRT,Carangidae,Papa ulua,7,1502015,4,Kauai County,PHCRT,Carangidae,Omilu,20,21382015,4,Kauai County,PHCRT,Carangidae,Kamanu,14,9632015,4,Kauai County,PHCRT,Lutjanidae,Toau,7,1132015,4,Kauai County,PHCRT,Lethrinidae,Mu,3,2302015,4,Kauai County,PHCRT,Scorpaenidae,Hogo,14,3732015,4,Kauai County,PHCRT,Carangidae,Ulua-misc.,5,1892015,4,Kauai County,PHCRT,Emmelichthyidae,Golden kali,3,212015,4,Kauai County,PHCRT,Priacanthidae,Aweoweo (deepsea),3,162015,4,Kauai County,PHCRT,Lutjanidae,Wahanui,3,562016,4,Kauai County,PHCRT,Albulidae,Oio,4,4342016,4,Kauai County,PHCRT,Carangidae,Papa ulua,7,1602016,4,Kauai County,PHCRT,Carangidae,Omilu,20,21752016,4,Kauai County,PHCRT,Carangidae,Kamanu,16,9822016,4,Kauai County,PHCRT,Lutjanidae,Toau,9,1262016,4,Kauai County,PHCRT,Lethrinidae,Mu,3,3812016,4,Kauai County,PHCRT,Scorpaenidae,Hogo,17,3622016,4,Kauai County,PHCRT,Emmelichthyidae,Golden kali,4,362016,4,Kauai County,PHCRT,Priacanthidae,Aweoweo (deepsea),3,312012,2,Penguin Bank,CHCRT,Holocentridae,Menpachi,7,442012,2,Penguin Bank,CHCRT,Mullidae,Weke nono,6,892012,2,Penguin Bank,CHCRT,Priacanthidae,Aweoweo,5,1062012,2,Penguin Bank,CHCRT,Labridae,Aawa,6,402012,2,Penguin Bank,CHCRT,Sphyraenidae,Kawelea,4,612012,2,Penguin Bank,CHCRT,Carcharhinidae,Shark-misc.,4,242012,2,Penguin Bank,CHCRT,Sphyraenidae,Kaku,13,1562013,2,Penguin Bank,CHCRT,Carangidae,Akule,4,2812013,2,Penguin Bank,CHCRT,Holocentridae,Menpachi,8,202013,2,Penguin Bank,CHCRT,Mullidae,Weke nono,10,1332013,2,Penguin Bank,CHCRT,Priacanthidae,Aweoweo,12,832013,2,Penguin Bank,CHCRT,Labridae,Aawa,3,152013,2,Penguin Bank,CHCRT,Sphyraenidae,Kawelea,7,2272013,2,Penguin Bank,CHCRT,Carcharhinidae,Shark-misc.,11,532013,2,Penguin Bank,CHCRT,Sphyraenidae,Kaku,7,722014,2,Penguin Bank,CHCRT,Carangidae,Akule,3,2092014,2,Penguin Bank,CHCRT,Carangidae,Opelu,5,2682014,2,Penguin Bank,CHCRT,Holocentridae,Menpachi,10,452014,2,Penguin Bank,CHCRT,Mullidae,Weke ula,3,312014,2,Penguin Bank,CHCRT,Mullidae,Weke nono,7,482014,2,Penguin Bank,CHCRT,Priacanthidae,Aweoweo,9,792014,2,Penguin Bank,CHCRT,Labridae,Aawa,4,112014,2,Penguin Bank,CHCRT,Labridae,Laenihi,4,412014,2,Penguin Bank,CHCRT,Sphyraenidae,Kawelea,5,442014,2,Penguin Bank,CHCRT,Carcharhinidae,Shark-misc.,6,02014,2,Penguin Bank,CHCRT,Sphyraenidae,Kaku,6,1032015,2,Penguin Bank,CHCRT,Carangidae,Opelu,4,1102015,2,Penguin Bank,CHCRT,Holocentridae,Menpachi,4,52015,2,Penguin Bank,CHCRT,Mullidae,Weke nono,8,1022015,2,Penguin Bank,CHCRT,Priacanthidae,Aweoweo,6,562015,2,Penguin Bank,CHCRT,Labridae,Aawa,4,242015,2,Penguin Bank,CHCRT,Labridae,Laenihi,4,2672015,2,Penguin Bank,CHCRT,Sphyraenidae,Kawelea,5,1682015,2,Penguin Bank,CHCRT,Carcharhinidae,Shark-misc.,3,02015,2,Penguin Bank,CHCRT,Sphyraenidae,Kaku,10,1572016,2,Penguin Bank,CHCRT,Carangidae,Opelu,3,202016,2,Penguin Bank,CHCRT,Holocentridae,Menpachi,7,302016,2,Penguin Bank,CHCRT,Mullidae,Weke nono,10,1522016,2,Penguin Bank,CHCRT,Priacanthidae,Aweoweo,6,1032016,2,Penguin Bank,CHCRT,Labridae,Aawa,5,472016,2,Penguin Bank,CHCRT,Labridae,Laenihi,6,3072016,2,Penguin Bank,CHCRT,Sphyraenidae,Kawelea,7,1092016,2,Penguin Bank,CHCRT,Carcharhinidae,Shark-misc.,5,3002016,2,Penguin Bank,CHCRT,Sphyraenidae,Kaku,15,148
+rgn_id,year,key_sp,catch,Fam,code
+1,2012,Acan_Api,367.5,Acan,reef
+1,2013,Acan_Api,220.5,Acan,reef
+1,2014,Acan_Api,619.5,Acan,reef
+1,2015,Acan_Api,430.5,Acan,reef
+1,2012,Acan_Black kole,2037,Acan,reef
+1,2013,Acan_Black kole,1018.5,Acan,reef
+1,2016,Acan_Black kole,252,Acan,reef
+1,2012,Acan_Kala,3654,Acan,reef
+1,2013,Acan_Kala,4536,Acan,reef
+1,2014,Acan_Kala,714,Acan,reef
+1,2015,Acan_Kala,2005.5,Acan,reef
+1,2016,Acan_Kala,4137,Acan,reef
+1,2012,Acan_Kole,16999.5,Acan,reef
+1,2013,Acan_Kole,14626.5,Acan,reef
+1,2014,Acan_Kole,19761,Acan,reef
+1,2015,Acan_Kole,3643.5,Acan,reef
+1,2016,Acan_Kole,6909,Acan,reef
+1,2012,Acan_Maiko,2457,Acan,reef
+1,2013,Acan_Maiko,661.5,Acan,reef
+1,2014,Acan_Maiko,2037,Acan,reef
+1,2015,Acan_Maiko,1039.5,Acan,reef
+1,2016,Acan_Maiko,451.5,Acan,reef
+1,2012,Acan_Manini,19761,Acan,reef
+1,2013,Acan_Manini,27877.5,Acan,reef
+1,2014,Acan_Manini,17776.5,Acan,reef
+1,2015,Acan_Manini,6604.5,Acan,reef
+1,2016,Acan_Manini,5764.5,Acan,reef
+1,2012,Acan_Naenae,808.5,Acan,reef
+1,2013,Acan_Naenae,1155,Acan,reef
+1,2012,Acan_Opelu kala,22554,Acan,reef
+1,2013,Acan_Opelu kala,30166.5,Acan,reef
+1,2014,Acan_Opelu kala,9649.5,Acan,reef
+1,2015,Acan_Opelu kala,6867,Acan,reef
+1,2016,Acan_Opelu kala,3580.5,Acan,reef
+1,2012,Acan_Pakuikui (tang),3234,Acan,reef
+1,2013,Acan_Pakuikui (tang),4231.5,Acan,reef
+1,2014,Acan_Pakuikui (tang),1995,Acan,reef
+1,2015,Acan_Pakuikui (tang),1176,Acan,reef
+1,2016,Acan_Pakuikui (tang),703.5,Acan,reef
+1,2012,Acan_Palani,14164.5,Acan,reef
+1,2013,Acan_Palani,16222.5,Acan,reef
+1,2014,Acan_Palani,7182,Acan,reef
+1,2015,Acan_Palani,6825,Acan,reef
+1,2016,Acan_Palani,1596,Acan,reef
+1,2012,Acan_Pualu,7276.5,Acan,reef
+1,2013,Acan_Pualu,5911.5,Acan,reef
+1,2014,Acan_Pualu,16516.5,Acan,reef
+1,2015,Acan_Pualu,6310.5,Acan,reef
+1,2016,Acan_Pualu,4746,Acan,reef
+1,2012,Acan_Umaumalei,4567.5,Acan,reef
+1,2013,Acan_Umaumalei,1260,Acan,reef
+1,2013,Albu_Oio,231,Albu,reef
+1,2015,Albu_Oio,1302,Albu,reef
+1,2016,Albu_Oio,945,Albu,reef
+1,2012,Aulo_Nunu,724.5,Aulo,reef
+1,2013,Aulo_Nunu,756,Aulo,reef
+1,2016,Aulo_Nunu,703.5,Aulo,reef
+1,2012,Bali_Humuhumu,1596,Bali,reef
+1,2013,Bali_Humuhumu,262.5,Bali,reef
+1,2014,Bali_Humuhumu,126,Bali,reef
+1,2016,Bali_Humuhumu,315,Bali,reef
+1,2012,Belo_Ahaaha,1291.5,Belo,reef
+1,2013,Belo_Ahaaha,871.5,Belo,reef
+1,2015,Belo_Ahaaha,892.5,Belo,reef
+1,2016,Belo_Ahaaha,472.5,Belo,reef
+1,2012,Cara_Akule,198471,Cara,reef
+1,2013,Cara_Akule,157311,Cara,reef
+1,2014,Cara_Akule,136552.5,Cara,reef
+1,2015,Cara_Akule,185934,Cara,reef
+1,2016,Cara_Akule,210724.5,Cara,reef
+1,2013,Cara_Dobe ulua,1648.5,Cara,reef
+1,2014,Cara_Dobe ulua,4945.5,Cara,reef
+1,2012,Cara_Hahalalu,2919,Cara,reef
+1,2014,Cara_Hahalalu,577.5,Cara,reef
+1,2015,Cara_Hahalalu,2562,Cara,reef
+1,2016,Cara_Hahalalu,5607,Cara,reef
+1,2012,Cara_Kamanu,25368,Cara,reef
+1,2013,Cara_Kamanu,15466.5,Cara,reef
+1,2014,Cara_Kamanu,30786,Cara,reef
+1,2015,Cara_Kamanu,15582,Cara,reef
+1,2016,Cara_Kamanu,22984.5,Cara,reef
+1,2012,Cara_Lae,42,Cara,reef
+1,2013,Cara_Lae,63,Cara,reef
+1,2014,Cara_Lae,52.5,Cara,reef
+1,2015,Cara_Lae,105,Cara,reef
+1,2012,Cara_Omilu,13314,Cara,reef
+1,2013,Cara_Omilu,5848.5,Cara,reef
+1,2014,Cara_Omilu,4410,Cara,reef
+1,2015,Cara_Omilu,6394.5,Cara,reef
+1,2016,Cara_Omilu,5145,Cara,reef
+1,2012,Cara_Opelu,1608621,Cara,reef
+1,2013,Cara_Opelu,1380508.5,Cara,reef
+1,2014,Cara_Opelu,1599853.5,Cara,reef
+1,2015,Cara_Opelu,1641780,Cara,reef
+1,2016,Cara_Opelu,1087443,Cara,reef
+1,2013,Cara_Opelu mama,441,Cara,reef
+1,2014,Cara_Opelu mama,388.5,Cara,reef
+1,2012,Cara_Papa ulua,336,Cara,reef
+1,2013,Cara_Papa ulua,1596,Cara,reef
+1,2014,Cara_Papa ulua,1438.5,Cara,reef
+1,2015,Cara_Papa ulua,630,Cara,reef
+1,2016,Cara_Papa ulua,2331,Cara,reef
+1,2012,Cara_Sasa ulua,609,Cara,reef
+1,2013,Cara_Sasa ulua,1659,Cara,reef
+1,2015,Cara_Sasa ulua,2814,Cara,reef
+1,2014,Cara_Ulua-misc.,1102.5,Cara,reef
+1,2015,Cara_Ulua-misc.,2488.5,Cara,reef
+1,2012,Carc_Shark-misc.,3192,Carc,reef
+1,2013,Carc_Shark-misc.,2205,Carc,reef
+1,2014,Carc_Shark-misc.,1081.5,Carc,reef
+1,2015,Carc_Shark-misc.,0,Carc,reef
+1,2016,Carc_Shark-misc.,2614.5,Carc,reef
+1,2012,Cirr_Poopaa,315,Cirr,reef
+1,2013,Cirr_Poopaa,220.5,Cirr,reef
+1,2014,Cirr_Poopaa,294,Cirr,reef
+1,2015,Cirr_Poopaa,168,Cirr,reef
+1,2016,Cirr_Poopaa,210,Cirr,reef
+1,2012,Emme_Golden kali,966,Emme,reef
+1,2013,Emme_Golden kali,1669.5,Emme,reef
+1,2014,Emme_Golden kali,1060.5,Emme,reef
+1,2015,Emme_Golden kali,420,Emme,reef
+1,2016,Emme_Golden kali,241.5,Emme,reef
+1,2013,Gemp_Hauliuli,115.5,Gemp,reef
+1,2012,Holo_Alaihe,2289,Holo,reef
+1,2013,Holo_Alaihe,3937.5,Holo,reef
+1,2014,Holo_Alaihe,2425.5,Holo,reef
+1,2015,Holo_Alaihe,1396.5,Holo,reef
+1,2016,Holo_Alaihe,924,Holo,reef
+1,2012,Holo_Alaihe mama,703.5,Holo,reef
+1,2013,Holo_Alaihe mama,472.5,Holo,reef
+1,2014,Holo_Alaihe mama,94.5,Holo,reef
+1,2015,Holo_Alaihe mama,493.5,Holo,reef
+1,2016,Holo_Alaihe mama,105,Holo,reef
+1,2012,Holo_Menpachi,249018,Holo,reef
+1,2013,Holo_Menpachi,249805.5,Holo,reef
+1,2014,Holo_Menpachi,171444,Holo,reef
+1,2015,Holo_Menpachi,152869.5,Holo,reef
+1,2016,Holo_Menpachi,163632,Holo,reef
+1,2012,Kuhl_Aholehole,6205.5,Kuhl,reef
+1,2013,Kuhl_Aholehole,7570.5,Kuhl,reef
+1,2014,Kuhl_Aholehole,8473.5,Kuhl,reef
+1,2015,Kuhl_Aholehole,6436.5,Kuhl,reef
+1,2016,Kuhl_Aholehole,7245,Kuhl,reef
+1,2012,Kyph_Nenue,8872.5,Kyph,reef
+1,2013,Kyph_Nenue,10164,Kyph,reef
+1,2014,Kyph_Nenue,11518.5,Kyph,reef
+1,2015,Kyph_Nenue,6237,Kyph,reef
+1,2016,Kyph_Nenue,6877.5,Kyph,reef
+1,2012,Labr_Aawa,25704,Labr,reef
+1,2013,Labr_Aawa,20160,Labr,reef
+1,2014,Labr_Aawa,14269.5,Labr,reef
+1,2015,Labr_Aawa,10752,Labr,reef
+1,2016,Labr_Aawa,19971,Labr,reef
+1,2012,Labr_Ea (wrasse),430.5,Labr,reef
+1,2013,Labr_Ea (wrasse),315,Labr,reef
+1,2015,Labr_Ea (wrasse),798,Labr,reef
+1,2012,Labr_Laenihi,9166.5,Labr,reef
+1,2013,Labr_Laenihi,8305.5,Labr,reef
+1,2014,Labr_Laenihi,10930.5,Labr,reef
+1,2015,Labr_Laenihi,6751.5,Labr,reef
+1,2016,Labr_Laenihi,8736,Labr,reef
+1,2012,Labr_Poou,210,Labr,reef
+1,2012,Leth_Mu,20433,Leth,reef
+1,2013,Leth_Mu,18406.5,Leth,reef
+1,2014,Leth_Mu,1795.5,Leth,reef
+1,2015,Leth_Mu,2887.5,Leth,reef
+1,2016,Leth_Mu,2887.5,Leth,reef
+1,2013,Lutj_Randall's snapper,535.5,Lutj,reef
+1,2015,Lutj_Randall's snapper,756,Lutj,reef
+1,2012,Lutj_Toau,9187.5,Lutj,reef
+1,2013,Lutj_Toau,4347,Lutj,reef
+1,2014,Lutj_Toau,2446.5,Lutj,reef
+1,2015,Lutj_Toau,3045,Lutj,reef
+1,2016,Lutj_Toau,3948,Lutj,reef
+1,2012,Lutj_Wahanui,220.5,Lutj,reef
+1,2013,Lutj_Wahanui,189,Lutj,reef
+1,2014,Lutj_Wahanui,325.5,Lutj,reef
+1,2015,Lutj_Wahanui,451.5,Lutj,reef
+1,2012,Mona_Olililepa,955.5,Mona,reef
+1,2015,Mona_Olililepa,336,Mona,reef
+1,2014,Mugi_Amaama,304.5,Mugi,reef
+1,2012,Mugi_Uouoa,2100,Mugi,reef
+1,2013,Mugi_Uouoa,3003,Mugi,reef
+1,2014,Mugi_Uouoa,5113.5,Mugi,reef
+1,2015,Mugi_Uouoa,1932,Mugi,reef
+1,2012,Mull_Kumu,19519.5,Mull,reef
+1,2013,Mull_Kumu,16306.5,Mull,reef
+1,2014,Mull_Kumu,3874.5,Mull,reef
+1,2015,Mull_Kumu,5040,Mull,reef
+1,2016,Mull_Kumu,7434,Mull,reef
+1,2012,Mull_Malu,294,Mull,reef
+1,2013,Mull_Malu,84,Mull,reef
+1,2012,Mull_Moana,26407.5,Mull,reef
+1,2013,Mull_Moana,19425,Mull,reef
+1,2014,Mull_Moana,13818,Mull,reef
+1,2015,Mull_Moana,13062,Mull,reef
+1,2016,Mull_Moana,22470,Mull,reef
+1,2012,Mull_Moana kale,12610.5,Mull,reef
+1,2013,Mull_Moana kale,8253,Mull,reef
+1,2014,Mull_Moana kale,9985.5,Mull,reef
+1,2015,Mull_Moana kale,5481,Mull,reef
+1,2016,Mull_Moana kale,9954,Mull,reef
+1,2012,Mull_Munu,3160.5,Mull,reef
+1,2013,Mull_Munu,1512,Mull,reef
+1,2014,Mull_Munu,1543.5,Mull,reef
+1,2015,Mull_Munu,441,Mull,reef
+1,2016,Mull_Munu,955.5,Mull,reef
+1,2012,Mull_Weke a'a,1648.5,Mull,reef
+1,2013,Mull_Weke a'a,2961,Mull,reef
+1,2014,Mull_Weke a'a,955.5,Mull,reef
+1,2015,Mull_Weke a'a,1239,Mull,reef
+1,2016,Mull_Weke a'a,1375.5,Mull,reef
+1,2012,Mull_Weke nono,8631,Mull,reef
+1,2013,Mull_Weke nono,6762,Mull,reef
+1,2014,Mull_Weke nono,10930.5,Mull,reef
+1,2015,Mull_Weke nono,6415.5,Mull,reef
+1,2016,Mull_Weke nono,8904,Mull,reef
+1,2013,Mull_Weke pueo,325.5,Mull,reef
+1,2012,Mull_Weke ula,4609.5,Mull,reef
+1,2013,Mull_Weke ula,4410,Mull,reef
+1,2014,Mull_Weke ula,8232,Mull,reef
+1,2015,Mull_Weke ula,5008.5,Mull,reef
+1,2016,Mull_Weke ula,10678.5,Mull,reef
+1,2013,Mura_Puhi eel-misc.,3549,Mura,reef
+1,2014,Poly_Moi,357,Poly,reef
+1,2015,Poly_Moi,1816.5,Poly,reef
+1,2012,Poma_Kupipi,252,Poma,reef
+1,2014,Poma_Kupipi,808.5,Poma,reef
+1,2012,Poma_Maomao,115.5,Poma,reef
+1,2012,Pria_Aweoweo,17335.5,Pria,reef
+1,2013,Pria_Aweoweo,27867,Pria,reef
+1,2014,Pria_Aweoweo,32403,Pria,reef
+1,2015,Pria_Aweoweo,41359.5,Pria,reef
+1,2016,Pria_Aweoweo,26964,Pria,reef
+1,2012,Pria_Aweoweo (deepsea),525,Pria,reef
+1,2013,Pria_Aweoweo (deepsea),283.5,Pria,reef
+1,2014,Pria_Aweoweo (deepsea),1365,Pria,reef
+1,2015,Pria_Aweoweo (deepsea),525,Pria,reef
+1,2012,Scar_Panuhunuhu,126,Scar,reef
+1,2013,Scar_Panuhunuhu,115.5,Scar,reef
+1,2014,Scar_Panuhunuhu,724.5,Scar,reef
+1,2015,Scar_Panunu,115.5,Scar,reef
+1,2012,Scar_Uhu parrot-misc.,147031.5,Scar,reef
+1,2013,Scar_Uhu parrot-misc.,79915.5,Scar,reef
+1,2014,Scar_Uhu parrot-misc.,29526,Scar,reef
+1,2015,Scar_Uhu parrot-misc.,43249.5,Scar,reef
+1,2016,Scar_Uhu parrot-misc.,34587,Scar,reef
+1,2012,Scor_Hogo,2961,Scor,reef
+1,2013,Scor_Hogo,5365.5,Scor,reef
+1,2014,Scor_Hogo,3549,Scor,reef
+1,2015,Scor_Hogo,2488.5,Scor,reef
+1,2016,Scor_Hogo,1113,Scor,reef
+1,2012,Scor_Nohu,4420.5,Scor,reef
+1,2013,Scor_Nohu,2572.5,Scor,reef
+1,2014,Scor_Nohu,1837.5,Scor,reef
+1,2015,Scor_Nohu,5491.5,Scor,reef
+1,2016,Scor_Nohu,3633,Scor,reef
+1,2012,Serr_Roi,1375.5,Serr,reef
+1,2012,Sphy_Kaku,3181.5,Sphy,reef
+1,2013,Sphy_Kaku,4189.5,Sphy,reef
+1,2014,Sphy_Kaku,4935,Sphy,reef
+1,2015,Sphy_Kaku,3412.5,Sphy,reef
+1,2016,Sphy_Kaku,2499,Sphy,reef
+1,2012,Sphy_Kawelea,9103.5,Sphy,reef
+1,2013,Sphy_Kawelea,9534,Sphy,reef
+1,2014,Sphy_Kawelea,9649.5,Sphy,reef
+1,2015,Sphy_Kawelea,18217.5,Sphy,reef
+1,2016,Sphy_Kawelea,8715,Sphy,reef
+2,2012,Acan_Kala,48847.4,Acan,reef
+2,2013,Acan_Kala,48803,Acan,reef
+2,2014,Acan_Kala,39101.6,Acan,reef
+2,2015,Acan_Kala,36097.200000000004,Acan,reef
+2,2016,Acan_Kala,31664.600000000002,Acan,reef
+2,2012,Acan_Kole,18389,Acan,reef
+2,2013,Acan_Kole,7348.200000000001,Acan,reef
+2,2014,Acan_Kole,4366,Acan,reef
+2,2015,Acan_Kole,5742.4000000000005,Acan,reef
+2,2016,Acan_Kole,3011.8,Acan,reef
+2,2012,Acan_Manini,29762.800000000003,Acan,reef
+2,2013,Acan_Manini,23872.4,Acan,reef
+2,2014,Acan_Manini,15954.400000000001,Acan,reef
+2,2015,Acan_Manini,16901.600000000002,Acan,reef
+2,2016,Acan_Manini,20823.600000000002,Acan,reef
+2,2012,Acan_Naenae,3885,Acan,reef
+2,2012,Acan_Opelu kala,947.2,Acan,reef
+2,2013,Acan_Opelu kala,4765.6,Acan,reef
+2,2014,Acan_Opelu kala,814,Acan,reef
+2,2015,Acan_Opelu kala,858.4000000000001,Acan,reef
+2,2016,Acan_Opelu kala,2760.2000000000003,Acan,reef
+2,2012,Acan_Palani,33610.8,Acan,reef
+2,2013,Acan_Palani,25811.2,Acan,reef
+2,2014,Acan_Palani,26891.600000000002,Acan,reef
+2,2015,Acan_Palani,25559.600000000002,Acan,reef
+2,2016,Acan_Palani,24686.4,Acan,reef
+2,2012,Acan_Pualu,5476,Acan,reef
+2,2013,Acan_Pualu,3019.2000000000003,Acan,reef
+2,2014,Acan_Pualu,6512,Acan,reef
+2,2015,Acan_Pualu,6586,Acan,reef
+2,2016,Acan_Pualu,5032,Acan,reef
+2,2012,Acan_Umaumalei,20734.8,Acan,reef
+2,2013,Acan_Umaumalei,15362.400000000001,Acan,reef
+2,2014,Acan_Umaumalei,12935.2,Acan,reef
+2,2015,Acan_Umaumalei,17767.4,Acan,reef
+2,2016,Acan_Umaumalei,16650,Acan,reef
+2,2012,Albu_Oio,2974.8,Albu,reef
+2,2013,Albu_Oio,9028,Albu,reef
+2,2014,Albu_Oio,3959,Albu,reef
+2,2015,Albu_Oio,5542.6,Albu,reef
+2,2016,Albu_Oio,5387.2,Albu,reef
+2,2012,Bali_Humuhumu,584.6,Bali,reef
+2,2013,Bali_Humuhumu,621.6,Bali,reef
+2,2014,Bali_Humuhumu,229.4,Bali,reef
+2,2015,Bali_Humuhumu,362.6,Bali,reef
+2,2016,Bali_Humuhumu,458.8,Bali,reef
+2,2012,Belo_Ahaaha,2745.4,Belo,reef
+2,2013,Belo_Ahaaha,754.8000000000001,Belo,reef
+2,2014,Belo_Ahaaha,843.6,Belo,reef
+2,2012,Cara_Akule,222747.40000000002,Cara,reef
+2,2013,Cara_Akule,285714.00000000006,Cara,reef
+2,2014,Cara_Akule,236896.2,Cara,reef
+2,2015,Cara_Akule,228933.80000000002,Cara,reef
+2,2016,Cara_Akule,1052790.6,Cara,reef
+2,2012,Cara_Dobe ulua,8428.6,Cara,reef
+2,2013,Cara_Dobe ulua,13083.2,Cara,reef
+2,2014,Cara_Dobe ulua,1028.6,Cara,reef
+2,2015,Cara_Dobe ulua,3389.2,Cara,reef
+2,2016,Cara_Dobe ulua,917.6,Cara,reef
+2,2012,Cara_Kagami ulua,1864.8000000000002,Cara,reef
+2,2013,Cara_Kagami ulua,421.8,Cara,reef
+2,2014,Cara_Kagami ulua,451.40000000000003,Cara,reef
+2,2015,Cara_Kagami ulua,303.40000000000003,Cara,reef
+2,2012,Cara_Kamanu,4484.4000000000005,Cara,reef
+2,2013,Cara_Kamanu,5490.8,Cara,reef
+2,2014,Cara_Kamanu,8251,Cara,reef
+2,2015,Cara_Kamanu,12298.8,Cara,reef
+2,2016,Cara_Kamanu,15199.600000000002,Cara,reef
+2,2012,Cara_Lae,59.2,Cara,reef
+2,2013,Cara_Lae,103.60000000000001,Cara,reef
+2,2015,Cara_Lae,29.6,Cara,reef
+2,2012,Cara_Omilu,18189.2,Cara,reef
+2,2013,Cara_Omilu,12113.800000000001,Cara,reef
+2,2014,Cara_Omilu,11114.8,Cara,reef
+2,2015,Cara_Omilu,13949,Cara,reef
+2,2016,Cara_Omilu,14489.2,Cara,reef
+2,2012,Cara_Opelu,119436,Cara,reef
+2,2013,Cara_Opelu,160587.4,Cara,reef
+2,2014,Cara_Opelu,139793.40000000002,Cara,reef
+2,2015,Cara_Opelu,62530,Cara,reef
+2,2016,Cara_Opelu,50801,Cara,reef
+2,2012,Cara_Papa ulua,78284.6,Cara,reef
+2,2013,Cara_Papa ulua,40973.8,Cara,reef
+2,2014,Cara_Papa ulua,44518.4,Cara,reef
+2,2015,Cara_Papa ulua,56536.00000000001,Cara,reef
+2,2016,Cara_Papa ulua,61375.600000000006,Cara,reef
+2,2012,Cara_Sasa ulua,1657.6000000000001,Cara,reef
+2,2013,Cara_Sasa ulua,473.6,Cara,reef
+2,2016,Cara_Sasa ulua,2812,Cara,reef
+2,2014,Cara_Ulua-misc.,9094.6,Cara,reef
+2,2015,Cara_Ulua-misc.,12054.6,Cara,reef
+2,2016,Cara_Ulua-misc.,843.6,Cara,reef
+2,2012,Carc_Shark-misc.,251.60000000000002,Carc,reef
+2,2013,Carc_Shark-misc.,392.20000000000005,Carc,reef
+2,2014,Carc_Shark-misc.,0,Carc,reef
+2,2015,Carc_Shark-misc.,2220,Carc,reef
+2,2016,Carc_Shark-misc.,6512,Carc,reef
+2,2012,Chan_Awa,458.8,Chan,reef
+2,2012,Cirr_Poopaa,2057.2000000000003,Cirr,reef
+2,2013,Cirr_Poopaa,717.8000000000001,Cirr,reef
+2,2014,Cirr_Poopaa,636.4,Cirr,reef
+2,2015,Cirr_Poopaa,510.6,Cirr,reef
+2,2016,Cirr_Poopaa,910.2,Cirr,reef
+2,2012,Emme_Golden kali,888,Emme,reef
+2,2013,Emme_Golden kali,1280.2,Emme,reef
+2,2014,Emme_Golden kali,680.8000000000001,Emme,reef
+2,2015,Emme_Golden kali,851,Emme,reef
+2,2016,Emme_Golden kali,562.4000000000001,Emme,reef
+2,2012,Holo_Alaihe,318.2,Holo,reef
+2,2015,Holo_Alaihe,74,Holo,reef
+2,2012,Holo_Alaihe mama,74,Holo,reef
+2,2012,Holo_Menpachi,43275.2,Holo,reef
+2,2013,Holo_Menpachi,26691.800000000003,Holo,reef
+2,2014,Holo_Menpachi,32767.2,Holo,reef
+2,2015,Holo_Menpachi,33647.8,Holo,reef
+2,2016,Holo_Menpachi,39294,Holo,reef
+2,2012,Kuhl_Aholehole,2123.8,Kuhl,reef
+2,2013,Kuhl_Aholehole,347.8,Kuhl,reef
+2,2014,Kuhl_Aholehole,777,Kuhl,reef
+2,2015,Kuhl_Aholehole,407,Kuhl,reef
+2,2016,Kuhl_Aholehole,1628,Kuhl,reef
+2,2012,Kyph_Nenue,58904,Kyph,reef
+2,2013,Kyph_Nenue,38021.200000000004,Kyph,reef
+2,2014,Kyph_Nenue,46057.600000000006,Kyph,reef
+2,2015,Kyph_Nenue,42964.4,Kyph,reef
+2,2016,Kyph_Nenue,25981.4,Kyph,reef
+2,2012,Labr_Aawa,1339.4,Labr,reef
+2,2013,Labr_Aawa,806.6,Labr,reef
+2,2014,Labr_Aawa,1354.2,Labr,reef
+2,2015,Labr_Aawa,910.2,Labr,reef
+2,2016,Labr_Aawa,1073,Labr,reef
+2,2012,Labr_Ea (wrasse),947.2,Labr,reef
+2,2013,Labr_Ea (wrasse),851,Labr,reef
+2,2014,Labr_Ea (wrasse),836.2,Labr,reef
+2,2015,Labr_Ea (wrasse),170.20000000000002,Labr,reef
+2,2016,Labr_Ea (wrasse),192.4,Labr,reef
+2,2012,Labr_Laenihi,8857.800000000001,Labr,reef
+2,2013,Labr_Laenihi,11958.400000000001,Labr,reef
+2,2014,Labr_Laenihi,13579,Labr,reef
+2,2015,Labr_Laenihi,19728.4,Labr,reef
+2,2016,Labr_Laenihi,15695.400000000001,Labr,reef
+2,2016,Labr_Poou,170.20000000000002,Labr,reef
+2,2012,Leth_Mu,851,Leth,reef
+2,2013,Leth_Mu,1339.4,Leth,reef
+2,2014,Leth_Mu,207.20000000000002,Leth,reef
+2,2015,Leth_Mu,525.4,Leth,reef
+2,2016,Leth_Mu,717.8000000000001,Leth,reef
+2,2012,Lutj_Toau,13645.6,Lutj,reef
+2,2013,Lutj_Toau,1087.8,Lutj,reef
+2,2014,Lutj_Toau,310.8,Lutj,reef
+2,2015,Lutj_Toau,8325,Lutj,reef
+2,2016,Lutj_Toau,3145,Lutj,reef
+2,2015,Mugi_Uouoa,399.6,Mugi,reef
+2,2012,Mull_Kumu,3330,Mull,reef
+2,2013,Mull_Kumu,1132.2,Mull,reef
+2,2014,Mull_Kumu,1776,Mull,reef
+2,2015,Mull_Kumu,895.4000000000001,Mull,reef
+2,2016,Mull_Kumu,1413.4,Mull,reef
+2,2012,Mull_Moana,13001.800000000001,Mull,reef
+2,2013,Mull_Moana,11640.2,Mull,reef
+2,2014,Mull_Moana,5712.8,Mull,reef
+2,2015,Mull_Moana,754.8000000000001,Mull,reef
+2,2016,Mull_Moana,614.2,Mull,reef
+2,2012,Mull_Moana kale,4824.8,Mull,reef
+2,2013,Mull_Moana kale,2397.6,Mull,reef
+2,2014,Mull_Moana kale,799.2,Mull,reef
+2,2015,Mull_Moana kale,584.6,Mull,reef
+2,2016,Mull_Moana kale,1050.8,Mull,reef
+2,2012,Mull_Munu,281.2,Mull,reef
+2,2013,Mull_Munu,214.60000000000002,Mull,reef
+2,2014,Mull_Munu,88.80000000000001,Mull,reef
+2,2015,Mull_Munu,81.4,Mull,reef
+2,2012,Mull_Weke a'a,8436,Mull,reef
+2,2013,Mull_Weke a'a,8865.2,Mull,reef
+2,2014,Mull_Weke a'a,2708.4,Mull,reef
+2,2015,Mull_Weke a'a,3352.2000000000003,Mull,reef
+2,2016,Mull_Weke a'a,4136.6,Mull,reef
+2,2012,Mull_Weke nono,13549.400000000001,Mull,reef
+2,2013,Mull_Weke nono,12617.000000000002,Mull,reef
+2,2014,Mull_Weke nono,5291,Mull,reef
+2,2015,Mull_Weke nono,8687.6,Mull,reef
+2,2016,Mull_Weke nono,6711.8,Mull,reef
+2,2013,Mull_Weke pueo,1087.8,Mull,reef
+2,2012,Mull_Weke ula,31923.600000000002,Mull,reef
+2,2013,Mull_Weke ula,12358,Mull,reef
+2,2014,Mull_Weke ula,39331,Mull,reef
+2,2015,Mull_Weke ula,52621.4,Mull,reef
+2,2016,Mull_Weke ula,23117.600000000002,Mull,reef
+2,2012,Poly_Moi,917.6,Poly,reef
+2,2014,Poly_Moi,236.8,Poly,reef
+2,2016,Poly_Moi,199.8,Poly,reef
+2,2012,Poma_Kupipi,895.4000000000001,Poma,reef
+2,2012,Poma_Maomao,13120.2,Poma,reef
+2,2013,Poma_Maomao,4972.8,Poma,reef
+2,2014,Poma_Maomao,1739,Poma,reef
+2,2015,Poma_Maomao,3433.6000000000004,Poma,reef
+2,2012,Pria_Aweoweo,2027.6000000000001,Pria,reef
+2,2013,Pria_Aweoweo,2449.4,Pria,reef
+2,2014,Pria_Aweoweo,2072,Pria,reef
+2,2015,Pria_Aweoweo,4062.6000000000004,Pria,reef
+2,2016,Pria_Aweoweo,4070,Pria,reef
+2,2012,Pria_Aweoweo (deepsea),532.8,Pria,reef
+2,2013,Pria_Aweoweo (deepsea),333,Pria,reef
+2,2014,Pria_Aweoweo (deepsea),762.2,Pria,reef
+2,2015,Pria_Aweoweo (deepsea),888.0000000000001,Pria,reef
+2,2016,Pria_Aweoweo (deepsea),703,Pria,reef
+2,2012,Scar_Uhu parrot-misc.,107714.40000000001,Scar,reef
+2,2013,Scar_Uhu parrot-misc.,82332.40000000001,Scar,reef
+2,2014,Scar_Uhu parrot-misc.,61723.4,Scar,reef
+2,2015,Scar_Uhu parrot-misc.,13038.800000000001,Scar,reef
+2,2016,Scar_Uhu parrot-misc.,17160.600000000002,Scar,reef
+2,2012,Scor_Hogo,6852.4,Scor,reef
+2,2013,Scor_Hogo,6171.6,Scor,reef
+2,2014,Scor_Hogo,5394.6,Scor,reef
+2,2015,Scor_Hogo,4033,Scor,reef
+2,2016,Scor_Hogo,4129.200000000001,Scor,reef
+2,2012,Scor_Nohu,7747.8,Scor,reef
+2,2013,Scor_Nohu,2908.2000000000003,Scor,reef
+2,2014,Scor_Nohu,1753.8000000000002,Scor,reef
+2,2015,Scor_Nohu,4121.8,Scor,reef
+2,2016,Scor_Nohu,3448.4,Scor,reef
+2,2012,Serr_Roi,11218.4,Serr,reef
+2,2013,Serr_Roi,7244.6,Serr,reef
+2,2014,Serr_Roi,2826.8,Serr,reef
+2,2015,Serr_Roi,2538.2000000000003,Serr,reef
+2,2016,Serr_Roi,10212,Serr,reef
+2,2012,Sphy_Kaku,4817.4000000000005,Sphy,reef
+2,2013,Sphy_Kaku,7925.4000000000005,Sphy,reef
+2,2014,Sphy_Kaku,2597.4,Sphy,reef
+2,2015,Sphy_Kaku,6541.6,Sphy,reef
+2,2016,Sphy_Kaku,2545.6000000000004,Sphy,reef
+2,2012,Sphy_Kawelea,5794.2,Sphy,reef
+2,2013,Sphy_Kawelea,4225.4,Sphy,reef
+2,2014,Sphy_Kawelea,1798.2000000000003,Sphy,reef
+2,2015,Sphy_Kawelea,3877.6000000000004,Sphy,reef
+2,2016,Sphy_Kawelea,2094.2000000000003,Sphy,reef
+3,2012,Acan_Api,211.2,Acan,reef
+3,2013,Acan_Api,277.2,Acan,reef
+3,2012,Acan_Kala,116047.79999999999,Acan,reef
+3,2013,Acan_Kala,82440.59999999999,Acan,reef
+3,2014,Acan_Kala,81430.79999999999,Acan,reef
+3,2015,Acan_Kala,54862.5,Acan,reef
+3,2016,Acan_Kala,41712,Acan,reef
+3,2012,Acan_Kole,214.5,Acan,reef
+3,2013,Acan_Kole,1141.8,Acan,reef
+3,2014,Acan_Kole,2178,Acan,reef
+3,2015,Acan_Kole,960.3,Acan,reef
+3,2016,Acan_Kole,422.4,Acan,reef
+3,2012,Acan_Maiko,6755.0999999999995,Acan,reef
+3,2013,Acan_Maiko,11342.099999999999,Acan,reef
+3,2014,Acan_Maiko,4055.7,Acan,reef
+3,2015,Acan_Maiko,1155,Acan,reef
+3,2016,Acan_Maiko,2999.7,Acan,reef
+3,2012,Acan_Manini,28089.6,Acan,reef
+3,2013,Acan_Manini,30333.6,Acan,reef
+3,2014,Acan_Manini,25185.6,Acan,reef
+3,2015,Acan_Manini,20370.899999999998,Acan,reef
+3,2016,Acan_Manini,16701.3,Acan,reef
+3,2012,Acan_Naenae,27396.6,Acan,reef
+3,2013,Acan_Naenae,26027.1,Acan,reef
+3,2014,Acan_Naenae,26284.5,Acan,reef
+3,2015,Acan_Naenae,13902.9,Acan,reef
+3,2016,Acan_Naenae,10210.199999999999,Acan,reef
+3,2012,Acan_Opelu kala,9814.199999999999,Acan,reef
+3,2013,Acan_Opelu kala,15404.4,Acan,reef
+3,2014,Acan_Opelu kala,5685.9,Acan,reef
+3,2015,Acan_Opelu kala,8830.8,Acan,reef
+3,2016,Acan_Opelu kala,7560.299999999999,Acan,reef
+3,2013,Acan_Pakuikui (tang),69.3,Acan,reef
+3,2012,Acan_Palani,99679.79999999999,Acan,reef
+3,2013,Acan_Palani,93244.79999999999,Acan,reef
+3,2014,Acan_Palani,90083.4,Acan,reef
+3,2015,Acan_Palani,56453.1,Acan,reef
+3,2016,Acan_Palani,64894.5,Acan,reef
+3,2012,Acan_Pualu,37385.7,Acan,reef
+3,2013,Acan_Pualu,22793.1,Acan,reef
+3,2014,Acan_Pualu,15569.4,Acan,reef
+3,2015,Acan_Pualu,12497.099999999999,Acan,reef
+3,2016,Acan_Pualu,10629.3,Acan,reef
+3,2012,Acan_Umaumalei,2227.5,Acan,reef
+3,2013,Acan_Umaumalei,6494.4,Acan,reef
+3,2014,Acan_Umaumalei,3032.7,Acan,reef
+3,2015,Acan_Umaumalei,1207.8,Acan,reef
+3,2016,Acan_Umaumalei,3623.3999999999996,Acan,reef
+3,2012,Albu_Oio,33528,Albu,reef
+3,2013,Albu_Oio,32673.3,Albu,reef
+3,2014,Albu_Oio,18084,Albu,reef
+3,2015,Albu_Oio,22205.699999999997,Albu,reef
+3,2016,Albu_Oio,14262.599999999999,Albu,reef
+3,2012,Aulo_Nunu,429,Aulo,reef
+3,2013,Aulo_Nunu,455.4,Aulo,reef
+3,2014,Aulo_Nunu,696.3,Aulo,reef
+3,2015,Aulo_Nunu,399.29999999999995,Aulo,reef
+3,2016,Aulo_Nunu,198,Aulo,reef
+3,2012,Bali_Humuhumu,2392.5,Bali,reef
+3,2013,Bali_Humuhumu,2039.3999999999999,Bali,reef
+3,2014,Bali_Humuhumu,1518,Bali,reef
+3,2015,Bali_Humuhumu,1372.8,Bali,reef
+3,2016,Bali_Humuhumu,1277.1,Bali,reef
+3,2012,Belo_Ahaaha,1409.1,Belo,reef
+3,2013,Belo_Ahaaha,768.9,Belo,reef
+3,2014,Belo_Ahaaha,1125.3,Belo,reef
+3,2015,Belo_Ahaaha,640.1999999999999,Belo,reef
+3,2016,Belo_Ahaaha,993.3,Belo,reef
+3,2012,Both_Pakii,33,Both,reef
+3,2013,Both_Pakii,46.199999999999996,Both,reef
+3,2014,Both_Pakii,59.4,Both,reef
+3,2012,Cara_Akule,596234.1,Cara,reef
+3,2013,Cara_Akule,509289,Cara,reef
+3,2014,Cara_Akule,566969.7,Cara,reef
+3,2015,Cara_Akule,958940.3999999999,Cara,reef
+3,2016,Cara_Akule,682750.2,Cara,reef
+3,2013,Cara_Barred jack,105.6,Cara,reef
+3,2016,Cara_Barred jack,221.1,Cara,reef
+3,2012,Cara_Dobe ulua,22139.699999999997,Cara,reef
+3,2013,Cara_Dobe ulua,3729,Cara,reef
+3,2014,Cara_Dobe ulua,11612.699999999999,Cara,reef
+3,2015,Cara_Dobe ulua,2686.2,Cara,reef
+3,2016,Cara_Dobe ulua,1029.6,Cara,reef
+3,2012,Cara_Hahalalu,31851.6,Cara,reef
+3,2013,Cara_Hahalalu,69158.09999999999,Cara,reef
+3,2014,Cara_Hahalalu,122288.09999999999,Cara,reef
+3,2015,Cara_Hahalalu,21364.199999999997,Cara,reef
+3,2016,Cara_Hahalalu,44629.2,Cara,reef
+3,2012,Cara_Kagami ulua,293.7,Cara,reef
+3,2013,Cara_Kagami ulua,59.4,Cara,reef
+3,2014,Cara_Kagami ulua,244.2,Cara,reef
+3,2015,Cara_Kagami ulua,323.4,Cara,reef
+3,2016,Cara_Kagami ulua,112.19999999999999,Cara,reef
+3,2012,Cara_Kamanu,663.3,Cara,reef
+3,2013,Cara_Kamanu,363,Cara,reef
+3,2014,Cara_Kamanu,524.6999999999999,Cara,reef
+3,2015,Cara_Kamanu,412.5,Cara,reef
+3,2016,Cara_Kamanu,551.1,Cara,reef
+3,2012,Cara_Lae,1415.6999999999998,Cara,reef
+3,2013,Cara_Lae,1181.3999999999999,Cara,reef
+3,2014,Cara_Lae,775.5,Cara,reef
+3,2015,Cara_Lae,389.4,Cara,reef
+3,2016,Cara_Lae,264,Cara,reef
+3,2012,Cara_Omaka,92.39999999999999,Cara,reef
+3,2012,Cara_Omilu,6972.9,Cara,reef
+3,2013,Cara_Omilu,5316.299999999999,Cara,reef
+3,2014,Cara_Omilu,11790.9,Cara,reef
+3,2015,Cara_Omilu,5283.299999999999,Cara,reef
+3,2016,Cara_Omilu,3867.6,Cara,reef
+3,2012,Cara_Opelu,214948.8,Cara,reef
+3,2013,Cara_Opelu,252846,Cara,reef
+3,2014,Cara_Opelu,199392.59999999998,Cara,reef
+3,2015,Cara_Opelu,203854.19999999998,Cara,reef
+3,2016,Cara_Opelu,105834.29999999999,Cara,reef
+3,2012,Cara_Paopao ulua,2851.2,Cara,reef
+3,2013,Cara_Paopao ulua,3105.2999999999997,Cara,reef
+3,2014,Cara_Paopao ulua,617.1,Cara,reef
+3,2016,Cara_Paopao ulua,356.4,Cara,reef
+3,2012,Cara_Papa ulua,1455.3,Cara,reef
+3,2013,Cara_Papa ulua,1491.6,Cara,reef
+3,2014,Cara_Papa ulua,3220.7999999999997,Cara,reef
+3,2015,Cara_Papa ulua,1626.8999999999999,Cara,reef
+3,2016,Cara_Papa ulua,1409.1,Cara,reef
+3,2012,Cara_Sasa ulua,1277.1,Cara,reef
+3,2013,Cara_Sasa ulua,630.3,Cara,reef
+3,2014,Cara_Sasa ulua,231,Cara,reef
+3,2015,Cara_Sasa ulua,132,Cara,reef
+3,2016,Cara_Sasa ulua,112.19999999999999,Cara,reef
+3,2014,Cara_Ulua-misc.,2250.6,Cara,reef
+3,2015,Cara_Ulua-misc.,2306.7,Cara,reef
+3,2016,Cara_Ulua-misc.,69.3,Cara,reef
+3,2012,Carc_Shark-misc.,8421.6,Carc,reef
+3,2013,Carc_Shark-misc.,4517.7,Carc,reef
+3,2014,Carc_Shark-misc.,4448.4,Carc,reef
+3,2015,Carc_Shark-misc.,6827.7,Carc,reef
+3,2016,Carc_Shark-misc.,6979.5,Carc,reef
+3,2012,Chan_Awa,7144.5,Chan,reef
+3,2013,Chan_Awa,2201.1,Chan,reef
+3,2014,Chan_Awa,5009.4,Chan,reef
+3,2015,Chan_Awa,6824.4,Chan,reef
+3,2016,Chan_Awa,1310.1,Chan,reef
+3,2012,Cich_Tilapia,5916.9,Cich,reef
+3,2012,Cirr_Poopaa,1419,Cirr,reef
+3,2013,Cirr_Poopaa,4544.0999999999995,Cirr,reef
+3,2014,Cirr_Poopaa,2026.1999999999998,Cirr,reef
+3,2015,Cirr_Poopaa,224.39999999999998,Cirr,reef
+3,2016,Cirr_Poopaa,1907.3999999999999,Cirr,reef
+3,2012,Cong_Puhi white,798.5999999999999,Cong,reef
+3,2013,Cong_Puhi white,966.9,Cong,reef
+3,2014,Cong_Puhi white,1211.1,Cong,reef
+3,2015,Cong_Puhi white,511.5,Cong,reef
+3,2012,Diod_Oopuhue,3478.2,Diod,reef
+3,2012,Elop_Awaawa,4979.7,Elop,reef
+3,2013,Elop_Awaawa,4062.2999999999997,Elop,reef
+3,2014,Elop_Awaawa,2273.7,Elop,reef
+3,2015,Elop_Awaawa,1234.2,Elop,reef
+3,2016,Elop_Awaawa,1108.8,Elop,reef
+3,2012,Emme_Golden kali,52.8,Emme,reef
+3,2013,Emme_Golden kali,128.7,Emme,reef
+3,2014,Emme_Golden kali,89.1,Emme,reef
+3,2015,Emme_Golden kali,158.39999999999998,Emme,reef
+3,2016,Emme_Golden kali,59.4,Emme,reef
+3,2012,Hemi_Iheihe,287.09999999999997,Hemi,reef
+3,2014,Hemi_Iheihe,468.59999999999997,Hemi,reef
+3,2012,Holo_Alaihe,1287,Holo,reef
+3,2013,Holo_Alaihe,1214.3999999999999,Holo,reef
+3,2014,Holo_Alaihe,811.8,Holo,reef
+3,2015,Holo_Alaihe,244.2,Holo,reef
+3,2016,Holo_Alaihe,89.1,Holo,reef
+3,2012,Holo_Menpachi,45417.899999999994,Holo,reef
+3,2013,Holo_Menpachi,54519.299999999996,Holo,reef
+3,2014,Holo_Menpachi,41167.5,Holo,reef
+3,2015,Holo_Menpachi,42583.2,Holo,reef
+3,2016,Holo_Menpachi,45140.7,Holo,reef
+3,2012,Kuhl_Aholehole,2402.4,Kuhl,reef
+3,2013,Kuhl_Aholehole,4108.5,Kuhl,reef
+3,2014,Kuhl_Aholehole,1828.1999999999998,Kuhl,reef
+3,2015,Kuhl_Aholehole,12368.4,Kuhl,reef
+3,2016,Kuhl_Aholehole,2508,Kuhl,reef
+3,2012,Kyph_Nenue,73692.3,Kyph,reef
+3,2013,Kyph_Nenue,70006.2,Kyph,reef
+3,2014,Kyph_Nenue,30564.6,Kyph,reef
+3,2015,Kyph_Nenue,36224.1,Kyph,reef
+3,2016,Kyph_Nenue,18427.2,Kyph,reef
+3,2012,Labr_Aawa,5613.299999999999,Labr,reef
+3,2013,Labr_Aawa,4834.5,Labr,reef
+3,2014,Labr_Aawa,5260.2,Labr,reef
+3,2015,Labr_Aawa,3828,Labr,reef
+3,2016,Labr_Aawa,4158,Labr,reef
+3,2012,Labr_Ea (wrasse),468.59999999999997,Labr,reef
+3,2013,Labr_Ea (wrasse),59.4,Labr,reef
+3,2015,Labr_Ea (wrasse),138.6,Labr,reef
+3,2016,Labr_Ea (wrasse),9.899999999999999,Labr,reef
+3,2012,Labr_Hinalea,118.8,Labr,reef
+3,2013,Labr_Hinalea,151.79999999999998,Labr,reef
+3,2014,Labr_Hinalea,82.5,Labr,reef
+3,2015,Labr_Hinalea,69.3,Labr,reef
+3,2016,Labr_Hinalea,3.3,Labr,reef
+3,2012,Labr_Kupoupou,56.099999999999994,Labr,reef
+3,2013,Labr_Kupoupou,39.599999999999994,Labr,reef
+3,2014,Labr_Kupoupou,33,Labr,reef
+3,2015,Labr_Kupoupou,19.799999999999997,Labr,reef
+3,2012,Labr_Laenihi,1907.3999999999999,Labr,reef
+3,2013,Labr_Laenihi,844.8,Labr,reef
+3,2014,Labr_Laenihi,1917.3,Labr,reef
+3,2015,Labr_Laenihi,745.8,Labr,reef
+3,2016,Labr_Laenihi,2072.4,Labr,reef
+3,2012,Leth_Mu,11678.699999999999,Leth,reef
+3,2013,Leth_Mu,12206.699999999999,Leth,reef
+3,2014,Leth_Mu,10233.3,Leth,reef
+3,2015,Leth_Mu,4940.0999999999995,Leth,reef
+3,2016,Leth_Mu,4474.8,Leth,reef
+3,2012,Lutj_Toau,10939.5,Lutj,reef
+3,2013,Lutj_Toau,11193.599999999999,Lutj,reef
+3,2014,Lutj_Toau,15140.4,Lutj,reef
+3,2015,Lutj_Toau,5283.299999999999,Lutj,reef
+3,2016,Lutj_Toau,5511,Lutj,reef
+3,2014,Lutj_Wahanui,33,Lutj,reef
+3,2016,Lutj_Wahanui,13.2,Lutj,reef
+3,2012,Mona_Olililepa,8583.3,Mona,reef
+3,2013,Mona_Olililepa,2491.5,Mona,reef
+3,2014,Mona_Olililepa,4422,Mona,reef
+3,2015,Mona_Olililepa,1960.1999999999998,Mona,reef
+3,2016,Mona_Olililepa,716.0999999999999,Mona,reef
+3,2012,Mugi_Amaama,23258.399999999998,Mugi,reef
+3,2013,Mugi_Amaama,18836.399999999998,Mugi,reef
+3,2014,Mugi_Amaama,12388.199999999999,Mugi,reef
+3,2015,Mugi_Amaama,13025.099999999999,Mugi,reef
+3,2016,Mugi_Amaama,7850.7,Mugi,reef
+3,2016,Mugi_Summer mullet,1574.1,Mugi,reef
+3,2013,Mugi_Uouoa,366.29999999999995,Mugi,reef
+3,2012,Mull_Kumu,18189.6,Mull,reef
+3,2013,Mull_Kumu,16727.7,Mull,reef
+3,2014,Mull_Kumu,11058.3,Mull,reef
+3,2015,Mull_Kumu,6451.5,Mull,reef
+3,2016,Mull_Kumu,2755.5,Mull,reef
+3,2012,Mull_Malu,920.6999999999999,Mull,reef
+3,2013,Mull_Malu,861.3,Mull,reef
+3,2014,Mull_Malu,686.4,Mull,reef
+3,2015,Mull_Malu,297,Mull,reef
+3,2016,Mull_Malu,59.4,Mull,reef
+3,2012,Mull_Moana,3953.3999999999996,Mull,reef
+3,2013,Mull_Moana,5425.2,Mull,reef
+3,2014,Mull_Moana,4101.9,Mull,reef
+3,2015,Mull_Moana,2009.6999999999998,Mull,reef
+3,2016,Mull_Moana,1475.1,Mull,reef
+3,2012,Mull_Moana kale,1673.1,Mull,reef
+3,2013,Mull_Moana kale,1976.6999999999998,Mull,reef
+3,2014,Mull_Moana kale,4728.9,Mull,reef
+3,2015,Mull_Moana kale,1745.6999999999998,Mull,reef
+3,2016,Mull_Moana kale,1877.6999999999998,Mull,reef
+3,2012,Mull_Munu,1610.3999999999999,Mull,reef
+3,2013,Mull_Munu,1600.5,Mull,reef
+3,2014,Mull_Munu,1514.6999999999998,Mull,reef
+3,2015,Mull_Munu,686.4,Mull,reef
+3,2016,Mull_Munu,660,Mull,reef
+3,2012,Mull_Weke,2184.6,Mull,reef
+3,2012,Mull_Weke a'a,16249.199999999999,Mull,reef
+3,2013,Mull_Weke a'a,11012.099999999999,Mull,reef
+3,2014,Mull_Weke a'a,13028.4,Mull,reef
+3,2015,Mull_Weke a'a,10771.199999999999,Mull,reef
+3,2016,Mull_Weke a'a,15803.699999999999,Mull,reef
+3,2012,Mull_Weke nono,9804.3,Mull,reef
+3,2013,Mull_Weke nono,9837.3,Mull,reef
+3,2014,Mull_Weke nono,11701.8,Mull,reef
+3,2015,Mull_Weke nono,8398.5,Mull,reef
+3,2016,Mull_Weke nono,5329.5,Mull,reef
+3,2013,Mull_Weke pueo,669.9,Mull,reef
+3,2012,Mull_Weke ula,58000.799999999996,Mull,reef
+3,2013,Mull_Weke ula,73969.5,Mull,reef
+3,2014,Mull_Weke ula,135121.8,Mull,reef
+3,2015,Mull_Weke ula,140685.6,Mull,reef
+3,2016,Mull_Weke ula,97911,Mull,reef
+3,2012,Mura_Puhi black,3742.2,Mura,reef
+3,2013,Mura_Puhi black,3375.8999999999996,Mura,reef
+3,2014,Mura_Puhi black,1716,Mura,reef
+3,2015,Mura_Puhi black,881.0999999999999,Mura,reef
+3,2016,Mura_Puhi black,1432.1999999999998,Mura,reef
+3,2012,Mura_Puhi eel-misc.,528,Mura,reef
+3,2013,Mura_Puhi eel-misc.,960.3,Mura,reef
+3,2014,Mura_Puhi eel-misc.,1864.5,Mura,reef
+3,2015,Mura_Puhi eel-misc.,775.5,Mura,reef
+3,2016,Mura_Puhi eel-misc.,547.8,Mura,reef
+3,2012,Poly_Moi,514.8,Poly,reef
+3,2013,Poly_Moi,145.2,Poly,reef
+3,2014,Poly_Moi,247.5,Poly,reef
+3,2015,Poly_Moi,293.7,Poly,reef
+3,2016,Poly_Moi,452.09999999999997,Poly,reef
+3,2013,Poma_Kupipi,16.5,Poma,reef
+3,2012,Poma_Maomao,3663,Poma,reef
+3,2013,Poma_Maomao,4834.5,Poma,reef
+3,2014,Poma_Maomao,2128.5,Poma,reef
+3,2015,Poma_Maomao,1211.1,Poma,reef
+3,2016,Poma_Maomao,854.6999999999999,Poma,reef
+3,2012,Pria_Aweoweo,2781.8999999999996,Pria,reef
+3,2013,Pria_Aweoweo,5821.2,Pria,reef
+3,2014,Pria_Aweoweo,5610,Pria,reef
+3,2015,Pria_Aweoweo,7504.2,Pria,reef
+3,2016,Pria_Aweoweo,5134.799999999999,Pria,reef
+3,2012,Pria_Aweoweo (deepsea),66,Pria,reef
+3,2013,Pria_Aweoweo (deepsea),181.5,Pria,reef
+3,2014,Pria_Aweoweo (deepsea),386.09999999999997,Pria,reef
+3,2015,Pria_Aweoweo (deepsea),432.29999999999995,Pria,reef
+3,2016,Pria_Aweoweo (deepsea),257.4,Pria,reef
+3,2012,Scar_Panuhunuhu,333.29999999999995,Scar,reef
+3,2013,Scar_Panuhunuhu,504.9,Scar,reef
+3,2014,Scar_Panuhunuhu,564.3,Scar,reef
+3,2015,Scar_Panuhunuhu,481.79999999999995,Scar,reef
+3,2016,Scar_Panuhunuhu,339.9,Scar,reef
+3,2012,Scar_Panunu,996.5999999999999,Scar,reef
+3,2013,Scar_Panunu,597.3,Scar,reef
+3,2014,Scar_Panunu,1518,Scar,reef
+3,2015,Scar_Panunu,1630.1999999999998,Scar,reef
+3,2016,Scar_Panunu,495,Scar,reef
+3,2012,Scar_Uhu parrot-misc.,177751.19999999998,Scar,reef
+3,2013,Scar_Uhu parrot-misc.,181879.5,Scar,reef
+3,2014,Scar_Uhu parrot-misc.,184945.19999999998,Scar,reef
+3,2015,Scar_Uhu parrot-misc.,86925.29999999999,Scar,reef
+3,2016,Scar_Uhu parrot-misc.,59287.799999999996,Scar,reef
+3,2012,Scor_Hogo,1683,Scor,reef
+3,2013,Scor_Hogo,706.1999999999999,Scor,reef
+3,2014,Scor_Hogo,636.9,Scor,reef
+3,2015,Scor_Hogo,1145.1,Scor,reef
+3,2016,Scor_Hogo,1191.3,Scor,reef
+3,2012,Scor_Nohu,1247.3999999999999,Scor,reef
+3,2013,Scor_Nohu,1395.8999999999999,Scor,reef
+3,2014,Scor_Nohu,610.5,Scor,reef
+3,2015,Scor_Nohu,234.29999999999998,Scor,reef
+3,2016,Scor_Nohu,415.79999999999995,Scor,reef
+3,2012,Serr_Roi,9669,Serr,reef
+3,2013,Serr_Roi,6649.5,Serr,reef
+3,2014,Serr_Roi,2580.6,Serr,reef
+3,2015,Serr_Roi,1887.6,Serr,reef
+3,2016,Serr_Roi,1438.8,Serr,reef
+3,2012,Sphy_Kaku,3422.1,Sphy,reef
+3,2013,Sphy_Kaku,1716,Sphy,reef
+3,2014,Sphy_Kaku,1877.6999999999998,Sphy,reef
+3,2015,Sphy_Kaku,1445.3999999999999,Sphy,reef
+3,2016,Sphy_Kaku,706.1999999999999,Sphy,reef
+3,2012,Sphy_Kawelea,5108.4,Sphy,reef
+3,2013,Sphy_Kawelea,3715.7999999999997,Sphy,reef
+3,2014,Sphy_Kawelea,1811.6999999999998,Sphy,reef
+3,2015,Sphy_Kawelea,4128.3,Sphy,reef
+3,2016,Sphy_Kawelea,1689.6,Sphy,reef
+4,2015,Acan_Kala,1605.8000000000002,Acan,reef
+4,2015,Acan_Manini,214.60000000000002,Acan,reef
+4,2014,Acan_Palani,384.8,Acan,reef
+4,2015,Acan_Palani,207.20000000000002,Acan,reef
+4,2014,Albu_Oio,13675.2,Albu,reef
+4,2016,Albu_Oio,3211.6000000000004,Albu,reef
+4,2015,Bali_Humuhumu,140.6,Bali,reef
+4,2012,Cara_Akule,296399.60000000003,Cara,reef
+4,2013,Cara_Akule,275872,Cara,reef
+4,2014,Cara_Akule,285662.2,Cara,reef
+4,2015,Cara_Akule,388544.4,Cara,reef
+4,2016,Cara_Akule,270714.2,Cara,reef
+4,2012,Cara_Hahalalu,2057.2000000000003,Cara,reef
+4,2013,Cara_Hahalalu,769.6,Cara,reef
+4,2014,Cara_Hahalalu,1420.8000000000002,Cara,reef
+4,2015,Cara_Hahalalu,1065.6000000000001,Cara,reef
+4,2012,Cara_Kagami ulua,1287.6000000000001,Cara,reef
+4,2016,Cara_Kagami ulua,1517,Cara,reef
+4,2012,Cara_Kamanu,4218,Cara,reef
+4,2013,Cara_Kamanu,6785.8,Cara,reef
+4,2014,Cara_Kamanu,6726.6,Cara,reef
+4,2015,Cara_Kamanu,7126.200000000001,Cara,reef
+4,2016,Cara_Kamanu,7266.8,Cara,reef
+4,2012,Cara_Omilu,17930.2,Cara,reef
+4,2013,Cara_Omilu,18840.4,Cara,reef
+4,2014,Cara_Omilu,15488.2,Cara,reef
+4,2015,Cara_Omilu,15821.2,Cara,reef
+4,2016,Cara_Omilu,16095,Cara,reef
+4,2012,Cara_Opelu,92870,Cara,reef
+4,2013,Cara_Opelu,107359.20000000001,Cara,reef
+4,2014,Cara_Opelu,87697.40000000001,Cara,reef
+4,2015,Cara_Opelu,42683.200000000004,Cara,reef
+4,2016,Cara_Opelu,65127.4,Cara,reef
+4,2012,Cara_Papa ulua,2234.8,Cara,reef
+4,2013,Cara_Papa ulua,1531.8000000000002,Cara,reef
+4,2014,Cara_Papa ulua,4195.8,Cara,reef
+4,2015,Cara_Papa ulua,1110,Cara,reef
+4,2016,Cara_Papa ulua,1184,Cara,reef
+4,2014,Cara_Sasa ulua,658.6,Cara,reef
+4,2014,Cara_Ulua-misc.,2575.2000000000003,Cara,reef
+4,2015,Cara_Ulua-misc.,1398.6000000000001,Cara,reef
+4,2012,Carc_Shark-misc.,29.6,Carc,reef
+4,2014,Carc_Shark-misc.,703,Carc,reef
+4,2015,Carc_Shark-misc.,296,Carc,reef
+4,2016,Carc_Shark-misc.,37,Carc,reef
+4,2012,Emme_Golden kali,192.4,Emme,reef
+4,2013,Emme_Golden kali,281.2,Emme,reef
+4,2014,Emme_Golden kali,162.8,Emme,reef
+4,2015,Emme_Golden kali,155.4,Emme,reef
+4,2016,Emme_Golden kali,266.40000000000003,Emme,reef
+4,2012,Holo_Menpachi,73881.6,Holo,reef
+4,2013,Holo_Menpachi,102823,Holo,reef
+4,2014,Holo_Menpachi,146549.6,Holo,reef
+4,2015,Holo_Menpachi,87852.8,Holo,reef
+4,2016,Holo_Menpachi,104636,Holo,reef
+4,2012,Kuhl_Aholehole,1605.8000000000002,Kuhl,reef
+4,2013,Kuhl_Aholehole,2005.4,Kuhl,reef
+4,2014,Kuhl_Aholehole,1694.6000000000001,Kuhl,reef
+4,2015,Kuhl_Aholehole,2020.2,Kuhl,reef
+4,2012,Kyph_Nenue,732.6,Kyph,reef
+4,2014,Kyph_Nenue,399.6,Kyph,reef
+4,2015,Kyph_Nenue,532.8000000000001,Kyph,reef
+4,2016,Kyph_Nenue,199.8,Kyph,reef
+4,2012,Labr_Aawa,3219,Labr,reef
+4,2013,Labr_Aawa,1036,Labr,reef
+4,2014,Labr_Aawa,3026.6000000000004,Labr,reef
+4,2015,Labr_Aawa,1827.8000000000002,Labr,reef
+4,2016,Labr_Aawa,325.6,Labr,reef
+4,2012,Labr_Laenihi,259,Labr,reef
+4,2013,Labr_Laenihi,74,Labr,reef
+4,2012,Leth_Mu,1213.6000000000001,Leth,reef
+4,2015,Leth_Mu,1702,Leth,reef
+4,2016,Leth_Mu,2819.4,Leth,reef
+4,2012,Lutj_Toau,732.6,Lutj,reef
+4,2013,Lutj_Toau,902.8000000000001,Lutj,reef
+4,2014,Lutj_Toau,3093.2000000000003,Lutj,reef
+4,2015,Lutj_Toau,836.2,Lutj,reef
+4,2016,Lutj_Toau,932.4000000000001,Lutj,reef
+4,2015,Lutj_Wahanui,414.40000000000003,Lutj,reef
+4,2012,Mugi_Amaama,10212,Mugi,reef
+4,2012,Mull_Kumu,4573.2,Mull,reef
+4,2013,Mull_Kumu,2301.4,Mull,reef
+4,2014,Mull_Kumu,3337.4,Mull,reef
+4,2015,Mull_Kumu,1117.4,Mull,reef
+4,2016,Mull_Kumu,1613.2,Mull,reef
+4,2012,Mull_Malu,162.8,Mull,reef
+4,2012,Mull_Moana,2131.2000000000003,Mull,reef
+4,2013,Mull_Moana,1147,Mull,reef
+4,2014,Mull_Moana,1184,Mull,reef
+4,2015,Mull_Moana,806.6,Mull,reef
+4,2016,Mull_Moana,828.8000000000001,Mull,reef
+4,2012,Mull_Moana kale,1568.8000000000002,Mull,reef
+4,2013,Mull_Moana kale,1132.2,Mull,reef
+4,2014,Mull_Moana kale,2116.4,Mull,reef
+4,2015,Mull_Moana kale,865.8000000000001,Mull,reef
+4,2016,Mull_Moana kale,503.20000000000005,Mull,reef
+4,2012,Mull_Weke nono,11114.800000000001,Mull,reef
+4,2013,Mull_Weke nono,8865.2,Mull,reef
+4,2014,Mull_Weke nono,10929.800000000001,Mull,reef
+4,2015,Mull_Weke nono,11396,Mull,reef
+4,2016,Mull_Weke nono,14992.400000000001,Mull,reef
+4,2012,Mull_Weke ula,3108,Mull,reef
+4,2013,Mull_Weke ula,3174.6000000000004,Mull,reef
+4,2014,Mull_Weke ula,1509.6000000000001,Mull,reef
+4,2015,Mull_Weke ula,466.20000000000005,Mull,reef
+4,2016,Mull_Weke ula,7681.200000000001,Mull,reef
+4,2016,Poly_Moi,1013.8000000000001,Poly,reef
+4,2012,Pria_Aweoweo,1805.6000000000001,Pria,reef
+4,2013,Pria_Aweoweo,3241.2000000000003,Pria,reef
+4,2014,Pria_Aweoweo,7392.6,Pria,reef
+4,2015,Pria_Aweoweo,3996,Pria,reef
+4,2016,Pria_Aweoweo,4040.4,Pria,reef
+4,2013,Pria_Aweoweo (deepsea),96.2,Pria,reef
+4,2015,Pria_Aweoweo (deepsea),118.4,Pria,reef
+4,2016,Pria_Aweoweo (deepsea),229.4,Pria,reef
+4,2012,Scar_Uhu parrot-misc.,11144.4,Scar,reef
+4,2014,Scar_Uhu parrot-misc.,13468,Scar,reef
+4,2015,Scar_Uhu parrot-misc.,5668.4000000000005,Scar,reef
+4,2016,Scar_Uhu parrot-misc.,9960.4,Scar,reef
+4,2012,Scor_Hogo,1813,Scor,reef
+4,2013,Scor_Hogo,1413.4,Scor,reef
+4,2014,Scor_Hogo,1776,Scor,reef
+4,2015,Scor_Hogo,2760.2000000000003,Scor,reef
+4,2016,Scor_Hogo,2678.8,Scor,reef
+4,2012,Sphy_Kaku,5527.8,Sphy,reef
+4,2013,Sphy_Kaku,3670.4,Sphy,reef
+4,2014,Sphy_Kaku,3204.2000000000003,Sphy,reef
+4,2015,Sphy_Kaku,3441,Sphy,reef
+4,2016,Sphy_Kaku,821.4000000000001,Sphy,reef
+4,2012,Sphy_Kawelea,1058.2,Sphy,reef
+4,2013,Sphy_Kawelea,88.80000000000001,Sphy,reef
+4,2014,Sphy_Kawelea,688.2,Sphy,reef
+4,2015,Sphy_Kawelea,569.8000000000001,Sphy,reef
+4,2016,Sphy_Kawelea,148,Sphy,reef
