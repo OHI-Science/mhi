@@ -1,0 +1,256 @@
+rgn_id,year,key_sp,catch,Fam,code
+1,2013,Bery_Alfonsin,54,Bery,deep
+1,2014,Bery_Alfonsin,16,Bery,deep
+1,2013,Cara_Butaguchi ulua,27,Cara,deep
+1,2012,Cara_Gunkan ulua,60,Cara,deep
+1,2013,Cara_Gunkan ulua,132,Cara,deep
+1,2016,Cara_Gunkan ulua,140,Cara,deep
+1,2012,Cara_Kahala,1322,Cara,deep
+1,2013,Cara_Kahala,2077,Cara,deep
+1,2014,Cara_Kahala,1152,Cara,deep
+1,2015,Cara_Kahala,2554,Cara,deep
+1,2016,Cara_Kahala,7207,Cara,deep
+1,2012,Cara_White ulua,2138,Cara,deep
+1,2013,Cara_White ulua,1130,Cara,deep
+1,2014,Cara_White ulua,929,Cara,deep
+1,2015,Cara_White ulua,941,Cara,deep
+1,2016,Cara_White ulua,1325,Cara,deep
+2,2012,Cara_Butaguchi ulua,80,Cara,deep
+2,2013,Cara_Butaguchi ulua,44,Cara,deep
+2,2014,Cara_Butaguchi ulua,62,Cara,deep
+2,2016,Cara_Butaguchi ulua,105,Cara,deep
+2,2012,Cara_Gunkan ulua,88,Cara,deep
+2,2014,Cara_Gunkan ulua,100,Cara,deep
+2,2012,Cara_Kahala,3684,Cara,deep
+2,2013,Cara_Kahala,2300,Cara,deep
+2,2014,Cara_Kahala,2120,Cara,deep
+2,2015,Cara_Kahala,2697,Cara,deep
+2,2016,Cara_Kahala,3463,Cara,deep
+2,2012,Cara_White ulua,6222,Cara,deep
+2,2013,Cara_White ulua,4822,Cara,deep
+2,2014,Cara_White ulua,4272,Cara,deep
+2,2015,Cara_White ulua,2730,Cara,deep
+2,2016,Cara_White ulua,3216,Cara,deep
+3,2014,Cara_Butaguchi ulua,148,Cara,deep
+3,2015,Cara_Butaguchi ulua,48,Cara,deep
+3,2012,Cara_Gunkan ulua,194,Cara,deep
+3,2012,Cara_Kahala,3901,Cara,deep
+3,2013,Cara_Kahala,2798,Cara,deep
+3,2014,Cara_Kahala,4912,Cara,deep
+3,2015,Cara_Kahala,4182,Cara,deep
+3,2016,Cara_Kahala,2440,Cara,deep
+3,2012,Cara_White ulua,7980,Cara,deep
+3,2013,Cara_White ulua,5749,Cara,deep
+3,2014,Cara_White ulua,3725,Cara,deep
+3,2015,Cara_White ulua,4304,Cara,deep
+3,2016,Cara_White ulua,1918,Cara,deep
+4,2012,Cara_Butaguchi ulua,485,Cara,deep
+4,2013,Cara_Butaguchi ulua,388,Cara,deep
+4,2015,Cara_Butaguchi ulua,144,Cara,deep
+4,2012,Cara_Gunkan ulua,140,Cara,deep
+4,2013,Cara_Gunkan ulua,486,Cara,deep
+4,2014,Cara_Gunkan ulua,216,Cara,deep
+4,2015,Cara_Gunkan ulua,143,Cara,deep
+4,2016,Cara_Gunkan ulua,130,Cara,deep
+4,2012,Cara_Kahala,8687,Cara,deep
+4,2013,Cara_Kahala,6019,Cara,deep
+4,2014,Cara_Kahala,4844,Cara,deep
+4,2015,Cara_Kahala,7125,Cara,deep
+4,2016,Cara_Kahala,4623,Cara,deep
+4,2012,Cara_White ulua,4230,Cara,deep
+4,2013,Cara_White ulua,2778,Cara,deep
+4,2014,Cara_White ulua,3053,Cara,deep
+4,2015,Cara_White ulua,2739,Cara,deep
+4,2016,Cara_White ulua,1685,Cara,deep
+1,2012,Lutj_Ehu,7838,Lutj,deep
+1,2013,Lutj_Ehu,11963,Lutj,deep
+1,2014,Lutj_Ehu,7959,Lutj,deep
+1,2015,Lutj_Ehu,11090,Lutj,deep
+1,2016,Lutj_Ehu,6124,Lutj,deep
+1,2012,Lutj_Gindai,1671,Lutj,deep
+1,2013,Lutj_Gindai,2035,Lutj,deep
+1,2014,Lutj_Gindai,1505,Lutj,deep
+1,2015,Lutj_Gindai,1229,Lutj,deep
+1,2016,Lutj_Gindai,841,Lutj,deep
+1,2012,Lutj_Kalekale,3479,Lutj,deep
+1,2013,Lutj_Kalekale,6933,Lutj,deep
+1,2014,Lutj_Kalekale,7165,Lutj,deep
+1,2015,Lutj_Kalekale,5749,Lutj,deep
+1,2016,Lutj_Kalekale,4502,Lutj,deep
+1,2012,Lutj_Lehi,5494,Lutj,deep
+1,2013,Lutj_Lehi,9888,Lutj,deep
+1,2014,Lutj_Lehi,4718,Lutj,deep
+1,2015,Lutj_Lehi,5716,Lutj,deep
+1,2016,Lutj_Lehi,6073,Lutj,deep
+1,2012,Lutj_Onaga,6799,Lutj,deep
+1,2013,Lutj_Onaga,10435,Lutj,deep
+1,2014,Lutj_Onaga,9860,Lutj,deep
+1,2015,Lutj_Onaga,6748,Lutj,deep
+1,2016,Lutj_Onaga,12121,Lutj,deep
+1,2012,Lutj_Opakapaka,20533,Lutj,deep
+1,2013,Lutj_Opakapaka,26819,Lutj,deep
+1,2014,Lutj_Opakapaka,32921,Lutj,deep
+1,2015,Lutj_Opakapaka,28686,Lutj,deep
+1,2016,Lutj_Opakapaka,36125,Lutj,deep
+1,2012,Lutj_Taape,8060,Lutj,deep
+1,2013,Lutj_Taape,4882,Lutj,deep
+1,2014,Lutj_Taape,3490,Lutj,deep
+1,2015,Lutj_Taape,3107,Lutj,deep
+1,2016,Lutj_Taape,3610,Lutj,deep
+1,2012,Lutj_Uku,9518,Lutj,deep
+1,2013,Lutj_Uku,11998,Lutj,deep
+1,2014,Lutj_Uku,13894,Lutj,deep
+1,2015,Lutj_Uku,16984,Lutj,deep
+1,2016,Lutj_Uku,19236,Lutj,deep
+2,2012,Lutj_Ehu,13538,Lutj,deep
+2,2013,Lutj_Ehu,15900,Lutj,deep
+2,2014,Lutj_Ehu,15508,Lutj,deep
+2,2015,Lutj_Ehu,14591,Lutj,deep
+2,2016,Lutj_Ehu,18381,Lutj,deep
+2,2012,Lutj_Gindai,641,Lutj,deep
+2,2013,Lutj_Gindai,628,Lutj,deep
+2,2014,Lutj_Gindai,548,Lutj,deep
+2,2015,Lutj_Gindai,427,Lutj,deep
+2,2016,Lutj_Gindai,414,Lutj,deep
+2,2012,Lutj_Kalekale,6962,Lutj,deep
+2,2013,Lutj_Kalekale,6244,Lutj,deep
+2,2014,Lutj_Kalekale,8516,Lutj,deep
+2,2015,Lutj_Kalekale,5739,Lutj,deep
+2,2016,Lutj_Kalekale,4324,Lutj,deep
+2,2012,Lutj_Lehi,3960,Lutj,deep
+2,2013,Lutj_Lehi,3182,Lutj,deep
+2,2014,Lutj_Lehi,3362,Lutj,deep
+2,2015,Lutj_Lehi,5286,Lutj,deep
+2,2016,Lutj_Lehi,2290,Lutj,deep
+2,2012,Lutj_Onaga,46004,Lutj,deep
+2,2013,Lutj_Onaga,54658,Lutj,deep
+2,2014,Lutj_Onaga,57922,Lutj,deep
+2,2015,Lutj_Onaga,36224,Lutj,deep
+2,2016,Lutj_Onaga,26897,Lutj,deep
+2,2012,Lutj_Opakapaka,78897,Lutj,deep
+2,2013,Lutj_Opakapaka,85330,Lutj,deep
+2,2014,Lutj_Opakapaka,108626,Lutj,deep
+2,2015,Lutj_Opakapaka,82110,Lutj,deep
+2,2016,Lutj_Opakapaka,77774,Lutj,deep
+2,2012,Lutj_Taape,10585,Lutj,deep
+2,2013,Lutj_Taape,8256,Lutj,deep
+2,2014,Lutj_Taape,6706,Lutj,deep
+2,2015,Lutj_Taape,1807,Lutj,deep
+2,2016,Lutj_Taape,1484,Lutj,deep
+2,2012,Lutj_Uku,65739,Lutj,deep
+2,2013,Lutj_Uku,71457,Lutj,deep
+2,2014,Lutj_Uku,45892,Lutj,deep
+2,2015,Lutj_Uku,54745,Lutj,deep
+2,2016,Lutj_Uku,74103,Lutj,deep
+3,2012,Lutj_Ehu,1688,Lutj,deep
+3,2013,Lutj_Ehu,1239,Lutj,deep
+3,2014,Lutj_Ehu,1520,Lutj,deep
+3,2015,Lutj_Ehu,2204,Lutj,deep
+3,2016,Lutj_Ehu,1974,Lutj,deep
+3,2012,Lutj_Gindai,153,Lutj,deep
+3,2013,Lutj_Gindai,103,Lutj,deep
+3,2014,Lutj_Gindai,73,Lutj,deep
+3,2015,Lutj_Gindai,158,Lutj,deep
+3,2016,Lutj_Gindai,177,Lutj,deep
+3,2012,Lutj_Kalekale,305,Lutj,deep
+3,2013,Lutj_Kalekale,406,Lutj,deep
+3,2014,Lutj_Kalekale,848,Lutj,deep
+3,2015,Lutj_Kalekale,890,Lutj,deep
+3,2016,Lutj_Kalekale,614,Lutj,deep
+3,2012,Lutj_Lehi,78,Lutj,deep
+3,2013,Lutj_Lehi,116,Lutj,deep
+3,2014,Lutj_Lehi,265,Lutj,deep
+3,2015,Lutj_Lehi,40,Lutj,deep
+3,2016,Lutj_Lehi,70,Lutj,deep
+3,2012,Lutj_Onaga,3148,Lutj,deep
+3,2013,Lutj_Onaga,3429,Lutj,deep
+3,2014,Lutj_Onaga,4758,Lutj,deep
+3,2015,Lutj_Onaga,3424,Lutj,deep
+3,2016,Lutj_Onaga,3843,Lutj,deep
+3,2012,Lutj_Opakapaka,5630,Lutj,deep
+3,2013,Lutj_Opakapaka,9003,Lutj,deep
+3,2014,Lutj_Opakapaka,17850,Lutj,deep
+3,2015,Lutj_Opakapaka,11109,Lutj,deep
+3,2016,Lutj_Opakapaka,9178,Lutj,deep
+3,2012,Lutj_Taape,11731,Lutj,deep
+3,2013,Lutj_Taape,16488,Lutj,deep
+3,2014,Lutj_Taape,16895,Lutj,deep
+3,2015,Lutj_Taape,19387,Lutj,deep
+3,2016,Lutj_Taape,26832,Lutj,deep
+3,2012,Lutj_Uku,7908,Lutj,deep
+3,2013,Lutj_Uku,6848,Lutj,deep
+3,2014,Lutj_Uku,7204,Lutj,deep
+3,2015,Lutj_Uku,8370,Lutj,deep
+3,2016,Lutj_Uku,7355,Lutj,deep
+4,2012,Lutj_Ehu,4873,Lutj,deep
+4,2013,Lutj_Ehu,3195,Lutj,deep
+4,2014,Lutj_Ehu,3567,Lutj,deep
+4,2015,Lutj_Ehu,3476,Lutj,deep
+4,2016,Lutj_Ehu,4182,Lutj,deep
+4,2012,Lutj_Gindai,1330,Lutj,deep
+4,2013,Lutj_Gindai,882,Lutj,deep
+4,2014,Lutj_Gindai,926,Lutj,deep
+4,2015,Lutj_Gindai,502,Lutj,deep
+4,2016,Lutj_Gindai,761,Lutj,deep
+4,2012,Lutj_Kalekale,2311,Lutj,deep
+4,2013,Lutj_Kalekale,1122,Lutj,deep
+4,2014,Lutj_Kalekale,1881,Lutj,deep
+4,2015,Lutj_Kalekale,1336,Lutj,deep
+4,2016,Lutj_Kalekale,1527,Lutj,deep
+4,2012,Lutj_Lehi,469,Lutj,deep
+4,2013,Lutj_Lehi,133,Lutj,deep
+4,2014,Lutj_Lehi,198,Lutj,deep
+4,2015,Lutj_Lehi,119,Lutj,deep
+4,2016,Lutj_Lehi,201,Lutj,deep
+4,2012,Lutj_Onaga,4473,Lutj,deep
+4,2013,Lutj_Onaga,4336,Lutj,deep
+4,2014,Lutj_Onaga,6738,Lutj,deep
+4,2015,Lutj_Onaga,3762,Lutj,deep
+4,2016,Lutj_Onaga,3571,Lutj,deep
+4,2012,Lutj_Opakapaka,2535,Lutj,deep
+4,2013,Lutj_Opakapaka,1729,Lutj,deep
+4,2014,Lutj_Opakapaka,3756,Lutj,deep
+4,2015,Lutj_Opakapaka,6862,Lutj,deep
+4,2016,Lutj_Opakapaka,5576,Lutj,deep
+4,2012,Lutj_Taape,2627,Lutj,deep
+4,2013,Lutj_Taape,3272,Lutj,deep
+4,2014,Lutj_Taape,3166,Lutj,deep
+4,2015,Lutj_Taape,1560,Lutj,deep
+4,2016,Lutj_Taape,2919,Lutj,deep
+4,2012,Lutj_Uku,30512,Lutj,deep
+4,2013,Lutj_Uku,28709,Lutj,deep
+4,2014,Lutj_Uku,28979,Lutj,deep
+4,2015,Lutj_Uku,21202,Lutj,deep
+4,2016,Lutj_Uku,16516,Lutj,deep
+NA,2012,Lutj_Ehu,57,Lutj,deep
+NA,2012,Lutj_Kalekale,281,Lutj,deep
+NA,2014,Lutj_Kalekale,149,Lutj,deep
+NA,2012,Lutj_Opakapaka,1694,Lutj,deep
+NA,2014,Lutj_Opakapaka,2167,Lutj,deep
+NA,2012,Lutj_Uku,3116,Lutj,deep
+NA,2013,Lutj_Uku,1699,Lutj,deep
+NA,2014,Lutj_Uku,859,Lutj,deep
+NA,2015,Lutj_Uku,637,Lutj,deep
+NA,2016,Lutj_Uku,530,Lutj,deep
+1,2012,Serr_Hapuupuu,2749,Serr,deep
+1,2013,Serr_Hapuupuu,3363,Serr,deep
+1,2014,Serr_Hapuupuu,2050,Serr,deep
+1,2015,Serr_Hapuupuu,2623,Serr,deep
+1,2016,Serr_Hapuupuu,2452,Serr,deep
+2,2012,Serr_Hapuupuu,2494,Serr,deep
+2,2013,Serr_Hapuupuu,3093,Serr,deep
+2,2014,Serr_Hapuupuu,2407,Serr,deep
+2,2015,Serr_Hapuupuu,2949,Serr,deep
+2,2016,Serr_Hapuupuu,2450,Serr,deep
+3,2012,Serr_Hapuupuu,500,Serr,deep
+3,2013,Serr_Hapuupuu,398,Serr,deep
+3,2014,Serr_Hapuupuu,450,Serr,deep
+3,2015,Serr_Hapuupuu,803,Serr,deep
+3,2016,Serr_Hapuupuu,625,Serr,deep
+4,2012,Serr_Hapuupuu,1822,Serr,deep
+4,2013,Serr_Hapuupuu,2265,Serr,deep
+4,2014,Serr_Hapuupuu,3178,Serr,deep
+4,2015,Serr_Hapuupuu,1654,Serr,deep
+4,2016,Serr_Hapuupuu,2602,Serr,deep
+NA,2012,Serr_Hapuupuu,3186,Serr,deep
+NA,2014,Serr_Hapuupuu,1855,Serr,deep

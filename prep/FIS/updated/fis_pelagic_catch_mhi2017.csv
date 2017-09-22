@@ -1,0 +1,433 @@
+year,rgn_id,island,mus,family,species,licenses,lbs
+2012,1,Cross Seamount,PMUS,Scombridae,Aku,9,5263
+2013,1,Cross Seamount,PMUS,Scombridae,Aku,10,12530
+2014,1,Cross Seamount,PMUS,Scombridae,Aku,8,2507
+2015,1,Cross Seamount,PMUS,Scombridae,Aku,7,2864
+2016,1,Cross Seamount,PMUS,Scombridae,Aku,5,868
+2012,1,NOAA WB,PMUS,Scombridae,Aku,4,589
+2013,1,NOAA WB,PMUS,Scombridae,Aku,4,665
+2015,1,Other offshore,PMUS,Scombridae,Aku,4,310
+2012,1,Hawaii,PMUS,Scombridae,Aku,313,88083
+2013,1,Hawaii,PMUS,Scombridae,Aku,267,71446
+2014,1,Hawaii,PMUS,Scombridae,Aku,278,61938
+2015,1,Hawaii,PMUS,Scombridae,Aku,262,42465
+2016,1,Hawaii,PMUS,Scombridae,Aku,219,47913
+2012,2,Maui County,PMUS,Scombridae,Aku,141,41637
+2013,2,Maui County,PMUS,Scombridae,Aku,135,50649
+2014,2,Maui County,PMUS,Scombridae,Aku,141,30675
+2015,2,Maui County,PMUS,Scombridae,Aku,117,26257
+2016,2,Maui County,PMUS,Scombridae,Aku,92,24394
+2012,2,Penguin Bank,PMUS,Scombridae,Aku,54,4782
+2013,2,Penguin Bank,PMUS,Scombridae,Aku,50,2859
+2014,2,Penguin Bank,PMUS,Scombridae,Aku,43,3029
+2015,2,Penguin Bank,PMUS,Scombridae,Aku,23,3458
+2016,2,Penguin Bank,PMUS,Scombridae,Aku,26,2002
+2012,3,Oahu,PMUS,Scombridae,Aku,349,182213
+2013,3,Oahu,PMUS,Scombridae,Aku,351,406388
+2014,3,Oahu,PMUS,Scombridae,Aku,293,117906
+2015,3,Oahu,PMUS,Scombridae,Aku,322,146397
+2016,3,Oahu,PMUS,Scombridae,Aku,274,155173
+2012,4,Kauai County,PMUS,Scombridae,Aku,138,39484
+2013,4,Kauai County,PMUS,Scombridae,Aku,131,48602
+2014,4,Kauai County,PMUS,Scombridae,Aku,105,19654
+2015,4,Kauai County,PMUS,Scombridae,Aku,110,31712
+2016,4,Kauai County,PMUS,Scombridae,Aku,91,29065
+2012,0,Cross Seamount,PMUS,Scombridae,Bigeye tuna,14,716406
+2013,0,Cross Seamount,PMUS,Scombridae,Bigeye tuna,15,880658
+2014,0,Cross Seamount,PMUS,Scombridae,Bigeye tuna,9,418122
+2015,0,Cross Seamount,PMUS,Scombridae,Bigeye tuna,9,430102
+2016,0,Cross Seamount,PMUS,Scombridae,Bigeye tuna,6,349087
+2012,0,NOAA WB,PMUS,Scombridae,Bigeye tuna,6,22039
+2013,0,NOAA WB,PMUS,Scombridae,Bigeye tuna,6,44820
+2015,0,Other offshore,PMUS,Scombridae,Bigeye tuna,6,27223
+2012,1,Hawaii,PMUS,Scombridae,Bigeye tuna,174,251332
+2013,1,Hawaii,PMUS,Scombridae,Bigeye tuna,188,290378
+2014,1,Hawaii,PMUS,Scombridae,Bigeye tuna,184,250672
+2015,1,Hawaii,PMUS,Scombridae,Bigeye tuna,115,106997
+2016,1,Hawaii,PMUS,Scombridae,Bigeye tuna,136,128835
+2012,2,Maui County,PMUS,Scombridae,Bigeye tuna,95,115316
+2013,2,Maui County,PMUS,Scombridae,Bigeye tuna,84,98342
+2014,2,Maui County,PMUS,Scombridae,Bigeye tuna,78,89580
+2015,2,Maui County,PMUS,Scombridae,Bigeye tuna,56,67217
+2016,2,Maui County,PMUS,Scombridae,Bigeye tuna,48,23164
+2012,2,Penguin Bank,PMUS,Scombridae,Bigeye tuna,8,711
+2013,2,Penguin Bank,PMUS,Scombridae,Bigeye tuna,5,1865
+2014,2,Penguin Bank,PMUS,Scombridae,Bigeye tuna,3,347
+2015,2,Penguin Bank,PMUS,Scombridae,Bigeye tuna,4,616
+2016,2,Penguin Bank,PMUS,Scombridae,Bigeye tuna,6,418
+2012,3,Oahu,PMUS,Scombridae,Bigeye tuna,109,38200
+2013,3,Oahu,PMUS,Scombridae,Bigeye tuna,51,34939
+2014,3,Oahu,PMUS,Scombridae,Bigeye tuna,54,51573
+2015,3,Oahu,PMUS,Scombridae,Bigeye tuna,36,18667
+2016,3,Oahu,PMUS,Scombridae,Bigeye tuna,25,3823
+2012,4,Kauai County,PMUS,Scombridae,Bigeye tuna,29,79056
+2013,4,Kauai County,PMUS,Scombridae,Bigeye tuna,28,55497
+2014,4,Kauai County,PMUS,Scombridae,Bigeye tuna,24,27384
+2015,4,Kauai County,PMUS,Scombridae,Bigeye tuna,23,7105
+2016,4,Kauai County,PMUS,Scombridae,Bigeye tuna,10,2361
+2012,1,Hawaii,PMUS,Istiophoridae,Black marlin,10,2255
+2013,1,Hawaii,PMUS,Istiophoridae,Black marlin,12,3380
+2014,1,Hawaii,PMUS,Istiophoridae,Black marlin,11,2225
+2015,1,Hawaii,PMUS,Istiophoridae,Black marlin,16,2301
+2016,1,Hawaii,PMUS,Istiophoridae,Black marlin,16,2926
+2012,3,Oahu,PMUS,Istiophoridae,Black marlin,6,1999
+2013,3,Oahu,PMUS,Istiophoridae,Black marlin,8,2218
+2014,3,Oahu,PMUS,Istiophoridae,Black marlin,7,2026
+2015,3,Oahu,PMUS,Istiophoridae,Black marlin,10,2772
+2016,3,Oahu,PMUS,Istiophoridae,Black marlin,6,2888
+2012,4,Kauai County,PMUS,Istiophoridae,Black marlin,4,1071
+2013,4,Kauai County,PMUS,Istiophoridae,Black marlin,4,1338
+2014,4,Kauai County,PMUS,Istiophoridae,Black marlin,3,1230
+2015,4,Kauai County,PMUS,Istiophoridae,Black marlin,12,3649
+2012,0,Cross Seamount,PMUS,Istiophoridae,Blue marlin,4,4804
+2013,0,Cross Seamount,PMUS,Istiophoridae,Blue marlin,8,7278
+2014,0,Cross Seamount,PMUS,Istiophoridae,Blue marlin,7,7160
+2015,0,Cross Seamount,PMUS,Istiophoridae,Blue marlin,5,5644
+2012,1,Hawaii,PMUS,Istiophoridae,Blue marlin,220,147167
+2013,1,Hawaii,PMUS,Istiophoridae,Blue marlin,222,129479
+2014,1,Hawaii,PMUS,Istiophoridae,Blue marlin,227,155614
+2015,1,Hawaii,PMUS,Istiophoridae,Blue marlin,252,153758
+2016,1,Hawaii,PMUS,Istiophoridae,Blue marlin,207,105665
+2012,2,Maui County,PMUS,Istiophoridae,Blue marlin,35,24581
+2013,2,Maui County,PMUS,Istiophoridae,Blue marlin,37,23198
+2014,2,Maui County,PMUS,Istiophoridae,Blue marlin,37,20979
+2015,2,Maui County,PMUS,Istiophoridae,Blue marlin,57,36568
+2016,2,Maui County,PMUS,Istiophoridae,Blue marlin,48,23483
+2012,2,Penguin Bank,PMUS,Istiophoridae,Blue marlin,10,4545
+2013,2,Penguin Bank,PMUS,Istiophoridae,Blue marlin,14,2782
+2014,2,Penguin Bank,PMUS,Istiophoridae,Blue marlin,7,2466
+2015,2,Penguin Bank,PMUS,Istiophoridae,Blue marlin,14,3284
+2016,2,Penguin Bank,PMUS,Istiophoridae,Blue marlin,6,1108
+2012,3,Oahu,PMUS,Istiophoridae,Blue marlin,142,78412
+2013,3,Oahu,PMUS,Istiophoridae,Blue marlin,180,103683
+2014,3,Oahu,PMUS,Istiophoridae,Blue marlin,181,110833
+2015,3,Oahu,PMUS,Istiophoridae,Blue marlin,222,161250
+2016,3,Oahu,PMUS,Istiophoridae,Blue marlin,174,135713
+2012,4,Kauai County,PMUS,Istiophoridae,Blue marlin,60,26281
+2013,4,Kauai County,PMUS,Istiophoridae,Blue marlin,58,26797
+2014,4,Kauai County,PMUS,Istiophoridae,Blue marlin,69,32867
+2015,4,Kauai County,PMUS,Istiophoridae,Blue marlin,94,48378
+2016,4,Kauai County,PMUS,Istiophoridae,Blue marlin,61,34613
+2013,0,Cross Seamount,PMUS,Carcharhinidae,Blue shark,3,300
+2013,1,Hawaii,PMUS,Carcharhinidae,Blue shark,3,0
+2012,1,Hawaii,PMUS,Scombridae,Kawakawa,35,697
+2013,1,Hawaii,PMUS,Scombridae,Kawakawa,29,943
+2014,1,Hawaii,PMUS,Scombridae,Kawakawa,61,2433
+2015,1,Hawaii,PMUS,Scombridae,Kawakawa,75,3925
+2016,1,Hawaii,PMUS,Scombridae,Kawakawa,69,2885
+2012,2,Maui County,PMUS,Scombridae,Kawakawa,32,843
+2013,2,Maui County,PMUS,Scombridae,Kawakawa,21,589
+2014,2,Maui County,PMUS,Scombridae,Kawakawa,56,3195
+2015,2,Maui County,PMUS,Scombridae,Kawakawa,69,4540
+2016,2,Maui County,PMUS,Scombridae,Kawakawa,45,2485
+2012,2,Penguin Bank,PMUS,Scombridae,Kawakawa,45,1726
+2013,2,Penguin Bank,PMUS,Scombridae,Kawakawa,49,2066
+2014,2,Penguin Bank,PMUS,Scombridae,Kawakawa,60,4696
+2015,2,Penguin Bank,PMUS,Scombridae,Kawakawa,58,8698
+2016,2,Penguin Bank,PMUS,Scombridae,Kawakawa,53,3399
+2012,3,Oahu,PMUS,Scombridae,Kawakawa,88,2678
+2013,3,Oahu,PMUS,Scombridae,Kawakawa,91,3935
+2014,3,Oahu,PMUS,Scombridae,Kawakawa,119,13133
+2015,3,Oahu,PMUS,Scombridae,Kawakawa,127,14764
+2016,3,Oahu,PMUS,Scombridae,Kawakawa,70,2620
+2012,4,Kauai County,PMUS,Scombridae,Kawakawa,30,913
+2013,4,Kauai County,PMUS,Scombridae,Kawakawa,34,1850
+2014,4,Kauai County,PMUS,Scombridae,Kawakawa,46,2152
+2015,4,Kauai County,PMUS,Scombridae,Kawakawa,43,2844
+2016,4,Kauai County,PMUS,Scombridae,Kawakawa,30,1304
+2012,1,Hawaii,PMUS,Scombridae,Keokeo,4,84
+2013,1,Hawaii,PMUS,Scombridae,Keokeo,3,85
+2015,1,Hawaii,PMUS,Scombridae,Keokeo,4,14
+2012,2,Maui County,PMUS,Scombridae,Keokeo,3,7
+2014,3,Oahu,PMUS,Scombridae,Keokeo,5,28
+2015,3,Oahu,PMUS,Scombridae,Keokeo,3,9
+2016,3,Oahu,PMUS,Scombridae,Keokeo,4,40
+2012,0,Cross Seamount,PMUS,Coryphaenidae,Mahimahi,12,13355
+2013,0,Cross Seamount,PMUS,Coryphaenidae,Mahimahi,11,9201
+2014,0,Cross Seamount,PMUS,Coryphaenidae,Mahimahi,8,7592
+2015,0,Cross Seamount,PMUS,Coryphaenidae,Mahimahi,7,4628
+2016,0,Cross Seamount,PMUS,Coryphaenidae,Mahimahi,6,615
+2012,0,NOAA WB,PMUS,Coryphaenidae,Mahimahi,7,6303
+2013,0,NOAA WB,PMUS,Coryphaenidae,Mahimahi,7,6991
+2013,0,Other offshore,PMUS,Coryphaenidae,Mahimahi,5,995
+2014,0,Other offshore,PMUS,Coryphaenidae,Mahimahi,4,155
+2015,0,Other offshore,PMUS,Coryphaenidae,Mahimahi,6,1887
+2016,0,Other offshore,PMUS,Coryphaenidae,Mahimahi,5,765
+2012,1,Hawaii,PMUS,Coryphaenidae,Mahimahi,533,344688
+2013,1,Hawaii,PMUS,Coryphaenidae,Mahimahi,522,254074
+2014,1,Hawaii,PMUS,Coryphaenidae,Mahimahi,524,349617
+2015,1,Hawaii,PMUS,Coryphaenidae,Mahimahi,483,274956
+2016,1,Hawaii,PMUS,Coryphaenidae,Mahimahi,384,190230
+2012,2,Maui County,PMUS,Coryphaenidae,Mahimahi,243,269318
+2013,2,Maui County,PMUS,Coryphaenidae,Mahimahi,224,167682
+2014,2,Maui County,PMUS,Coryphaenidae,Mahimahi,238,296034
+2015,2,Maui County,PMUS,Coryphaenidae,Mahimahi,209,261324
+2016,2,Maui County,PMUS,Coryphaenidae,Mahimahi,159,180910
+2012,2,Penguin Bank,PMUS,Coryphaenidae,Mahimahi,126,28115
+2013,2,Penguin Bank,PMUS,Coryphaenidae,Mahimahi,127,23014
+2014,2,Penguin Bank,PMUS,Coryphaenidae,Mahimahi,126,22952
+2015,2,Penguin Bank,PMUS,Coryphaenidae,Mahimahi,91,18414
+2016,2,Penguin Bank,PMUS,Coryphaenidae,Mahimahi,85,13052
+2012,3,Oahu,PMUS,Coryphaenidae,Mahimahi,479,331620
+2013,3,Oahu,PMUS,Coryphaenidae,Mahimahi,402,187942
+2014,3,Oahu,PMUS,Coryphaenidae,Mahimahi,365,238172
+2015,3,Oahu,PMUS,Coryphaenidae,Mahimahi,351,152765
+2016,3,Oahu,PMUS,Coryphaenidae,Mahimahi,308,134586
+2012,4,Kauai County,PMUS,Coryphaenidae,Mahimahi,170,79011
+2013,4,Kauai County,PMUS,Coryphaenidae,Mahimahi,152,44972
+2014,4,Kauai County,PMUS,Coryphaenidae,Mahimahi,162,47099
+2015,4,Kauai County,PMUS,Coryphaenidae,Mahimahi,145,52909
+2016,4,Kauai County,PMUS,Coryphaenidae,Mahimahi,122,35253
+2013,0,Cross Seamount,PMUS,Lamnidae,Mako,3,723
+2015,0,Cross Seamount,PMUS,Lamnidae,Mako,3,1126
+2012,1,Hawaii,PMUS,Lamnidae,Mako,11,1613
+2013,1,Hawaii,PMUS,Lamnidae,Mako,6,815
+2015,1,Hawaii,PMUS,Lamnidae,Mako,3,831
+2016,1,Hawaii,PMUS,Lamnidae,Mako,8,1634
+2013,3,Oahu,PMUS,Lamnidae,Mako,3,48
+2012,0,Cross Seamount,PMUS,Bramidae,Monchong,6,11548
+2013,0,Cross Seamount,PMUS,Bramidae,Monchong,7,21553
+2014,0,Cross Seamount,PMUS,Bramidae,Monchong,4,18047
+2015,0,Cross Seamount,PMUS,Bramidae,Monchong,4,3725
+2016,0,Cross Seamount,PMUS,Bramidae,Monchong,4,10565
+2015,0,Other offshore,PMUS,Bramidae,Monchong,3,353
+2012,1,Hawaii,PMUS,Bramidae,Monchong,21,9295
+2013,1,Hawaii,PMUS,Bramidae,Monchong,36,39341
+2014,1,Hawaii,PMUS,Bramidae,Monchong,24,37469
+2015,1,Hawaii,PMUS,Bramidae,Monchong,31,27631
+2016,1,Hawaii,PMUS,Bramidae,Monchong,27,29422
+2012,2,Maui County,PMUS,Bramidae,Monchong,7,348
+2013,2,Maui County,PMUS,Bramidae,Monchong,9,847
+2014,2,Maui County,PMUS,Bramidae,Monchong,6,789
+2015,2,Maui County,PMUS,Bramidae,Monchong,7,1014
+2016,2,Maui County,PMUS,Bramidae,Monchong,10,1214
+2012,2,Penguin Bank,PMUS,Bramidae,Monchong,14,684
+2013,2,Penguin Bank,PMUS,Bramidae,Monchong,9,289
+2014,2,Penguin Bank,PMUS,Bramidae,Monchong,10,590
+2015,2,Penguin Bank,PMUS,Bramidae,Monchong,5,263
+2016,2,Penguin Bank,PMUS,Bramidae,Monchong,10,1175
+2012,3,Oahu,PMUS,Bramidae,Monchong,3,207
+2013,3,Oahu,PMUS,Bramidae,Monchong,10,777
+2014,3,Oahu,PMUS,Bramidae,Monchong,6,1828
+2015,3,Oahu,PMUS,Bramidae,Monchong,5,406
+2016,3,Oahu,PMUS,Bramidae,Monchong,4,210
+2012,4,Kauai County,PMUS,Bramidae,Monchong,4,222
+2013,4,Kauai County,PMUS,Bramidae,Monchong,5,195
+2014,4,Kauai County,PMUS,Bramidae,Monchong,6,262
+2015,4,Kauai County,PMUS,Bramidae,Monchong,8,2013
+2016,4,Kauai County,PMUS,Bramidae,Monchong,7,1898
+2013,1,Hawaii,PMUS,Carcharhinidae,Oceanic whitetip,6,80
+2014,1,Hawaii,PMUS,Carcharhinidae,Oceanic whitetip,3,0
+2015,1,Hawaii,PMUS,Carcharhinidae,Oceanic whitetip,6,0
+2012,0,Cross Seamount,PMUS,Scombridae,Ono,9,1102
+2013,0,Cross Seamount,PMUS,Scombridae,Ono,10,2707
+2014,0,Cross Seamount,PMUS,Scombridae,Ono,5,1588
+2015,0,Cross Seamount,PMUS,Scombridae,Ono,5,1613
+2016,0,Cross Seamount,PMUS,Scombridae,Ono,5,247
+2012,0,NOAA WB,PMUS,Scombridae,Ono,3,196
+2013,0,NOAA WB,PMUS,Scombridae,Ono,3,233
+2012,0,Other offshore,PMUS,Scombridae,Ono,6,4948
+2013,0,Other offshore,PMUS,Scombridae,Ono,5,1244
+2014,0,Other offshore,PMUS,Scombridae,Ono,5,4068
+2015,0,Other offshore,PMUS,Scombridae,Ono,6,3401
+2016,0,Other offshore,PMUS,Scombridae,Ono,4,1603
+2012,1,Hawaii,PMUS,Scombridae,Ono,569,262911
+2013,1,Hawaii,PMUS,Scombridae,Ono,573,260548
+2014,1,Hawaii,PMUS,Scombridae,Ono,583,292721
+2015,1,Hawaii,PMUS,Scombridae,Ono,537,275308
+2016,1,Hawaii,PMUS,Scombridae,Ono,456,166182
+2012,2,Maui County,PMUS,Scombridae,Ono,185,51366
+2013,2,Maui County,PMUS,Scombridae,Ono,173,43145
+2014,2,Maui County,PMUS,Scombridae,Ono,175,56185
+2015,2,Maui County,PMUS,Scombridae,Ono,164,48066
+2016,2,Maui County,PMUS,Scombridae,Ono,133,34824
+2012,2,Penguin Bank,PMUS,Scombridae,Ono,77,8894
+2013,2,Penguin Bank,PMUS,Scombridae,Ono,73,8677
+2014,2,Penguin Bank,PMUS,Scombridae,Ono,87,12972
+2015,2,Penguin Bank,PMUS,Scombridae,Ono,80,8197
+2016,2,Penguin Bank,PMUS,Scombridae,Ono,62,7374
+2012,3,Oahu,PMUS,Scombridae,Ono,344,40215
+2013,3,Oahu,PMUS,Scombridae,Ono,313,35448
+2014,3,Oahu,PMUS,Scombridae,Ono,325,48105
+2015,3,Oahu,PMUS,Scombridae,Ono,303,45066
+2016,3,Oahu,PMUS,Scombridae,Ono,238,22764
+2012,4,Kauai County,PMUS,Scombridae,Ono,167,72748
+2013,4,Kauai County,PMUS,Scombridae,Ono,163,65391
+2014,4,Kauai County,PMUS,Scombridae,Ono,177,74367
+2015,4,Kauai County,PMUS,Scombridae,Ono,178,58438
+2016,4,Kauai County,PMUS,Scombridae,Ono,154,39628
+2012,0,Cross Seamount,PMUS,Istiophoridae,S.N. spearfish,4,327
+2013,0,Cross Seamount,PMUS,Istiophoridae,S.N. spearfish,7,1156
+2014,0,Cross Seamount,PMUS,Istiophoridae,S.N. spearfish,5,1039
+2015,0,Cross Seamount,PMUS,Istiophoridae,S.N. spearfish,7,749
+2012,1,Hawaii,PMUS,Istiophoridae,S.N. spearfish,118,14151
+2013,1,Hawaii,PMUS,Istiophoridae,S.N. spearfish,118,14093
+2014,1,Hawaii,PMUS,Istiophoridae,S.N. spearfish,101,10562
+2015,1,Hawaii,PMUS,Istiophoridae,S.N. spearfish,102,14442
+2016,1,Hawaii,PMUS,Istiophoridae,S.N. spearfish,126,21601
+2012,2,Maui County,PMUS,Istiophoridae,S.N. spearfish,29,2687
+2013,2,Maui County,PMUS,Istiophoridae,S.N. spearfish,21,1854
+2014,2,Maui County,PMUS,Istiophoridae,S.N. spearfish,18,1680
+2015,2,Maui County,PMUS,Istiophoridae,S.N. spearfish,26,1482
+2016,2,Maui County,PMUS,Istiophoridae,S.N. spearfish,26,3601
+2012,2,Penguin Bank,PMUS,Istiophoridae,S.N. spearfish,3,84
+2013,2,Penguin Bank,PMUS,Istiophoridae,S.N. spearfish,8,333
+2014,2,Penguin Bank,PMUS,Istiophoridae,S.N. spearfish,8,216
+2015,2,Penguin Bank,PMUS,Istiophoridae,S.N. spearfish,7,257
+2016,2,Penguin Bank,PMUS,Istiophoridae,S.N. spearfish,6,212
+2012,3,Oahu,PMUS,Istiophoridae,S.N. spearfish,104,7043
+2013,3,Oahu,PMUS,Istiophoridae,S.N. spearfish,83,4995
+2014,3,Oahu,PMUS,Istiophoridae,S.N. spearfish,78,5418
+2015,3,Oahu,PMUS,Istiophoridae,S.N. spearfish,78,7140
+2016,3,Oahu,PMUS,Istiophoridae,S.N. spearfish,100,7054
+2012,4,Kauai County,PMUS,Istiophoridae,S.N. spearfish,20,1261
+2013,4,Kauai County,PMUS,Istiophoridae,S.N. spearfish,27,3314
+2014,4,Kauai County,PMUS,Istiophoridae,S.N. spearfish,15,636
+2015,4,Kauai County,PMUS,Istiophoridae,S.N. spearfish,23,1540
+2016,4,Kauai County,PMUS,Istiophoridae,S.N. spearfish,35,2210
+2012,1,Hawaii,PMUS,Istiophoridae,Sailfish,10,701
+2013,1,Hawaii,PMUS,Istiophoridae,Sailfish,13,899
+2014,1,Hawaii,PMUS,Istiophoridae,Sailfish,17,1178
+2015,1,Hawaii,PMUS,Istiophoridae,Sailfish,24,2775
+2016,1,Hawaii,PMUS,Istiophoridae,Sailfish,18,1050
+2012,2,Maui County,PMUS,Istiophoridae,Sailfish,3,100
+2013,2,Maui County,PMUS,Istiophoridae,Sailfish,4,225
+2016,2,Maui County,PMUS,Istiophoridae,Sailfish,4,148
+2012,3,Oahu,PMUS,Istiophoridae,Sailfish,13,839
+2013,3,Oahu,PMUS,Istiophoridae,Sailfish,14,1054
+2014,3,Oahu,PMUS,Istiophoridae,Sailfish,7,398
+2015,3,Oahu,PMUS,Istiophoridae,Sailfish,16,1488
+2016,3,Oahu,PMUS,Istiophoridae,Sailfish,11,2180
+2012,4,Kauai County,PMUS,Istiophoridae,Sailfish,3,197
+2013,4,Kauai County,PMUS,Istiophoridae,Sailfish,3,295
+2014,4,Kauai County,PMUS,Istiophoridae,Sailfish,6,457
+2015,4,Kauai County,PMUS,Istiophoridae,Sailfish,6,551
+2016,4,Kauai County,PMUS,Istiophoridae,Sailfish,8,726
+2013,0,Cross Seamount,PMUS,Istiophoridae,Striped marlin,5,1766
+2015,0,Cross Seamount,PMUS,Istiophoridae,Striped marlin,3,1024
+2012,1,Hawaii,PMUS,Istiophoridae,Striped marlin,70,7169
+2013,1,Hawaii,PMUS,Istiophoridae,Striped marlin,58,6065
+2014,1,Hawaii,PMUS,Istiophoridae,Striped marlin,68,7485
+2015,1,Hawaii,PMUS,Istiophoridae,Striped marlin,60,8020
+2016,1,Hawaii,PMUS,Istiophoridae,Striped marlin,66,7797
+2012,2,Maui County,PMUS,Istiophoridae,Striped marlin,21,2862
+2013,2,Maui County,PMUS,Istiophoridae,Striped marlin,14,1116
+2014,2,Maui County,PMUS,Istiophoridae,Striped marlin,26,3567
+2015,2,Maui County,PMUS,Istiophoridae,Striped marlin,11,1283
+2016,2,Maui County,PMUS,Istiophoridae,Striped marlin,18,2593
+2012,2,Penguin Bank,PMUS,Istiophoridae,Striped marlin,10,686
+2014,2,Penguin Bank,PMUS,Istiophoridae,Striped marlin,7,371
+2015,2,Penguin Bank,PMUS,Istiophoridae,Striped marlin,4,356
+2016,2,Penguin Bank,PMUS,Istiophoridae,Striped marlin,4,354
+2012,3,Oahu,PMUS,Istiophoridae,Striped marlin,70,10972
+2013,3,Oahu,PMUS,Istiophoridae,Striped marlin,55,8492
+2014,3,Oahu,PMUS,Istiophoridae,Striped marlin,85,13882
+2015,3,Oahu,PMUS,Istiophoridae,Striped marlin,72,10256
+2016,3,Oahu,PMUS,Istiophoridae,Striped marlin,68,13452
+2012,4,Kauai County,PMUS,Istiophoridae,Striped marlin,17,2771
+2013,4,Kauai County,PMUS,Istiophoridae,Striped marlin,14,2118
+2014,4,Kauai County,PMUS,Istiophoridae,Striped marlin,14,2531
+2015,4,Kauai County,PMUS,Istiophoridae,Striped marlin,27,3454
+2016,4,Kauai County,PMUS,Istiophoridae,Striped marlin,22,2361
+2013,0,Cross Seamount,PMUS,Xiphiidae,Swordfish,6,2886
+2014,0,Cross Seamount,PMUS,Xiphiidae,Swordfish,4,995
+2015,0,Cross Seamount,PMUS,Xiphiidae,Swordfish,3,1068
+2012,1,Hawaii,PMUS,Xiphiidae,Swordfish,57,14196
+2013,1,Hawaii,PMUS,Xiphiidae,Swordfish,44,14781
+2014,1,Hawaii,PMUS,Xiphiidae,Swordfish,62,16814
+2015,1,Hawaii,PMUS,Xiphiidae,Swordfish,63,11982
+2016,1,Hawaii,PMUS,Xiphiidae,Swordfish,37,8757
+2012,4,Kauai County,PMUS,Xiphiidae,Swordfish,5,749
+2014,4,Kauai County,PMUS,Xiphiidae,Swordfish,7,882
+2015,4,Kauai County,PMUS,Xiphiidae,Swordfish,5,591
+2012,1,Hawaii,PMUS,Alopiidae,Thresher shark,22,3164
+2013,1,Hawaii,PMUS,Alopiidae,Thresher shark,12,1345
+2014,1,Hawaii,PMUS,Alopiidae,Thresher shark,12,1916
+2015,1,Hawaii,PMUS,Alopiidae,Thresher shark,6,1863
+2016,1,Hawaii,PMUS,Alopiidae,Thresher shark,9,591
+2012,0,Cross Seamount,PMUS,Scombridae,Tombo,3,703
+2013,0,Cross Seamount,PMUS,Scombridae,Tombo,7,2829
+2014,0,Cross Seamount,PMUS,Scombridae,Tombo,5,1706
+2016,0,Cross Seamount,PMUS,Scombridae,Tombo,3,464
+2012,1,Hawaii,PMUS,Scombridae,Tombo,250,562319
+2013,1,Hawaii,PMUS,Scombridae,Tombo,156,104248
+2014,1,Hawaii,PMUS,Scombridae,Tombo,174,111298
+2015,1,Hawaii,PMUS,Scombridae,Tombo,165,143860
+2016,1,Hawaii,PMUS,Scombridae,Tombo,113,52097
+2012,2,Maui County,PMUS,Scombridae,Tombo,3,213
+2014,2,Maui County,PMUS,Scombridae,Tombo,3,408
+2012,3,Oahu,PMUS,Scombridae,Tombo,3,255
+2013,3,Oahu,PMUS,Scombridae,Tombo,4,27
+2014,3,Oahu,PMUS,Scombridae,Tombo,3,587
+2012,4,Kauai County,PMUS,Scombridae,Tombo,5,1048
+2013,4,Kauai County,PMUS,Scombridae,Tombo,3,418
+2014,4,Kauai County,PMUS,Scombridae,Tombo,11,2946
+2016,4,Kauai County,PMUS,Scombridae,Tombo,3,177
+2012,1,Hawaii,PMUS,Scombridae,Tuna-misc.,5,1293
+2013,1,Hawaii,PMUS,Scombridae,Tuna-misc.,4,168
+2014,1,Hawaii,PMUS,Scombridae,Tuna-misc.,6,103
+2015,1,Hawaii,PMUS,Scombridae,Tuna-misc.,5,253
+2016,1,Hawaii,PMUS,Scombridae,Tuna-misc.,3,115
+2012,2,Maui County,PMUS,Scombridae,Tuna-misc.,12,274
+2013,2,Maui County,PMUS,Scombridae,Tuna-misc.,10,215
+2014,2,Maui County,PMUS,Scombridae,Tuna-misc.,8,100
+2015,2,Maui County,PMUS,Scombridae,Tuna-misc.,5,106
+2016,2,Maui County,PMUS,Scombridae,Tuna-misc.,7,200
+2012,2,Penguin Bank,PMUS,Scombridae,Tuna-misc.,10,303
+2013,2,Penguin Bank,PMUS,Scombridae,Tuna-misc.,10,157
+2014,2,Penguin Bank,PMUS,Scombridae,Tuna-misc.,15,438
+2015,2,Penguin Bank,PMUS,Scombridae,Tuna-misc.,7,177
+2016,2,Penguin Bank,PMUS,Scombridae,Tuna-misc.,13,327
+2012,3,Oahu,PMUS,Scombridae,Tuna-misc.,11,338
+2013,3,Oahu,PMUS,Scombridae,Tuna-misc.,7,98
+2014,3,Oahu,PMUS,Scombridae,Tuna-misc.,14,786
+2015,3,Oahu,PMUS,Scombridae,Tuna-misc.,18,625
+2016,3,Oahu,PMUS,Scombridae,Tuna-misc.,13,359
+2012,0,Cross Seamount,PMUS,Exocoetidae,Walu,4,1667
+2013,0,Cross Seamount,PMUS,Exocoetidae,Walu,7,2589
+2014,0,Cross Seamount,PMUS,Exocoetidae,Walu,4,1336
+2015,0,Cross Seamount,PMUS,Exocoetidae,Walu,5,386
+2012,1,Hawaii,PMUS,Exocoetidae,Walu,8,268
+2013,1,Hawaii,PMUS,Exocoetidae,Walu,9,448
+2014,1,Hawaii,PMUS,Exocoetidae,Walu,14,344
+2015,1,Hawaii,PMUS,Exocoetidae,Walu,9,236
+2016,1,Hawaii,PMUS,Exocoetidae,Walu,4,112
+2012,2,Maui County,PMUS,Exocoetidae,Walu,3,99
+2013,2,Maui County,PMUS,Exocoetidae,Walu,3,443
+2015,2,Maui County,PMUS,Exocoetidae,Walu,4,141
+2012,0,Cross Seamount,PMUS,Scombridae,Yellowfin tuna,11,97952
+2013,0,Cross Seamount,PMUS,Scombridae,Yellowfin tuna,10,100636
+2014,0,Cross Seamount,PMUS,Scombridae,Yellowfin tuna,9,66792
+2015,0,Cross Seamount,PMUS,Scombridae,Yellowfin tuna,8,50274
+2016,0,Cross Seamount,PMUS,Scombridae,Yellowfin tuna,6,55207
+2012,0,NOAA WB,PMUS,Scombridae,Yellowfin tuna,4,3389
+2013,0,NOAA WB,PMUS,Scombridae,Yellowfin tuna,5,3304
+2012,0,Other offshore,PMUS,Scombridae,Yellowfin tuna,7,873
+2013,0,Other offshore,PMUS,Scombridae,Yellowfin tuna,4,16077
+2014,0,Other offshore,PMUS,Scombridae,Yellowfin tuna,8,2122
+2015,0,Other offshore,PMUS,Scombridae,Yellowfin tuna,7,3259
+2012,1,Hawaii,PMUS,Scombridae,Yellowfin tuna,572,1003857
+2013,1,Hawaii,PMUS,Scombridae,Yellowfin tuna,548,1178558
+2014,1,Hawaii,PMUS,Scombridae,Yellowfin tuna,573,1241338
+2015,1,Hawaii,PMUS,Scombridae,Yellowfin tuna,535,1176385
+2016,1,Hawaii,PMUS,Scombridae,Yellowfin tuna,467,740211
+2012,2,Maui County,PMUS,Scombridae,Yellowfin tuna,167,209498
+2013,2,Maui County,PMUS,Scombridae,Yellowfin tuna,126,106959
+2014,2,Maui County,PMUS,Scombridae,Yellowfin tuna,141,139654
+2015,2,Maui County,PMUS,Scombridae,Yellowfin tuna,117,133641
+2016,2,Maui County,PMUS,Scombridae,Yellowfin tuna,112,134253
+2012,2,Penguin Bank,PMUS,Scombridae,Yellowfin tuna,47,5717
+2013,2,Penguin Bank,PMUS,Scombridae,Yellowfin tuna,49,5198
+2014,2,Penguin Bank,PMUS,Scombridae,Yellowfin tuna,39,4130
+2015,2,Penguin Bank,PMUS,Scombridae,Yellowfin tuna,30,3850
+2016,2,Penguin Bank,PMUS,Scombridae,Yellowfin tuna,23,2670
+2012,3,Oahu,PMUS,Scombridae,Yellowfin tuna,405,402342
+2013,3,Oahu,PMUS,Scombridae,Yellowfin tuna,371,275461
+2014,3,Oahu,PMUS,Scombridae,Yellowfin tuna,345,246370
+2015,3,Oahu,PMUS,Scombridae,Yellowfin tuna,329,256765
+2016,3,Oahu,PMUS,Scombridae,Yellowfin tuna,289,245569
+2012,4,Kauai County,PMUS,Scombridae,Yellowfin tuna,201,480378
+2013,4,Kauai County,PMUS,Scombridae,Yellowfin tuna,188,408168
+2014,4,Kauai County,PMUS,Scombridae,Yellowfin tuna,197,391518
+2015,4,Kauai County,PMUS,Scombridae,Yellowfin tuna,185,406625
+2016,4,Kauai County,PMUS,Scombridae,Yellowfin tuna,171,392557
