@@ -135,19 +135,23 @@ FIS = function(layers, status_year=2016){
   data_fis_gf <- fis_data %>%
     dplyr::group_by(year, Fam) %>% #Fam is the code for family and code is the taxon key to separate out bottom, pelagics, coastal pelagics and reef fish
     dplyr::mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    dplyr::mutate(Mean_score = mean((score), na.rm=TRUE)) %>%
     dplyr::ungroup()%>%
-    dplyr::mutate(Median_score = ifelse(is.na(score), Median_score, score))
+    dplyr::mutate(Median_score = ifelse(is.na(score), Median_score, score))%>%
+    dplyr::mutate(Mean_score = ifelse(is.na(score), Mean_score, score))
 
   ## this takes the median score for each fishery (bottom, pelagic, coastal pelagic, reef) and applies it for Families that did not have a median stock assessment score
   data_fis_gf <- data_fis_gf %>%
     dplyr::group_by(year, code) %>% #Fam is the code for family and code is the taxon key to separate out bottom, pelagics, coastal pelagics and reef fish
     dplyr::mutate(code_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    dplyr::mutate(Mean_code_score = mean((score), na.rm=TRUE)) %>%
     dplyr::ungroup()%>%
     dplyr::mutate(score_gf = ifelse(is.na(Median_score), code_score, Median_score)) %>%
-    dplyr::mutate(score_gf = ifelse(is.na(score_gf), 1, score_gf))
+    dplyr::mutate(score_gf = ifelse(is.na(score_gf), 1, score_gf))%>%
+    dplyr::mutate(Mean_score = ifelse(is.na(Mean_score), Mean_code_score, Mean_score))
 
     #note no assessments have been done for species that we classified as coastal pelagics
-
+# could apply reef fish median scores
 
 
   #didn't apply a penalty to taxon reported to family since there are only two - misc parrots and misc ulua
@@ -159,8 +163,13 @@ FIS = function(layers, status_year=2016){
 
 
   #select data needed for status
+  #use this code for median gap filled scores
+  #data_fis_gf <- data_fis_gf %>%
+  #  select(rgn_id, key_sp, code, year, catch, score=score_gf, score_gapfilled)
+
+  #use this code for mean gap filled scores
   data_fis_gf <- data_fis_gf %>%
-    select(rgn_id, key_sp, code, year, catch, score=score_gf, score_gapfilled)
+    select(rgn_id, key_sp, code, year, catch, score=Mean_score, score_gapfilled)
 
   str(data_fis_gf) #check data
   length(unique(data_fis_gf$code)) #check that there are no typos in the code should be 4 levels
