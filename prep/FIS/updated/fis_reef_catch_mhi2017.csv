@@ -1,0 +1,1064 @@
+year,rgn_id,island,code,mus,family,species,licenses,catch
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Api,5,35
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Api,3,21
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Api,4,59
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Api,4,41
+2012,3,Oahu,R,CHCRT,Acanthuridae,Api,4,64
+2013,3,Oahu,R,CHCRT,Acanthuridae,Api,4,84
+2012,1,Hawaii,R,PHCRT,Acanthuridae,Black kole,5,194
+2013,1,Hawaii,R,PHCRT,Acanthuridae,Black kole,3,97
+2016,1,Hawaii,R,PHCRT,Acanthuridae,Black kole,4,24
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Kala,16,348
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Kala,12,432
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Kala,8,68
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Kala,11,191
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Kala,7,394
+2012,2,Maui County,R,CHCRT,Acanthuridae,Kala,11,6601
+2013,2,Maui County,R,CHCRT,Acanthuridae,Kala,12,6595
+2014,2,Maui County,R,CHCRT,Acanthuridae,Kala,13,5284
+2015,2,Maui County,R,CHCRT,Acanthuridae,Kala,11,4878
+2016,2,Maui County,R,CHCRT,Acanthuridae,Kala,9,4279
+2012,3,Oahu,R,CHCRT,Acanthuridae,Kala,40,35166
+2013,3,Oahu,R,CHCRT,Acanthuridae,Kala,39,24982
+2014,3,Oahu,R,CHCRT,Acanthuridae,Kala,37,24676
+2015,3,Oahu,R,CHCRT,Acanthuridae,Kala,23,16625
+2016,3,Oahu,R,CHCRT,Acanthuridae,Kala,24,12640
+2015,4,Kauai County,R,CHCRT,Acanthuridae,Kala,3,217
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Kole,23,1619
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Kole,16,1393
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Kole,16,1882
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Kole,12,347
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Kole,12,658
+2012,2,Maui County,R,CHCRT,Acanthuridae,Kole,12,2485
+2013,2,Maui County,R,CHCRT,Acanthuridae,Kole,9,993
+2014,2,Maui County,R,CHCRT,Acanthuridae,Kole,12,590
+2015,2,Maui County,R,CHCRT,Acanthuridae,Kole,6,776
+2016,2,Maui County,R,CHCRT,Acanthuridae,Kole,3,407
+2012,3,Oahu,R,CHCRT,Acanthuridae,Kole,8,65
+2013,3,Oahu,R,CHCRT,Acanthuridae,Kole,12,346
+2014,3,Oahu,R,CHCRT,Acanthuridae,Kole,7,660
+2015,3,Oahu,R,CHCRT,Acanthuridae,Kole,10,291
+2016,3,Oahu,R,CHCRT,Acanthuridae,Kole,3,128
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Maiko,12,234
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Maiko,6,63
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Maiko,7,194
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Maiko,6,99
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Maiko,4,43
+2012,3,Oahu,R,CHCRT,Acanthuridae,Maiko,19,2047
+2013,3,Oahu,R,CHCRT,Acanthuridae,Maiko,23,3437
+2014,3,Oahu,R,CHCRT,Acanthuridae,Maiko,13,1229
+2015,3,Oahu,R,CHCRT,Acanthuridae,Maiko,10,350
+2016,3,Oahu,R,CHCRT,Acanthuridae,Maiko,8,909
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Manini,23,1882
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Manini,12,2655
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Manini,15,1693
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Manini,13,629
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Manini,12,549
+2012,2,Maui County,R,CHCRT,Acanthuridae,Manini,17,4022
+2013,2,Maui County,R,CHCRT,Acanthuridae,Manini,8,3226
+2014,2,Maui County,R,CHCRT,Acanthuridae,Manini,11,2156
+2015,2,Maui County,R,CHCRT,Acanthuridae,Manini,12,2284
+2016,2,Maui County,R,CHCRT,Acanthuridae,Manini,8,2814
+2012,3,Oahu,R,CHCRT,Acanthuridae,Manini,40,8512
+2013,3,Oahu,R,CHCRT,Acanthuridae,Manini,43,9192
+2014,3,Oahu,R,CHCRT,Acanthuridae,Manini,34,7632
+2015,3,Oahu,R,CHCRT,Acanthuridae,Manini,35,6173
+2016,3,Oahu,R,CHCRT,Acanthuridae,Manini,25,5061
+2015,4,Kauai County,R,CHCRT,Acanthuridae,Manini,4,29
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Naenae,9,77
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Naenae,5,110
+2012,2,Maui County,R,CHCRT,Acanthuridae,Naenae,3,525
+2012,3,Oahu,R,CHCRT,Acanthuridae,Naenae,32,8302
+2013,3,Oahu,R,CHCRT,Acanthuridae,Naenae,36,7887
+2014,3,Oahu,R,CHCRT,Acanthuridae,Naenae,25,7965
+2015,3,Oahu,R,CHCRT,Acanthuridae,Naenae,22,4213
+2016,3,Oahu,R,CHCRT,Acanthuridae,Naenae,17,3094
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Opelu kala,26,2148
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Opelu kala,25,2873
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Opelu kala,22,919
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Opelu kala,18,654
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Opelu kala,15,341
+2012,2,Maui County,R,CHCRT,Acanthuridae,Opelu kala,4,128
+2013,2,Maui County,R,CHCRT,Acanthuridae,Opelu kala,5,644
+2014,2,Maui County,R,CHCRT,Acanthuridae,Opelu kala,4,110
+2015,2,Maui County,R,CHCRT,Acanthuridae,Opelu kala,3,116
+2016,2,Maui County,R,CHCRT,Acanthuridae,Opelu kala,5,373
+2012,3,Oahu,R,CHCRT,Acanthuridae,Opelu kala,22,2974
+2013,3,Oahu,R,CHCRT,Acanthuridae,Opelu kala,17,4668
+2014,3,Oahu,R,CHCRT,Acanthuridae,Opelu kala,16,1723
+2015,3,Oahu,R,CHCRT,Acanthuridae,Opelu kala,9,2676
+2016,3,Oahu,R,CHCRT,Acanthuridae,Opelu kala,3,2291
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Pakuikui (tang),7,308
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Pakuikui (tang),9,403
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Pakuikui (tang),6,190
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Pakuikui (tang),3,112
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Pakuikui (tang),6,67
+2013,3,Oahu,R,CHCRT,Acanthuridae,Pakuikui (tang),3,21
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Palani,20,1349
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Palani,16,1545
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Palani,13,684
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Palani,14,650
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Palani,11,152
+2012,2,Maui County,R,CHCRT,Acanthuridae,Palani,18,4542
+2013,2,Maui County,R,CHCRT,Acanthuridae,Palani,11,3488
+2014,2,Maui County,R,CHCRT,Acanthuridae,Palani,8,3634
+2015,2,Maui County,R,CHCRT,Acanthuridae,Palani,13,3454
+2016,2,Maui County,R,CHCRT,Acanthuridae,Palani,6,3336
+2012,3,Oahu,R,CHCRT,Acanthuridae,Palani,46,30206
+2013,3,Oahu,R,CHCRT,Acanthuridae,Palani,46,28256
+2014,3,Oahu,R,CHCRT,Acanthuridae,Palani,46,27298
+2015,3,Oahu,R,CHCRT,Acanthuridae,Palani,44,17107
+2016,3,Oahu,R,CHCRT,Acanthuridae,Palani,31,19665
+2014,4,Kauai County,R,CHCRT,Acanthuridae,Palani,3,52
+2015,4,Kauai County,R,CHCRT,Acanthuridae,Palani,3,28
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Pualu,9,693
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Pualu,7,563
+2014,1,Hawaii,R,CHCRT,Acanthuridae,Pualu,7,1573
+2015,1,Hawaii,R,CHCRT,Acanthuridae,Pualu,5,601
+2016,1,Hawaii,R,CHCRT,Acanthuridae,Pualu,3,452
+2012,2,Maui County,R,CHCRT,Acanthuridae,Pualu,4,740
+2013,2,Maui County,R,CHCRT,Acanthuridae,Pualu,6,408
+2014,2,Maui County,R,CHCRT,Acanthuridae,Pualu,5,880
+2015,2,Maui County,R,CHCRT,Acanthuridae,Pualu,3,890
+2016,2,Maui County,R,CHCRT,Acanthuridae,Pualu,3,680
+2012,3,Oahu,R,CHCRT,Acanthuridae,Pualu,22,11329
+2013,3,Oahu,R,CHCRT,Acanthuridae,Pualu,19,6907
+2014,3,Oahu,R,CHCRT,Acanthuridae,Pualu,22,4718
+2015,3,Oahu,R,CHCRT,Acanthuridae,Pualu,17,3787
+2016,3,Oahu,R,CHCRT,Acanthuridae,Pualu,11,3221
+2012,1,Hawaii,R,CHCRT,Acanthuridae,Umaumalei,11,435
+2013,1,Hawaii,R,CHCRT,Acanthuridae,Umaumalei,6,120
+2012,2,Maui County,R,CHCRT,Acanthuridae,Umaumalei,3,2802
+2013,2,Maui County,R,CHCRT,Acanthuridae,Umaumalei,3,2076
+2014,2,Maui County,R,CHCRT,Acanthuridae,Umaumalei,3,1748
+2015,2,Maui County,R,CHCRT,Acanthuridae,Umaumalei,3,2401
+2016,2,Maui County,R,CHCRT,Acanthuridae,Umaumalei,3,2250
+2012,3,Oahu,R,CHCRT,Acanthuridae,Umaumalei,18,675
+2013,3,Oahu,R,CHCRT,Acanthuridae,Umaumalei,19,1968
+2014,3,Oahu,R,CHCRT,Acanthuridae,Umaumalei,13,919
+2015,3,Oahu,R,CHCRT,Acanthuridae,Umaumalei,6,366
+2016,3,Oahu,R,CHCRT,Acanthuridae,Umaumalei,6,1098
+2013,1,Hawaii,R,PHCRT,Albulidae,Oio,6,22
+2015,1,Hawaii,R,PHCRT,Albulidae,Oio,6,124
+2016,1,Hawaii,R,PHCRT,Albulidae,Oio,5,90
+2012,2,Maui County,R,PHCRT,Albulidae,Oio,7,402
+2013,2,Maui County,R,PHCRT,Albulidae,Oio,7,1220
+2014,2,Maui County,R,PHCRT,Albulidae,Oio,6,535
+2015,2,Maui County,R,PHCRT,Albulidae,Oio,10,749
+2016,2,Maui County,R,PHCRT,Albulidae,Oio,5,728
+2012,3,Oahu,R,PHCRT,Albulidae,Oio,32,10160
+2013,3,Oahu,R,PHCRT,Albulidae,Oio,28,9901
+2014,3,Oahu,R,PHCRT,Albulidae,Oio,25,5480
+2015,3,Oahu,R,PHCRT,Albulidae,Oio,25,6729
+2016,3,Oahu,R,PHCRT,Albulidae,Oio,16,4322
+2014,4,Kauai County,R,PHCRT,Albulidae,Oio,5,1848
+2016,4,Kauai County,R,PHCRT,Albulidae,Oio,4,434
+2012,1,Hawaii,R,PHCRT,Aulostamidae,Nunu,3,69
+2013,1,Hawaii,R,PHCRT,Aulostamidae,Nunu,4,72
+2016,1,Hawaii,R,PHCRT,Aulostamidae,Nunu,4,67
+2012,3,Oahu,R,PHCRT,Aulostamidae,Nunu,15,130
+2013,3,Oahu,R,PHCRT,Aulostamidae,Nunu,13,138
+2014,3,Oahu,R,PHCRT,Aulostamidae,Nunu,14,211
+2015,3,Oahu,R,PHCRT,Aulostamidae,Nunu,9,121
+2016,3,Oahu,R,PHCRT,Aulostamidae,Nunu,8,60
+2012,1,Hawaii,R,CHCRT,Balistidae,Humuhumu,10,152
+2013,1,Hawaii,R,CHCRT,Balistidae,Humuhumu,6,25
+2014,1,Hawaii,R,CHCRT,Balistidae,Humuhumu,4,12
+2016,1,Hawaii,R,CHCRT,Balistidae,Humuhumu,4,30
+2012,2,Maui County,R,CHCRT,Balistidae,Humuhumu,8,79
+2013,2,Maui County,R,CHCRT,Balistidae,Humuhumu,5,84
+2014,2,Maui County,R,CHCRT,Balistidae,Humuhumu,5,31
+2015,2,Maui County,R,CHCRT,Balistidae,Humuhumu,3,49
+2016,2,Maui County,R,CHCRT,Balistidae,Humuhumu,6,62
+2012,3,Oahu,R,CHCRT,Balistidae,Humuhumu,11,725
+2013,3,Oahu,R,CHCRT,Balistidae,Humuhumu,15,618
+2014,3,Oahu,R,CHCRT,Balistidae,Humuhumu,8,460
+2015,3,Oahu,R,CHCRT,Balistidae,Humuhumu,4,416
+2016,3,Oahu,R,CHCRT,Balistidae,Humuhumu,5,387
+2015,4,Kauai County,R,CHCRT,Balistidae,Humuhumu,3,19
+2012,1,Hawaii,R,PHCRT,Belonidae,Ahaaha,8,123
+2013,1,Hawaii,R,PHCRT,Belonidae,Ahaaha,10,83
+2015,1,Hawaii,R,PHCRT,Belonidae,Ahaaha,10,85
+2016,1,Hawaii,R,PHCRT,Belonidae,Ahaaha,4,45
+2012,2,Maui County,R,PHCRT,Belonidae,Ahaaha,4,371
+2013,2,Maui County,R,PHCRT,Belonidae,Ahaaha,4,102
+2014,2,Maui County,R,PHCRT,Belonidae,Ahaaha,5,114
+2012,3,Oahu,R,PHCRT,Belonidae,Ahaaha,14,427
+2013,3,Oahu,R,PHCRT,Belonidae,Ahaaha,16,233
+2014,3,Oahu,R,PHCRT,Belonidae,Ahaaha,26,341
+2015,3,Oahu,R,PHCRT,Belonidae,Ahaaha,13,194
+2016,3,Oahu,R,PHCRT,Belonidae,Ahaaha,11,301
+2012,3,Oahu,R,PHCRT,Bothidae,Pakii,4,10
+2013,3,Oahu,R,PHCRT,Bothidae,Pakii,3,14
+2014,3,Oahu,R,PHCRT,Bothidae,Pakii,3,18
+2012,1,Hawaii,C,CHCRT,Carangidae,Akule,58,18902
+2013,1,Hawaii,C,CHCRT,Carangidae,Akule,59,14982
+2014,1,Hawaii,C,CHCRT,Carangidae,Akule,61,13005
+2015,1,Hawaii,C,CHCRT,Carangidae,Akule,59,17708
+2016,1,Hawaii,C,CHCRT,Carangidae,Akule,57,20069
+2012,2,Maui County,C,CHCRT,Carangidae,Akule,29,30101
+2013,2,Maui County,C,CHCRT,Carangidae,Akule,27,38329
+2014,2,Maui County,C,CHCRT,Carangidae,Akule,36,31804
+2015,2,Maui County,C,CHCRT,Carangidae,Akule,30,30937
+2016,2,Maui County,C,CHCRT,Carangidae,Akule,26,142269
+2012,3,Oahu,C,CHCRT,Carangidae,Akule,87,180677
+2013,3,Oahu,C,CHCRT,Carangidae,Akule,88,154330
+2014,3,Oahu,C,CHCRT,Carangidae,Akule,83,171809
+2015,3,Oahu,C,CHCRT,Carangidae,Akule,86,290588
+2016,3,Oahu,C,CHCRT,Carangidae,Akule,70,206894
+2012,4,Kauai County,C,CHCRT,Carangidae,Akule,33,40054
+2013,4,Kauai County,C,CHCRT,Carangidae,Akule,34,37280
+2014,4,Kauai County,C,CHCRT,Carangidae,Akule,39,38603
+2015,4,Kauai County,C,CHCRT,Carangidae,Akule,43,52506
+2016,4,Kauai County,C,CHCRT,Carangidae,Akule,46,36583
+2013,2,Penguin Bank,C,CHCRT,Carangidae,Akule,4,281
+2014,2,Penguin Bank,C,CHCRT,Carangidae,Akule,3,209
+2013,3,Oahu,C,PHCRT,Carangidae,Barred jack,4,32
+2016,3,Oahu,C,PHCRT,Carangidae,Barred jack,3,67
+2013,1,Hawaii,C,PHCRT,Carangidae,Dobe ulua,4,157
+2014,1,Hawaii,C,PHCRT,Carangidae,Dobe ulua,3,471
+2012,2,Maui County,C,PHCRT,Carangidae,Dobe ulua,13,1139
+2013,2,Maui County,C,PHCRT,Carangidae,Dobe ulua,8,1592
+2014,2,Maui County,C,PHCRT,Carangidae,Dobe ulua,4,115
+2015,2,Maui County,C,PHCRT,Carangidae,Dobe ulua,5,58
+2016,2,Maui County,C,PHCRT,Carangidae,Dobe ulua,3,118
+2013,2,Penguin Bank,C,PHCRT,Carangidae,Dobe ulua,3,176
+2014,2,Penguin Bank,C,PHCRT,Carangidae,Dobe ulua,4,24
+2015,2,Penguin Bank,C,PHCRT,Carangidae,Dobe ulua,5,400
+2016,2,Penguin Bank,C,PHCRT,Carangidae,Dobe ulua,3,6
+2012,3,Oahu,C,PHCRT,Carangidae,Dobe ulua,8,6709
+2013,3,Oahu,C,PHCRT,Carangidae,Dobe ulua,10,1130
+2014,3,Oahu,C,PHCRT,Carangidae,Dobe ulua,11,3519
+2015,3,Oahu,C,PHCRT,Carangidae,Dobe ulua,7,814
+2016,3,Oahu,C,PHCRT,Carangidae,Dobe ulua,3,312
+2012,1,Hawaii,C,CHCRT,Carangidae,Hahalalu,6,278
+2014,1,Hawaii,C,CHCRT,Carangidae,Hahalalu,3,55
+2015,1,Hawaii,C,CHCRT,Carangidae,Hahalalu,12,244
+2016,1,Hawaii,C,CHCRT,Carangidae,Hahalalu,10,534
+2012,3,Oahu,C,CHCRT,Carangidae,Hahalalu,32,9652
+2013,3,Oahu,C,CHCRT,Carangidae,Hahalalu,30,20957
+2014,3,Oahu,C,CHCRT,Carangidae,Hahalalu,28,37057
+2015,3,Oahu,C,CHCRT,Carangidae,Hahalalu,16,6474
+2016,3,Oahu,C,CHCRT,Carangidae,Hahalalu,17,13524
+2012,4,Kauai County,C,CHCRT,Carangidae,Hahalalu,5,278
+2013,4,Kauai County,C,CHCRT,Carangidae,Hahalalu,4,104
+2014,4,Kauai County,C,CHCRT,Carangidae,Hahalalu,5,192
+2015,4,Kauai County,C,CHCRT,Carangidae,Hahalalu,5,144
+2012,2,Maui County,C,CHCRT,Carangidae,Kagami ulua,7,252
+2013,2,Maui County,C,CHCRT,Carangidae,Kagami ulua,5,57
+2014,2,Maui County,C,CHCRT,Carangidae,Kagami ulua,5,61
+2015,2,Maui County,C,CHCRT,Carangidae,Kagami ulua,3,41
+2012,3,Oahu,C,CHCRT,Carangidae,Kagami ulua,6,89
+2013,3,Oahu,C,CHCRT,Carangidae,Kagami ulua,4,18
+2014,3,Oahu,C,CHCRT,Carangidae,Kagami ulua,8,74
+2015,3,Oahu,C,CHCRT,Carangidae,Kagami ulua,7,98
+2016,3,Oahu,C,CHCRT,Carangidae,Kagami ulua,6,34
+2012,4,Kauai County,C,CHCRT,Carangidae,Kagami ulua,6,174
+2016,4,Kauai County,C,CHCRT,Carangidae,Kagami ulua,6,205
+2012,1,Hawaii,C,PHCRT,Carangidae,Kamanu,56,2416
+2013,1,Hawaii,C,PHCRT,Carangidae,Kamanu,52,1473
+2014,1,Hawaii,C,PHCRT,Carangidae,Kamanu,70,2932
+2015,1,Hawaii,C,PHCRT,Carangidae,Kamanu,64,1484
+2016,1,Hawaii,C,PHCRT,Carangidae,Kamanu,64,2189
+2012,2,Maui County,C,PHCRT,Carangidae,Kamanu,14,524
+2013,2,Maui County,C,PHCRT,Carangidae,Kamanu,17,599
+2014,2,Maui County,C,PHCRT,Carangidae,Kamanu,31,1059
+2015,2,Maui County,C,PHCRT,Carangidae,Kamanu,35,1441
+2016,2,Maui County,C,PHCRT,Carangidae,Kamanu,31,1781
+2012,2,Penguin Bank,C,PHCRT,Carangidae,Kamanu,5,82
+2013,2,Penguin Bank,C,PHCRT,Carangidae,Kamanu,5,143
+2014,2,Penguin Bank,C,PHCRT,Carangidae,Kamanu,8,56
+2015,2,Penguin Bank,C,PHCRT,Carangidae,Kamanu,13,221
+2016,2,Penguin Bank,C,PHCRT,Carangidae,Kamanu,14,273
+2012,3,Oahu,C,PHCRT,Carangidae,Kamanu,7,201
+2013,3,Oahu,C,PHCRT,Carangidae,Kamanu,9,110
+2014,3,Oahu,C,PHCRT,Carangidae,Kamanu,14,159
+2015,3,Oahu,C,PHCRT,Carangidae,Kamanu,11,125
+2016,3,Oahu,C,PHCRT,Carangidae,Kamanu,19,167
+2012,4,Kauai County,C,PHCRT,Carangidae,Kamanu,10,570
+2013,4,Kauai County,C,PHCRT,Carangidae,Kamanu,12,917
+2014,4,Kauai County,C,PHCRT,Carangidae,Kamanu,18,909
+2015,4,Kauai County,C,PHCRT,Carangidae,Kamanu,14,963
+2016,4,Kauai County,C,PHCRT,Carangidae,Kamanu,16,982
+2012,1,Hawaii,C,PHCRT,Carangidae,Lae,4,4
+2013,1,Hawaii,C,PHCRT,Carangidae,Lae,3,6
+2014,1,Hawaii,C,PHCRT,Carangidae,Lae,3,5
+2015,1,Hawaii,C,PHCRT,Carangidae,Lae,4,10
+2012,2,Maui County,C,PHCRT,Carangidae,Lae,3,8
+2013,2,Maui County,C,PHCRT,Carangidae,Lae,7,14
+2015,2,Maui County,C,PHCRT,Carangidae,Lae,4,4
+2012,3,Oahu,C,PHCRT,Carangidae,Lae,20,429
+2013,3,Oahu,C,PHCRT,Carangidae,Lae,23,358
+2014,3,Oahu,C,PHCRT,Carangidae,Lae,28,235
+2015,3,Oahu,C,PHCRT,Carangidae,Lae,16,118
+2016,3,Oahu,C,PHCRT,Carangidae,Lae,5,80
+2012,3,Oahu,C,PHCRT,Carangidae,Omaka,5,28
+2012,1,Hawaii,C,PHCRT,Carangidae,Omilu,16,1268
+2013,1,Hawaii,C,PHCRT,Carangidae,Omilu,16,557
+2014,1,Hawaii,C,PHCRT,Carangidae,Omilu,19,420
+2015,1,Hawaii,C,PHCRT,Carangidae,Omilu,15,609
+2016,1,Hawaii,C,PHCRT,Carangidae,Omilu,16,490
+2012,2,Maui County,C,PHCRT,Carangidae,Omilu,28,1794
+2013,2,Maui County,C,PHCRT,Carangidae,Omilu,37,1124
+2014,2,Maui County,C,PHCRT,Carangidae,Omilu,29,1190
+2015,2,Maui County,C,PHCRT,Carangidae,Omilu,33,1630
+2016,2,Maui County,C,PHCRT,Carangidae,Omilu,29,1463
+2012,2,Penguin Bank,C,PHCRT,Carangidae,Omilu,8,664
+2013,2,Penguin Bank,C,PHCRT,Carangidae,Omilu,9,513
+2014,2,Penguin Bank,C,PHCRT,Carangidae,Omilu,10,312
+2015,2,Penguin Bank,C,PHCRT,Carangidae,Omilu,9,255
+2016,2,Penguin Bank,C,PHCRT,Carangidae,Omilu,16,495
+2012,3,Oahu,C,PHCRT,Carangidae,Omilu,57,2113
+2013,3,Oahu,C,PHCRT,Carangidae,Omilu,41,1611
+2014,3,Oahu,C,PHCRT,Carangidae,Omilu,50,3573
+2015,3,Oahu,C,PHCRT,Carangidae,Omilu,44,1601
+2016,3,Oahu,C,PHCRT,Carangidae,Omilu,36,1172
+2012,4,Kauai County,C,PHCRT,Carangidae,Omilu,25,2423
+2013,4,Kauai County,C,PHCRT,Carangidae,Omilu,20,2546
+2014,4,Kauai County,C,PHCRT,Carangidae,Omilu,26,2093
+2015,4,Kauai County,C,PHCRT,Carangidae,Omilu,20,2138
+2016,4,Kauai County,C,PHCRT,Carangidae,Omilu,20,2175
+2012,1,Hawaii,C,CHCRT,Carangidae,Opelu,83,153202
+2013,1,Hawaii,C,CHCRT,Carangidae,Opelu,77,131477
+2014,1,Hawaii,C,CHCRT,Carangidae,Opelu,76,152367
+2015,1,Hawaii,C,CHCRT,Carangidae,Opelu,61,156360
+2016,1,Hawaii,C,CHCRT,Carangidae,Opelu,57,103566
+2012,2,Maui County,C,CHCRT,Carangidae,Opelu,39,16140
+2013,2,Maui County,C,CHCRT,Carangidae,Opelu,54,21701
+2014,2,Maui County,C,CHCRT,Carangidae,Opelu,43,18623
+2015,2,Maui County,C,CHCRT,Carangidae,Opelu,30,8340
+2016,2,Maui County,C,CHCRT,Carangidae,Opelu,21,6845
+2012,3,Oahu,C,CHCRT,Carangidae,Opelu,82,65136
+2013,3,Oahu,C,CHCRT,Carangidae,Opelu,84,76620
+2014,3,Oahu,C,CHCRT,Carangidae,Opelu,73,60422
+2015,3,Oahu,C,CHCRT,Carangidae,Opelu,50,61774
+2016,3,Oahu,C,CHCRT,Carangidae,Opelu,29,32071
+2012,4,Kauai County,C,CHCRT,Carangidae,Opelu,32,12550
+2013,4,Kauai County,C,CHCRT,Carangidae,Opelu,33,14508
+2014,4,Kauai County,C,CHCRT,Carangidae,Opelu,36,11851
+2015,4,Kauai County,C,CHCRT,Carangidae,Opelu,26,5768
+2016,4,Kauai County,C,CHCRT,Carangidae,Opelu,20,8801
+2014,2,Penguin Bank,C,CHCRT,Carangidae,Opelu,5,268
+2015,2,Penguin Bank,C,CHCRT,Carangidae,Opelu,4,110
+2016,2,Penguin Bank,C,CHCRT,Carangidae,Opelu,3,20
+2013,1,Hawaii,C,PHCRT,Carangidae,Opelu mama,3,42
+2014,1,Hawaii,C,PHCRT,Carangidae,Opelu mama,5,37
+2012,3,Oahu,C,PHCRT,Carangidae,Paopao ulua,5,864
+2013,3,Oahu,C,PHCRT,Carangidae,Paopao ulua,6,941
+2014,3,Oahu,C,PHCRT,Carangidae,Paopao ulua,5,187
+2016,3,Oahu,C,PHCRT,Carangidae,Paopao ulua,4,108
+2012,1,Hawaii,C,PHCRT,Carangidae,Papa ulua,8,32
+2013,1,Hawaii,C,PHCRT,Carangidae,Papa ulua,10,152
+2014,1,Hawaii,C,PHCRT,Carangidae,Papa ulua,7,137
+2015,1,Hawaii,C,PHCRT,Carangidae,Papa ulua,8,60
+2016,1,Hawaii,C,PHCRT,Carangidae,Papa ulua,8,222
+2012,2,Maui County,C,PHCRT,Carangidae,Papa ulua,29,10354
+2013,2,Maui County,C,PHCRT,Carangidae,Papa ulua,26,5137
+2014,2,Maui County,C,PHCRT,Carangidae,Papa ulua,32,5391
+2015,2,Maui County,C,PHCRT,Carangidae,Papa ulua,34,7049
+2016,2,Maui County,C,PHCRT,Carangidae,Papa ulua,29,7379
+2012,2,Penguin Bank,C,PHCRT,Carangidae,Papa ulua,10,225
+2013,2,Penguin Bank,C,PHCRT,Carangidae,Papa ulua,19,400
+2014,2,Penguin Bank,C,PHCRT,Carangidae,Papa ulua,17,625
+2015,2,Penguin Bank,C,PHCRT,Carangidae,Papa ulua,13,591
+2016,2,Penguin Bank,C,PHCRT,Carangidae,Papa ulua,15,915
+2012,3,Oahu,C,PHCRT,Carangidae,Papa ulua,26,441
+2013,3,Oahu,C,PHCRT,Carangidae,Papa ulua,24,452
+2014,3,Oahu,C,PHCRT,Carangidae,Papa ulua,37,976
+2015,3,Oahu,C,PHCRT,Carangidae,Papa ulua,26,493
+2016,3,Oahu,C,PHCRT,Carangidae,Papa ulua,22,427
+2012,4,Kauai County,C,PHCRT,Carangidae,Papa ulua,11,302
+2013,4,Kauai County,C,PHCRT,Carangidae,Papa ulua,4,207
+2014,4,Kauai County,C,PHCRT,Carangidae,Papa ulua,11,567
+2015,4,Kauai County,C,PHCRT,Carangidae,Papa ulua,7,150
+2016,4,Kauai County,C,PHCRT,Carangidae,Papa ulua,7,160
+2012,1,Hawaii,C,PHCRT,Carangidae,Sasa ulua,3,58
+2013,1,Hawaii,C,PHCRT,Carangidae,Sasa ulua,4,158
+2015,1,Hawaii,C,PHCRT,Carangidae,Sasa ulua,3,268
+2013,2,Maui County,C,PHCRT,Carangidae,Sasa ulua,3,64
+2012,2,Penguin Bank,C,PHCRT,Carangidae,Sasa ulua,3,224
+2016,2,Penguin Bank,C,PHCRT,Carangidae,Sasa ulua,5,380
+2012,3,Oahu,C,PHCRT,Carangidae,Sasa ulua,11,387
+2013,3,Oahu,C,PHCRT,Carangidae,Sasa ulua,8,191
+2014,3,Oahu,C,PHCRT,Carangidae,Sasa ulua,4,70
+2015,3,Oahu,C,PHCRT,Carangidae,Sasa ulua,6,40
+2016,3,Oahu,C,PHCRT,Carangidae,Sasa ulua,4,34
+2014,4,Kauai County,C,PHCRT,Carangidae,Sasa ulua,3,89
+2014,1,Hawaii,C,PHCRT,Carangidae,Ulua-misc.,6,105
+2015,1,Hawaii,C,PHCRT,Carangidae,Ulua-misc.,9,237
+2014,2,Maui County,C,PHCRT,Carangidae,Ulua-misc.,19,812
+2015,2,Maui County,C,PHCRT,Carangidae,Ulua-misc.,30,1343
+2016,2,Maui County,C,PHCRT,Carangidae,Ulua-misc.,5,114
+2014,2,Penguin Bank,C,PHCRT,Carangidae,Ulua-misc.,8,417
+2015,2,Penguin Bank,C,PHCRT,Carangidae,Ulua-misc.,8,286
+2014,3,Oahu,C,PHCRT,Carangidae,Ulua-misc.,24,682
+2015,3,Oahu,C,PHCRT,Carangidae,Ulua-misc.,24,699
+2016,3,Oahu,C,PHCRT,Carangidae,Ulua-misc.,4,21
+2014,4,Kauai County,C,PHCRT,Carangidae,Ulua-misc.,12,348
+2015,4,Kauai County,C,PHCRT,Carangidae,Ulua-misc.,5,189
+2012,1,Hawaii,C,CHCRT,Carcharhinidae,Shark-misc.,13,304
+2013,1,Hawaii,C,CHCRT,Carcharhinidae,Shark-misc.,12,210
+2014,1,Hawaii,C,CHCRT,Carcharhinidae,Shark-misc.,6,103
+2015,1,Hawaii,C,CHCRT,Carcharhinidae,Shark-misc.,6,0
+2016,1,Hawaii,C,CHCRT,Carcharhinidae,Shark-misc.,6,249
+2012,2,Maui County,C,CHCRT,Carcharhinidae,Shark-misc.,7,10
+2013,2,Maui County,C,CHCRT,Carcharhinidae,Shark-misc.,10,0
+2014,2,Maui County,C,CHCRT,Carcharhinidae,Shark-misc.,9,0
+2015,2,Maui County,C,CHCRT,Carcharhinidae,Shark-misc.,10,300
+2016,2,Maui County,C,CHCRT,Carcharhinidae,Shark-misc.,6,580
+2012,3,Oahu,C,CHCRT,Carcharhinidae,Shark-misc.,12,2552
+2013,3,Oahu,C,CHCRT,Carcharhinidae,Shark-misc.,8,1369
+2014,3,Oahu,C,CHCRT,Carcharhinidae,Shark-misc.,7,1348
+2015,3,Oahu,C,CHCRT,Carcharhinidae,Shark-misc.,3,2069
+2016,3,Oahu,C,CHCRT,Carcharhinidae,Shark-misc.,6,2115
+2012,4,Kauai County,C,CHCRT,Carcharhinidae,Shark-misc.,4,4
+2014,4,Kauai County,C,CHCRT,Carcharhinidae,Shark-misc.,4,95
+2015,4,Kauai County,C,CHCRT,Carcharhinidae,Shark-misc.,4,40
+2016,4,Kauai County,C,CHCRT,Carcharhinidae,Shark-misc.,3,5
+2012,2,Penguin Bank,C,CHCRT,Carcharhinidae,Shark-misc.,4,24
+2013,2,Penguin Bank,C,CHCRT,Carcharhinidae,Shark-misc.,11,53
+2014,2,Penguin Bank,C,CHCRT,Carcharhinidae,Shark-misc.,6,0
+2015,2,Penguin Bank,C,CHCRT,Carcharhinidae,Shark-misc.,3,0
+2016,2,Penguin Bank,C,CHCRT,Carcharhinidae,Shark-misc.,5,300
+2012,2,Maui County,R,PHCRT,Chanidae,Awa,4,62
+2012,3,Oahu,R,PHCRT,Chanidae,Awa,8,2165
+2013,3,Oahu,R,PHCRT,Chanidae,Awa,9,667
+2014,3,Oahu,R,PHCRT,Chanidae,Awa,12,1518
+2015,3,Oahu,R,PHCRT,Chanidae,Awa,10,2068
+2016,3,Oahu,R,PHCRT,Chanidae,Awa,6,397
+2012,3,Oahu,R,PHCRT,Cichlidae,Tilapia,3,1793
+2012,1,Hawaii,R,PHCRT,Cirrhitidae,Poopaa,12,30
+2013,1,Hawaii,R,PHCRT,Cirrhitidae,Poopaa,9,21
+2014,1,Hawaii,R,PHCRT,Cirrhitidae,Poopaa,11,28
+2015,1,Hawaii,R,PHCRT,Cirrhitidae,Poopaa,6,16
+2016,1,Hawaii,R,PHCRT,Cirrhitidae,Poopaa,7,20
+2012,2,Maui County,R,PHCRT,Cirrhitidae,Poopaa,6,278
+2013,2,Maui County,R,PHCRT,Cirrhitidae,Poopaa,3,97
+2014,2,Maui County,R,PHCRT,Cirrhitidae,Poopaa,4,86
+2015,2,Maui County,R,PHCRT,Cirrhitidae,Poopaa,3,69
+2016,2,Maui County,R,PHCRT,Cirrhitidae,Poopaa,3,123
+2012,3,Oahu,R,PHCRT,Cirrhitidae,Poopaa,26,430
+2013,3,Oahu,R,PHCRT,Cirrhitidae,Poopaa,33,1377
+2014,3,Oahu,R,PHCRT,Cirrhitidae,Poopaa,15,614
+2015,3,Oahu,R,PHCRT,Cirrhitidae,Poopaa,13,68
+2016,3,Oahu,R,PHCRT,Cirrhitidae,Poopaa,11,578
+2012,3,Oahu,R,PHCRT,Congridae,Puhi white,5,242
+2013,3,Oahu,R,PHCRT,Congridae,Puhi white,3,293
+2014,3,Oahu,R,PHCRT,Congridae,Puhi white,3,367
+2015,3,Oahu,R,PHCRT,Congridae,Puhi white,4,155
+2012,3,Oahu,R,PHCRT,Diodontidae,Oopuhue,5,1054
+2012,3,Oahu,R,PHCRT,Elopidae,Awaawa,18,1509
+2013,3,Oahu,R,PHCRT,Elopidae,Awaawa,16,1231
+2014,3,Oahu,R,PHCRT,Elopidae,Awaawa,15,689
+2015,3,Oahu,R,PHCRT,Elopidae,Awaawa,10,374
+2016,3,Oahu,R,PHCRT,Elopidae,Awaawa,5,336
+2012,1,Hawaii,R,PHCRT,Emmelichthyidae,Golden kali,13,92
+2013,1,Hawaii,R,PHCRT,Emmelichthyidae,Golden kali,19,159
+2014,1,Hawaii,R,PHCRT,Emmelichthyidae,Golden kali,10,101
+2015,1,Hawaii,R,PHCRT,Emmelichthyidae,Golden kali,8,40
+2016,1,Hawaii,R,PHCRT,Emmelichthyidae,Golden kali,7,23
+2012,2,Maui County,R,PHCRT,Emmelichthyidae,Golden kali,10,53
+2013,2,Maui County,R,PHCRT,Emmelichthyidae,Golden kali,5,66
+2014,2,Maui County,R,PHCRT,Emmelichthyidae,Golden kali,4,29
+2015,2,Maui County,R,PHCRT,Emmelichthyidae,Golden kali,4,27
+2016,2,Maui County,R,PHCRT,Emmelichthyidae,Golden kali,5,24
+2012,2,Penguin Bank,R,PHCRT,Emmelichthyidae,Golden kali,17,67
+2013,2,Penguin Bank,R,PHCRT,Emmelichthyidae,Golden kali,16,107
+2014,2,Penguin Bank,R,PHCRT,Emmelichthyidae,Golden kali,12,63
+2015,2,Penguin Bank,R,PHCRT,Emmelichthyidae,Golden kali,10,88
+2016,2,Penguin Bank,R,PHCRT,Emmelichthyidae,Golden kali,8,52
+2012,3,Oahu,R,PHCRT,Emmelichthyidae,Golden kali,5,16
+2013,3,Oahu,R,PHCRT,Emmelichthyidae,Golden kali,9,39
+2014,3,Oahu,R,PHCRT,Emmelichthyidae,Golden kali,6,27
+2015,3,Oahu,R,PHCRT,Emmelichthyidae,Golden kali,9,48
+2016,3,Oahu,R,PHCRT,Emmelichthyidae,Golden kali,4,18
+2012,4,Kauai County,R,PHCRT,Emmelichthyidae,Golden kali,7,26
+2013,4,Kauai County,R,PHCRT,Emmelichthyidae,Golden kali,7,38
+2014,4,Kauai County,R,PHCRT,Emmelichthyidae,Golden kali,4,22
+2015,4,Kauai County,R,PHCRT,Emmelichthyidae,Golden kali,3,21
+2016,4,Kauai County,R,PHCRT,Emmelichthyidae,Golden kali,4,36
+2013,1,Hawaii,R,PHCRT,Gempylidae,Hauliuli,3,11
+2012,3,Oahu,R,PHCRT,Hemiramphidae,Iheihe,3,87
+2014,3,Oahu,R,PHCRT,Hemiramphidae,Iheihe,3,142
+2012,1,Hawaii,R,CHCRT,Holocentridae,Alaihe,18,218
+2013,1,Hawaii,R,CHCRT,Holocentridae,Alaihe,26,375
+2014,1,Hawaii,R,CHCRT,Holocentridae,Alaihe,22,231
+2015,1,Hawaii,R,CHCRT,Holocentridae,Alaihe,19,133
+2016,1,Hawaii,R,CHCRT,Holocentridae,Alaihe,14,88
+2012,2,Maui County,R,CHCRT,Holocentridae,Alaihe,6,43
+2015,2,Maui County,R,CHCRT,Holocentridae,Alaihe,4,10
+2012,3,Oahu,R,CHCRT,Holocentridae,Alaihe,21,390
+2013,3,Oahu,R,CHCRT,Holocentridae,Alaihe,25,368
+2014,3,Oahu,R,CHCRT,Holocentridae,Alaihe,17,246
+2015,3,Oahu,R,CHCRT,Holocentridae,Alaihe,5,74
+2016,3,Oahu,R,CHCRT,Holocentridae,Alaihe,5,27
+2012,1,Hawaii,R,CHCRT,Holocentridae,Alaihe mama,8,67
+2013,1,Hawaii,R,CHCRT,Holocentridae,Alaihe mama,7,45
+2014,1,Hawaii,R,CHCRT,Holocentridae,Alaihe mama,5,9
+2015,1,Hawaii,R,CHCRT,Holocentridae,Alaihe mama,5,47
+2016,1,Hawaii,R,CHCRT,Holocentridae,Alaihe mama,4,10
+2012,2,Maui County,R,CHCRT,Holocentridae,Alaihe mama,3,10
+2012,1,Hawaii,R,CHCRT,Holocentridae,Menpachi,102,23716
+2013,1,Hawaii,R,CHCRT,Holocentridae,Menpachi,90,23791
+2014,1,Hawaii,R,CHCRT,Holocentridae,Menpachi,78,16328
+2015,1,Hawaii,R,CHCRT,Holocentridae,Menpachi,72,14559
+2016,1,Hawaii,R,CHCRT,Holocentridae,Menpachi,66,15584
+2012,2,Maui County,R,CHCRT,Holocentridae,Menpachi,39,5804
+2013,2,Maui County,R,CHCRT,Holocentridae,Menpachi,24,3587
+2014,2,Maui County,R,CHCRT,Holocentridae,Menpachi,30,4383
+2015,2,Maui County,R,CHCRT,Holocentridae,Menpachi,29,4542
+2016,2,Maui County,R,CHCRT,Holocentridae,Menpachi,25,5280
+2012,3,Oahu,R,CHCRT,Holocentridae,Menpachi,85,13763
+2013,3,Oahu,R,CHCRT,Holocentridae,Menpachi,84,16521
+2014,3,Oahu,R,CHCRT,Holocentridae,Menpachi,88,12475
+2015,3,Oahu,R,CHCRT,Holocentridae,Menpachi,72,12904
+2016,3,Oahu,R,CHCRT,Holocentridae,Menpachi,59,13679
+2012,4,Kauai County,R,CHCRT,Holocentridae,Menpachi,38,9984
+2013,4,Kauai County,R,CHCRT,Holocentridae,Menpachi,38,13895
+2014,4,Kauai County,R,CHCRT,Holocentridae,Menpachi,27,19804
+2015,4,Kauai County,R,CHCRT,Holocentridae,Menpachi,32,11872
+2016,4,Kauai County,R,CHCRT,Holocentridae,Menpachi,30,14140
+2012,2,Penguin Bank,R,CHCRT,Holocentridae,Menpachi,7,44
+2013,2,Penguin Bank,R,CHCRT,Holocentridae,Menpachi,8,20
+2014,2,Penguin Bank,R,CHCRT,Holocentridae,Menpachi,10,45
+2015,2,Penguin Bank,R,CHCRT,Holocentridae,Menpachi,4,5
+2016,2,Penguin Bank,R,CHCRT,Holocentridae,Menpachi,7,30
+2012,1,Hawaii,R,CHCRT,Kuhliidae,Aholehole,15,591
+2013,1,Hawaii,R,CHCRT,Kuhliidae,Aholehole,17,721
+2014,1,Hawaii,R,CHCRT,Kuhliidae,Aholehole,14,807
+2015,1,Hawaii,R,CHCRT,Kuhliidae,Aholehole,16,613
+2016,1,Hawaii,R,CHCRT,Kuhliidae,Aholehole,13,690
+2012,2,Maui County,R,CHCRT,Kuhliidae,Aholehole,7,287
+2013,2,Maui County,R,CHCRT,Kuhliidae,Aholehole,6,47
+2014,2,Maui County,R,CHCRT,Kuhliidae,Aholehole,5,105
+2015,2,Maui County,R,CHCRT,Kuhliidae,Aholehole,4,55
+2016,2,Maui County,R,CHCRT,Kuhliidae,Aholehole,6,220
+2012,3,Oahu,R,CHCRT,Kuhliidae,Aholehole,19,728
+2013,3,Oahu,R,CHCRT,Kuhliidae,Aholehole,19,1245
+2014,3,Oahu,R,CHCRT,Kuhliidae,Aholehole,19,554
+2015,3,Oahu,R,CHCRT,Kuhliidae,Aholehole,17,3748
+2016,3,Oahu,R,CHCRT,Kuhliidae,Aholehole,15,760
+2012,4,Kauai County,R,CHCRT,Kuhliidae,Aholehole,5,217
+2013,4,Kauai County,R,CHCRT,Kuhliidae,Aholehole,3,271
+2014,4,Kauai County,R,CHCRT,Kuhliidae,Aholehole,3,229
+2015,4,Kauai County,R,CHCRT,Kuhliidae,Aholehole,4,273
+2012,1,Hawaii,R,CHCRT,Kyphosidae,Nenue,35,845
+2013,1,Hawaii,R,CHCRT,Kyphosidae,Nenue,24,968
+2014,1,Hawaii,R,CHCRT,Kyphosidae,Nenue,28,1097
+2015,1,Hawaii,R,CHCRT,Kyphosidae,Nenue,18,594
+2016,1,Hawaii,R,CHCRT,Kyphosidae,Nenue,18,655
+2012,2,Maui County,R,CHCRT,Kyphosidae,Nenue,18,7960
+2013,2,Maui County,R,CHCRT,Kyphosidae,Nenue,13,5138
+2014,2,Maui County,R,CHCRT,Kyphosidae,Nenue,20,6224
+2015,2,Maui County,R,CHCRT,Kyphosidae,Nenue,19,5806
+2016,2,Maui County,R,CHCRT,Kyphosidae,Nenue,13,3511
+2012,3,Oahu,R,CHCRT,Kyphosidae,Nenue,36,22331
+2013,3,Oahu,R,CHCRT,Kyphosidae,Nenue,39,21214
+2014,3,Oahu,R,CHCRT,Kyphosidae,Nenue,30,9262
+2015,3,Oahu,R,CHCRT,Kyphosidae,Nenue,17,10977
+2016,3,Oahu,R,CHCRT,Kyphosidae,Nenue,21,5584
+2012,4,Kauai County,R,CHCRT,Kyphosidae,Nenue,5,99
+2014,4,Kauai County,R,CHCRT,Kyphosidae,Nenue,7,54
+2015,4,Kauai County,R,CHCRT,Kyphosidae,Nenue,3,72
+2016,4,Kauai County,R,CHCRT,Kyphosidae,Nenue,3,27
+2012,1,Hawaii,R,CHCRT,Labridae,Aawa,59,2448
+2013,1,Hawaii,R,CHCRT,Labridae,Aawa,58,1920
+2014,1,Hawaii,R,CHCRT,Labridae,Aawa,44,1359
+2015,1,Hawaii,R,CHCRT,Labridae,Aawa,34,1024
+2016,1,Hawaii,R,CHCRT,Labridae,Aawa,45,1902
+2012,2,Maui County,R,CHCRT,Labridae,Aawa,23,141
+2013,2,Maui County,R,CHCRT,Labridae,Aawa,12,94
+2014,2,Maui County,R,CHCRT,Labridae,Aawa,10,172
+2015,2,Maui County,R,CHCRT,Labridae,Aawa,10,99
+2016,2,Maui County,R,CHCRT,Labridae,Aawa,10,98
+2012,3,Oahu,R,CHCRT,Labridae,Aawa,41,1701
+2013,3,Oahu,R,CHCRT,Labridae,Aawa,45,1465
+2014,3,Oahu,R,CHCRT,Labridae,Aawa,49,1594
+2015,3,Oahu,R,CHCRT,Labridae,Aawa,39,1160
+2016,3,Oahu,R,CHCRT,Labridae,Aawa,30,1260
+2012,4,Kauai County,R,CHCRT,Labridae,Aawa,13,435
+2013,4,Kauai County,R,CHCRT,Labridae,Aawa,12,140
+2014,4,Kauai County,R,CHCRT,Labridae,Aawa,9,409
+2015,4,Kauai County,R,CHCRT,Labridae,Aawa,5,247
+2016,4,Kauai County,R,CHCRT,Labridae,Aawa,10,44
+2012,2,Penguin Bank,R,CHCRT,Labridae,Aawa,6,40
+2013,2,Penguin Bank,R,CHCRT,Labridae,Aawa,3,15
+2014,2,Penguin Bank,R,CHCRT,Labridae,Aawa,4,11
+2015,2,Penguin Bank,R,CHCRT,Labridae,Aawa,4,24
+2016,2,Penguin Bank,R,CHCRT,Labridae,Aawa,5,47
+2012,1,Hawaii,R,PHCRT,Labridae,Ea (wrasse),5,41
+2013,1,Hawaii,R,PHCRT,Labridae,Ea (wrasse),6,30
+2015,1,Hawaii,R,PHCRT,Labridae,Ea (wrasse),3,76
+2012,2,Maui County,R,PHCRT,Labridae,Ea (wrasse),10,128
+2013,2,Maui County,R,PHCRT,Labridae,Ea (wrasse),8,115
+2014,2,Maui County,R,PHCRT,Labridae,Ea (wrasse),7,113
+2015,2,Maui County,R,PHCRT,Labridae,Ea (wrasse),5,23
+2016,2,Maui County,R,PHCRT,Labridae,Ea (wrasse),4,26
+2012,3,Oahu,R,PHCRT,Labridae,Ea (wrasse),8,142
+2013,3,Oahu,R,PHCRT,Labridae,Ea (wrasse),4,18
+2015,3,Oahu,R,PHCRT,Labridae,Ea (wrasse),5,42
+2016,3,Oahu,R,PHCRT,Labridae,Ea (wrasse),3,3
+2012,3,Oahu,R,PHCRT,Labridae,Hinalea,9,36
+2013,3,Oahu,R,PHCRT,Labridae,Hinalea,13,46
+2014,3,Oahu,R,PHCRT,Labridae,Hinalea,6,25
+2015,3,Oahu,R,PHCRT,Labridae,Hinalea,4,21
+2016,3,Oahu,R,PHCRT,Labridae,Hinalea,3,1
+2012,3,Oahu,R,CHCRT,Labridae,Kupoupou,5,17
+2013,3,Oahu,R,CHCRT,Labridae,Kupoupou,6,12
+2014,3,Oahu,R,CHCRT,Labridae,Kupoupou,5,10
+2015,3,Oahu,R,CHCRT,Labridae,Kupoupou,3,6
+2012,1,Hawaii,R,CHCRT,Labridae,Laenihi,36,873
+2013,1,Hawaii,R,CHCRT,Labridae,Laenihi,37,791
+2014,1,Hawaii,R,CHCRT,Labridae,Laenihi,22,1041
+2015,1,Hawaii,R,CHCRT,Labridae,Laenihi,25,643
+2016,1,Hawaii,R,CHCRT,Labridae,Laenihi,26,832
+2012,2,Maui County,R,CHCRT,Labridae,Laenihi,29,1197
+2013,2,Maui County,R,CHCRT,Labridae,Laenihi,30,1616
+2014,2,Maui County,R,CHCRT,Labridae,Laenihi,23,1794
+2015,2,Maui County,R,CHCRT,Labridae,Laenihi,25,2399
+2016,2,Maui County,R,CHCRT,Labridae,Laenihi,23,1814
+2012,3,Oahu,R,CHCRT,Labridae,Laenihi,22,578
+2013,3,Oahu,R,CHCRT,Labridae,Laenihi,16,256
+2014,3,Oahu,R,CHCRT,Labridae,Laenihi,21,581
+2015,3,Oahu,R,CHCRT,Labridae,Laenihi,20,226
+2016,3,Oahu,R,CHCRT,Labridae,Laenihi,17,628
+2012,4,Kauai County,R,CHCRT,Labridae,Laenihi,5,35
+2013,4,Kauai County,R,CHCRT,Labridae,Laenihi,4,10
+2014,2,Penguin Bank,R,CHCRT,Labridae,Laenihi,4,41
+2015,2,Penguin Bank,R,CHCRT,Labridae,Laenihi,4,267
+2016,2,Penguin Bank,R,CHCRT,Labridae,Laenihi,6,307
+2012,1,Hawaii,R,CHCRT,Labridae,Poou,3,20
+2016,2,Maui County,R,CHCRT,Labridae,Poou,3,23
+2012,1,Hawaii,R,PHCRT,Lethrinidae,Mu,13,1946
+2013,1,Hawaii,R,PHCRT,Lethrinidae,Mu,11,1753
+2014,1,Hawaii,R,PHCRT,Lethrinidae,Mu,14,171
+2015,1,Hawaii,R,PHCRT,Lethrinidae,Mu,11,275
+2016,1,Hawaii,R,PHCRT,Lethrinidae,Mu,14,275
+2012,2,Maui County,R,PHCRT,Lethrinidae,Mu,7,115
+2013,2,Maui County,R,PHCRT,Lethrinidae,Mu,4,181
+2014,2,Maui County,R,PHCRT,Lethrinidae,Mu,3,28
+2015,2,Maui County,R,PHCRT,Lethrinidae,Mu,3,71
+2016,2,Maui County,R,PHCRT,Lethrinidae,Mu,5,97
+2012,3,Oahu,R,PHCRT,Lethrinidae,Mu,20,3539
+2013,3,Oahu,R,PHCRT,Lethrinidae,Mu,30,3699
+2014,3,Oahu,R,PHCRT,Lethrinidae,Mu,28,3101
+2015,3,Oahu,R,PHCRT,Lethrinidae,Mu,27,1497
+2016,3,Oahu,R,PHCRT,Lethrinidae,Mu,22,1356
+2012,4,Kauai County,R,PHCRT,Lethrinidae,Mu,4,164
+2015,4,Kauai County,R,PHCRT,Lethrinidae,Mu,3,230
+2016,4,Kauai County,R,PHCRT,Lethrinidae,Mu,3,381
+2013,1,Hawaii,R,PHCRT,Lutjanidae,Randall's snapper,4,51
+2015,1,Hawaii,R,PHCRT,Lutjanidae,Randall's snapper,3,72
+2012,1,Hawaii,R,PHCRT,Lutjanidae,Toau,49,875
+2013,1,Hawaii,R,PHCRT,Lutjanidae,Toau,43,414
+2014,1,Hawaii,R,PHCRT,Lutjanidae,Toau,34,233
+2015,1,Hawaii,R,PHCRT,Lutjanidae,Toau,35,290
+2016,1,Hawaii,R,PHCRT,Lutjanidae,Toau,39,376
+2012,2,Maui County,R,PHCRT,Lutjanidae,Toau,14,1844
+2013,2,Maui County,R,PHCRT,Lutjanidae,Toau,8,147
+2014,2,Maui County,R,PHCRT,Lutjanidae,Toau,10,42
+2015,2,Maui County,R,PHCRT,Lutjanidae,Toau,9,1125
+2016,2,Maui County,R,PHCRT,Lutjanidae,Toau,16,425
+2012,3,Oahu,R,PHCRT,Lutjanidae,Toau,49,3315
+2013,3,Oahu,R,PHCRT,Lutjanidae,Toau,67,3392
+2014,3,Oahu,R,PHCRT,Lutjanidae,Toau,60,4588
+2015,3,Oahu,R,PHCRT,Lutjanidae,Toau,51,1601
+2016,3,Oahu,R,PHCRT,Lutjanidae,Toau,44,1670
+2012,4,Kauai County,R,PHCRT,Lutjanidae,Toau,14,99
+2013,4,Kauai County,R,PHCRT,Lutjanidae,Toau,12,122
+2014,4,Kauai County,R,PHCRT,Lutjanidae,Toau,9,418
+2015,4,Kauai County,R,PHCRT,Lutjanidae,Toau,7,113
+2016,4,Kauai County,R,PHCRT,Lutjanidae,Toau,9,126
+2012,1,Hawaii,R,PHCRT,Lutjanidae,Wahanui,4,21
+2013,1,Hawaii,R,PHCRT,Lutjanidae,Wahanui,4,18
+2014,1,Hawaii,R,PHCRT,Lutjanidae,Wahanui,6,31
+2015,1,Hawaii,R,PHCRT,Lutjanidae,Wahanui,7,43
+2014,3,Oahu,R,PHCRT,Lutjanidae,Wahanui,4,10
+2016,3,Oahu,R,PHCRT,Lutjanidae,Wahanui,3,4
+2015,4,Kauai County,R,PHCRT,Lutjanidae,Wahanui,3,56
+2012,1,Hawaii,R,PHCRT,Monacanthidae,Olililepa,4,91
+2015,1,Hawaii,R,PHCRT,Monacanthidae,Olililepa,3,32
+2012,3,Oahu,R,PHCRT,Monacanthidae,Olililepa,9,2601
+2013,3,Oahu,R,PHCRT,Monacanthidae,Olililepa,13,755
+2014,3,Oahu,R,PHCRT,Monacanthidae,Olililepa,9,1340
+2015,3,Oahu,R,PHCRT,Monacanthidae,Olililepa,6,594
+2016,3,Oahu,R,PHCRT,Monacanthidae,Olililepa,3,217
+2014,1,Hawaii,R,CHCRT,Mugilidae,Amaama,4,29
+2012,3,Oahu,R,CHCRT,Mugilidae,Amaama,11,7048
+2013,3,Oahu,R,CHCRT,Mugilidae,Amaama,10,5708
+2014,3,Oahu,R,CHCRT,Mugilidae,Amaama,13,3754
+2015,3,Oahu,R,CHCRT,Mugilidae,Amaama,9,3947
+2016,3,Oahu,R,CHCRT,Mugilidae,Amaama,5,2379
+2012,4,Kauai County,R,CHCRT,Mugilidae,Amaama,3,1380
+2016,3,Oahu,R,CHCRT,Mugilidae,Summer mullet,3,477
+2012,1,Hawaii,R,CHCRT,Mugilidae,Uouoa,6,200
+2013,1,Hawaii,R,CHCRT,Mugilidae,Uouoa,6,286
+2014,1,Hawaii,R,CHCRT,Mugilidae,Uouoa,6,487
+2015,1,Hawaii,R,CHCRT,Mugilidae,Uouoa,5,184
+2015,2,Maui County,R,CHCRT,Mugilidae,Uouoa,3,54
+2013,3,Oahu,R,CHCRT,Mugilidae,Uouoa,3,111
+2012,1,Hawaii,R,CHCRT,Mullidae,Kumu,33,1859
+2013,1,Hawaii,R,CHCRT,Mullidae,Kumu,25,1553
+2014,1,Hawaii,R,CHCRT,Mullidae,Kumu,24,369
+2015,1,Hawaii,R,CHCRT,Mullidae,Kumu,13,480
+2016,1,Hawaii,R,CHCRT,Mullidae,Kumu,14,708
+2012,2,Maui County,R,CHCRT,Mullidae,Kumu,17,450
+2013,2,Maui County,R,CHCRT,Mullidae,Kumu,10,153
+2014,2,Maui County,R,CHCRT,Mullidae,Kumu,12,240
+2015,2,Maui County,R,CHCRT,Mullidae,Kumu,7,121
+2016,2,Maui County,R,CHCRT,Mullidae,Kumu,11,191
+2012,3,Oahu,R,CHCRT,Mullidae,Kumu,52,5512
+2013,3,Oahu,R,CHCRT,Mullidae,Kumu,62,5069
+2014,3,Oahu,R,CHCRT,Mullidae,Kumu,56,3351
+2015,3,Oahu,R,CHCRT,Mullidae,Kumu,46,1955
+2016,3,Oahu,R,CHCRT,Mullidae,Kumu,31,835
+2012,4,Kauai County,R,CHCRT,Mullidae,Kumu,9,618
+2013,4,Kauai County,R,CHCRT,Mullidae,Kumu,6,311
+2014,4,Kauai County,R,CHCRT,Mullidae,Kumu,3,451
+2015,4,Kauai County,R,CHCRT,Mullidae,Kumu,5,151
+2016,4,Kauai County,R,CHCRT,Mullidae,Kumu,6,218
+2012,1,Hawaii,R,CHCRT,Mullidae,Malu,7,28
+2013,1,Hawaii,R,CHCRT,Mullidae,Malu,6,8
+2012,3,Oahu,R,CHCRT,Mullidae,Malu,23,279
+2013,3,Oahu,R,CHCRT,Mullidae,Malu,26,261
+2014,3,Oahu,R,CHCRT,Mullidae,Malu,22,208
+2015,3,Oahu,R,CHCRT,Mullidae,Malu,17,90
+2016,3,Oahu,R,CHCRT,Mullidae,Malu,8,18
+2012,4,Kauai County,R,CHCRT,Mullidae,Malu,3,22
+2012,1,Hawaii,R,CHCRT,Mullidae,Moana,58,2515
+2013,1,Hawaii,R,CHCRT,Mullidae,Moana,67,1850
+2014,1,Hawaii,R,CHCRT,Mullidae,Moana,36,1316
+2015,1,Hawaii,R,CHCRT,Mullidae,Moana,31,1244
+2016,1,Hawaii,R,CHCRT,Mullidae,Moana,39,2140
+2012,2,Maui County,R,CHCRT,Mullidae,Moana,25,1757
+2013,2,Maui County,R,CHCRT,Mullidae,Moana,21,1573
+2014,2,Maui County,R,CHCRT,Mullidae,Moana,15,772
+2015,2,Maui County,R,CHCRT,Mullidae,Moana,9,102
+2016,2,Maui County,R,CHCRT,Mullidae,Moana,12,83
+2012,3,Oahu,R,CHCRT,Mullidae,Moana,62,1198
+2013,3,Oahu,R,CHCRT,Mullidae,Moana,67,1644
+2014,3,Oahu,R,CHCRT,Mullidae,Moana,58,1243
+2015,3,Oahu,R,CHCRT,Mullidae,Moana,54,609
+2016,3,Oahu,R,CHCRT,Mullidae,Moana,38,447
+2012,4,Kauai County,R,CHCRT,Mullidae,Moana,16,288
+2013,4,Kauai County,R,CHCRT,Mullidae,Moana,11,155
+2014,4,Kauai County,R,CHCRT,Mullidae,Moana,14,160
+2015,4,Kauai County,R,CHCRT,Mullidae,Moana,8,109
+2016,4,Kauai County,R,CHCRT,Mullidae,Moana,10,112
+2012,1,Hawaii,R,CHCRT,Mullidae,Moana kale,38,1201
+2013,1,Hawaii,R,CHCRT,Mullidae,Moana kale,37,786
+2014,1,Hawaii,R,CHCRT,Mullidae,Moana kale,31,951
+2015,1,Hawaii,R,CHCRT,Mullidae,Moana kale,23,522
+2016,1,Hawaii,R,CHCRT,Mullidae,Moana kale,30,948
+2012,2,Maui County,R,CHCRT,Mullidae,Moana kale,22,652
+2013,2,Maui County,R,CHCRT,Mullidae,Moana kale,21,324
+2014,2,Maui County,R,CHCRT,Mullidae,Moana kale,17,108
+2015,2,Maui County,R,CHCRT,Mullidae,Moana kale,7,79
+2016,2,Maui County,R,CHCRT,Mullidae,Moana kale,14,142
+2012,3,Oahu,R,CHCRT,Mullidae,Moana kale,43,507
+2013,3,Oahu,R,CHCRT,Mullidae,Moana kale,49,599
+2014,3,Oahu,R,CHCRT,Mullidae,Moana kale,52,1433
+2015,3,Oahu,R,CHCRT,Mullidae,Moana kale,46,529
+2016,3,Oahu,R,CHCRT,Mullidae,Moana kale,38,569
+2012,4,Kauai County,R,CHCRT,Mullidae,Moana kale,14,212
+2013,4,Kauai County,R,CHCRT,Mullidae,Moana kale,10,153
+2014,4,Kauai County,R,CHCRT,Mullidae,Moana kale,7,286
+2015,4,Kauai County,R,CHCRT,Mullidae,Moana kale,7,117
+2016,4,Kauai County,R,CHCRT,Mullidae,Moana kale,8,68
+2012,1,Hawaii,R,CHCRT,Mullidae,Munu,21,301
+2013,1,Hawaii,R,CHCRT,Mullidae,Munu,25,144
+2014,1,Hawaii,R,CHCRT,Mullidae,Munu,25,147
+2015,1,Hawaii,R,CHCRT,Mullidae,Munu,10,42
+2016,1,Hawaii,R,CHCRT,Mullidae,Munu,17,91
+2012,2,Maui County,R,CHCRT,Mullidae,Munu,4,38
+2013,2,Maui County,R,CHCRT,Mullidae,Munu,3,29
+2014,2,Maui County,R,CHCRT,Mullidae,Munu,3,12
+2015,2,Maui County,R,CHCRT,Mullidae,Munu,3,11
+2012,3,Oahu,R,CHCRT,Mullidae,Munu,23,488
+2013,3,Oahu,R,CHCRT,Mullidae,Munu,26,485
+2014,3,Oahu,R,CHCRT,Mullidae,Munu,26,459
+2015,3,Oahu,R,CHCRT,Mullidae,Munu,25,208
+2016,3,Oahu,R,CHCRT,Mullidae,Munu,14,200
+2012,3,Oahu,R,CHCRT,Mullidae,Weke,4,662
+2012,1,Hawaii,R,CHCRT,Mullidae,Weke a'a,13,157
+2013,1,Hawaii,R,CHCRT,Mullidae,Weke a'a,8,282
+2014,1,Hawaii,R,CHCRT,Mullidae,Weke a'a,12,91
+2015,1,Hawaii,R,CHCRT,Mullidae,Weke a'a,6,118
+2016,1,Hawaii,R,CHCRT,Mullidae,Weke a'a,7,131
+2012,2,Maui County,R,CHCRT,Mullidae,Weke a'a,8,1140
+2013,2,Maui County,R,CHCRT,Mullidae,Weke a'a,7,1198
+2014,2,Maui County,R,CHCRT,Mullidae,Weke a'a,4,366
+2015,2,Maui County,R,CHCRT,Mullidae,Weke a'a,3,453
+2016,2,Maui County,R,CHCRT,Mullidae,Weke a'a,4,559
+2012,3,Oahu,R,CHCRT,Mullidae,Weke a'a,29,4924
+2013,3,Oahu,R,CHCRT,Mullidae,Weke a'a,37,3337
+2014,3,Oahu,R,CHCRT,Mullidae,Weke a'a,29,3948
+2015,3,Oahu,R,CHCRT,Mullidae,Weke a'a,20,3264
+2016,3,Oahu,R,CHCRT,Mullidae,Weke a'a,20,4789
+2012,1,Hawaii,R,CHCRT,Mullidae,Weke nono,28,822
+2013,1,Hawaii,R,CHCRT,Mullidae,Weke nono,35,644
+2014,1,Hawaii,R,CHCRT,Mullidae,Weke nono,29,1041
+2015,1,Hawaii,R,CHCRT,Mullidae,Weke nono,24,611
+2016,1,Hawaii,R,CHCRT,Mullidae,Weke nono,35,848
+2012,2,Maui County,R,CHCRT,Mullidae,Weke nono,27,1742
+2013,2,Maui County,R,CHCRT,Mullidae,Weke nono,32,1572
+2014,2,Maui County,R,CHCRT,Mullidae,Weke nono,28,667
+2015,2,Maui County,R,CHCRT,Mullidae,Weke nono,26,1072
+2016,2,Maui County,R,CHCRT,Mullidae,Weke nono,18,755
+2012,3,Oahu,R,CHCRT,Mullidae,Weke nono,37,2971
+2013,3,Oahu,R,CHCRT,Mullidae,Weke nono,37,2981
+2014,3,Oahu,R,CHCRT,Mullidae,Weke nono,34,3546
+2015,3,Oahu,R,CHCRT,Mullidae,Weke nono,36,2545
+2016,3,Oahu,R,CHCRT,Mullidae,Weke nono,24,1615
+2012,4,Kauai County,R,CHCRT,Mullidae,Weke nono,12,1502
+2013,4,Kauai County,R,CHCRT,Mullidae,Weke nono,7,1198
+2014,4,Kauai County,R,CHCRT,Mullidae,Weke nono,13,1477
+2015,4,Kauai County,R,CHCRT,Mullidae,Weke nono,10,1540
+2016,4,Kauai County,R,CHCRT,Mullidae,Weke nono,11,2026
+2012,2,Penguin Bank,R,CHCRT,Mullidae,Weke nono,6,89
+2013,2,Penguin Bank,R,CHCRT,Mullidae,Weke nono,10,133
+2014,2,Penguin Bank,R,CHCRT,Mullidae,Weke nono,7,48
+2015,2,Penguin Bank,R,CHCRT,Mullidae,Weke nono,8,102
+2016,2,Penguin Bank,R,CHCRT,Mullidae,Weke nono,10,152
+2013,1,Hawaii,R,CHCRT,Mullidae,Weke pueo,4,31
+2013,2,Maui County,R,CHCRT,Mullidae,Weke pueo,4,147
+2013,3,Oahu,R,CHCRT,Mullidae,Weke pueo,5,203
+2012,1,Hawaii,R,CHCRT,Mullidae,Weke ula,36,439
+2013,1,Hawaii,R,CHCRT,Mullidae,Weke ula,28,420
+2014,1,Hawaii,R,CHCRT,Mullidae,Weke ula,27,784
+2015,1,Hawaii,R,CHCRT,Mullidae,Weke ula,21,477
+2016,1,Hawaii,R,CHCRT,Mullidae,Weke ula,24,1017
+2012,2,Maui County,R,CHCRT,Mullidae,Weke ula,13,4314
+2013,2,Maui County,R,CHCRT,Mullidae,Weke ula,8,1670
+2014,2,Maui County,R,CHCRT,Mullidae,Weke ula,9,5284
+2015,2,Maui County,R,CHCRT,Mullidae,Weke ula,10,7111
+2016,2,Maui County,R,CHCRT,Mullidae,Weke ula,10,3124
+2012,3,Oahu,R,CHCRT,Mullidae,Weke ula,47,17576
+2013,3,Oahu,R,CHCRT,Mullidae,Weke ula,46,22415
+2014,3,Oahu,R,CHCRT,Mullidae,Weke ula,43,40946
+2015,3,Oahu,R,CHCRT,Mullidae,Weke ula,39,42632
+2016,3,Oahu,R,CHCRT,Mullidae,Weke ula,33,29670
+2012,4,Kauai County,R,CHCRT,Mullidae,Weke ula,15,420
+2013,4,Kauai County,R,CHCRT,Mullidae,Weke ula,11,429
+2014,4,Kauai County,R,CHCRT,Mullidae,Weke ula,8,204
+2015,4,Kauai County,R,CHCRT,Mullidae,Weke ula,6,63
+2016,4,Kauai County,R,CHCRT,Mullidae,Weke ula,8,1038
+2014,2,Penguin Bank,R,CHCRT,Mullidae,Weke ula,3,31
+2012,3,Oahu,R,CHCRT,Muraenidae,Puhi black,7,1134
+2013,3,Oahu,R,CHCRT,Muraenidae,Puhi black,4,1023
+2014,3,Oahu,R,CHCRT,Muraenidae,Puhi black,3,520
+2015,3,Oahu,R,CHCRT,Muraenidae,Puhi black,5,267
+2016,3,Oahu,R,CHCRT,Muraenidae,Puhi black,4,434
+2013,1,Hawaii,R,CHCRT,Muraenidae,Puhi eel-misc.,3,338
+2012,3,Oahu,R,CHCRT,Muraenidae,Puhi eel-misc.,6,160
+2013,3,Oahu,R,CHCRT,Muraenidae,Puhi eel-misc.,4,291
+2014,3,Oahu,R,CHCRT,Muraenidae,Puhi eel-misc.,5,565
+2015,3,Oahu,R,CHCRT,Muraenidae,Puhi eel-misc.,4,235
+2016,3,Oahu,R,CHCRT,Muraenidae,Puhi eel-misc.,5,166
+2014,1,Hawaii,R,CHCRT,Polynemidae,Moi,4,34
+2015,1,Hawaii,R,CHCRT,Polynemidae,Moi,5,173
+2012,2,Maui County,R,CHCRT,Polynemidae,Moi,3,124
+2014,2,Maui County,R,CHCRT,Polynemidae,Moi,3,32
+2016,2,Maui County,R,CHCRT,Polynemidae,Moi,3,27
+2012,3,Oahu,R,CHCRT,Polynemidae,Moi,10,156
+2013,3,Oahu,R,CHCRT,Polynemidae,Moi,8,44
+2014,3,Oahu,R,CHCRT,Polynemidae,Moi,7,75
+2015,3,Oahu,R,CHCRT,Polynemidae,Moi,6,89
+2016,3,Oahu,R,CHCRT,Polynemidae,Moi,5,137
+2016,4,Kauai County,R,CHCRT,Polynemidae,Moi,3,137
+2012,1,Hawaii,R,PHCRT,Pomacentridae,Kupipi,5,24
+2014,1,Hawaii,R,PHCRT,Pomacentridae,Kupipi,4,77
+2012,2,Maui County,R,PHCRT,Pomacentridae,Kupipi,5,121
+2013,3,Oahu,R,PHCRT,Pomacentridae,Kupipi,3,5
+2012,1,Hawaii,R,PHCRT,Pomacentridae,Maomao,5,11
+2012,2,Maui County,R,PHCRT,Pomacentridae,Maomao,4,1773
+2013,2,Maui County,R,PHCRT,Pomacentridae,Maomao,4,672
+2014,2,Maui County,R,PHCRT,Pomacentridae,Maomao,3,235
+2015,2,Maui County,R,PHCRT,Pomacentridae,Maomao,3,464
+2012,3,Oahu,R,PHCRT,Pomacentridae,Maomao,22,1110
+2013,3,Oahu,R,PHCRT,Pomacentridae,Maomao,20,1465
+2014,3,Oahu,R,PHCRT,Pomacentridae,Maomao,18,645
+2015,3,Oahu,R,PHCRT,Pomacentridae,Maomao,16,367
+2016,3,Oahu,R,PHCRT,Pomacentridae,Maomao,14,259
+2012,1,Hawaii,R,CHCRT,Priacanthidae,Aweoweo,56,1651
+2013,1,Hawaii,R,CHCRT,Priacanthidae,Aweoweo,56,2654
+2014,1,Hawaii,R,CHCRT,Priacanthidae,Aweoweo,57,3086
+2015,1,Hawaii,R,CHCRT,Priacanthidae,Aweoweo,45,3939
+2016,1,Hawaii,R,CHCRT,Priacanthidae,Aweoweo,39,2568
+2012,2,Maui County,R,CHCRT,Priacanthidae,Aweoweo,14,168
+2013,2,Maui County,R,CHCRT,Priacanthidae,Aweoweo,14,248
+2014,2,Maui County,R,CHCRT,Priacanthidae,Aweoweo,15,201
+2015,2,Maui County,R,CHCRT,Priacanthidae,Aweoweo,16,493
+2016,2,Maui County,R,CHCRT,Priacanthidae,Aweoweo,12,447
+2012,3,Oahu,R,CHCRT,Priacanthidae,Aweoweo,37,843
+2013,3,Oahu,R,CHCRT,Priacanthidae,Aweoweo,48,1764
+2014,3,Oahu,R,CHCRT,Priacanthidae,Aweoweo,50,1700
+2015,3,Oahu,R,CHCRT,Priacanthidae,Aweoweo,47,2274
+2016,3,Oahu,R,CHCRT,Priacanthidae,Aweoweo,35,1556
+2012,4,Kauai County,R,CHCRT,Priacanthidae,Aweoweo,15,244
+2013,4,Kauai County,R,CHCRT,Priacanthidae,Aweoweo,13,438
+2014,4,Kauai County,R,CHCRT,Priacanthidae,Aweoweo,18,999
+2015,4,Kauai County,R,CHCRT,Priacanthidae,Aweoweo,19,540
+2016,4,Kauai County,R,CHCRT,Priacanthidae,Aweoweo,17,546
+2012,2,Penguin Bank,R,CHCRT,Priacanthidae,Aweoweo,5,106
+2013,2,Penguin Bank,R,CHCRT,Priacanthidae,Aweoweo,12,83
+2014,2,Penguin Bank,R,CHCRT,Priacanthidae,Aweoweo,9,79
+2015,2,Penguin Bank,R,CHCRT,Priacanthidae,Aweoweo,6,56
+2016,2,Penguin Bank,R,CHCRT,Priacanthidae,Aweoweo,6,103
+2012,1,Hawaii,R,PHCRT,Priacanthidae,Aweoweo (deepsea),9,50
+2013,1,Hawaii,R,PHCRT,Priacanthidae,Aweoweo (deepsea),6,27
+2014,1,Hawaii,R,PHCRT,Priacanthidae,Aweoweo (deepsea),14,130
+2015,1,Hawaii,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,50
+2012,2,Maui County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),4,47
+2015,2,Maui County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),4,72
+2016,2,Maui County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),5,42
+2012,2,Penguin Bank,R,PHCRT,Priacanthidae,Aweoweo (deepsea),8,25
+2013,2,Penguin Bank,R,PHCRT,Priacanthidae,Aweoweo (deepsea),9,45
+2014,2,Penguin Bank,R,PHCRT,Priacanthidae,Aweoweo (deepsea),11,103
+2015,2,Penguin Bank,R,PHCRT,Priacanthidae,Aweoweo (deepsea),6,48
+2016,2,Penguin Bank,R,PHCRT,Priacanthidae,Aweoweo (deepsea),6,53
+2012,3,Oahu,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,20
+2013,3,Oahu,R,PHCRT,Priacanthidae,Aweoweo (deepsea),4,55
+2014,3,Oahu,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,117
+2015,3,Oahu,R,PHCRT,Priacanthidae,Aweoweo (deepsea),6,131
+2016,3,Oahu,R,PHCRT,Priacanthidae,Aweoweo (deepsea),7,78
+2013,4,Kauai County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,13
+2015,4,Kauai County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,16
+2016,4,Kauai County,R,PHCRT,Priacanthidae,Aweoweo (deepsea),3,31
+2012,1,Hawaii,R,CHCRT,Scaridae,Panuhunuhu,3,12
+2013,1,Hawaii,R,CHCRT,Scaridae,Panuhunuhu,3,11
+2014,1,Hawaii,R,CHCRT,Scaridae,Panuhunuhu,4,69
+2012,3,Oahu,R,CHCRT,Scaridae,Panuhunuhu,10,101
+2013,3,Oahu,R,CHCRT,Scaridae,Panuhunuhu,14,153
+2014,3,Oahu,R,CHCRT,Scaridae,Panuhunuhu,12,171
+2015,3,Oahu,R,CHCRT,Scaridae,Panuhunuhu,13,146
+2016,3,Oahu,R,CHCRT,Scaridae,Panuhunuhu,4,103
+2015,1,Hawaii,R,CHCRT,Scaridae,Panunu,4,11
+2012,3,Oahu,R,CHCRT,Scaridae,Panunu,8,302
+2013,3,Oahu,R,CHCRT,Scaridae,Panunu,10,181
+2014,3,Oahu,R,CHCRT,Scaridae,Panunu,9,460
+2015,3,Oahu,R,CHCRT,Scaridae,Panunu,8,494
+2016,3,Oahu,R,CHCRT,Scaridae,Panunu,6,150
+2012,1,Hawaii,R,CHCRT,Scaridae,Uhu parrot-misc.,38,14003
+2013,1,Hawaii,R,CHCRT,Scaridae,Uhu parrot-misc.,24,7611
+2014,1,Hawaii,R,CHCRT,Scaridae,Uhu parrot-misc.,25,2812
+2015,1,Hawaii,R,CHCRT,Scaridae,Uhu parrot-misc.,16,4119
+2016,1,Hawaii,R,CHCRT,Scaridae,Uhu parrot-misc.,17,3294
+2012,2,Maui County,R,CHCRT,Scaridae,Uhu parrot-misc.,25,14556
+2013,2,Maui County,R,CHCRT,Scaridae,Uhu parrot-misc.,10,11126
+2014,2,Maui County,R,CHCRT,Scaridae,Uhu parrot-misc.,13,8341
+2015,2,Maui County,R,CHCRT,Scaridae,Uhu parrot-misc.,7,1762
+2016,2,Maui County,R,CHCRT,Scaridae,Uhu parrot-misc.,10,2319
+2012,3,Oahu,R,CHCRT,Scaridae,Uhu parrot-misc.,56,53864
+2013,3,Oahu,R,CHCRT,Scaridae,Uhu parrot-misc.,58,55115
+2014,3,Oahu,R,CHCRT,Scaridae,Uhu parrot-misc.,49,56044
+2015,3,Oahu,R,CHCRT,Scaridae,Uhu parrot-misc.,42,26341
+2016,3,Oahu,R,CHCRT,Scaridae,Uhu parrot-misc.,32,17966
+2012,4,Kauai County,R,CHCRT,Scaridae,Uhu parrot-misc.,4,1506
+2014,4,Kauai County,R,CHCRT,Scaridae,Uhu parrot-misc.,4,1820
+2015,4,Kauai County,R,CHCRT,Scaridae,Uhu parrot-misc.,7,766
+2016,4,Kauai County,R,CHCRT,Scaridae,Uhu parrot-misc.,4,1346
+2012,1,Hawaii,R,PHCRT,Scorpaenidae,Hogo,28,282
+2013,1,Hawaii,R,PHCRT,Scorpaenidae,Hogo,30,511
+2014,1,Hawaii,R,PHCRT,Scorpaenidae,Hogo,27,338
+2015,1,Hawaii,R,PHCRT,Scorpaenidae,Hogo,22,237
+2016,1,Hawaii,R,PHCRT,Scorpaenidae,Hogo,19,106
+2012,2,Maui County,R,PHCRT,Scorpaenidae,Hogo,22,279
+2013,2,Maui County,R,PHCRT,Scorpaenidae,Hogo,14,214
+2014,2,Maui County,R,PHCRT,Scorpaenidae,Hogo,15,222
+2015,2,Maui County,R,PHCRT,Scorpaenidae,Hogo,11,164
+2016,2,Maui County,R,PHCRT,Scorpaenidae,Hogo,12,247
+2012,2,Penguin Bank,R,PHCRT,Scorpaenidae,Hogo,36,647
+2013,2,Penguin Bank,R,PHCRT,Scorpaenidae,Hogo,36,620
+2014,2,Penguin Bank,R,PHCRT,Scorpaenidae,Hogo,26,507
+2015,2,Penguin Bank,R,PHCRT,Scorpaenidae,Hogo,22,381
+2016,2,Penguin Bank,R,PHCRT,Scorpaenidae,Hogo,20,311
+2012,3,Oahu,R,PHCRT,Scorpaenidae,Hogo,30,510
+2013,3,Oahu,R,PHCRT,Scorpaenidae,Hogo,21,214
+2014,3,Oahu,R,PHCRT,Scorpaenidae,Hogo,22,193
+2015,3,Oahu,R,PHCRT,Scorpaenidae,Hogo,20,347
+2016,3,Oahu,R,PHCRT,Scorpaenidae,Hogo,17,361
+2012,4,Kauai County,R,PHCRT,Scorpaenidae,Hogo,19,245
+2013,4,Kauai County,R,PHCRT,Scorpaenidae,Hogo,10,191
+2014,4,Kauai County,R,PHCRT,Scorpaenidae,Hogo,14,240
+2015,4,Kauai County,R,PHCRT,Scorpaenidae,Hogo,14,373
+2016,4,Kauai County,R,PHCRT,Scorpaenidae,Hogo,17,362
+2012,1,Hawaii,R,PHCRT,Scorpaenidae,Nohu,18,421
+2013,1,Hawaii,R,PHCRT,Scorpaenidae,Nohu,12,245
+2014,1,Hawaii,R,PHCRT,Scorpaenidae,Nohu,11,175
+2015,1,Hawaii,R,PHCRT,Scorpaenidae,Nohu,11,523
+2016,1,Hawaii,R,PHCRT,Scorpaenidae,Nohu,9,346
+2012,2,Maui County,R,PHCRT,Scorpaenidae,Nohu,9,1047
+2013,2,Maui County,R,PHCRT,Scorpaenidae,Nohu,7,393
+2014,2,Maui County,R,PHCRT,Scorpaenidae,Nohu,8,237
+2015,2,Maui County,R,PHCRT,Scorpaenidae,Nohu,5,557
+2016,2,Maui County,R,PHCRT,Scorpaenidae,Nohu,4,466
+2012,3,Oahu,R,PHCRT,Scorpaenidae,Nohu,12,378
+2013,3,Oahu,R,PHCRT,Scorpaenidae,Nohu,16,423
+2014,3,Oahu,R,PHCRT,Scorpaenidae,Nohu,13,185
+2015,3,Oahu,R,PHCRT,Scorpaenidae,Nohu,6,71
+2016,3,Oahu,R,PHCRT,Scorpaenidae,Nohu,3,126
+2012,1,Hawaii,R,PHCRT,Serranidae,Roi,4,131
+2012,2,Maui County,R,PHCRT,Serranidae,Roi,15,1516
+2013,2,Maui County,R,PHCRT,Serranidae,Roi,14,979
+2014,2,Maui County,R,PHCRT,Serranidae,Roi,5,382
+2015,2,Maui County,R,PHCRT,Serranidae,Roi,5,343
+2016,2,Maui County,R,PHCRT,Serranidae,Roi,4,1380
+2012,3,Oahu,R,PHCRT,Serranidae,Roi,24,2930
+2013,3,Oahu,R,PHCRT,Serranidae,Roi,23,2015
+2014,3,Oahu,R,PHCRT,Serranidae,Roi,16,782
+2015,3,Oahu,R,PHCRT,Serranidae,Roi,20,572
+2016,3,Oahu,R,PHCRT,Serranidae,Roi,13,436
+2012,1,Hawaii,R,CHCRT,Sphyraenidae,Kaku,19,303
+2013,1,Hawaii,R,CHCRT,Sphyraenidae,Kaku,25,399
+2014,1,Hawaii,R,CHCRT,Sphyraenidae,Kaku,28,470
+2015,1,Hawaii,R,CHCRT,Sphyraenidae,Kaku,36,325
+2016,1,Hawaii,R,CHCRT,Sphyraenidae,Kaku,20,238
+2012,2,Cross Seamount,R,CHCRT,Sphyraenidae,Kaku,3,272
+2013,2,Cross Seamount,R,CHCRT,Sphyraenidae,Kaku,5,737
+2015,2,Cross Seamount,R,CHCRT,Sphyraenidae,Kaku,4,465
+2012,2,Maui County,R,CHCRT,Sphyraenidae,Kaku,16,223
+2013,2,Maui County,R,CHCRT,Sphyraenidae,Kaku,14,262
+2014,2,Maui County,R,CHCRT,Sphyraenidae,Kaku,14,248
+2015,2,Maui County,R,CHCRT,Sphyraenidae,Kaku,25,262
+2016,2,Maui County,R,CHCRT,Sphyraenidae,Kaku,17,196
+2012,3,Oahu,R,CHCRT,Sphyraenidae,Kaku,45,1037
+2013,3,Oahu,R,CHCRT,Sphyraenidae,Kaku,45,520
+2014,3,Oahu,R,CHCRT,Sphyraenidae,Kaku,30,569
+2015,3,Oahu,R,CHCRT,Sphyraenidae,Kaku,35,438
+2016,3,Oahu,R,CHCRT,Sphyraenidae,Kaku,20,214
+2012,4,Kauai County,R,CHCRT,Sphyraenidae,Kaku,16,747
+2013,4,Kauai County,R,CHCRT,Sphyraenidae,Kaku,16,496
+2014,4,Kauai County,R,CHCRT,Sphyraenidae,Kaku,19,433
+2015,4,Kauai County,R,CHCRT,Sphyraenidae,Kaku,14,465
+2016,4,Kauai County,R,CHCRT,Sphyraenidae,Kaku,7,111
+2012,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kaku,13,156
+2013,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kaku,7,72
+2014,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kaku,6,103
+2015,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kaku,10,157
+2016,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kaku,15,148
+2012,1,Hawaii,R,CHCRT,Sphyraenidae,Kawelea,36,867
+2013,1,Hawaii,R,CHCRT,Sphyraenidae,Kawelea,45,908
+2014,1,Hawaii,R,CHCRT,Sphyraenidae,Kawelea,34,919
+2015,1,Hawaii,R,CHCRT,Sphyraenidae,Kawelea,30,1735
+2016,1,Hawaii,R,CHCRT,Sphyraenidae,Kawelea,32,830
+2012,2,Maui County,R,CHCRT,Sphyraenidae,Kawelea,18,722
+2013,2,Maui County,R,CHCRT,Sphyraenidae,Kawelea,11,344
+2014,2,Maui County,R,CHCRT,Sphyraenidae,Kawelea,18,199
+2015,2,Maui County,R,CHCRT,Sphyraenidae,Kawelea,16,356
+2016,2,Maui County,R,CHCRT,Sphyraenidae,Kawelea,12,174
+2012,3,Oahu,R,CHCRT,Sphyraenidae,Kawelea,31,1548
+2013,3,Oahu,R,CHCRT,Sphyraenidae,Kawelea,29,1126
+2014,3,Oahu,R,CHCRT,Sphyraenidae,Kawelea,29,549
+2015,3,Oahu,R,CHCRT,Sphyraenidae,Kawelea,24,1251
+2016,3,Oahu,R,CHCRT,Sphyraenidae,Kawelea,16,512
+2012,4,Kauai County,R,CHCRT,Sphyraenidae,Kawelea,11,143
+2013,4,Kauai County,R,CHCRT,Sphyraenidae,Kawelea,3,12
+2014,4,Kauai County,R,CHCRT,Sphyraenidae,Kawelea,7,93
+2015,4,Kauai County,R,CHCRT,Sphyraenidae,Kawelea,6,77
+2016,4,Kauai County,R,CHCRT,Sphyraenidae,Kawelea,3,20
+2012,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kawelea,4,61
+2013,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kawelea,7,227
+2014,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kawelea,5,44
+2015,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kawelea,5,168
+2016,2,Penguin Bank,R,CHCRT,Sphyraenidae,Kawelea,7,109

@@ -13,7 +13,7 @@
 
 ## run the configure_toolbox.r script to check configuration
 
-setwd("~/eschemmel/Documents/github/mhi/region2017")
+setwd("~/Documents/github/mhi/region2017")
 
 source('configure_toolbox.r')
 

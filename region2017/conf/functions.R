@@ -29,7 +29,7 @@ FIS = function(layers, status_year=2016){
       catch          = val_num)
 
   # stock assessment score data
-  b = SelectLayersData(layers, layer='fis_sus_score', narrow = TRUE) %>% #has rgn_id (will also need to use fish_sus for fisheries that are not separated out into regions)
+  b = SelectLayersData(layers, layer='fis_sus', narrow = TRUE) %>% #has rgn_id (will also need to use fish_sus for fisheries that are not separated out into regions)
     select(
      rgn_id         = id_num,
       key_sp      = category,
@@ -43,12 +43,6 @@ FIS = function(layers, status_year=2016){
     mutate(year = as.numeric(as.character(year))) %>%
     select(rgn_id, year, key_sp, catch)
 
-  reef <- reef %>%
-    mutate(key_sp=as.character(key_sp))%>%
-    mutate(catch = as.numeric(catch)) %>%
-    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
-    mutate(year = as.numeric(as.character(year))) %>%
-    select(rgn_id, year, key_sp, catch)
 
   pelagic <-pelagic %>%
     mutate(key_sp=as.character(key_sp))%>%
@@ -102,7 +96,7 @@ FIS = function(layers, status_year=2016){
      rbind(reef)
 
   # ---
-  ## STEP 1. Calculate scores for Bbmsy values
+  ## Calculate scores for Bbmsy values
   # ---
   #  *************NOTE *****************************
   #  These values can be altered
@@ -133,107 +127,151 @@ FIS = function(layers, status_year=2016){
 
   sum(is.na(data_fis$score))
   # ---
-  # STEP 2. Estimate scores for taxa without stock assessment values
-  # Median score of other fish in the taxon group ("key.x"; bottom, pelagic, or reef fish) is an estimate
-  # Then a penalty is applied based on the level the taxa are reported at # will need to address this for non-fish species -shrimp, cucumber, etc
-  # ---
-
-  ## this takes the median score within each fishery type (Bottom, Pelagic, Nearshore) for each year
-  data_fis_gf <- data_fis %>%
-    dplyr::group_by(year, key.x) %>% #key.x is the taxon key to separate out bottom, pelagics, and reef fish
-    mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
-    ungroup()
+  #Estimate scores for taxa without stock assessment values
+  # Median score of other fish in the taxon group ("Fam"and if no stock assessments for the Fam then to code (group) bottom, pelagic, or reef fish) is an estimate
 
 
-  ## this takes the median score across all regions (when no stocks have scores within a region)
-  # data_fis_gf <- data_fis_gf %>%
-  #    group_by(year, key.x) %>%
-  #   mutate(Median_score_global = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
-  #  ungroup() %>%
-  # mutate(Median_score = ifelse(is.na(Median_score), Median_score_global, Median_score)) %>%
-  #select(-Median_score_global)
+  ## this takes the median score within each family and applies it for species that did not have stock assessment score
+  data_fis_gf <- fis_data %>%
+    dplyr::group_by(year, Fam) %>% #Fam is the code for family and code is the taxon key to separate out bottom, pelagics, coastal pelagics and reef fish
+    dplyr::mutate(Median_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    dplyr::ungroup()%>%
+    dplyr::mutate(Median_score = ifelse(is.na(score), Median_score, score))
 
-  #  *************NOTE *****************************
-  #  In some cases, it may make sense to alter the
-  #  penalty for not identifying fisheries catch data to
-  #  species level.
-  #  ***********************************************
+  ## this takes the median score for each fishery (bottom, pelagic, coastal pelagic, reef) and applies it for Families that did not have a median stock assessment score
+  data_fis_gf <- data_fis_gf %>%
+    dplyr::group_by(year, code) %>% #Fam is the code for family and code is the taxon key to separate out bottom, pelagics, coastal pelagics and reef fish
+    dplyr::mutate(code_score = quantile(score, probs=c(0.5), na.rm=TRUE)) %>%
+    dplyr::ungroup()%>%
+    dplyr::mutate(score_gf = ifelse(is.na(Median_score), code_score, Median_score)) %>%
+    dplyr::mutate(score_gf = ifelse(is.na(score_gf), 1, score_gf))
 
-  #data_fis_gf <- data_fis_gf %>%
-  #  mutate(score = Median_score)
+    #note no assessments have been done for species that we classified as coastal pelagics
+
+
 
   #didn't apply a penalty to taxon reported to family since there are only two - misc parrots and misc ulua
   #instead used the lowest stock assessment value reported for the family and applied to the category
-  #penaltyTable <- data.frame(TaxonPenaltyCode=1:2,
-  #                          penalty=c(1, 0.5))
 
+  #documentation for scores that were gap filled
   data_fis_gf <- data_fis_gf %>%
-    mutate(score_gf = Median_score) %>%
-    mutate(score_gapfilled = ifelse(is.na(score), "Median gapfilled", "none")) %>%
-    mutate(score = ifelse(is.na(score), score_gf, score))
+    mutate(score_gapfilled = ifelse(is.na(score), "Median gapfilled", "formal stock assessment"))
 
 
+  #select data needed for status
   data_fis_gf <- data_fis_gf %>%
-    select(rgn_id, species, key.x, year, catch, score, score_gapfilled)
+    select(rgn_id, key_sp, code, year, catch, score=score_gf, score_gapfilled)
 
-  ##  status_data <- data_fis_gf %>%
-  ##   select(rgn_id, species, year, catch, score)
-  ##filter(year == status_year)
+  str(data_fis_gf) #check data
+  length(unique(data_fis_gf$code)) #check that there are no typos in the code should be 4 levels
+
+  ##Need to separate back out each fishery and get status and score separately
+  reef<-data_fis_gf %>%
+    subset(code=="reef")
+
+  bottom<-data_fis_gf %>%
+    subset(code=="deef")
+
+  pelagic<-data_fis_gf %>%
+    subset(code=="pelagic")
+
+  coastal_pelagic<-data_fis_gf %>%
+    subset(code=="coastal_pelagic")
 
 
   # ---
-  # STEP 4. Calculate status for each region
+  #Calculate status for each region for the reef fishery only (all other fisheries get one score for the entire assessment area)
   # ---
-
-  # 4a. To calculate the weight (i.e, the relative catch of each stock per region),
+  #  To calculate the weight (i.e, the relative catch of each stock per region),
   # the mean catch of taxon i is divided by the
   # sum of mean catch of all species in region/year
-
-
-  #ADD IN RECREATIONAL CATCH r
-  status_data <- data_fis_gf %>%
-    select(rgn_id, species, key.x,year, catch, score)
-  #filter(year == status_year)
-
-  status_data <- status_data %>%
-    group_by(year, rgn_id, key.x) %>% #summarize catch data
+  reef <- reef %>%
+    group_by(year, rgn_id, key_sp) %>% #summarize catch data
     dplyr::summarize(catch = sum(catch), mean_score=mean(score))
 
-  fishery_summaries <- status_data %>%
-    group_by(key.x) %>% #summarize catch data
-    dplyr::summarize(catch = sum(catch), mean_score=mean(mean_score))
 
-  #status_data <- status_data %>% #join with recreational catch multiplier
-  #  left_join(r)
-
-  status_data <- status_data %>%
+  reef <- reef %>%
     #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
     group_by(rgn_id,year)%>%
     dplyr::mutate(SumCatch = sum(catch))%>%
     dplyr::mutate(wprop = catch/SumCatch)
 
-  #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
+
+   #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
   #total_fisheries_c<-status_data %>%
   #dplyr::group_by(rgn_id) %>%
   #summarize(Total=sum(SumCatch))
 
   #to get sus scores for each fishery
-  status_data_summary <- status_data %>%
-    dplyr::group_by(year,key.x) %>%
-    dplyr::summarize(status = prod(mean_score^wprop))
-
-
-  status_data <- status_data %>%
+  reef <- reef %>%
     dplyr::group_by(rgn_id, year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
 
 
+#bottom
+
+  bottom <- bottom %>%
+    group_by(year,  key_sp) %>% #summarize catch data
+    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
+
+  bottom <- bottom %>%
+    group_by(year)%>%
+    dplyr::mutate(SumCatch = sum(catch))%>%
+    dplyr::mutate(wprop = catch/SumCatch)
+  bottom_status <- bottom %>%
+    dplyr::group_by( year) %>%
+    dplyr::summarize(status = prod(mean_score^wprop)) %>%
+    ungroup()
+
+  #pelagic
+  pelagic <- pelagic %>%
+    group_by(year,  key_sp) %>% #summarize catch data
+    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
+
+  pelagic <- pelagic %>%
+    group_by(year)%>%
+    dplyr::mutate(SumCatch = sum(catch))%>%
+    dplyr::mutate(wprop = catch/SumCatch)
+  pelagic_status <- pelagic%>%
+    dplyr::group_by( year) %>%
+    dplyr::summarize(status = prod(mean_score^wprop)) %>%
+    ungroup()
+
+  #no assessments for coastal pelagics so can not score them
 
   # ---
-  # STEP 5. Get yearly status and trend
+  # Join fishies back together to get region yearly status and trend
   # ---
-  #status_year=2016 #2016 ## @jules32 moved this to the function call and deleted from conf/goals.csv too
+  region_1<-pelagic_status %>%
+    rbind(bottom_status) %>%
+    mutate(rgn_id=1)
+
+  region_2<-pelagic_status %>%
+    rbind(bottom_status) %>%
+    mutate(rgn_id=2)
+
+  region_3<-pelagic_status %>%
+    rbind(bottom_status) %>%
+    mutate(rgn_id=3)
+
+  region_4<-pelagic_status %>%
+    rbind(bottom_status) %>%
+    mutate(rgn_id=4)
+
+  status_data<- region_1 %>%
+    rbind(region_2) %>%
+    rbind(region_3) %>%
+    rbind(region_4) %>%
+    rbind(reef)
+
+  str(status_data)
+  status_data<-as.data.frame(status_data)
+
+  status_data<-status_data %>%
+    dplyr::group_by(year, rgn_id) %>%
+    dplyr::summarize(status=mean(status))%>%
+    dplyr::ungroup()
 
   status <-  status_data %>%
     filter(year==status_year) %>%
@@ -242,7 +280,9 @@ FIS = function(layers, status_year=2016){
       dimension = 'status') %>%
     select(region_id=rgn_id, score, dimension)
 
-  trend_years <- (status_year-4):(status_year)###need to set status year or adjust this year value for each assessment
+
+
+    trend_years <- (status_year-4):(status_year)###need to set status year or adjust this year value for each assessment
 
   first_trend_year <- min(trend_years)
 
