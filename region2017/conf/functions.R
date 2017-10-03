@@ -125,7 +125,7 @@ FIS = function(layers, status_year=2016){
     select(rgn_id, year, code, catch, key_sp, Fam, score)
 
 
-  sum(is.na(data_fis$score))
+  sum(is.na(fis_data$score))
   # ---
   #Estimate scores for taxa without stock assessment values
   # Median score of other fish in the taxon group ("Fam"and if no stock assessments for the Fam then to code (group) bottom, pelagic, or reef fish) is an estimate
