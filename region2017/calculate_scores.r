@@ -36,22 +36,22 @@ source('https://raw.githubusercontent.com/OHI-Science/ohibc/master/src/R/common.
 source('plot_flower_local.R')
 
 ## regions info
-regions <- bind_rows(
-  data_frame(                # order regions to start with whole study_area
+regions <- dplyr::bind_rows(
+  dplyr::data_frame(                # order regions to start with whole study_area
     region_id   = 0,
     region_name = 'Main Hawaiian Islands'),
   read_csv('spatial/regions_list.csv') %>%
-    select(region_id   = rgn_id,
+    dplyr::select(region_id   = rgn_id,
            region_name = rgn_name))
 
 ## set figure name
 regions <- regions %>%
- mutate(flower_png = sprintf('reports/figures/flower_%s.png',
+ dplyr::mutate(flower_png = sprintf('reports/figures/flower_%s.png',
                        str_replace_all(region_name, ' ', '_')))
 readr::write_csv(regions, 'reports/figures/regions_figs.csv')
 
 ## save flower plot for each region
-for (i in regions$region_id) { # i = 0
+for (i in regions$region_id) { # i = 0install.packages('tidyverse')?
 
   ## fig_name to save
   fig_name <- regions$flower_png[regions$region_id == i]
