@@ -1,5 +1,11 @@
 ### Goal Description
 
+<!---From Eva: 
+
+Measures the sustainable production potential (fishponds) and current production of seafood weighted by a sustainability/risk score (use of non-native species and the % of feed imported).
+
+--->
+
 Mariculture measures the ability to reach the highest levels of seafood gained from farm-raised facilities without damaging the ocean’s ability to provide fish sustainably now and in the future. Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential.
 
 ### Model

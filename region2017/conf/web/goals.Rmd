@@ -12,6 +12,20 @@ layers_csv  <- readr::read_csv(file.path(dir_scenario_gh, 'layers.csv'))
 layers_web <- sprintf('http://ohi-science.org/%s/layers.html', key)
 ```
 
+<!---From Eva:
+
+The global Ocean Health Index developed 10 goals that encompass ocean health: Food Provision, Natural Products, Clean Water, Coastal Protection, Carbon Storage, Biodiversity, Tourism & Recreation, Livelihoods & Economies, Artisanal Fishing Opportunities, and Sense of Place. These goals for the OHI were adapted from the global framework and the ten goals for the Hawaii OHI are Food Provision, Natural Products, Clean Water, Coastal Protection, Biodiversity, Tourism, Livelihoods & Economies, Recreation, Artisanal Fishing Opportunities, and Sense of Place. The Carbon Storage goal is not included in the Hawaii Ocean Health Index as it lacks the necessary information such as extent of seagrasses and carbon storage capacity. Additionally mangroves are present in Hawaiʻi but are invasive and there is not a consensus on whether to include mangroves for this goal.
+
+<br><br>
+
+Indicators for each goal have been drafted through stakeholder engagement and expert review are available [here](https://goo.gl/1QT68E).
+
+<br><br>
+
+<div style="float: right"> 
+<img src="images/ci_28982090_Medium.jpg" width="350px"></div>    
+--->
+
 
 ## Food Provision: Fisheries
 

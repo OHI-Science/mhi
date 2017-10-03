@@ -1,5 +1,8 @@
 ### Goal Description
 
+<!---From Eva:
+This goal measures the sustainable harvest of ocean-derived resources for purposes other than direct consumption. Resources under this goal include salt, shells, medicinal products and aquarium fish. The goal will be measured as the commercial value (revenue) and/or cultural or medicinal value of products weighted by a risk/sustainability score that will be developed for each species assessed. --->
+
 In many countries the harvest of non-food natural products is important for local economies and can also be traded internationally. The sustainable harvest of these products is therefore an important component of a healthy ocean. This goal assesses the ability of countries to maximize the sustainable harvest of living marine resources, such as corals, shells, seaweeds, and fish for the aquarium trade. It does not include bioprospecting which focuses on potential (and largely unknowable and potentially infinite) value rather than current realized value, or non-living products such as oil and gas or mining products which by definition are not sustainable.
 
 ### Model & Data 

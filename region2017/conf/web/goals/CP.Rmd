@@ -1,5 +1,10 @@
 ### Goal Description
 
+<!---From Eva:
+
+This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. 
+--->
+
 This goal aims to assess the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value, both inhabited (homes and other structures) and uninhabited (parks, special places, etc.). A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions.
 
 ### Model & Data 

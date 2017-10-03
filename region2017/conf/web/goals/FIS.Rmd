@@ -1,5 +1,11 @@
 ### Goal Description
 
+<!---From Eva: 
+
+Measures the amount of wild-caught seafood (pelagic, bottom, and nearshore fishes) that can be sustainably harvested. Data gaps are recognized such as the lack of stock assessments for many harvested species. Additionally, traditional stock assessments do not take ecosystem impacts into account and ecosystem models are preferred if they become available.
+
+--->
+
 The Fisheries sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means the country or region is harvesting seafood to the ecosystem’s production potential in an sustainable manner.
 
 ### Model 

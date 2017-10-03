@@ -1,5 +1,15 @@
 ### Goal Description
 
+<!---From Eva: 
+
+Tourism:
+This goal strives to measure the balanced economic growth through tourism with management and preservation of natural resources and Hawaiian culture. This is measured through tracking ocean management areas to preserve the  environment and provide visitor ecotourism opportunities, educational programs embedded in the tourism industry, and the representation of community values and voice.
+
+Rec:
+
+This goal measures the opportunities for residents to enjoy coastal areas through recreation measured through access to beaches and coastal areas and number of participants in recreational activities.
+--->
+
 Tourism and recreation in coastal areas is a major component of thriving coastal communities and a measure of how much people value ocean systems, i.e. by traveling to coastal and ocean areas. This goal aims to capture the number of people, and the quality of their experience, visiting coastal and marine areas and attractions. A score of 100 means a region utilizes its full recreational potential without harming the ecosystem.
 
 ### Model & Data 

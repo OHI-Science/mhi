@@ -1,5 +1,13 @@
 ### Goal Description
 
+<!---From Eva:
+
+The habitats sub-goal of biodiversity measures the extent, condition, and level of management protection of coastal and terrestrial habitats. Habitats include coral reefs, wetlands, anchialine ponds, pelagic water column, beaches, fishponds, and watersheds. 
+
+<div style="float:left"><img src="images/ci_12001454_Full.jpg" width="350px"></div> 
+<div style="float: left"><img src="images/ci_18980928_Medium.jpg" width="350px"></div> 
+--->
+
 Habitats conditions are considered as a proxy for condition of the broad suite of species that depend on them. The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
 
 ### Model & Data 

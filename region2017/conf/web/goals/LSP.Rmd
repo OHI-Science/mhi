@@ -1,5 +1,9 @@
 ### Goal Description
 
+<!---From Eva Sense of Place:
+The past, present, and future connection between people and place.
+--->
+
 Sense of Place goal tries to capture the aspects of the coastal and marine system that people value as part of their cultural identity. This definition includes people living near the ocean and those who live far from it but still derive a sense of identity or value from knowing particular places or species exist. The sub-goal of Lasting Special Places focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected. A score of 100 means the species and places important for cultural identity are protected and conserved.
 
 ### Model  
