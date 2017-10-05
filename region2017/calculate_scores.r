@@ -37,11 +37,11 @@ source('plot_flower_local.R')
 
 ## regions info
 regions <- dplyr::bind_rows(
-  dplyr::data_frame(                # order regions to start with whole study_area
+  data_frame(                # order regions to start with whole study_area
     region_id   = 0,
     region_name = 'Main Hawaiian Islands'),
   read_csv('spatial/regions_list.csv') %>%
-    dplyr::select(region_id   = rgn_id,
+ select(region_id   = rgn_id,
            region_name = rgn_name))
 
 ## set figure name
@@ -51,7 +51,7 @@ regions <- regions %>%
 readr::write_csv(regions, 'reports/figures/regions_figs.csv')
 
 ## save flower plot for each region
-for (i in regions$region_id) { # i = 0install.packages('tidyverse')?
+for (i in regions$region_id) { # i = 0 install.packages('tidyverse')?
 
   ## fig_name to save
   fig_name <- regions$flower_png[regions$region_id == i]
