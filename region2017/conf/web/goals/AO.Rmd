@@ -4,19 +4,16 @@
 This goal measures the opportunity for fishers to supply seafood for themselves, families, and community.
 --->
 
-Artisanal fishing, often also called small-scale fishing, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world, in particular in developing nations. This goal measure whether people who need to fish on a small, local scale have the opportunity to do so. It has three sub-components: stock, access, and need. A score of 100 means the country or region is meeting the needs of artisanal fishermen or communities by implementing institutional supports, providing access to near-shore water, and maintaining the health of targeted species. 
+Artisanal fishing, often also called subsistance fishing, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai'i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal measure whether people who need to fish have the opportunity to do so. It is estimated based on need, access, and the condition of the resource based on fish biomass. A score of 100 means the region is meeting the needs of artisanal fishermen and communities.
 
 ### Model  
 
-Status model for this goal is a function of need for artisanal fishing opportunities and whether or not
-the opportunity is permitted and/or encouraged institutionally and done sustainability. This _need_ was measured by an analogous proxy: per capita gross domestic product (pcGDP) adjusted by the purchasing power parity (PPP), which translates the average annual income (pcGDP) into its local value (PPP). These data correlate with UN data on the percent of a population living below international poverty standard, which directly ties to this need for small-scale fishing. _The opportunity or ability to meet this need_, we used data from (Mora et al.), which scores countries on the institutional measures that support or facilitate artisanal and small-scale fishing. 
+Status model for this goal is a function of need for artisanal fishing opportunities (the percent of households that fish), access to the resource (a funciton of shoreline access, steepness of the shoreline, and boat ramps), and the status of nearshore fishery resources. 
 
-_The sustainability of artisanal fishing practices could be approximated by the percent of fishermenthat use sustainable gear such as hook and line versus unsustainable methods such as dynamite, cyanide and, arguably, gill net fishing. Unfortunately data on proportion of gear type used within a country is scarce at best and so we were unable to include this term in the calculation of this goal._
- 
 
 ### Reference points 
 
-The reference point for this goal is when all demand for artisanal fishing is allowed and/or achieved and done in a sustainable manner.
+The reference point for this goal is ....
 
 
 

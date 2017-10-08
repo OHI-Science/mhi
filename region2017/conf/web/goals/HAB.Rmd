@@ -1,22 +1,28 @@
 ### Goal Description
 
-<!---From Eva:
-
-The habitats sub-goal of biodiversity measures the extent, condition, and level of management protection of coastal and terrestrial habitats. Habitats include coral reefs, wetlands, anchialine ponds, pelagic water column, beaches, fishponds, and watersheds. 
-
-<div style="float:left"><img src="images/ci_12001454_Full.jpg" width="350px"></div> 
-<div style="float: left"><img src="images/ci_18980928_Medium.jpg" width="350px"></div> 
---->
-
-Habitats conditions are considered as a proxy for condition of the broad suite of species that depend on them. The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
+The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
 
 ### Model & Data 
 
-The Habitat model assessed all habitats for which at least some global data were available, specifically: mangroves, coral reefs, seagrass beds, salt marshes, sea ice edge, and subtidal soft-bottom habitats. Status was calculated as the average of the condition estimates for each habitat present in a region, measured as the loss of habitat and/or percent degradation of remaining habitat. 
+The habitat model assessed all habitats for which data were available to evaluate extent and condition, specifically: coral reefs, coastal wetlands, beaches, and subtidal soft-bottom habitats. Status was calculated as the average of the condition estimates for each habitat present in a region, measured as the loss of habitat and/or percent degradation of remaining habitat. 
 
-Below are the data sets for this goal.
 
 ### Reference points 
 
-A temporal reference point (ie. coverage data of a historical point) was used for each type of habitat. We generally considered the reference years to be between 1980-1995, although these varied by habitat due to data availability. 
+Coral Reefs
+
+Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
+The coral reef health index comes from the NOAA Hawai'i coral reef report card. Tred in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+
+Beaches
+
+Beach erosion is expected to increase with climate change and sea level rise, reducing coastal protection ability of beaches in Hawai'i.Beach condition was measured as the percent of beaches remaining stable (not eroding). The beach trend is the long term erosion rate (past century) calculated from Fletcher et al. 2012.
+
+Wetlands
+
+Wetland condition was measured as the percent loss of historical coastal wetlands (Van Rees and Reed 2014). Wetland extent was assessed from National Oceanic and Atmospheric Administration Coastal Change Analysis Program (NOAA C-CAP) data clipped to within 1 km inland from the coast to capture coastal wetlands extent. All estuary categories were included in this assessment that were within 1km of the coastline as these habitats within 1km of the shoreline will mitigate against flooding and wave inundation. NOAA C-CAP surveys are repeated every 5 years to measure changes in land cover. The trend in coastal wetlands was assessed as the difference in coastal wetland extend from 1992 to 2011.
+
+Subtidal Softbottom 
+
+Near shore soft bottom habitat extent was mapped to a depth of 100 meters. The condition was measured as the proportion of soft bottom habitat that was not dredged. Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data). 
 
