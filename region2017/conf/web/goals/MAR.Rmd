@@ -1,20 +1,23 @@
 ### Goal Description
 
-<!---From Eva: 
 
-Measures the sustainable production potential (fishponds) and current production of seafood weighted by a sustainability/risk score (use of non-native species and the % of feed imported).
+Measures the sustainable production potential of seafood from fishponds, known locally as loko ʻia, and current production of seafood weighted by a sustainability score.
 
---->
-
-Mariculture measures the ability to reach the highest levels of seafood gained from farm-raised facilities without damaging the ocean’s ability to provide fish sustainably now and in the future. Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential.
+The value of aquaculture products ($39,970,000 in 2011 USD) natural products and seafood is ranked 4th in the state following seed crops, flowers and nursery products, and cattle (USDA Annual Statistics Bulletin 2011). However, revenue from mariculture is incorporated into Livelihoods and Economies goal.
 
 ### Model
+The scores is an average of the state reported seafood produciton (mariculture) and fishpond potential.
 
-Model measures the quantity of sustainably harvested mariculture species per coastal inhabitant (i.e., those within 25km of the coast), under the assumption that mariculture development scales proportionally with coastal population, which is a proxy for potential logistic limitations to farm development, e.g., presence of infrastructures, coastal access, and locally available workforce. The _species assessed_ are strictly marine species from both the marine and brackish water FAO categories, excluding aquatic plants such as kelps and seaweeds, which were assumed to contribute predominantly to medicinal and cosmetic uses rather than as a source of food (Halpern 2012). The _sustainability score (SM,k)_ for each species in each country is based on the Mariculture Sustainability Index (MSI) (Halpern 2015).
+The species that are reported on the State Department of Land and Natural Resources Division of Aquatic Resources that are produced locally for seafood consumption include: abalone (Haliotus sp), oysters (Crassostrea gigas and Crassostrea sikamea), clams (Venerupis philippinarum), kahala (Seriola dumerili), Pacific white shrimp (Penaeus vannamei), and limu (Gracilaria sp.). Moi (Pacific Threadfin) is not on the State of Hawaii Department of Agriculture list but it is produced locally for out planting in fishponds.  
+
+The sustainability of the species produced was assessed as the average of the feed sustainability score (0 protein based, 1 plant based; 0 imported feed, 1 local feed) and the biosecurity risk scored as species status (1 native, 0.75 introduced, or 0 invasive) and the pathogen and virus susceptibility (0 highly susceptible, 0.5 susceptible but preventative measures in place (biosecurity practices such as sterilization and wastewater treatment practices). 
+
+The production (lbs of seafood) is reported at the state level to prevent disclosure of sensitive information. To get county level estimates of production the lbs of finfish and shellfish produced at the state level were multiplied by the estimated number of finfish and shellfish operators by county. The number of operators are reported to USDA via census every 5 years (2002, 2007, 2012) (https://www.nass.usda.gov/Statistics_by_State/Hawaii/ ). To fill in annual data gaps linear regression models were used. 
+
+
 
 ### Reference points 
 
-The reference point is 95% of the highest harvested tonnes per coastal inhabitant (i.e., those within 25km of the coast) among all assessed regions, under the assumption that production depends on the presence of coastal communities that can provide the labor force, infrastructures, and economic demand to support the development and economic viability of mariculture facilities.
-
-
+The mariculture score is calculated as the ratio of the lbs produced by county to the maximum lbs produced across regions.The fishpond score is the ratio of fishponds that are operation or being restored to 30% of the historic number. 
+A region score will reach 100 when the region produces the maximum seafood produciton for the state and has a mimimum of 30% of the traditional fishponds restored or in the process of being restored.
 

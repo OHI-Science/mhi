@@ -1,25 +1,13 @@
 ### Goal Description
 
-<!---From Eva:  This sub-goal of biodiversity measures the population status of species including biodiversity (species richness), abundance, percent endemism, and risk of extinction (from IUCN red list classifications).
---->
+People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, Biodiversity goal assesses the conservation status of species based on assessments of fish, marine mammals, turtles and birds, and coastal plants. 
 
-People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, Biodiversity goal assesses the conservation status of species based on the best available global data. This sub-goal of Species assesses the health of all marine species present in a region, including endangered species and species in relatively good conditions. The presence of higher-risk species leads to a higher score.
-
-**For Global assessments....** 
 
 ### Model & Data 
 
-The Species model measures the average threat status, defined by the IUCN Red List, of species in each country, weighted by each species' area of distribution within the country's EEZ. The spatial resolution is 0.5 degree.
-
-Species list and information on their extinction risks came from three sources: 
-
-- marine species from IUCN Red List of Threatened Species 
-- seabirds using distributions from Birdlife International (BirdLife International and NatureServe 2012). 
-- AquaMaps where neither IUCN nor BirdLife International distributions were available (Kaschner et al. 2013)
-
-Below are the data sets for this goal.
+The latest assessment lists 501 Endangered species (77 animal) (Environmental Conservation Online System 02/13/2015). The Endangered Species Act (ESA) was established in 1973 provides for the conservation of species that are endangered or threatened (likely to become endangered in the near future without protection) throughout all or a significant portion of their range, and the conservation of the ecosystems on which they depend. To assess species status we combined information on local reef fish species status indicators (NOAA report card), and ESA status of marine mammals (cetacean table), turtles, and coastal plants. We incorporated reef fish indicators even though many of Hawaiʻiʻs reef fish are not considered threatened or endangered. Local indicators of reef fish populations and status are important for understanding the health of coral reefs and biodiversity and therefore were included along with reef fish species richness.
 
 ### Reference points 
 
-The upper reference point for the Species sub-goal is to have all species at a risk status of Least Concern. We also scaled the lower end of the goal to be 0 when 75% species are extinct, a level comparable to the five documented mass extinctions66 and would constitute a catastrophic loss of biodiversity.
+
 

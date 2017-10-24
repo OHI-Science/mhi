@@ -121,15 +121,23 @@ $(document).ready(function () {
 
 <div id="goal-description" class="section level3">
 <h3>Goal Description</h3>
-<p>The Fisheries sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means that the region is harvesting seafood in an sustainable manner. However, it is important to note that this assessment is based on relatively few formal stock assessments and many of the fish species that are included in this assessment lack stock assessments. To include these important fishery species, we made the assumption that the unassessed species within each fshery (pelagic, bottomfish, nearshore/reef, coastal pelagics) are fairing similarly to the assessed fish species.</p>
+<p>People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, Biodiversity goal assesses the conservation status of species based on assessments of fish, marine mammals, turtles and birds, and coastal plants. This sub-goal of Species assesses the health of all marine species present in a region, including endangered species and species in relatively good conditions. The presence of higher-risk species leads to a higher score.</p>
+<p><strong>For Global assessments….</strong></p>
 </div>
-<div id="model" class="section level3">
-<h3>Model</h3>
-<p>The model assess the amount of wild-caught seafood that can be sustainably harvested, with sustainability based on foramal stock assessments. Each fish species is assessed separately based on sustainablility ratios (Biomass at maximum sustainable yeild: B/Bmsy; Spawning biomass at maximum sustainable yield: SB/SBmsy; and Spawning Potential Ratio: SPR) and weighted by its relative contribution to overall catch. The goal status score for each region in each year was calculated as average scores from each fishery calculated as the geometric mean of the all stock status scores for each fishery (pelagic: tuna, swordfish, mahimahi, etc.; bottomfish: deep seven species mainly groupers and snappers; coastal pelagics: jacks, akule, opelu, etc.; nearshore: surgeonfish, parrotfish, etc.)</p>
+<div id="model-data" class="section level3">
+<h3>Model &amp; Data</h3>
+<p>The Species model measures the average threat status, defined by the IUCN Red List, of species in each country, weighted by each species’ area of distribution within the country’s EEZ. The spatial resolution is 0.5 degree.</p>
+<p>Species list and information on their extinction risks came from three sources:</p>
+<ul>
+<li>marine species from IUCN Red List of Threatened Species</li>
+<li>seabirds using distributions from Birdlife International (BirdLife International and NatureServe 2012).</li>
+<li>AquaMaps where neither IUCN nor BirdLife International distributions were available (Kaschner et al. 2013)</li>
+</ul>
+<p>Below are the data sets for this goal.</p>
 </div>
 <div id="reference-points" class="section level3">
 <h3>Reference points</h3>
-<p>Sustainability refernce points typically used in formal stock assessments vary by the fishery type in Hawaiʻi. Pelagic fish sustainability reference point is SB/SBmsy set to 1.0. Bottomfish species sustainability reference point is B/BMSY set to 1.0. Reef fish sustainability reference point is the spawning potential ratio (SPR) set to 0.30.</p>
+<p>The upper reference point for the Species sub-goal is to have all species at a risk status of Least Concern. We also scaled the lower end of the goal to be 0 when 75% species are extinct, a level comparable to the five documented mass extinctions66 and would constitute a catastrophic loss of biodiversity.</p>
 </div>
 
 

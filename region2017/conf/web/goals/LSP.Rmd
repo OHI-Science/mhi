@@ -4,7 +4,8 @@ Sense of Place goal tries to capture the aspects of the coastal and marine syste
 
 ### Model  
 
-The model measures the percentage of coastal marine protected area and protected coastline in each country, against a reference percentage. We focus only on coastal waters (within 3nmi of shore) and coastlines withing a  1 km-wide strip of land. The score for Lasting Special Places was assessed as the ratio of the total area protected to the total area within 3nm from shore. 
+The model measures the percentage of coastal marine protected area and protected coastline in each country, against a reference percentage. We focus on coastal waters (within 3 nautical miles of shore) and coastlines withing a  1 km-wide strip of land. The score for Lasting Special Places was assessed as the ratio of the total area protected to the total area.  
+
 
 ### Reference points 
 

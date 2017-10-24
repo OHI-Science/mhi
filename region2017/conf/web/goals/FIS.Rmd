@@ -1,6 +1,6 @@
 ### Goal Description
 
-The Fisheries sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means the region is harvesting seafood to the ecosystem’s production potential in an sustainable manner.
+The Fisheries sub-goal describes the amount harvested and sustainability of Hawaiʻi's fisheries. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means that the region is harvesting seafood in an sustainable manner. However, it is important to note that this assessment is based on relatively few formal stock assessments and many of the fish species that are included in this assessment lack stock assessments. To include these important fishery species, we made the assumption that the unassessed species within each fshery (pelagic, bottomfish, nearshore/reef, coastal pelagics) are fairing similarly to the assessed fish species.  
 
 ### Model 
 
@@ -8,9 +8,9 @@ The model assess the amount of wild-caught seafood that can be sustainably harve
 
 ### Reference points
 Sustainability refernce points typically used in formal stock assessments vary by the fishery type in Hawaiʻi.
-Pelagic fish sustainability reference point is SB/SBmsy.
-Bottomfish species sustainability reference point is B/BMSY.
-Reef fish sustainability reference point is the spawning potential ratio (SPR).
+Pelagic fish sustainability reference point is SB/SBmsy set to 1.0.
+Bottomfish species sustainability reference point is B/BMSY set to 1.0.
+Reef fish sustainability reference point is the spawning potential ratio (SPR) set to 0.30.
 
 
 
