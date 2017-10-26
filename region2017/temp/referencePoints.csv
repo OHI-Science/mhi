@@ -1862,7 +1862,7 @@
 "LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
 "HAB","Health/condition variable based on current vs. historic extent and area protected for watersheds","varies for each region/habitat"
 "SPP","Average of ESA status and fish biomass scores",NA
-<<<<<<< HEAD
+"<<<<<<< HEAD","",""
 "AO","poverty, access/km, biomass/pristine biomass",NA
 "CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"
 "LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
@@ -1883,5 +1883,22 @@
 "LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
 "HAB","Health/condition variable based on current vs. historic extent and area protected for watersheds","varies for each region/habitat"
 "SPP","Average of ESA status and fish biomass scores",NA
-=======
->>>>>>> 956e1702b1fa4dc934e634b4956c50c9217d96d8
+"=======","",""
+">>>>>>> 956e1702b1fa4dc934e634b4956c50c9217d96d8","",""
+"AO","poverty, access/km, biomass/pristine biomass",NA
+"CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"
+"LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
+"HAB","Health/condition variable based on current vs. historic extent and area protected for watersheds","varies for each region/habitat"
+"SPP","Average of ESA status and fish biomass scores",NA
+"AO","poverty, access/km, biomass/pristine biomass",NA
+"CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"
+"LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
+"HAB","Health/condition variable based on current vs. historic extent and area protected for watersheds","varies for each region/habitat"
+"SPP","Average of ESA status and fish biomass scores",NA
+"AO","poverty, access/km, biomass/pristine biomass",NA
+"CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"
+"LSP","30% marine protected area; 30% coastal protected area","varies by area of region's eez and 1 km inland"
+"HAB","Health/condition variable based on current vs. historic extent and area protected for watersheds","varies for each region/habitat"
+"SPP","Average of ESA status and fish biomass scores",NA
+"AO","poverty, access/km, biomass/pristine biomass",NA
+"CP","Health/condition variable based on current vs. historic extent","varies for each region/habitat"

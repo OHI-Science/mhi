@@ -1106,11 +1106,12 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   le_unemployment = SelectLayersData(layers, layers='le_unemployment') %>%
     dplyr::select(rgn_id = id_num, year, pct_unemployed = val_num)
 
-  #need local multiplies - jobs not identified as mammal watching, mariculture, etc from ENOW
-  # multipliers from Table S10 (Halpern et al 2012 SOM)
-  #multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
-  #                              'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
-  # multipliers_rev  = data.frame('sector' = c('mar', 'tour'), 'multiplier' = c(1.59, 1)) # not used because GDP data is not by sector
+
+  # local multipliers from DBEDT 2007 report
+  multipliers_jobs = data.frame('sector' = c('Offshore Mineral Extraction','All Ocean Sectors', 'Tourism and Recreation','Living Resources', 'Marine Construction', 'Ship and Boat Building','Marine Transportation'),
+                                'multiplier' = c(1,1,1.27, 1.76, 1, 1, 1.69)) # no multiplers for marine construction, and boat building (1)
+  multipliers_rev  = data.frame('sector' = c('Offshore Mineral Extraction','All Ocean Sectors','Tourism and Recreation','Living Resources', 'Marine Construction', 'Ship and Boat Building','Marine Transportation'),
+                                'multiplier' = c(1,1,1.32,1.58,1,1, 1.63)) # Ship and Boat building given a value of one becuase no multiplier available
 
 
   # calculate employment counts
@@ -1130,10 +1131,10 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   liv =
     # adjust jobs
     le_jobs %>%
-    #left_join(multipliers_jobs, by = 'sector') %>% # if using multiplies run this code
-    #mutate(jobs_mult = jobs * multiplier) %>%  # adjust jobs by multipliers
+    left_join(multipliers_jobs, by = 'sector') %>% # if using multiplies run this code
+    mutate(jobs_mult = jobs * multiplier) %>%  # adjust jobs by multipliers
     left_join(le_employed, by= c('rgn_id', 'year')) %>%
-    mutate(jobs_adj = jobs * proportion_employed) %>% # adjust jobs by proportion employed #assumes unemployment rate is equal to county unemployment rate and equal accross sectors
+    mutate(jobs_adj = jobs_mult * proportion_employed) %>% # adjust jobs by proportion employed #assumes unemployment rate is equal to county unemployment rate and equal accross sectors
     left_join(le_wages, by=c('rgn_id','year','sector')) %>%
     arrange(year, sector, rgn_id)
 
@@ -1258,12 +1259,20 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     sector!="All Ocean Sectors",
     sector!="Offshore Mineral Extraction")
 
-    eco = le_gdp %>%
+    #to add revenue multipliers (from DBEDT 2007)
+    eco =
+      # adjust revenue with multipliers
+      le_gdp %>%
+      left_join(multipliers_rev, by = 'sector') %>% # if using multiplies run this code
+      mutate(rev_mult = gdp_usd * multiplier)
+
+    eco = eco %>%
     mutate(
-      rev_adj = gdp_usd,
+      rev_adj = rev_mult,
       sector = 'gdp') %>%
     # adjust rev with national GDP rates if available. Example: (rev_adj = gdp_usd / ntl_gdp)
-    dplyr::select(rgn_id, year, sector, rev_adj)
+      dplyr::select(rgn_id, year, sector, rev_adj)
+
 
 
   # ECO status
