@@ -1161,16 +1161,18 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
         #ungroup() %>%
         #change mean wage to reflect the total number of jobs per sector * sector wage/ total jobs
         ungroup()%>%
-     dplyr::group_by(rgn_id,sector, year) %>%
-          dplyr::mutate(
-           wages_total = (jobs_adj*wage_usd)) %>% #change mean wage to reflect the total number of jobs per sector * sector wage/ total jobs
+     dplyr::group_by(rgn_id) %>%
+          dplyr::mutate(jobs_rgn=mean(jobs_sum))%>%
           dplyr::ungroup() %>%
-      dplyr::group_by(rgn_id, year) %>%
-        dplyr::mutate(
-        wages_avg=sum(wages_total/jobs_sum))%>%
-      dplyr::ungroup() %>%
-      dplyr::group_by(rgn_id,year) %>%
-      summarize(wages_avg=mean(wages_avg), jobs_sum=mean(jobs_sum))%>%
+      dplyr::group_by(rgn_id,sector) %>%
+      dplyr::mutate(wages_weight = (mean(jobs_adj)/jobs_rgn)) %>%
+          dplyr::ungroup() %>%
+      #dplyr::group_by(rgn_id,sector, year) %>%
+       # dplyr::mutate(
+       # wages_avg=sum(wages_total/jobs_sum))%>% #removed to calculate sector score in reference to median wage and weighted by proportion of total jobs
+      #dplyr::ungroup() %>%
+      dplyr::group_by(rgn_id,year,sector) %>%
+      #summarize(wages_avg=mean(wages_avg), jobs_sum=mean(jobs_sum))%>%
       arrange(rgn_id, year) %>%
       dplyr::mutate(
         # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
@@ -1183,8 +1185,15 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
       #calculate final scores
       ungroup() %>%
       mutate(
-        x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
-        x_wages = pmin(1, wages_avg / wages_avg_first)) %>%
+        #x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
+        x_wages = pmin(1, wage_usd / wages_avg_first)) %>%
+     dplyr::group_by(rgn_id,year) %>%
+        summarize(x_wages=mean(x_wages), x_job=mean(x_job))
+     dplyr::mutate(x_wages_test = prod(x_wages^wages_weight))%>%
+
+      mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
+       dplyr::group_by(rgn_id,year) %>%
+       summarize( x_job=mean(x_job))
       mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
       filter(year == max(year, na.rm=T)) %>%
       # format
@@ -1263,7 +1272,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     eco =
       # adjust revenue with multipliers
       le_gdp %>%
-      left_join(multipliers_rev, by = 'sector') %>% # if using multiplies run this code
+      left_join(multipliers_rev, by = 'sector') %>% # if using multipliers run this code
       mutate(rev_mult = gdp_usd * multiplier)
 
     eco = eco %>%

@@ -6,8 +6,8 @@ The jobs and revenue produced from marine-related industries are clearly of huge
 
 The Livelihood model is based on job and wage data: 
 
-- jobs: the total number of jobs within marine sectors within a region, adjusted by sector- and development status-specific multipliers derived from the literature. The multipliers account not only for direct employment opportunities and revenue, but also indirect and induced economic effects, since activity in the direct industry stimulates additional jobs and revenue in related industries.
-- average wages per job within each sector
+- Jobs: The total number of jobs within marine sectors within a region, adjusted by sector- and development status-specific multipliers derived from DBEDT 2007 (http://files.hawaii.gov/dbedt/economic/reports/IO/2007_state_io_study.pdf). The multipliers account not only for direct employment opportunities and revenue, but also indirect and induced economic effects, since activity in the direct industry stimulates additional jobs and revenue in related industries.
+- Wage: The average wage for each marine sector referenced to median wage in Hawaii measured as per capita personal income in 2015, $48,288 (DBEDT http://dbedt.hawaii.gov/economic/ranks/). 
 
 The marine sectors included in this model are: Marine Construction, Living Resources, Ship and Boat Building, Tourism and Recreation, and Marine Transportation.  
 
