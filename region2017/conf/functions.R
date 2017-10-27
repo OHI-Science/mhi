@@ -1113,8 +1113,12 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   multipliers_rev  = data.frame('sector' = c('Offshore Mineral Extraction','All Ocean Sectors','Tourism and Recreation','Living Resources', 'Marine Construction', 'Ship and Boat Building','Marine Transportation'),
                                 'multiplier' = c(1,1,1.32,1.58,1,1, 1.63)) # Ship and Boat building given a value of one becuase no multiplier available
 
+  sss<-data.frame(rgn_id=c('1','2','3','4'),
+      sss=c('24435','31435','31675','38472')) #self suficency standard for one adult family- DBEDT 2014
+    sss$rgn_id<-as.integer(sss$rgn_id)
+    sss$sss=as.integer(c('24435','31435','31675','38472'))
 
-  # calculate employment counts
+    # calculate employment counts
   le_employed = le_workforce_size %>%
     left_join(le_unemployment, by = c('rgn_id', 'year')) %>%
     mutate(proportion_employed = (100 - pct_unemployed) / 100,
@@ -1131,11 +1135,12 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   liv =
     # adjust jobs
     le_jobs %>%
-    left_join(multipliers_jobs, by = 'sector') %>% # if using multiplies run this code
+    left_join(multipliers_jobs, by = 'sector') %>% # if using multipliers run this code
     mutate(jobs_mult = jobs * multiplier) %>%  # adjust jobs by multipliers
     left_join(le_employed, by= c('rgn_id', 'year')) %>%
     mutate(jobs_adj = jobs_mult * proportion_employed) %>% # adjust jobs by proportion employed #assumes unemployment rate is equal to county unemployment rate and equal accross sectors
     left_join(le_wages, by=c('rgn_id','year','sector')) %>%
+    left_join(sss, by=('rgn_id'))%>%
     arrange(year, sector, rgn_id)
 
   # LIV calculations ----
@@ -1179,21 +1184,19 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
         jobs_sum_first  = first(jobs_sum),                     # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
         # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
         # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-        wages_avg_first = 48288) %>% #per capita personal income #consider changing equation to reflect number of jobs in sector times wage score
-        #wages_avg_first = first(wages_avg)) %>% # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
-      #senario for hawaii replace first_wage with livable wage #1 adult =32,818, if 2 adults and 2 childen - typical family? then 87,789 combined income.
+        wages_avg_first = sss) %>% ##self suficency standard
       #calculate final scores
       ungroup() %>%
       mutate(
-        #x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
+        x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
         x_wages = pmin(1, wage_usd / wages_avg_first)) %>%
-     dplyr::group_by(rgn_id,year) %>%
-        summarize(x_wages=mean(x_wages), x_job=mean(x_job))
-     dplyr::mutate(x_wages_test = prod(x_wages^wages_weight))%>%
-
-      mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
-       dplyr::group_by(rgn_id,year) %>%
-       summarize( x_job=mean(x_job))
+     dplyr::group_by(rgn_id,sector, year) %>%
+     dplyr::mutate(x_wages_test = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
+    ungroup() %>%
+     mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
+      dplyr::group_by(rgn_id,year) %>%
+      summarize(x_wages=mean(x_wages), x_jobs=mean(x_jobs))%>%
+    ungroup() %>%
       mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
       filter(year == max(year, na.rm=T)) %>%
       # format
