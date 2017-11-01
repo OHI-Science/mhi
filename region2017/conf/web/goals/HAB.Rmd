@@ -1,6 +1,6 @@
 ### Goal Description
 
-The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
+The Habitats sub-goal of Biodiversity measures the extent and condition of ocean and coastal habitats.
 
 ### Model & Data 
 

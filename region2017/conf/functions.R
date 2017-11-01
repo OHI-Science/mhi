@@ -1501,19 +1501,21 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
 
-  layers_data = SelectLayersData(layers, layers=c('lsp_mma_mhi2017'))#inland protected conservation districts
+  layers_data = SelectLayersData(layers, layers=c('lsp_mma_mhi2017'))#marine managed areas
 
   mpa<- layers_data %>%
     select(rgn_id = id_num, mpa=val_num)
 
 
-  #layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#inland protected conservation districts
+  #layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#nearshore protected areas
 
   #mpa<- layers_data %>%
   #  select(region_id = id_num, type=category, mpa=val_num)
 
   layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
 
+  #use if wanting to weight MPAʻs by protective ability - we did not use because wanted score
+  #to be consistent with the states 30 by 30 management goals
   #rank <- c('zoned_w_no_take'            = 1,
   #          'multiple_use'            = .5)
 

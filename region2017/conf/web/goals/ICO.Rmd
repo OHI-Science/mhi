@@ -1,12 +1,7 @@
 ### Goal Description
 
-Iconic species are those that are relevant to local cultural identity through a species’ relationship to one or more of the following: 1) traditional activities such as fishing, hunting or commerce; 2) local ethnic or religious practices; 3) existence value; and 4) locally-recognized aesthetic value (e.g., touristic attractions/common subjects for art such as whales). Habitat-forming species are not included in this definition of iconic species, nor are species that are harvested solely for economic or utilitarian purposes (even though they may be iconic to a sector or individual). This sub-goal assesses how well those species are conserved.
-
-### Model 
-
-The Iconic Species model measures the percentage of iconic species in each extinction risk category. Species list is drawn from the World Wildlife Fund’s global and regional lists for Priority Species (especially important to people for their health, livelihoods, and/or culture) and Flagship Species (‘charismatic’ and/or well-known). Threat weights were assigned based on the IUCN threat categories status of each species.
-
+Connection to Place measures the relationship that people have with the ocean and coastal areas. How we use ocean areas can in part define our connection and values towards them. There were many very valuable suggestions on how to measure Connection to Place including the use and knowledge of Hawaiian place names. Hawaiian names often reflect the activities, history, and the environment of the place. Unfortunately, there was no available and consistent way to measure the use of Hawaiian place names. This is a data gap and need that was identified during the development process for this goal. Therefore, Connection to Place was measured through activities that take place in each place, assessed as the participation rate in ocean and coastal activities. This information was collected across the state by the NOAA Coral Reef Conservation Program socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii (NOAA 2014). Unfortunately, 2014 was the first year of this assessment so there is not a baseline or reference to measure against. NOAA Socio-economic division began surveys to track the frequency of recreational activities in Hawai’i in 2014 and these surveys are planned to be repeated every 3-4 years. This goal will be updated with future survey data.
 
 ### Reference points 
 
-The reference point is to have the risk status of all assessed species as Least Concern.
+No net loss in participation in ocean recreational and cultural activities.
