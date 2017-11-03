@@ -1,60 +1,66 @@
 rgn_id,Type,Common Name,Hawaiian Name,Species name,ESA Status,score
-1,Coastal Plant,,_Anaunau,Lepidium bedentatum,v,1
-1,Coastal Plant,,_Ena_ena,Psuedognaphalium sandwicensium,,1
-1,Coastal Plant,,_Ihi,Portulaca molokiniensis,e,0.25
-1,Coastal Plant,,_Ihi,Portulaca lutea,,1
-1,Coastal Plant,,_Ilima,Sida fallax,,1
-1,Coastal Plant,,_Ohai,Sesbania tomentosa,e,0.25
-1,Coastal Plant,,_Ohelo kai,Lycium sandwicense,,1
-1,Coastal Plant,,_Uhaloa/Hi_aloa,Waltheria indica,,1
+1,Coastal Plant,Beach spurge,"Koko, _akoko",Chamaesyce degeneri,,1
+1,Coastal Plant,,"__kia, kauhi",Wikstroemia spp,,1
 1,Coastal Plant,,Ahuawa,Mariscus javanicus,,1
 1,Coastal Plant,,Akaakai,Schoenoplectella tabernae-montani,,1
 1,Coastal Plant,,Alena,Boerhavia repens,,1
-1,Coastal Plant,Bastard sandalwood,Naio,Myoporum sandwicense,,1
-1,Coastal Plant,Beach morning glory,Pohuehue,Ipomoea pes-caprae,,1
-1,Coastal Plant,Beach Naupaka,Naupaka kahakai,Scaevola sericea,,1
-1,Coastal Plant,Beach pea,nanea,Vigna marina,,1
-1,Coastal Plant,Beach vitex,Pohinahina,Vitex rotundifolia,,1
-1,Coastal Plant,"Caper bush,",Pua pilo or Maiapilo,Capparis sandwichiana,v,1
-1,Coastal Plant,Coastal morning glory,Koali_awa,Ipomoea littoralis,,1
-1,Coastal Plant,Coastal sandalwood,coastal sandalwood,Santalum ellipticum ,v,1
-1,Coastal Plant,Coconut palm,Niu,Cocos nucifera,,1
-1,Coastal Plant,,Degener_s _akoko,Euphorbia degeneri,v,1
-1,Coastal Plant,Dwarf naupaka,Dwarf naupaka,Scaevola coriacsea,e,0.25
-1,Coastal Plant,East Maui _Akoko,_Akoko,Euphorbia celastroides var. laechiensis,e,0.25
-1,Coastal Plant,Hairy Purslane,_Ihi,Portulaca villosa,e,0.25
+1,Coastal Plant,,Degener_s _akoko,Euphorbia degeneri,V,0.7
+1,Coastal Plant,Dwarf naupaka,Dwarf naupaka,Scaevola coriacsea,E,0.25
+1,Coastal Plant,Pandanus,hala/Pu hala,Pandanus tectorius,,1
 1,Coastal Plant,,Hau,Talipariti tiliaceus,,1
-1,Coastal Plant,Hawaiian Cotton,Ma_o,Gossypium tomentosum,v,1
 1,Coastal Plant,,Hinahina,Heliotropium anomalum,,1
-1,Coastal Plant,,Hinahina Kahakai,Nama sandwicensis,v,1
+1,Coastal Plant,Hawaiian Nama,Hinahina Kahakai,Nama sandwicensis,V,0.7
+1,Coastal Plant,Moonseed,Huehue,Cocculus orbiculatus,,1
 1,Coastal Plant,,Hunakai,Ipomoea imperati,,1
-1,Coastal Plant,Indian morning glory,Koali_awa,Ipomoea indica,,1
-1,Coastal Plant,Ivy-leaved morning glory,Koali_ai,Ipomoea cairica,,1
-1,Coastal Plant,,Ka_ena _akoko,Euphorbia celastroides var. kaenana,e,0.25
 1,Coastal Plant,,Kalo,Colocasia esculenta,,1
 1,Coastal Plant,Alexandrian Laurel,Kamai,Calophyllum inophyllum,,1
 1,Coastal Plant,,Kauna_oa,Cuscuta sandwichiana,,1
-1,Coastal Plant,,Kawelu,Eragrostis variabilis,,1
-1,Coastal Plant,Kilauea Portulaca,_Ihi makole,Portulaca sclerocarpa,e,0.25
+1,Coastal Plant,,"K_welu, _Emoloa",Eragrostis variabilis,,1
+1,Coastal Plant,,Ka_ena _akoko,Euphorbia celastroides var. kaenana,E,0.25
+1,Coastal Plant,Ivy-leaved morning glory,Koali_ai,Ipomoea cairica,,1
+1,Coastal Plant,Coastal morning glory,Koali_awa,Ipomoea littoralis,,1
+1,Coastal Plant,Indian morning glory,Koali_awa,Ipomoea indica,,1
 1,Coastal Plant,,Makaloa,Cyperus laevigatus,,1
 1,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Spathacea,,1
 1,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Umbellato-capitata,,1
+1,Coastal Plant,Hawaiian Cotton,Ma_o,Gossypium tomentosum,V,0.7
 1,Coastal Plant,,Milo,Thespesia populnea,,1
-1,Coastal Plant,Moonseed,Huehue,Cocculus orbiculatus,,1
-1,Coastal Plant,,Nehe,Melanthera integrifolia,v,1
+1,Coastal Plant,Bastard sandalwood,Naio,Myoporum sandwicense,,1
+2,Coastal Plant,Beach sandalwood,_Iliahialo_e,Santalum ellipticum ,V,0.7
+1,Coastal Plant,Beach pea,nanea,Vigna marina,,1
+1,Coastal Plant,Beach Naupaka,Naupaka kahakai,Scaevola sericea,,1
+1,Coastal Plant,,Nehe,"Melanthera integrifolia, Lipochaeta integrifolia",V,0.7
 1,Coastal Plant,,Nehe,Lipochaeta succulenta,,1
 1,Coastal Plant,,neke Fern,Cyperus interruptus,,1
-1,Coastal Plant,,Nena/Kipukai,Heliotropium curassavicum,,1
-1,Coastal Plant,,Pa_uohi_iaka,Jacquemontia ovalifolia,,1
-1,Coastal Plant,Pandanus,hala/Pu hala,Pandanus tectorius,,1
-1,Coastal Plant,,Popolo,Solanum nelsonii,e,0.25
+1,Coastal Plant,Seaside heliotrope,Nena/Kipukai,Heliotropium curassavicum,,1
+1,Coastal Plant,Coconut palm,Niu,Cocos nucifera,,1
 1,Coastal Plant,Puncture vine,Nohu,Tribulus cistoides,,1
-1,Coastal Plant,,Puukaa,Cyperus trachysanthos,e,0.25
-1,Coastal Plant,,Schidea,Schiedea globosa,v,1
-1,Coastal Plant,Sea purslane,_Akulikuli,Sesuvium portulacastrum,,1
-1,Coastal Plant,Seashore rushgrass,_Aki_aki,Sporobolus virginicus,,1
+1,Coastal Plant,,Pa_uohi_iaka,Jacquemontia ovalifolia,,1
+1,Coastal Plant,Beach vitex,Pohinahina,Vitex rotundifolia,,1
+1,Coastal Plant,Beach morning glory,Pohuehue,Ipomoea pes-caprae,,1
+1,Coastal Plant,,P_polo,Solanum nelsonii,E,0.25
+1,Coastal Plant,"Caper bush,",Pua pilo or Maiapilo,Capparis sandwichiana,V,0.7
+2,Coastal Plant,Prickly poppy,Pua kala,Aregemone glauca,,1
+1,Coastal Plant,,Puukaa,Cyperus trachysanthos,E,0.25
+1,Coastal Plant,Schiedea,,Schiedea globosa,V,0.7
 1,Coastal Plant,,Uki,Cladium jamaicense,,1
 1,Coastal Plant,Water Hyssop,_Ae_ae,Bacopa monnieri,,1
+1,Coastal Plant,Seashore rushgrass,_Aki_aki,Sporobolus virginicus,,1
+1,Coastal Plant,East Maui _Akoko,_Akoko,Euphorbia celastroides var. laechiensis,E,0.25
+1,Coastal Plant,Sea purslane,_Akulikuli,Sesuvium portulacastrum,,1
+1,Coastal Plant,,_Anaunau,Lepidium bedentatum,V,0.7
+1,Coastal Plant,,_Ena_ena,Psuedognaphalium sandwicensium,,1
+1,Coastal Plant,,_Ihi,Portulaca molokiniensis,E,0.25
+1,Coastal Plant,Pigweed,_Ihi,Portulaca lutea,,1
+1,Coastal Plant,Hairy Purslane,_Ihi,Portulaca villosa,E,0.25
+1,Coastal Plant,Kilauea Portulaca,_Ihi makole,Portulaca sclerocarpa,E,0.25
+1,Coastal Plant,,_Ilima,Sida fallax,,1
+1,Coastal Plant,,_Ohai,Sesbania tomentosa,E,0.25
+1,Coastal Plant,,_Ohelo kai,Lycium sandwicense,,1
+1,Coastal Plant,,__hi_a lehua,Metrosideros polymorpha,,1
+1,Coastal Plant,,"__lei, eluehe, u_ulei",Osteomeles anthyllidifolia,,1
+1,Coastal Plant,,Wiliwili,Erythrina sandwicensis,,1
+1,Coastal Plant,,_Uhaloa/Hi_aloa,Waltheria indica,,1
 1,Marine Bird,Band-rumped strom-petrel,,Oceanodroma castro,,0.25
 1,Marine Bird,Black-footed albatross,,Phoebastria nigripes,,0.7
 1,Marine Bird,Black noddy,,Anous stolidus pileatus,,0.7
@@ -116,62 +122,68 @@ rgn_id,Type,Common Name,Hawaiian Name,Species name,ESA Status,score
 1,Marine Turtle,Leatherback,,Dermochelys cariacea,E,0.25
 1,Marine Turtle,Loggerhead,,Caretta caretta,E,0.25
 1,Marine Turtle,Olive Ridley,,Lepidochelys olivacea,T,0.5
-2,Coastal Plant,?Anaunau,,Lepidium bedentatum,v,1
-2,Coastal Plant,?Ena?ena,,Psuedognaphalium sandwicensium,,1
-2,Coastal Plant,?Ihi,,Portulaca molokiniensis,e,0.25
-2,Coastal Plant,?Ihi,,Portulaca lutea,,1
-2,Coastal Plant,?Ilima,,Sida fallax,,1
-2,Coastal Plant,?Ohai,,Sesbania tomentosa,e,0.25
-2,Coastal Plant,?Ohelo kai,,Lycium sandwicense,,1
-2,Coastal Plant,?Uhaloa/Hi?aloa,,Waltheria indica,,1
-2,Coastal Plant,Ahuawa,,Mariscus javanicus,,1
-2,Coastal Plant,Akaakai,,Schoenoplectella tabernae-montani,,1
-2,Coastal Plant,Alena,,Boerhavia repens,,1
-2,Coastal Plant,Bastard sandalwood/Naio,,Myoporum sandwicense,,1
-2,Coastal Plant,Beach morning glory/ Pohuehue,,Ipomoea pes-caprae,,1
-2,Coastal Plant,Beach Naupaka kahakai,,Scaevola sericea,,1
-2,Coastal Plant,Beach pea/nanea,,Vigna marina,,1
-2,Coastal Plant,Beach vitex/Pohinahina,,Vitex rotundifolia,,1
-2,Coastal Plant,"Caper bush, Pua pilo or Maiapilo",,Capparis sandwichiana,v,1
-2,Coastal Plant,Coastal morning glory/Koali?awa,,Ipomoea littoralis,,1
-2,Coastal Plant,coastal sandalwood,,Santalum ellipticum ,v,1
-2,Coastal Plant,Coconut palm/Niu,,Cocos nucifera,,1
-2,Coastal Plant,Degener?s ?akoko,,Euphorbia degeneri,v,1
-2,Coastal Plant,Dwarf naupaka,,Scaevola coriacsea,e,0.25
-2,Coastal Plant,East Maui ?Akoko,,Euphorbia celastroides var. laechiensis,e,0.25
-2,Coastal Plant,Hairy Purslane/?Ihi,,Portulaca villosa,e,0.25
-2,Coastal Plant,Hau,,Talipariti tiliaceus,,1
-2,Coastal Plant,Hawaiian Cotton/ Ma?o,,Gossypium tomentosum,v,1
-2,Coastal Plant,Hinahina,,Heliotropium anomalum,,1
-2,Coastal Plant,Hinahina Kahakai,,Nama sandwicensis,v,1
-2,Coastal Plant,Hunakai,,Ipomoea imperati,,1
-2,Coastal Plant,Indian morning glory/ Koali?awa,,Ipomoea indica,,1
-2,Coastal Plant,Ivy-leaved morning glory/Koali?ai,,Ipomoea cairica,,1
-2,Coastal Plant,Ka?ena ?akoko,,Euphorbia celastroides var. kaenana,e,0.25
-2,Coastal Plant,Kalo,,Colocasia esculenta,,1
-2,Coastal Plant,Kamai/Alexandrian Laurel,,Calophyllum inophyllum,,1
-2,Coastal Plant,Kauna?oa,,Cuscuta sandwichiana,,1
-2,Coastal Plant,Kawelu,,Eragrostis variabilis,,1
-2,Coastal Plant,Kilauea Portulaca/?Ihi makole,,Portulaca sclerocarpa,e,0.25
-2,Coastal Plant,Makaloa,,Cyperus laevigatus,,1
-2,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Spathacea,,1
-2,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Umbellato-capitata,,1
-2,Coastal Plant,Milo,,Thespesia populnea,,1
-2,Coastal Plant,Moonseed/Huehue,,Cocculus orbiculatus,,1
-2,Coastal Plant,Nehe,,Melanthera integrifolia,v,1
-2,Coastal Plant,Nehe,,Lipochaeta succulenta,,1
-2,Coastal Plant,neke Fern,,Cyperus interruptus,,1
-2,Coastal Plant,Nena/Kipukai,,Heliotropium curassavicum,,1
-2,Coastal Plant,Pa?uohi?iaka,,Jacquemontia ovalifolia,,1
-2,Coastal Plant,Pandanus/hala/Pu hala,,Pandanus tectorius,,1
-2,Coastal Plant,Popolo,,Solanum nelsonii,e,0.25
-2,Coastal Plant,Puncture vine/Nohu,,Tribulus cistoides,,1
-2,Coastal Plant,Puukaa,,Cyperus trachysanthos,e,0.25
-2,Coastal Plant,Schidea,,Schiedea globosa,v,1
-2,Coastal Plant,Sea purslane/?Akulikuli,,Sesuvium portulacastrum,,1
-2,Coastal Plant,Seashore rushgrass/?Aki?aki,,Sporobolus virginicus,,1
-2,Coastal Plant,Uki,,Cladium jamaicense,,1
-2,Coastal Plant,Water Hyssop/?Ae?ae,,Bacopa monnieri,,1
+2,Coastal Plant,Beach spurge,"Koko, _akoko",Chamaesyce degeneri,,1
+2,Coastal Plant,,"__kia, kauhi",Wikstroemia spp,,1
+2,Coastal Plant,,Ahuawa,Mariscus javanicus,,1
+2,Coastal Plant,,Akaakai,Schoenoplectella tabernae-montani,,1
+2,Coastal Plant,,Alena,Boerhavia repens,,1
+2,Coastal Plant,,Degener_s _akoko,Euphorbia degeneri,V,0.7
+2,Coastal Plant,Dwarf naupaka,Dwarf naupaka,Scaevola coriacsea,E,0.25
+2,Coastal Plant,Pandanus,hala/Pu hala,Pandanus tectorius,,1
+2,Coastal Plant,,Hau,Talipariti tiliaceus,,1
+2,Coastal Plant,,Hinahina,Heliotropium anomalum,,1
+2,Coastal Plant,Hawaiian Nama,Hinahina Kahakai,Nama sandwicensis,V,0.7
+2,Coastal Plant,Moonseed,Huehue,Cocculus orbiculatus,,1
+2,Coastal Plant,,Hunakai,Ipomoea imperati,,1
+2,Coastal Plant,,Kalo,Colocasia esculenta,,1
+2,Coastal Plant,Alexandrian Laurel,Kamai,Calophyllum inophyllum,,1
+2,Coastal Plant,,Kauna_oa,Cuscuta sandwichiana,,1
+2,Coastal Plant,,"K_welu, _Emoloa",Eragrostis variabilis,,1
+2,Coastal Plant,,Ka_ena _akoko,Euphorbia celastroides var. kaenana,E,0.25
+2,Coastal Plant,Ivy-leaved morning glory,Koali_ai,Ipomoea cairica,,1
+2,Coastal Plant,Coastal morning glory,Koali_awa,Ipomoea littoralis,,1
+2,Coastal Plant,Indian morning glory,Koali_awa,Ipomoea indica,,1
+2,Coastal Plant,,Makaloa,Cyperus laevigatus,,1
+2,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Spathacea,,1
+2,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Umbellato-capitata,,1
+2,Coastal Plant,Hawaiian Cotton,Ma_o,Gossypium tomentosum,V,0.7
+2,Coastal Plant,,Milo,Thespesia populnea,,1
+2,Coastal Plant,Bastard sandalwood,Naio,Myoporum sandwicense,,1
+2,Coastal Plant,Beach sandalwood,_Iliahialo_e,Santalum ellipticum ,V,0.7
+2,Coastal Plant,Beach pea,nanea,Vigna marina,,1
+2,Coastal Plant,Beach Naupaka,Naupaka kahakai,Scaevola sericea,,1
+2,Coastal Plant,,Nehe,"Melanthera integrifolia, Lipochaeta integrifolia",V,0.7
+2,Coastal Plant,,Nehe,Lipochaeta succulenta,,1
+2,Coastal Plant,,neke Fern,Cyperus interruptus,,1
+2,Coastal Plant,Seaside heliotrope,Nena/Kipukai,Heliotropium curassavicum,,1
+2,Coastal Plant,Coconut palm,Niu,Cocos nucifera,,1
+2,Coastal Plant,Puncture vine,Nohu,Tribulus cistoides,,1
+2,Coastal Plant,,Pa_uohi_iaka,Jacquemontia ovalifolia,,1
+2,Coastal Plant,Beach vitex,Pohinahina,Vitex rotundifolia,,1
+2,Coastal Plant,Beach morning glory,Pohuehue,Ipomoea pes-caprae,,1
+2,Coastal Plant,,P_polo,Solanum nelsonii,E,0.25
+2,Coastal Plant,"Caper bush,",Pua pilo or Maiapilo,Capparis sandwichiana,V,0.7
+2,Coastal Plant,Prickly poppy,Pua kala,Aregemone glauca,,1
+2,Coastal Plant,,Puukaa,Cyperus trachysanthos,E,0.25
+2,Coastal Plant,Schiedea,,Schiedea globosa,V,0.7
+2,Coastal Plant,,Uki,Cladium jamaicense,,1
+2,Coastal Plant,Water Hyssop,_Ae_ae,Bacopa monnieri,,1
+2,Coastal Plant,Seashore rushgrass,_Aki_aki,Sporobolus virginicus,,1
+2,Coastal Plant,East Maui _Akoko,_Akoko,Euphorbia celastroides var. laechiensis,E,0.25
+2,Coastal Plant,Sea purslane,_Akulikuli,Sesuvium portulacastrum,,1
+2,Coastal Plant,,_Anaunau,Lepidium bedentatum,V,0.7
+2,Coastal Plant,,_Ena_ena,Psuedognaphalium sandwicensium,,1
+2,Coastal Plant,,_Ihi,Portulaca molokiniensis,E,0.25
+2,Coastal Plant,Pigweed,_Ihi,Portulaca lutea,,1
+2,Coastal Plant,Hairy Purslane,_Ihi,Portulaca villosa,E,0.25
+2,Coastal Plant,Kilauea Portulaca,_Ihi makole,Portulaca sclerocarpa,E,0.25
+2,Coastal Plant,,_Ilima,Sida fallax,,1
+2,Coastal Plant,,_Ohai,Sesbania tomentosa,E,0.25
+2,Coastal Plant,,_Ohelo kai,Lycium sandwicense,,1
+2,Coastal Plant,,__hi_a lehua,Metrosideros polymorpha,,1
+2,Coastal Plant,,"__lei, eluehe, u_ulei",Osteomeles anthyllidifolia,,1
+2,Coastal Plant,,Wiliwili,Erythrina sandwicensis,,1
+2,Coastal Plant,,_Uhaloa/Hi_aloa,Waltheria indica,,1
 2,Marine Bird,Band-rumped strom-petrel,,Oceanodroma castro,,0.25
 2,Marine Bird,Black-footed albatross,,Phoebastria nigripes,,0.7
 2,Marine Bird,Black noddy,,Anous stolidus pileatus,,0.7
@@ -233,62 +245,68 @@ rgn_id,Type,Common Name,Hawaiian Name,Species name,ESA Status,score
 2,Marine Turtle,Leatherback,,Dermochelys cariacea,E,0.25
 2,Marine Turtle,Loggerhead,,Caretta caretta,E,0.25
 2,Marine Turtle,Olive Ridley,,Lepidochelys olivacea,T,0.5
-3,Coastal Plant,?Anaunau,,Lepidium bedentatum,v,1
-3,Coastal Plant,?Ena?ena,,Psuedognaphalium sandwicensium,,1
-3,Coastal Plant,?Ihi,,Portulaca molokiniensis,e,0.25
-3,Coastal Plant,?Ihi,,Portulaca lutea,,1
-3,Coastal Plant,?Ilima,,Sida fallax,,1
-3,Coastal Plant,?Ohai,,Sesbania tomentosa,e,0.25
-3,Coastal Plant,?Ohelo kai,,Lycium sandwicense,,1
-3,Coastal Plant,?Uhaloa/Hi?aloa,,Waltheria indica,,1
-3,Coastal Plant,Ahuawa,,Mariscus javanicus,,1
-3,Coastal Plant,Akaakai,,Schoenoplectella tabernae-montani,,1
-3,Coastal Plant,Alena,,Boerhavia repens,,1
-3,Coastal Plant,Bastard sandalwood/Naio,,Myoporum sandwicense,,1
-3,Coastal Plant,Beach morning glory/ Pohuehue,,Ipomoea pes-caprae,,1
-3,Coastal Plant,Beach Naupaka kahakai,,Scaevola sericea,,1
-3,Coastal Plant,Beach pea/nanea,,Vigna marina,,1
-3,Coastal Plant,Beach vitex/Pohinahina,,Vitex rotundifolia,,1
-3,Coastal Plant,"Caper bush, Pua pilo or Maiapilo",,Capparis sandwichiana,v,1
-3,Coastal Plant,Coastal morning glory/Koali?awa,,Ipomoea littoralis,,1
-3,Coastal Plant,coastal sandalwood,,Santalum ellipticum ,v,1
-3,Coastal Plant,Coconut palm/Niu,,Cocos nucifera,,1
-3,Coastal Plant,Degener?s ?akoko,,Euphorbia degeneri,v,1
-3,Coastal Plant,Dwarf naupaka,,Scaevola coriacsea,e,0.25
-3,Coastal Plant,East Maui ?Akoko,,Euphorbia celastroides var. laechiensis,e,0.25
-3,Coastal Plant,Hairy Purslane/?Ihi,,Portulaca villosa,e,0.25
-3,Coastal Plant,Hau,,Talipariti tiliaceus,,1
-3,Coastal Plant,Hawaiian Cotton/ Ma?o,,Gossypium tomentosum,v,1
-3,Coastal Plant,Hinahina,,Heliotropium anomalum,,1
-3,Coastal Plant,Hinahina Kahakai,,Nama sandwicensis,v,1
-3,Coastal Plant,Hunakai,,Ipomoea imperati,,1
-3,Coastal Plant,Indian morning glory/ Koali?awa,,Ipomoea indica,,1
-3,Coastal Plant,Ivy-leaved morning glory/Koali?ai,,Ipomoea cairica,,1
-3,Coastal Plant,Ka?ena ?akoko,,Euphorbia celastroides var. kaenana,e,0.25
-3,Coastal Plant,Kalo,,Colocasia esculenta,,1
-3,Coastal Plant,Kamai/Alexandrian Laurel,,Calophyllum inophyllum,,1
-3,Coastal Plant,Kauna?oa,,Cuscuta sandwichiana,,1
-3,Coastal Plant,Kawelu,,Eragrostis variabilis,,1
-3,Coastal Plant,Kilauea Portulaca/?Ihi makole,,Portulaca sclerocarpa,e,0.25
-3,Coastal Plant,Makaloa,,Cyperus laevigatus,,1
-3,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Spathacea,,1
-3,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Umbellato-capitata,,1
-3,Coastal Plant,Milo,,Thespesia populnea,,1
-3,Coastal Plant,Moonseed/Huehue,,Cocculus orbiculatus,,1
-3,Coastal Plant,Nehe,,Melanthera integrifolia,v,1
-3,Coastal Plant,Nehe,,Lipochaeta succulenta,,1
-3,Coastal Plant,neke Fern,,Cyperus interruptus,,1
-3,Coastal Plant,Nena/Kipukai,,Heliotropium curassavicum,,1
-3,Coastal Plant,Pa?uohi?iaka,,Jacquemontia ovalifolia,,1
-3,Coastal Plant,Pandanus/hala/Pu hala,,Pandanus tectorius,,1
-3,Coastal Plant,Popolo,,Solanum nelsonii,e,0.25
-3,Coastal Plant,Puncture vine/Nohu,,Tribulus cistoides,,1
-3,Coastal Plant,Puukaa,,Cyperus trachysanthos,e,0.25
-3,Coastal Plant,Schidea,,Schiedea globosa,v,1
-3,Coastal Plant,Sea purslane/?Akulikuli,,Sesuvium portulacastrum,,1
-3,Coastal Plant,Seashore rushgrass/?Aki?aki,,Sporobolus virginicus,,1
-3,Coastal Plant,Uki,,Cladium jamaicense,,1
-3,Coastal Plant,Water Hyssop/?Ae?ae,,Bacopa monnieri,,1
+3,Coastal Plant,Beach spurge,"Koko, _akoko",Chamaesyce degeneri,,1
+3,Coastal Plant,,"__kia, kauhi",Wikstroemia spp,,1
+3,Coastal Plant,,Ahuawa,Mariscus javanicus,,1
+3,Coastal Plant,,Akaakai,Schoenoplectella tabernae-montani,,1
+3,Coastal Plant,,Alena,Boerhavia repens,,1
+3,Coastal Plant,,Degener_s _akoko,Euphorbia degeneri,V,0.7
+3,Coastal Plant,Dwarf naupaka,Dwarf naupaka,Scaevola coriacsea,E,0.25
+3,Coastal Plant,Pandanus,hala/Pu hala,Pandanus tectorius,,1
+3,Coastal Plant,,Hau,Talipariti tiliaceus,,1
+3,Coastal Plant,,Hinahina,Heliotropium anomalum,,1
+3,Coastal Plant,Hawaiian Nama,Hinahina Kahakai,Nama sandwicensis,V,0.7
+3,Coastal Plant,Moonseed,Huehue,Cocculus orbiculatus,,1
+3,Coastal Plant,,Hunakai,Ipomoea imperati,,1
+3,Coastal Plant,,Kalo,Colocasia esculenta,,1
+3,Coastal Plant,Alexandrian Laurel,Kamai,Calophyllum inophyllum,,1
+3,Coastal Plant,,Kauna_oa,Cuscuta sandwichiana,,1
+3,Coastal Plant,,"K_welu, _Emoloa",Eragrostis variabilis,,1
+3,Coastal Plant,,Ka_ena _akoko,Euphorbia celastroides var. kaenana,E,0.25
+3,Coastal Plant,Ivy-leaved morning glory,Koali_ai,Ipomoea cairica,,1
+3,Coastal Plant,Coastal morning glory,Koali_awa,Ipomoea littoralis,,1
+3,Coastal Plant,Indian morning glory,Koali_awa,Ipomoea indica,,1
+3,Coastal Plant,,Makaloa,Cyperus laevigatus,,1
+3,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Spathacea,,1
+3,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Umbellato-capitata,,1
+3,Coastal Plant,Hawaiian Cotton,Ma_o,Gossypium tomentosum,V,0.7
+3,Coastal Plant,,Milo,Thespesia populnea,,1
+3,Coastal Plant,Bastard sandalwood,Naio,Myoporum sandwicense,,1
+3,Coastal Plant,Beach sandalwood,_Iliahialo_e,Santalum ellipticum ,V,0.7
+3,Coastal Plant,Beach pea,nanea,Vigna marina,,1
+3,Coastal Plant,Beach Naupaka,Naupaka kahakai,Scaevola sericea,,1
+3,Coastal Plant,,Nehe,"Melanthera integrifolia, Lipochaeta integrifolia",V,0.7
+3,Coastal Plant,,Nehe,Lipochaeta succulenta,,1
+3,Coastal Plant,,neke Fern,Cyperus interruptus,,1
+3,Coastal Plant,Seaside heliotrope,Nena/Kipukai,Heliotropium curassavicum,,1
+3,Coastal Plant,Coconut palm,Niu,Cocos nucifera,,1
+3,Coastal Plant,Puncture vine,Nohu,Tribulus cistoides,,1
+3,Coastal Plant,,Pa_uohi_iaka,Jacquemontia ovalifolia,,1
+3,Coastal Plant,Beach vitex,Pohinahina,Vitex rotundifolia,,1
+3,Coastal Plant,Beach morning glory,Pohuehue,Ipomoea pes-caprae,,1
+3,Coastal Plant,,P_polo,Solanum nelsonii,E,0.25
+3,Coastal Plant,"Caper bush,",Pua pilo or Maiapilo,Capparis sandwichiana,V,0.7
+3,Coastal Plant,Prickly poppy,Pua kala,Aregemone glauca,,1
+3,Coastal Plant,,Puukaa,Cyperus trachysanthos,E,0.25
+3,Coastal Plant,Schiedea,,Schiedea globosa,V,0.7
+3,Coastal Plant,,Uki,Cladium jamaicense,,1
+3,Coastal Plant,Water Hyssop,_Ae_ae,Bacopa monnieri,,1
+3,Coastal Plant,Seashore rushgrass,_Aki_aki,Sporobolus virginicus,,1
+3,Coastal Plant,East Maui _Akoko,_Akoko,Euphorbia celastroides var. laechiensis,E,0.25
+3,Coastal Plant,Sea purslane,_Akulikuli,Sesuvium portulacastrum,,1
+3,Coastal Plant,,_Anaunau,Lepidium bedentatum,V,0.7
+3,Coastal Plant,,_Ena_ena,Psuedognaphalium sandwicensium,,1
+3,Coastal Plant,,_Ihi,Portulaca molokiniensis,E,0.25
+3,Coastal Plant,Pigweed,_Ihi,Portulaca lutea,,1
+3,Coastal Plant,Hairy Purslane,_Ihi,Portulaca villosa,E,0.25
+3,Coastal Plant,Kilauea Portulaca,_Ihi makole,Portulaca sclerocarpa,E,0.25
+3,Coastal Plant,,_Ilima,Sida fallax,,1
+3,Coastal Plant,,_Ohai,Sesbania tomentosa,E,0.25
+3,Coastal Plant,,_Ohelo kai,Lycium sandwicense,,1
+3,Coastal Plant,,__hi_a lehua,Metrosideros polymorpha,,1
+3,Coastal Plant,,"__lei, eluehe, u_ulei",Osteomeles anthyllidifolia,,1
+3,Coastal Plant,,Wiliwili,Erythrina sandwicensis,,1
+3,Coastal Plant,,_Uhaloa/Hi_aloa,Waltheria indica,,1
 3,Marine Bird,Band-rumped strom-petrel,,Oceanodroma castro,,0.25
 3,Marine Bird,Black-footed albatross,,Phoebastria nigripes,,0.7
 3,Marine Bird,Black noddy,,Anous stolidus pileatus,,0.7
@@ -350,62 +368,68 @@ rgn_id,Type,Common Name,Hawaiian Name,Species name,ESA Status,score
 3,Marine Turtle,Leatherback,,Dermochelys cariacea,E,0.25
 3,Marine Turtle,Loggerhead,,Caretta caretta,E,0.25
 3,Marine Turtle,Olive Ridley,,Lepidochelys olivacea,T,0.5
-4,Coastal Plant,?Anaunau,,Lepidium bedentatum,v,1
-4,Coastal Plant,?Ena?ena,,Psuedognaphalium sandwicensium,,1
-4,Coastal Plant,?Ihi,,Portulaca molokiniensis,e,0.25
-4,Coastal Plant,?Ihi,,Portulaca lutea,,1
-4,Coastal Plant,?Ilima,,Sida fallax,,1
-4,Coastal Plant,?Ohai,,Sesbania tomentosa,e,0.25
-4,Coastal Plant,?Ohelo kai,,Lycium sandwicense,,1
-4,Coastal Plant,?Uhaloa/Hi?aloa,,Waltheria indica,,1
-4,Coastal Plant,Ahuawa,,Mariscus javanicus,,1
-4,Coastal Plant,Akaakai,,Schoenoplectella tabernae-montani,,1
-4,Coastal Plant,Alena,,Boerhavia repens,,1
-4,Coastal Plant,Bastard sandalwood/Naio,,Myoporum sandwicense,,1
-4,Coastal Plant,Beach morning glory/ Pohuehue,,Ipomoea pes-caprae,,1
-4,Coastal Plant,Beach Naupaka kahakai,,Scaevola sericea,,1
-4,Coastal Plant,Beach pea/nanea,,Vigna marina,,1
-4,Coastal Plant,Beach vitex/Pohinahina,,Vitex rotundifolia,,1
-4,Coastal Plant,"Caper bush, Pua pilo or Maiapilo",,Capparis sandwichiana,v,1
-4,Coastal Plant,Coastal morning glory/Koali?awa,,Ipomoea littoralis,,1
-4,Coastal Plant,coastal sandalwood,,Santalum ellipticum ,v,1
-4,Coastal Plant,Coconut palm/Niu,,Cocos nucifera,,1
-4,Coastal Plant,Degener?s ?akoko,,Euphorbia degeneri,v,1
-4,Coastal Plant,Dwarf naupaka,,Scaevola coriacsea,e,0.25
-4,Coastal Plant,East Maui ?Akoko,,Euphorbia celastroides var. laechiensis,e,0.25
-4,Coastal Plant,Hairy Purslane/?Ihi,,Portulaca villosa,e,0.25
-4,Coastal Plant,Hau,,Talipariti tiliaceus,,1
-4,Coastal Plant,Hawaiian Cotton/ Ma?o,,Gossypium tomentosum,v,1
-4,Coastal Plant,Hinahina,,Heliotropium anomalum,,1
-4,Coastal Plant,Hinahina Kahakai,,Nama sandwicensis,v,1
-4,Coastal Plant,Hunakai,,Ipomoea imperati,,1
-4,Coastal Plant,Indian morning glory/ Koali?awa,,Ipomoea indica,,1
-4,Coastal Plant,Ivy-leaved morning glory/Koali?ai,,Ipomoea cairica,,1
-4,Coastal Plant,Ka?ena ?akoko,,Euphorbia celastroides var. kaenana,e,0.25
-4,Coastal Plant,Kalo,,Colocasia esculenta,,1
-4,Coastal Plant,Kamai/Alexandrian Laurel,,Calophyllum inophyllum,,1
-4,Coastal Plant,Kauna?oa,,Cuscuta sandwichiana,,1
-4,Coastal Plant,Kawelu,,Eragrostis variabilis,,1
-4,Coastal Plant,Kilauea Portulaca/?Ihi makole,,Portulaca sclerocarpa,e,0.25
-4,Coastal Plant,Makaloa,,Cyperus laevigatus,,1
-4,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Spathacea,,1
-4,Coastal Plant,Mau?u/?Aki?aki,,Fimbristylis cymosa subsp. Umbellato-capitata,,1
-4,Coastal Plant,Milo,,Thespesia populnea,,1
-4,Coastal Plant,Moonseed/Huehue,,Cocculus orbiculatus,,1
-4,Coastal Plant,Nehe,,Melanthera integrifolia,v,1
-4,Coastal Plant,Nehe,,Lipochaeta succulenta,,1
-4,Coastal Plant,neke Fern,,Cyperus interruptus,,1
-4,Coastal Plant,Nena/Kipukai,,Heliotropium curassavicum,,1
-4,Coastal Plant,Pa?uohi?iaka,,Jacquemontia ovalifolia,,1
-4,Coastal Plant,Pandanus/hala/Pu hala,,Pandanus tectorius,,1
-4,Coastal Plant,Popolo,,Solanum nelsonii,e,0.25
-4,Coastal Plant,Puncture vine/Nohu,,Tribulus cistoides,,1
-4,Coastal Plant,Puukaa,,Cyperus trachysanthos,e,0.25
-4,Coastal Plant,Schidea,,Schiedea globosa,v,1
-4,Coastal Plant,Sea purslane/?Akulikuli,,Sesuvium portulacastrum,,1
-4,Coastal Plant,Seashore rushgrass/?Aki?aki,,Sporobolus virginicus,,1
-4,Coastal Plant,Uki,,Cladium jamaicense,,1
-4,Coastal Plant,Water Hyssop/?Ae?ae,,Bacopa monnieri,,1
+4,Coastal Plant,Beach spurge,"Koko, _akoko",Chamaesyce degeneri,,1
+4,Coastal Plant,,"__kia, kauhi",Wikstroemia spp,,1
+4,Coastal Plant,,Ahuawa,Mariscus javanicus,,1
+4,Coastal Plant,,Akaakai,Schoenoplectella tabernae-montani,,1
+4,Coastal Plant,,Alena,Boerhavia repens,,1
+4,Coastal Plant,,Degener_s _akoko,Euphorbia degeneri,V,0.7
+4,Coastal Plant,Dwarf naupaka,Dwarf naupaka,Scaevola coriacsea,E,0.25
+4,Coastal Plant,Pandanus,hala/Pu hala,Pandanus tectorius,,1
+4,Coastal Plant,,Hau,Talipariti tiliaceus,,1
+4,Coastal Plant,,Hinahina,Heliotropium anomalum,,1
+4,Coastal Plant,Hawaiian Nama,Hinahina Kahakai,Nama sandwicensis,V,0.7
+4,Coastal Plant,Moonseed,Huehue,Cocculus orbiculatus,,1
+4,Coastal Plant,,Hunakai,Ipomoea imperati,,1
+4,Coastal Plant,,Kalo,Colocasia esculenta,,1
+4,Coastal Plant,Alexandrian Laurel,Kamai,Calophyllum inophyllum,,1
+4,Coastal Plant,,Kauna_oa,Cuscuta sandwichiana,,1
+4,Coastal Plant,,"K_welu, _Emoloa",Eragrostis variabilis,,1
+4,Coastal Plant,,Ka_ena _akoko,Euphorbia celastroides var. kaenana,E,0.25
+4,Coastal Plant,Ivy-leaved morning glory,Koali_ai,Ipomoea cairica,,1
+4,Coastal Plant,Coastal morning glory,Koali_awa,Ipomoea littoralis,,1
+4,Coastal Plant,Indian morning glory,Koali_awa,Ipomoea indica,,1
+4,Coastal Plant,,Makaloa,Cyperus laevigatus,,1
+4,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Spathacea,,1
+4,Coastal Plant,,Mau_u/_Aki_aki,Fimbristylis cymosa subsp. Umbellato-capitata,,1
+4,Coastal Plant,Hawaiian Cotton,Ma_o,Gossypium tomentosum,V,0.7
+4,Coastal Plant,,Milo,Thespesia populnea,,1
+4,Coastal Plant,Bastard sandalwood,Naio,Myoporum sandwicense,,1
+4,Coastal Plant,Beach sandalwood,_Iliahialo_e,Santalum ellipticum ,V,0.7
+4,Coastal Plant,Beach pea,nanea,Vigna marina,,1
+4,Coastal Plant,Beach Naupaka,Naupaka kahakai,Scaevola sericea,,1
+4,Coastal Plant,,Nehe,"Melanthera integrifolia, Lipochaeta integrifolia",V,0.7
+4,Coastal Plant,,Nehe,Lipochaeta succulenta,,1
+4,Coastal Plant,,neke Fern,Cyperus interruptus,,1
+4,Coastal Plant,Seaside heliotrope,Nena/Kipukai,Heliotropium curassavicum,,1
+4,Coastal Plant,Coconut palm,Niu,Cocos nucifera,,1
+4,Coastal Plant,Puncture vine,Nohu,Tribulus cistoides,,1
+4,Coastal Plant,,Pa_uohi_iaka,Jacquemontia ovalifolia,,1
+4,Coastal Plant,Beach vitex,Pohinahina,Vitex rotundifolia,,1
+4,Coastal Plant,Beach morning glory,Pohuehue,Ipomoea pes-caprae,,1
+4,Coastal Plant,,P_polo,Solanum nelsonii,E,0.25
+4,Coastal Plant,"Caper bush,",Pua pilo or Maiapilo,Capparis sandwichiana,V,0.7
+4,Coastal Plant,Prickly poppy,Pua kala,Aregemone glauca,,1
+4,Coastal Plant,,Puukaa,Cyperus trachysanthos,E,0.25
+4,Coastal Plant,Schiedea,,Schiedea globosa,V,0.7
+4,Coastal Plant,,Uki,Cladium jamaicense,,1
+4,Coastal Plant,Water Hyssop,_Ae_ae,Bacopa monnieri,,1
+4,Coastal Plant,Seashore rushgrass,_Aki_aki,Sporobolus virginicus,,1
+4,Coastal Plant,East Maui _Akoko,_Akoko,Euphorbia celastroides var. laechiensis,E,0.25
+4,Coastal Plant,Sea purslane,_Akulikuli,Sesuvium portulacastrum,,1
+4,Coastal Plant,,_Anaunau,Lepidium bedentatum,V,0.7
+4,Coastal Plant,,_Ena_ena,Psuedognaphalium sandwicensium,,1
+4,Coastal Plant,,_Ihi,Portulaca molokiniensis,E,0.25
+4,Coastal Plant,Pigweed,_Ihi,Portulaca lutea,,1
+4,Coastal Plant,Hairy Purslane,_Ihi,Portulaca villosa,E,0.25
+4,Coastal Plant,Kilauea Portulaca,_Ihi makole,Portulaca sclerocarpa,E,0.25
+4,Coastal Plant,,_Ilima,Sida fallax,,1
+4,Coastal Plant,,_Ohai,Sesbania tomentosa,E,0.25
+4,Coastal Plant,,_Ohelo kai,Lycium sandwicense,,1
+4,Coastal Plant,,__hi_a lehua,Metrosideros polymorpha,,1
+4,Coastal Plant,,"__lei, eluehe, u_ulei",Osteomeles anthyllidifolia,,1
+4,Coastal Plant,,Wiliwili,Erythrina sandwicensis,,1
+4,Coastal Plant,,_Uhaloa/Hi_aloa,Waltheria indica,,1
 4,Marine Bird,Band-rumped strom-petrel,,Oceanodroma castro,,0.25
 4,Marine Bird,Black-footed albatross,,Phoebastria nigripes,,0.7
 4,Marine Bird,Black noddy,,Anous stolidus pileatus,,0.7
