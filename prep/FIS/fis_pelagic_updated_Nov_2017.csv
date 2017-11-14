@@ -1,0 +1,87 @@
+rgn_id,year,key_sp,catch,Fam,code
+1,2012,Bram_Monchong,775975,Bram,pelagic
+1,2013,Bram_Monchong,1183876,Bram,pelagic
+1,2014,Bram_Monchong,1279395,Bram,pelagic
+1,2015,Bram_Monchong,1401868,Bram,pelagic
+1,2016,Bram_Monchong,1198955,Bram,pelagic
+1,2012,Cory_Mahimahi,2079817,Cory,pelagic
+1,2013,Cory_Mahimahi,1638683,Cory,pelagic
+1,2014,Cory_Mahimahi,1843267,Cory,pelagic
+1,2015,Cory_Mahimahi,1510397,Cory,pelagic
+1,2016,Cory_Mahimahi,1235040,Cory,pelagic
+1,2012,Isti_Blue marlin,1032626,Isti,pelagic
+1,2013,Isti_Blue marlin,1252204,Isti,pelagic
+1,2014,Isti_Blue marlin,1594613,Isti,pelagic
+1,2015,Isti_Blue marlin,1880572,Isti,pelagic
+1,2016,Isti_Blue marlin,1688141,Isti,pelagic
+1,2012,Scom_Bigeye tuna,14271540,Scom,pelagic
+1,2013,Scom_Bigeye tuna,15741389,Scom,pelagic
+1,2014,Scom_Bigeye tuna,16058048,Scom,pelagic
+1,2015,Scom_Bigeye tuna,19001987,Scom,pelagic
+1,2016,Scom_Bigeye tuna,17543030,Scom,pelagic
+1,2012,Scom_Ono,828244,Scom,pelagic
+1,2013,Scom_Ono,901899,Scom,pelagic
+1,2014,Scom_Ono,1195436,Scom,pelagic
+1,2015,Scom_Ono,1237816,Scom,pelagic
+1,2016,Scom_Ono,1213090,Scom,pelagic
+1,2012,Scom_Tombo,1982151,Scom,pelagic
+1,2013,Scom_Tombo,817705,Scom,pelagic
+1,2014,Scom_Tombo,523868,Scom,pelagic
+1,2015,Scom_Tombo,693593,Scom,pelagic
+1,2016,Scom_Tombo,611665,Scom,pelagic
+1,2012,Scom_Yellowfin tuna,4189491,Scom,pelagic
+1,2013,Scom_Yellowfin tuna,3763607,Scom,pelagic
+1,2014,Scom_Yellowfin tuna,3567046,Scom,pelagic
+1,2015,Scom_Yellowfin tuna,4016485,Scom,pelagic
+1,2016,Scom_Yellowfin tuna,4816905,Scom,pelagic
+1,2012,Xiph_Swordfish,2395904,Xiph,pelagic
+1,2013,Xiph_Swordfish,1741676,Xiph,pelagic
+1,2014,Xiph_Swordfish,2512013,Xiph,pelagic
+1,2015,Xiph_Swordfish,2098143,Xiph,pelagic
+1,2016,Xiph_Swordfish,1677201,Xiph,pelagic
+1,2012,Lamn_Mako,141502,Lamn,pelagic
+1,2013,Lamn_Mako,110506,Lamn,pelagic
+1,2014,Lamn_Mako,98301,Lamn,pelagic
+1,2015,Lamn_Mako,116944,Lamn,pelagic
+1,2016,Lamn_Mako,130250,Lamn,pelagic
+1,2012,Alop_Thresher,38848,Alop,pelagic
+1,2013,Alop_Thresher,14925,Alop,pelagic
+1,2014,Alop_Thresher,18438,Alop,pelagic
+1,2015,Alop_Thresher,18669,Alop,pelagic
+1,2016,Alop_Thresher,9711,Alop,pelagic
+1,2012,Carc_Blue,42200,Carc,pelagic
+1,2013,Carc_Blue,3700,Carc,pelagic
+1,2014,Carc_Blue,100,Carc,pelagic
+1,2015,Carc_Blue,350,Carc,pelagic
+1,2016,Carc_Blue,350,Carc,pelagic
+1,2012,Carc_Oceanic,1245,Carc,pelagic
+1,2013,Carc_Oceanic,613,Carc,pelagic
+1,2014,Carc_Oceanic,50,Carc,pelagic
+1,2015,Carc_Oceanic,201,Carc,pelagic
+1,2016,Carc_Oceanic,200,Carc,pelagic
+1,2012,Scom_Bluefin,1445,Scom,pelagic
+1,2013,Scom_Bluefin,1569,Scom,pelagic
+1,2014,Scom_Bluefin,1016,Scom,pelagic
+1,2015,Scom_Bluefin,0,Scom,pelagic
+1,2016,Scom_Bluefin,1355,Scom,pelagic
+1,2012,Scom_Kawakawa,6912,Scom,pelagic
+1,2013,Scom_Kawakawa,9794,Scom,pelagic
+1,2014,Scom_Kawakawa,26291,Scom,pelagic
+1,2015,Scom_Kawakawa,34800,Scom,pelagic
+1,2016,Scom_Kawakawa,13098,Scom,pelagic
+1,2012,Isti_misc,1002,Isti,pelagic
+1,2013,Isti_misc,1980,Isti,pelagic
+1,2014,Isti_misc,1526,Isti,pelagic
+1,2015,Isti_misc,3240,Isti,pelagic
+1,2016,Isti_misc,3423,Isti,pelagic
+1,2012,Isti_Striped marlin,706067,Isti,pelagic
+1,2013,Isti_Striped marlin,966824,Isti,pelagic
+1,2014,Isti_Striped marlin,1088139,Isti,pelagic
+1,2015,Isti_Striped marlin,1232169,Isti,pelagic
+1,2016,Isti_Striped marlin,1033710,Isti,pelagic
+1,2012,Isti_Sailfish,29146,Isti,pelagic
+1,2013,Isti_Sailfish,30908,Isti,pelagic
+1,2014,Isti_Sailfish,57642,Isti,pelagic
+1,2015,Isti_Sailfish,53097,Isti,pelagic
+1,2016,Isti_Sailfish,60448,Isti,pelagic
+,,,,,
