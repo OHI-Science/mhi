@@ -39,6 +39,10 @@ readr::read_csv(fp_real) %>%
   write_csv(fp_temp)
 unlink(fp_real)
 
+## temporarily change CON subgoal scores to NA (to reset, rerun CalculateAll and rewrite scores.csv)
+scores$score[scores$goal == "CON"] <- NA
+write.csv(scores, 'scores.csv', na='', row.names=FALSE)
+
 ## now plot
 PlotFlower(assessment_name = "Main Hawaiian Islands")
 
