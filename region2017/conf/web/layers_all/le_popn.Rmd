@@ -1,7 +1,3 @@
-## resident population
-
-[le_popn](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The number of residents per county.
 
 ### Reference

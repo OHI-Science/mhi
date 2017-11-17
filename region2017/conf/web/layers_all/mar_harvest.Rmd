@@ -1,7 +1,3 @@
-## mariculture yield
-
-[mar_harvest](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Yield (lbs) of finfish and shellfish.
 
 ### Reference

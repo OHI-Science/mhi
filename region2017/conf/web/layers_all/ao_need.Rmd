@@ -1,7 +1,3 @@
-## need
-
-[ao_need](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Marine Recreational Fishery Survey (hmrfs) data on the percent of households that fish. This information is used to estimate the need per county.
 
 ### Reference

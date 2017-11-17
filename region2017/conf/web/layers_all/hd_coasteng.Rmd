@@ -1,7 +1,3 @@
-## habitat destruction caused by coastal engineering
-
-[hd_coasteng](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Coastal engineering consisted of shoreline armoring structures (e.g., seawalls, revetments, groins, break waters), artificial land (i.e., land fill), and piers.
 
 ### Reference

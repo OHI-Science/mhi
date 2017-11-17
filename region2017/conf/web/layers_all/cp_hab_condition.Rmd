@@ -1,7 +1,3 @@
-## coastal protection reef condition
-
-[cp_hab_condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.
 
 ### Reference

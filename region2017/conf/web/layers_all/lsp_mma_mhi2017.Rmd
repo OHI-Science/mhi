@@ -1,7 +1,3 @@
-## marine managed areas
-
-[lsp_mma_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The offshore areas protected to 3nm, including CBSFA, FRA, BFA, and MPA classifications.
 
 ### Reference

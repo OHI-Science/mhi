@@ -1,7 +1,3 @@
-## coastal conservation districts
-
-[lsp_coastal_condist](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The conservation district type and area within 1km of the coastline.
 
 ### Reference

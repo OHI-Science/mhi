@@ -1,7 +1,3 @@
-## resident sentiment
-
-[t_sentiment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The Hawaii Tourism Authority's survey on resident sentiment to tourism.
 
 ### Reference

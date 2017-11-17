@@ -1,7 +1,3 @@
-## fishpond area
-
-[area of active fishponds](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The area of current fishponds per county.
 
 ### Reference

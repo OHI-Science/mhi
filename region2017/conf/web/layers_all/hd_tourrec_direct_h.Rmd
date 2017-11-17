@@ -1,7 +1,3 @@
-## direct impacts from humans (trampling, recreation, etc)
-
-[hd_tourrec_direct_h](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 InVEST recreation model was run statewide at 1 km resolution for the years 2005 - 2014. This model uses publicly visible geotagged photos posted to the photo-sharing website Flickr to calculate the annual average number of photo users per day per grid cell. This is a proxy for direct human impact to nearshore and coastal environments.
 
 ### Reference

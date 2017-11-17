@@ -1,7 +1,3 @@
-## CITES signatories
-
-[g_cites](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.
 
 ### Reference

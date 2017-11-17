@@ -1,7 +1,3 @@
-## marine debris
-
-[po_marinedebris](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The State of Hawaii Division of Aquatic Resources aerial imagery of marine debris from 2015.
 
 ### Reference

@@ -1,7 +1,3 @@
-## land-based source of pollution from agriculture and golf courses
-
-[po_lbspaggolfrunoff](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed.
 
 ### Reference

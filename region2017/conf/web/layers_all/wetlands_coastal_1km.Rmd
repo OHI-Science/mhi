@@ -1,7 +1,3 @@
-## cp wetlands
-
-[wetlands_coastal_1km](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Wetlands layer clipped to 1km inland from coast. Included only wetlands that are in shallow water and coastal for use in the coastal protection goal
 
 ### Reference

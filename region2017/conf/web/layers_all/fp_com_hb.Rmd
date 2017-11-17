@@ -1,7 +1,3 @@
-## commercial fishery hi-bycatcb
-
-[fp_com_hb](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The ratio of catch to bycatch for the tuna fishery (deep set longlines).
 
 ### Reference

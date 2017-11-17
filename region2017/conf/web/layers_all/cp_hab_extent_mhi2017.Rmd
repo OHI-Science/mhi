@@ -1,7 +1,3 @@
-## coastal protection reef extent
-
-[cp_hab_extent_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Hardbottom extent out to 80 meters modified from NOAA habitat maps.
 
 ### Reference

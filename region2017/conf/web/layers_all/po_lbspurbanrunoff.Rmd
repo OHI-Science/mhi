@@ -1,7 +1,3 @@
-## land-based source of pollution from urban runoff
-
-[po_lbspurbanrunoff](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 A proxy for nutrient and chemical pollution.
 
 ### Reference

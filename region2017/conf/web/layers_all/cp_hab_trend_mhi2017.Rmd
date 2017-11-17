@@ -1,7 +1,3 @@
-## coastal protection reef trend
-
-[cp_hab_trend_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.
 
 ### Reference

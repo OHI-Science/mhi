@@ -1,7 +1,3 @@
-## uv radiation
-
-[cc_uv](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The modeled UV radiation based on Erythemal UV Irradiance data provided by GES DISC.
 
 ### Reference

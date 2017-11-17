@@ -1,7 +1,3 @@
-## commerical coastal pelagic fisheries catch
-
-[fis_coast_pelagic_catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Coastal pelagic fish catch (lbs) reported in the commercial fishery.
 
 ### Reference

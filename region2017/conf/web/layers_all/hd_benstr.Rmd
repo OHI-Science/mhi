@@ -1,7 +1,3 @@
-## habitat destruction of benthic structures
-
-[hd_benstr](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Benthic structures were defined as manmade features in the offshore environment that disrupt benthic habitat and include moored buoys, channel markers, offshore cables and pipelines.
 
 ### Reference

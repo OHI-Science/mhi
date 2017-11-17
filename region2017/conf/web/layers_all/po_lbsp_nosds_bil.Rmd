@@ -1,7 +1,3 @@
-## landbased source of pollution pathogens
-
-[po_lbsp_nosds_bil](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The onsite waste disposal systems (ODSD) as proxy of nitrogen flux to the nearshore water.
 
 ### Reference

@@ -1,7 +1,3 @@
-## community stewardship
-
-[community_stewardship](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The number of potential Community Based Subsistence Fishing Areas (CBSFA) and interested communities, and the active fishponds, scaled to maximum number per county.
 
 ### Reference

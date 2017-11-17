@@ -1,7 +1,3 @@
-## inflation adjusted usd
-
-[gdp_usd](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The inflation adjusted usd.
 
 ### Reference

@@ -1,7 +1,3 @@
-## pelagic fisheries commerical catch
-
-[fis_pelagic_catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Pelagic fish catch (lbs) reported in the commercial fishery.
 
 ### Reference

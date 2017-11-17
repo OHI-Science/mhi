@@ -1,7 +1,3 @@
-## State New Economy Index
-
-[li_economic_index](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The State New Economy Index uses 25 indicators to measure the extent to which state economies are knowledge-based, globalized, entrepreneurial, IT-driven, and innovation-oriented.
 
 ### Reference

@@ -1,7 +1,3 @@
-## coastal MPAs fisheries resilience
-
-[fp_MPA_3nm](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The ratio of management areas to total coastal area within 3nm.
 
 ### Reference

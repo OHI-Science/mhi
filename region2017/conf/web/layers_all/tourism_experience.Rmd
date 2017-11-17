@@ -1,7 +1,3 @@
-## experience of visitors
-
-[tourism_experience](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The percent of visitors that report having an excellent experience.
 
 ### Reference

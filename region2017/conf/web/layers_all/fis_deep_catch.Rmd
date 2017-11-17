@@ -1,7 +1,3 @@
-## bottom fisheries commercial catch
-
-[fis_deep_catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Bottomfish catch (lbs) reported in the commercial fishery.
 
 ### Reference

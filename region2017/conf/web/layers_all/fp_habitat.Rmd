@@ -1,7 +1,3 @@
-## management and protection of habitat to preserve biodiversity (fisheries)
-
-[fp_habitat](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: habitat related questions.
 
 ### Reference

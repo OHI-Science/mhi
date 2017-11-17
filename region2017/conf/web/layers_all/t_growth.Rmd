@@ -1,7 +1,3 @@
-## visitor contributed GDP
-
-[t_growth](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Visitor generated GDP with a target set by the Hawaii Tourism Authority of 2.5% annual growth.
 
 ### Reference

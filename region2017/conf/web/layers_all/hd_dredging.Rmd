@@ -1,7 +1,3 @@
-## habitat destruction from dredging
-
-[hd_dredging](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
-
 Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels.
 
 ### Reference

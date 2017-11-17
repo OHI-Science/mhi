@@ -16,10 +16,8 @@ output:
  layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_info_copied_from_prep_excel.csv') 
  layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers' 
  
- 
 ```
 
- 
 
  
 # access 
@@ -31,6 +29,38 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ao_access.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# aquarium fishing 
+####[fp_fish_aquarium](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_fish_aquarium.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_fish_aquarium.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# area within 1 km of the shore 
+####[lsp_area_1km_coast](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_1km_coast.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_area_1km_coast.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
