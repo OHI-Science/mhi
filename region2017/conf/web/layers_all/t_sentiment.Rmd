@@ -1,5 +1,5 @@
 The Hawaii Tourism Authority's survey on resident sentiment to tourism.
 
-### Reference
+#### Reference
 
 [HTA](http://www.hawaiitourismauthority.org/research/reports/visitor-satisfaction/)

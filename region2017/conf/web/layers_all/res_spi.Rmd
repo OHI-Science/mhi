@@ -1,5 +1,5 @@
 The Social Progress Index scores.
 
-### Reference
+#### Reference
 
 [global OHI](http://www.oceanhealthindex.org/methodology/components)

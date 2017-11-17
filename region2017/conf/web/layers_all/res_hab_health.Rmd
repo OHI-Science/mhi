@@ -1,5 +1,5 @@
 The scores from the habitats subgoal of biodiversity are used as resilience for Livelihoods and Economies and the Sustainable Tourism goals.
 
-### Reference
+#### Reference
 
 [goal scores for Habitats](NA)

@@ -74,7 +74,7 @@ data <- layers %>%
   select(header_layer, layer_name, description) %>%
   arrange(header_layer)
 
-for (h in data$header_layer){ # h="access"
+for (h in data$header_layer[1:3]){ # h="access"
 
   layer_name <-  data$layer_name[data$header_layer == h]
   layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'

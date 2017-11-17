@@ -1,5 +1,5 @@
 The percent of softbottom habitat not impacted by dredging.
 
-### Reference
+#### Reference
 
 [Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)

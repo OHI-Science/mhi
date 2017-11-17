@@ -38,7 +38,7 @@ for (i in layers_list) { # i = "ao_access"
     mutate(info = paste0(#"# ", header_layer, "\n\n",
                          #sprintf("[%s](%s)\n\n", layer_name, dir_layers_gh),
                          description, "\n\n",
-                         "### Reference\n\n",
+                         "#### Reference\n\n",
                          sprintf("[%s](%s)", reference, url)))
 
   ## save rmd

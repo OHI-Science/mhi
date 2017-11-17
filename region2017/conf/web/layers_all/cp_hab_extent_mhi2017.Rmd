@@ -1,5 +1,5 @@
 Hardbottom extent out to 80 meters modified from NOAA habitat maps.
 
-### Reference
+#### Reference
 
 [Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)
