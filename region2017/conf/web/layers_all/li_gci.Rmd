@@ -1,0 +1,9 @@
+## competitiveness in achieving sustained economic prosperity
+
+[li_gci](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The Global Competitiveness Index (GCI) scores from the World Economic Forum.
+
+### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

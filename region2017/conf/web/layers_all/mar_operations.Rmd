@@ -1,0 +1,9 @@
+## operations
+
+[mar_operations](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The number of mariculture operators.
+
+### Reference
+
+[USDA](https://quickstats.nass.usda.gov/)

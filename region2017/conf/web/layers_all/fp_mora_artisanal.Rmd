@@ -1,0 +1,9 @@
+## artisanal fisheries management effectiveness and opportunity
+
+[fp_mora_artisanal](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.
+
+### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

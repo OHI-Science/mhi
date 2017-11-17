@@ -1,0 +1,9 @@
+## participation in recreational activities
+
+[r_participation_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.
+
+### Reference
+
+[NOAA Coral Reef Conservation Program](NA)

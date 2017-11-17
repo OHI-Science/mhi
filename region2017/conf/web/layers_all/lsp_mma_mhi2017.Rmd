@@ -1,0 +1,9 @@
+## marine managed areas
+
+[lsp_mma_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The offshore areas protected to 3nm, including CBSFA, FRA, BFA, and MPA classifications.
+
+### Reference
+
+[DLNR](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

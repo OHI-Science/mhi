@@ -1,0 +1,9 @@
+## commercial fishing management
+
+[fp_mora](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The estimated management effectiveness of regulations and management of commercial fishing.
+
+### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

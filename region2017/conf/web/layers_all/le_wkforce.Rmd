@@ -1,0 +1,9 @@
+## workforce
+
+[le_wkforce](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The total number of jobs per county.
+
+### Reference
+
+[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2015/)

@@ -1,0 +1,9 @@
+## soft bottom condition
+
+[hab_health_mhi](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The percent of softbottom habitat not impacted by dredging.
+
+### Reference
+
+[Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)

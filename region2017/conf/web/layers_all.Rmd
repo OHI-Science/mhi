@@ -1,0 +1,38 @@
+--- 
+title: Layers descriptions 
+output: 
+  html_document: 
+    toc: true 
+    toc_depth: 1 
+    number_sections: false 
+    toc_float: yes 
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, error=FALSE} 
+ library(dplyr) 
+ library(tidyr) 
+ library(knitr) 
+ 
+ layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_info_copied_from_prep_excel.csv') 
+ layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers' 
+ 
+ 
+```
+
+ 
+
+ 
+# access 
+####[ao_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_access.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ao_access.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 

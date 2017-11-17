@@ -1,0 +1,9 @@
+## experience of visitors
+
+[tourism_experience](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The percent of visitors that report having an excellent experience.
+
+### Reference
+
+[DBEDT 7.16 visitor experience by region](http://dbedt.hawaii.gov/economic/databook/db2015/)

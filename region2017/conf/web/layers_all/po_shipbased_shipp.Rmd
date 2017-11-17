@@ -1,0 +1,9 @@
+## ship-based pollution
+
+[po_shipbased_shipp](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+Ship traffic layer was used as a proxy for ship-based pollution.
+
+### Reference
+
+[Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

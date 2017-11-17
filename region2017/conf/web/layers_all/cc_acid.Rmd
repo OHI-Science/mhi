@@ -1,0 +1,9 @@
+## ocean acidification
+
+[cc_acid](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+Ocean acidification pressure scaled using biological thresholds.
+
+### Reference
+
+[Halpern et al. 2008](http://www.oceanhealthindex.org/methodology/components)

@@ -1,0 +1,9 @@
+## sea surface temperature
+
+[cc_sst](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+Sea surface temperature anomalies.
+
+### Reference
+
+[Halpern et al. 2008](http://www.oceanhealthindex.org/methodology/components)

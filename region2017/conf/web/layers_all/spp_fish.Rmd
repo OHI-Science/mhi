@@ -1,0 +1,9 @@
+## fish biomass
+
+[spp_fish](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The calculated fish biomass score in relation to pristine biomass from the NOAA report card.
+
+### Reference
+
+[NOAA CREP](NA)

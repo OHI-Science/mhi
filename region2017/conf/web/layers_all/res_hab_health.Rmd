@@ -1,0 +1,9 @@
+## habitat health
+
+[res_hab_health](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The scores from the habitats subgoal of biodiversity are used as resilience for Livelihoods and Economies and the Sustainable Tourism goals.
+
+### Reference
+
+[goal scores for Habitats](NA)

@@ -1,0 +1,9 @@
+## average visitors per day
+
+[t_average_visitors](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The average number of visitor days by county.
+
+### Reference
+
+[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2015/)

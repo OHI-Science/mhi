@@ -1,0 +1,9 @@
+## soft bottom trend
+
+[hab_trend_mhi](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+Trend was not evaluated for soft bottom habitats.
+
+### Reference
+
+[NA](NA)

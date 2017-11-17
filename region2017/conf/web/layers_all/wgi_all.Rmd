@@ -1,0 +1,9 @@
+## strength of governance
+
+[wgi_all](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The World Governance Indicators (WGI) six combined scores.
+
+### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

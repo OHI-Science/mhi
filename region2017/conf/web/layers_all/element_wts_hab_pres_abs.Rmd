@@ -1,0 +1,9 @@
+## habitat weights
+
+[element_wts_hab_pres_abs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+This is a list of habitats in each region weighted by proportion of the total area for each habitat.
+
+### Reference
+
+[see habitat extent layers](NA)

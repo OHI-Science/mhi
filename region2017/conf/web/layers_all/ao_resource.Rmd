@@ -1,0 +1,9 @@
+## resource
+
+[ao_resource](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The resource was calculated as the total available harvest fish biomass compared to pristine fish biomass.
+
+### Reference
+
+[NOAA CREP Williams et al 2012](NA)

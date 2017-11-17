@@ -1,0 +1,9 @@
+## recreational catch multiplier
+
+[fis_reef_catch_multiplier](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation & subsistence) catch.
+
+### Reference
+
+[McCoy and Williams in review](NA)

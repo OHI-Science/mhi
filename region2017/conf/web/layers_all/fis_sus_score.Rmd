@@ -1,0 +1,9 @@
+## sustainability of reef fishery
+
+[fis_sus_score](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+Reef fish stock assessment.
+
+### Reference
+
+[NOAA](file:///Users/eschemmel/Downloads/noaa_13291_DS1%20(2).pdf)

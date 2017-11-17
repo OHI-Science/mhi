@@ -1,0 +1,9 @@
+## EEZ MPAs fisheries resilience
+
+[fp_MPA_eez](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The ratio of management areas (BRFA, Longline, Monument) to the total ocean area with the EEZ and divided into OHI regions.
+
+### Reference
+
+[NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and santucary waters](http://geoportal.hawaii.gov/datasets/noaa-marine-protected-area-mpa-inventory)

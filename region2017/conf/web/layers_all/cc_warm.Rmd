@@ -1,0 +1,9 @@
+## ocean warming
+
+[cc_warm](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The estimated pressure caused on the nearshore environment due to ocean warming. The maximum observed Degree Heating Week (DHW) per pixel was calculated over the time frame of the data (2013-2016). Pixels exceeding 12 DHW were set to the maximum value since it is likely that major coral mortality has occurred those areas.
+
+### Reference
+
+[Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

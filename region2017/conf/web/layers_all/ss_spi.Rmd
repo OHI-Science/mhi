@@ -1,0 +1,9 @@
+## weakness of social progress
+
+[ss_spi](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The inverse of the Social Progress Index scores.
+
+### Reference
+
+[Halpern et al. 2008](http://www.oceanhealthindex.org/methodology/components)

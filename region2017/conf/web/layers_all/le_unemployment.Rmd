@@ -1,0 +1,9 @@
+## unemployment
+
+[le_unemployment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The unemployment rate.
+
+### Reference
+
+[DBEBT](http://dbedt.hawaii.gov/economic/databook/db2015/)

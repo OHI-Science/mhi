@@ -1,0 +1,9 @@
+## offshore area to 3nm
+
+[lsp_area_3nm_mhi2017](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The offshore area to 3nm.
+
+### Reference
+
+[EEZ boundary](http://geoportal.hawaii.gov/)

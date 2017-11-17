@@ -1,0 +1,9 @@
+## ocean and coastal jobs
+
+[le_jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The total number of jobs per ocean sector for each county.
+
+### Reference
+
+[NOAA ENOW](https://coast.noaa.gov/digitalcoast/tools/enow.html)

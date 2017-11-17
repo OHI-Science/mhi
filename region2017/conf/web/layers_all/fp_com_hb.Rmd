@@ -1,0 +1,9 @@
+## commercial fishery hi-bycatcb
+
+[fp_com_hb](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/)
+
+The ratio of catch to bycatch for the tuna fishery (deep set longlines).
+
+### Reference
+
+[NOAA bycatch summary report for Pacific Islands](http://www.st.nmfs.noaa.gov/observer-home/first-edition-update-1)
