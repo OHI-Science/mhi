@@ -58,7 +58,13 @@ layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'
 layers_Rmd <- list.files("conf/web/layers_all")
 layers_Rmd <- layers_Rmd[grep(".Rmd", layers_Rmd)]
 layers_Rmd <- gsub(".Rmd", "", layers_Rmd)
-layers <- readr::read_csv("conf/web/layers_info_copied_from_prep_excel.csv")
+layers <- readr::read_csv("../prep/data_layers.csv") %>%
+  dplyr::select(header_layer = `Data Layer`,
+                layer_name   = Name,
+                description  = `Brief Description`,
+                reference    = Reference,
+                url) %>%
+  arrange(layer_name)
 
 ## extra Rmd file (or is mislabeled)
 ## can ignore the "layers_all" file, but there should be no others:

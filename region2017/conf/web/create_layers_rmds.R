@@ -3,20 +3,17 @@
 library(tidyverse)
 library(stringr)
 
-## excel filepath relative to region2017
-dir_excel <- "../prep"
-
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_all <- "conf/web/layers_all/"
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers/"
 
 
 ## read in excel sheet
-layers_excel <- readxl::read_excel(path = file.path(dir_excel, "OHI_state assessment_framework.xlsx"), sheet = "Data_Layers")
-names(layers_excel)
+data_layers <- readr::read_csv("../prep/data_layers.csv")
+names(data_layers)
 
 ## rename a few columns
-layers_info <- layers_excel %>%
+layers_info <- data_layers %>%
   dplyr::select(header_layer = `Data Layer`,
                 layer_name   = Name,
                 description  = `Brief Description`,
@@ -46,4 +43,3 @@ for (i in layers_list) { # i = "ao_access"
 
 }
 
-readr::write_csv(layers_info, 'conf/web/layers_info_copied_from_prep_excel.csv')

@@ -612,14 +612,14 @@ output:
 
  
 # EEZ MPAs fisheries resilience 
-####[fp_MPA_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_eez.csv) {-} 
+####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mpa_eez.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_MPA_eez.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_mpa_eez.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -628,14 +628,14 @@ output:
 
  
 # EEZ MPAs habitat resilience 
-####[hd_MPA_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_MPA_eez.csv) {-} 
+####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_mpa_eez.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hd_MPA_eez.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hd_mpa_eez.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
