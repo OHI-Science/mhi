@@ -38,7 +38,7 @@ tmp <- capture.output( cat(paste0("\n```{r, message=FALSE, echo=FALSE, warning=F
                            "library(knitr)",
                            "\n",
                            "\n",
-                           "layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_info_copied_from_prep_excel.csv')",
+                           "layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/prep/data_layers.csv')",
                            "\n",
                            "layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'",
                            "\n",
