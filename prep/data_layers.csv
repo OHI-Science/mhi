@@ -38,9 +38,10 @@ FP,FIS,recreational catch multiplier,fis_reef_catch_multiplier,fis_reef_catch_mu
 FP,FIS,sustainability of bottomfishery,fis_sus_score,fis_sus_updated_mhi2017.csv,Bottomfish stock assessment. ,,,,,NOAA,http://www.cio.noaa.gov/services_programs/prplans/pdfs/ID309_Hawaiian_Bottomfish_Final_Product.pdf
 FP,FIS,sustainability of pelagic fishery,fis_sus_score,fis_sus_updated_mhi2017.csv,Pelagic (tuna and swordfish) stock assessments.,,,,,International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC),http://isc.fra.go.jp/recommendation/index.html
 FP,FIS,sustainability of reef fishery,fis_sus_score,fis_sus_updated_mhi2017.csv,Reef fish stock assessment.,,,,,NOAA ,file:///Users/eschemmel/Downloads/noaa_13291_DS1%20(2).pdf
-FP,MAR,fishpond area,area of active fishponds,area of active fishponds,The area of current fishponds per county.,status,2017,2017,,TNC updated fishpond layer,
-FP,MAR,mariculture yield,mar_harvest,mar_harvest_mhi2017.csv,Yield (lbs) of finfish and shellfish. ,status,2007,2011,,State of Hawaii DOA,http://hdoa.hawaii.gov/
-FP,MAR,number of fishponds ,mar_fishponds,mar_fishpond_current_mhi2017.csv,The ratio of the number of current fishponds to historical fishponds.,status,2017,2017,,TNC updated fishpond layer,
+FP,MAR,area of active fishponds,mar_fishpond_current,mar_fishpond_current_mhi2017.csv,The area of current fishponds per county.,status,2017,2017,,TNC updated fishpond layer,
+FP,MAR,fishpond status,mar_fishpond_health,mar_fishpond_health_mhi2017.csv,Ratio of active fishponds to historical number,,,,,TNC updated fishpond layer,
+FP,MAR,number of fishponds ,mar_fishpond_numbers,mar_fishpond_numbers_mhi2017.csv,The current number of fishponds.,status,2017,2017,,TNC updated fishpond layer,
+FP,MAR,mariculture yield,mar_harvest,mar_harvest_mhi2017.csv,Production of shellfish and foodfish from mariculture facilities,,2007,2011,,State of Hawaii DOA,http://hdoa.hawaii.gov/
 FP,MAR,operations,mar_operations,mar_operations_census_mhi2017.csv,The number of mariculture operators.,status,2002,2011,,USDA,https://quickstats.nass.usda.gov/
 LE,ECO,inflation adjusted usd,gdp_usd,le_gdp_mhi2017.csv,The inflation adjusted usd.,status,2005,2013,,DBEDT,http://dbedt.hawaii.gov/economic/databook/db2015/
 LE,ECO,ocean and coastal revenue,le_gdp,le_gdp_mhi2017.csv,The revenue generated per ocean sector for each county.,status,2005,2013,,NOAA ENOW ,https://coast.noaa.gov/digitalcoast/tools/enow.html
