@@ -1,5 +1,0 @@
-The ratio of the number of current fishponds to historical fishponds.
-
-#### Reference
-
-[TNC updated fishpond layer](NA)
