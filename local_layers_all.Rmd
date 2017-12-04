@@ -755,21 +755,6 @@ output:
 ``` 
 
  
-# fishpond area 
-####[area of active fishponds](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/area of active fishponds.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/area of active fishponds.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
  
 # forest/watershed health 
 ####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health.csv) {-} 
@@ -1090,23 +1075,7 @@ output:
  
 ``` 
 
- 
-# number of fishponds 
-####[mar_fishponds](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishponds.csv) {-} 
-```{r, echo=FALSE, results='hide'}
 
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishponds.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # ocean acidification 
 ####[cc_acid](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_acid.csv) {-} 
 ```{r, echo=FALSE, results='hide'}

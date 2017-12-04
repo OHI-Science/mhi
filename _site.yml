@@ -8,8 +8,8 @@ navbar:
       href: goals.html
 #    - text: "Scores"
 #     href: scores.html
-    - text: "Layers"
-      href: layers.html
+#    - text: "Layers"
+#      href: layers.html
     - text: "Frequently Asked Questions"
       href: frequentlyaskedquestions.html
     - text: "Contribute"
@@ -19,3 +19,10 @@ output:
   html_document:
     theme: yeti
     highlight: textmate
+exclude:
+- layers_all.Rmd
+- local_goals.Rmd
+- local_layers_all.Rmd
+- layers.Rmd
+
+
