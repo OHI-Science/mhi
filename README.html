@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -182,6 +184,9 @@ $(document).ready(function () {
   <a href="goals.html">Goals</a>
 </li>
 <li>
+  <a href="layers.html">Layers</a>
+</li>
+<li>
   <a href="frequentlyaskedquestions.html">Frequently Asked Questions</a>
 </li>
 <li>
@@ -205,6 +210,8 @@ $(document).ready(function () {
 
 <div id="ohi-gh-pages-branch" class="section level1">
 <h1>OHI gh-pages branch</h1>
+<p>The MHI website is available at <a href="http://ohi-science.org/mhi" class="uri">http://ohi-science.org/mhi</a>.</p>
+<p>If that site is down, it is also available <a href="https://rawgit.com/OHI-Science/mhi/gh-pages/layers.html">here</a>.</p>
 <p>To build the website, run <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html"><code>rmarkdown::render_site()</code></a>, which knits each Rmarkdown (*.Rmd) based on parameters in <code>_site.R</code> and <code>_site.yml</code> before pushing the files back to Github. These Rmd files also pull from the <code>data_branch</code>, typically <code>draft</code>, that gets copied into <code>[gh_repo]_[gh_branch_data]</code>.</p>
 <p>The majority of this website architecture was coded by <a href="https://github.com/bbest">Ben Best</a> with significant inputs from <a href="https://github.com/jules32">Julie Lowndes</a>.</p>
 </div>
