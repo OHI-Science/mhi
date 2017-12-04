@@ -27,4 +27,3 @@ Wetlands
 
 Wetland condition was measured as the percent loss of historical coastal wetlands (Van Rees and Reed 2014). Wetland extent was assessed from National Oceanic and Atmospheric Administration Coastal Change Analysis Program (NOAA C-CAP) data clipped to within 1 km inland from the coast to capture coastal wetlands extent. All estuary categories were included in this assessment that were within 1km of the coastline as these habitats within 1km of the shoreline will mitigate against flooding and wave inundation. NOAA C-CAP surveys are repeated every 5 years to measure changes in land cover. The trend in coastal wetlands was assessed as the difference in coastal wetland extend from 1992 to 2011.
 
-### Data Used in Model
