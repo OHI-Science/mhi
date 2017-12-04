@@ -118,63 +118,6 @@ cat(paste(st$info, collapse="\n\n"))
 
 ---- 
 
-## Natural Products
-
-```{r, echo=FALSE, results='hide'}
-
-        x <- tempfile(fileext = 'Rmd')
-        on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "NP.Rmd"), x) 
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-### Data used in model
-
-**Status & trend**
-
-```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
-st <- layers_csv %>%
-  filter(targets=="NP") %>%
-  mutate(web_name = gsub(" ", "_", name)) %>%
-  mutate(web_name = tolower(web_name)) %>%
-  mutate(web_name = gsub("/", "", web_name)) %>%
-  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
-
-cat(paste(st$info, collapse="\n\n"))
-
-```
-
----- 
-
-## Carbon Storage
-
-```{r, echo=FALSE, results='hide'}
-
-        x <- tempfile(fileext = 'Rmd')
-        on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "CS.Rmd"), x) 
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-### Data used in model
-
-**Status & trend**
-
-```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
-st <- layers_csv %>%
-  filter(targets=="CS") %>%
-  mutate(web_name = gsub(" ", "_", name)) %>%
-  mutate(web_name = tolower(web_name)) %>%
-  mutate(web_name = gsub("/", "", web_name)) %>%
-  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
-
-cat(paste(st$info, collapse="\n\n"))
-```
-
 ---- 
 
 ## Coastal Protection
@@ -359,36 +302,6 @@ cat(paste(st$info, collapse="\n\n"))
 
 ---- 
 
-## Clean Waters
-
-```{r, echo=FALSE, results='hide'}
-
-        x <- tempfile(fileext = 'Rmd')
-        on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "CW.Rmd"), x) 
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
-### Data used in model
-
-**Status & trend**
-
-```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
-st <- layers_csv %>%
-  filter(targets=="CW") %>%
-  mutate(web_name = gsub(" ", "_", name)) %>%
-  mutate(web_name = tolower(web_name)) %>%
-  mutate(web_name = gsub("/", "", web_name)) %>%
-  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
-
-cat(paste(st$info, collapse="\n\n"))
-
-```
-
----- 
 
 ## Biodiversity: Species
 
