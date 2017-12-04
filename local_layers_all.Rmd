@@ -51,6 +51,22 @@ output:
 ``` 
 
  
+# area of active fishponds 
+####[mar_fishpond_current](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_current.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishpond_current.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # area within 1 km of the shore 
 ####[lsp_area_1km_coast](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_1km_coast.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -755,6 +771,21 @@ output:
 ``` 
 
  
+# fishpond status 
+####[mar_fishpond_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_health.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishpond_health.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
  
 # forest/watershed health 
 ####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health.csv) {-} 
@@ -1075,7 +1106,23 @@ output:
  
 ``` 
 
+ 
+# number of fishponds 
+####[mar_fishpond_numbers](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_numbers.csv) {-} 
+```{r, echo=FALSE, results='hide'}
 
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishpond_numbers.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # ocean acidification 
 ####[cc_acid](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_acid.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
