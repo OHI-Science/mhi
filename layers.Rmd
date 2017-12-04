@@ -8,7 +8,7 @@ output:
 ---
 
 ```{r, message=FALSE, echo=FALSE}
-source('_site.R')
+# source('_site.R')
 ```
 
 

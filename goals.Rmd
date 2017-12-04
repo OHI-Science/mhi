@@ -18,49 +18,7 @@ Indicators for each goal have been drafted through stakeholder engagement and ex
 
 <div style="float: right"> 
 <img src="images/ci_28982090_Medium.jpg" width="350px"></div>    
-##Food Provision
-*Wild Caught Fisheries*: Measures the amount of wild-caught seafood (pelagic, bottom, and nearshore fishes) that can be sustainably harvested. Data gaps are recognized such as the lack of stock assessments for many harvested species. Additionally, traditional stock assessments do not take ecosystem impacts into account and ecosystem models are preferred if they become available.
 
+```{r, child="local_goals.Rmd"}
+```
 
-*Mariculture*: Measures the sustainable production potential (fishponds) and current production of seafood weighted by a sustainability/risk score (use of non-native species and the % of feed imported).
-<br><br>
-
-##Natural Products
-This goal measures the sustainable harvest of ocean-derived resources for purposes other than direct consumption. Resources under this goal include salt, shells, medicinal products and aquarium fish. The goal will be measured as the commercial value (revenue) and/or cultural or medicinal value of products weighted by a risk/sustainability score that will be developed for each species assessed.<br><br>
-
-
-##Livelihoods & Economies
-Most livelihoods in Hawaii are directly or indirectly linked to tourism. This goal aims to measure the benefits that tourism provides while taking into account the integrity of the culture of Hawaii and the protection of the natural environment, i.e. sustainable tourism.<br><br>
-
-##Tourism 
-This goal strives to measure the balanced economic growth through tourism with management and preservation of natural resources and Hawaiian culture. This is measured through tracking ocean management areas to preserve the  environment and provide visitor ecotourism opportunities, educational programs embedded in the tourism industry, and the representation of community values and voice.<br><br>
-
-##Recreation
-This goal measures the opportunities for residents to enjoy coastal areas through recreation measured through access to beaches and coastal areas and number of participants in recreational activities.<br><br>
-
-
-##Coastal Protection
-This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. <br><br>
-
-
-##Clean Water
-This goal measures the degree to which local waters are unpolluted by natural and human made causes including five pollutants: sediment, nutrients, pathogens, trash/marine debris, and chemicals. Groundwater is the major source of nutrient, chemical, and pathogens entering the marine environment in West Hawaiʻi.
-<br><br>
-
-##Biodiversity
-<div style="float: left"><img src="images/ci_18980928_Medium.jpg" width="350px"></div> 
-<br><br><br>
-*Habitats*: The habitats sub-goal of biodiversity measures the extent, condition, and level of management protection of coastal and terrestrial habitats. Habitats include coral reefs, wetlands, anchialine ponds, pelagic water column, beaches, fishponds, and watersheds. 
-
-<br><br><br><br><br>
-<br><div style="float:left"><img src="images/ci_12001454_Full.jpg" width="350px"></div> 
-<br><br><br><br>
-*Species*: This sub-goal of biodiversity measures the population status of species including biodiversity (species richness), abundance, percent endemism, and risk of extinction (from IUCN red list classifications).<br><br><br><br><br><br><br><br>
-
-
-##Artisanal Fishing Opportunities
-This goal measures the opportunity for fishers to supply seafood for themselves, families, and community. <br><br>
-
-
-##Sense of Place
-The past, present, and future connection between people and place.

@@ -29,7 +29,7 @@ dir_raw_draft <- 'https://raw.githubusercontent.com/OHI-Science/mhi/master'
 to_copy <- c('region2017/conf/web/goals.Rmd',
              'region2017/conf/web/layers_all.Rmd')
 
-for (f in to_copy) { # f <-  'global_supplement/OHI.bib'
+for (f in to_copy) { # f <-  'region2017/conf/web/goals.Rmd'
 
   fp <- file.path(dir_raw_draft, f)
 

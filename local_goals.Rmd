@@ -10,6 +10,7 @@ key <- "mhi"
 dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017"
 layers_csv  <- readr::read_csv(file.path(dir_scenario_gh, 'layers.csv'))
 layers_web <- sprintf('http://ohi-science.org/%s/layers.html', key)
+short_goal_web <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/goals"
 ```
 
 <!---From Eva:
@@ -29,9 +30,16 @@ Indicators for each goal have been drafted through stakeholder engagement and ex
 
 ## Food Provision: Fisheries
 
-```{r, child='goals/FIS.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "FIS.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -51,9 +59,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Food Provision: Mariculture
 
-```{r, child='goals/MAR.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "MAR.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -73,9 +88,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Artisanal Fishing Opportunity 
 
-```{r, child='goals/AO.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "AO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -95,9 +117,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Natural Products
 
-```{r, child='goals/NP.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "NP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -118,9 +147,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Carbon Storage
 
-```{r, child='goals/CS.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "CS.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -140,9 +176,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Coastal Protection
 
-```{r, child='goals/CP.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "CP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 
 ### Data used in model
 
@@ -164,9 +207,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Tourism & Recreation
 
-```{r, child='goals/TR.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "TR.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -187,9 +237,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Livelihoods & Economies: Livelihoods
 
-```{r, child='goals/LIV.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "LIV.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -211,9 +268,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Livelihoods & Economies: Economies
 
-```{r, child='goals/ECO.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "ECO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 
 ### Data used in model
 
@@ -234,9 +298,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Sense of Place: Iconic Species
 
-```{r, child='goals/ICO.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "ICO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
@@ -256,9 +327,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Sense of Place: Lasting Special Places
 
-```{r, child='goals/LSP.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "LSP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 
 ### Data used in model
 
@@ -280,9 +358,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Clean Waters
 
-```{r, child='goals/CW.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "CW.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 
 ### Data used in model
 
@@ -304,9 +389,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Biodiversity: Species
 
-```{r, child='goals/SPP.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "SPP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 
 ### Data used in model
 
@@ -328,9 +420,16 @@ cat(paste(st$info, collapse="\n\n"))
 
 ## Biodiversity: Habitats
 
-```{r, child='goals/HAB.Rmd', results='asis', echo=FALSE}
-```
+```{r, echo=FALSE, results='hide'}
 
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "HAB.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
 ### Data used in model
 
 **Status & trend**
