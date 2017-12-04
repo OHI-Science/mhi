@@ -2,7 +2,10 @@
 title: <center>Goals
 author: 
 date: 
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ----
