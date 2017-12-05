@@ -11,6 +11,9 @@
 ## load relevant libraries
 library(tidyverse)
 
+## delete layers_all.Rmd to start fresh
+unlink('conf/web/layers_all.Rmd')
+
 ######################################################
 ### Rmd file header information
 #######################################################
@@ -61,6 +64,7 @@ layers_Rmd <- gsub(".Rmd", "", layers_Rmd)
 layers <- readr::read_csv("../prep/data_layers.csv") %>%
   dplyr::select(header_layer = `Data Layer`,
                 layer_name   = Name,
+                file_name    = File,
                 description  = `Brief Description`,
                 reference    = Reference,
                 url) %>%
@@ -77,18 +81,19 @@ setdiff(layers$layer_name, layers_Rmd)
 ### Grab each layer description and add to master Rmd file!
 
 data <- layers %>%
-  select(header_layer, layer_name, description) %>%
+  select(header_layer, layer_name, file_name, description) %>%
   arrange(header_layer)
 
 for (h in data$header_layer){ # h="access"
 
   layer_name <-  data$layer_name[data$header_layer == h]
+  file_name  <-  data$file_name[data$header_layer == h]
   layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'
 
   tmp <- capture.output( cat("\n",
                              paste0("\n# ", h),
 
-                             paste0("\n####[", layer_name, "]", "(", file.path(layer_path, layer_name), ".csv) {-}"),
+                             paste0("\n####[", layer_name, "]", "(", file.path(layer_path, file_name), ") {-}"),
 
                              paste0("\n```{r, echo=FALSE, results='hide'}\n
                                     x <- tempfile(fileext = 'Rmd')\n
