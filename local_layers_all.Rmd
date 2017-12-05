@@ -20,7 +20,7 @@ output:
 
  
 # access 
-####[ao_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_access.csv) {-} 
+####[ao_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_access_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -36,7 +36,7 @@ output:
 
  
 # aquarium fishing 
-####[fp_fish_aquarium](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_fish_aquarium.csv) {-} 
+####[fp_fish_aquarium](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_aquarium_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -52,7 +52,7 @@ output:
 
  
 # area of active fishponds 
-####[mar_fishpond_current](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_current.csv) {-} 
+####[mar_fishpond_current](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_current_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -68,7 +68,7 @@ output:
 
  
 # area within 1 km of the shore 
-####[lsp_area_1km_coast](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_1km_coast.csv) {-} 
+####[lsp_area_1km_coast](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_1km_coast_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -84,7 +84,7 @@ output:
 
  
 # artisanal fisheries management effectiveness and opportunity 
-####[fp_mora_artisanal](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mora_artisanal.csv) {-} 
+####[fp_mora_artisanal](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mora_artisanal_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -100,7 +100,7 @@ output:
 
  
 # average visitors per day 
-####[t_average_visitors](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_average_visitors.csv) {-} 
+####[t_average_visitors](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_average_visitors_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -116,7 +116,7 @@ output:
 
  
 # biodiversity beach condition 
-####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi.csv) {-} 
+####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -132,7 +132,7 @@ output:
 
  
 # biodiversity beach extent 
-####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi.csv) {-} 
+####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -148,7 +148,7 @@ output:
 
  
 # biodiversity beach trend 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -164,7 +164,7 @@ output:
 
  
 # biodiversity coastal wetland condition 
-####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi.csv) {-} 
+####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -180,7 +180,7 @@ output:
 
  
 # biodiversity coastal wetland extent 
-####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi.csv) {-} 
+####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -196,7 +196,7 @@ output:
 
  
 # biodiversity coastal wetland trend 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -212,7 +212,7 @@ output:
 
  
 # biodiversity reef condition 
-####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi.csv) {-} 
+####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -228,7 +228,7 @@ output:
 
  
 # biodiversity reef extent 
-####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi.csv) {-} 
+####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -244,7 +244,7 @@ output:
 
  
 # biodiversity reef trend 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -260,7 +260,7 @@ output:
 
  
 # bottom fisheries commercial catch 
-####[fis_deep_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_deep_catch.csv) {-} 
+####[fis_deep_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_deep_catch_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -276,7 +276,7 @@ output:
 
  
 # CITES signatories 
-####[g_cites](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/g_cites.csv) {-} 
+####[g_cites](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/g_cites_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -292,7 +292,7 @@ output:
 
  
 # coastal conservation districts 
-####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_condist.csv) {-} 
+####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_conservation_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -308,7 +308,7 @@ output:
 
  
 # coastal MPAs fisheries resilience 
-####[fp_MPA_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_3nm.csv) {-} 
+####[fp_MPA_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_3nm_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -324,7 +324,7 @@ output:
 
  
 # coastal MPAs habitat resilience 
-####[hd_MPA_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_MPA_3nm.csv) {-} 
+####[hd_MPA_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_MPA_3nm_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -340,7 +340,7 @@ output:
 
  
 # coastal protection beach condition 
-####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition.csv) {-} 
+####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -388,7 +388,7 @@ output:
 
  
 # coastal protection coastal wetland condition 
-####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition.csv) {-} 
+####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -436,7 +436,7 @@ output:
 
  
 # coastal protection reef condition 
-####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition.csv) {-} 
+####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -468,7 +468,7 @@ output:
 
  
 # coastal protection reef trend 
-####[cp_hab_trend_mhi2017](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
+####[cp_hab_trend_mhi2017](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -484,7 +484,7 @@ output:
 
  
 # commercial fishery hi-bycatcb 
-####[fp_com_hb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_hb.csv) {-} 
+####[fp_com_hb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_hb_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -500,7 +500,7 @@ output:
 
  
 # commercial fishery lo-bycatcb 
-####[fp_com_lb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_lb.csv) {-} 
+####[fp_com_lb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_lb_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -516,7 +516,7 @@ output:
 
  
 # commercial fishing management 
-####[fp_mora](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mora.csv) {-} 
+####[fp_mora](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mora_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -532,7 +532,7 @@ output:
 
  
 # commercial reef fisheries catch 
-####[fis_reef_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_reef_catch.csv) {-} 
+####[fis_reef_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_reef_catch_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -548,7 +548,7 @@ output:
 
  
 # commerical coastal pelagic fisheries catch 
-####[fis_coast_pelagic_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_coast_pelagic_catch.csv) {-} 
+####[fis_coast_pelagic_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -564,7 +564,7 @@ output:
 
  
 # community stewardship 
-####[community_stewardship](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/community_stewardship.csv) {-} 
+####[community_stewardship](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/community_stewardship_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -580,7 +580,7 @@ output:
 
  
 # competitiveness in achieving sustained economic prosperity 
-####[li_gci](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/li_gci.csv) {-} 
+####[li_gci](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/li_gci_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -596,7 +596,7 @@ output:
 
  
 # cp wetlands 
-####[wetlands_coastal_1km](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/wetlands_coastal_1km.csv) {-} 
+####[wetlands_coastal_1km](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/wetlands_coastal_1km) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -612,7 +612,7 @@ output:
 
  
 # direct impacts from humans (trampling, recreation, etc) 
-####[hd_tourrec_direct_h](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_tourrec_direct_h.csv) {-} 
+####[hd_tourrec_direct_h](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_tourrec_direct_h_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -628,7 +628,7 @@ output:
 
  
 # EEZ MPAs fisheries resilience 
-####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mpa_eez.csv) {-} 
+####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_eez_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -644,7 +644,7 @@ output:
 
  
 # EEZ MPAs habitat resilience 
-####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_mpa_eez.csv) {-} 
+####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_MPA_eez_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -660,7 +660,7 @@ output:
 
  
 # EEZ protected marine areas to protect fishery resources 
-####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mpa_eez.csv) {-} 
+####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mpa_eez_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -676,7 +676,7 @@ output:
 
  
 # environmental protection 
-####[t_env_sus](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_env_sus.csv) {-} 
+####[t_env_sus](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_env_sus_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -692,7 +692,7 @@ output:
 
  
 # ESA coastal plant status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status.csv) {-} 
+####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -708,7 +708,7 @@ output:
 
  
 # ESA marine mammal status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status.csv) {-} 
+####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -724,7 +724,7 @@ output:
 
  
 # ESA seabird and coastal bird status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status.csv) {-} 
+####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -740,7 +740,7 @@ output:
 
  
 # experience of visitors 
-####[tourism_experience](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/tourism_experience.csv) {-} 
+####[tourism_experience](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/tourism_experience_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -756,7 +756,7 @@ output:
 
  
 # fish biomass 
-####[spp_fish](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_fish.csv) {-} 
+####[spp_fish](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_fish_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -772,7 +772,7 @@ output:
 
  
 # fishpond status 
-####[mar_fishpond_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_health.csv) {-} 
+####[mar_fishpond_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -788,7 +788,7 @@ output:
 
  
 # forest/watershed health 
-####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health.csv) {-} 
+####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -804,7 +804,7 @@ output:
 
  
 # habitat destruction caused by coastal engineering 
-####[hd_coasteng](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_coasteng.csv) {-} 
+####[hd_coasteng](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_coasteng_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -820,7 +820,7 @@ output:
 
  
 # habitat destruction from dredging 
-####[hd_dredging](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_dredging.csv) {-} 
+####[hd_dredging](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_dredging_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -836,7 +836,7 @@ output:
 
  
 # habitat destruction of benthic structures 
-####[hd_benstr](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_benstr.csv) {-} 
+####[hd_benstr](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_benstr_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -852,7 +852,7 @@ output:
 
  
 # habitat health 
-####[res_hab_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/res_hab_health.csv) {-} 
+####[res_hab_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/res_hab_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -868,7 +868,7 @@ output:
 
  
 # habitat weights 
-####[element_wts_hab_pres_abs](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/element_wts_hab_pres_abs.csv) {-} 
+####[element_wts_hab_pres_abs](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/element_wts_hab_pres_abs_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -884,7 +884,7 @@ output:
 
  
 # inflation adjusted usd 
-####[gdp_usd](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/gdp_usd.csv) {-} 
+####[gdp_usd](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_gdp_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -900,7 +900,7 @@ output:
 
  
 # invasive species (algae and mangroves) 
-####[sp_ispp_a_m](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_ispp_a_m.csv) {-} 
+####[sp_ispp_a_m](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_ispp_a_m_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -916,7 +916,7 @@ output:
 
  
 # land-based sediment export to nearshore water 
-####[po_lbsp_sed](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbsp_sed.csv) {-} 
+####[po_lbsp_sed](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbsp_sed_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -932,7 +932,7 @@ output:
 
  
 # land-based source of pollution from agriculture and golf courses 
-####[po_lbspaggolfrunoff](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbspaggolfrunoff.csv) {-} 
+####[po_lbspaggolfrunoff](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbspaggolfrunoff_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -948,7 +948,7 @@ output:
 
  
 # land-based source of pollution from urban runoff 
-####[po_lbspurbanrunoff](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbspurbanrunoff.csv) {-} 
+####[po_lbspurbanrunoff](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbspurbanrunoff_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -964,7 +964,7 @@ output:
 
  
 # landbased source of pollution pathogens 
-####[po_lbsp_nosds_bil](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbsp_nosds_bil.csv) {-} 
+####[po_lbsp_nosds_bil](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_lbsp_nosds_bil_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -980,7 +980,7 @@ output:
 
  
 # management and protection of habitat to preserve biodiversity (fisheries) 
-####[fp_habitat](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_habitat.csv) {-} 
+####[fp_habitat](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_habitat_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -996,7 +996,7 @@ output:
 
  
 # management of nonindigenous species 
-####[sp_alien_species](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_alien_species.csv) {-} 
+####[sp_alien_species](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_alien_species_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1012,7 +1012,7 @@ output:
 
  
 # mariculture yield 
-####[mar_harvest](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_harvest.csv) {-} 
+####[mar_harvest](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_harvest_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1028,7 +1028,7 @@ output:
 
  
 # marine debris 
-####[po_marinedebris](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_marinedebris.csv) {-} 
+####[po_marinedebris](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_marinedebris_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1060,7 +1060,7 @@ output:
 
  
 # measure of coastal ecological integrity 
-####[species_diversity_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/species_diversity_3nm.csv) {-} 
+####[species_diversity_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/species_diversity_3nm_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1092,7 +1092,7 @@ output:
 
  
 # need 
-####[ao_need](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_need.csv) {-} 
+####[ao_need](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_need_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1108,7 +1108,7 @@ output:
 
  
 # number of fishponds 
-####[mar_fishpond_numbers](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_numbers.csv) {-} 
+####[mar_fishpond_numbers](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_numbers_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1124,7 +1124,7 @@ output:
 
  
 # ocean acidification 
-####[cc_acid](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_acid.csv) {-} 
+####[cc_acid](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_acid_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1140,7 +1140,7 @@ output:
 
  
 # ocean and coastal jobs 
-####[le_jobs](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_jobs.csv) {-} 
+####[le_jobs](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_jobs_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1156,7 +1156,7 @@ output:
 
  
 # ocean and coastal revenue 
-####[le_gdp](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_gdp.csv) {-} 
+####[le_gdp](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_gdp_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1172,7 +1172,7 @@ output:
 
  
 # ocean warming 
-####[cc_warm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_warm.csv) {-} 
+####[cc_warm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_warm_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1204,7 +1204,7 @@ output:
 
  
 # operations 
-####[mar_operations](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_operations.csv) {-} 
+####[mar_operations](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_operations_census_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1236,7 +1236,7 @@ output:
 
  
 # pelagic fisheries commerical catch 
-####[fis_pelagic_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_pelagic_catch.csv) {-} 
+####[fis_pelagic_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_pelagic_catch_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1252,7 +1252,7 @@ output:
 
  
 # percent of forest dominated by non-native species 
-####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health.csv) {-} 
+####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1268,7 +1268,7 @@ output:
 
  
 # protected marine areas within EEZ to protect against habitat destruction 
-####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_mpa_eez.csv) {-} 
+####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_mpa_eez_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1284,7 +1284,7 @@ output:
 
  
 # proxy for intertidal habitat destruction 
-####[hd_intertidal](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_intertidal.csv) {-} 
+####[hd_intertidal](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_intertidal_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1300,7 +1300,7 @@ output:
 
  
 # recreational catch multiplier 
-####[fis_reef_catch_multiplier](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_reef_catch_multiplier.csv) {-} 
+####[fis_reef_catch_multiplier](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_reef_catch_multiplier_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1316,7 +1316,7 @@ output:
 
  
 # reef fishing catch 
-####[fp_reeffish_t](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_reeffish_t.csv) {-} 
+####[fp_reeffish_t](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_reeffish_t_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1332,7 +1332,7 @@ output:
 
  
 # resident population 
-####[le_popn](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_popn.csv) {-} 
+####[le_popn](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_pop_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1348,7 +1348,7 @@ output:
 
  
 # resident sentiment 
-####[t_sentiment](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_sentiment.csv) {-} 
+####[t_sentiment](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_sentiment_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1364,7 +1364,7 @@ output:
 
  
 # residents 
-####[ao_residents](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_residents.csv) {-} 
+####[ao_residents](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_residents_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1380,7 +1380,7 @@ output:
 
  
 # resource 
-####[ao_resource](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_resource.csv) {-} 
+####[ao_resource](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_resource_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1396,7 +1396,7 @@ output:
 
  
 # sea level rise 
-####[cc_slr](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_slr.csv) {-} 
+####[cc_slr](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_slr_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1412,7 +1412,7 @@ output:
 
  
 # sea surface temperature 
-####[cc_sst](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_sst.csv) {-} 
+####[cc_sst](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_sst_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1428,7 +1428,7 @@ output:
 
  
 # sector evenness as a measure of economic diversity 
-####[li_sector_evenness](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/li_sector_evenness.csv) {-} 
+####[li_sector_evenness](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/need to put in local data layer for this) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1444,7 +1444,7 @@ output:
 
  
 # ship-based groundings 
-####[hd_shipbased_ground](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_shipbased_ground.csv) {-} 
+####[hd_shipbased_ground](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_shipbased_ground_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1460,7 +1460,7 @@ output:
 
  
 # ship-based pollution 
-####[po_shipbased_shipp](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_shipbased_shipp.csv) {-} 
+####[po_shipbased_shipp](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/po_shipbased_shipp_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1476,7 +1476,7 @@ output:
 
  
 # Social Progress Index 
-####[res_spi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/res_spi.csv) {-} 
+####[res_spi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/res_spi_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1492,7 +1492,7 @@ output:
 
  
 # soft bottom condition 
-####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi.csv) {-} 
+####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1508,7 +1508,7 @@ output:
 
  
 # soft bottom extent 
-####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi.csv) {-} 
+####[hab_extent_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1524,7 +1524,7 @@ output:
 
  
 # soft bottom trend 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1540,7 +1540,7 @@ output:
 
  
 # state conservation districts 
-####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_condist.csv) {-} 
+####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_condist_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1572,7 +1572,7 @@ output:
 
  
 # strength of governance 
-####[wgi_all](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/wgi_all.csv) {-} 
+####[wgi_all](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/wgi_all_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1588,7 +1588,7 @@ output:
 
  
 # sustainability of bottomfishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_score.csv) {-} 
+####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1604,7 +1604,7 @@ output:
 
  
 # sustainability of pelagic fishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_score.csv) {-} 
+####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1620,7 +1620,7 @@ output:
 
  
 # sustainability of reef fishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_score.csv) {-} 
+####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1636,7 +1636,7 @@ output:
 
  
 # terrestrial aquaculture 
-####[sp_aquacul_terrest](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_aquacul_terrest.csv) {-} 
+####[sp_aquacul_terrest](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_aquacul_terrest_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1652,7 +1652,7 @@ output:
 
  
 # unemployment 
-####[le_unemployment](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_unemployment.csv) {-} 
+####[le_unemployment](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_unemployment_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1668,7 +1668,7 @@ output:
 
  
 # uv radiation 
-####[cc_uv](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_uv.csv) {-} 
+####[cc_uv](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_uv_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1684,7 +1684,7 @@ output:
 
  
 # visitor contributed GDP 
-####[t_growth](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_growth.csv) {-} 
+####[t_growth](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_growth_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1716,7 +1716,7 @@ output:
 
  
 # watersheds protected 
-####[hd_watersheds](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_watersheds.csv) {-} 
+####[hd_watersheds](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_watersheds_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1732,7 +1732,7 @@ output:
 
  
 # weakness of governance 
-####[ss_wgi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ss_wgi.csv) {-} 
+####[ss_wgi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ss_wgi_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1748,7 +1748,7 @@ output:
 
  
 # weakness of social progress 
-####[ss_spi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ss_spi.csv) {-} 
+####[ss_spi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ss_spi_gl2016.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1764,7 +1764,7 @@ output:
 
  
 # workforce 
-####[le_wkforce](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_wkforce.csv) {-} 
+####[le_wkforce](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_wkforce_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')

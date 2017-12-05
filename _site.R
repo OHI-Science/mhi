@@ -1,8 +1,6 @@
 ## load any libraries needed across website pages
 suppressPackageStartupMessages({
-  library(readr)
-  library(dplyr)
-  library(tidyr)
+  library(tidyverse)
   library(stringr)
   library(knitr)
 })
