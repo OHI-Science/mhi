@@ -25,3 +25,9 @@ hd_shipbased_ground,ecological,habitat_destruction
 po_shipbased_shipp,ecological,pollution
 hd_tourrec_direct_h,ecological,habitat_destruction
 forest_health,ecological,habitat_destruction
+t_whale_watching,ecological,spp
+t_swimming,ecological,habitat_destruction
+t_boarding,ecological,habitat_destruction
+t_ snorkel_scuba,ecological,habitat_destruction
+t_kayaking,ecological,habitat_destruction
+t_thrill_craft,ecological,spp
