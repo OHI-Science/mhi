@@ -185,18 +185,32 @@ FIS = function(layers, status_year=2016){
     subset(code=="pelagic")
 
   coastal_pelagic<-data_fis_gf %>%
-    subset(code=="coastal_pelagic")
+    subset(code=="coast_pelagic")
 
 
-  # ---
-  #Calculate status for each region for the reef fishery only (all other fisheries get one score for the entire assessment area)
-  # ---
-  #  To calculate the weight (i.e, the relative catch of each stock per region),
-  # the mean catch of taxon i is divided by the
-  # sum of mean catch of all species in region/year
-  reef <- reef %>%
-    group_by(year, rgn_id, key_sp) %>% #summarize catch data
-    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
+## get fishery total catch tables and proportion of total catch
+  #reef <- reef %>%
+  #  group_by(rgn_id) %>% #summarize catch data
+  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score)) %>%
+  #  dplyr::mutate(fishery="reef")
+  #bottom <- bottom %>%
+  #  group_by(rgn_id) %>% #summarize catch data
+  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score)) %>%
+  #  dplyr::mutate(fishery="bottomfish")
+  #coastal_pelagic <- coastal_pelagic %>%
+  #  group_by(rgn_id) %>% #summarize catch data
+  #  dplyr::summarize(catch = mean(catch)) %>%
+  #  dplyr::mutate(mean_score=NA)%>%
+  #  dplyr::mutate(fishery="coastal pelagic")
+  #pelagic <- pelagic %>%
+  #  group_by(rgn_id) %>% #summarize catch data
+  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score))%>%
+  #  dplyr::mutate(fishery="pelagic") #only 1 row because assessed at the EEZ scale
+
+  #summary<-rbind(reef,bottom,coastal_pelagic,pelagic)
+  #readr::write_csv(summary, file.path("~/documents/github/mhi/region2017/reports/documents", "fishery_summary_table.csv"))
+##end fishery summary section
+
 
 ##use code below to get summary tables for species catch and scores
   #reef<-data_fis_gf %>%
@@ -215,11 +229,12 @@ FIS = function(layers, status_year=2016){
   #   readr::write_csv(reef_species_average_scores, file.path("~/documents/github/mhi/region2017/reports/documents", "reef_species_average_scores.csv"))
 ##end summary code section
 
-  reef <- reef %>%
-    #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
-    group_by(rgn_id,year)%>%
-    dplyr::mutate(SumCatch = sum(catch))%>%
-    dplyr::mutate(wprop = catch/SumCatch)
+  # ---
+  #Calculate status for each region for the reef fishery only (all other fisheries get one score for the entire assessment area)
+  # ---
+  #  To calculate the weight (i.e, the relative catch of each stock per region),
+  # the mean catch of taxon i is divided by the
+  # sum of mean catch of all species in region/year
 
 
    #code to get wieght of wild caught fisheries to compare to mariculture to weight final fp score
@@ -227,15 +242,22 @@ FIS = function(layers, status_year=2016){
   #dplyr::group_by(rgn_id) %>%
   #summarize(Total=sum(SumCatch))
 
-  #to get sus scores for each fishery
+
+#reef
   reef <- reef %>%
-    dplyr::group_by(rgn_id, year) %>%
+    group_by(year,  key_sp) %>% #summarize catch data
+    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
+
+  reef <- reef %>%
+    group_by(year)%>%
+    dplyr::mutate(SumCatch = sum(catch))%>%
+    dplyr::mutate(wprop = catch/SumCatch)
+  reef_status <- reef %>%
+    dplyr::group_by( year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
-  reef <- reef %>%
-    dplyr::group_by(rgn_id) %>%
-    dplyr::summarize(status = prod(mean_score^wprop)) %>%
-    ungroup()
+
+
 
 #bottom
 
