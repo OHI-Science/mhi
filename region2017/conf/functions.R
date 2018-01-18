@@ -198,6 +198,22 @@ FIS = function(layers, status_year=2016){
     group_by(year, rgn_id, key_sp) %>% #summarize catch data
     dplyr::summarize(catch = sum(catch), mean_score=mean(score))
 
+##use code below to get summary tables for species catch and scores
+  #reef<-data_fis_gf %>%
+  #  subset(code=="reef")
+
+  # reef_species_average_scores <- reef %>%
+  #  group_by(year,key_sp) %>% #summarize catch data
+  #  dplyr::summarize(catch = sum(catch), mean_score=mean(score))%>%
+  #  dplyr::ungroup()
+
+  #reef_species_average_scores <- reef_species_average_scores %>%
+  #   group_by(key_sp) %>% #summarize catch data
+  #   dplyr::summarize(mean_catch = mean(catch), mean_score=mean(mean_score))
+
+  #   str(reef_species_average_scores)
+  #   readr::write_csv(reef_species_average_scores, file.path("~/documents/github/mhi/region2017/reports/documents", "reef_species_average_scores.csv"))
+##end summary code section
 
   reef <- reef %>%
     #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
@@ -216,7 +232,10 @@ FIS = function(layers, status_year=2016){
     dplyr::group_by(rgn_id, year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
-
+  reef <- reef %>%
+    dplyr::group_by(rgn_id) %>%
+    dplyr::summarize(status = prod(mean_score^wprop)) %>%
+    ungroup()
 
 #bottom
 
@@ -233,6 +252,23 @@ FIS = function(layers, status_year=2016){
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
 
+  ##use code below to get summary tables for species catch and scores
+  #bottom<-data_fis_gf %>%
+  #  subset(code=="deef")
+
+  # bottom_species_average_scores <- bottom %>%
+  #  group_by(year,key_sp) %>% #summarize catch data
+  #  dplyr::summarize(catch = sum(catch), mean_score=mean(score))%>%
+  #  dplyr::ungroup()
+
+  # bottom_species_average_scores <- bottom_species_average_scores %>%
+  #   group_by(key_sp) %>% #summarize catch data
+  #   dplyr::summarize(mean_catch = mean(catch), mean_score=mean(mean_score))
+
+  #   str(bottom_species_average_scores)
+  #   readr::write_csv(bottom_species_average_scores, file.path("~/documents/github/mhi/region2017/reports/documents", "bottom_species_average_scores.csv"))
+  ##end summary code section
+
   #pelagic
   pelagic <- pelagic %>%
     group_by(year,  key_sp) %>% #summarize catch data
@@ -246,6 +282,24 @@ FIS = function(layers, status_year=2016){
     dplyr::group_by( year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
+
+  ##use code below to get summary tables for species catch and scores
+  #pelagic<-data_fis_gf %>%
+  #  subset(code=="pelagic")
+
+  # pelagic_species_average_scores <- pelagic %>%
+  #  group_by(year,key_sp) %>% #summarize catch data
+  #  dplyr::summarize(catch = sum(catch), mean_score=mean(score))%>%
+  #  dplyr::ungroup()
+
+  #pelagic_species_average_scores <- pelagic_species_average_scores %>%
+  #   group_by(key_sp) %>% #summarize catch data
+  #   dplyr::summarize(mean_catch = mean(catch), mean_score=mean(mean_score))
+
+  #  str(pelagic_species_average_scores)
+  #   readr::write_csv(pelagic_species_average_scores, file.path("~/documents/github/mhi/region2017/reports/documents", "pelagic_species_average_scores.csv"))
+  ##end summary code section
+
 
   #no assessments for coastal pelagics so can not score them
 
