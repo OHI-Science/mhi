@@ -1,0 +1,87 @@
+key_sp,Species,mean_catch,mean_score
+Acan_Api,Api,531.6,0.536486111
+Acan_Black kole,Black kole,1102.5,0.532614379
+Acan_Kala,Kala,239063.92,0.285
+Acan_Kole,Kole,21142.78,0.533424183
+Acan_Maiko,Maiko,6590.82,0.533424183
+Acan_Manini,Manini,61198.88,0.533424183
+Acan_Naenae,Naenae,21933.96,0.533424183
+Acan_Opelu kala,Opelu kala,26051.7,0.43
+Acan_Pakuikui (tang),Pakuikui (tang),2281.86,0.533424183
+Acan_Palani,Palani,117499.44,1
+Acan_Pualu,Pualu,33252.16,0.4
+Acan_Umaumalei,Umaumalei,21172.62,0.83
+Albu_Oio,Oio,33402,0.813527329
+Aulo_Nunu,Nunu,872.4,0.813527329
+Bali_Humuhumu,Humuhumu,2659.38,0.813527329
+Belo_Ahaaha,Ahaaha,2561.72,0.813527329
+Both_Pakii,Pakii,46.2,0.812871898
+Cara_Akule,Akule,1549490.16,0.813527329
+Cara_Barred jack,Barred jack,163.35,0.812352941
+Cara_Dobe ulua,Dobe ulua,14927.68,0.813527329
+Cara_Hahalalu,Hahalalu,61253.98,0.813527329
+Cara_Kagami ulua,Kagami ulua,1375.78,0.813527329
+Cara_Kamanu,Kamanu,38109.92,0.813527329
+Cara_Lae,Lae,896.18,0.813527329
+Cara_Omaka,Omaka,92.4,0.816901408
+Cara_Omilu,Omilu,44474.8,0.813527329
+Cara_Opelu,Opelu,1844793.38,0.813527329
+Cara_Opelu mama,Opelu mama,414.75,0.810857143
+Cara_Paopao ulua,Paopao ulua,1732.5,0.814580394
+Cara_Papa ulua,Papa ulua,61496,0.813527329
+Cara_Sasa ulua,Sasa ulua,2613.28,0.813527329
+Cara_Ulua-misc.,Ulua-misc.,11394.73333,0.815245079
+Carc_Shark-misc.,Shark-misc.,10145.86,0.925
+Chan_Awa,Awa,4589.66,0.813527329
+Cich_Tilapia,Tilapia,5916.9,0.816901408
+Cirr_Poopaa,Poopaa,3232.16,0.813527329
+Cong_Puhi white,Puhi white,872.025,0.811982691
+Diod_Oopuhue,Oopuhue,3478.2,0.816901408
+Elop_Awaawa,Awaawa,2731.74,0.813527329
+Emme_Golden kali,Golden kali,2033.3,0.813527329
+Gemp_Hauliuli,Hauliuli,115.5,0.805
+Hemi_Iheihe,Iheihe,377.85,0.816807847
+Holo_Alaihe,Alaihe,3002.24,1
+Holo_Alaihe mama,Alaihe mama,388.6,1
+Holo_Menpachi,Menpachi,381403.32,1
+Kuhl_Aholehole,Aholehole,14351.22,0.813527329
+Kyph_Nenue,Nenue,97275.46,0.813527329
+Labr_Aawa,Aawa,25893.78,0.813527329
+Labr_Ea (wrasse),Ea (wrasse),1043.4,0.813527329
+Labr_Hinalea,Hinalea,85.14,0.813527329
+Labr_Kupoupou,Kupoupou,37.125,0.811982691
+Labr_Laenihi,Laenihi,24305.94,0.813527329
+Labr_Poou,Poou,190.1,0.818303645
+Leth_Mu,Mu,19863.88,1
+Lutj_Randall's snapper,Randall's snapper,645.75,0.896666667
+Lutj_Toau,Toau,20810.64,1
+Lutj_Wahanui,Wahanui,329.42,0.893333333
+Mona_Olililepa,Olililepa,3892.92,0.813527329
+Mugi_Amaama,Amaama,17175.06,0.813527329
+Mugi_Summer mullet,Summer mullet,1574.1,0.819705882
+Mugi_Uouoa,Uouoa,3228.6,0.811982691
+Mull_Kumu,Kumu,25769.34,0.5
+Mull_Malu,Malu,673.12,0.871515152
+Mull_Moana,Moana,29993.84,0.871515152
+Mull_Moana kale,Moana kale,14825.9,0.8
+Mull_Munu,Munu,2870.1,1
+Mull_Weke,Weke,2184.6,0.872727273
+Mull_Weke a'a,Weke a'a,20508.5,1
+Mull_Weke nono,Weke nono,38173.88,1
+Mull_Weke pueo,Weke pueo,2083.2,0.872727273
+Mull_Weke ula,Weke ula,142783.68,1
+Mura_Puhi black,Puhi black,2229.48,0.813527329
+Mura_Puhi eel-misc.,Puhi eel-misc.,1645.02,0.813527329
+Poly_Moi,Moi,1238.96,0.813527329
+Poma_Kupipi,Kupipi,657.4666667,0.812871898
+Poma_Maomao,Maomao,7214.58,0.813527329
+Pria_Aweoweo,Aweoweo,41587.7,0.813527329
+Pria_Aweoweo (deepsea),Aweoweo (deepsea),1536.96,0.813527329
+Scar_Panuhunuhu,Panuhunuhu,638.04,0.43
+Scar_Panunu,Panunu,1070.52,0.77
+Scar_Uhu parrot-misc.,Uhu parrot-misc.,1077847.44,0.9675
+Scor_Hogo,Hogo,11572.34,0.813527329
+Scor_Nohu,Nohu,8367.78,0.813527329
+Serr_Roi,Roi,11528.2,0.84
+Sphy_Kaku,Kaku,13695.42,0.813527329
+Sphy_Kawelea,Kawelea,18403.18,0.813527329
