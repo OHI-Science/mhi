@@ -1182,6 +1182,9 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   le_unemployment = SelectLayersData(layers, layers='le_unemployment') %>%
     dplyr::select(rgn_id = id_num, year, pct_unemployed = val_num)
 
+  le_a_wage = SelectLayersData(layers, layers='liv_a_wage') %>%
+    dplyr::select(rgn_id = id_num, year, a_wage = val_num)
+
 
   # local multipliers from DBEDT 2007 report
   multipliers_jobs = data.frame('sector' = c('Offshore Mineral Extraction','All Ocean Sectors', 'Tourism and Recreation','Living Resources', 'Marine Construction', 'Ship and Boat Building','Marine Transportation'),
@@ -1189,10 +1192,23 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
   multipliers_rev  = data.frame('sector' = c('Offshore Mineral Extraction','All Ocean Sectors','Tourism and Recreation','Living Resources', 'Marine Construction', 'Ship and Boat Building','Marine Transportation'),
                                 'multiplier' = c(1,1,1.32,1.58,1,1, 1.63)) # Ship and Boat building given a value of one becuase no multiplier available
 
+  #multiple options for reference points for wages
+  #Average wage # used this for the reference point for wages by sector
+  le_wages = le_wages %>%
+    left_join(le_a_wage, by = c('rgn_id', 'year'))
+
+  #sss
   sss<-data.frame(rgn_id=c('1','2','3','4'),
-      sss=c('24435','31435','31675','38472')) #self suficency standard for one adult family- DBEDT 2014
+      sss=c('24435','31435','31675','38472')) #self suficency standard for one adult family- DBEDT 2014 databook for 2013 year
     sss$rgn_id<-as.integer(sss$rgn_id)
     sss$sss=as.integer(c('24435','31435','31675','38472'))
+
+  #median wage
+  median_wage<-data.frame(rgn_id=c('1','2','3','4'),
+                          m_wage=c('25601','36791','31869','31473')) #median wage- DBEDT 2014 databook for 2013 year
+  median_wage$rgn_id<-as.integer(median_wage$rgn_id)
+  median_wage$m_wage=as.integer(c('25601','36791','31869','31473'))
+
 
     # calculate employment counts
   le_employed = le_workforce_size %>%
@@ -1231,61 +1247,59 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
 
 
   liv_status = liv_status %>%
-      filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
-      arrange(rgn_id, year) %>%
-      # summarize across sectors
-      dplyr::group_by(rgn_id, year) %>%
-      dplyr::mutate(
-        # across sectors, wages are averaged
-        #wages_avg = mean(wage_usd, na.rm=T)) #does not take into account higher number of poverty level jobs in tourism industry - does not account for wieght of job sector
-        jobs_sum=sum(jobs_adj, na.rm=T))%>%
-        #ungroup() %>%
-        #change mean wage to reflect the total number of jobs per sector * sector wage/ total jobs
-        ungroup()%>%
-     dplyr::group_by(rgn_id) %>%
-          dplyr::mutate(jobs_rgn=mean(jobs_sum))%>%
-          dplyr::ungroup() %>%
-      dplyr::group_by(rgn_id,sector) %>%
-      dplyr::mutate(wages_weight = (mean(jobs_adj)/jobs_rgn)) %>%
-          dplyr::ungroup() %>%
-      #dplyr::group_by(rgn_id,sector, year) %>%
-       # dplyr::mutate(
-       # wages_avg=sum(wages_total/jobs_sum))%>% #removed to calculate sector score in reference to median wage and weighted by proportion of total jobs
-      #dplyr::ungroup() %>%
-      dplyr::group_by(rgn_id,year,sector) %>%
-      #summarize(wages_avg=mean(wages_avg), jobs_sum=mean(jobs_sum))%>%
-      arrange(rgn_id, year) %>%
-      dplyr::mutate(
-        # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-        jobs_sum_first  = first(jobs_sum),                     # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
-        # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
-        # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-        wages_avg_first = sss) %>% ##self suficency standard
-      #calculate final scores
-      ungroup() %>%
-      mutate(
-        x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
-        x_wages = pmin(1, wage_usd / wages_avg_first)) %>%
-     dplyr::group_by(rgn_id,sector, year) %>%
-     dplyr::mutate(x_wages_test = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
+    filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
+    arrange(rgn_id, year) %>%
+    # summarize across sectors
+    dplyr::group_by(rgn_id, year) %>%
+    dplyr::mutate(
+      # across sectors, wages are averaged
+      #wages_avg = mean(wage_usd, na.rm=T)) #does not take into account higher number of poverty level jobs in tourism industry - does not account for wieght of job sector
+      jobs_sum=sum(jobs_adj, na.rm=T))%>%
+    #ungroup() %>%
+    #change mean wage to reflect the total number of jobs per sector * sector wage/ total jobs
+    ungroup()%>%
+    dplyr::group_by(rgn_id) %>%
+    dplyr::mutate(jobs_rgn=mean(jobs_sum))%>%
+    dplyr::ungroup() %>%
+    dplyr::group_by(rgn_id,sector) %>%
+    dplyr::mutate(wages_weight = (mean(jobs_adj)/jobs_rgn)) %>%
+    dplyr::ungroup() %>%
+    #dplyr::group_by(rgn_id,sector, year) %>%
+    # dplyr::mutate(
+    # wages_avg=sum(wages_total/jobs_sum))%>% #removed to calculate sector score in reference to median wage and weighted by proportion of total jobs
+    #dplyr::ungroup() %>%
+    dplyr::group_by(rgn_id,year,sector) %>%
+    #summarize(wages_avg=mean(wages_avg), jobs_sum=mean(jobs_sum))%>%
+    arrange(rgn_id, year) %>%
+    dplyr::mutate(
+      # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
+      jobs_sum_first  = first(jobs_sum),                     # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
+      # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
+      # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
+      wages_avg_first = a_wage) %>% ##average_wage by county from 2009-2013 DBEDT
+    #calculate final scores
     ungroup() %>%
-     mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
-      dplyr::group_by(rgn_id,year) %>%
-      summarize(x_wages=mean(x_wages), x_jobs=mean(x_jobs))%>%
+    mutate(
+      x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
+      x_wages = pmin(1, wage_usd / wages_avg_first)) %>%
+    dplyr::group_by(rgn_id,sector, year) %>%
+    dplyr::mutate(x_wages_test = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
     ungroup() %>%
-      mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
-      filter(year == max(year, na.rm=T)) %>%
-      # format
-      mutate(
-        goal      = 'LIV',
-        dimension = 'status') %>%
-      dplyr::select(
-        goal,
-        dimension,
-        region_id = rgn_id,
-        score)
-
-
+    mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
+    dplyr::group_by(rgn_id,year) %>%
+    summarize(x_wages=mean(x_wages), x_jobs=mean(x_jobs))%>%
+    ungroup() %>%
+    mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
+    filter(year == max(year, na.rm=T)) %>%
+    # format
+    mutate(
+      goal      = 'LIV',
+      dimension = 'status') %>%
+    dplyr::select(
+      goal,
+      dimension,
+      region_id = rgn_id,
+      score)
 
     # LIV trend
     # From SOM p. 29: trend was calculated as the slope in the individual sector values (not summed sectors)
