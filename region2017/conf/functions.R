@@ -1283,11 +1283,11 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
       x_jobs  = pmin(1,  jobs_sum / jobs_sum_first),
       x_wages = pmin(1, wage_usd / wages_avg_first)) %>%
     dplyr::group_by(rgn_id,sector, year) %>%
-    dplyr::mutate(x_wages_test = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
+    dplyr::mutate(x_wages_w = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
     ungroup() %>%
     mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
     dplyr::group_by(rgn_id,year) %>%
-    summarize(x_wages=mean(x_wages), x_jobs=mean(x_jobs))%>%
+    summarize(x_wages=sum(x_wages_w), x_jobs=mean(x_jobs))%>%
     ungroup() %>%
     mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
     filter(year == max(year, na.rm=T)) %>%
