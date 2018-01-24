@@ -244,18 +244,25 @@ FIS = function(layers, status_year=2016){
 
 
 #reef
+  # sum of mean catch of all species in region/year
   reef <- reef %>%
-    group_by(year,  key_sp) %>% #summarize catch data
+    group_by(year, rgn_id, key_sp) %>% #summarize catch data
     dplyr::summarize(catch = sum(catch), mean_score=mean(score))
 
+
   reef <- reef %>%
-    group_by(year)%>%
+    #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
+    group_by(rgn_id,year)%>%
     dplyr::mutate(SumCatch = sum(catch))%>%
     dplyr::mutate(wprop = catch/SumCatch)
-  reef_status <- reef %>%
-    dplyr::group_by( year) %>%
+
+
+  #to get sus scores for reef by region
+  reef <- reef %>%
+    dplyr::group_by(rgn_id, year) %>%
     dplyr::summarize(status = prod(mean_score^wprop)) %>%
     ungroup()
+
 
 
 
@@ -1425,7 +1432,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
       weight = weight,
       rgn_id = rgn_id,
       sector = sector,
-      # TODO: consider how the units affect trend; should these be normalized? cap per sector or later?
+      # TODO: consider how the units affect trend; are these be normalized?
       sector_trend = pmax(-1, pmin(1, coef(mdl)[['year']] * 5))) %>%
     # get weighted mean across sectors per region
     group_by(rgn_id) %>%
