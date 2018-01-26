@@ -667,9 +667,14 @@ AO = function(layers){
   #  left_join(ao_data, by = c("region_id", "year"))
 
   #ao_data <- na.omit(ao_data)
+<<<<<<< HEAD
 
   #ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
 
+=======
+
+  #ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
+>>>>>>> d04b0e3af3a2da164fcf5f0c17d67c0fd9a7ddb0
 
   # ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
   # left_join(ao_data, by="year")
@@ -711,7 +716,12 @@ AO = function(layers){
 #    mutate(Du = (1 - need) * (1 - access)) %>%
 #   mutate(status = (1 - Du) * Sustainability)
 
+<<<<<<< HEAD
     # status
+=======
+  # status_year=2013 ## @eschemmel: this is overwriting the variable set in conf/goals.csv from 2014. @jules32 removed it from goals.csv and moves this 2013 value up to the function call <-  doublecheck to make sure this is what you want!
+  # status
+>>>>>>> d04b0e3af3a2da164fcf5f0c17d67c0fd9a7ddb0
   ao_data<-ao_data %>%
     dplyr::mutate(status=(bio+access)/2)
 
