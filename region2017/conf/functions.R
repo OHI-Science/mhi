@@ -645,66 +645,64 @@ FP = function(layers, scores){
 }
 
 
-AO = function(layers,
-              status_year = 2013,
-              Sustainability=1.0){
+AO = function(layers){
 
 
-  r <- SelectLayersData(layers, layers = 'ao_access_mhi2017', narrow=TRUE) %>%   ##global access data for management of fisheries and mpas- need to be updated
+  r <- SelectLayersData(layers, layers = 'ao_access_mhi2017', narrow=TRUE) %>%   ##shoreline access weights (removes MPAs and inaccessable coastlines)
     select(region_id=id_num, access=val_num)
   r <- na.omit(r)
 
-  ry <- SelectLayersData(layers, layers = 'ao_need', narrow=TRUE) %>% ##households that fish
-    select(region_id = id_num, year, need=val_num) %>%
-    left_join(r, by="region_id")
+  #ry <- SelectLayersData(layers, layers = 'ao_need', narrow=TRUE) %>% ##households that fish
+  #  select(region_id = id_num, year, need=val_num) %>%
+  #  left_join(r, by="region_id")
 
   ao_data <- SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE) %>% ##resource measured as biomass of resource fish
-    select(region_id=id_num,bio=val_num)%>%
-    left_join(ry, by="region_id")
+    select(region_id=id_num,bio=val_num,trend=category)%>%
+    left_join(r, by="region_id")
 
   ao_data$bio<-ao_data$bio/100
 
-  ao_data <- SelectLayersData(layers, layers = 'ao_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
-    select(region_id=id_num, year,res=val_num)%>%
-    left_join(ao_data, by = c("region_id", "year"))
+  #ao_data <- SelectLayersData(layers, layers = 'ao_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
+  #  select(region_id=id_num, year,res=val_num)%>%
+  #  left_join(ao_data, by = c("region_id", "year"))
 
-  ao_data <- na.omit(ao_data)
+  #ao_data <- na.omit(ao_data)
 
-  ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
+  #ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
 
-  ## @jules32 rewrote these lines below without ddply; use mutate() instead of summarize() and left_join()
+
   # ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
   # left_join(ao_data, by="year")
   # ao_data<-ddply(ao_data, .(year), summarize, total_res=sum(res))%>% #total fishers in Hawaii
   #   left_join(ao_data, by="year")
 
   ## calculate total fishers and total res for each year
-  ao_data <- ao_data %>%
-    group_by(year) %>%
-    mutate(total_fishers = sum(fishers), # total fishers  in Hawaii
-           total_res = sum(res)) %>%     # total res
-    ungroup()
+ # ao_data <- ao_data %>%
+#    group_by(year) %>%
+#    mutate(total_fishers = sum(fishers), # total fishers  in Hawaii
+#          total_res = sum(res)) %>%     # total res
+#    ungroup()
 
-  ao_data$need_score<-ao_data$fishers/ao_data$total_fishers # need standardized to number of fishers
+#  ao_data$need_score<-ao_data$fishers/ao_data$total_fishers # need standardized to number of fishers
 
-  ao_data$need_score<-ao_data$res*.106/ao_data$total_res
+ # ao_data$need_score<-ao_data$res*.106/ao_data$total_res
   #need standardized to poverty level
 
 
   # Hawaii model
 
-  ao_data <- ao_data %>%
-    mutate(Du = (1-need/100) * (1-access)) %>%  #need based on # of fishers
-             mutate(status = (1-Du) * bio)
+  #ao_data <- ao_data %>%
+  #  mutate(Du = (1-need/100) * (1-access)) %>%  #need based on # of fishers
+  #           mutate(status = (1-Du) * bio)
 
-  ao_data <- ao_data %>%
-    mutate(Du = (1-.106) * (1-access)) %>% #need based on poverty level
-    mutate(status = (1-Du) * bio)
+  #ao_data <- ao_data %>%
+  #  mutate(Du = (1-.106) * (1-access)) %>% #need based on poverty level
+  #  mutate(status = (1-Du) * bio)
 
 
-  ao_sum<-ao_data %>%
-    group_by(region_id) %>%
-    summarize(bio_m=mean(bio), access_m=mean(access))
+  #ao_sum<-ao_data %>%
+  #  group_by(region_id) %>%
+  #  summarize(bio_m=mean(bio), access_m=mean(access))
  #ao_data <-ao_data %>%
 #    mutate(status=(access+bio)/2)
 
@@ -713,20 +711,26 @@ AO = function(layers,
 #    mutate(Du = (1 - need) * (1 - access)) %>%
 #   mutate(status = (1 - Du) * Sustainability)
 
-  # status_year=2013 ## @eschemmel: this is overwriting the variable set in conf/goals.csv from 2014. @jules32 removed it from goals.csv and moves this 2013 value up to the function call <-  doublecheck to make sure this is what you want!
-  # status
+    # status
+  ao_data<-ao_data %>%
+    dplyr::mutate(status=(bio+access)/2)
+
   r.status <- ao_data %>%
-    filter(year==status_year) %>%
+    #filter(year==status_year) %>%
     select(region_id, status) %>%
     mutate(status=status*100)
 
   # trend
+  r.trend=ao_data %>%
+    select(region_id, category=trend)
+
+
 #trend is based on change in %fishers per year and % change in fish biomass #
 
-  r.trend<-SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE)
+  #r.trend<-SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE)
   # str(r.trend)
- r.trend$region_id=r.trend$id_num
-  r.trend$category<-r.trend$category+0.007 #access increased by 0.7% per year
+ #r.trend$region_id=r.trend$id_num
+  #r.trend$category<-r.trend$category+0.007 #access increased by 0.7% per year
 
   #trend_years <- (status_year-4):(status_year)
   #adj_trend_year <- min(trend_years)
@@ -745,7 +749,7 @@ AO = function(layers,
 
   ## reference points
   rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "AO", method = "poverty, access/km, biomass/pristine biomass",
+    rbind(data.frame(goal = "AO", method = "shoreline access, biomass/pristine biomass",
                      reference_point = NA))
   write.csv(rp, file.path('temp/referencePoints.csv'), row.names=FALSE)
 
@@ -1292,6 +1296,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     dplyr::group_by(rgn_id,sector, year) %>%
     dplyr::mutate(x_wages_w = (x_wages*wages_weight))%>% ##scores are weighted by proportion of jobs in each sector
     ungroup() %>%
+
     mutate(x_jobs  = pmin(1,  jobs_sum / jobs_sum_first)) %>%#compare the current jobs (2015) to 5 years prior
     dplyr::group_by(rgn_id,year) %>%
     summarize(x_wages=sum(x_wages_w), x_jobs=mean(x_jobs))%>%
