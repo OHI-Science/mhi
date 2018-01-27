@@ -64,6 +64,53 @@ rgn_id,year,key_sp,catch,Fam,code
 1,2013,Belo_Ahaaha,871.5,Belo,reef
 1,2015,Belo_Ahaaha,892.5,Belo,reef
 1,2016,Belo_Ahaaha,472.5,Belo,reef
+1,2012,Cara_Akule,198471,Cara,reef
+1,2013,Cara_Akule,157311,Cara,reef
+1,2014,Cara_Akule,136552.5,Cara,reef
+1,2015,Cara_Akule,185934,Cara,reef
+1,2016,Cara_Akule,210724.5,Cara,reef
+1,2013,Cara_Dobe ulua,1648.5,Cara,reef
+1,2014,Cara_Dobe ulua,4945.5,Cara,reef
+1,2012,Cara_Hahalalu,2919,Cara,reef
+1,2014,Cara_Hahalalu,577.5,Cara,reef
+1,2015,Cara_Hahalalu,2562,Cara,reef
+1,2016,Cara_Hahalalu,5607,Cara,reef
+1,2012,Cara_Kamanu,25368,Cara,reef
+1,2013,Cara_Kamanu,15466.5,Cara,reef
+1,2014,Cara_Kamanu,30786,Cara,reef
+1,2015,Cara_Kamanu,15582,Cara,reef
+1,2016,Cara_Kamanu,22984.5,Cara,reef
+1,2012,Cara_Lae,42,Cara,reef
+1,2013,Cara_Lae,63,Cara,reef
+1,2014,Cara_Lae,52.5,Cara,reef
+1,2015,Cara_Lae,105,Cara,reef
+1,2012,Cara_Omilu,13314,Cara,reef
+1,2013,Cara_Omilu,5848.5,Cara,reef
+1,2014,Cara_Omilu,4410,Cara,reef
+1,2015,Cara_Omilu,6394.5,Cara,reef
+1,2016,Cara_Omilu,5145,Cara,reef
+1,2012,Cara_Opelu,1608621,Cara,reef
+1,2013,Cara_Opelu,1380508.5,Cara,reef
+1,2014,Cara_Opelu,1599853.5,Cara,reef
+1,2015,Cara_Opelu,1641780,Cara,reef
+1,2016,Cara_Opelu,1087443,Cara,reef
+1,2013,Cara_Opelu mama,441,Cara,reef
+1,2014,Cara_Opelu mama,388.5,Cara,reef
+1,2012,Cara_Papa ulua,336,Cara,reef
+1,2013,Cara_Papa ulua,1596,Cara,reef
+1,2014,Cara_Papa ulua,1438.5,Cara,reef
+1,2015,Cara_Papa ulua,630,Cara,reef
+1,2016,Cara_Papa ulua,2331,Cara,reef
+1,2012,Cara_Sasa ulua,609,Cara,reef
+1,2013,Cara_Sasa ulua,1659,Cara,reef
+1,2015,Cara_Sasa ulua,2814,Cara,reef
+1,2014,Cara_Ulua-misc.,1102.5,Cara,reef
+1,2015,Cara_Ulua-misc.,2488.5,Cara,reef
+1,2012,Carc_Shark-misc.,3192,Carc,reef
+1,2013,Carc_Shark-misc.,2205,Carc,reef
+1,2014,Carc_Shark-misc.,1081.5,Carc,reef
+1,2015,Carc_Shark-misc.,0,Carc,reef
+1,2016,Carc_Shark-misc.,2614.5,Carc,reef
 1,2012,Cirr_Poopaa,315,Cirr,reef
 1,2013,Cirr_Poopaa,220.5,Cirr,reef
 1,2014,Cirr_Poopaa,294,Cirr,reef
@@ -269,6 +316,54 @@ rgn_id,year,key_sp,catch,Fam,code
 2,2012,Belo_Ahaaha,2745.4,Belo,reef
 2,2013,Belo_Ahaaha,754.8,Belo,reef
 2,2014,Belo_Ahaaha,843.6,Belo,reef
+2,2012,Cara_Akule,222747.4,Cara,reef
+2,2013,Cara_Akule,285714,Cara,reef
+2,2014,Cara_Akule,236896.2,Cara,reef
+2,2015,Cara_Akule,228933.8,Cara,reef
+2,2016,Cara_Akule,1052790.6,Cara,reef
+2,2012,Cara_Dobe ulua,8428.6,Cara,reef
+2,2013,Cara_Dobe ulua,13083.2,Cara,reef
+2,2014,Cara_Dobe ulua,1028.6,Cara,reef
+2,2015,Cara_Dobe ulua,3389.2,Cara,reef
+2,2016,Cara_Dobe ulua,917.6,Cara,reef
+2,2012,Cara_Kagami ulua,1864.8,Cara,reef
+2,2013,Cara_Kagami ulua,421.8,Cara,reef
+2,2014,Cara_Kagami ulua,451.4,Cara,reef
+2,2015,Cara_Kagami ulua,303.4,Cara,reef
+2,2012,Cara_Kamanu,4484.4,Cara,reef
+2,2013,Cara_Kamanu,5490.8,Cara,reef
+2,2014,Cara_Kamanu,8251,Cara,reef
+2,2015,Cara_Kamanu,12298.8,Cara,reef
+2,2016,Cara_Kamanu,15199.6,Cara,reef
+2,2012,Cara_Lae,59.2,Cara,reef
+2,2013,Cara_Lae,103.6,Cara,reef
+2,2015,Cara_Lae,29.6,Cara,reef
+2,2012,Cara_Omilu,18189.2,Cara,reef
+2,2013,Cara_Omilu,12113.8,Cara,reef
+2,2014,Cara_Omilu,11114.8,Cara,reef
+2,2015,Cara_Omilu,13949,Cara,reef
+2,2016,Cara_Omilu,14489.2,Cara,reef
+2,2012,Cara_Opelu,119436,Cara,reef
+2,2013,Cara_Opelu,160587.4,Cara,reef
+2,2014,Cara_Opelu,139793.4,Cara,reef
+2,2015,Cara_Opelu,62530,Cara,reef
+2,2016,Cara_Opelu,50801,Cara,reef
+2,2012,Cara_Papa ulua,78284.6,Cara,reef
+2,2013,Cara_Papa ulua,40973.8,Cara,reef
+2,2014,Cara_Papa ulua,44518.4,Cara,reef
+2,2015,Cara_Papa ulua,56536,Cara,reef
+2,2016,Cara_Papa ulua,61375.6,Cara,reef
+2,2012,Cara_Sasa ulua,1657.6,Cara,reef
+2,2013,Cara_Sasa ulua,473.6,Cara,reef
+2,2016,Cara_Sasa ulua,2812,Cara,reef
+2,2014,Cara_Ulua-misc.,9094.6,Cara,reef
+2,2015,Cara_Ulua-misc.,12054.6,Cara,reef
+2,2016,Cara_Ulua-misc.,843.6,Cara,reef
+2,2012,Carc_Shark-misc.,251.6,Carc,reef
+2,2013,Carc_Shark-misc.,392.2,Carc,reef
+2,2014,Carc_Shark-misc.,0,Carc,reef
+2,2015,Carc_Shark-misc.,2220,Carc,reef
+2,2016,Carc_Shark-misc.,6512,Carc,reef
 2,2012,Chan_Awa,458.8,Chan,reef
 2,2012,Cirr_Poopaa,2057.2,Cirr,reef
 2,2013,Cirr_Poopaa,717.8,Cirr,reef
@@ -479,6 +574,71 @@ rgn_id,year,key_sp,catch,Fam,code
 3,2012,Both_Pakii,33,Both,reef
 3,2013,Both_Pakii,46.2,Both,reef
 3,2014,Both_Pakii,59.4,Both,reef
+3,2012,Cara_Akule,596234.1,Cara,reef
+3,2013,Cara_Akule,509289,Cara,reef
+3,2014,Cara_Akule,566969.7,Cara,reef
+3,2015,Cara_Akule,958940.4,Cara,reef
+3,2016,Cara_Akule,682750.2,Cara,reef
+3,2013,Cara_Barred jack,105.6,Cara,reef
+3,2016,Cara_Barred jack,221.1,Cara,reef
+3,2012,Cara_Dobe ulua,22139.7,Cara,reef
+3,2013,Cara_Dobe ulua,3729,Cara,reef
+3,2014,Cara_Dobe ulua,11612.7,Cara,reef
+3,2015,Cara_Dobe ulua,2686.2,Cara,reef
+3,2016,Cara_Dobe ulua,1029.6,Cara,reef
+3,2012,Cara_Hahalalu,31851.6,Cara,reef
+3,2013,Cara_Hahalalu,69158.1,Cara,reef
+3,2014,Cara_Hahalalu,122288.1,Cara,reef
+3,2015,Cara_Hahalalu,21364.2,Cara,reef
+3,2016,Cara_Hahalalu,44629.2,Cara,reef
+3,2012,Cara_Kagami ulua,293.7,Cara,reef
+3,2013,Cara_Kagami ulua,59.4,Cara,reef
+3,2014,Cara_Kagami ulua,244.2,Cara,reef
+3,2015,Cara_Kagami ulua,323.4,Cara,reef
+3,2016,Cara_Kagami ulua,112.2,Cara,reef
+3,2012,Cara_Kamanu,663.3,Cara,reef
+3,2013,Cara_Kamanu,363,Cara,reef
+3,2014,Cara_Kamanu,524.7,Cara,reef
+3,2015,Cara_Kamanu,412.5,Cara,reef
+3,2016,Cara_Kamanu,551.1,Cara,reef
+3,2012,Cara_Lae,1415.7,Cara,reef
+3,2013,Cara_Lae,1181.4,Cara,reef
+3,2014,Cara_Lae,775.5,Cara,reef
+3,2015,Cara_Lae,389.4,Cara,reef
+3,2016,Cara_Lae,264,Cara,reef
+3,2012,Cara_Omaka,92.4,Cara,reef
+3,2012,Cara_Omilu,6972.9,Cara,reef
+3,2013,Cara_Omilu,5316.3,Cara,reef
+3,2014,Cara_Omilu,11790.9,Cara,reef
+3,2015,Cara_Omilu,5283.3,Cara,reef
+3,2016,Cara_Omilu,3867.6,Cara,reef
+3,2012,Cara_Opelu,214948.8,Cara,reef
+3,2013,Cara_Opelu,252846,Cara,reef
+3,2014,Cara_Opelu,199392.6,Cara,reef
+3,2015,Cara_Opelu,203854.2,Cara,reef
+3,2016,Cara_Opelu,105834.3,Cara,reef
+3,2012,Cara_Paopao ulua,2851.2,Cara,reef
+3,2013,Cara_Paopao ulua,3105.3,Cara,reef
+3,2014,Cara_Paopao ulua,617.1,Cara,reef
+3,2016,Cara_Paopao ulua,356.4,Cara,reef
+3,2012,Cara_Papa ulua,1455.3,Cara,reef
+3,2013,Cara_Papa ulua,1491.6,Cara,reef
+3,2014,Cara_Papa ulua,3220.8,Cara,reef
+3,2015,Cara_Papa ulua,1626.9,Cara,reef
+3,2016,Cara_Papa ulua,1409.1,Cara,reef
+3,2012,Cara_Sasa ulua,1277.1,Cara,reef
+3,2013,Cara_Sasa ulua,630.3,Cara,reef
+3,2014,Cara_Sasa ulua,231,Cara,reef
+3,2015,Cara_Sasa ulua,132,Cara,reef
+3,2016,Cara_Sasa ulua,112.2,Cara,reef
+3,2014,Cara_Ulua-misc.,2250.6,Cara,reef
+3,2015,Cara_Ulua-misc.,2306.7,Cara,reef
+3,2016,Cara_Ulua-misc.,69.3,Cara,reef
+3,2012,Carc_Shark-misc.,8421.6,Carc,reef
+3,2013,Carc_Shark-misc.,4517.7,Carc,reef
+3,2014,Carc_Shark-misc.,4448.4,Carc,reef
+3,2015,Carc_Shark-misc.,6827.7,Carc,reef
+3,2016,Carc_Shark-misc.,6979.5,Carc,reef
 3,2012,Chan_Awa,7144.5,Chan,reef
 3,2013,Chan_Awa,2201.1,Chan,reef
 3,2014,Chan_Awa,5009.4,Chan,reef
@@ -694,6 +854,44 @@ rgn_id,year,key_sp,catch,Fam,code
 4,2014,Albu_Oio,13675.2,Albu,reef
 4,2016,Albu_Oio,3211.6,Albu,reef
 4,2015,Bali_Humuhumu,140.6,Bali,reef
+4,2012,Cara_Akule,296399.6,Cara,reef
+4,2013,Cara_Akule,275872,Cara,reef
+4,2014,Cara_Akule,285662.2,Cara,reef
+4,2015,Cara_Akule,388544.4,Cara,reef
+4,2016,Cara_Akule,270714.2,Cara,reef
+4,2012,Cara_Hahalalu,2057.2,Cara,reef
+4,2013,Cara_Hahalalu,769.6,Cara,reef
+4,2014,Cara_Hahalalu,1420.8,Cara,reef
+4,2015,Cara_Hahalalu,1065.6,Cara,reef
+4,2012,Cara_Kagami ulua,1287.6,Cara,reef
+4,2016,Cara_Kagami ulua,1517,Cara,reef
+4,2012,Cara_Kamanu,4218,Cara,reef
+4,2013,Cara_Kamanu,6785.8,Cara,reef
+4,2014,Cara_Kamanu,6726.6,Cara,reef
+4,2015,Cara_Kamanu,7126.2,Cara,reef
+4,2016,Cara_Kamanu,7266.8,Cara,reef
+4,2012,Cara_Omilu,17930.2,Cara,reef
+4,2013,Cara_Omilu,18840.4,Cara,reef
+4,2014,Cara_Omilu,15488.2,Cara,reef
+4,2015,Cara_Omilu,15821.2,Cara,reef
+4,2016,Cara_Omilu,16095,Cara,reef
+4,2012,Cara_Opelu,92870,Cara,reef
+4,2013,Cara_Opelu,107359.2,Cara,reef
+4,2014,Cara_Opelu,87697.4,Cara,reef
+4,2015,Cara_Opelu,42683.2,Cara,reef
+4,2016,Cara_Opelu,65127.4,Cara,reef
+4,2012,Cara_Papa ulua,2234.8,Cara,reef
+4,2013,Cara_Papa ulua,1531.8,Cara,reef
+4,2014,Cara_Papa ulua,4195.8,Cara,reef
+4,2015,Cara_Papa ulua,1110,Cara,reef
+4,2016,Cara_Papa ulua,1184,Cara,reef
+4,2014,Cara_Sasa ulua,658.6,Cara,reef
+4,2014,Cara_Ulua-misc.,2575.2,Cara,reef
+4,2015,Cara_Ulua-misc.,1398.6,Cara,reef
+4,2012,Carc_Shark-misc.,29.6,Carc,reef
+4,2014,Carc_Shark-misc.,703,Carc,reef
+4,2015,Carc_Shark-misc.,296,Carc,reef
+4,2016,Carc_Shark-misc.,37,Carc,reef
 4,2012,Emme_Golden kali,192.4,Emme,reef
 4,2013,Emme_Golden kali,281.2,Emme,reef
 4,2014,Emme_Golden kali,162.8,Emme,reef
