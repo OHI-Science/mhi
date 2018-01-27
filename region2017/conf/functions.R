@@ -189,25 +189,41 @@ FIS = function(layers, status_year=2016){
 
 
 ## get fishery total catch tables and proportion of total catch
+ # reef <- reef %>%
+  #  group_by(rgn_id, year) %>% #summarize catch data
+  #  dplyr::summarize(mean_score=mean(score), catch_total = sum(catch)) %>%
+  #  ungroup()
   #reef <- reef %>%
   #  group_by(rgn_id) %>% #summarize catch data
-  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score)) %>%
+  #  dplyr::summarize(catch_total = mean(catch_total), mean_score=mean(mean_score))%>%
   #  dplyr::mutate(fishery="reef")
-  #bottom <- bottom %>%
-  #  group_by(rgn_id) %>% #summarize catch data
-  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score)) %>%
-  #  dplyr::mutate(fishery="bottomfish")
+
+  #bottomfish <- bottom %>%
+    #group_by(rgn_id, year) %>% #summarize catch data
+    #dplyr::summarize(mean_score=mean(score), catch_total = sum(catch)) %>%
+    #ungroup()
+  #bottomfish <- bottomfish %>%
+   # group_by(rgn_id) %>% #summarize catch data
+    #dplyr::summarize(catch_total = mean(catch_total), mean_score=mean(mean_score))%>%
+    #dplyr::mutate(fishery="bottomfish")
+
+  #coastal_pelagic <- coastal_pelagic %>%
+   # group_by(rgn_id, year) %>% #summarize catch data
+    #dplyr::summarize(catch_total = sum(catch)) %>%
+    #ungroup()
   #coastal_pelagic <- coastal_pelagic %>%
   #  group_by(rgn_id) %>% #summarize catch data
-  #  dplyr::summarize(catch = mean(catch)) %>%
-  #  dplyr::mutate(mean_score=NA)%>%
-  #  dplyr::mutate(fishery="coastal pelagic")
-  #pelagic <- pelagic %>%
-  #  group_by(rgn_id) %>% #summarize catch data
-  #  dplyr::summarize(catch = mean(catch), mean_score=mean(score))%>%
-  #  dplyr::mutate(fishery="pelagic") #only 1 row because assessed at the EEZ scale
+   # dplyr::summarize(catch_total = mean(catch_total), mean_score=NA)%>%
+    #dplyr::mutate(fishery="coastal_pelagic")
 
-  #summary<-rbind(reef,bottom,coastal_pelagic,pelagic)
+  #pelagic <- pelagic %>%
+   # group_by(year) %>% #summarize catch data
+    #dplyr::summarize(mean_score=mean(score), catch_total = sum(catch))
+  #pelagic <- pelagic %>%
+   # dplyr::summarize(mean_score=mean(mean_score), catch_total = mean(catch_total)) %>%
+    #dplyr::mutate(fishery="pelagic", rgn_id=1)
+
+  #summary<-rbind(reef,bottomfish,coastal_pelagic,pelagic)
   #readr::write_csv(summary, file.path("~/documents/github/mhi/region2017/reports/documents", "fishery_summary_table.csv"))
 ##end fishery summary section
 
