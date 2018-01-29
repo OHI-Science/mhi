@@ -38,8 +38,7 @@ regions <- bind_rows(
 regions <- regions %>%
   mutate(flower_png = sprintf('%s/reports/figures/flower_%s.png',
                               dir_scenario_gh,
-                              stringr::str_replace_all(region_name, ' ', '_')))
-
+                              stringr::str_replace_all(region_name, ' ', '')))
 
 ## display header, flower ----
 
