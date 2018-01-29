@@ -20,10 +20,11 @@ library(tidyverse)
 library(stringr)
 library(RColorBrewer)
 #'
-PlotFlower <- function(region_plot     = NA,
-                       year_plot       = NA,
-                       assessment_name = "OHI Assessment",
-                       dir_fig_save    = "reports/figures") {
+PlotFlower <- function(region_plot       = NA,
+                       year_plot         = NA,
+                       assessment_name   = "OHI Assessment",
+                       dir_fig_save      = "reports/figures",
+                       display_fig_title = TRUE) {
 
 
   ## scores data ----
@@ -280,9 +281,13 @@ PlotFlower <- function(region_plot     = NA,
                 x = 0, y = -blank_circle_rad,
                 hjust = .5, vjust = .5,
                 size = 12,
-                color = dark_line) +
-      labs(title = str_replace_all(region_name, '-', ' - '))
+                color = dark_line)
 
+    ## display figure title if TRUE
+    if (display_fig_title) (
+      plot_obj <- plot_obj +
+        labs(title = str_replace_all(region_name, '-', ' - '))
+    )
 
     ### clean up the theme
     plot_obj <- plot_obj +

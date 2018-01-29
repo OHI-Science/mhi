@@ -28,7 +28,7 @@ write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 ## visualize scores ----
 
 ## Flower plots for each region ----
-source('https://raw.githubusercontent.com/OHI-Science/arc/master/circle2016/plot_flower_local.R')
+source('plot_flower_local.R') # source local MHI copy, not ARC copy
 
 ## to create flower plots with equal weighting for FIS/MAR: since this relies on the `fp_wildcaught_weigth*` csv that is also used for calculating it, we'll rename it temporarily
 fp_real <- 'layers/fp_wildcaught_weight_mhi2017.csv'
@@ -44,10 +44,14 @@ scores$score[scores$goal == "CON"] <- NA
 write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 
 ## now plot
-PlotFlower(assessment_name = "Main Hawaiian Islands")
+PlotFlower(#region_plot = 0,
+           assessment_name = "Main Hawaiian Islands",
+           display_fig_title = FALSE)
 
 ## now reinstate original file
 readr::read_csv(fp_temp) %>%
   write_csv(fp_real)
 unlink(fp_temp)
 ## check to make sure neither fp_real nor fp_tmp is in the Git tab!!
+
+
