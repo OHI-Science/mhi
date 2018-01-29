@@ -20,11 +20,12 @@ library(tidyverse)
 library(stringr)
 library(RColorBrewer)
 #'
-PlotFlower <- function(region_plot       = NA,
-                       year_plot         = NA,
-                       assessment_name   = "OHI Assessment",
-                       dir_fig_save      = "reports/figures",
-                       display_fig_title = TRUE) {
+PlotFlower <- function(region_plot          = NA,
+                       year_plot            = NA,
+                       assessment_name      = "OHI Assessment",
+                       dir_fig_save         = "reports/figures",
+                       display_region_title = TRUE,
+                       display_supra_title  = TRUE) {
 
 
   ## scores data ----
@@ -283,8 +284,8 @@ PlotFlower <- function(region_plot       = NA,
                 size = 12,
                 color = dark_line)
 
-    ## display figure title if TRUE
-    if (display_fig_title) (
+    ## display region title if TRUE
+    if (display_region_title)(
       plot_obj <- plot_obj +
         labs(title = str_replace_all(region_name, '-', ' - '))
     )
@@ -312,12 +313,17 @@ PlotFlower <- function(region_plot       = NA,
       ## add supragoal arcs
       geom_errorbar(data = supra_df, inherit.aes = FALSE,
                     aes(x = pos_supra, ymin = supra_rad, ymax = supra_rad),
-                    size = 0.25, show.legend = NA) +
-      geom_text(data = supra_df, inherit.aes = FALSE,
-                aes(label = name_supra, x = pos_supra, y = supra_rad, angle = myAng),
-                hjust = .5, vjust = .5,
-                size = 3,
-                color = dark_line)
+                    size = 0.25, show.legend = NA)
+
+    ## display supra title if TRUE
+    if (display_supra_title)(
+      plot_obj <- plot_obj +
+        geom_text(data = supra_df, inherit.aes = FALSE,
+                  aes(label = name_supra, x = pos_supra, y = supra_rad, angle = myAng),
+                  hjust = .5, vjust = .5,
+                  size = 3,
+                  color = dark_line)
+    )
 
 
     ### display/save options: print to graphics, save to file
