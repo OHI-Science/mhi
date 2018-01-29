@@ -1165,14 +1165,11 @@ tr_data <- sent %>%
 tr_data<-tr_data %>%
   left_join(growth,by=c('rgn_id', 'year'))%>%
   select(rgn_id, year, score, env_score,n_score)
+
 #Tourism goal is an average of the enivronmental protection, resident sentiment about tourism, and growth rate
 tr_data$status<-rowMeans(tr_data[,c("score","env_score","n_score")])
 tr_data_sum<-tr_data
 
-
- ## @jules32 rewrote these lines below without ddply
-# tr_data_sum<-ddply(tr_data, .(rgn_id),
-#  summarize, status=mean(status))
 
 tr_data_sum <- tr_data %>%
   group_by(rgn_id) %>%
