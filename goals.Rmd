@@ -15,7 +15,9 @@ The global Ocean Health Index developed 10 goals that encompass ocean health: Fo
 
 <br><br>
 
+<!---
 Indicators for each goal have been drafted through stakeholder engagement and expert review are available [here](https://goo.gl/1QT68E).
+--->
 
 <br><br>
 
