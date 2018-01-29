@@ -326,13 +326,19 @@ PlotFlower <- function(region_plot          = NA,
     )
 
 
-    ### display/save options: print to graphics, save to file
+    ### display/save options: print to graphics, save to file ----
     print(plot_obj)
 
-    ## save plot
+    ## save plot as png
     ggsave(filename = fig_save,
            plot = plot_obj,
            device = "png",
+           height = 6, width = 8, units = 'in', dpi = 300)
+
+    ## save plot as pdf
+    ggsave(filename = str_replace(fig_save, '.png', '.pdf'),
+           plot = plot_obj,
+           device = "pdf",
            height = 6, width = 8, units = 'in', dpi = 300)
 
 
