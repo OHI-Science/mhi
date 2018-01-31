@@ -1,4 +1,4 @@
-Goal,Subgoal,Data Layer,Name,File,Brief Description,Dimension,Start Year,End Year,Native Resolution,Reference,url,,,,,
+Goal,Subgoal,Data Layer,Name,File,Brief Description,Dimension,Start Year,End Year,Native Resolution,Reference,url,bib,,,,
 AO,,access,ao_access,ao_access_mhi2017.csv," Estimated fishery access for boat based and land based fishing based on boat ramps, shoreline access, roads, and steepness of shoreline. ",status,,unknown,county,Ocean Tipping Points,http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data,,,,,
 AO,,need,ao_need,ao_need_mhi2017.csv,Marine Recreational Fishery Survey (hmrfs) data on the percent of households that fish. This information is used to estimate the need per county.,status,2004,2013,island,http://www.fpir.noaa.gov/SFD/SFD_rcf_hmrfs.html,http://www.fpir.noaa.gov/SFD/SFD_rcf_hmrfs.html,,,,,
 AO,,residents,ao_residents,ao_residents_mhi2017.csv,The number of residents per county. The number of residents and the need is used to get a percentage of the total residents that fish. ,status,2000,2015,county,DEBDT,http://dbedt.hawaii.gov/economic/databook/db2015/,,,,,
