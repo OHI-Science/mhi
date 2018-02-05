@@ -43,7 +43,7 @@ info_for_kable <- layers_info %>%
 ##create gh-pages' layers_table with front matter and slurp this in
 
 knitr::kable(info_for_kable)
-readr::write_csv(info_for_kable, '~/github/mhi/region2017/conf/web/layers_table.csv')
+readr::write_csv(info_for_kable, '~/documents/github/mhi/region2017/conf/web/layers_table.csv')
 
 ```
 
