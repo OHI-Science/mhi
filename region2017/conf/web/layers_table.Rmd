@@ -14,7 +14,8 @@ library(stringr)
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
 
 ## read in excel sheet
-data_layers <- readr::read_csv("~/github/mhi/prep/data_layers.csv")
+data_layers <- readr::read_csv("~/documents/github/mhi/prep/data_layers.csv") #Julie had to change file connection for my computer
+
 #names(data_layers)
 
 ## rename a few columns
