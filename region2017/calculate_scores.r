@@ -40,7 +40,7 @@ readr::read_csv(fp_real) %>%
 unlink(fp_real)
 
 ## temporarily change CON subgoal scores to NA (to reset, rerun CalculateAll and rewrite scores.csv)
-scores$score[scores$goal == "CON"] <- NA
+#scores$score[scores$goal == "CON"] <- NA
 write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 
 ## now plot
