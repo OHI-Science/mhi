@@ -702,14 +702,9 @@ AO = function(layers){
   #  left_join(ao_data, by = c("region_id", "year"))
 
   #ao_data <- na.omit(ao_data)
-<<<<<<< HEAD
 
   #ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
 
-=======
-
-  #ao_data$fishers<-(ao_data$need/100)*(ao_data$res) #resident population * the percent of households that fish to estimate # of fishers
->>>>>>> d04b0e3af3a2da164fcf5f0c17d67c0fd9a7ddb0
 
   # ao_data<-ddply(ao_data, .(year), summarize, total_fishers=sum(fishers))%>% #total fishers in Hawaii
   # left_join(ao_data, by="year")
@@ -751,12 +746,11 @@ AO = function(layers){
 #    mutate(Du = (1 - need) * (1 - access)) %>%
 #   mutate(status = (1 - Du) * Sustainability)
 
-<<<<<<< HEAD
     # status
-=======
+
   # status_year=2013 ## @eschemmel: this is overwriting the variable set in conf/goals.csv from 2014. @jules32 removed it from goals.csv and moves this 2013 value up to the function call <-  doublecheck to make sure this is what you want!
   # status
->>>>>>> d04b0e3af3a2da164fcf5f0c17d67c0fd9a7ddb0
+
   ao_data<-ao_data %>%
     dplyr::mutate(status=(bio+access)/2)
 
@@ -1526,97 +1520,44 @@ LE = function(scores, layers){
 }
 
 #this is the "Connection to Place" subgoal of sense of place
-CON = function(layers, status_year=2015){
-#ocean use data from ocean use atlas (# of acitivites that take place in or near the ocean including cultural activities)
+CON = function(layers, status_year=2013){
 
-
-  #access is important
-  #county and state beach park area
-  #national_parks
-
-  parks = SelectLayersData(layers, layers='r_parks', narrow = TRUE) %>%
-    select(
-      rgn_id    = id_num,
-      value          = val_num)
-
-  res <- SelectLayersData(layers, layers = 'r_residents', narrow=TRUE) %>% ##resident population to weight the need by rgn
-    select(region_id=id_num, year,res=val_num)
-
-
-  shore = SelectLayersData(layers, layers='r_shoreline', narrow = TRUE) %>%
-    select(
-      rgn_id    = id_num,
-      length          = val_num)
-
-  access = SelectLayersData(layers, layers='ao_access_mhi2017', narrow = TRUE) %>% #score is # shoreline access points/shoreline length in miles
-    select(
-      rgn_id    = id_num,
-      value          = val_num)
-
-
-  #get score for beach parks based on resident population
-  #rec_d<-res %>%
-  #  mutate(rgn_id=region_id) %>%
-  #  left_join(parks)%>%
-  #  mutate(park_density=res/value)%>%
-
-  rec_d<-res %>%
-    mutate(rgn_id=region_id) %>%
-    left_join(shore) %>%
-    mutate(density=res/length) %>% ## of people per km of shoreline
-    select(rgn_id, year, density)
-
-  #weighting parks score as number of parks weighted by the desity of residents per km of coastline
-  rec_d<-rec_d %>%
-    left_join(parks) %>%
-    mutate(value=value/density) %>%
-    group_by(year)  %>%
-    mutate(score = value/max(value)) %>%
-    select(rgn_id, year,score)
-
-    #join shoreline access data and park scores
-  rec_d<-rec_d %>%
-    left_join(access)%>%
-    mutate(status=(score+value)/2*100) %>%
-    select(rgn_id, year, status)
-
-  #weigthing park score as # of parks per 5 km
-  #rec_d<-parks %>%
-  #  left_join(shore) %>%
-  #  mutate(value=value/(length/5))
-
+  con_rec = SelectLayersData(layers, layers='con_participation') %>%
+    dplyr::select(rgn_id = id_num,  percent = val_num)
+  #currently only have data from NOAA's 2013 socio-ecological surveys
+  #perecent is the percent of surveyed residents that participate in any ocean related
+  #activity at least once per month
 
   # ------------------------------------------------------------------------
   #Get yearly status and trend
   # -----------------------------------------------------------------------
-
-  status <-  rec_d %>%
-    filter(year==status_year)
+  con_rec$percent<-con_rec$percent*100
+  status <- con_rec
+    #filter(year==status_year)
   status<-as.data.frame(status)
 
   status<-status %>%
-    mutate(score     = round(status, 1),
+    mutate(score     = round(percent, 1),
            dimension = 'status') %>%
     select(region_id=rgn_id, score, dimension)
 
-  trend_years <- status_year:(status_year-4)
-  first_trend_year <- min(rec_d$year)
-  status_data=rec_d
-  #str(status_data)
+  #only 1 yr of data so no trend score#
+  region_id<-c(1,2,3,4)
+  score<-c(0,0,0,0)
+  dimension<-c("trend","trend","trend","trend")
+  trend<-data.frame(region_id, score, dimension)
 
-  rec_d<-as.data.frame(rec_d)
-
-  trend <- rec_d %>%
-    #filter(year) %>%
-    group_by(rgn_id) %>%
-    do(mdl = lm(status ~ year, data=.),
-       adjust_trend = .$status[.$year == first_trend_year]) %>%
-    dplyr::summarize(region_id = rgn_id,
-                     score = round(coef(mdl)['year']/adjust_trend * 5, 4),
-                     dimension = 'trend') %>%
-    ungroup() %>%
-    mutate(score = ifelse(score > 1, 1, score)) %>%
-    mutate(score = ifelse(score < (-1), (-1), score))
+  #trend <- con_rec %>%
+  #  filter(year) %>%
+  #  group_by(rgn_id) %>%
+  #  do(mdl = lm(status ~ year, data=.),
+  #     adjust_trend = .$status[.$year == first_trend_year]) %>%
+  #  dplyr::summarize(region_id = rgn_id,
+  #                   score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+  #                   dimension = 'trend') %>%
+  #  ungroup() %>%
+  #  mutate(score = ifelse(score > 1, 1, score)) %>%
+  #  mutate(score = ifelse(score < (-1), (-1), score))
 
   # assemble dimensions
   scores <- rbind(status, trend) %>%
