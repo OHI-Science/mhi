@@ -488,11 +488,11 @@ MAR = function(layers){
   mar_d$est_harv<-mar_d$prop*mar_d$lbs
 
    #to get total lbs for mariculture weight of pf
- # total_mar<-as.data.frame(mar_d)
+ #total_mar<-as.data.frame(mar_d)
   #total_mar<- total_mar%>%
   #  group_by(rgn_id) %>%
-  #  summarize(sum_value = sum(est_harv))
-
+  #  summarize(sum_value = mean(est_harv))%>%
+  #  summarize(total=sum(sum_value))
 
 
   #  mariculture harvest * sustainability coefficient (i.e risk)
@@ -1520,11 +1520,11 @@ LE = function(scores, layers){
 }
 
 #this is the "Connection to Place" subgoal of sense of place
-CON = function(layers, status_year=2013){
+CON = function(layers, status_year=2014){
 
   con_rec = SelectLayersData(layers, layers='con_participation') %>%
     dplyr::select(rgn_id = id_num,  percent = val_num)
-  #currently only have data from NOAA's 2013 socio-ecological surveys
+  #currently only have data from NOAA's 2014 socio-ecological surveys
   #perecent is the percent of surveyed residents that participate in any ocean related
   #activity at least once per month
 

@@ -8,7 +8,8 @@ cc_uv,ecological,climate_change
 ss_wgi,social,social
 ss_spi,social,social
 cc_warm,ecological,climate_change
-cc_slr_nearshore,ecological,climate_change
+cc_slr_eco,ecological,climate_change
+cc_sealevel,social,social
 fp_fish_aquarium,ecological,fishing_pressure
 fp_reeffish_t,ecological,fishing_pressure
 sp_aquacul_terrest,ecological,alien_species
