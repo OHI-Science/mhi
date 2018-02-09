@@ -1,27 +1,27 @@
-goal,element,element_name,t_snorkel_scuba,t_whale_watching,t_swimming,t_boarding,t_kayaking,t_thrill_craft,forest_health,po_lbsp_sed,po_lbspurbanrunoff,po_lbsp_nosds_bil,po_lbspaggolfrunoff,po_marinedebris,po_shipbased_shipp,sp_aquacul_terrest,sp_ispp_a_m,hd_tourrec_direct_h,hd_shipbased_ground,hd_dredging,hd_coasteng,hd_benstr,hd_intertidal,fp_reeffish_t,fp_fish_aquarium,fp_com_hb,fp_com_lb,cc_sst,cc_warm,cc_acid,cc_uv,cc_sealevel,cc_slr_eco,ss_wgi,ss_spi
+goal,element,element_name,t_snorkel_scuba,t_whale_watching,t_swimming,t_boarding,t_kayaking,t_thrill_craft,forest_health,po_lbsp_sed,po_lbspurbanrunoff,po_lbsp_nosds_bil,po_lbspaggolfrunoff,po_marinedebris,po_shipbased_shipp,sp_aquacul_terrest,sp_ispp_a_m,hd_tourrec_direct_h,hd_shipbased_ground,hd_dredging,hd_coasteng,hd_benstr,hd_intertidal,fp_reeffish_t,fp_fish_aquarium,fp_com_hb,fp_com_lb,cc_sst_eez,cc_sst_nearshore,cc_acid,cc_uv,cc_sealevel,cc_slr_eco,ss_wgi,ss_spi
 AO,,,,,1,,,2,3,1,1,,1,1,1,1,1,2,1,,1,,1,1,1,2,1,,,,,,,1,1
-CP,reef,,,,,,,1,3,2,2,,2,1,1,1,1,2,3,,1,2,,3,1,,,3,3,1,1,,,1,1
+CP,reef,,,,,,,1,3,2,2,,2,1,1,1,1,2,3,,1,2,,3,1,,,,3,1,1,,,1,1
 CP,wetland,,,,,,,,2,,2,,2,,1,1,1,,,,1,1,3,,,,,,,,,1,,1,1
 CP,beach,,,,,,,,1,,2,,2,,1,1,1,,,,1,1,3,,,,,,,,,3,,1,1
 CS,wetland,,,,,,,,2,,2,,2,,1,1,1,,,,1,1,3,,,,,,,,,1,,1,1
 CW,,,,,,,,,3,,3,3,3,3,,,,,,,,,,,,,,,,,,,,1,1
-ECO,Marine Construction,Marine Construction,,,,,,,,2,,,,,1,,1,2,2,,,1,,,,,,1,1,1,,,3,1,1
-ECO,Living Resources,Living Resources,,,,,,,2,1,,,,,1,,1,1,1,,,1,1,1,,3,1,,,,,,3,1,1
+ECO,Marine Construction,Marine Construction,,,,,,,,2,,,,,1,,1,2,2,,,1,,,,,,,,1,,,3,1,1
+ECO,Living Resources,Living Resources,,,,,,,2,1,,,,,1,,1,1,1,,,1,1,1,,3,1,1,,,,,3,1,1
 ECO,Ship and Boat Building,Ship and Boat Building,,,,,,,,,3,,3,,,,,,,,,,,,,,,,,,,,3,1,1
-ECO,Tourism and Recreation,Tourism and Recreation,,,,,,,2,,,,,2,,,,,,,,,,,,1,,,,,,,3,1,1
+ECO,Tourism and Recreation,Tourism and Recreation,,,,,,,2,,,,,2,,,,,,,,,,,,1,,1,2,,,,3,1,1
 ECO,Marine Transportation,Marine Transportation,,,,,,,,1,3,3,3,3,,,,,,,,,,,1,,,,,,,,3,1,1
 FIS,,,,,,,,,,1,1,1,1,2,1,,1,1,1,1,,,1,1,,3,1,3,3,3,,,,1,1
-HAB,reef,,1,,1,1,,1,3,2,2,,2,3,1,1,1,2,3,,,2,,3,1,,,3,3,1,1,,,1,1
+HAB,reef,,1,,1,1,,1,3,2,2,,2,3,1,1,1,2,3,,,2,,3,1,,,,3,1,1,,,1,1
 HAB,wetland,,,,,,,,2,,2,,2,2,1,1,1,,,,,1,3,,,,,,,,,1,,1,1
-HAB,beach,,,,1,,,,1,,,,,3,1,,,,,,,1,,,,,,3,3,,,3,,1,1
+HAB,beach,,,,1,,,,1,,,,,3,1,,,,,,,1,,,,,,,,,,3,,1,1
 HAB,soft_bottom,,,,,,,,1,,2,,2,,1,,1,,,3,,1,,,,3,1,,,,,,,1,1
 LIV,Marine Construction,Marine Construction,,,,,,,,1,,,,,1,,1,1,1,,,1,1,1,,3,1,,,,,,3,1,1
 LIV,Living Resources,Living Resources,,,,,,,2,,3,,3,,,,,,,,,,,,,,,,,,,,3,1,1
 LIV,Ship and Boat Building,Ship and Boat Building,,,,,,,,,,,,2,,,,,,,,,,,,1,,,,,,,3,1,1
 LIV,Tourism and Recreation,Tourism and Recreation,,,,,,,2,1,3,3,3,,,,,,,,,,,,1,,,,,,,,3,1,1
-LIV,Marine Transportation,Marine Transportation,,,,,,,,,,,,,1,,1,1,1,,,,,1,,,,1,1,1,,,3,1,1
+LIV,Marine Transportation,Marine Transportation,,,,,,,,,,,,,1,,1,1,1,,,,,1,,,,,,1,,,3,1,1
 LSP,,,,,,,,,3,,2,,2,3,,,1,,,,,,3,,,,,,,,,3,,1,1
 MAR,,,,,,,,,,,3,,3,,,,,,,,,,,,,,,,,,,1,,1,1
-SPP,,,1,,1,,,2,3,1,,,,2,1,1,1,,,,,,2,1,1,3,1,1,1,1,1,,,1,1
+SPP,,,1,,1,,,2,3,1,,,,2,1,1,1,,,,,,2,1,1,3,1,3,3,1,1,,,1,1
 TR,,,,,,,,,2,2,3,3,3,3,,,,,,,,,,1,1,,,,,,,2,,1,1
 CON,,,,,,,,,2,2,2,3,2,3,,,,,,,,,,,,,,,,,,,,,
