@@ -1,5 +1,5 @@
-Trend was not evaluated for soft bottom habitats.
+The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.
 
 #### Reference
 
-[NA](NA)
+[NOAA CREP 2017 Report](https://www.pifsc.noaa.gov/cred/monitoring_status_reports.php)
