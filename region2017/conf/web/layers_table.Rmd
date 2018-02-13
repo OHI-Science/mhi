@@ -1,7 +1,9 @@
 ---
 #csl: nature.csl
-bibliography: OHI_Hawaii.bib
+# bibliography: OHI_Hawaii.bib
 ---
+
+## Layers Table
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 ## Create layers_table.Rmd from EXCEL file for MHI
@@ -30,7 +32,7 @@ layers_info <- data_layers %>%
                 url) %>%
   arrange(layer_name)
 
-info_for_kable <- layers_info %>%
+layers_info_kable <- layers_info %>%
   mutate(Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
          Reference   = paste0("@", bib)) %>%
   select(Layer, Description, Dimension, Reference)
@@ -38,16 +40,61 @@ info_for_kable <- layers_info %>%
 
 ##TODO EVA
 ##update bib column, refs, descriptions of data_layers.csv
+
+knitr::kable(layers_info_kable)
+readr::write_csv(layers_info_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
+
+```
+
+## Goals Table
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
 ##TODO JULIE
 ##arrange by dimension: all goals then press/resil
 ##create gh-pages' layers_table with front matter and slurp this in
 
-knitr::kable(info_for_kable)
-readr::write_csv(info_for_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
+## read in pressures matrix
+pm_orig <- readr::read_csv("../pressures_matrix.csv")
+rm_orig <- readr::read_csv("../resilience_matrix.csv")
+
+pm <- pm_orig %>% 
+  gather(key = pressure_name, 
+         value = pressure_value, 
+         -goal, -element, -element_name) %>%
+  filter(!is.na(pressure_value)) %>%
+  select(goal, pressure_name) %>%
+  arrange(goal)
+
+head(pm)
+
+#View(pm)
+
+rm <- rm_orig %>% 
+ gather(key = resilience_name, 
+         value = resilience_value, 
+         -goal, -element) %>%
+  filter(!is.na(resilience_value)) %>%
+  select(goal, resilience_name) %>%
+  arrange(goal)
+
+# View(rm)
+
+## not sure if this is the way we want to go, joining these two will give us a ton of different combinations, which isn't really what we want. 
+
+## combine with kable information (in progress)
+goals_info_kable <- layers_info_kable %>%
+  filter(Dimension != "PRESSURE", 
+         Dimension != "RESILIENCE")
+# ...
+
+
+
 
 ```
 
-### References
+
+## References
 
 <!---
 # Layer	| Description |	Dimension |	References |
