@@ -13,10 +13,10 @@ library(stringr)
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
 
-## read in excel sheet
-data_layers <- readr::read_csv("~/documents/github/mhi/prep/data_layers.csv") #Julie had to change file connection for my computer
+## read in excel sheet from github.com (so make sure that you push any updates)
+prep_data_layers <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/prep/data_layers.csv"
+data_layers <- readr::read_csv(prep_data_layers) 
 
-#names(data_layers)
 
 ## rename a few columns
 layers_info <- data_layers %>%
@@ -43,7 +43,7 @@ info_for_kable <- layers_info %>%
 ##create gh-pages' layers_table with front matter and slurp this in
 
 knitr::kable(info_for_kable)
-readr::write_csv(info_for_kable, '~/documents/github/mhi/region2017/conf/web/layers_table.csv')
+readr::write_csv(info_for_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
 
 ```
 
