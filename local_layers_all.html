@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,12 +33,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -388,22 +386,22 @@ div.tocify {
 <h1>biodiversity beach extent</h1>
 <div id="hab_extent_mhi" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv">hab_extent_mhi</a></h4>
-<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+<p>Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</p>
 </div>
 <div id="reference-7" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html">NOAA ESI</a></p>
 </div>
 </div>
 <div id="biodiversity-beach-trend" class="section level1">
 <h1>biodiversity beach trend</h1>
 <div id="hab_trend_mhi" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv">hab_trend_mhi</a></h4>
-<p>Trend was not evaluated for soft bottom habitats.</p>
+<p>The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
 </div>
 <div id="reference-8" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA" class="uri">NA</a></p>
+<p><a href="https://www.pifsc.noaa.gov/cred/monitoring_status_reports.php">NOAA CREP 2017 Report</a></p>
 </div>
 </div>
 <div id="biodiversity-coastal-wetland-condition" class="section level1">
@@ -421,22 +419,22 @@ div.tocify {
 <h1>biodiversity coastal wetland extent</h1>
 <div id="hab_extent_mhi-1" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv">hab_extent_mhi</a></h4>
-<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+<p>Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</p>
 </div>
 <div id="reference-10" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html">NOAA ESI</a></p>
 </div>
 </div>
 <div id="biodiversity-coastal-wetland-trend" class="section level1">
 <h1>biodiversity coastal wetland trend</h1>
 <div id="hab_trend_mhi-1" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv">hab_trend_mhi</a></h4>
-<p>Trend was not evaluated for soft bottom habitats.</p>
+<p>The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
 </div>
 <div id="reference-11" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA" class="uri">NA</a></p>
+<p><a href="https://www.pifsc.noaa.gov/cred/monitoring_status_reports.php">NOAA CREP 2017 Report</a></p>
 </div>
 </div>
 <div id="biodiversity-reef-condition" class="section level1">
@@ -454,22 +452,22 @@ div.tocify {
 <h1>biodiversity reef extent</h1>
 <div id="hab_extent_mhi-2" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv">hab_extent_mhi</a></h4>
-<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+<p>Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</p>
 </div>
 <div id="reference-13" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html">NOAA ESI</a></p>
 </div>
 </div>
 <div id="biodiversity-reef-trend" class="section level1">
 <h1>biodiversity reef trend</h1>
 <div id="hab_trend_mhi-2" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv">hab_trend_mhi</a></h4>
-<p>Trend was not evaluated for soft bottom habitats.</p>
+<p>The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
 </div>
 <div id="reference-14" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA" class="uri">NA</a></p>
+<p><a href="https://www.pifsc.noaa.gov/cred/monitoring_status_reports.php">NOAA CREP 2017 Report</a></p>
 </div>
 </div>
 <div id="bottom-fisheries-commercial-catch" class="section level1">
@@ -542,22 +540,22 @@ div.tocify {
 <h1>coastal protection beach extent</h1>
 <div id="cp_hab_extent_mhi2017" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv">cp_hab_extent_mhi2017</a></h4>
-<p>Hardbottom extent out to 80 meters modified from NOAA habitat maps.</p>
+<p>The area of coastal wetlands (within 1 km of the coastline).</p>
 </div>
 <div id="reference-21" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP 2010/2011</a></p>
 </div>
 </div>
 <div id="coastal-protection-beach-trend" class="section level1">
 <h1>coastal protection beach trend</h1>
 <div id="cp_hab_extent_mhi2017-1" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv">cp_hab_extent_mhi2017</a></h4>
-<p>Hardbottom extent out to 80 meters modified from NOAA habitat maps.</p>
+<p>The area of coastal wetlands (within 1 km of the coastline).</p>
 </div>
 <div id="reference-22" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP 2010/2011</a></p>
 </div>
 </div>
 <div id="coastal-protection-coastal-wetland-condition" class="section level1">
@@ -575,11 +573,11 @@ div.tocify {
 <h1>coastal protection coastal wetland extent</h1>
 <div id="cp_hab_extent_mhi2017-2" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv">cp_hab_extent_mhi2017</a></h4>
-<p>Hardbottom extent out to 80 meters modified from NOAA habitat maps.</p>
+<p>The area of coastal wetlands (within 1 km of the coastline).</p>
 </div>
 <div id="reference-24" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP 2010/2011</a></p>
 </div>
 </div>
 <div id="coastal-protection-coastal-wetland-trend" class="section level1">
@@ -608,11 +606,11 @@ div.tocify {
 <h1>coastal protection reef extent</h1>
 <div id="cp_hab_extent_mhi2017-3" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv">cp_hab_extent_mhi2017</a></h4>
-<p>Hardbottom extent out to 80 meters modified from NOAA habitat maps.</p>
+<p>The area of coastal wetlands (within 1 km of the coastline).</p>
 </div>
 <div id="reference-27" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP 2010/2011</a></p>
 </div>
 </div>
 <div id="coastal-protection-reef-trend" class="section level1">
@@ -1008,7 +1006,7 @@ div.tocify {
 </div>
 <div id="reference-63" class="section level4">
 <h4>Reference</h4>
-<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points/DLNR-DAR</a></p>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Moy, K. et al. Mapping coastal marine debris using aerial imagery and spatial analysis. Mar. Pollut. Bull. doi:https://doi.org/10.1016/j.marpolbul.2017.11.045; Ocean Tipping Points/DLNR-DAR</a></p>
 </div>
 </div>
 <div id="marine-managed-areas" class="section level1">
@@ -1246,11 +1244,11 @@ div.tocify {
 <h1>resource</h1>
 <div id="ao_resource" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_resource_mhi2017.csv">ao_resource</a></h4>
-<p>The resource was calculated as the total available harvest fish biomass compared to pristine fish biomass.</p>
+<p>The resource was calculated as the total available fish biomass compared to pristine fish biomass.</p>
 </div>
 <div id="reference-85" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">NOAA CREP Williams et al 2012</a></p>
+<p><a href="NA">NOAA CREP</a></p>
 </div>
 </div>
 <div id="sea-level-rise" class="section level1">
@@ -1334,22 +1332,22 @@ div.tocify {
 <h1>soft bottom extent</h1>
 <div id="hab_extent_mhi-3" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_extent_mhi2017.csv">hab_extent_mhi</a></h4>
-<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+<p>Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</p>
 </div>
 <div id="reference-93" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+<p><a href="https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html">NOAA ESI</a></p>
 </div>
 </div>
 <div id="soft-bottom-trend" class="section level1">
 <h1>soft bottom trend</h1>
 <div id="hab_trend_mhi-3" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv">hab_trend_mhi</a></h4>
-<p>Trend was not evaluated for soft bottom habitats.</p>
+<p>The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
 </div>
 <div id="reference-94" class="section level4">
 <h4>Reference</h4>
-<p><a href="NA" class="uri">NA</a></p>
+<p><a href="https://www.pifsc.noaa.gov/cred/monitoring_status_reports.php">NOAA CREP 2017 Report</a></p>
 </div>
 </div>
 <div id="state-conservation-districts" class="section level1">
