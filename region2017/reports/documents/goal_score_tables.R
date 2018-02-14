@@ -19,7 +19,7 @@ str(md_scores)
 
 #change rgn_id to region names
 md_scores$Region<-as.factor(md_scores$Region)
-levels(md_scores$Region)<-list("Index"=0,"Hawaiʻi"=1, "Maui Nui"=2, "Oahu"=3, "Kauai & Niʻihau"=4)
+levels(md_scores$Region)<-list("Index"=0,"Hawaii"=1, "Maui Nui"=2, "Oahu"=3, "Kauai & Niihau"=4)
 
 setwd("~/Documents/github/mhi/region2017/reports/documents")
 readr::write_csv(md_scores, 'scores_table.csv')
