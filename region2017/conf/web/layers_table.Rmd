@@ -1,6 +1,6 @@
 ---
-#csl: nature.csl
 bibliography: OHI_Hawaii.bib
+output: word_document
 ---
 
 ## Layers Table
@@ -33,9 +33,10 @@ layers_info <- data_layers %>%
   arrange(layer_name)
 
 layers_info_kable <- layers_info %>%
-  mutate(Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
-         Reference   = paste0("@", bib), 
-         Ref_troubleshoot = bib) %>%
+  mutate(#Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
+    Layer = header_layer,     
+    Reference   = paste0("@", bib), 
+    Ref_troubleshoot = bib) %>%
   select(Layer, Description, Dimension, Reference, Ref_troubleshoot)
 
 
