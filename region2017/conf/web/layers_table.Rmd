@@ -1,6 +1,6 @@
 ---
 #csl: nature.csl
-# bibliography: OHI_Hawaii.bib
+bibliography: OHI_Hawaii.bib
 ---
 
 ## Layers Table
@@ -34,8 +34,9 @@ layers_info <- data_layers %>%
 
 layers_info_kable <- layers_info %>%
   mutate(Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
-         Reference   = paste0("@", bib)) %>%
-  select(Layer, Description, Dimension, Reference)
+         Reference   = paste0("@", bib), 
+         Ref_troubleshoot = bib) %>%
+  select(Layer, Description, Dimension, Reference, Ref_troubleshoot)
 
 
 ##TODO EVA
@@ -48,7 +49,7 @@ readr::write_csv(layers_info_kable, 'layers_table.csv') # use relative filepath 
 
 ## Goals Table
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, eval=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
 
 ##TODO JULIE
 ##arrange by dimension: all goals then press/resil
