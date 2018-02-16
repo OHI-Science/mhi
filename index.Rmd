@@ -9,7 +9,7 @@ output:
 ----
 
 
-The Hawaii Ocean Health Index measures and tracks the benefits and services that the ocean provides for people now and into the future. This index is being developed with the support of local stakeholders to better understand how to sustainably balance current and future ocean use.
+The Hawaii Ocean Health Index measures and tracks the benefits and services that the ocean provides for people now and into the future. This index was developed with the support of local stakeholders to better understand how to sustainably balance current and future ocean use.
 
 Ocean health is defined as a state of being that is pono (sustainable/respectful); where functions and processes can exist, perpetuate, and evolve, including the presence and role of humans. 
 

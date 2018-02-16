@@ -28,7 +28,7 @@ Enable the State of Hawaiʻi, community stakeholders, the corporate and finance 
 
 ## How far along is this project?
 
-We are in the development and planning stages. Stakeholder engagement and outreach is continuing and we are working with local advisors and experts to facilitate the development of the Ocean Health Index for Hawaii. 
+We are undergoing stakeholder review and the assessement will be released April, 2018. 
 
 <br>
 
@@ -93,14 +93,11 @@ To produce the spatial boundaries of these reporting units we use the Hawaii USA
 | |	Mariculture	| Nearshore |
 | Artisanal Fishing Opportunities	|Nearshore |
 | Coastal Protection |Nearshore |
-| Carbon Storage | Nearshore |
 | Coastal Livelihoods & Economies |	Livelihoods |	EEZ |
 | | Economies	| EEZ |
-| Tourism	 | Nearshore |
-| Recreation	| Nearshore |
+| Sustainable Tourism	 | Nearshore |
 | Sense of Place	| Lasting Special Places |	Nearshore |
 | |	Connection to Place	| Nearshore |
-| Clean Water |	Nearshore |
 | Biodiversity | Species | EEZ |
 | |	Habitats | EEZ |
 
