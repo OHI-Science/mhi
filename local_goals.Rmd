@@ -151,7 +151,7 @@ cat(paste(st$info, collapse="\n\n"))
 
 ---- 
 
-## Tourism & Recreation
+## Sustainable Tourism
 
 ```{r, echo=FALSE, results='hide'}
 
@@ -242,7 +242,7 @@ cat(paste(st$info, collapse="\n\n"))
 
 ---- 
 
-## Sense of Place: Iconic Species
+## Sense of Place: Connection to Place
 
 ```{r, echo=FALSE, results='hide'}
 
