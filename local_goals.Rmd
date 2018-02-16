@@ -31,8 +31,11 @@ layers_prep <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/mh
                 url) 
 
 ## join two layers dataframes
-layers_csv <- layers_conf %>%
+layers_join <- layers_conf %>%
   left_join(layers_prep, by = "layer")
+  
+## rename for rendering below
+layers_csv <- layers_join
 
 # ## check to make sure filenames all match
 # check <- layers_join %>%
