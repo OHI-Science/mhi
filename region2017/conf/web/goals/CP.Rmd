@@ -5,19 +5,18 @@
 This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. 
 --->
 
-This goal aims to assess the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas.  A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions.
+This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas.  A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safegaurd coastlines.
 
-### Model & Data 
+### Model 
 
-The CP model is based on the relative health of the habitats that provide shoreline protection. The condition of each habitat was calculated with various methods depending on data availability, which are mostly based on coverage area. Habitats that are included and provide substantial coastal protection are: beaches, coral reefs, and wetlands.
+The model is based on the health of the habitats that provide shoreline protection. Habitats that are included and provide substantial coastal protection are: beaches, coral reefs, and wetlands.
 
-Below are the data sets for this goal.
 
 ### Reference points 
 Coral Reefs
 
 Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
-The coral reef health index comes from the NOAA Hawai'i coral reef report card. Tred in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+The coral reef health index comes from the NOAA Hawai'i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
 
 Beaches
 

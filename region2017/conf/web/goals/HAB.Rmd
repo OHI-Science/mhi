@@ -2,8 +2,7 @@
 
 The Habitats sub-goal of Biodiversity measures the extent and condition of ocean and coastal habitats.
 
-### Model & Data 
-
+### Model
 The habitat model assessed all habitats for which data were available to evaluate extent and condition, specifically: coral reefs, coastal wetlands, beaches, and subtidal soft-bottom habitats. Status was calculated as the average of the condition estimates for each habitat present in a region, measured as the loss of habitat and/or percent degradation of remaining habitat. 
 
 
@@ -12,7 +11,7 @@ The habitat model assessed all habitats for which data were available to evaluat
 Coral Reefs
 
 Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
-The coral reef health index comes from the NOAA Hawai'i coral reef report card. Tred in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+The coral reef health index comes from the NOAA Hawai'i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
 
 Beaches
 

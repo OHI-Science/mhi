@@ -2,8 +2,6 @@
 
 This subgoal measures the sustainable production potential of seafood from fishponds, known locally as loko ʻia, and current production of seafood weighted by a sustainability score.
 
-The value of aquaculture products ($39,970,000 in 2011 USD) natural products and seafood is ranked 4th in the state following seed crops, flowers and nursery products, and cattle (USDA Annual Statistics Bulletin 2011). However, revenue from mariculture is incorporated into Livelihoods and Economies goal.
-
 ### Model
 The scores are an average of the state reported seafood produciton (mariculture) and fishpond potential.
 
