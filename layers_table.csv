@@ -1,0 +1,108 @@
+Layer,Description,Dimension,Reference,Ref_troubleshoot
+access,"Estimated fishery access for boat based and land based fishing based on boat ramps, shoreline access, roads, and steepness of shoreline.",AO,@otp_pacioos:_nodate,otp_pacioos:_nodate
+resource,The resource was calculated as the total available fish biomass compared to pristine fish biomass.,AO,@williams_human_2015,williams_human_2015
+ocean acidification,Ocean acidification pressure scaled using biological thresholds.,PRESSURE,@halpern_index_2012,halpern_index_2012
+sea level rise,The estimated pressure on coastal areas from a 3.2 ft prediction of the near future sea level rise.,PRESSURE,@hawaii_climate_change_mitigation_and_adaptation_commission_hawaii_nodate,hawaii_climate_change_mitigation_and_adaptation_commission_hawaii_nodate
+economic loss from sea level rise,The estimated economic loss from a predicted near future 3.2 ft sea level rise.,PRESSURE,@hawaii_climate_change_mitigation_and_adaptation_commission_hawaii_nodate,hawaii_climate_change_mitigation_and_adaptation_commission_hawaii_nodate
+sea surface temperature,The difference in the annual mean sea surface temperature for Hawaii eez waters compared to the 20th century mean sea surface temperature.,PRESSURE,@noaa:_national_centers_for_environmental_information_extended_nodate,noaa:_national_centers_for_environmental_information_extended_nodate
+coral bleaching,"Mean degree heating weeks (DHW) for nearshore areas (wihting 10 km of the coastlint), with coral bleaching expected after 4 DHW.  Scores of 1 indicate that coral bleaching is expected or occured.",PRESSURE,@noaa_satelite_and_information_service_coral_nodate,noaa_satelite_and_information_service_coral_nodate
+uv radiation,The modeled UV radiation based on Erythemal UV Irradiance data provided by GES DISC.,PRESSURE,@halpern_index_2012,halpern_index_2012
+ocean warming,The estimated pressure caused on the nearshore environment due to ocean warming. The maximum observed Degree Heating Week (DHW) per pixel was calculated over the time frame of the data (2013-2016). Pixels exceeding 12 DHW were set to the maximum value since it is likely that major coral mortality has occurred those areas.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+community stewardship,"The number of potential Community Based Subsistence Fishing Areas (CBSFA) and interested communities, and the active fishponds, scaled to maximum number per county.",RESILIENCE,@NA,NA
+reef condition,"The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.","BD, CP",@williams_human_2015,williams_human_2015
+coastal protection coastal wetland extent,The area of coastal wetlands (within 1 km of the coastline).,CP,@noaa_c-cap_nodate,noaa_c-cap_nodate
+habitat weights,This is a list of habitats in each region weighted by proportion of the total area for each habitat.,BD,@NA,NA
+commerical coastal pelagic fisheries catch,Coastal pelagic fish catch (lbs) reported in the commercial fishery.,FP,@dlnr_dar_commerical_nodate,dlnr_dar_commerical_nodate
+bottom fisheries commercial catch,Bottomfish catch (lbs) reported in the commercial fishery.,FP,@dlnr_dar_commerical_nodate,dlnr_dar_commerical_nodate
+pelagic fisheries commerical catch,Pelagic fish catch (lbs) reported in the commercial fishery.,FP,@dlnr_dar_commerical_nodate,dlnr_dar_commerical_nodate
+commercial reef fisheries catch,Reef fish catch (lbs) reported in the commercial fishery.,FP,@dlnr_dar_commerical_nodate,dlnr_dar_commerical_nodate
+recreational catch multiplier,A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation & subsistence) catch.,FP,@NA,NA
+sustainability of bottomfishery,Bottomfish stock assessment.,FP,@brodziak_j._a_yau_j._omalley_a._andrews_r._humphreys_e._demartini_m._pan_m._parke_stock_2014,brodziak_j._a_yau_j._omalley_a._andrews_r._humphreys_e._demartini_m._pan_m._parke_stock_2014
+sustainability of pelagic fishery,Pelagic (tuna and swordfish) stock assessments.,FP,@wcpfc_western_nodate,wcpfc_western_nodate
+sustainability of reef fishery,Reef fish stock assessment.,FP,@nadon_stock_nodate,nadon_stock_nodate
+forest/watershed health,The percent of native forests dominated by non-native species.,PRESSURE,@NA,NA
+commercial fishery hi-bycatcb,The ratio of catch to bycatch for the tuna fishery (deep set longlines).,PRESSURE,@national_marine_fisheries_service_us_2013,national_marine_fisheries_service_us_2013
+commercial fishery lo-bycatcb,The ratio of catch to bycatch for swordfish fishery (shallow set longlines).,PRESSURE,@national_marine_fisheries_service_us_2013,national_marine_fisheries_service_us_2013
+aquarium fishing,The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+management and protection of habitat to preserve biodiversity (fisheries),The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: habitat related questions.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+commercial fishing management,The estimated management effectiveness of regulations and management of commercial fishing.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+artisanal fisheries management effectiveness and opportunity,The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+coastal MPAs fisheries resilience,The ratio of management areas to total coastal area within 3nm.,RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+EEZ MPAs fisheries resilience,"The ratio of management areas (BRFA, Longline, Monument) to the total ocean area with the EEZ and divided into OHI regions.",RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+EEZ protected marine areas to protect fishery resources,The protected marine areas within the EEZ to protect fishery resources.,RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+reef fishing catch,The modeled reef fish catch from commercial and recreational fishery taking into account shoreline accessibility.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+CITES signatories,The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+inflation adjusted usd,The inflation adjusted usd.,LE,@DBEDT,DBEDT
+biodiversity coastal wetland extent,The wetlands extent layer was created from HI wetlands layer (1979) and TNC marxan wetlands layer. Deep water habitats were removed to focus on nearshore estuaries and wetlands.,BD,@NA,NA
+soft bottom extent,Soft bottom habitat extent was derived from the cumulative impact habitat maps.,BD,@lecky_ecosystem_2016,lecky_ecosystem_2016
+reef extent,The hardbottom extent out to 80 meters modified from NOAA habitat maps.,"BD, CP",@lecky_ecosystem_2016,lecky_ecosystem_2016
+beach extent,"Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.","BD, CP",@noaa_hawaii_nodate,noaa_hawaii_nodate
+beach condition,The condition of coastal habitats measured as the percent of beaches erroding per region.,"BD, CP",@fletcher_national_2012,fletcher_national_2012
+coastal wetland condition,Wetland condition was calculated based on percent of historical extent.,"BD, CP",@van_rees_wetland_2014,van_rees_wetland_2014
+soft bottom condition,The percent of softbottom habitat not impacted by dredging.,BD,@lecky_ecosystem_2016,lecky_ecosystem_2016
+soft bottom trend,Trend was not evaluated for soft bottom habitats.,BD,@NA,NA
+wetland trend,The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.,"BD, CP",@noaa_c-cap_nodate,noaa_c-cap_nodate
+beach trend,"The average short-term errosine rate of beaches, estimated at -0.06 m per year.","BD, CP",@fletcher_national_2012,fletcher_national_2012
+reef trend,The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,"BD, CP",@mccoy_pacific_2017,mccoy_pacific_2017
+habitat destruction of benthic structures,"Benthic structures were defined as manmade features in the offshore environment that disrupt benthic habitat and include moored buoys, channel markers, offshore cables and pipelines.",PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+habitat destruction caused by coastal engineering,"Coastal engineering consisted of shoreline armoring structures (e.g., seawalls, revetments, groins, break waters), artificial land (i.e., land fill), and piers.",PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+habitat destruction from dredging,Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+proxy for intertidal habitat destruction,"The coastal population density (withing 25 mi from shore)  as a proxy for intertidal habitat destruction, calculated as resident population per km of shoreline and standardized by maximum regional score.",PRESSURE,@dbedt_data_2015-1,dbedt_data_2015-1
+coastal MPAs habitat resilience,The ratio of management areas to total coastal area within 3nm.,RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+EEZ MPAs habitat resilience,"The ratio of management areas (BRFA, Longline, Monument) to the total ocean area with the EEZ and divided into OHI regions.",RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+protected marine areas within EEZ to protect against habitat destruction,Protected marine areas within EEZ to protect against habitat destruction.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+ship-based groundings,"To represent the risk of ship groundings and wrecks to coastal waters, the footprint of this ship traffic layer was clipped to 9 m depth.",PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+"direct impacts from humans (trampling, recreation, etc)",InVEST recreation model was run statewide at 1 km resolution for the years 2005 - 2014. This model uses publicly visible geotagged photos posted to the photo-sharing website Flickr to calculate the annual average number of photo users per day per grid cell. This is a proxy for direct human impact to nearshore and coastal environments.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+watersheds protected,The percent of priority watersheds that are fenced to protect againts invasive animals.,RESILIENCE,@yuen_percent_2017,yuen_percent_2017
+ocean and coastal revenue,The revenue generated per ocean sector for each county.,LE,@enow_time-series_2017,enow_time-series_2017
+ocean and coastal jobs,The total number of jobs per ocean sector for each county.,LE,@enow_time-series_2017,enow_time-series_2017
+resident population,The number of residents per county.,LE,@dbedt_data_2015-1,dbedt_data_2015-1
+unemployment,The unemployment rate.,LE,@dbedt_section_nodate,dbedt_section_nodate
+workforce,The total number of jobs per county.,LE,@dbedt_section_nodate,dbedt_section_nodate
+State New Economy Index,"The State New Economy Index uses 25 indicators to measure the extent to which state economies are knowledge-based, globalized, entrepreneurial, IT-driven, and innovation-oriented.",RESILIENCE,@the_information_technology_&_innovation_foundation_2014_2014,the_information_technology_&_innovation_foundation_2014_2014
+sector evenness as a measure of economic diversity,The Shannon's Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+area within 1 km of the shore,The coastal area within 1 km of the shore.,SP,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+offshore area to 3nm,The offshore area to 3nm.,SP,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+state conservation districts,The area and type of conservation districts within 1km of the coastline.,RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+coastal conservation districts,The conservation district type and area within 1km of the coastline.,SP,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+marine managed areas,"The offshore areas protected to 3nm, including CBSFA, FRA, BFA, and MPA classifications.",SP,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+area of active fishponds,The area of current fishponds per county.,FP,@NA,NA
+fishpond status,Ratio of active fishponds to historical number,FP,@NA,NA
+number of fishponds,The current number of fishponds.,FP,@NA,NA
+mariculture yield,Production of shellfish and foodfish from mariculture facilities,FP,@us_doa_hawaii:_2015,us_doa_hawaii:_2015
+operations,The number of mariculture operators.,FP,@usda_national_nodate,usda_national_nodate
+landbased source of pollution pathogens,The onsite waste disposal systems (ODSD) as proxy of nitrogen flux to the nearshore water.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+land-based sediment export to nearshore water,"The pressure on the nearshore from sedimentation. Falinski (2016) customized, parameterized, calibrated, and ran the Integrated Valuation of Ecosystem Services and Tradeoffs (InVEST) model for sediment delivery for each of the eight Main Hawaiian Islands. This model predicts the average annual amount of sediment (tons/yr) exported from each map pixel as a function of land use/land cover, soil characteristics, rainfall, slope, geology, and hydrology.",PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+land-based source of pollution from agriculture and golf courses,"The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed.",PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+land-based source of pollution from urban runoff,A proxy for nutrient and chemical pollution.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+marine debris,The State of Hawaii Division of Aquatic Resources aerial imagery of marine debris from 2015.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+ship-based pollution,Ship traffic layer was used as a proxy for ship-based pollution.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+participation in recreational activities,"The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.",SP,@edwards_p_loerzel_j_levine_a_national_2014,edwards_p_loerzel_j_levine_a_national_2014
+habitat health,The scores from the habitats subgoal of biodiversity are used as resilience for Livelihoods and Economies and the Sustainable Tourism goals.,RESILIENCE,@NA,NA
+Social Progress Index,The Social Progress Index scores.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+management of nonindigenous species,The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: invasive species related questions.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+terrestrial aquaculture,The environmental footprint of terrestrial aquaculture facilities.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+invasive species (algae and mangroves),Represents presence-only of invasive algae species in nearshore waters and mangroves along the shoreline.,PRESSURE,@otp_pacioos:_nodate,otp_pacioos:_nodate
+Mo'omeheu - Value of History and Culture,The preservation of culture. Mo'omeheu - Value of History and Culture.,RESILIENCE,@OHA,OHA
+measure of coastal ecological integrity,The Species subgoal scores calculated within 3 nm of shoreline as a proxy for ecological integrity.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+fish biomass,The calculated fish biomass score in relation to pristine biomass from the NOAA report card.,BD,@williams_inidcators_2017,williams_inidcators_2017
+ESA coastal plant status,The list of Hawaii coastal plant species and status of coastal sand-dune plants scored based on ESA status.,BD,@merlin_hawaiian_1999;  us_fish_&_wildlife_service_ecos:_nodate,merlin_hawaiian_1999;  us_fish_&_wildlife_service_ecos:_nodate
+ESA marine mammal status,The list of marine mammals found in Hawaii and status of marine mammals scored based on ESA status.,BD,@us_fish_&_wildlife_service_ecos:_nodate,us_fish_&_wildlife_service_ecos:_nodate
+ESA seabird and coastal bird status,The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.,BD,@rosenberg_state_2010,rosenberg_state_2010
+weakness of social progress,The inverse of the Social Progress Index scores.,PRESSURE,@halpern_index_2012,halpern_index_2012
+weakness of governance,The Inverse of World Governance Indicators (WGI) calculated as the six combined scores.,PRESSURE,@halpern_index_2012,halpern_index_2012
+average visitors per day,The average number of visitor days by county.,TR,@dbedt_data_2015,dbedt_data_2015
+environmental protection,The percent of nearhsore areas priority watersheds protected in reference to Hawaii Stanability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.,TR,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+visitor contributed GDP,Visitor generated GDP with a target set by the Hawaii Tourism Authority of 2.5% annual growth.,TR,@hta_annual_2016,hta_annual_2016
+resident sentiment,The Hawaii Tourism Authority's survey on resident sentiment to tourism.,TR,@hta_evaluation_2017,hta_evaluation_2017
+experience of visitors,The percent of visitors that report having an excellent experience.,RESILIENCE,@dbedt_data_2015,dbedt_data_2015
+watershed partnerships,The ratio of watershed partnerships to historic native forest extent.,RESILIENCE,@office_of_planning_hawaii_nodate,office_of_planning_hawaii_nodate
+cp wetlands,Wetlands layer clipped to 1km inland from coast. Included only wetlands that are in shallow water and coastal for use in the coastal protection goal,CP,@NA,NA
+strength of governance,The World Governance Indicators (WGI) six combined scores.,RESILIENCE,@halpern_index_2012,halpern_index_2012
+multipliers,NA,LE,@dbedt_hawaii_2013,dbedt_hawaii_2013
+visitors participating in whale watching,The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015
+visitors participating in swimming,The number of visitors per km of coastline that swim and go to the beach per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015
+visitors participating in surfing,The number of visitors per km of coastline that surf or body-board per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015
+visitors participating in kayaking,The number of visitors per km of coastline that kayak or canoe per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015
+visitors participating in snorkeling or scuba diving,The number of visitors per km of coastline that use thrill craft per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015
+visitors participating in thrill craft,The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,PRESSURE,@hta_visitor_2015,hta_visitor_2015

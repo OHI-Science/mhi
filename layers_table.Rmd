@@ -1,0 +1,20 @@
+---
+title: "Layers Table"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+#    keep_md: true
+---
+
+```{r, message=FALSE, echo=FALSE}
+source('_site.R')
+```
+
+
+The following data layers are used in Ocean Health Index Main Hawaiian Islands calculations for goal status, trend, pressures, and resilience. Learn how these layers were incorporated into goal calculations on the [goals page](http://ohi-science.org/mhi/goals.html).
+
+----
+
+```{r, child="local_layers_table.Rmd"}
+```
