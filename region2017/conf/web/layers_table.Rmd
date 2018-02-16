@@ -1,6 +1,5 @@
 ---
 bibliography: OHI_Hawaii.bib
-output: word_document
 ---
 
 ## Layers Table
@@ -31,6 +30,10 @@ layers_info <- data_layers %>%
                 bib, 
                 url) %>%
   arrange(layer_name)
+
+# ## separate multiple refs
+# layers_info <- layers_info %>%
+#   tidyr::separate(reference, ";")
 
 layers_info_kable <- layers_info %>%
   mutate(Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
