@@ -99,7 +99,7 @@ To produce the spatial boundaries of these reporting units we use the Hawaii USA
 | Sense of Place	| Lasting Special Places |	Nearshore |
 | |	Connection to Place	| Nearshore |
 | Biodiversity | Species | EEZ |
-| |	Habitats | EEZ |
+| |	Habitats | Nearshore |
 
 <br>
 
