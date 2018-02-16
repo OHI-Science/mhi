@@ -34,16 +34,16 @@ layers_prep <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/mh
 layers_join <- layers_conf %>%
   left_join(layers_prep, by = "layer")
 
-## check to make sure filenames all match
-check <- layers_join %>%
-  select(targets, layer, filename_conf, filename_prep) %>%
-  mutate(isequal = filename_conf == filename_prep)
-
-## fails our check 
-checkfails <- check %>%
-  filter(is.na(isequal) | isequal == FALSE) %>%
-  write_csv('layers_filename_fails.csv')
-  
+# ## check to make sure filenames all match
+# check <- layers_join %>%
+#   select(targets, layer, filename_conf, filename_prep) %>%
+#   mutate(isequal = filename_conf == filename_prep)
+# 
+# ## fails our check 
+# checkfails <- check %>%
+#   filter(is.na(isequal) | isequal == FALSE) %>%
+#   write_csv('layers_filename_fails.csv')
+#   
 
 
 ```
