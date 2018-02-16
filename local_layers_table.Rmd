@@ -1,6 +1,5 @@
 ---
 bibliography: OHI_Hawaii.bib
-output: word_document
 ---
 
 ## Layers Table
@@ -32,13 +31,14 @@ layers_info <- data_layers %>%
                 url) %>%
   arrange(layer_name)
 
-layers_info_kable <- layers_info %>%
-  mutate(#Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
-    Layer = header_layer,     
-    Reference   = paste0("@", bib), 
-    Ref_troubleshoot = bib) %>%
-  select(Layer, Description, Dimension, Reference, Ref_troubleshoot)
+# ## separate multiple refs
+# layers_info <- layers_info %>%
+#   tidyr::separate(reference, ";")
 
+layers_info_kable <- layers_info %>%
+  mutate(Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
+    Reference   = paste0("@", bib)) %>%
+  select(Layer, Description, Dimension, Reference)
 
 ##TODO EVA
 ##update bib column, refs, descriptions of data_layers.csv
@@ -48,61 +48,5 @@ readr::write_csv(layers_info_kable, 'layers_table.csv') # use relative filepath 
 
 ```
 
-## Goals Table
-
-```{r, eval=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
-
-##TODO JULIE
-##arrange by dimension: all goals then press/resil
-##create gh-pages' layers_table with front matter and slurp this in
-
-## read in pressures matrix
-pm_orig <- readr::read_csv("../pressures_matrix.csv")
-rm_orig <- readr::read_csv("../resilience_matrix.csv")
-
-pm <- pm_orig %>% 
-  gather(key = pressure_name, 
-         value = pressure_value, 
-         -goal, -element, -element_name) %>%
-  filter(!is.na(pressure_value)) %>%
-  select(goal, pressure_name) %>%
-  arrange(goal)
-
-head(pm)
-
-#View(pm)
-
-rm <- rm_orig %>% 
- gather(key = resilience_name, 
-         value = resilience_value, 
-         -goal, -element) %>%
-  filter(!is.na(resilience_value)) %>%
-  select(goal, resilience_name) %>%
-  arrange(goal)
-
-# View(rm)
-
-## not sure if this is the way we want to go, joining these two will give us a ton of different combinations, which isn't really what we want. 
-
-## combine with kable information (in progress)
-goals_info_kable <- layers_info_kable %>%
-  filter(Dimension != "PRESSURE", 
-         Dimension != "RESILIENCE")
-# ...
-
-
-
-
-```
-
-
 ## References
 
-<!---
-# Layer	| Description |	Dimension |	References |
-#   ------|-------------|-----------|--------------|
-#   [data_layers.csv's Data Layer @seltenrich_scaling_2016 |
-# data_layers.csv's Brief Description |
-#      Dimesntion |
-#      Refs
---->
