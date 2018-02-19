@@ -1,1 +1,17 @@
-rgn_id,habitat,km2,notes,1,reef,238.55,,2,reef,461.29,,3,reef,374.17,,4,reef,347.26,,1,beach,55.92,units km not km2,2,beach,144.09,units km not km3,3,beach,140.77,units km not km4,4,beach,133.64,units km not km5,1,wetland,0.1648569,,2,wetland,11.8726214,,3,wetland,6.7447414,,4,wetland,3.8062138,,1,fishpond,0.23,fishpond updated layer by tnc 2017,2,fishpond,2.714,fishpond updated layer by tnc 2017,3,fishpond,15.672,fishpond updated layer by tnc 2017,4,fishpond,0.088,fishpond updated layer by tnc 2017,,,,,,,,,
+rgn_id,habitat,km2,notes
+1,reef,238.55,
+2,reef,461.29,
+3,reef,374.17,
+4,reef,347.26,
+1,beach,55.92,units km not km2
+2,beach,144.09,units km not km2
+3,beach,140.77,units km not km2
+4,beach,133.64,units km not km2
+1,wetland,0.1648569,NOAA CCAP
+2,wetland,11.8726214,NOAA CCAP
+3,wetland,6.7447414,NOAA CCAP
+4,wetland,3.8062138,NOAA CCAP
+1,fishpond,0.23,fishpond updated layer by tnc 2017
+2,fishpond,2.714,fishpond updated layer by tnc 2017
+3,fishpond,15.672,fishpond updated layer by tnc 2017
+4,fishpond,0.088,fishpond updated layer by tnc 2017
