@@ -1,0 +1,41 @@
+targets,layer,filename_conf,filename_prep,isequal
+pressure resilience,element_wts_cp_km2_x_protection,element_wts_cp_km2_x_protection_mhi2017.csv,NA,NA
+resilience,li_sector_evenness,li_sector_evenness_gl2016.csv,need to put in local data layer for this,FALSE
+resilience,species_diversity_eez,species_diversity_eez_gl2016.csv,NA,NA
+spatial,rgn_area,rgn_area.csv,NA,NA
+AO,ao_access_mhi2017,ao_access_mhi2017.csv,NA,NA
+CON,con_participation,con_participation_mhi2017.csv,NA,NA
+CP,cp_hab_condition_mhi2017,cp_hab_condition_mhi2017.csv,NA,NA
+CP,cp_hab_trend_mhi2017,cp_hab_trend_mhi2017.csv,NA,NA
+CW pressure,cw_po_lbsp_nosds_bil,po_lbsp_nosds_bil_mhi2017.csv,NA,NA
+CW pressure,cw_po_lbsp_sed,po_lbsp_sed_mhi2017.csv,NA,NA
+CW pressure,cw_po_lbspaggolfrunoff,po_lbspaggolfrunoff_mhi2017.csv,NA,NA
+CW pressure,cw_po_lbspurbanrunoff,po_lbspurbanrunoff_mhi2017.csv,NA,NA
+CW pressure,cw_po_marinedebris,po_marinedebris_mhi2017.csv,NA,NA
+CW pressure,cw_po_shipbased_shipp,po_shipbased_shipp_mhi2017.csv,NA,NA
+FIS,fis_coast_pelagic_catch,fis_coast_pelagic_catch_mhi2017.csv,fis_coast_pelagic_updated_mhi2017.csv,FALSE
+FIS,fis_pelagic_catch,fis_pelagic_updated_mhi2017.csv,fis_pelagic_catch_mhi2017.csv,FALSE
+FIS,fis_sus,fis_sus_updated_mhi2017.csv,NA,NA
+FP,fp_wildcaught_weight_mhi,fp_wildcaught_weight_mhi2017.csv,NA,NA
+LE,le_sector_weight,le_sector_weight_mhi2017.csv,NA,NA
+LE,le_wage,le_wages_mhi2017.csv,NA,NA
+LE,le_unemployment,le_unemployment_rate_mhi2017.csv,le_unemployment_mhi2017.csv,FALSE
+LE,le_popn,le_popn_gl2016.csv,le_pop_mhi2017.csv,FALSE
+LE,liv_a_wage,liv_a_wage_mhi2017.csv,NA,NA
+LSP,lsp_coastal_conservation,lsp_coastal_conservation_mhi2017.csv,NA,NA
+LSP,lsp_historic_sites,lsp_historic_sites_mhi2017.csv,NA,NA
+LSP,lsp_mpa_3nm,lsp_mpa_3nm_mhi2017.csv,NA,NA
+LSP,lsp_mpa_nearshore,lsp_mpa_nearshore_mhi2017.csv,NA,NA
+pressure,t_boarding,t_boarding_mhi2017.csv,NA,NA
+pressure,t_kayaking,t_kayaking_mhi2017.csv,NA,NA
+pressure,t_snorkel_scuba,t_snorkel_scuba_mhi2017.csv,NA,NA
+pressure,t_swimming,t_swimming_mhi2017.csv,NA,NA
+pressure,t_thrill_craft,t_thrill_craft_mhi2017.csv,NA,NA
+pressure,t_whale_watching,t_whale_watching_mhi2017.csv,NA,NA
+resilience,fp_MPA_eez,fp_MPA_eez_mhi2017.csv,NA,NA
+resilience,hd_MPA_eez,hd_MPA_eez_mhi2017.csv,NA,NA
+spatial,rgn_georegions,rgn_georegions_gl2016.csv,NA,NA
+spatial,rgn_global,rgn_global.csv,NA,NA
+spatial,rgn_labels,rgn_labels.csv,NA,NA
+SPP,spp_status_mhi,spp_status_mhi2017.csv,NA,NA
+TR,t_visitor_gdp,t_visitor_gdp_mhi2017.csv,NA,NA
