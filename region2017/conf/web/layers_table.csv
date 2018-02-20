@@ -10,7 +10,6 @@ commercial fishery lo-bycatcb,The ratio of catch to bycatch for swordfish fisher
 proxy for intertidal habitat destruction,"The coastal population density (withing 25 mi from shore)  as a proxy for intertidal habitat destruction, calculated as resident population per km of shoreline and standardized by maximum regional score.",pressure,@dbedt_data_2015-1,dbedt_data_2015-1
 NA,NA,pressure resilience,@NA,NA
 habitat weights,This is a list of habitats in each region weighted by proportion of the total area for each habitat.,pressure resilience,@NA,NA
-NA,NA,pressure resilience,@NA,NA
 artisanal fisheries management effectiveness and opportunity,The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.,resilience,@halpern_index_2012,halpern_index_2012
 commercial fishing management,The estimated management effectiveness of regulations and management of commercial fishing.,resilience,@halpern_index_2012,halpern_index_2012
 CITES signatories,The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.,resilience,@halpern_index_2012,halpern_index_2012
