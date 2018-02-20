@@ -23,6 +23,7 @@ layers_prep <- readr::read_csv(file.path(prep_web, "data_layers.csv")) %>%
                 #targets    = Goal, # previously renamed to `Dimension`
                 filename_prep  = File, # previously renamed to `filename`
                 bib,
+                bib2,
                 url)
 
 ## join two layers dataframes
