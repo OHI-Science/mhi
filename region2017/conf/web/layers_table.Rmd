@@ -1,5 +1,8 @@
 ---
 bibliography: OHI_Hawaii.bib
+output:
+  html_document: default
+  word_document: default
 ---
 
 ## Layers Table
