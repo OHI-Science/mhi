@@ -683,7 +683,7 @@ FP = function(layers, scores){
 AO = function(layers){
 
 
-  r <- SelectLayersData(layers, layers = 'ao_access_mhi2017', narrow=TRUE) %>%   ##shoreline access weights (removes MPAs and inaccessable coastlines)
+  r <- SelectLayersData(layers, layers = 'ao_access', narrow=TRUE) %>%   ##shoreline access weights (removes MPAs and inaccessable coastlines)
     select(region_id=id_num, access=val_num)
   r <- na.omit(r)
 
