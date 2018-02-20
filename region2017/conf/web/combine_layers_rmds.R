@@ -70,13 +70,13 @@ source(
 ## extra Rmd file (or is mislabeled)
 ## can ignore the "layers_all" file, but there should be no others:
 setdiff(layers_Rmd, layers_join$layer)
-## Feb 19 2018:
-# [1] "ao_access"               "ao_need"                 "ao_residents"
-# [4] "cc_slr"                  "cc_sst"                  "cp_hab_condition"
-# [7] "fis_sus_score"           "fp_habitat"              "fp_mpa_eez"
-# [10] "gdp_usd"                 "hd_mpa_eez"              "li_gci"
-# [13] "lsp_coastal_condist"     "NA"                      "r_participation_mhi2017"
-# [16] "spp_status"              "wetlands_coastal_1km"
+## Feb 20 2018:
+# [1] "ao_need"                 "ao_residents"            "cc_slr"
+# [4] "cc_sst"                  "cp_hab_condition"        "fis_sus_score"
+# [7] "fp_habitat"              "fp_mpa_eez"              "gdp_usd"
+# [10] "hd_mpa_eez"              "li_gci"                  "lsp_coastal_condist"
+# [13] "NA"                      "r_participation_mhi2017" "spp_status"
+# [16] "wetlands_coastal_1km"               "wetlands_coastal_1km"
 
 
 ## a layer that is missing an Rmd file
