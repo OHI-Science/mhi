@@ -1818,7 +1818,7 @@ SPP = function(layers){
    fish_score<-  layers$data[['spp_fish']]#score for fish populations from NOAA report card - fish biomass/pristine fish biomass
 
     #ESA scores for marine mammals, turtles, marine birds, and coastal plants
-   scores <-  layers$data[['spp_status_mhi']] %>%
+   scores <-  layers$data[['spp_status']] %>%
     select(rgn_id, score)  %>%
     dplyr::group_by(rgn_id)%>%
     summarize(

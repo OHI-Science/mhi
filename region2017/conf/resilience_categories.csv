@@ -1,6 +1,4 @@
 layer,category,category_type,subcategory,weight
-species_diversity_eez,ecological,ecosystem,ecological,1
-species_diversity_3nm,ecological,ecosystem,ecological,1
 sp_alien_species,ecological,regulatory,alien_species,1
 g_cites,ecological,regulatory,goal,0.5
 fp_mora,ecological,regulatory,fishing_pressure,1
