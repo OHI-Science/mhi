@@ -1,6 +1,6 @@
 #####################################################
 ## This file takes all the layer Rmd files and
-## writes them into a single Rmd file
+## writes them into a single Rmd file: layers_all.Rmd.
 ## By M. Frazier, adapted by J. Lowndes
 ## https://github.com/OHI-Science/ohi-global/blob/draft/eez/conf/web/CombineLayers.R
 #####################################################
