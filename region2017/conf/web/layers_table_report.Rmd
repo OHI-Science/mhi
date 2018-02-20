@@ -15,36 +15,23 @@ library(stringr)
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
 
-## read in excel sheet from github.com (so make sure that you push any updates)
-prep_data_layers <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/prep/data_layers.csv"
-data_layers <- readr::read_csv(prep_data_layers) 
+source(
+  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
 
 
-## rename a few columns
-layers_info <- data_layers %>%
-  dplyr::select(header_layer = `Data Layer`,
-                layer_name   = Name,
-                Description  = `Brief Description`,
-                reference    = Reference,
-                Dimension    = Goal,
-                filename     = File,
-                bib, 
-                url) %>%
-  arrange(layer_name)
-
-layers_info_kable <- layers_info %>%
+layers_join_kable <- layers_join %>%
   mutate(#Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
-    Layer = header_layer,     
+    Layer = name,     
     Reference   = paste0("@", bib), 
     Ref_troubleshoot = bib) %>%
-  select(Layer, Description, Dimension, Reference, Ref_troubleshoot)
+  select(Layer, Description = description, Targets = targets, Reference, Ref_troubleshoot)
 
 
 ##TODO EVA
 ##update bib column, refs, descriptions of data_layers.csv
 
-knitr::kable(layers_info_kable)
-readr::write_csv(layers_info_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
+knitr::kable(layers_join_kable)
+readr::write_csv(layers_join_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
 
 ```
 
@@ -85,7 +72,7 @@ rm <- rm_orig %>%
 ## not sure if this is the way we want to go, joining these two will give us a ton of different combinations, which isn't really what we want. 
 
 ## combine with kable information (in progress)
-goals_info_kable <- layers_info_kable %>%
+goals_info_kable <- layers_join_kable %>%
   filter(Dimension != "PRESSURE", 
          Dimension != "RESILIENCE")
 # ...

@@ -20,7 +20,7 @@ layers_prep <- readr::read_csv(file.path(prep_web, "data_layers.csv")) %>%
                 layer   = Name,      # previously renamed to `layer_name`
                 description  = `Brief Description`,
                 reference    = Reference,
-                #targets    = Goal, # previously renamed to `dimension`
+                #targets    = Goal, # previously renamed to `Dimension`
                 filename_prep  = File, # previously renamed to `filename`
                 bib,
                 url)
