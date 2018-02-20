@@ -1,0 +1,363 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r set up, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(tidyverse)
+
+source(
+  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
+
+
+## rename for rendering below
+layers_csv <- layers_join
+
+# ## check to make sure filenames all match
+# check <- layers_join %>%
+#   select(targets, layer, filename_conf, filename_prep) %>%
+#   mutate(isequal = filename_conf == filename_prep)
+# 
+# ## fails our check 
+# checkfails <- check %>%
+#   filter(is.na(isequal) | isequal == FALSE) %>%
+#   write_csv('layers_filename_fails.csv')
+#   
+
+
+```
+
+
+## Food Provision: Fisheries
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "FIS.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets %in% "FIS") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
+
+---- 
+
+## Food Provision: Mariculture
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "MAR.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="MAR") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
+
+---- 
+
+## Artisanal Fishing Opportunity 
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "AO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="AO") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
+
+---- 
+
+---- 
+
+## Coastal Protection
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "CP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="CP") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
+---- 
+
+## Sustainable Tourism
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "TR.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="TR") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
+---- 
+
+## Livelihoods & Economies: Livelihoods
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "LIV.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="LIV") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
+
+---- 
+
+## Livelihoods & Economies: Economies
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "ECO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="ECO") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
+
+---- 
+
+## Sense of Place: Connection to Place
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "ICO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="ICO") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
+
+---- 
+
+## Sense of Place: Lasting Special Places
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "LSP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="LSP") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
+---- 
+
+
+## Biodiversity: Species
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "SPP.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="SPP") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
+---- 
+
+## Biodiversity: Habitats
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "HAB.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="HAB") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+
+```
+
