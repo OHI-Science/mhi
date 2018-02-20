@@ -19,22 +19,6 @@ output:
 ```
 
  
-# access 
-####[ao_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_access_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ao_access.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # aquarium fishing 
 ####[fp_fish_aquarium](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_aquarium_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -211,22 +195,6 @@ output:
 ``` 
 
  
-# coastal conservation districts 
-####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_conservation_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_coastal_condist.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # coastal MPAs fisheries resilience 
 ####[fp_MPA_3nm](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_3nm_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -387,22 +355,6 @@ output:
 ``` 
 
  
-# competitiveness in achieving sustained economic prosperity 
-####[li_gci](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/li_gci_gl2016.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/li_gci.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # coral bleaching 
 ####[cc_sst_nearshore](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_sst_nearshore_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -412,22 +364,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cc_sst_nearshore.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# cp wetlands 
-####[wetlands_coastal_1km](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/wetlands_coastal_1km) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/wetlands_coastal_1km.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -467,54 +403,6 @@ output:
 ``` 
 
  
-# EEZ MPAs fisheries resilience 
-####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_MPA_eez_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_mpa_eez.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# EEZ MPAs habitat resilience 
-####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_MPA_eez_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hd_mpa_eez.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# EEZ protected marine areas to protect fishery resources 
-####[fp_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_mpa_eez_gl2016.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_mpa_eez.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # environmental protection 
 ####[t_env_sus](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_env_sus_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -524,54 +412,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/t_env_sus.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# ESA coastal plant status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# ESA marine mammal status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# ESA seabird and coastal bird status 
-####[spp_status](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_status_mhi_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -723,22 +563,6 @@ output:
 ``` 
 
  
-# inflation adjusted usd 
-####[gdp_usd](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_gdp_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/gdp_usd.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # invasive species (algae and mangroves) 
 ####[sp_ispp_a_m](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_ispp_a_m_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -812,22 +636,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/po_lbsp_nosds_bil.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# management and protection of habitat to preserve biodiversity (fisheries) 
-####[fp_habitat](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_habitat_gl2016.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fp_habitat.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -924,22 +732,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/sp_OHA_culture.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# multipliers 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/NA) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1059,22 +851,6 @@ output:
 ``` 
 
  
-# participation in recreational activities 
-####[r_participation_mhi2017](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/r_participation_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/r_participation_mhi2017.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # pelagic fisheries commerical catch 
 ####[fis_pelagic_catch](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_pelagic_catch_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -1084,38 +860,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fis_pelagic_catch.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# percent of forest dominated by non-native species 
-####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/forest_health.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# protected marine areas within EEZ to protect against habitat destruction 
-####[hd_mpa_eez](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_mpa_eez_gl2016.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hd_mpa_eez.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1148,22 +892,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fis_reef_catch_multiplier.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# reef condition 
-####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_condition.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1411,22 +1139,6 @@ output:
 ``` 
 
  
-# state conservation districts 
-####[lsp_coastal_condist](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_condist_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_coastal_condist.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # State New Economy Index 
 ####[li_economic_index](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/li_economic_index.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -1452,54 +1164,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/wgi_all.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# sustainability of bottomfishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fis_sus_score.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# sustainability of pelagic fishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fis_sus_score.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# sustainability of reef fishery 
-####[fis_sus_score](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fis_sus_updated_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/fis_sus_score.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1564,102 +1228,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/t_growth.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in kayaking 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_kayaking_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in snorkeling or scuba diving 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_snorkel_scuba_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in surfing 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_boarding_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in swimming 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_swimming_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in thrill craft 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_thrill_craft_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# visitors participating in whale watching 
-####[NA](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/t_whale_watching_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/NA.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
