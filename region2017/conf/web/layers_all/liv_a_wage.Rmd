@@ -1,0 +1,5 @@
+The Hawaii average annual wage by county
+
+#### Reference
+
+[DBEBT](http://dbedt.hawaii.gov/economic/databook/db2015/)

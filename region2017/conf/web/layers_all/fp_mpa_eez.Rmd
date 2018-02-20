@@ -1,5 +1,5 @@
-The protected marine areas within the EEZ to protect fishery resources.
+The ratio of management areas (BRFA, Longline, Monument) to the total ocean area with the EEZ and divided into OHI regions.
 
 #### Reference
 
-[goal scores for Lasting Special Places](http://geoportal.hawaii.gov/)
+[NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and santucary waters](http://geoportal.hawaii.gov/datasets/noaa-marine-protected-area-mpa-inventory)

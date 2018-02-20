@@ -1,5 +1,5 @@
-The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.
+NA
 
 #### Reference
 
-[Hawaii Tourism Authority Visitor Statistic Tables 2020](http://www.hawaiitourismauthority.org/research/reports/visitor-satisfaction/)
+[DBEDT](http://files.hawaii.gov/dbedt/economic/reports/IO/2007_state_io_study.pdf)
