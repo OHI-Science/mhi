@@ -9,7 +9,7 @@ output:
 library(tidyverse)
 
 source(
-  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layer_csvs.R")
+  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
 
 
 ## rename for rendering below

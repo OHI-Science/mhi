@@ -1,4 +1,4 @@
-## Combine region2017/layers.csv with prep/data_layers.csv
+## Join region2017/layers.csv with prep/data_layers.csv
 
 
 library(tidyverse)
