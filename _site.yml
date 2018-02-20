@@ -4,12 +4,12 @@ navbar:
   left:
     - text: "About"
       href: about.html
+    - text: "Scores"
+      href: scores.html
     - text: "Goals"
       href: goals.html
-#    - text: "Scores"
-#     href: scores.html
-#    - text: "Layers"
-#      href: layers_table.html
+    - text: "Layers"
+      href: layers_table.html
     - text: "Frequently Asked Questions"
       href: frequentlyaskedquestions.html
     - text: "Contribute"
