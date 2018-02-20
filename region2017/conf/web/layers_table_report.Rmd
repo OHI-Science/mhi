@@ -22,8 +22,11 @@ source(
 layers_join_kable <- layers_join %>%
   mutate(#Layer = sprintf("[%s](%s/%s)", header_layer, dir_layers_gh, filename),
     Layer = name,     
-    Reference   = paste0("@", bib), 
-    Ref_troubleshoot = bib) %>%
+    Reference = if_else(!is.na(bib2), 
+                        paste0("@", bib, "; @", bib2),
+                        paste0("@", bib))) %>%
+  mutate(Reference = str_replace_all(Reference, "@NA", "")) %>% # blanks if @NAs
+  mutate(Ref_troubleshoot = bib) %>%
   select(Layer, Description = description, Targets = targets, Reference, Ref_troubleshoot)
 
 
