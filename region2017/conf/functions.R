@@ -1577,10 +1577,10 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
   # select data ----
 
   #listed historic places (dbedt data section 7.46)
-  layers_data = SelectLayersData(layers, layers=c('lsp_historic_sites'))#inland protected conservation districts
+  #layers_data = SelectLayersData(layers, layers=c('lsp_historic_sites'))#inland protected conservation districts
 
-   hs<- layers_data %>%
-     select(region_id = id_num,  year, sites=val_num) ##need to get support on choosing a reference point
+  # hs<- layers_data %>%
+  #   select(region_id = id_num,  year, sites=val_num) ##need to get support on choosing a reference point
 
  #managed marine areas
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
