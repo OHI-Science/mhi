@@ -943,15 +943,15 @@ CS <- function(layers){
 CP <- function(layers){
 
   ## read in layers
-  extent <- layers$data[['cp_hab_extent_mhi2017']] %>%
+  extent <- layers$data[['cp_hab_extent']] %>%
     select(rgn_id, habitat, km2) %>%
     mutate(habitat = as.character(habitat))
 
-  health <-  layers$data[['cp_hab_condition_mhi2017']] %>%
+  health <-  layers$data[['cp_hab_condition']] %>%
     select(rgn_id, habitat, health) %>%
     mutate(habitat = as.character(habitat))
 
-  trend <-layers$data[['cp_hab_trend_mhi2017']] %>%
+  trend <-layers$data[['cp_hab_trend']] %>%
     select(rgn_id, habitat, trend) %>%
     mutate(habitat = as.character(habitat))
 
