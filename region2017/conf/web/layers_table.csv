@@ -24,8 +24,12 @@ Layer,Description,Targets,Reference
 [access](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_access_mhi2017.csv),"Estimated fishery access for boat based and land based fishing based on boat ramps, shoreline access, roads, and steepness of shoreline.",AO,@OTP
 [resource](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_resource_mhi2017.csv),The resource was calculated as the total available fish biomass compared to pristine fish biomass.,AO,@Williams2015; @Williams2017
 [participation in recreational activities](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/r_participation_mhi2017.csv),"The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.",CON,@EdwardsPLoerzelJLevineA2014
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,CP,
-[coastal protection coastal wetland extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The area of coastal wetlands (within 1 km of the coastline).,CP,@NOAA
+[reef condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),"The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.",CP,@Williams2015
+[beach condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),The condition of coastal habitats measured as the percent of beaches erroding per region.,CP,@Fletcher2012a
+[coastal wetland condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),Wetland condition was calculated based on percent of historical extent.,CP,@VanRees2014
+[reef extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The hardbottom extent out to 80 meters modified from NOAA habitat maps.,CP,@Lecky2016
+[beach extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),"Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.",CP,@NOAAa
+[coastal wetland extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The area of coastal wetlands (within 1 km of the coastline).,CP,@NOAA
 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,CP,
 [commerical coastal pelagic fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv),Coastal pelagic fish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
 [bottom fisheries commercial catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv),Bottomfish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
@@ -40,6 +44,7 @@ Layer,Description,Targets,Reference
 [soft bottom extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv),Soft bottom habitat extent was derived from the cumulative impact habitat maps.,HAB,@Lecky2016
 [reef extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv),The hardbottom extent out to 80 meters modified from NOAA habitat maps.,HAB,@Lecky2016
 [beach extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv),"Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.",HAB,@NOAAa
+[coastal wetland extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv),The area of coastal wetlands (within 1 km of the coastline).,HAB,@NOAA
 [soft bottom condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),The percent of softbottom habitat not impacted by dredging.,HAB,@Lecky2016
 [beach condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),The condition of coastal habitats measured as the percent of beaches erroding per region.,HAB,@Fletcher2012a
 [coastal wetland condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),Wetland condition was calculated based on percent of historical extent.,HAB,@VanRees2014
