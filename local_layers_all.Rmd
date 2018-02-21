@@ -17,6 +17,7 @@ output:
  
  
 ```
+<<<<<<< HEAD
 
  
 # access 
@@ -1813,3 +1814,5 @@ output:
 ```{r, child = x, echo=FALSE, results='asis'} 
  
 ``` 
+=======
+>>>>>>> 4eba46f318e3204ede8df924d16f5cd41e628204
