@@ -8,8 +8,8 @@ cc_uv,ecological,climate_change
 ss_wgi,social,social
 ss_spi,social,social
 cc_sst_nearshore,ecological,climate_change
-cc_slr_eco,ecological,climate_change
-cc_sealevel,social,social
+cc_slr_eco,ecological,social
+cc_sealevel,social,climate_change
 fp_fish_aquarium,ecological,fishing_pressure
 fp_reeffish_t,ecological,fishing_pressure
 sp_aquacul_terrest,ecological,alien_species
@@ -26,9 +26,9 @@ hd_shipbased_ground,ecological,habitat_destruction
 po_shipbased_shipp,ecological,pollution
 hd_tourrec_direct_h,ecological,habitat_destruction
 forest_health,ecological,habitat_destruction
-t_whale_watching,ecological,spp
+t_whale_watching,ecological,habitat_destruction
 t_swimming,ecological,habitat_destruction
 t_boarding,ecological,habitat_destruction
 t_ snorkel_scuba,ecological,habitat_destruction
 t_kayaking,ecological,habitat_destruction
-t_thrill_craft,ecological,spp
+t_thrill_craft,ecological,habitat_destruction
