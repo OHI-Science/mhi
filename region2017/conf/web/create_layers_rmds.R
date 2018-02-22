@@ -30,7 +30,14 @@ for (i in layers_list) { # i = "ao_access"
 
   st <- layers_info %>%
     ## filter for this layer
-    filter(header_layer == i) %>%
+    filter(header_layer == i)
+
+  if(nrow(st) > 1) { # > n_distinct(st) works for reef but not beach condition
+    cat(sprintf("`%s` has multiple entries in prep/data_layers.csv; just creating one .Rmd file\n", i))
+    st <- st[1,]
+  }
+
+  st <- st %>%
     ## all together now
     mutate(info = paste0(#"# ", header_layer, "\n\n",
                          #sprintf("[%s](%s)\n\n", layer_name, dir_layers_gh),

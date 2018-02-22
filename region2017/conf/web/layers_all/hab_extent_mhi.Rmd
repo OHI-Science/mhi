@@ -1,5 +1,5 @@
-Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.
+Soft bottom habitat extent was derived from the cumulative impact habitat maps.
 
 #### Reference
 
-[NOAA ESI](https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html)
+[Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)

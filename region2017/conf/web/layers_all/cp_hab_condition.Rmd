@@ -1,5 +1,5 @@
-The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.
+The condition of coastal habitats measured as the percent of beaches erroding per region.
 
 #### Reference
 
-[NOAA report card](in review)
+[NA](http://pubs.usgs.gov/of/2011/1051)
