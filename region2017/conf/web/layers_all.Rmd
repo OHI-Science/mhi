@@ -691,6 +691,38 @@ output:
 ``` 
 
  
+# fishpond condition 
+####[cp_hab_condition](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_condition_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_condition.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# fishpond extent 
+####[cp_hab_extent](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_extent_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_extent.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # fishpond status 
 ####[mar_fishpond_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/mar_fishpond_health_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -700,6 +732,22 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishpond_health.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# fishpond trend 
+####[cp_hab_trend](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_trend.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
