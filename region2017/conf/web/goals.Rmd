@@ -247,7 +247,7 @@ cat(paste(st$info, collapse="\n\n"))
 
         x <- tempfile(fileext = 'Rmd')
         on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "ICO.Rmd"), x) 
+        download.file(file.path(short_goal_web, "CON.Rmd"), x) 
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -259,7 +259,7 @@ cat(paste(st$info, collapse="\n\n"))
 
 ```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
 st <- layers_csv %>%
-  filter(targets=="ICO") %>%
+  filter(targets=="CON") %>%
   mutate(web_name = gsub(" ", "_", name)) %>%
   mutate(web_name = tolower(web_name)) %>%
   mutate(web_name = gsub("/", "", web_name)) %>%
