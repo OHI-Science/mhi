@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,12 +33,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -486,6 +484,12 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <div id="data-used-in-model-5" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
+<p><a href="http://ohi-science.org/mhi/layers.html#ocean_and_coastal_jobs">ocean and coastal jobs</a> (le_jobs): The total number of jobs per ocean sector for each county.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#resident_population">resident population</a> (le_popn): The number of residents per county.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#unemployment">unemployment</a> (le_unemployment): The unemployment rate.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#ocean_and_coastal_sector_mean_wages">ocean and coastal sector mean wages</a> (le_wage): The mean wage per ocean sector by county</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#workforce">workforce</a> (le_wkforce): The total number of jobs per county.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#hawaii_average_wage">Hawaii average wage</a> (liv_a_wage): The Hawaii average annual wage by county</p>
 <hr />
 </div>
 </div>
@@ -507,6 +511,7 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <div id="data-used-in-model-6" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
+<p><a href="http://ohi-science.org/mhi/layers.html#ocean_and_coastal_revenue">ocean and coastal revenue</a> (le_gdp): The revenue generated per ocean sector for each county.</p>
 <hr />
 </div>
 </div>

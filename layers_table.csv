@@ -58,13 +58,13 @@ Layer,Description,Targets,Reference
 [wetland trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.,HAB,@NOAA
 [beach trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),"The average short-term errosine rate of beaches, estimated at -0.06 m per year.",HAB,@Fletcher2012a
 [reef trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,HAB,@McCoy2017
-[ocean and coastal revenue](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv),The revenue generated per ocean sector for each county.,LE,@ENOW2017
-[ocean and coastal jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv),The total number of jobs per ocean sector for each county.,LE,@ENOW2017
-[resident population](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv),The number of residents per county.,LE,@DBEDT2015a
-[unemployment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_unemployment_mhi2017.csv),The unemployment rate.,LE,@DBEDT
-[ocean and coastal sector mean wages](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wages_mhi2017.csv),The mean wage per ocean sector by county,LE,@ENOW2017
-[workforce](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wkforce_mhi2017.csv),The total number of jobs per county.,LE,@DBEDT
-[Hawaii average wage](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/liv_a_wage_mhi2017.csv),The Hawaii average annual wage by county,LE,@DBEDT
+[ocean and coastal revenue](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv),The revenue generated per ocean sector for each county.,ECO,@ENOW2017
+[ocean and coastal jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv),The total number of jobs per ocean sector for each county.,LIV,@ENOW2017
+[resident population](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv),The number of residents per county.,LIV,@DBEDT2015a
+[unemployment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_unemployment_mhi2017.csv),The unemployment rate.,LIV,@DBEDT
+[ocean and coastal sector mean wages](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wages_mhi2017.csv),The mean wage per ocean sector by county,LIV,@ENOW2017
+[workforce](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wkforce_mhi2017.csv),The total number of jobs per county.,LIV,@DBEDT
+[Hawaii average wage](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/liv_a_wage_mhi2017.csv),The Hawaii average annual wage by county,LIV,@DBEDT
 [ocean sector weight](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_weight_mhi2017.csv),The proportion of jobs in each sector per region.,LE,@ENOW2017
 [area within 1 km of the shore](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_1km_coast_mhi2017.csv),The coastal area within 1 km of the shore.,LSP,@OfficeofPlanning
 [offshore area to 3nm](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_3nm_mhi2017.csv),The offshore area to 3nm.,LSP,@OfficeofPlanning

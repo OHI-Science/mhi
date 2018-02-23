@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,12 +33,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -681,43 +679,43 @@ div.tocify {
 <tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv">ocean and coastal revenue</a></td>
 <td align="left">The revenue generated per ocean sector for each county.</td>
-<td align="left">LE</td>
+<td align="left">ECO</td>
 <td align="left"><span class="citation">ENOW (2017)</span></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv">ocean and coastal jobs</a></td>
 <td align="left">The total number of jobs per ocean sector for each county.</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">ENOW (2017)</span></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv">resident population</a></td>
 <td align="left">The number of residents per county.</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">DBEDT (2015b)</span></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_unemployment_mhi2017.csv">unemployment</a></td>
 <td align="left">The unemployment rate.</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">DBEDT (n.d.)</span></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wages_mhi2017.csv">ocean and coastal sector mean wages</a></td>
 <td align="left">The mean wage per ocean sector by county</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">ENOW (2017)</span></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wkforce_mhi2017.csv">workforce</a></td>
 <td align="left">The total number of jobs per county.</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">DBEDT (n.d.)</span></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/liv_a_wage_mhi2017.csv">Hawaii average wage</a></td>
 <td align="left">The Hawaii average annual wage by county</td>
-<td align="left">LE</td>
+<td align="left">LIV</td>
 <td align="left"><span class="citation">DBEDT (n.d.)</span></td>
 </tr>
 <tr class="odd">
