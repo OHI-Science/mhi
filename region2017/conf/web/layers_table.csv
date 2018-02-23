@@ -16,8 +16,6 @@ Layer,Description,Targets,Reference
 [sector evenness as a measure of economic diversity](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/need to put in local data layer for this),The Shannon's Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.,resilience,@Halpern2008
 [Social Progress Index](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/res_spi_gl2016.csv),The Social Progress Index scores.,resilience,@Halpern2008
 [management of nonindigenous species](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/sp_alien_species_gl2016.csv),The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: invasive species related questions.,resilience,@Halpern2008
-[measure of coastal ecological integrity](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/species_diversity_3nm_gl2016.csv),The Species subgoal scores calculated within 3 nm of shoreline as a proxy for ecological integrity.,resilience,@Halpern2008
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,resilience,
 [watershed partnerships](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/watershed_partnerships.csv),The ratio of watershed partnerships to historic native forest extent.,resilience,@OfficeofPlanning
 [strength of governance](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/wgi_all_gl2016.csv),The World Governance Indicators (WGI) six combined scores.,resilience,@Halpern2008
 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,spatial,
@@ -25,12 +23,18 @@ Layer,Description,Targets,Reference
 [resource](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_resource_mhi2017.csv),The resource was calculated as the total available fish biomass compared to pristine fish biomass.,AO,@Williams2015; @Williams2017
 [participation in recreational activities](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/r_participation_mhi2017.csv),"The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.",CON,@EdwardsPLoerzelJLevineA2014
 [reef condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),"The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.",CP,@Williams2015
+[reef condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),"The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.",CP,@Williams2015
 [beach condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),The condition of coastal habitats measured as the percent of beaches erroding per region.,CP,@Fletcher2012a
 [coastal wetland condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),Wetland condition was calculated based on percent of historical extent.,CP,@VanRees2014
+[fishpond condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_condition_mhi2017.csv),The ratio of current to historic fishpond area.,CP,@OgdenEnvironmentalServices1994
 [reef extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The hardbottom extent out to 80 meters modified from NOAA habitat maps.,CP,@Lecky2016
 [beach extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),"Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.",CP,@NOAAa
 [coastal wetland extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The area of coastal wetlands (within 1 km of the coastline).,CP,@NOAA
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,CP,
+[fishpond extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_extent_mhi2017.csv),The current area of fishponds.,CP,@OgdenEnvironmentalServices1994
+[wetland trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.,CP,@NOAA
+[beach trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),"The average short-term errosine rate of beaches, estimated at -0.06 m per year.",CP,@Fletcher2012a
+[reef trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,CP,@McCoy2017
+[fishpond trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),No trend data is available for this layer,CP,@OgdenEnvironmentalServices1994
 [commerical coastal pelagic fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv),Coastal pelagic fish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
 [bottom fisheries commercial catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv),Bottomfish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
 [pelagic fisheries commerical catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv),Pelagic fish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
@@ -47,18 +51,19 @@ Layer,Description,Targets,Reference
 [coastal wetland extent](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv),The area of coastal wetlands (within 1 km of the coastline).,HAB,@NOAA
 [soft bottom condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),The percent of softbottom habitat not impacted by dredging.,HAB,@Lecky2016
 [beach condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),The condition of coastal habitats measured as the percent of beaches erroding per region.,HAB,@Fletcher2012a
-[coastal wetland condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),Wetland condition was calculated based on percent of historical extent.,HAB,@VanRees2014
+[wetland condition](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv),Wetland condition was calculated based on percent of historical extent.,HAB,@VanRees2014
 [soft bottom trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),Trend was not evaluated for soft bottom habitats.,HAB,
 [wetland trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.,HAB,@NOAA
 [beach trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),"The average short-term errosine rate of beaches, estimated at -0.06 m per year.",HAB,@Fletcher2012a
 [reef trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,HAB,@McCoy2017
-[ocean and coastal revenue](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv),The revenue generated per ocean sector for each county.,LE,@ENOW2017
-[ocean and coastal jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv),The total number of jobs per ocean sector for each county.,LE,@ENOW2017
-[resident population](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv),The number of residents per county.,LE,@DBEDT2015a
-[unemployment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_unemployment_mhi2017.csv),The unemployment rate.,LE,@DBEDT
-[ocean and coastal sector mean wages](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wages_mhi2017.csv),The mean wage per ocean sector by county,LE,@ENOW2017
-[workforce](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wkforce_mhi2017.csv),The total number of jobs per county.,LE,@DBEDT
-[Hawaii average wage](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/liv_a_wage_mhi2017.csv),The Hawaii average annual wage by county,LE,@DBEDT
+[ocean and coastal revenue](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv),The revenue generated per ocean sector for each county.,ECO,@ENOW2017
+[ocean and coastal jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv),The total number of jobs per ocean sector for each county.,LIV,@ENOW2017
+[resident population](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv),The number of residents per county.,LIV,@DBEDT2015a
+[unemployment](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_unemployment_mhi2017.csv),The unemployment rate.,LIV,@DBEDT
+[ocean and coastal sector mean wages](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wages_mhi2017.csv),The mean wage per ocean sector by county,LIV,@ENOW2017
+[workforce](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_wkforce_mhi2017.csv),The total number of jobs per county.,LIV,@DBEDT
+[Hawaii average wage](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/liv_a_wage_mhi2017.csv),The Hawaii average annual wage by county,LIV,@DBEDT
+[ocean sector weight](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_weight_mhi2017.csv),The proportion of jobs in each sector per region.,LE,@ENOW2017
 [area within 1 km of the shore](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_1km_coast_mhi2017.csv),The coastal area within 1 km of the shore.,LSP,@OfficeofPlanning
 [offshore area to 3nm](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_3nm_mhi2017.csv),The offshore area to 3nm.,LSP,@OfficeofPlanning
 [coastal conservation districts](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_coastal_conservation_mhi2017.csv),The conservation district type and area within 1km of the coastline.,LSP,@OfficeofPlanning
@@ -93,7 +98,6 @@ Layer,Description,Targets,Reference
 [visitors participating in swimming](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_swimming_mhi2017.csv),The number of visitors per km of coastline that swim and go to the beach per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
 [visitors participating in thrill craft](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_thrill_craft_mhi2017.csv),The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
 [visitors participating in whale watching](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_whale_watching_mhi2017.csv),The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
-[community stewardship](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/community_stewardship_mhi2017.csv),"The number of potential Community Based Subsistence Fishing Areas (CBSFA) and interested communities, and the active fishponds, scaled to maximum number per county.",resilience,@OgdenEnvironmentalServices1994
 [coastal MPAs fisheries resilience](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_MPA_3nm_mhi2017.csv),The ratio of management areas to total coastal area within 3nm.,resilience,@OfficeofPlanning
 [EEZ MPAs fisheries resilience](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_MPA_eez_mhi2017.csv),"The ratio of management areas (BRFA, Longline, Monument) to the total ocean area with the EEZ and divided into OHI regions.",resilience,@OfficeofPlanning
 [coastal MPAs habitat resilience](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hd_MPA_3nm_mhi2017.csv),The ratio of management areas to total coastal area within 3nm.,resilience,@OfficeofPlanning
