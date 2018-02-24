@@ -499,22 +499,6 @@ output:
 ``` 
 
  
-# community stewardship 
-####[community_stewardship](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/community_stewardship_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/community_stewardship.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # coral bleaching 
 ####[cc_sst_nearshore](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cc_sst_nearshore_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
