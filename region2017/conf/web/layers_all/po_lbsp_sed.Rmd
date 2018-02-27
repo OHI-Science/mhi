@@ -1,4 +1,4 @@
-The pressure on the nearshore from sedimentation. Falinski (2016) customized, parameterized, calibrated, and ran the Integrated Valuation of Ecosystem Services and Tradeoffs (InVEST) model for sediment delivery for each of the eight Main Hawaiian Islands. This model predicts the average annual amount of sediment (tons/yr) exported from each map pixel as a function of land use/land cover, soil characteristics, rainfall, slope, geology, and hydrology.
+Mean sediment load to nearshore waters (1.5km).
 
 #### Reference
 
