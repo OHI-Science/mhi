@@ -643,7 +643,7 @@ output:
 ``` 
 
  
-# fish biomass 
+# fish indicator 
 ####[spp_fish](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/spp_fish_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
