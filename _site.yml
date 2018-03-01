@@ -10,6 +10,8 @@ navbar:
       href: goals.html
     - text: "Layers"
       href: layers_table.html
+    - text: "Pressures"
+      href: pressures.html
     - text: "Frequently Asked Questions"
       href: frequentlyaskedquestions.html
     - text: "Contribute"
