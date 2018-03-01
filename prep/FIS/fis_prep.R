@@ -1,7 +1,7 @@
 #FIS prep
-#last modified March 28 2017
-###ISSUE###We are missing catch data that is not associated with islands - Must have along given us data from catch blocks around island (including cross seamount)
 
+###ISSUE###We are missing catch data that is not associated with islands - Must have along given us data from catch blocks around island (including cross seamount)
+##ISSUE resolved with updated catch data FEb 2018#
 
 ## setup: libraries, file paths ----
 library(tidyverse) # install.packages('tidyverse')
