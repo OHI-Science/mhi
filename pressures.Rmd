@@ -58,7 +58,7 @@ Sea level rise is projected to raise sea level by 3.2 feet by 2100 (IPPC 2014) a
 
 
 
-We are already seeing the impacts of climate change on Hawaiiʻs coral reef ecosystems. Hawaiiʻs Coral reef condition declined drastically with recent coral bleaching events in 2014 and 2015. Long periods of warmer than normal temperatures, water pollution, and overexposure to sunlight can cause corals to become stressed and can lead to coral bleaching were corals loose the algae within their cells that give them their characteristic color and help support coral health and growth. If the the environmental conidtions do not improve bleached coral can die or become diseased.
+We are already seeing the impacts of climate change on Hawaiiʻs coral reef ecosystems. Hawaiiʻs Coral reef condition declined drastically with recent coral bleaching events in 2014 and 2015. Long periods of warmer than normal temperatures, water pollution, and overexposure to sunlight can cause corals to become stressed and can lead to coral bleaching were corals loose the algae within their cells that give them their characteristic color and help support coral health and growth. If the environmental conidtions do not improve bleached coral can die or become diseased.
 <div style="float: center"> 
 <img src="images/coralbleaching_NOAA.pdf" width="750px"></div>
 Infrographic provided by NOAA National Ocean Service [here](https://oceanservice.noaa.gov/facts/coral_bleach.html).
