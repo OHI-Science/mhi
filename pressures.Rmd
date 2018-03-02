@@ -8,11 +8,17 @@ output: html_document
 ----
 Pressures effect the sustainability of the benefits that we receive from the ocean and reduce goal scores. There were 37 pressures that were identified by stakeholders and had data available for inclusion into the Hawaiʻi Ocean Health Index. The pressures fall into 6 categories: 1. Alien and invasive species, 2. Climate change, 3. Fishing pressure, 4. Habitat destruction, 5. Pollution, and 6. Social pressures. Pressures were weighted by their potential impact to each goal. The pressures that received the highest weight or impact on ocean health were pollution (land based sources of pollution), sea level rise and ocean warming caused by climate change, and habitat destruction. Here we describe these major pressures and their potential impact on the future of Hawaii's Ocean Health.
 
+<br>
+
 
 ## Land Based Sources of Pollution
 There is a direct connection between mauka and makai (land and sea) when it comes to water quality and ocean pollution. Ocean pollution can come from a variety of land use practices such as from pesticides and fertilizers used for agriculture and golf courses, land development through increasing impervious surfaces that do not allow for the absorption and filtering of water contaminants before they reach the ocean, and from wastewater sources such as cesspools. 
 
 Full report on the 2016 State of Hawaiʻi Water Quality Monitoring and Assessment can be found [here]( https://health.hawaii.gov/cwb/files/2013/05/Draft-2016-State-of-Hawaii-Water-Quality-Monitoring-and-Assessment-Report.pdf).
+
+
+
+
 
 ####*Agriculture and Golf Courses* 
 Agriculture and golf course land use practice can cause increased chemicals and nutrients to our nearshore waters. Land use practices vary by island and county across Hawaiʻi.
@@ -27,6 +33,7 @@ Total agriculture and golf course land use area:
 |Kauaʻi & Niʻihau  | 26.9 |
 
 
+
 ####*Land Development*
 Development of roads and structures leads to increased areas of impervious surfaces (do not allow for water aborption and filtration). This rural and city development causes increased transport or runoff of chemicals and pollutants to our streams and nearshore waters. We mapped the average percent of impervious surfaces for each watershed and applied this pressure to Biodiversity, Artisanal Fishing Opportunites, Coastal Protection, Sense of Place, and Sustainable Tourism goals.
 
@@ -36,6 +43,8 @@ Development of roads and structures leads to increased areas of impervious surfa
 | Maui Nui  |  4.5 |
 |Oʻahu  |   14.0  |
 |Kauaʻi & Niʻihau |  2.4 |
+
+
 
 ####*Cesspools*
 <div style="float: right"> 
