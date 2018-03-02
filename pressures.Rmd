@@ -19,12 +19,12 @@ Agriculture and golf course land use practice can cause increased chemicals and 
 
 Total agriculture and golf course land use area:
 
-| County |  Acres |
+| County |  Square Miles |
 | ---- |  ---- |
-|Hawaiʻi | 666 |
-|Maui Nui | 819 |
-|Oʻahu | 384 |
-|Kauaʻi & Niʻihau  | 282 |
+|Hawaiʻi | 63.5 |
+|Maui Nui | 78.1 |
+|Oʻahu | 36.7 |
+|Kauaʻi & Niʻihau  | 26.9 |
 
 
 ####*Land Development*
