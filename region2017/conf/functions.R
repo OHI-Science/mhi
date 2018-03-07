@@ -1293,7 +1293,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
             #would be double counting
 
 
-  liv_status = liv_status %>%
+  liv_status_full = liv_status %>%
     filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
     arrange(rgn_id, year) %>%
     # summarize across sectors
@@ -1337,7 +1337,9 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     dplyr::group_by(rgn_id,year) %>%
     summarize(x_wages=sum(x_wages_w), x_jobs=mean(x_jobs))%>%
     ungroup() %>%
-    mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100) %>%
+    mutate(score = rowMeans(.[,c('x_jobs', 'x_wages')]) * 100)
+
+  liv_status<-liv_status_full%>%
     filter(year == max(year, na.rm=T)) %>%
     # format
     mutate(
@@ -1354,53 +1356,72 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     # over the most recent five years...
     # with the average weighted by the number of jobs in each sector
     # ... averaging slopes across sectors weighted by the revenue in each sector
-
-    # get trend across years as slope of individual sectors for jobs and wages
-    liv_trend =
-      liv %>%
-      filter(!is.na(jobs_adj) & !is.na(wage_usd),
-             sector!="All Ocean Sectors",
-             sector!="Offshore Mineral Extraction")%>%
-      filter(!is.na(jobs_adj) & !is.na(wage_usd)) %>%
-      # TODO: consider "5 year time spans" as having 5 [(max(year)-4):max(year)] or 6 [(max(year)-5):max(year)] member years
-      filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
-      # get sector weight as total jobs across years for given region
-      arrange(rgn_id, year, sector) %>%
-      dplyr::group_by(rgn_id, sector) %>%
-      mutate(
-        weight = sum(jobs_adj, na.rm=T)) %>%
-      # reshape into jobs and wages columns into single metric to get slope of both with one do() call
-      reshape2::melt(id=c('rgn_id','year','sector','weight'), variable='metric', value.name='value') %>%
-      mutate(
-        sector = as.character(sector),
-        metric = as.character(metric)) %>%
-      # get linear model coefficient per metric
-      dplyr::group_by(metric, rgn_id, sector, weight) %>%
-      do(mdl = lm(value ~ year, data=.)) %>%
-      dplyr::summarize(
-        metric = metric,
-        weight = weight,
-        rgn_id = rgn_id,
-        sector = sector,
-        # TODO: consider how the units affect trend; should these be normalized? cap per sector or later?
-        sector_trend = pmax(-1, pmin(1, coef(mdl)[['year']] * 5))) %>%
-      arrange(rgn_id, metric, sector) %>%
-      # get weighted mean across sectors per region-metric
-      dplyr::group_by(metric, rgn_id) %>%
-      dplyr::summarize(
-        metric_trend = weighted.mean(sector_trend, weight, na.rm=T)) %>%
-      # get mean trend across metrics (jobs, wages) per region
-      dplyr::group_by(rgn_id) %>%
-      dplyr::summarize(
-        score = mean(metric_trend, na.rm=T)) %>%
-      # format
-      mutate(
+  liv_trend <- liv_status_full %>%
+    dplyr::group_by(rgn_id) %>%
+    do(mdl = lm(score ~ year, data=.),
+       adjust_trend = .$score[.$year == 2009]) %>%
+    dplyr::summarize(region_id = rgn_id,
+                     score = round(coef(mdl)['year']/adjust_trend * 5, 4),
+                     dimension = 'trend') %>%
+    ungroup() %>%
+    dplyr::mutate(score = ifelse(score > 1, 1, score)) %>%
+    dplyr::mutate(score = ifelse(score < (-1), (-1), score)) %>%
+    mutate(
         goal      = 'LIV',
         dimension = 'trend') %>%
       dplyr::select(
         goal, dimension,
-        region_id = rgn_id,
+        region_id = region_id,
         score)
+
+
+  #previous trend calculation - resulted in inflated trend scores
+    # # get trend across years as slope of individual sectors for jobs and wages
+    # liv_trend =
+    #   liv %>%
+    #   filter(!is.na(jobs_adj) & !is.na(wage_usd),
+    #          sector!="All Ocean Sectors",
+    #          sector!="Offshore Mineral Extraction")%>%
+    #   filter(!is.na(jobs_adj) & !is.na(wage_usd)) %>%
+    #   # TODO: consider "5 year time spans" as having 5 [(max(year)-4):max(year)] or 6 [(max(year)-5):max(year)] member years
+    #   filter(year >= max(year, na.rm=T) - 4) %>% # reference point is 5 years ago
+    #   # get sector weight as total jobs across years for given region
+    #   arrange(rgn_id, year, sector) %>%
+    #   dplyr::group_by(rgn_id, sector) %>%
+    #   mutate(
+    #     weight = sum(jobs_adj, na.rm=T)) %>%
+    #   # reshape into jobs and wages columns into single metric to get slope of both with one do() call
+    #   reshape2::melt(id=c('rgn_id','year','sector','weight'), variable='metric', value.name='value') %>%
+    #   mutate(
+    #     sector = as.character(sector),
+    #     metric = as.character(metric)) %>%
+    #   # get linear model coefficient per metric
+    #   dplyr::group_by(metric, rgn_id, sector, weight) %>%
+    #   do(mdl = lm(value ~ year, data=.)) %>%
+    #   dplyr::summarize(
+    #     metric = metric,
+    #     weight = weight,
+    #     rgn_id = rgn_id,
+    #     sector = sector,
+    #     # TODO: consider how the units affect trend; should these be normalized? cap per sector or later?
+    #     sector_trend = pmax(-1, pmin(1, coef(mdl)[['year']] * 5))) %>%
+    #   arrange(rgn_id, metric, sector) %>%
+    #   # get weighted mean across sectors per region-metric
+    #   dplyr::group_by(metric, rgn_id) %>%
+    #   dplyr::summarize(
+    #     metric_trend = weighted.mean(sector_trend, weight, na.rm=T)) %>%
+    #   # get mean trend across metrics (jobs, wages) per region
+    #   dplyr::group_by(rgn_id) %>%
+    #   dplyr::summarize(
+    #     score = mean(metric_trend, na.rm=T)) %>%
+    #   # format
+    #   mutate(
+    #     goal      = 'LIV',
+    #     dimension = 'trend') %>%
+    #   dplyr::select(
+    #     goal, dimension,
+    #     region_id = rgn_id,
+    #     score)
 
 
   # ECO calculations ----
