@@ -1,0 +1,723 @@
+﻿rgn_id,year,species,llic,number,lbs,family
+2,2012,Aawa,6,44,106,Labridae
+2,2013,Aawa,3,21,40,Labridae
+2,2016,Aawa,3,53,105,Labridae
+2,2017,Aawa,6,19,36,Labridae
+1,2012,Aawa,10,200,413,Labridae
+1,2013,Aawa,13,174,350,Labridae
+1,2014,Aawa,5,253,582,Labridae
+1,2015,Aawa,6,76,150,Labridae
+1,2016,Aawa,8,337,599,Labridae
+1,2017,Aawa,3,135,221,Labridae
+2,2015,Ahaaha,3,4,15,Belonidae
+1,2015,Ahaaha,3,3,14,Belonidae
+1,2016,Ahaaha,3,1,1,Belonidae
+2,2012,Aholehole,3,11,17,Kuhliidae
+1,2015,Aholehole,7,425,230,Kuhliidae
+2,2012,Aku,57,"1,217","8,276",Scombridae
+2,2013,Aku,41,759,"5,470",Scombridae
+2,2014,Aku,42,"1,074","6,076",Scombridae
+2,2015,Aku,49,"1,130","7,267",Scombridae
+2,2016,Aku,37,585,"6,365",Scombridae
+2,2017,Aku,46,607,"6,442",Scombridae
+1,2012,Aku,199,"7,244","41,777",Scombridae
+1,2013,Aku,172,"4,765","30,444",Scombridae
+1,2014,Aku,163,"4,878","30,662",Scombridae
+1,2015,Aku,161,"2,905","21,351",Scombridae
+1,2016,Aku,144,"3,083","27,238",Scombridae
+1,2017,Aku,150,"1,430","19,275",Scombridae
+2,2012,Akule,6,"1,153",632,Carangidae
+2,2013,Akule,5,"1,089",598,Carangidae
+2,2014,Akule,8,618,393,Carangidae
+2,2015,Akule,10,596,351,Carangidae
+2,2016,Akule,8,405,310,Carangidae
+2,2017,Akule,4,293,144,Carangidae
+1,2012,Akule,33,"20,488","12,267",Carangidae
+1,2013,Akule,30,"10,507","7,269",Carangidae
+1,2014,Akule,29,"14,828","9,164",Carangidae
+1,2015,Akule,29,"23,749","13,200",Carangidae
+1,2016,Akule,27,"22,861","13,692",Carangidae
+1,2017,Akule,25,"18,002","9,474",Carangidae
+1,2012,Alaihe,8,125,93,Holocentridae
+1,2013,Alaihe,7,53,74,Holocentridae
+1,2014,Alaihe,7,35,53,Holocentridae
+1,2016,Alaihe,3,74,58,Holocentridae
+1,2017,Alaihe,8,80,75,Holocentridae
+1,2012,Alaihe mama,3,7,10,Holocentridae
+1,2013,Alfonsin,3,12,44,Berycidae
+2,2012,Aweoweo,9,228,229,Priacanthidae
+2,2013,Aweoweo,6,182,141,Priacanthidae
+2,2014,Aweoweo,6,27,19,Priacanthidae
+2,2015,Aweoweo,7,202,192,Priacanthidae
+2,2016,Aweoweo,5,188,86,Priacanthidae
+1,2012,Aweoweo,22,799,512,Priacanthidae
+1,2013,Aweoweo,27,"1,194","1,544",Priacanthidae
+1,2014,Aweoweo,24,756,"1,379",Priacanthidae
+1,2015,Aweoweo,15,"1,537","1,079",Priacanthidae
+1,2016,Aweoweo,13,827,641,Priacanthidae
+1,2017,Aweoweo,17,"1,735",772,Priacanthidae
+2,2014,Aweoweo (deepsea),3,7,10,Priacanthidae
+2,2017,Aweoweo (deepsea),3,7,27,Priacanthidae
+1,2012,Aweoweo (deepsea),3,3,7,Priacanthidae
+1,2014,Aweoweo (deepsea),5,13,19,Priacanthidae
+2,2012,Bigeye tuna,18,"1,712","19,331",Scombridae
+2,2013,Bigeye tuna,14,915,"21,635",Scombridae
+2,2014,Bigeye tuna,22,454,"7,173",Scombridae
+2,2015,Bigeye tuna,14,166,"1,492",Scombridae
+2,2016,Bigeye tuna,15,320,"4,564",Scombridae
+2,2017,Bigeye tuna,12,277,"5,992",Scombridae
+1,2012,Bigeye tuna,114,"3,571","43,054",Scombridae
+1,2013,Bigeye tuna,121,"3,509","64,334",Scombridae
+1,2014,Bigeye tuna,128,"4,427","81,979",Scombridae
+1,2015,Bigeye tuna,81,"1,007","17,286",Scombridae
+1,2016,Bigeye tuna,91,"1,543","29,968",Scombridae
+1,2017,Bigeye tuna,75,828,"26,382",Scombridae
+2,2015,Black marlin,4,5,813,Istiophoridae
+2,2016,Black marlin,4,5,"1,047",Istiophoridae
+1,2012,Black marlin,7,5,"1,224",Istiophoridae
+1,2013,Black marlin,8,5,"1,709",Istiophoridae
+1,2014,Black marlin,9,9,"1,722",Istiophoridae
+1,2015,Black marlin,12,9,"1,489",Istiophoridae
+1,2016,Black marlin,9,8,949,Istiophoridae
+1,2017,Black marlin,5,4,967,Istiophoridae
+2,2012,Blue marlin,37,59,"17,774",Istiophoridae
+2,2013,Blue marlin,39,47,"13,930",Istiophoridae
+2,2014,Blue marlin,26,35,"11,097",Istiophoridae
+2,2015,Blue marlin,41,76,"14,855",Istiophoridae
+2,2016,Blue marlin,40,70,"14,131",Istiophoridae
+2,2017,Blue marlin,29,50,"12,807",Istiophoridae
+1,2012,Blue marlin,169,424,"115,695",Istiophoridae
+1,2013,Blue marlin,169,727,"101,102",Istiophoridae
+1,2014,Blue marlin,163,461,"119,235",Istiophoridae
+1,2015,Blue marlin,193,627,"113,618",Istiophoridae
+1,2016,Blue marlin,148,440,"82,586",Istiophoridae
+1,2017,Blue marlin,150,546,"104,634",Istiophoridae
+1,2013,Blue shark,3,0,0,Carcharhinidae
+1,2013,Butaguchi ulua,3,8,27,Carangidae
+2,2012,Day tako,4,531,"1,420",Invert
+2,2013,Day tako,4,153,344,Invert
+1,2012,Day tako,4,124,443,Invert
+1,2013,Day tako,3,23,80,Invert
+1,2014,Dobe ulua,3,175,468,Carangidae
+2,2015,Ea (wrasse),3,30,76,Labridae
+1,2013,Ea (wrasse),3,11,19,Labridae
+2,2012,Ehu,26,596,"1,261",Lutjanidae
+2,2013,Ehu,20,507,"1,076",Lutjanidae
+2,2014,Ehu,26,361,721,Lutjanidae
+2,2015,Ehu,21,460,"1,034",Lutjanidae
+2,2016,Ehu,21,380,"1,042",Lutjanidae
+2,2017,Ehu,18,399,"1,050",Lutjanidae
+1,2012,Ehu,37,489,"1,050",Lutjanidae
+1,2013,Ehu,44,"1,791","3,924",Lutjanidae
+1,2014,Ehu,39,"1,119","2,464",Lutjanidae
+1,2015,Ehu,18,931,"2,383",Lutjanidae
+1,2016,Ehu,24,217,492,Lutjanidae
+1,2017,Ehu,16,296,683,Lutjanidae
+2,2012,Gindai,15,86,212,Lutjanidae
+2,2013,Gindai,11,55,107,Lutjanidae
+2,2014,Gindai,13,35,69,Lutjanidae
+2,2015,Gindai,12,78,187,Lutjanidae
+2,2016,Gindai,16,70,195,Lutjanidae
+2,2017,Gindai,13,54,136,Lutjanidae
+1,2012,Gindai,32,262,529,Lutjanidae
+1,2013,Gindai,39,619,"1,266",Lutjanidae
+1,2014,Gindai,24,388,767,Lutjanidae
+1,2015,Gindai,20,196,458,Lutjanidae
+1,2016,Gindai,21,114,245,Lutjanidae
+1,2017,Gindai,14,60,125,Lutjanidae
+2,2012,Golden kali,5,12,14,Emmelichthyidae
+2,2013,Golden kali,5,22,30,Emmelichthyidae
+1,2012,Golden kali,5,48,72,Emmelichthyidae
+1,2013,Golden kali,9,94,118,Emmelichthyidae
+1,2014,Golden kali,7,49,61,Emmelichthyidae
+1,2015,Golden kali,4,14,19,Emmelichthyidae
+1,2016,Golden kali,4,9,19,Emmelichthyidae
+1,2017,Golden kali,5,72,104,Emmelichthyidae
+1,2012,Gunkan ulua,3,2,60,Carangidae
+1,2013,Gunkan ulua,4,7,92,Carangidae
+1,2015,Hahalalu,3,54,19,Carangidae
+1,2016,Hahalalu,3,326,87,Carangidae
+1,2017,Hahalalu,4,"2,557",563,Carangidae
+2,2012,Hapuupuu,8,31,414,Carangidae
+2,2013,Hapuupuu,8,22,275,Carangidae
+2,2014,Hapuupuu,10,30,355,Serranidae
+2,2015,Hapuupuu,11,40,558,Serranidae
+2,2016,Hapuupuu,17,52,810,Serranidae
+2,2017,Hapuupuu,16,46,783,Serranidae
+1,2012,Hapuupuu,20,40,478,Serranidae
+1,2013,Hapuupuu,29,115,"1,655",Serranidae
+1,2014,Hapuupuu,23,59,804,Serranidae
+1,2015,Hapuupuu,9,40,511,Serranidae
+1,2016,Hapuupuu,15,29,389,Serranidae
+1,2017,Hapuupuu,8,18,188,Serranidae
+1,2013,Hauliuli,3,6,9,Gempylidae
+2,2012,Hogo,11,38,109,Scorpaenidae
+2,2013,Hogo,4,46,110,Scorpaenidae
+2,2014,Hogo,5,25,65,Scorpaenidae
+2,2015,Hogo,3,13,30,Scorpaenidae
+2,2016,Hogo,4,5,13,Scorpaenidae
+2,2017,Hogo,3,5,13,Scorpaenidae
+1,2012,Hogo,5,8,26,Scorpaenidae
+1,2013,Hogo,12,83,159,Scorpaenidae
+1,2014,Hogo,8,48,111,Scorpaenidae
+1,2015,Hogo,8,24,62,Scorpaenidae
+1,2016,Hogo,3,5,14,Scorpaenidae
+1,2012,Humuhumu,5,19,36,Balistidae
+1,2013,Humuhumu,3,2,1,Balistidae
+2,2017,Kagami ulua,3,5,36,Carangidae
+2,2012,Kahala,16,71,890,Carangidae
+2,2013,Kahala,11,63,"1,013",Carangidae
+2,2014,Kahala,13,42,593,Carangidae
+2,2015,Kahala,8,119,"1,462",Carangidae
+2,2016,Kahala,13,402,"5,697",Carangidae
+2,2017,Kahala,10,139,"1,807",Carangidae
+1,2012,Kahala,18,21,262,Carangidae
+1,2013,Kahala,17,54,592,Carangidae
+1,2014,Kahala,14,71,476,Carangidae
+1,2015,Kahala,6,80,566,Carangidae
+1,2016,Kahala,10,80,940,Carangidae
+1,2017,Kahala,9,37,576,Carangidae
+2,2012,Kaku,4,5,41,Sphyraenidae
+2,2013,Kaku,8,4,79,Sphyraenidae
+2,2014,Kaku,3,1,20,Sphyraenidae
+2,2015,Kaku,9,3,28,Sphyraenidae
+2,2016,Kaku,5,6,62,Sphyraenidae
+2,2017,Kaku,3,2,49,Sphyraenidae
+1,2012,Kaku,11,9,154,Sphyraenidae
+1,2013,Kaku,9,5,84,Sphyraenidae
+1,2014,Kaku,20,23,262,Sphyraenidae
+1,2015,Kaku,15,11,135,Sphyraenidae
+1,2016,Kaku,13,28,115,Sphyraenidae
+1,2017,Kaku,6,8,139,Sphyraenidae
+2,2012,Kala,3,23,40,Acanthuridae
+1,2012,Kala,5,57,106,Acanthuridae
+1,2013,Kala,4,144,289,Acanthuridae
+1,2015,Kala,5,27,52,Acanthuridae
+1,2017,Kala,3,13,40,Acanthuridae
+2,2012,Kalekale,19,578,"1,111",Lutjanidae
+2,2013,Kalekale,18,661,"1,173",Lutjanidae
+2,2014,Kalekale,27,"1,207","2,380",Lutjanidae
+2,2015,Kalekale,22,472,957,Lutjanidae
+2,2016,Kalekale,25,660,"1,288",Lutjanidae
+2,2017,Kalekale,21,917,"1,837",Lutjanidae
+1,2012,Kalekale,33,597,"1,039",Lutjanidae
+1,2013,Kalekale,46,"2,176","3,843",Lutjanidae
+1,2014,Kalekale,38,"1,794","3,139",Lutjanidae
+1,2015,Kalekale,31,"1,244","2,099",Lutjanidae
+1,2016,Kalekale,23,815,"1,446",Lutjanidae
+1,2017,Kalekale,21,"1,041","1,900",Lutjanidae
+2,2012,Kamanu,9,15,125,Carangidae
+2,2013,Kamanu,11,17,138,Carangidae
+2,2014,Kamanu,7,25,203,Carangidae
+2,2015,Kamanu,13,57,417,Carangidae
+2,2016,Kamanu,18,84,497,Carangidae
+2,2017,Kamanu,14,137,675,Carangidae
+1,2012,Kamanu,27,266,"1,295",Carangidae
+1,2013,Kamanu,20,80,464,Carangidae
+1,2014,Kamanu,25,103,636,Carangidae
+1,2015,Kamanu,15,54,285,Carangidae
+1,2016,Kamanu,25,135,668,Carangidae
+1,2017,Kamanu,29,120,482,Carangidae
+2,2012,Kawakawa,8,22,209,Scombridae
+2,2013,Kawakawa,13,36,373,Scombridae
+2,2014,Kawakawa,24,208,682,Scombridae
+2,2015,Kawakawa,27,255,"1,115",Scombridae
+2,2016,Kawakawa,24,148,906,Scombridae
+2,2017,Kawakawa,23,95,675,Scombridae
+1,2012,Kawakawa,13,17,230,Scombridae
+1,2013,Kawakawa,5,19,234,Scombridae
+1,2014,Kawakawa,25,371,"1,043",Scombridae
+1,2015,Kawakawa,24,653,"2,025",Scombridae
+1,2016,Kawakawa,25,193,879,Scombridae
+1,2017,Kawakawa,20,65,407,Scombridae
+2,2013,Kawelea,3,2,6,Sphyraenidae
+2,2015,Kawelea,4,22,100,Sphyraenidae
+2,2016,Kawelea,3,13,50,Sphyraenidae
+2,2017,Kawelea,5,61,199,Sphyraenidae
+1,2012,Kawelea,6,43,109,Sphyraenidae
+1,2013,Kawelea,12,36,83,Sphyraenidae
+1,2014,Kawelea,10,83,312,Sphyraenidae
+1,2015,Kawelea,5,206,643,Sphyraenidae
+1,2016,Kawelea,5,28,75,Sphyraenidae
+1,2017,Kawelea,6,56,170,Sphyraenidae
+1,2012,Keokeo,4,4,8,Keokeo
+1,2015,Keokeo,3,6,14,Keokeo
+1,2012,Kole,11,611,458,Acanthuridae
+1,2013,Kole,4,675,322,Acanthuridae
+1,2014,Kole,8,932,532,Acanthuridae
+1,2016,Kole,5,518,213,Acanthuridae
+2,2012,Kona crab,8,627,846,Invert
+2,2013,Kona crab,6,552,762,Invert
+2,2016,Kona crab,3,140,215,Invert
+2,2017,Kona crab,3,221,141,Invert
+1,2012,Kona crab,6,196,234,Invert
+1,2013,Kona crab,3,48,63,Invert
+1,2015,Kona crab,5,144,113,Invert
+2,2012,Kumu,4,39,77,Mullidae
+2,2013,Kumu,3,73,132,Mullidae
+1,2012,Kumu,10,246,433,Mullidae
+1,2013,Kumu,8,582,926,Mullidae
+1,2014,Kumu,6,69,123,Mullidae
+1,2015,Kumu,3,20,35,Mullidae
+1,2016,Kumu,3,122,170,Mullidae
+2,2012,Laenihi,6,757,391,Labridae
+2,2013,Laenihi,8,643,297,Labridae
+2,2014,Laenihi,8,"1,089",580,Labridae
+2,2015,Laenihi,8,510,331,Labridae
+2,2016,Laenihi,6,433,235,Labridae
+2,2017,Laenihi,5,780,306,Labridae
+1,2012,Laenihi,12,252,116,Labridae
+1,2013,Laenihi,10,564,168,Labridae
+1,2014,Laenihi,8,237,116,Labridae
+1,2015,Laenihi,6,384,125,Labridae
+1,2016,Laenihi,9,262,157,Labridae
+1,2017,Laenihi,9,261,113,Labridae
+2,2012,Lehi,26,181,"1,295",Lutjanidae
+2,2013,Lehi,16,463,"2,681",Lutjanidae
+2,2014,Lehi,22,212,"1,320",Lutjanidae
+2,2015,Lehi,29,399,"2,181",Lutjanidae
+2,2016,Lehi,31,435,"2,896",Lutjanidae
+2,2017,Lehi,25,365,"2,554",Lutjanidae
+1,2012,Lehi,39,313,"2,373",Lutjanidae
+1,2013,Lehi,36,748,"4,793",Lutjanidae
+1,2014,Lehi,41,396,"2,436",Lutjanidae
+1,2015,Lehi,33,360,"2,065",Lutjanidae
+1,2016,Lehi,29,382,"2,028",Lutjanidae
+1,2017,Lehi,21,401,"2,149",Lutjanidae
+2,2012,Mahimahi,130,"2,114","35,386",Coryphaenidae
+2,2013,Mahimahi,118,"1,319","20,333",Coryphaenidae
+2,2014,Mahimahi,122,"2,633","37,762",Coryphaenidae
+2,2015,Mahimahi,121,"1,669","27,474",Coryphaenidae
+2,2016,Mahimahi,66,"1,507","20,740",Coryphaenidae
+2,2017,Mahimahi,85,"1,977","24,719",Coryphaenidae
+1,2012,Mahimahi,331,"4,954","77,563",Coryphaenidae
+1,2013,Mahimahi,314,"5,508","69,998",Coryphaenidae
+1,2014,Mahimahi,307,"6,101","84,963",Coryphaenidae
+1,2015,Mahimahi,282,"3,257","52,212",Coryphaenidae
+1,2016,Mahimahi,224,"2,155","34,020",Coryphaenidae
+1,2017,Mahimahi,199,"2,390","34,855",Coryphaenidae
+1,2012,Maiko,4,149,78,Acanthuridae
+1,2012,Mako,8,6,"1,051",Acanthuridae
+1,2016,Mako,3,3,686,Lamnidae
+2,2012,Manini,3,19,24,Acanthuridae
+1,2012,Manini,7,859,351,Acanthuridae
+1,2013,Manini,3,"4,056","1,674",Acanthuridae
+1,2014,Manini,4,158,63,Acanthuridae
+1,2015,Manini,6,173,78,Acanthuridae
+1,2017,Manini,3,18,11,Acanthuridae
+2,2012,Menpachi,16,"2,683","1,650",Holocentridae
+2,2013,Menpachi,7,"8,177","3,799",Holocentridae
+2,2014,Menpachi,8,"8,048","4,797",Holocentridae
+2,2015,Menpachi,8,"2,191","1,209",Holocentridae
+2,2016,Menpachi,8,"3,009","1,986",Holocentridae
+2,2017,Menpachi,11,"2,927","1,687",Holocentridae
+1,2012,Menpachi,52,"17,368","9,647",Holocentridae
+1,2013,Menpachi,43,"17,552","10,170",Holocentridae
+1,2014,Menpachi,33,"6,940","4,244",Holocentridae
+1,2015,Menpachi,30,"12,385","6,972",Holocentridae
+1,2016,Menpachi,24,"13,626","9,094",Holocentridae
+1,2017,Menpachi,28,"14,008","7,710",Holocentridae
+2,2012,other,4,23,24,
+2,2014,other,4,10,6,
+2,2015,other,4,10,79,
+2,2016,other,4,27,90,
+1,2012,other,8,32,135,
+1,2013,other,13,26,53,
+1,2014,other,7,33,133,
+1,2015,other,5,9,35,
+1,2016,other,3,6,190,
+1,2017,other,4,4,130,
+2,2012,Moana,5,73,67,Mullidae
+2,2013,Moana,5,45,36,Mullidae
+2,2015,Moana,3,6,13,Mullidae
+2,2017,Moana,5,69,39,Mullidae
+1,2012,Moana,10,"1,326",757,Mullidae
+1,2013,Moana,19,779,449,Mullidae
+1,2014,Moana,10,824,570,Mullidae
+1,2015,Moana,5,355,198,Mullidae
+1,2016,Moana,7,922,546,Mullidae
+1,2017,Moana,6,466,248,Mullidae
+2,2013,Moana kale,5,40,64,Mullidae
+2,2014,Moana kale,4,9,21,Mullidae
+1,2012,Moana kale,11,494,755,Mullidae
+1,2013,Moana kale,9,267,473,Mullidae
+1,2014,Moana kale,6,301,557,Mullidae
+1,2015,Moana kale,5,120,191,Mullidae
+1,2016,Moana kale,8,353,582,Mullidae
+1,2017,Moana kale,5,211,332,Mullidae
+2,2012,Monchong,7,210,"2,572",Bramidae
+2,2013,Monchong,7,180,"2,144",Bramidae
+2,2014,Monchong,11,883,"9,678",Bramidae
+2,2015,Monchong,6,470,"5,600",Bramidae
+2,2016,Monchong,6,466,"5,489",Bramidae
+2,2017,Monchong,6,190,"2,240",Bramidae
+1,2012,Monchong,12,511,"6,227",Bramidae
+1,2013,Monchong,23,"1,315","16,720",Bramidae
+1,2014,Monchong,15,791,"9,251",Bramidae
+1,2015,Monchong,21,688,"8,044",Bramidae
+1,2016,Monchong,10,268,"3,071",Bramidae
+1,2017,Monchong,7,166,"1,996",Bramidae
+2,2012,Mu,3,7,31,Lethrinidae
+2,2013,Mu,3,63,203,Lethrinidae
+1,2012,Mu,4,117,679,Lethrinidae
+1,2014,Mu,6,14,75,Lethrinidae
+1,2015,Mu,4,7,17,Lethrinidae
+1,2017,Mu,3,6,28,Lethrinidae
+1,2012,Muhee (squid),3,503,137,Invert
+1,2013,Muhee (squid),3,493,140,Invert
+1,2014,Muhee (squid),4,426,183,Invert
+1,2017,Muhee (squid),6,180,148,Invert
+1,2012,Munu,7,32,89,Mullidae
+1,2013,Munu,4,5,4,Mullidae
+1,2014,Munu,7,20,24,Mullidae
+1,2012,Naenae,3,16,17,Acanthuridae
+2,2012,Nenue,3,8,22,Kyphosidae
+1,2012,Nenue,7,44,140,Kyphosidae
+1,2013,Nenue,4,8,19,Kyphosidae
+1,2014,Nenue,8,32,104,Kyphosidae
+1,2015,Nenue,6,23,60,Kyphosidae
+1,2016,Nenue,3,17,60,Kyphosidae
+1,2017,Nenue,4,25,65,Kyphosidae
+2,2012,Nohu,3,6,14,Scorpaenidae
+2,2014,Nohu,4,10,37,Scorpaenidae
+2,2017,Nohu,3,3,11,Scorpaenidae
+1,2012,Nohu,5,8,27,Scorpaenidae
+1,2013,Nohu,5,12,27,Scorpaenidae
+1,2014,Nohu,3,13,34,Scorpaenidae
+1,2016,Nohu,3,9,30,Scorpaenidae
+1,2017,Nohu,4,14,49,Scorpaenidae
+1,2013,Nunu,4,46,72,Aulostamidae
+1,2016,Nunu,3,31,59,Aulostamidae
+1,2013,Oceanic whitetip,6,2,80,Carcharhinidae
+1,2015,Oceanic whitetip,5,0,0,Carcharhinidae
+2,2012,Omilu,5,4,37,Carangidae
+2,2013,Omilu,3,21,99,Carangidae
+2,2014,Omilu,5,10,53,Carangidae
+2,2016,Omilu,4,7,107,Carangidae
+2,2017,Omilu,4,64,274,Carangidae
+1,2012,Omilu,5,216,520,Carangidae
+1,2013,Omilu,7,19,198,Carangidae
+1,2014,Omilu,8,143,255,Carangidae
+1,2015,Omilu,8,424,354,Carangidae
+1,2016,Omilu,6,34,221,Carangidae
+1,2017,Omilu,7,34,161,Carangidae
+2,2012,Onaga,27,692,"3,185",Lutjanidae
+2,2013,Onaga,23,534,"2,656",Lutjanidae
+2,2014,Onaga,26,952,"4,978",Lutjanidae
+2,2015,Onaga,24,663,"2,834",Lutjanidae
+2,2016,Onaga,27,705,"5,029",Lutjanidae
+2,2017,Onaga,18,900,"7,726",Lutjanidae
+1,2012,Onaga,16,211,"1,353",Lutjanidae
+1,2013,Onaga,28,650,"4,498",Lutjanidae
+1,2014,Onaga,28,344,"2,435",Lutjanidae
+1,2015,Onaga,18,286,"1,696",Lutjanidae
+1,2016,Onaga,18,473,"3,420",Lutjanidae
+1,2017,Onaga,9,515,"2,921",Lutjanidae
+2,2012,Ono,124,"1,531","35,843",Scombridae
+2,2013,Ono,125,"1,448","32,398",Scombridae
+2,2014,Ono,117,"1,378","30,854",Scombridae
+2,2015,Ono,134,"1,767","38,710",Scombridae
+2,2016,Ono,101,"1,230","26,232",Scombridae
+2,2017,Ono,90,710,"14,751",Scombridae
+1,2012,Ono,371,"4,882","118,634",Scombridae
+1,2013,Ono,348,"4,733","111,188",Scombridae
+1,2014,Ono,360,"5,487","121,632",Scombridae
+1,2015,Ono,338,"4,877","106,097",Scombridae
+1,2016,Ono,266,"3,458","75,926",Scombridae
+1,2017,Ono,257,"2,455","53,910",Scombridae
+2,2012,Opakapaka,35,"2,386","8,950",Lutjanidae
+2,2013,Opakapaka,34,"2,504","8,948",Lutjanidae
+2,2014,Opakapaka,41,"4,564","17,140",Lutjanidae
+2,2015,Opakapaka,39,"4,938","14,592",Lutjanidae
+2,2016,Opakapaka,43,"5,227","18,618",Lutjanidae
+2,2017,Opakapaka,40,"4,592","17,931",Lutjanidae
+1,2012,Opakapaka,52,"1,581","5,684",Lutjanidae
+1,2013,Opakapaka,55,"3,486","13,350",Lutjanidae
+1,2014,Opakapaka,64,"3,297","11,394",Lutjanidae
+1,2015,Opakapaka,48,"2,644","8,254",Lutjanidae
+1,2016,Opakapaka,44,"3,088","9,770",Lutjanidae
+1,2017,Opakapaka,38,"2,912","10,263",Lutjanidae
+2,2012,Opelu,12,"4,294","9,605",Carangidae
+2,2013,Opelu,12,"6,288","9,698",Carangidae
+2,2014,Opelu,17,"6,772","6,734",Carangidae
+2,2015,Opelu,13,"7,156","7,063",Carangidae
+2,2016,Opelu,13,"7,795","3,553",Carangidae
+2,2017,Opelu,7,"3,584","1,111",Carangidae
+1,2012,Opelu,71,"303,410","139,711",Carangidae
+1,2013,Opelu,59,"264,803","118,473",Carangidae
+1,2014,Opelu,57,"345,841","144,004",Carangidae
+1,2015,Opelu,48,"338,187","148,421",Carangidae
+1,2016,Opelu,49,"237,330","103,346",Carangidae
+1,2017,Opelu,32,"210,707","69,489",Carangidae
+2,2012,Opelu kala,6,41,500,Acanthuridae
+2,2013,Opelu kala,8,43,251,Acanthuridae
+2,2014,Opelu kala,6,36,229,Acanthuridae
+1,2012,Opelu kala,10,599,"1,365",Acanthuridae
+1,2013,Opelu kala,11,"1,105","2,415",Acanthuridae
+1,2014,Opelu kala,11,268,621,Acanthuridae
+1,2015,Opelu kala,4,41,319,Acanthuridae
+1,2016,Opelu kala,7,61,225,Acanthuridae
+1,2017,Opelu kala,3,7,42,Acanthuridae
+1,2013,Opelu mama,3,26,42,Carangidae
+1,2014,Opelu mama,4,10,32,Carangidae
+2,2012,Opihi alinalina,3,0,313,Invert
+1,2012,Opihi alinalina,6,"2,350",870,Invert
+1,2013,Opihi alinalina,4,0,185,Invert
+1,2014,Opihi alinalina,6,650,627,Invert
+1,2015,Opihi alinalina,4,"2,479",590,Invert
+1,2016,Opihi alinalina,5,"7,303",444,Invert
+1,2017,Opihi alinalina,4,"13,206",696,Invert
+1,2012,Opihi makaiauli,5,120,59,Invert
+1,2014,Opihi makaiauli,5,0,250,Invert
+1,2016,Opihi makaiauli,3,"4,133",222,Invert
+1,2017,Opihi makaiauli,3,0,53,Invert
+2,2012,other,31,"10,320","2,832",
+2,2013,other,21,"33,775","6,346",
+2,2014,other,29,"2,188","1,989",
+2,2015,other,21,"1,818","1,737",
+2,2016,other,19,"1,658","1,079",
+2,2017,other,19,"5,985","1,533",
+1,2012,other,31,"1,615","1,230",
+1,2013,other,26,"3,329","2,825",
+1,2014,other,39,"6,079","2,889",
+1,2015,other,28,"4,087","2,636",
+1,2016,other,23,"6,643","2,433",
+1,2017,other,26,"2,292","1,532",
+1,2012,Pakuikui (tang),4,547,227,Acanthuridae
+1,2013,Pakuikui (tang),3,574,260,Acanthuridae
+2,2012,Palani,3,11,35,Acanthuridae
+2,2015,Palani,3,3,16,Acanthuridae
+1,2012,Palani,8,345,891,Acanthuridae
+1,2013,Palani,3,413,"1,347",Acanthuridae
+1,2014,Palani,6,58,178,Acanthuridae
+1,2015,Palani,4,40,95,Acanthuridae
+1,2016,Palani,3,13,35,Acanthuridae
+1,2017,Palani,3,7,28,Acanthuridae
+2,2013,Papa ulua,3,80,59,Carangidae
+2,2014,Papa ulua,3,35,81,Carangidae
+2,2015,Papa ulua,3,6,19,Carangidae
+2,2016,Papa ulua,4,138,334,Carangidae
+2,2017,Papa ulua,5,39,118,Carangidae
+1,2013,Papa ulua,4,13,65,Carangidae
+1,2014,Papa ulua,3,11,48,Carangidae
+1,2015,Papa ulua,3,12,29,Carangidae
+1,2016,Papa ulua,3,57,115,Carangidae
+1,2017,Papa ulua,6,46,221,Carangidae
+1,2012,Poopaa,3,6,10,Cirrhitidae
+1,2013,Poopaa,3,8,6,Cirrhitidae
+1,2014,Pualu,3,8,36,Acanthuridae
+1,2013,Puhi eel-misc.,3,62,338,Muraenidae
+1,2013,Randall's snapper,3,3,37,Lutjanidae
+1,2015,Randall's snapper,3,6,72,Lutjanidae
+1,2012,Roi,3,79,99,Serranidae
+2,2012,S.N. spearfish,21,59,"2,044",Istiophoridae
+2,2013,S.N. spearfish,25,48,"1,632",Istiophoridae
+2,2014,S.N. spearfish,16,25,684,Istiophoridae
+2,2015,S.N. spearfish,15,47,"1,357",Istiophoridae
+2,2016,S.N. spearfish,26,66,"1,929",Istiophoridae
+2,2017,S.N. spearfish,13,54,"1,667",Istiophoridae
+2,2014,Sailfish,3,2,106,Istiophoridae
+2,2015,Sailfish,6,7,432,Istiophoridae
+2,2016,Sailfish,6,6,421,Istiophoridae
+2,2017,Sailfish,6,15,940,Istiophoridae
+1,2012,Sailfish,7,8,548,Istiophoridae
+1,2013,Sailfish,7,6,320,Istiophoridae
+1,2014,Sailfish,8,6,367,Istiophoridae
+1,2015,Sailfish,12,25,"1,675",Istiophoridae
+1,2016,Sailfish,10,7,494,Istiophoridae
+1,2017,Sailfish,9,11,759,Istiophoridae
+1,2013,Sasa ulua,4,15,67,Carangidae
+1,2015,Sasa ulua,3,26,268,Carangidae
+2,2012,Shark-misc.,4,0,0,Carcharhinidae
+2,2013,Shark-misc.,5,0,0,Carcharhinidae
+2,2016,Shark-misc.,4,2,135,Carcharhinidae
+2,2017,Shark-misc.,4,0,0,Carcharhinidae
+1,2012,Shark-misc.,8,3,304,Carcharhinidae
+1,2013,Shark-misc.,7,1,135,Carcharhinidae
+1,2014,Shark-misc.,4,1,103,Carcharhinidae
+1,2015,Shark-misc.,5,0,0,Carcharhinidae
+1,2016,Shark-misc.,3,0,0,Carcharhinidae
+1,2012,Shortnosed spearfish,100,358,"11,829",Istiophoridae
+1,2013,Shortnosed spearfish,88,374,"11,640",Istiophoridae
+1,2014,Shortnosed spearfish,83,300,"9,456",Istiophoridae
+1,2015,Shortnosed spearfish,86,424,"12,660",Istiophoridae
+1,2016,Shortnosed spearfish,100,622,"19,098",Istiophoridae
+1,2017,Shortnosed spearfish,78,390,"11,687",Istiophoridae
+1,2017,Spiny green lobster,1,236,482,Invert
+2,2012,Striped marlin,16,27,"1,254",Istiophoridae
+2,2013,Striped marlin,10,9,678,Istiophoridae
+2,2014,Striped marlin,10,16,848,Istiophoridae
+2,2015,Striped marlin,10,15,"1,122",Istiophoridae
+2,2016,Striped marlin,10,17,"1,036",Istiophoridae
+2,2017,Striped marlin,8,7,506,Istiophoridae
+1,2012,Striped marlin,56,116,"5,530",Istiophoridae
+1,2013,Striped marlin,45,73,"5,031",Istiophoridae
+1,2014,Striped marlin,55,119,"6,020",Istiophoridae
+1,2015,Striped marlin,49,78,"5,913",Istiophoridae
+1,2016,Striped marlin,53,95,"6,259",Istiophoridae
+1,2017,Striped marlin,37,59,"4,286",Istiophoridae
+2,2015,Swordfish,3,3,187,Xiphiidae
+2,2016,Swordfish,3,5,513,Xiphiidae
+2,2017,Swordfish,4,4,648,Xiphiidae
+1,2012,Swordfish,31,50,"5,830",Xiphiidae
+1,2013,Swordfish,18,26,"3,195",Xiphiidae
+1,2014,Swordfish,30,42,"4,509",Xiphiidae
+1,2015,Swordfish,30,43,"4,160",Xiphiidae
+1,2016,Swordfish,17,26,"2,712",Xiphiidae
+1,2017,Swordfish,23,32,"4,185",Xiphiidae
+2,2012,Taape,11,149,118,Lutjanidae
+2,2013,Taape,7,122,86,Lutjanidae
+2,2014,Taape,7,189,181,Lutjanidae
+2,2015,Taape,9,137,100,Lutjanidae
+2,2016,Taape,8,195,146,Lutjanidae
+2,2017,Taape,7,307,169,Lutjanidae
+1,2012,Taape,26,"1,316",973,Lutjanidae
+1,2013,Taape,31,729,758,Lutjanidae
+1,2014,Taape,23,712,594,Lutjanidae
+1,2015,Taape,19,630,445,Lutjanidae
+1,2016,Taape,20,384,304,Lutjanidae
+1,2017,Taape,22,779,476,Lutjanidae
+2,2012,Thresher shark,6,5,478,Alopiidae
+1,2012,Thresher shark,8,8,"1,417",Alopiidae
+1,2013,Thresher shark,8,5,765,Alopiidae
+1,2014,Thresher shark,9,7,"1,656",Alopiidae
+1,2016,Thresher shark,4,2,183,Alopiidae
+1,2017,Thresher shark,5,5,363,Alopiidae
+1,2012,Toau,5,10,15,Lutjanidae
+1,2013,Toau,3,4,4,Lutjanidae
+1,2014,Toau,4,13,20,Lutjanidae
+1,2016,Toau,3,4,4,Lutjanidae
+2,2012,Tombo,17,748,"35,827",Scombridae
+2,2013,Tombo,3,14,614,Scombridae
+2,2014,Tombo,9,102,"4,847",Scombridae
+2,2015,Tombo,20,215,"9,441",Scombridae
+2,2016,Tombo,5,27,"1,238",Scombridae
+2,2017,Tombo,7,183,"9,771",Scombridae
+1,2012,Tombo,201,"10,313","494,443",Scombridae
+1,2013,Tombo,98,587,"27,461",Scombridae
+1,2014,Tombo,130,"2,191","96,528",Scombridae
+1,2015,Tombo,127,"2,893","126,991",Scombridae
+1,2016,Tombo,98,"1,069","49,160",Scombridae
+1,2017,Tombo,78,"1,040","54,545",Scombridae
+2,2014,Tuna-misc.,6,19,103,Scombridae
+1,2012,Tuna-misc.,3,3,237,Scombridae
+1,2013,Tuna-misc.,3,23,160,Scombridae
+1,2015,Tuna-misc.,3,7,233,Scombridae
+2,2012,Uhu parrot-misc.,4,45,247,Scaridae
+2,2013,Uhu parrot-misc.,3,118,559,Scaridae
+2,2014,Uhu parrot-misc.,3,9,27,Scaridae
+1,2012,Uhu parrot-misc.,16,298,"1,418",Scaridae
+1,2013,Uhu parrot-misc.,5,503,"2,561",Scaridae
+1,2014,Uhu parrot-misc.,10,24,112,Scaridae
+1,2015,Uhu parrot-misc.,4,72,355,Scaridae
+1,2016,Uhu parrot-misc.,3,73,313,Scaridae
+1,2017,Uhu parrot-misc.,4,55,226,Scaridae
+2,2012,Uku,33,548,"4,622",Lutjanidae
+2,2013,Uku,42,589,"4,603",Lutjanidae
+2,2014,Uku,41,834,"6,301",Lutjanidae
+2,2015,Uku,53,"1,442","11,428",Lutjanidae
+2,2016,Uku,49,"1,779","13,334",Lutjanidae
+2,2017,Uku,39,"1,934","13,710",Lutjanidae
+1,2012,Uku,57,346,"2,482",Lutjanidae
+1,2013,Uku,48,629,"5,150",Lutjanidae
+1,2014,Uku,49,707,"4,652",Lutjanidae
+1,2015,Uku,58,571,"3,861",Lutjanidae
+1,2016,Uku,55,411,"2,969",Lutjanidae
+1,2017,Uku,38,302,"1,879",Lutjanidae
+2,2015,Ulua-misc.,3,13,57,Carangidae
+1,2014,Ulua-misc.,4,8,32,Carangidae
+1,2015,Ulua-misc.,7,29,180,Carangidae
+1,2012,Umaumalei,5,155,381,Acanthuridae
+1,2015,Wahanui,3,15,14,Lutjanidae
+1,2015,Walu,3,12,47,Exocoetidae
+1,2012,Weke a'a,3,178,136,Mullidae
+2,2012,Weke nono,9,59,161,Mullidae
+2,2013,Weke nono,10,47,140,Mullidae
+2,2014,Weke nono,9,134,395,Mullidae
+2,2015,Weke nono,6,44,128,Mullidae
+2,2016,Weke nono,13,157,379,Mullidae
+2,2017,Weke nono,9,59,201,Mullidae
+1,2012,Weke nono,9,135,334,Mullidae
+1,2013,Weke nono,11,85,160,Mullidae
+1,2014,Weke nono,11,89,220,Mullidae
+1,2015,Weke nono,6,40,68,Mullidae
+1,2016,Weke nono,10,319,621,Mullidae
+1,2017,Weke nono,9,132,171,Mullidae
+2,2012,Weke ula,6,21,57,Mullidae
+2,2015,Weke ula,3,23,55,Mullidae
+1,2012,Weke ula,12,170,204,Mullidae
+1,2013,Weke ula,10,436,250,Mullidae
+1,2014,Weke ula,10,207,577,Mullidae
+1,2015,Weke ula,7,95,232,Mullidae
+1,2016,Weke ula,9,186,404,Mullidae
+1,2017,Weke ula,7,74,176,Mullidae
+2,2012,White ulua,5,6,274,Carangidae
+2,2013,White ulua,6,3,90,Carangidae
+2,2014,White ulua,3,2,105,Carangidae
+2,2015,White ulua,9,7,236,Carangidae
+2,2016,White ulua,3,57,804,Carangidae
+2,2017,White ulua,4,129,653,Carangidae
+1,2012,White ulua,14,49,"1,614",Carangidae
+1,2013,White ulua,9,28,883,Carangidae
+1,2014,White ulua,8,40,631,Carangidae
+1,2015,White ulua,7,42,363,Carangidae
+1,2016,White ulua,14,38,609,Carangidae
+1,2017,White ulua,4,25,327,Carangidae
+2,2012,Yellowfin tuna,100,"1,552","42,022",Scombridae
+2,2013,Yellowfin tuna,89,"1,099","35,806",Scombridae
+2,2014,Yellowfin tuna,89,"2,161","38,514",Scombridae
+2,2015,Yellowfin tuna,99,"3,584","75,638",Scombridae
+2,2016,Yellowfin tuna,62,"1,431","29,628",Scombridae
+2,2017,Yellowfin tuna,72,"1,852","55,586",Scombridae
+1,2012,Yellowfin tuna,401,"19,446","559,220",Scombridae
+1,2013,Yellowfin tuna,387,"19,228","629,073",Scombridae
+1,2014,Yellowfin tuna,398,"18,008","643,798",Scombridae
+1,2015,Yellowfin tuna,368,"16,514","527,936",Scombridae
+1,2016,Yellowfin tuna,305,"10,382","335,820",Scombridae
+1,2017,Yellowfin tuna,308,"7,687","440,774",Scombridae
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
