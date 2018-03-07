@@ -439,11 +439,12 @@ FIS = function(layers, status_year=2016){
 MAR = function(layers){
 #mariculture operators and yield
   mar_harv <- SelectLayersData(layers, layers='mar_harvest', narrow = TRUE) %>%
-    select(rgn_id=id_num, commodity=category, year, lbs=val_num) #data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
-
+    select(rgn_id=id_num, commodity=category, year, lbs=val_num) %>%#data for each rgn_id is acctually sums for entire state - this is how it is reported - need to weight by # of operators to get rgn level data
+    arrange(rgn_id, commodity, year)
 
   mar_operations <- SelectLayersData(layers, layers='mar_operations', narrow = TRUE) %>%
-    select(rgn_id=id_num, year, commodity=category, value=val_num)
+    select(rgn_id=id_num, year, commodity=category, value=val_num) %>%
+    arrange(rgn_id, commodity, year)
 
 #fishpond number and area
   mar_fp_current <- SelectLayersData(layers, layers='mar_fishpond_current', narrow = TRUE) %>%
