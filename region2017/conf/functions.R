@@ -759,11 +759,16 @@ AO = function(layers){
 
     # status
 
-  # status_year=2013 ## @eschemmel: this is overwriting the variable set in conf/goals.csv from 2014. @jules32 removed it from goals.csv and moves this 2013 value up to the function call <-  doublecheck to make sure this is what you want!
-  # status
+    # status
 
+  #status with access and resource
   ao_data<-ao_data %>%
     dplyr::mutate(status=(bio+access)/2)
+
+  #only resource
+   # ao_data<-ao_data %>%
+   #  dplyr::mutate(status=(bio))
+
 
   r.status <- ao_data %>%
     #filter(year==status_year) %>%
