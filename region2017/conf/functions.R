@@ -479,7 +479,6 @@ MAR = function(layers){
   mar_d<-mar_harv %>%
     left_join(mar_operations, by=c('year','commodity','rgn_id'))
 
-  # mar_d<- ddply(mar_d, .(commodity, year), mutate, sum_value=sum(value)) # @jules32 commenting out in favor of dplyr
   mar_d<- mar_d %>%
     arrange(commodity, year) %>%
     mutate(sum_value = sum(value))
@@ -488,8 +487,8 @@ MAR = function(layers){
   mar_d$prop<-(mar_d$value/mar_d$sum_value)
   mar_d$est_harv<-mar_d$prop*mar_d$lbs
 
-   #to get total lbs for mariculture weight of pf
- #total_mar<-as.data.frame(mar_d)
+  #to get total lbs for mariculture weight of pf
+  #total_mar<-as.data.frame(mar_d)
   #total_mar<- total_mar%>%
   #  group_by(rgn_id) %>%
   #  summarize(sum_value = mean(est_harv))%>%
@@ -515,9 +514,20 @@ MAR = function(layers){
     #dplyr::mutate(score=est_harv/total_harvest)#spatial reference score
     #dplyr::ungroup()
   mar_d<-mar_d%>%
-    dplyr::group_by(rgn_id,commodity)%>%
+    dplyr::group_by(rgn_id,commodity, year)%>%
     dplyr::mutate(ref=max(est_harv))%>%
     dplyr::ungroup()
+
+  # #exploring different references
+  # mar_d_alternate <-mar_d%>%
+  #   dplyr::group_by(rgn_id,year)%>%
+  #   dplyr::mutate(ref=max(est_harv))%>%
+  #   dplyr::ungroup()
+  # mar_d_alternate<-mar_d_alternate %>%
+  #   group_by(rgn_id, year) %>%
+  #   mutate(score=est_harv/ref) %>%
+  #   arrange(rgn_id, commodity, year)
+  ####
 
   mar_d$score<-(mar_d$est_harv/mar_d$ref)
   mar_d<-mar_d %>%
