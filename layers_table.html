@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -326,126 +328,6 @@ div.tocify {
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_acid_gl2016.csv">ocean acidification</a></td>
-<td align="left">Ocean acidification pressure scaled using biological thresholds.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sst_eez_mhi2017.csv">sea surface temperature</a></td>
-<td align="left">The difference in the annual mean sea surface temperature for Hawaii eez waters compared to the 20th century mean sea surface temperature.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">NOAA: National Centers for Environmental Information (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sst_nearshore_mhi2017.csv">coral bleaching</a></td>
-<td align="left">Mean degree heating weeks (DHW) for nearshore areas (wihting 10 km of the coastlint), with coral bleaching expected after 4 DHW. Scores of 1 indicate that coral bleaching is expected or occured.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">NOAA Satelite and Information Service (n.d.)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_uv_gl2016.csv">uv radiation</a></td>
-<td align="left">The modeled UV radiation based on Erythemal UV Irradiance data provided by GES DISC.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_com_hb_mhi2017.csv">commercial fishery hi-bycatcb</a></td>
-<td align="left">The ratio of catch to bycatch for the tuna fishery (deep set longlines).</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Benaka et al. (2013)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_com_lb_mhi2017.csv">commercial fishery lo-bycatcb</a></td>
-<td align="left">The ratio of catch to bycatch for swordfish fishery (shallow set longlines).</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Benaka et al. (2013)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hd_intertidal_mhi2017.csv">proxy for intertidal habitat destruction</a></td>
-<td align="left">The coastal population density (withing 25 mi from shore) as a proxy for intertidal habitat destruction, calculated as resident population per km of shoreline and standardized by maximum regional score.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">DBEDT (2015b)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ss_spi_gl2016.csv">weakness of social progress</a></td>
-<td align="left">The inverse of the Social Progress Index scores.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ss_wgi_gl2016.csv">weakness of governance</a></td>
-<td align="left">The Inverse of World Governance Indicators (WGI) calculated as the six combined scores.</td>
-<td align="left">pressure</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
-<td align="left">NA</td>
-<td align="left">pressure resilience</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/element_wts_hab_pres_abs_mhi2017.csv">habitat weights</a></td>
-<td align="left">This is a list of habitats in each region weighted by proportion of the total area for each habitat.</td>
-<td align="left">pressure resilience</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_artisanal_gl2016.csv">artisanal fisheries management effectiveness and opportunity</a></td>
-<td align="left">The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_gl2016.csv">commercial fishing management</a></td>
-<td align="left">The estimated management effectiveness of regulations and management of commercial fishing.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/g_cites_gl2016.csv">CITES signatories</a></td>
-<td align="left">The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/need%20to%20put%20in%20local%20data%20layer%20for%20this">sector evenness as a measure of economic diversity</a></td>
-<td align="left">The Shannon’s Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/res_spi_gl2016.csv">Social Progress Index</a></td>
-<td align="left">The Social Progress Index scores.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/sp_alien_species_gl2016.csv">management of nonindigenous species</a></td>
-<td align="left">The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: invasive species related questions.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/watershed_partnerships.csv">watershed partnerships</a></td>
-<td align="left">The ratio of watershed partnerships to historic native forest extent.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/wgi_all_gl2016.csv">strength of governance</a></td>
-<td align="left">The World Governance Indicators (WGI) six combined scores.</td>
-<td align="left">resilience</td>
-<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
-<td align="left">NA</td>
-<td align="left">spatial</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_access_mhi2017.csv">access</a></td>
 <td align="left">Estimated fishery access for boat based and land based fishing based on boat ramps, shoreline access, roads, and steepness of shoreline.</td>
 <td align="left">AO</td>
@@ -542,124 +424,160 @@ div.tocify {
 <td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv">commerical coastal pelagic fisheries catch</a></td>
-<td align="left">Coastal pelagic fish catch (lbs) reported in the commercial fishery.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv">bottom fisheries commercial catch</a></td>
-<td align="left">Bottomfish catch (lbs) reported in the commercial fishery.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv">pelagic fisheries commerical catch</a></td>
-<td align="left">Pelagic fish catch (lbs) reported in the commercial fishery.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_mhi2017.csv">commercial reef fisheries catch</a></td>
-<td align="left">Reef fish catch (lbs) reported in the commercial fishery.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_multiplier_mhi2017.csv">recreational catch multiplier</a></td>
-<td align="left">A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation &amp; subsistence) catch.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">McCoy et al. (2018)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of bottomfishery</a></td>
-<td align="left">Bottomfish stock assessment.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">Brodziak et al. (2014)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of pelagic fishery</a></td>
-<td align="left">Pelagic (tuna and swordfish) stock assessments.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">WCPFC (n.d.)</span>; <span class="citation">ISC (2017)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of reef fishery</a></td>
-<td align="left">Reef fish stock assessment.</td>
-<td align="left">FIS</td>
-<td align="left"><span class="citation">Nadon (2017)</span></td>
-</tr>
-<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
 <td align="left">NA</td>
 <td align="left">FP</td>
 <td align="left"></td>
 </tr>
 <tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv">commerical coastal pelagic fisheries catch</a></td>
+<td align="left">Coastal pelagic fish catch (lbs) reported in the commercial fishery.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv">bottom fisheries commercial catch</a></td>
+<td align="left">Bottomfish catch (lbs) reported in the commercial fishery.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv">pelagic fisheries commerical catch</a></td>
+<td align="left">Pelagic fish catch (lbs) reported in the commercial fishery.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_mhi2017.csv">commercial reef fisheries catch</a></td>
+<td align="left">Reef fish catch (lbs) reported in the commercial fishery.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">DLNR DAR (n.d.)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_multiplier_mhi2017.csv">recreational catch multiplier</a></td>
+<td align="left">A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation &amp; subsistence) catch.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">McCoy et al. (2018)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of bottomfishery</a></td>
+<td align="left">Bottomfish stock assessment.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">Brodziak et al. (2014)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of pelagic fishery</a></td>
+<td align="left">Pelagic (tuna and swordfish) stock assessments.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">WCPFC (n.d.)</span>; <span class="citation">ISC (2017)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv">sustainability of reef fishery</a></td>
+<td align="left">Reef fish stock assessment.</td>
+<td align="left">FIS</td>
+<td align="left"><span class="citation">Nadon (2017)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_current_mhi2017.csv">area of active fishponds</a></td>
+<td align="left">The area of current fishponds per county.</td>
+<td align="left">MAR</td>
+<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_health_mhi2017.csv">fishpond status</a></td>
+<td align="left">Ratio of active fishponds to historical number</td>
+<td align="left">MAR</td>
+<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_numbers_mhi2017.csv">number of fishponds</a></td>
+<td align="left">The current number of fishponds.</td>
+<td align="left">MAR</td>
+<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_harvest_mhi2017.csv">mariculture yield</a></td>
+<td align="left">Production of shellfish and foodfish from mariculture facilities</td>
+<td align="left">MAR</td>
+<td align="left"><span class="citation">US DOA (2015)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_operations_census_mhi2017.csv">operations</a></td>
+<td align="left">The number of mariculture operators.</td>
+<td align="left">MAR</td>
+<td align="left"><span class="citation">USDA (n.d.)</span></td>
+</tr>
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv">soft bottom extent</a></td>
 <td align="left">Soft bottom habitat extent was derived from the cumulative impact habitat maps.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Lecky (2016)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv">reef extent</a></td>
 <td align="left">The hardbottom extent out to 80 meters modified from NOAA habitat maps.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Lecky (2016)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv">beach extent</a></td>
 <td align="left">Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">NOAA (n.d.)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_extent_mhi2017.csv">coastal wetland extent</a></td>
 <td align="left">The area of coastal wetlands (within 1 km of the coastline).</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">NOAA (n.d.)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv">soft bottom condition</a></td>
 <td align="left">The percent of softbottom habitat not impacted by dredging.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Lecky (2016)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv">beach condition</a></td>
 <td align="left">The condition of coastal habitats measured as the percent of beaches erroding per region.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Fletcher et al. (2012)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_health_mhi2017.csv">wetland condition</a></td>
 <td align="left">Wetland condition was calculated based on percent of historical extent.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Van Rees and Reed (2014)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv">soft bottom trend</a></td>
 <td align="left">Trend was not evaluated for soft bottom habitats.</td>
 <td align="left">HAB</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv">wetland trend</a></td>
 <td align="left">The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">NOAA (n.d.)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv">beach trend</a></td>
 <td align="left">The average short-term errosine rate of beaches, estimated at -0.06 m per year.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">Fletcher et al. (2012)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv">reef trend</a></td>
 <td align="left">The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</td>
 <td align="left">HAB</td>
 <td align="left"><span class="citation">McCoy et al. (2017)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_weight_mhi2017.csv">ocean sector weight</a></td>
+<td align="left">The proportion of jobs in each sector per region.</td>
+<td align="left">LE</td>
+<td align="left"><span class="citation">ENOW (2017)</span></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv">ocean and coastal revenue</a></td>
@@ -704,64 +622,124 @@ div.tocify {
 <td align="left"><span class="citation">DBEDT (n.d.)</span></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_weight_mhi2017.csv">ocean sector weight</a></td>
-<td align="left">The proportion of jobs in each sector per region.</td>
-<td align="left">LE</td>
-<td align="left"><span class="citation">ENOW (2017)</span></td>
-</tr>
-<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_1km_coast_mhi2017.csv">area within 1 km of the shore</a></td>
 <td align="left">The coastal area within 1 km of the shore.</td>
 <td align="left">LSP</td>
 <td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_area_3nm_mhi2017.csv">offshore area to 3nm</a></td>
 <td align="left">The offshore area to 3nm.</td>
 <td align="left">LSP</td>
 <td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_coastal_conservation_mhi2017.csv">coastal conservation districts</a></td>
 <td align="left">The conservation district type and area within 1km of the coastline.</td>
 <td align="left">LSP</td>
 <td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/lsp_mma_mhi2017.csv">marine managed areas</a></td>
 <td align="left">The offshore areas protected to 3nm, including CBSFA, FRA, BFA, and MPA classifications.</td>
 <td align="left">LSP</td>
 <td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
 </tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_fish_mhi2017.csv">fish indicator</a></td>
+<td align="left">The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).</td>
+<td align="left">SPP</td>
+<td align="left"><span class="citation">Williams (2017)</span></td>
+</tr>
 <tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_current_mhi2017.csv">area of active fishponds</a></td>
-<td align="left">The area of current fishponds per county.</td>
-<td align="left">MAR</td>
-<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA coastal plant status</a></td>
+<td align="left">The list of Hawaii coastal plant species and status of coastal sand-dune plants scored based on ESA status.</td>
+<td align="left">SPP</td>
+<td align="left"><span class="citation">Merlin (1999)</span>; <span class="citation">US Fish and Wildlife Service (n.d.)</span></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_health_mhi2017.csv">fishpond status</a></td>
-<td align="left">Ratio of active fishponds to historical number</td>
-<td align="left">MAR</td>
-<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA marine mammal status</a></td>
+<td align="left">The list of marine mammals found in Hawaii and status of marine mammals scored based on ESA status.</td>
+<td align="left">SPP</td>
+<td align="left"><span class="citation">NOAA Fisheries (n.d.)</span>; <span class="citation">Costa and Kendall (2016)</span></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_numbers_mhi2017.csv">number of fishponds</a></td>
-<td align="left">The current number of fishponds.</td>
-<td align="left">MAR</td>
-<td align="left"><span class="citation">Ogden Environmental Services (1994)</span></td>
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA seabird and coastal bird status</a></td>
+<td align="left">The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.</td>
+<td align="left">SPP</td>
+<td align="left"><span class="citation">Rosenberg et al. (2010)</span>; <span class="citation">US Fish and Wildlife Service (n.d.)</span></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_harvest_mhi2017.csv">mariculture yield</a></td>
-<td align="left">Production of shellfish and foodfish from mariculture facilities</td>
-<td align="left">MAR</td>
-<td align="left"><span class="citation">US DOA (2015)</span></td>
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_env_sus_mhi2017.csv">environmental protection</a></td>
+<td align="left">The percent of nearhsore areas priority watersheds protected in reference to Hawaii Stanability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.</td>
+<td align="left">TR</td>
+<td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_operations_census_mhi2017.csv">operations</a></td>
-<td align="left">The number of mariculture operators.</td>
-<td align="left">MAR</td>
-<td align="left"><span class="citation">USDA (n.d.)</span></td>
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_growth_mhi2017.csv">visitor contributed GDP</a></td>
+<td align="left">Visitor generated GDP with a target set by the Hawaii Tourism Authority of 2.5% annual growth.</td>
+<td align="left">TR</td>
+<td align="left"><span class="citation">HTA (n.d.)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_sentiment_mhi2017.csv">resident sentiment</a></td>
+<td align="left">The Hawaii Tourism Authority’s survey on resident sentiment to tourism.</td>
+<td align="left">TR</td>
+<td align="left"><span class="citation">HTA (2017)</span>; <span class="citation">HTA (n.d.)</span> evaluation and performance measures</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_acid_gl2016.csv">ocean acidification</a></td>
+<td align="left">Ocean acidification pressure scaled using biological thresholds.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sst_eez_mhi2017.csv">sea surface temperature</a></td>
+<td align="left">The difference in the annual mean sea surface temperature for Hawaii eez waters compared to the 20th century mean sea surface temperature.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">NOAA: National Centers for Environmental Information (n.d.)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sst_nearshore_mhi2017.csv">coral bleaching</a></td>
+<td align="left">Mean degree heating weeks (DHW) for nearshore areas (wihting 10 km of the coastlint), with coral bleaching expected after 4 DHW. Scores of 1 indicate that coral bleaching is expected or occured.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">NOAA Satelite and Information Service (n.d.)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_uv_gl2016.csv">uv radiation</a></td>
+<td align="left">The modeled UV radiation based on Erythemal UV Irradiance data provided by GES DISC.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_com_hb_mhi2017.csv">commercial fishery hi-bycatcb</a></td>
+<td align="left">The ratio of catch to bycatch for the tuna fishery (deep set longlines).</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Benaka et al. (2013)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_com_lb_mhi2017.csv">commercial fishery lo-bycatcb</a></td>
+<td align="left">The ratio of catch to bycatch for swordfish fishery (shallow set longlines).</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Benaka et al. (2013)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hd_intertidal_mhi2017.csv">proxy for intertidal habitat destruction</a></td>
+<td align="left">The coastal population density (withing 25 mi from shore) as a proxy for intertidal habitat destruction, calculated as resident population per km of shoreline and standardized by maximum regional score.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">DBEDT (2015b)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ss_spi_gl2016.csv">weakness of social progress</a></td>
+<td align="left">The inverse of the Social Progress Index scores.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ss_wgi_gl2016.csv">weakness of governance</a></td>
+<td align="left">The Inverse of World Governance Indicators (WGI) calculated as the six combined scores.</td>
+<td align="left">pressure</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sealevel_mhi2017.csv">sea level rise</a></td>
@@ -914,6 +892,66 @@ div.tocify {
 <td align="left"><span class="citation">HTA (2015)</span></td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
+<td align="left">NA</td>
+<td align="left">pressure resilience</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/element_wts_hab_pres_abs_mhi2017.csv">habitat weights</a></td>
+<td align="left">This is a list of habitats in each region weighted by proportion of the total area for each habitat.</td>
+<td align="left">pressure resilience</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_artisanal_gl2016.csv">artisanal fisheries management effectiveness and opportunity</a></td>
+<td align="left">The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_gl2016.csv">commercial fishing management</a></td>
+<td align="left">The estimated management effectiveness of regulations and management of commercial fishing.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/g_cites_gl2016.csv">CITES signatories</a></td>
+<td align="left">The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/need%20to%20put%20in%20local%20data%20layer%20for%20this">sector evenness as a measure of economic diversity</a></td>
+<td align="left">The Shannon’s Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/res_spi_gl2016.csv">Social Progress Index</a></td>
+<td align="left">The Social Progress Index scores.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/sp_alien_species_gl2016.csv">management of nonindigenous species</a></td>
+<td align="left">The survey responses by country to the Convention on Biologicial Diversity (CBD) Third National Report: invasive species related questions.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/watershed_partnerships.csv">watershed partnerships</a></td>
+<td align="left">The ratio of watershed partnerships to historic native forest extent.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/wgi_all_gl2016.csv">strength of governance</a></td>
+<td align="left">The World Governance Indicators (WGI) six combined scores.</td>
+<td align="left">resilience</td>
+<td align="left"><span class="citation">Halpern et al. (2008)</span></td>
+</tr>
+<tr class="odd">
 <td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_MPA_3nm_mhi2017.csv">coastal MPAs fisheries resilience</a></td>
 <td align="left">The ratio of management areas to total coastal area within 3nm.</td>
 <td align="left">resilience</td>
@@ -966,66 +1004,6 @@ div.tocify {
 <td align="left">The percent of visitors that report having an excellent experience.</td>
 <td align="left">resilience</td>
 <td align="left"><span class="citation">DBEDT (2015a)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
-<td align="left">NA</td>
-<td align="left">spatial</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
-<td align="left">NA</td>
-<td align="left">spatial</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA">NA</a></td>
-<td align="left">NA</td>
-<td align="left">spatial</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_fish_mhi2017.csv">fish indicator</a></td>
-<td align="left">The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).</td>
-<td align="left">SPP</td>
-<td align="left"><span class="citation">Williams (2017)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA coastal plant status</a></td>
-<td align="left">The list of Hawaii coastal plant species and status of coastal sand-dune plants scored based on ESA status.</td>
-<td align="left">SPP</td>
-<td align="left"><span class="citation">Merlin (1999)</span>; <span class="citation">US Fish and Wildlife Service (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA marine mammal status</a></td>
-<td align="left">The list of marine mammals found in Hawaii and status of marine mammals scored based on ESA status.</td>
-<td align="left">SPP</td>
-<td align="left"><span class="citation">NOAA Fisheries (n.d.)</span>; <span class="citation">Costa and Kendall (2016)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/spp_status_mhi_mhi2017.csv">ESA seabird and coastal bird status</a></td>
-<td align="left">The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.</td>
-<td align="left">SPP</td>
-<td align="left"><span class="citation">Rosenberg et al. (2010)</span>; <span class="citation">US Fish and Wildlife Service (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_env_sus_mhi2017.csv">environmental protection</a></td>
-<td align="left">The percent of nearhsore areas priority watersheds protected in reference to Hawaii Stanability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.</td>
-<td align="left">TR</td>
-<td align="left"><span class="citation">Office of Planning (n.d.)</span></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_growth_mhi2017.csv">visitor contributed GDP</a></td>
-<td align="left">Visitor generated GDP with a target set by the Hawaii Tourism Authority of 2.5% annual growth.</td>
-<td align="left">TR</td>
-<td align="left"><span class="citation">HTA (n.d.)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_sentiment_mhi2017.csv">resident sentiment</a></td>
-<td align="left">The Hawaii Tourism Authority’s survey on resident sentiment to tourism.</td>
-<td align="left">TR</td>
-<td align="left"><span class="citation">HTA (2017)</span>; <span class="citation">HTA (n.d.)</span> evaluation and performance measures</td>
 </tr>
 </tbody>
 </table>

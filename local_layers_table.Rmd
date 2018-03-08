@@ -1,8 +1,5 @@
 ---
 bibliography: OHI_Hawaii.bib
-output:
-  word_document: default
-  html_document: default
 ---
 
 ## Layers Table
@@ -21,11 +18,6 @@ source(
   "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
 
 
-
-# ## separate multiple refs
-# layers_join <- layers_join %>%
-#   tidyr::separate(reference, ";")
-
 layers_join_kable <- layers_join %>%
   mutate(Layer = sprintf("[%s](%s/%s)", name, dir_layers_gh, filename_prep),
          Reference = if_else(!is.na(bib2), 
@@ -37,8 +29,29 @@ layers_join_kable <- layers_join %>%
          Targets = targets, 
          Reference)
 
-##TODO EVA
-##update bib column, refs, descriptions of data_layers.csv
+## clean up Targets column 
+targets_order <-  c("AO", "CON", "CP", "FP", "FIS", "MAR", "HAB", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "pressure resilience", "resilience")
+ ## NOTE TO EVA: 
+ ## SP is missing from this list. And FP has no entries, and LE just has a weighting layer. Should we exclude all 'supragoals': FP, LE, SP? Here's a peek at FP and LE: 
+
+
+#  layers_join_kable %>% filter(Targets == "FP")
+#                                                                       Layer Description Targets
+#                                                                       <chr>       <chr>   <chr>
+# 1 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA)        <NA>      FP
+
+# > layers_join_kable %>% filter(Targets == "LE")
+#  Layer
+#                                                                                                 <chr>
+# 1 [ocean sector weight](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_we
+# # ... with 3 more variables: Description <chr>, Targets <chr>, Reference <chr>
+ 
+## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
+layers_join_kable <- layers_join_kable %>%
+  filter(Targets != "spatial") %>%
+  mutate(Targets =  factor(Targets, levels = targets_order)) %>%
+  arrange(Targets)    
+
 
 knitr::kable(layers_join_kable)
 readr::write_csv(layers_join_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
