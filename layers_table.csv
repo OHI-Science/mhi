@@ -15,7 +15,6 @@ Layer,Description,Targets,Reference
 [beach trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),"The average short-term errosine rate of beaches, estimated at -0.06 m per year.",CP,@Fletcher2012a
 [reef trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,CP,@McCoy2017
 [fishpond trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cp_hab_trend_mhi2017.csv),No trend data is available for this layer,CP,@OgdenEnvironmentalServices1994
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,FP,
 [commerical coastal pelagic fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv),Coastal pelagic fish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
 [bottom fisheries commercial catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv),Bottomfish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
 [pelagic fisheries commerical catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv),Pelagic fish catch (lbs) reported in the commercial fishery.,FIS,@DLNRDAR
@@ -40,7 +39,6 @@ Layer,Description,Targets,Reference
 [wetland trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.,HAB,@NOAA
 [beach trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),"The average short-term errosine rate of beaches, estimated at -0.06 m per year.",HAB,@Fletcher2012a
 [reef trend](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hab_trend_mhi2017.csv),The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.,HAB,@McCoy2017
-[ocean sector weight](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_weight_mhi2017.csv),The proportion of jobs in each sector per region.,LE,@ENOW2017
 [ocean and coastal revenue](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_gdp_mhi2017.csv),The revenue generated per ocean sector for each county.,ECO,@ENOW2017
 [ocean and coastal jobs](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_jobs_mhi2017.csv),The total number of jobs per ocean sector for each county.,LIV,@ENOW2017
 [resident population](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_pop_mhi2017.csv),The number of residents per county.,LIV,@DBEDT2015a
@@ -93,8 +91,6 @@ Layer,Description,Targets,Reference
 [visitors participating in swimming](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_swimming_mhi2017.csv),The number of visitors per km of coastline that swim and go to the beach per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
 [visitors participating in thrill craft](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_thrill_craft_mhi2017.csv),The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
 [visitors participating in whale watching](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/t_whale_watching_mhi2017.csv),The number of visitors per km of coastline that whale watch per county standardized to the regional maximum which occurs on Oahu.,pressure,@HTA2015
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,pressure resilience,
-[habitat weights](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/element_wts_hab_pres_abs_mhi2017.csv),This is a list of habitats in each region weighted by proportion of the total area for each habitat.,pressure resilience,
 [artisanal fisheries management effectiveness and opportunity](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_artisanal_gl2016.csv),The opportunity for artisanal and recreational fishing based on the quality of management of the small-scale fishing sector.,resilience,@Halpern2008
 [commercial fishing management](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_mora_gl2016.csv),The estimated management effectiveness of regulations and management of commercial fishing.,resilience,@Halpern2008
 [CITES signatories](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/g_cites_gl2016.csv),The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.,resilience,@Halpern2008

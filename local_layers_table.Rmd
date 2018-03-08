@@ -30,25 +30,14 @@ layers_join_kable <- layers_join %>%
          Reference)
 
 ## clean up Targets column 
-targets_order <-  c("AO", "CON", "CP", "FP", "FIS", "MAR", "HAB", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "pressure resilience", "resilience")
- ## NOTE TO EVA: 
- ## SP is missing from this list. And FP has no entries, and LE just has a weighting layer. Should we exclude all 'supragoals': FP, LE, SP? Here's a peek at FP and LE: 
-
-
-#  layers_join_kable %>% filter(Targets == "FP")
-#                                                                       Layer Description Targets
-#                                                                       <chr>       <chr>   <chr>
-# 1 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA)        <NA>      FP
-
-# > layers_join_kable %>% filter(Targets == "LE")
-#  Layer
-#                                                                                                 <chr>
-# 1 [ocean sector weight](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/le_sector_we
-# # ... with 3 more variables: Description <chr>, Targets <chr>, Reference <chr>
+targets_order <-  c("AO", "CON", "CP", "FP", "FIS", "MAR", "HAB", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "resilience")
  
 ## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
 layers_join_kable <- layers_join_kable %>%
-  filter(Targets != "spatial") %>%
+  filter(Targets != "spatial",
+         Targets != "pressure resilience",
+         Targets != "LE",
+         Targets != "FP",) %>%
   mutate(Targets =  factor(Targets, levels = targets_order)) %>%
   arrange(Targets)    
 
