@@ -723,15 +723,15 @@ output:
 ``` 
 
  
-# forest/watershed health 
-####[forest_health](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/forest_health_mhi2017.csv) {-} 
+# forest health 
+####[hd_allien_veg](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hd_allien_veg_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/forest_health.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hd_allien_veg.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1864,90 +1864,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ss_spi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland condition 
-####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_health_mhi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland trend 
-####[cp_hab_trend](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_trend.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_trend_mhi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland trend 
-####[cp_hab_trend](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
-####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_trend.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_trend_mhi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# workforce 
-####[le_wkforce](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_wkforce_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/le_wkforce.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
