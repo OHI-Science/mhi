@@ -1,0 +1,28 @@
+### Goal Description
+
+<!---From Eva:
+
+This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. 
+--->
+
+This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas.  A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safegaurd coastlines.
+
+### Model 
+
+The model is based on the health of the habitats that provide shoreline protection. Habitats that are included and provide substantial coastal protection are: beaches, coral reefs, and wetlands.
+
+
+### Reference points 
+Coral Reefs
+
+Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
+The coral reef health index comes from the NOAA Hawai'i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+
+Beaches
+
+Beach erosion is expected to increase with climate change and sea level rise, reducing coastal protection ability of beaches in Hawai'i.Beach condition was measured as the percent of beaches remaining stable (not eroding). The beach trend is the long term erosion rate (past century) calculated from Fletcher et al. 2012.
+
+Wetlands
+
+Wetland condition was measured as the percent loss of historical coastal wetlands (Van Rees and Reed 2014). Wetland extent was assessed from National Oceanic and Atmospheric Administration Coastal Change Analysis Program (NOAA C-CAP) data clipped to within 1 km inland from the coast to capture coastal wetlands extent. All estuary categories were included in this assessment that were within 1km of the coastline as these habitats within 1km of the shoreline will mitigate against flooding and wave inundation. NOAA C-CAP surveys are repeated every 5 years to measure changes in land cover. The trend in coastal wetlands was assessed as the difference in coastal wetland extend from 1992 to 2011.
+

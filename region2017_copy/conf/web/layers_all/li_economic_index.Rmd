@@ -1,0 +1,5 @@
+The State New Economy Index uses 25 indicators to measure the extent to which state economies are knowledge-based, globalized, entrepreneurial, IT-driven, and innovation-oriented.
+
+#### Reference
+
+[Information Technology & Innovation Foundation](https://itif.org/publications/2014/06/11/2014-state-new-economy-index)

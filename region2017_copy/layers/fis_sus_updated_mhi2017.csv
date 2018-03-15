@@ -1,0 +1,953 @@
+rgn_id,year,key_sp,score
+1,2012,Acan_Kala,0.47
+1,2012,Acan_Kala,0.1
+1,2013,Acan_Kala,0.47
+1,2013,Acan_Kala,0.1
+1,2014,Acan_Kala,0.47
+1,2014,Acan_Kala,0.1
+1,2015,Acan_Kala,0.47
+1,2015,Acan_Kala,0.1
+1,2016,Acan_Kala,0.47
+1,2016,Acan_Kala,0.1
+2,2012,Acan_Kala,0.47
+2,2012,Acan_Kala,0.1
+2,2013,Acan_Kala,0.47
+2,2013,Acan_Kala,0.1
+2,2014,Acan_Kala,0.47
+2,2014,Acan_Kala,0.1
+2,2015,Acan_Kala,0.47
+2,2015,Acan_Kala,0.1
+2,2016,Acan_Kala,0.47
+2,2016,Acan_Kala,0.1
+3,2012,Acan_Kala,0.47
+3,2012,Acan_Kala,0.1
+3,2013,Acan_Kala,0.47
+3,2013,Acan_Kala,0.1
+3,2014,Acan_Kala,0.47
+3,2014,Acan_Kala,0.1
+3,2015,Acan_Kala,0.47
+3,2015,Acan_Kala,0.1
+3,2016,Acan_Kala,0.47
+3,2016,Acan_Kala,0.1
+4,2012,Acan_Kala,0.47
+4,2012,Acan_Kala,0.1
+4,2013,Acan_Kala,0.47
+4,2013,Acan_Kala,0.1
+4,2014,Acan_Kala,0.47
+4,2014,Acan_Kala,0.1
+4,2015,Acan_Kala,0.47
+4,2015,Acan_Kala,0.1
+4,2016,Acan_Kala,0.47
+4,2016,Acan_Kala,0.1
+1,2012,Acan_Opelu kala,0.43
+1,2013,Acan_Opelu kala,0.43
+1,2014,Acan_Opelu kala,0.43
+1,2015,Acan_Opelu kala,0.43
+1,2016,Acan_Opelu kala,0.43
+2,2012,Acan_Opelu kala,0.43
+2,2013,Acan_Opelu kala,0.43
+2,2014,Acan_Opelu kala,0.43
+2,2015,Acan_Opelu kala,0.43
+2,2016,Acan_Opelu kala,0.43
+3,2012,Acan_Opelu kala,0.43
+3,2013,Acan_Opelu kala,0.43
+3,2014,Acan_Opelu kala,0.43
+3,2015,Acan_Opelu kala,0.43
+3,2016,Acan_Opelu kala,0.43
+4,2012,Acan_Opelu kala,0.43
+4,2013,Acan_Opelu kala,0.43
+4,2014,Acan_Opelu kala,0.43
+4,2015,Acan_Opelu kala,0.43
+4,2016,Acan_Opelu kala,0.43
+1,2012,Acan_Palani,1.2
+1,2013,Acan_Palani,1.2
+1,2014,Acan_Palani,1.2
+1,2015,Acan_Palani,1.2
+1,2016,Acan_Palani,1.2
+2,2012,Acan_Palani,1.2
+2,2013,Acan_Palani,1.2
+2,2014,Acan_Palani,1.2
+2,2015,Acan_Palani,1.2
+2,2016,Acan_Palani,1.2
+3,2012,Acan_Palani,1.2
+3,2013,Acan_Palani,1.2
+3,2014,Acan_Palani,1.2
+3,2015,Acan_Palani,1.2
+3,2016,Acan_Palani,1.2
+4,2012,Acan_Palani,1.2
+4,2013,Acan_Palani,1.2
+4,2014,Acan_Palani,1.2
+4,2015,Acan_Palani,1.2
+4,2016,Acan_Palani,1.2
+1,2012,Acan_Pualu,0.4
+1,2013,Acan_Pualu,0.4
+1,2014,Acan_Pualu,0.4
+1,2015,Acan_Pualu,0.4
+1,2016,Acan_Pualu,0.4
+2,2012,Acan_Pualu,0.4
+2,2013,Acan_Pualu,0.4
+2,2014,Acan_Pualu,0.4
+2,2015,Acan_Pualu,0.4
+2,2016,Acan_Pualu,0.4
+3,2012,Acan_Pualu,0.4
+3,2013,Acan_Pualu,0.4
+3,2014,Acan_Pualu,0.4
+3,2015,Acan_Pualu,0.4
+3,2016,Acan_Pualu,0.4
+4,2012,Acan_Pualu,0.4
+4,2013,Acan_Pualu,0.4
+4,2014,Acan_Pualu,0.4
+4,2015,Acan_Pualu,0.4
+4,2016,Acan_Pualu,0.4
+1,2012,Acan_Umaumalei,0.83
+1,2013,Acan_Umaumalei,0.83
+1,2014,Acan_Umaumalei,0.83
+1,2015,Acan_Umaumalei,0.83
+1,2016,Acan_Umaumalei,0.83
+2,2012,Acan_Umaumalei,0.83
+2,2013,Acan_Umaumalei,0.83
+2,2014,Acan_Umaumalei,0.83
+2,2015,Acan_Umaumalei,0.83
+2,2016,Acan_Umaumalei,0.83
+3,2012,Acan_Umaumalei,0.83
+3,2013,Acan_Umaumalei,0.83
+3,2014,Acan_Umaumalei,0.83
+3,2015,Acan_Umaumalei,0.83
+3,2016,Acan_Umaumalei,0.83
+4,2012,Acan_Umaumalei,0.83
+4,2013,Acan_Umaumalei,0.83
+4,2014,Acan_Umaumalei,0.83
+4,2015,Acan_Umaumalei,0.83
+4,2016,Acan_Umaumalei,0.83
+1,2012,Holo_Menpachi,1.97
+1,2013,Holo_Menpachi,1.97
+1,2014,Holo_Menpachi,1.97
+1,2015,Holo_Menpachi,1.97
+1,2016,Holo_Menpachi,1.97
+2,2012,Holo_Menpachi,1.97
+2,2013,Holo_Menpachi,1.97
+2,2014,Holo_Menpachi,1.97
+2,2015,Holo_Menpachi,1.97
+2,2016,Holo_Menpachi,1.97
+3,2012,Holo_Menpachi,1.97
+3,2013,Holo_Menpachi,1.97
+3,2014,Holo_Menpachi,1.97
+3,2015,Holo_Menpachi,1.97
+3,2016,Holo_Menpachi,1.97
+4,2012,Holo_Menpachi,1.97
+4,2013,Holo_Menpachi,1.97
+4,2014,Holo_Menpachi,1.97
+4,2015,Holo_Menpachi,1.97
+4,2016,Holo_Menpachi,1.97
+1,2010,Isti_Blue marlin,1.13
+1,2011,Isti_Blue marlin,1.17
+1,2012,Isti_Blue marlin,1.18
+1,2013,Isti_Blue marlin,1.25
+1,2014,Isti_Blue marlin,1.25
+1,2015,Isti_Blue marlin,1.263
+1,2016,Isti_Blue marlin,1.283
+2,2010,Isti_Blue marlin,1.13
+2,2011,Isti_Blue marlin,1.17
+2,2012,Isti_Blue marlin,1.18
+2,2013,Isti_Blue marlin,1.25
+2,2014,Isti_Blue marlin,1.25
+2,2015,Isti_Blue marlin,1.263
+2,2016,Isti_Blue marlin,1.283
+3,2010,Isti_Blue marlin,1.13
+3,2011,Isti_Blue marlin,1.17
+3,2012,Isti_Blue marlin,1.18
+3,2013,Isti_Blue marlin,1.25
+3,2014,Isti_Blue marlin,1.25
+3,2015,Isti_Blue marlin,1.263
+3,2016,Isti_Blue marlin,1.283
+4,2010,Isti_Blue marlin,1.13
+4,2011,Isti_Blue marlin,1.17
+4,2012,Isti_Blue marlin,1.18
+4,2013,Isti_Blue marlin,1.25
+4,2014,Isti_Blue marlin,1.25
+4,2015,Isti_Blue marlin,1.263
+4,2016,Isti_Blue marlin,1.283
+1,2010,Isti_Striped marlin,0.35
+1,2011,Isti_Striped marlin,0.31
+1,2012,Isti_Striped marlin,0.36
+1,2013,Isti_Striped marlin,0.39
+1,2014,Isti_Striped marlin,0.36
+1,2015,Isti_Striped marlin,0.36
+1,2016,Isti_Striped marlin,0.36
+2,2010,Isti_Striped marlin,0.35
+2,2011,Isti_Striped marlin,0.31
+2,2012,Isti_Striped marlin,0.36
+2,2013,Isti_Striped marlin,0.39
+2,2014,Isti_Striped marlin,0.36
+2,2015,Isti_Striped marlin,0.36
+2,2016,Isti_Striped marlin,0.36
+3,2010,Isti_Striped marlin,0.35
+3,2011,Isti_Striped marlin,0.31
+3,2012,Isti_Striped marlin,0.36
+3,2013,Isti_Striped marlin,0.39
+3,2014,Isti_Striped marlin,0.36
+3,2015,Isti_Striped marlin,0.36
+3,2016,Isti_Striped marlin,0.36
+4,2010,Isti_Striped marlin,0.35
+4,2011,Isti_Striped marlin,0.31
+4,2012,Isti_Striped marlin,0.36
+4,2013,Isti_Striped marlin,0.39
+4,2014,Isti_Striped marlin,0.36
+4,2015,Isti_Striped marlin,0.36
+4,2016,Isti_Striped marlin,0.36
+1,2012,Leth_Mu,1.27
+1,2013,Leth_Mu,1.27
+1,2014,Leth_Mu,1.27
+1,2015,Leth_Mu,1.27
+1,2016,Leth_Mu,1.27
+2,2012,Leth_Mu,1.27
+2,2013,Leth_Mu,1.27
+2,2014,Leth_Mu,1.27
+2,2015,Leth_Mu,1.27
+2,2016,Leth_Mu,1.27
+3,2012,Leth_Mu,1.27
+3,2013,Leth_Mu,1.27
+3,2014,Leth_Mu,1.27
+3,2015,Leth_Mu,1.27
+3,2016,Leth_Mu,1.27
+4,2012,Leth_Mu,1.27
+4,2013,Leth_Mu,1.27
+4,2014,Leth_Mu,1.27
+4,2015,Leth_Mu,1.27
+4,2016,Leth_Mu,1.27
+1,2010,Lutj_Ehu,0.84
+1,2011,Lutj_Ehu,0.85
+1,2012,Lutj_Ehu,0.85
+1,2013,Lutj_Ehu,0.86
+1,2014,Lutj_Ehu,0.83
+1,2015,Lutj_Ehu,0.83
+1,2016,Lutj_Ehu,0.83
+2,2010,Lutj_Ehu,0.84
+2,2011,Lutj_Ehu,0.85
+2,2012,Lutj_Ehu,0.85
+2,2013,Lutj_Ehu,0.86
+2,2014,Lutj_Ehu,0.83
+2,2015,Lutj_Ehu,0.83
+2,2016,Lutj_Ehu,0.83
+3,2010,Lutj_Ehu,0.84
+3,2011,Lutj_Ehu,0.85
+3,2012,Lutj_Ehu,0.85
+3,2013,Lutj_Ehu,0.86
+3,2014,Lutj_Ehu,0.83
+3,2015,Lutj_Ehu,0.83
+3,2016,Lutj_Ehu,0.83
+4,2010,Lutj_Ehu,0.84
+4,2011,Lutj_Ehu,0.85
+4,2012,Lutj_Ehu,0.85
+4,2013,Lutj_Ehu,0.86
+4,2014,Lutj_Ehu,0.83
+4,2015,Lutj_Ehu,0.83
+4,2016,Lutj_Ehu,0.83
+1,2010,Lutj_Gindai,0.84
+1,2011,Lutj_Gindai,0.85
+1,2012,Lutj_Gindai,0.85
+1,2013,Lutj_Gindai,0.86
+1,2014,Lutj_Gindai,0.83
+1,2015,Lutj_Gindai,0.83
+1,2016,Lutj_Gindai,0.83
+2,2010,Lutj_Gindai,0.84
+2,2011,Lutj_Gindai,0.85
+2,2012,Lutj_Gindai,0.85
+2,2013,Lutj_Gindai,0.86
+2,2014,Lutj_Gindai,0.83
+2,2015,Lutj_Gindai,0.83
+2,2016,Lutj_Gindai,0.83
+3,2010,Lutj_Gindai,0.84
+3,2011,Lutj_Gindai,0.85
+3,2012,Lutj_Gindai,0.85
+3,2013,Lutj_Gindai,0.86
+3,2014,Lutj_Gindai,0.83
+3,2015,Lutj_Gindai,0.83
+3,2016,Lutj_Gindai,0.83
+4,2010,Lutj_Gindai,0.84
+4,2011,Lutj_Gindai,0.85
+4,2012,Lutj_Gindai,0.85
+4,2013,Lutj_Gindai,0.86
+4,2014,Lutj_Gindai,0.83
+4,2015,Lutj_Gindai,0.83
+4,2016,Lutj_Gindai,0.83
+1,2010,Lutj_Kalekale,0.84
+1,2011,Lutj_Kalekale,0.85
+1,2012,Lutj_Kalekale,0.85
+1,2013,Lutj_Kalekale,0.86
+1,2014,Lutj_Kalekale,0.83
+1,2015,Lutj_Kalekale,0.83
+1,2016,Lutj_Kalekale,0.83
+2,2010,Lutj_Kalekale,0.84
+2,2011,Lutj_Kalekale,0.85
+2,2012,Lutj_Kalekale,0.85
+2,2013,Lutj_Kalekale,0.86
+2,2014,Lutj_Kalekale,0.83
+2,2015,Lutj_Kalekale,0.83
+2,2016,Lutj_Kalekale,0.83
+3,2010,Lutj_Kalekale,0.84
+3,2011,Lutj_Kalekale,0.85
+3,2012,Lutj_Kalekale,0.85
+3,2013,Lutj_Kalekale,0.86
+3,2014,Lutj_Kalekale,0.83
+3,2015,Lutj_Kalekale,0.83
+3,2016,Lutj_Kalekale,0.83
+4,2010,Lutj_Kalekale,0.84
+4,2011,Lutj_Kalekale,0.85
+4,2012,Lutj_Kalekale,0.85
+4,2013,Lutj_Kalekale,0.86
+4,2014,Lutj_Kalekale,0.83
+4,2015,Lutj_Kalekale,0.83
+4,2016,Lutj_Kalekale,0.83
+1,2010,Lutj_Lehi,0.84
+1,2011,Lutj_Lehi,0.85
+1,2012,Lutj_Lehi,0.85
+1,2013,Lutj_Lehi,0.86
+1,2014,Lutj_Lehi,0.83
+1,2015,Lutj_Lehi,0.83
+1,2016,Lutj_Lehi,0.83
+2,2010,Lutj_Lehi,0.84
+2,2011,Lutj_Lehi,0.85
+2,2012,Lutj_Lehi,0.85
+2,2013,Lutj_Lehi,0.86
+2,2014,Lutj_Lehi,0.83
+2,2015,Lutj_Lehi,0.83
+2,2016,Lutj_Lehi,0.83
+3,2010,Lutj_Lehi,0.84
+3,2011,Lutj_Lehi,0.85
+3,2012,Lutj_Lehi,0.85
+3,2013,Lutj_Lehi,0.86
+3,2014,Lutj_Lehi,0.83
+3,2015,Lutj_Lehi,0.83
+3,2016,Lutj_Lehi,0.83
+4,2010,Lutj_Lehi,0.84
+4,2011,Lutj_Lehi,0.85
+4,2012,Lutj_Lehi,0.85
+4,2013,Lutj_Lehi,0.86
+4,2014,Lutj_Lehi,0.83
+4,2015,Lutj_Lehi,0.83
+4,2016,Lutj_Lehi,0.83
+1,2010,Lutj_Onaga,0.84
+1,2011,Lutj_Onaga,0.85
+1,2012,Lutj_Onaga,0.85
+1,2013,Lutj_Onaga,0.86
+1,2014,Lutj_Onaga,0.83
+1,2015,Lutj_Onaga,0.83
+1,2016,Lutj_Onaga,0.83
+2,2010,Lutj_Onaga,0.84
+2,2011,Lutj_Onaga,0.85
+2,2012,Lutj_Onaga,0.85
+2,2013,Lutj_Onaga,0.86
+2,2014,Lutj_Onaga,0.83
+2,2015,Lutj_Onaga,0.83
+2,2016,Lutj_Onaga,0.83
+3,2010,Lutj_Onaga,0.84
+3,2011,Lutj_Onaga,0.85
+3,2012,Lutj_Onaga,0.85
+3,2013,Lutj_Onaga,0.86
+3,2014,Lutj_Onaga,0.83
+3,2015,Lutj_Onaga,0.83
+3,2016,Lutj_Onaga,0.83
+4,2010,Lutj_Onaga,0.84
+4,2011,Lutj_Onaga,0.85
+4,2012,Lutj_Onaga,0.85
+4,2013,Lutj_Onaga,0.86
+4,2014,Lutj_Onaga,0.83
+4,2015,Lutj_Onaga,0.83
+4,2016,Lutj_Onaga,0.83
+1,2010,Lutj_Opakapaka,0.84
+1,2011,Lutj_Opakapaka,0.85
+1,2012,Lutj_Opakapaka,0.85
+1,2013,Lutj_Opakapaka,0.86
+1,2014,Lutj_Opakapaka,0.83
+1,2015,Lutj_Opakapaka,0.83
+1,2016,Lutj_Opakapaka,0.83
+2,2010,Lutj_Opakapaka,0.84
+2,2011,Lutj_Opakapaka,0.85
+2,2012,Lutj_Opakapaka,0.85
+2,2013,Lutj_Opakapaka,0.86
+2,2014,Lutj_Opakapaka,0.83
+2,2015,Lutj_Opakapaka,0.83
+2,2016,Lutj_Opakapaka,0.83
+3,2010,Lutj_Opakapaka,0.84
+3,2011,Lutj_Opakapaka,0.85
+3,2012,Lutj_Opakapaka,0.85
+3,2013,Lutj_Opakapaka,0.86
+3,2014,Lutj_Opakapaka,0.83
+3,2015,Lutj_Opakapaka,0.83
+3,2016,Lutj_Opakapaka,0.83
+4,2010,Lutj_Opakapaka,0.84
+4,2011,Lutj_Opakapaka,0.85
+4,2012,Lutj_Opakapaka,0.85
+4,2013,Lutj_Opakapaka,0.86
+4,2014,Lutj_Opakapaka,0.83
+4,2015,Lutj_Opakapaka,0.83
+4,2016,Lutj_Opakapaka,0.83
+1,2012,Lutj_Taape,2.07
+1,2013,Lutj_Taape,2.07
+1,2014,Lutj_Taape,2.07
+1,2015,Lutj_Taape,2.07
+1,2016,Lutj_Taape,2.07
+2,2012,Lutj_Taape,2.07
+2,2013,Lutj_Taape,2.07
+2,2014,Lutj_Taape,2.07
+2,2015,Lutj_Taape,2.07
+2,2016,Lutj_Taape,2.07
+3,2012,Lutj_Taape,2.07
+3,2013,Lutj_Taape,2.07
+3,2014,Lutj_Taape,2.07
+3,2015,Lutj_Taape,2.07
+3,2016,Lutj_Taape,2.07
+4,2012,Lutj_Taape,2.07
+4,2013,Lutj_Taape,2.07
+4,2014,Lutj_Taape,2.07
+4,2015,Lutj_Taape,2.07
+4,2016,Lutj_Taape,2.07
+1,2012,Lutj_Toau,1.1
+1,2013,Lutj_Toau,1.1
+1,2014,Lutj_Toau,1.1
+1,2015,Lutj_Toau,1.1
+1,2016,Lutj_Toau,1.1
+2,2012,Lutj_Toau,1.1
+2,2013,Lutj_Toau,1.1
+2,2014,Lutj_Toau,1.1
+2,2015,Lutj_Toau,1.1
+2,2016,Lutj_Toau,1.1
+3,2012,Lutj_Toau,1.1
+3,2013,Lutj_Toau,1.1
+3,2014,Lutj_Toau,1.1
+3,2015,Lutj_Toau,1.1
+3,2016,Lutj_Toau,1.1
+4,2012,Lutj_Toau,1.1
+4,2013,Lutj_Toau,1.1
+4,2014,Lutj_Toau,1.1
+4,2015,Lutj_Toau,1.1
+4,2016,Lutj_Toau,1.1
+1,2012,Lutj_Uku,1.1
+1,2013,Lutj_Uku,1.1
+1,2014,Lutj_Uku,1.1
+1,2015,Lutj_Uku,1.1
+1,2016,Lutj_Uku,1.1
+2,2012,Lutj_Uku,1.1
+2,2013,Lutj_Uku,1.1
+2,2014,Lutj_Uku,1.1
+2,2015,Lutj_Uku,1.1
+2,2016,Lutj_Uku,1.1
+3,2012,Lutj_Uku,1.1
+3,2013,Lutj_Uku,1.1
+3,2014,Lutj_Uku,1.1
+3,2015,Lutj_Uku,1.1
+3,2016,Lutj_Uku,1.1
+4,2012,Lutj_Uku,1.1
+4,2013,Lutj_Uku,1.1
+4,2014,Lutj_Uku,1.1
+4,2015,Lutj_Uku,1.1
+4,2016,Lutj_Uku,1.1
+1,2012,Mull_Kumu,0.5
+1,2013,Mull_Kumu,0.5
+1,2014,Mull_Kumu,0.5
+1,2015,Mull_Kumu,0.5
+1,2016,Mull_Kumu,0.5
+2,2012,Mull_Kumu,0.5
+2,2013,Mull_Kumu,0.5
+2,2014,Mull_Kumu,0.5
+2,2015,Mull_Kumu,0.5
+2,2016,Mull_Kumu,0.5
+3,2012,Mull_Kumu,0.5
+3,2013,Mull_Kumu,0.5
+3,2014,Mull_Kumu,0.5
+3,2015,Mull_Kumu,0.5
+3,2016,Mull_Kumu,0.5
+4,2012,Mull_Kumu,0.5
+4,2013,Mull_Kumu,0.5
+4,2014,Mull_Kumu,0.5
+4,2015,Mull_Kumu,0.5
+4,2016,Mull_Kumu,0.5
+1,2012,Mull_Moana kale,0.8
+1,2013,Mull_Moana kale,0.8
+1,2014,Mull_Moana kale,0.8
+1,2015,Mull_Moana kale,0.8
+1,2016,Mull_Moana kale,0.8
+2,2012,Mull_Moana kale,0.8
+2,2013,Mull_Moana kale,0.8
+2,2014,Mull_Moana kale,0.8
+2,2015,Mull_Moana kale,0.8
+2,2016,Mull_Moana kale,0.8
+3,2012,Mull_Moana kale,0.8
+3,2013,Mull_Moana kale,0.8
+3,2014,Mull_Moana kale,0.8
+3,2015,Mull_Moana kale,0.8
+3,2016,Mull_Moana kale,0.8
+4,2012,Mull_Moana kale,0.8
+4,2013,Mull_Moana kale,0.8
+4,2014,Mull_Moana kale,0.8
+4,2015,Mull_Moana kale,0.8
+4,2016,Mull_Moana kale,0.8
+1,2012,Mull_Munu,1.9
+1,2013,Mull_Munu,1.9
+1,2014,Mull_Munu,1.9
+1,2015,Mull_Munu,1.9
+1,2016,Mull_Munu,1.9
+2,2012,Mull_Munu,1.9
+2,2013,Mull_Munu,1.9
+2,2014,Mull_Munu,1.9
+2,2015,Mull_Munu,1.9
+2,2016,Mull_Munu,1.9
+3,2012,Mull_Munu,1.9
+3,2013,Mull_Munu,1.9
+3,2014,Mull_Munu,1.9
+3,2015,Mull_Munu,1.9
+3,2016,Mull_Munu,1.9
+4,2012,Mull_Munu,1.9
+4,2013,Mull_Munu,1.9
+4,2014,Mull_Munu,1.9
+4,2015,Mull_Munu,1.9
+4,2016,Mull_Munu,1.9
+1,2012,Mull_Weke a'a,1.63
+1,2013,Mull_Weke a'a,1.63
+1,2014,Mull_Weke a'a,1.63
+1,2015,Mull_Weke a'a,1.63
+1,2016,Mull_Weke a'a,1.63
+2,2012,Mull_Weke a'a,1.63
+2,2013,Mull_Weke a'a,1.63
+2,2014,Mull_Weke a'a,1.63
+2,2015,Mull_Weke a'a,1.63
+2,2016,Mull_Weke a'a,1.63
+3,2012,Mull_Weke a'a,1.63
+3,2013,Mull_Weke a'a,1.63
+3,2014,Mull_Weke a'a,1.63
+3,2015,Mull_Weke a'a,1.63
+3,2016,Mull_Weke a'a,1.63
+4,2012,Mull_Weke a'a,1.63
+4,2013,Mull_Weke a'a,1.63
+4,2014,Mull_Weke a'a,1.63
+4,2015,Mull_Weke a'a,1.63
+4,2016,Mull_Weke a'a,1.63
+1,2012,Mull_Weke nono,1.37
+1,2013,Mull_Weke nono,1.37
+1,2014,Mull_Weke nono,1.37
+1,2015,Mull_Weke nono,1.37
+1,2016,Mull_Weke nono,1.37
+2,2012,Mull_Weke nono,1.37
+2,2013,Mull_Weke nono,1.37
+2,2014,Mull_Weke nono,1.37
+2,2015,Mull_Weke nono,1.37
+2,2016,Mull_Weke nono,1.37
+3,2012,Mull_Weke nono,1.37
+3,2013,Mull_Weke nono,1.37
+3,2014,Mull_Weke nono,1.37
+3,2015,Mull_Weke nono,1.37
+3,2016,Mull_Weke nono,1.37
+4,2012,Mull_Weke nono,1.37
+4,2013,Mull_Weke nono,1.37
+4,2014,Mull_Weke nono,1.37
+4,2015,Mull_Weke nono,1.37
+4,2016,Mull_Weke nono,1.37
+1,2012,Mull_Weke ula,1.83
+1,2013,Mull_Weke ula,1.83
+1,2014,Mull_Weke ula,1.83
+1,2015,Mull_Weke ula,1.83
+1,2016,Mull_Weke ula,1.83
+2,2012,Mull_Weke ula,1.83
+2,2013,Mull_Weke ula,1.83
+2,2014,Mull_Weke ula,1.83
+2,2015,Mull_Weke ula,1.83
+2,2016,Mull_Weke ula,1.83
+3,2012,Mull_Weke ula,1.83
+3,2013,Mull_Weke ula,1.83
+3,2014,Mull_Weke ula,1.83
+3,2015,Mull_Weke ula,1.83
+3,2016,Mull_Weke ula,1.83
+4,2012,Mull_Weke ula,1.83
+4,2013,Mull_Weke ula,1.83
+4,2014,Mull_Weke ula,1.83
+4,2015,Mull_Weke ula,1.83
+4,2016,Mull_Weke ula,1.83
+1,2012,Scar_Panuhunuhu,0.43
+1,2013,Scar_Panuhunuhu,0.43
+1,2014,Scar_Panuhunuhu,0.43
+1,2015,Scar_Panuhunuhu,0.43
+1,2016,Scar_Panuhunuhu,0.43
+2,2012,Scar_Panuhunuhu,0.43
+2,2013,Scar_Panuhunuhu,0.43
+2,2014,Scar_Panuhunuhu,0.43
+2,2015,Scar_Panuhunuhu,0.43
+2,2016,Scar_Panuhunuhu,0.43
+3,2012,Scar_Panuhunuhu,0.43
+3,2013,Scar_Panuhunuhu,0.43
+3,2014,Scar_Panuhunuhu,0.43
+3,2015,Scar_Panuhunuhu,0.43
+3,2016,Scar_Panuhunuhu,0.43
+4,2012,Scar_Panuhunuhu,0.43
+4,2013,Scar_Panuhunuhu,0.43
+4,2014,Scar_Panuhunuhu,0.43
+4,2015,Scar_Panuhunuhu,0.43
+4,2016,Scar_Panuhunuhu,0.43
+1,2012,Scar_Panunu,0.77
+1,2013,Scar_Panunu,0.77
+1,2014,Scar_Panunu,0.77
+1,2015,Scar_Panunu,0.77
+1,2016,Scar_Panunu,0.77
+2,2012,Scar_Panunu,0.77
+2,2013,Scar_Panunu,0.77
+2,2014,Scar_Panunu,0.77
+2,2015,Scar_Panunu,0.77
+2,2016,Scar_Panunu,0.77
+3,2012,Scar_Panunu,0.77
+3,2013,Scar_Panunu,0.77
+3,2014,Scar_Panunu,0.77
+3,2015,Scar_Panunu,0.77
+3,2016,Scar_Panunu,0.77
+4,2012,Scar_Panunu,0.77
+4,2013,Scar_Panunu,0.77
+4,2014,Scar_Panunu,0.77
+4,2015,Scar_Panunu,0.77
+4,2016,Scar_Panunu,0.77
+1,2012,Scar_Uhu parrot-misc.,1.8
+1,2012,Scar_Uhu parrot-misc.,1.5
+1,2012,Scar_Uhu parrot-misc.,1.37
+1,2012,Scar_Uhu parrot-misc.,0.87
+1,2013,Scar_Uhu parrot-misc.,1.8
+1,2013,Scar_Uhu parrot-misc.,1.5
+1,2013,Scar_Uhu parrot-misc.,1.37
+1,2013,Scar_Uhu parrot-misc.,0.87
+1,2014,Scar_Uhu parrot-misc.,1.8
+1,2014,Scar_Uhu parrot-misc.,1.5
+1,2014,Scar_Uhu parrot-misc.,1.37
+1,2014,Scar_Uhu parrot-misc.,0.87
+1,2015,Scar_Uhu parrot-misc.,1.8
+1,2015,Scar_Uhu parrot-misc.,1.5
+1,2015,Scar_Uhu parrot-misc.,1.37
+1,2015,Scar_Uhu parrot-misc.,0.87
+1,2016,Scar_Uhu parrot-misc.,1.8
+1,2016,Scar_Uhu parrot-misc.,1.5
+1,2016,Scar_Uhu parrot-misc.,1.37
+1,2016,Scar_Uhu parrot-misc.,0.87
+2,2012,Scar_Uhu parrot-misc.,1.8
+2,2012,Scar_Uhu parrot-misc.,1.5
+2,2012,Scar_Uhu parrot-misc.,1.37
+2,2012,Scar_Uhu parrot-misc.,0.87
+2,2013,Scar_Uhu parrot-misc.,1.8
+2,2013,Scar_Uhu parrot-misc.,1.5
+2,2013,Scar_Uhu parrot-misc.,1.37
+2,2013,Scar_Uhu parrot-misc.,0.87
+2,2014,Scar_Uhu parrot-misc.,1.8
+2,2014,Scar_Uhu parrot-misc.,1.5
+2,2014,Scar_Uhu parrot-misc.,1.37
+2,2014,Scar_Uhu parrot-misc.,0.87
+2,2015,Scar_Uhu parrot-misc.,1.8
+2,2015,Scar_Uhu parrot-misc.,1.5
+2,2015,Scar_Uhu parrot-misc.,1.37
+2,2015,Scar_Uhu parrot-misc.,0.87
+2,2016,Scar_Uhu parrot-misc.,1.8
+2,2016,Scar_Uhu parrot-misc.,1.5
+2,2016,Scar_Uhu parrot-misc.,1.37
+2,2016,Scar_Uhu parrot-misc.,0.87
+3,2012,Scar_Uhu parrot-misc.,1.8
+3,2012,Scar_Uhu parrot-misc.,1.5
+3,2012,Scar_Uhu parrot-misc.,1.37
+3,2012,Scar_Uhu parrot-misc.,0.87
+3,2013,Scar_Uhu parrot-misc.,1.8
+3,2013,Scar_Uhu parrot-misc.,1.5
+3,2013,Scar_Uhu parrot-misc.,1.37
+3,2013,Scar_Uhu parrot-misc.,0.87
+3,2014,Scar_Uhu parrot-misc.,1.8
+3,2014,Scar_Uhu parrot-misc.,1.5
+3,2014,Scar_Uhu parrot-misc.,1.37
+3,2014,Scar_Uhu parrot-misc.,0.87
+3,2015,Scar_Uhu parrot-misc.,1.8
+3,2015,Scar_Uhu parrot-misc.,1.5
+3,2015,Scar_Uhu parrot-misc.,1.37
+3,2015,Scar_Uhu parrot-misc.,0.87
+3,2016,Scar_Uhu parrot-misc.,1.8
+3,2016,Scar_Uhu parrot-misc.,1.5
+3,2016,Scar_Uhu parrot-misc.,1.37
+3,2016,Scar_Uhu parrot-misc.,0.87
+4,2012,Scar_Uhu parrot-misc.,1.8
+4,2012,Scar_Uhu parrot-misc.,1.5
+4,2012,Scar_Uhu parrot-misc.,1.37
+4,2012,Scar_Uhu parrot-misc.,0.87
+4,2013,Scar_Uhu parrot-misc.,1.8
+4,2013,Scar_Uhu parrot-misc.,1.5
+4,2013,Scar_Uhu parrot-misc.,1.37
+4,2013,Scar_Uhu parrot-misc.,0.87
+4,2014,Scar_Uhu parrot-misc.,1.8
+4,2014,Scar_Uhu parrot-misc.,1.5
+4,2014,Scar_Uhu parrot-misc.,1.37
+4,2014,Scar_Uhu parrot-misc.,0.87
+4,2015,Scar_Uhu parrot-misc.,1.8
+4,2015,Scar_Uhu parrot-misc.,1.5
+4,2015,Scar_Uhu parrot-misc.,1.37
+4,2015,Scar_Uhu parrot-misc.,0.87
+4,2016,Scar_Uhu parrot-misc.,1.8
+4,2016,Scar_Uhu parrot-misc.,1.5
+4,2016,Scar_Uhu parrot-misc.,1.37
+4,2016,Scar_Uhu parrot-misc.,0.87
+1,2010,Scom_Bigeye tuna,0.92
+1,2011,Scom_Bigeye tuna,0.86
+1,2012,Scom_Bigeye tuna,0.79
+1,2013,Scom_Bigeye tuna,0.87
+1,2014,Scom_Bigeye tuna,0.85
+1,2015,Scom_Bigeye tuna,0.82
+1,2016,Scom_Bigeye tuna,0.7508
+2,2010,Scom_Bigeye tuna,0.92
+2,2011,Scom_Bigeye tuna,0.86
+2,2012,Scom_Bigeye tuna,0.79
+2,2013,Scom_Bigeye tuna,0.87
+2,2014,Scom_Bigeye tuna,0.85
+2,2015,Scom_Bigeye tuna,0.82
+2,2016,Scom_Bigeye tuna,0.7508
+3,2010,Scom_Bigeye tuna,0.92
+3,2011,Scom_Bigeye tuna,0.86
+3,2012,Scom_Bigeye tuna,0.79
+3,2013,Scom_Bigeye tuna,0.87
+3,2014,Scom_Bigeye tuna,0.85
+3,2015,Scom_Bigeye tuna,0.82
+3,2016,Scom_Bigeye tuna,0.7508
+4,2010,Scom_Bigeye tuna,0.92
+4,2011,Scom_Bigeye tuna,0.86
+4,2012,Scom_Bigeye tuna,0.79
+4,2013,Scom_Bigeye tuna,0.87
+4,2014,Scom_Bigeye tuna,0.85
+4,2015,Scom_Bigeye tuna,0.82
+4,2016,Scom_Bigeye tuna,0.7508
+1,2012,Scom_Omilu,1.33
+1,2013,Scom_Omilu,1.33
+1,2014,Scom_Omilu,1.33
+1,2015,Scom_Omilu,1.33
+1,2016,Scom_Omilu,1.33
+2,2012,Scom_Omilu,1.33
+2,2013,Scom_Omilu,1.33
+2,2014,Scom_Omilu,1.33
+2,2015,Scom_Omilu,1.33
+2,2016,Scom_Omilu,1.33
+3,2012,Scom_Omilu,1.33
+3,2013,Scom_Omilu,1.33
+3,2014,Scom_Omilu,1.33
+3,2015,Scom_Omilu,1.33
+3,2016,Scom_Omilu,1.33
+4,2012,Scom_Omilu,1.33
+4,2013,Scom_Omilu,1.33
+4,2014,Scom_Omilu,1.33
+4,2015,Scom_Omilu,1.33
+4,2016,Scom_Omilu,1.33
+1,2012,Scom_Papa ulua,1.37
+1,2013,Scom_Papa ulua,1.37
+1,2014,Scom_Papa ulua,1.37
+1,2015,Scom_Papa ulua,1.37
+1,2016,Scom_Papa ulua,1.37
+2,2012,Scom_Papa ulua,1.37
+2,2013,Scom_Papa ulua,1.37
+2,2014,Scom_Papa ulua,1.37
+2,2015,Scom_Papa ulua,1.37
+2,2016,Scom_Papa ulua,1.37
+3,2012,Scom_Papa ulua,1.37
+3,2013,Scom_Papa ulua,1.37
+3,2014,Scom_Papa ulua,1.37
+3,2015,Scom_Papa ulua,1.37
+3,2016,Scom_Papa ulua,1.37
+4,2012,Scom_Papa ulua,1.37
+4,2013,Scom_Papa ulua,1.37
+4,2014,Scom_Papa ulua,1.37
+4,2015,Scom_Papa ulua,1.37
+4,2016,Scom_Papa ulua,1.37
+1,2010,Scom_Tombo,2.2
+1,2011,Scom_Tombo,2.23
+1,2012,Scom_Tombo,2.22
+1,2013,Scom_Tombo,2.19
+1,2014,Scom_Tombo,2.19
+1,2015,Scom_Tombo,2.19
+1,2016,Scom_Tombo,2.19
+2,2010,Scom_Tombo,2.2
+2,2011,Scom_Tombo,2.23
+2,2012,Scom_Tombo,2.22
+2,2013,Scom_Tombo,2.19
+2,2014,Scom_Tombo,2.19
+2,2015,Scom_Tombo,2.19
+2,2016,Scom_Tombo,2.19
+3,2010,Scom_Tombo,2.2
+3,2011,Scom_Tombo,2.23
+3,2012,Scom_Tombo,2.22
+3,2013,Scom_Tombo,2.19
+3,2014,Scom_Tombo,2.19
+3,2015,Scom_Tombo,2.19
+3,2016,Scom_Tombo,2.19
+4,2010,Scom_Tombo,2.2
+4,2011,Scom_Tombo,2.23
+4,2012,Scom_Tombo,2.22
+4,2013,Scom_Tombo,2.19
+4,2014,Scom_Tombo,2.19
+4,2015,Scom_Tombo,2.19
+4,2016,Scom_Tombo,2.19
+1,2012,Scom_White ulua,0.93
+1,2013,Scom_White ulua,0.93
+1,2014,Scom_White ulua,0.93
+1,2015,Scom_White ulua,0.93
+1,2016,Scom_White ulua,0.93
+2,2012,Scom_White ulua,0.93
+2,2013,Scom_White ulua,0.93
+2,2014,Scom_White ulua,0.93
+2,2015,Scom_White ulua,0.93
+2,2016,Scom_White ulua,0.93
+3,2012,Scom_White ulua,0.93
+3,2013,Scom_White ulua,0.93
+3,2014,Scom_White ulua,0.93
+3,2015,Scom_White ulua,0.93
+3,2016,Scom_White ulua,0.93
+4,2012,Scom_White ulua,0.93
+4,2013,Scom_White ulua,0.93
+4,2014,Scom_White ulua,0.93
+4,2015,Scom_White ulua,0.93
+4,2016,Scom_White ulua,0.93
+1,2010,Scom_Yellowfin tuna,1.33
+1,2011,Scom_Yellowfin tuna,1.3
+1,2012,Scom_Yellowfin tuna,1.22
+1,2013,Scom_Yellowfin tuna,1.28
+1,2014,Scom_Yellowfin tuna,1.26
+1,2015,Scom_Yellowfin tuna,1.24
+1,2016,Scom_Yellowfin tuna,1.2022
+2,2010,Scom_Yellowfin tuna,1.33
+2,2011,Scom_Yellowfin tuna,1.3
+2,2012,Scom_Yellowfin tuna,1.22
+2,2013,Scom_Yellowfin tuna,1.28
+2,2014,Scom_Yellowfin tuna,1.26
+2,2015,Scom_Yellowfin tuna,1.24
+2,2016,Scom_Yellowfin tuna,1.2022
+3,2010,Scom_Yellowfin tuna,1.33
+3,2011,Scom_Yellowfin tuna,1.3
+3,2012,Scom_Yellowfin tuna,1.22
+3,2013,Scom_Yellowfin tuna,1.28
+3,2014,Scom_Yellowfin tuna,1.26
+3,2015,Scom_Yellowfin tuna,1.24
+3,2016,Scom_Yellowfin tuna,1.2022
+4,2010,Scom_Yellowfin tuna,1.33
+4,2011,Scom_Yellowfin tuna,1.3
+4,2012,Scom_Yellowfin tuna,1.22
+4,2013,Scom_Yellowfin tuna,1.28
+4,2014,Scom_Yellowfin tuna,1.26
+4,2015,Scom_Yellowfin tuna,1.24
+4,2016,Scom_Yellowfin tuna,1.2022
+1,2010,Serr_Hapuupuu,0.84
+1,2011,Serr_Hapuupuu,0.85
+1,2012,Serr_Hapuupuu,0.85
+1,2013,Serr_Hapuupuu,0.86
+1,2014,Serr_Hapuupuu,0.83
+1,2015,Serr_Hapuupuu,0.83
+1,2016,Serr_Hapuupuu,0.83
+2,2010,Serr_Hapuupuu,0.84
+2,2011,Serr_Hapuupuu,0.85
+2,2012,Serr_Hapuupuu,0.85
+2,2013,Serr_Hapuupuu,0.86
+2,2014,Serr_Hapuupuu,0.83
+2,2015,Serr_Hapuupuu,0.83
+2,2016,Serr_Hapuupuu,0.83
+3,2010,Serr_Hapuupuu,0.84
+3,2011,Serr_Hapuupuu,0.85
+3,2012,Serr_Hapuupuu,0.85
+3,2013,Serr_Hapuupuu,0.86
+3,2014,Serr_Hapuupuu,0.83
+3,2015,Serr_Hapuupuu,0.83
+3,2016,Serr_Hapuupuu,0.83
+4,2010,Serr_Hapuupuu,0.84
+4,2011,Serr_Hapuupuu,0.85
+4,2012,Serr_Hapuupuu,0.85
+4,2013,Serr_Hapuupuu,0.86
+4,2014,Serr_Hapuupuu,0.83
+4,2015,Serr_Hapuupuu,0.83
+4,2016,Serr_Hapuupuu,0.83
+1,2012,Serr_Roi,2.67
+1,2013,Serr_Roi,2.67
+1,2014,Serr_Roi,2.67
+1,2015,Serr_Roi,2.67
+1,2016,Serr_Roi,2.67
+2,2012,Serr_Roi,2.67
+2,2013,Serr_Roi,2.67
+2,2014,Serr_Roi,2.67
+2,2015,Serr_Roi,2.67
+2,2016,Serr_Roi,2.67
+3,2012,Serr_Roi,2.67
+3,2013,Serr_Roi,2.67
+3,2014,Serr_Roi,2.67
+3,2015,Serr_Roi,2.67
+3,2016,Serr_Roi,2.67
+4,2012,Serr_Roi,2.67
+4,2013,Serr_Roi,2.67
+4,2014,Serr_Roi,2.67
+4,2015,Serr_Roi,2.67
+4,2016,Serr_Roi,2.67
+1,2010,Xiph_Swordfish,1.14
+1,2011,Xiph_Swordfish,1.13
+1,2012,Xiph_Swordfish,1.2
+1,2013,Xiph_Swordfish,1.3
+1,2014,Xiph_Swordfish,1.14
+1,2015,Xiph_Swordfish,0.99
+1,2016,Xiph_Swordfish,1.173
+2,2010,Xiph_Swordfish,1.14
+2,2011,Xiph_Swordfish,1.13
+2,2012,Xiph_Swordfish,1.2
+2,2013,Xiph_Swordfish,1.3
+2,2014,Xiph_Swordfish,1.14
+2,2015,Xiph_Swordfish,0.99
+2,2016,Xiph_Swordfish,1.173
+3,2010,Xiph_Swordfish,1.14
+3,2011,Xiph_Swordfish,1.13
+3,2012,Xiph_Swordfish,1.2
+3,2013,Xiph_Swordfish,1.3
+3,2014,Xiph_Swordfish,1.14
+3,2015,Xiph_Swordfish,0.99
+3,2016,Xiph_Swordfish,1.173
+4,2010,Xiph_Swordfish,1.14
+4,2011,Xiph_Swordfish,1.13
+4,2012,Xiph_Swordfish,1.2
+4,2013,Xiph_Swordfish,1.3
+4,2014,Xiph_Swordfish,1.14
+4,2015,Xiph_Swordfish,0.99
+4,2016,Xiph_Swordfish,1.173
+1,2011,Carc_Blue,1.59
+1,2012,Carc_Blue,1.59
+1,2013,Carc_Blue,1.59
+1,2014,Carc_Blue,1.59
+1,2015,Carc_Blue,1.59
+1,2016,Carc_Blue,1.59
+1,2011,Carc_Blue,0.25
+1,2012,Carc_Blue,0.25
+1,2013,Scom_Bluefin,0.25
+1,2014,Scom_Bluefin,0.25
+1,2015,Scom_Bluefin,0.25
+1,2016,Scom_Bluefin,0.25
+2,2011,Carc_Blue,1.59
+2,2012,Carc_Blue,1.59
+2,2013,Carc_Blue,1.59
+2,2014,Carc_Blue,1.59
+2,2015,Carc_Blue,1.59
+2,2016,Carc_Blue,1.59
+2,2011,Carc_Blue,0.25
+2,2012,Carc_Blue,0.25
+2,2013,Scom_Bluefin,0.25
+2,2014,Scom_Bluefin,0.25
+2,2015,Scom_Bluefin,0.25
+2,2016,Scom_Bluefin,0.25
+3,2011,Carc_Blue,1.59
+3,2012,Carc_Blue,1.59
+3,2013,Carc_Blue,1.59
+3,2014,Carc_Blue,1.59
+3,2015,Carc_Blue,1.59
+3,2016,Carc_Blue,1.59
+3,2011,Carc_Blue,0.25
+3,2012,Carc_Blue,0.25
+3,2013,Scom_Bluefin,0.25
+3,2014,Scom_Bluefin,0.25
+3,2015,Scom_Bluefin,0.25
+3,2016,Scom_Bluefin,0.25
+4,2011,Carc_Blue,1.59
+4,2012,Carc_Blue,1.59
+4,2013,Carc_Blue,1.59
+4,2014,Carc_Blue,1.59
+4,2015,Carc_Blue,1.59
+4,2016,Carc_Blue,1.59
+4,2011,Carc_Blue,0.25
+4,2012,Carc_Blue,0.25
+4,2013,Scom_Bluefin,0.25
+4,2014,Scom_Bluefin,0.25
+4,2015,Scom_Bluefin,0.25
+4,2016,Scom_Bluefin,0.25

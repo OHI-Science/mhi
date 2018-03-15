@@ -1,0 +1,5 @@
+The Species subgoal scores calculated within 3 nm of shoreline as a proxy for ecological integrity.
+
+#### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

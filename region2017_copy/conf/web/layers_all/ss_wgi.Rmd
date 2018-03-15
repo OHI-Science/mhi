@@ -1,0 +1,5 @@
+The Inverse of World Governance Indicators (WGI) calculated as the six combined scores.
+
+#### Reference
+
+[Halpern et al. 2008](http://www.oceanhealthindex.org/methodology/components)

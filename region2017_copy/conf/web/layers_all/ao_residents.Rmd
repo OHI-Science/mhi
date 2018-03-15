@@ -1,0 +1,5 @@
+The number of residents per county. The number of residents and the need is used to get a percentage of the total residents that fish.
+
+#### Reference
+
+[DEBDT](http://dbedt.hawaii.gov/economic/databook/db2015/)

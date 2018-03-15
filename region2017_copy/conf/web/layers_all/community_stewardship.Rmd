@@ -1,0 +1,5 @@
+The number of potential Community Based Subsistence Fishing Areas (CBSFA) and interested communities, and the active fishponds, scaled to maximum number per county.
+
+#### Reference
+
+[KUA; TNC fishpond layer](NA)

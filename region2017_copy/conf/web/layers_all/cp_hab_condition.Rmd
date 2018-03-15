@@ -1,0 +1,5 @@
+The condition of coastal habitats measured as the percent of beaches erroding per region.
+
+#### Reference
+
+[NA](http://pubs.usgs.gov/of/2011/1051)

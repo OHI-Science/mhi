@@ -119,6 +119,38 @@ rgn_id,year,key_sp,score
 4,2014,Acan_Umaumalei,0.83
 4,2015,Acan_Umaumalei,0.83
 4,2016,Acan_Umaumalei,0.83
+1,2011,Carc_Blue,1.59
+1,2012,Carc_Blue,1.59
+1,2013,Carc_Blue,1.59
+1,2014,Carc_Blue,1.59
+1,2015,Carc_Blue,1.59
+1,2016,Carc_Blue,1.59
+1,2011,Carc_Blue,0.25
+1,2012,Carc_Blue,0.25
+2,2011,Carc_Blue,1.59
+2,2012,Carc_Blue,1.59
+2,2013,Carc_Blue,1.59
+2,2014,Carc_Blue,1.59
+2,2015,Carc_Blue,1.59
+2,2016,Carc_Blue,1.59
+2,2011,Carc_Blue,0.25
+2,2012,Carc_Blue,0.25
+3,2011,Carc_Blue,1.59
+3,2012,Carc_Blue,1.59
+3,2013,Carc_Blue,1.59
+3,2014,Carc_Blue,1.59
+3,2015,Carc_Blue,1.59
+3,2016,Carc_Blue,1.59
+3,2011,Carc_Blue,0.25
+3,2012,Carc_Blue,0.25
+4,2011,Carc_Blue,1.59
+4,2012,Carc_Blue,1.59
+4,2013,Carc_Blue,1.59
+4,2014,Carc_Blue,1.59
+4,2015,Carc_Blue,1.59
+4,2016,Carc_Blue,1.59
+4,2011,Carc_Blue,0.25
+4,2012,Carc_Blue,0.25
 1,2012,Holo_Menpachi,1.97
 1,2013,Holo_Menpachi,1.97
 1,2014,Holo_Menpachi,1.97
@@ -603,85 +635,85 @@ rgn_id,year,key_sp,score
 4,2014,Scar_Panunu,0.77
 4,2015,Scar_Panunu,0.77
 4,2016,Scar_Panunu,0.77
-1,2012,Scar_Uhu parrot-misc.,1.8
-1,2012,Scar_Uhu parrot-misc.,1.5
-1,2012,Scar_Uhu parrot-misc.,1.37
 1,2012,Scar_Uhu parrot-misc.,0.87
-1,2013,Scar_Uhu parrot-misc.,1.8
-1,2013,Scar_Uhu parrot-misc.,1.5
-1,2013,Scar_Uhu parrot-misc.,1.37
+1,2012,Scar_Uhu parrot-misc.,0.87
+1,2012,Scar_Uhu parrot-misc.,0.87
+1,2012,Scar_Uhu parrot-misc.,0.87
 1,2013,Scar_Uhu parrot-misc.,0.87
-1,2014,Scar_Uhu parrot-misc.,1.8
-1,2014,Scar_Uhu parrot-misc.,1.5
-1,2014,Scar_Uhu parrot-misc.,1.37
+1,2013,Scar_Uhu parrot-misc.,0.87
+1,2013,Scar_Uhu parrot-misc.,0.87
+1,2013,Scar_Uhu parrot-misc.,0.87
 1,2014,Scar_Uhu parrot-misc.,0.87
-1,2015,Scar_Uhu parrot-misc.,1.8
-1,2015,Scar_Uhu parrot-misc.,1.5
-1,2015,Scar_Uhu parrot-misc.,1.37
+1,2014,Scar_Uhu parrot-misc.,0.87
+1,2014,Scar_Uhu parrot-misc.,0.87
+1,2014,Scar_Uhu parrot-misc.,0.87
 1,2015,Scar_Uhu parrot-misc.,0.87
-1,2016,Scar_Uhu parrot-misc.,1.8
-1,2016,Scar_Uhu parrot-misc.,1.5
-1,2016,Scar_Uhu parrot-misc.,1.37
+1,2015,Scar_Uhu parrot-misc.,0.87
+1,2015,Scar_Uhu parrot-misc.,0.87
+1,2015,Scar_Uhu parrot-misc.,0.87
 1,2016,Scar_Uhu parrot-misc.,0.87
-2,2012,Scar_Uhu parrot-misc.,1.8
-2,2012,Scar_Uhu parrot-misc.,1.5
-2,2012,Scar_Uhu parrot-misc.,1.37
+1,2016,Scar_Uhu parrot-misc.,0.87
+1,2016,Scar_Uhu parrot-misc.,0.87
+1,2016,Scar_Uhu parrot-misc.,0.87
 2,2012,Scar_Uhu parrot-misc.,0.87
-2,2013,Scar_Uhu parrot-misc.,1.8
-2,2013,Scar_Uhu parrot-misc.,1.5
-2,2013,Scar_Uhu parrot-misc.,1.37
+2,2012,Scar_Uhu parrot-misc.,0.87
+2,2012,Scar_Uhu parrot-misc.,0.87
+2,2012,Scar_Uhu parrot-misc.,0.87
 2,2013,Scar_Uhu parrot-misc.,0.87
-2,2014,Scar_Uhu parrot-misc.,1.8
-2,2014,Scar_Uhu parrot-misc.,1.5
-2,2014,Scar_Uhu parrot-misc.,1.37
+2,2013,Scar_Uhu parrot-misc.,0.87
+2,2013,Scar_Uhu parrot-misc.,0.87
+2,2013,Scar_Uhu parrot-misc.,0.87
 2,2014,Scar_Uhu parrot-misc.,0.87
-2,2015,Scar_Uhu parrot-misc.,1.8
-2,2015,Scar_Uhu parrot-misc.,1.5
-2,2015,Scar_Uhu parrot-misc.,1.37
+2,2014,Scar_Uhu parrot-misc.,0.87
+2,2014,Scar_Uhu parrot-misc.,0.87
+2,2014,Scar_Uhu parrot-misc.,0.87
 2,2015,Scar_Uhu parrot-misc.,0.87
-2,2016,Scar_Uhu parrot-misc.,1.8
-2,2016,Scar_Uhu parrot-misc.,1.5
-2,2016,Scar_Uhu parrot-misc.,1.37
+2,2015,Scar_Uhu parrot-misc.,0.87
+2,2015,Scar_Uhu parrot-misc.,0.87
+2,2015,Scar_Uhu parrot-misc.,0.87
 2,2016,Scar_Uhu parrot-misc.,0.87
-3,2012,Scar_Uhu parrot-misc.,1.8
-3,2012,Scar_Uhu parrot-misc.,1.5
-3,2012,Scar_Uhu parrot-misc.,1.37
+2,2016,Scar_Uhu parrot-misc.,0.87
+2,2016,Scar_Uhu parrot-misc.,0.87
+2,2016,Scar_Uhu parrot-misc.,0.87
 3,2012,Scar_Uhu parrot-misc.,0.87
-3,2013,Scar_Uhu parrot-misc.,1.8
-3,2013,Scar_Uhu parrot-misc.,1.5
-3,2013,Scar_Uhu parrot-misc.,1.37
+3,2012,Scar_Uhu parrot-misc.,0.87
+3,2012,Scar_Uhu parrot-misc.,0.87
+3,2012,Scar_Uhu parrot-misc.,0.87
 3,2013,Scar_Uhu parrot-misc.,0.87
-3,2014,Scar_Uhu parrot-misc.,1.8
-3,2014,Scar_Uhu parrot-misc.,1.5
-3,2014,Scar_Uhu parrot-misc.,1.37
+3,2013,Scar_Uhu parrot-misc.,0.87
+3,2013,Scar_Uhu parrot-misc.,0.87
+3,2013,Scar_Uhu parrot-misc.,0.87
 3,2014,Scar_Uhu parrot-misc.,0.87
-3,2015,Scar_Uhu parrot-misc.,1.8
-3,2015,Scar_Uhu parrot-misc.,1.5
-3,2015,Scar_Uhu parrot-misc.,1.37
+3,2014,Scar_Uhu parrot-misc.,0.87
+3,2014,Scar_Uhu parrot-misc.,0.87
+3,2014,Scar_Uhu parrot-misc.,0.87
 3,2015,Scar_Uhu parrot-misc.,0.87
-3,2016,Scar_Uhu parrot-misc.,1.8
-3,2016,Scar_Uhu parrot-misc.,1.5
-3,2016,Scar_Uhu parrot-misc.,1.37
+3,2015,Scar_Uhu parrot-misc.,0.87
+3,2015,Scar_Uhu parrot-misc.,0.87
+3,2015,Scar_Uhu parrot-misc.,0.87
 3,2016,Scar_Uhu parrot-misc.,0.87
-4,2012,Scar_Uhu parrot-misc.,1.8
-4,2012,Scar_Uhu parrot-misc.,1.5
-4,2012,Scar_Uhu parrot-misc.,1.37
+3,2016,Scar_Uhu parrot-misc.,0.87
+3,2016,Scar_Uhu parrot-misc.,0.87
+3,2016,Scar_Uhu parrot-misc.,0.87
 4,2012,Scar_Uhu parrot-misc.,0.87
-4,2013,Scar_Uhu parrot-misc.,1.8
-4,2013,Scar_Uhu parrot-misc.,1.5
-4,2013,Scar_Uhu parrot-misc.,1.37
+4,2012,Scar_Uhu parrot-misc.,0.87
+4,2012,Scar_Uhu parrot-misc.,0.87
+4,2012,Scar_Uhu parrot-misc.,0.87
 4,2013,Scar_Uhu parrot-misc.,0.87
-4,2014,Scar_Uhu parrot-misc.,1.8
-4,2014,Scar_Uhu parrot-misc.,1.5
-4,2014,Scar_Uhu parrot-misc.,1.37
+4,2013,Scar_Uhu parrot-misc.,0.87
+4,2013,Scar_Uhu parrot-misc.,0.87
+4,2013,Scar_Uhu parrot-misc.,0.87
 4,2014,Scar_Uhu parrot-misc.,0.87
-4,2015,Scar_Uhu parrot-misc.,1.8
-4,2015,Scar_Uhu parrot-misc.,1.5
-4,2015,Scar_Uhu parrot-misc.,1.37
+4,2014,Scar_Uhu parrot-misc.,0.87
+4,2014,Scar_Uhu parrot-misc.,0.87
+4,2014,Scar_Uhu parrot-misc.,0.87
 4,2015,Scar_Uhu parrot-misc.,0.87
-4,2016,Scar_Uhu parrot-misc.,1.8
-4,2016,Scar_Uhu parrot-misc.,1.5
-4,2016,Scar_Uhu parrot-misc.,1.37
+4,2015,Scar_Uhu parrot-misc.,0.87
+4,2015,Scar_Uhu parrot-misc.,0.87
+4,2015,Scar_Uhu parrot-misc.,0.87
+4,2016,Scar_Uhu parrot-misc.,0.87
+4,2016,Scar_Uhu parrot-misc.,0.87
+4,2016,Scar_Uhu parrot-misc.,0.87
 4,2016,Scar_Uhu parrot-misc.,0.87
 1,2010,Scom_Bigeye tuna,0.92
 1,2011,Scom_Bigeye tuna,0.86
@@ -711,6 +743,22 @@ rgn_id,year,key_sp,score
 4,2014,Scom_Bigeye tuna,0.85
 4,2015,Scom_Bigeye tuna,0.82
 4,2016,Scom_Bigeye tuna,0.7508
+1,2013,Scom_Bluefin,0.25
+1,2014,Scom_Bluefin,0.25
+1,2015,Scom_Bluefin,0.25
+1,2016,Scom_Bluefin,0.25
+2,2013,Scom_Bluefin,0.25
+2,2014,Scom_Bluefin,0.25
+2,2015,Scom_Bluefin,0.25
+2,2016,Scom_Bluefin,0.25
+3,2013,Scom_Bluefin,0.25
+3,2014,Scom_Bluefin,0.25
+3,2015,Scom_Bluefin,0.25
+3,2016,Scom_Bluefin,0.25
+4,2013,Scom_Bluefin,0.25
+4,2014,Scom_Bluefin,0.25
+4,2015,Scom_Bluefin,0.25
+4,2016,Scom_Bluefin,0.25
 1,2012,Scom_Omilu,1.33
 1,2013,Scom_Omilu,1.33
 1,2014,Scom_Omilu,1.33
@@ -903,51 +951,3 @@ rgn_id,year,key_sp,score
 4,2014,Xiph_Swordfish,1.14
 4,2015,Xiph_Swordfish,0.99
 4,2016,Xiph_Swordfish,1.173
-1,2011,Carc_Blue,1.59
-1,2012,Carc_Blue,1.59
-1,2013,Carc_Blue,1.59
-1,2014,Carc_Blue,1.59
-1,2015,Carc_Blue,1.59
-1,2016,Carc_Blue,1.59
-1,2011,Carc_Blue,0.25
-1,2012,Carc_Blue,0.25
-1,2013,Scom_Bluefin,0.25
-1,2014,Scom_Bluefin,0.25
-1,2015,Scom_Bluefin,0.25
-1,2016,Scom_Bluefin,0.25
-2,2011,Carc_Blue,1.59
-2,2012,Carc_Blue,1.59
-2,2013,Carc_Blue,1.59
-2,2014,Carc_Blue,1.59
-2,2015,Carc_Blue,1.59
-2,2016,Carc_Blue,1.59
-2,2011,Carc_Blue,0.25
-2,2012,Carc_Blue,0.25
-2,2013,Scom_Bluefin,0.25
-2,2014,Scom_Bluefin,0.25
-2,2015,Scom_Bluefin,0.25
-2,2016,Scom_Bluefin,0.25
-3,2011,Carc_Blue,1.59
-3,2012,Carc_Blue,1.59
-3,2013,Carc_Blue,1.59
-3,2014,Carc_Blue,1.59
-3,2015,Carc_Blue,1.59
-3,2016,Carc_Blue,1.59
-3,2011,Carc_Blue,0.25
-3,2012,Carc_Blue,0.25
-3,2013,Scom_Bluefin,0.25
-3,2014,Scom_Bluefin,0.25
-3,2015,Scom_Bluefin,0.25
-3,2016,Scom_Bluefin,0.25
-4,2011,Carc_Blue,1.59
-4,2012,Carc_Blue,1.59
-4,2013,Carc_Blue,1.59
-4,2014,Carc_Blue,1.59
-4,2015,Carc_Blue,1.59
-4,2016,Carc_Blue,1.59
-4,2011,Carc_Blue,0.25
-4,2012,Carc_Blue,0.25
-4,2013,Scom_Bluefin,0.25
-4,2014,Scom_Bluefin,0.25
-4,2015,Scom_Bluefin,0.25
-4,2016,Scom_Bluefin,0.25
