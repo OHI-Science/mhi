@@ -1088,8 +1088,8 @@ growth<-subset(growth, year!=2010)
 
 r=0.025
 #growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
-growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.03, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
-#if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <1.5 score is 0
+growth$n_score<-ifelse(growth$growth_rate>=0, 1,ifelse(growth$growth_rate<0.0 & growth$growth_rate>=-0.025, .90, 0.8))#if growth rate is >0% than perfect score = 1
+#if growth is <0 to -0.025% or more gets score of 0.9. Loss 10 points for each 2.5%.
 
 growth$n_score<-growth$n_score*100
 #need to score environmental data to reference - use 30%
