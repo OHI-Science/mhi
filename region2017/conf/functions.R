@@ -1,11 +1,5 @@
 FIS = function(layers, status_year=2016){
   #catch data
-  reef = SelectLayersData(layers, layers='fis_reef_catch', narrow = TRUE) %>%
-    select(
-      rgn_id    = id_num,
-      key_sp = category,
-      year,
-      catch          = val_num)
 
  deep = SelectLayersData(layers, layers='fis_deep_catch', narrow = TRUE) %>%
     select(
@@ -35,13 +29,6 @@ FIS = function(layers, status_year=2016){
       key_sp      = category,
       year,
       value           = val_num)
-
-  reef <- reef %>%
-    mutate(key_sp=as.character(key_sp))%>%
-    mutate(catch = as.numeric(catch)) %>%
-    mutate(rgn_id = as.numeric(as.character(rgn_id))) %>%
-    mutate(year = as.numeric(as.character(year))) %>%
-    select(rgn_id, year, key_sp, catch)
 
 
   pelagic <-pelagic %>%
@@ -76,9 +63,7 @@ FIS = function(layers, status_year=2016){
 
 
 #separate Family 4 letter code back out to use to apply median family sustainability scores for species with no formal stock assessment
-  reef<-reef %>%
-    mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
-    mutate(code="reef")
+
   pelagic<-pelagic %>%
     mutate(Fam=str_sub(key_sp, start=1L, +4))%>%
     mutate(code="pelagic")
@@ -92,8 +77,7 @@ FIS = function(layers, status_year=2016){
     rbind(pelagic)
   fis_data<-fis_data %>%
    rbind(deep)
-  fis_data<-fis_data %>%
-     rbind(reef)
+
 
   # ---
   ## Calculate scores for Bbmsy values
@@ -175,8 +159,6 @@ FIS = function(layers, status_year=2016){
   length(unique(data_fis_gf$code)) #check that there are no typos in the code should be 4 levels
 
   ##Need to separate back out each fishery and get status and score separately
-  reef<-data_fis_gf %>%
-    subset(code=="reef")
 
   bottom<-data_fis_gf %>%
     subset(code=="deef")
@@ -278,29 +260,6 @@ FIS = function(layers, status_year=2016){
   #summarize(Total=sum(SumCatch))
 
 
-#reef
-  # sum of mean catch of all species in region/year
-  reef <- reef %>%
-    group_by(year, rgn_id, key_sp) %>% #summarize catch data
-    dplyr::summarize(catch = sum(catch), mean_score=mean(score))
-
-
-  reef <- reef %>%
-    #dplyr::mutate(catch_w=ifelse(key.x=="CHCR", catch*value, catch))%>%
-    group_by(rgn_id,year)%>%
-    dplyr::mutate(SumCatch = sum(catch))%>%
-    dplyr::mutate(wprop = catch/SumCatch)
-
-
-  #to get sus scores for reef by region
-  reef <- reef %>%
-    dplyr::group_by(rgn_id, year) %>%
-    dplyr::summarize(status = prod(mean_score^wprop)) %>%
-    ungroup()
-
-
-
-
 #bottom
 
   bottom <- bottom %>%
@@ -389,8 +348,7 @@ FIS = function(layers, status_year=2016){
   status_data<- region_1 %>%
     rbind(region_2) %>%
     rbind(region_3) %>%
-    rbind(region_4) %>%
-    rbind(reef)
+    rbind(region_4)
 
   str(status_data)
   status_data<-as.data.frame(status_data)
