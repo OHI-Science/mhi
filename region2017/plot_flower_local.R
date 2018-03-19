@@ -157,6 +157,19 @@ PlotFlower <- function(region_plot          = NA,
     mutate(myAng = seq(-70, 250, length.out = dim(supra)[1])) %>%
     filter(!is.na(pos_supra))
 
+  # supra_df
+  #                 name_supra pos_supra myAng
+  #            Food Provision\n      5.75   -70
+  #   Livelihoods & Economies\n      2.50   122
+  #            Sense of Place\n      1.50   186
+  #              Biodiversity\n      0.50   250
+  #
+
+  # overwriting angles to fine-tune for MHI
+  supra_df$myAng[1] = -50
+  supra_df$myAng[2] = 130
+  supra_df$myAng[4] = 245
+
 
   ## more labeling and parameters ----
   goal_labels <- score_df %>%

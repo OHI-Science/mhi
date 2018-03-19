@@ -47,7 +47,7 @@ write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 PlotFlower(#region_plot = 0,
            assessment_name = "Main Hawaiian Islands",
            display_region_title = FALSE,
-           display_supra_title  = FALSE)
+           display_supra_title  = TRUE)
 
 ## now reinstate original file
 readr::read_csv(fp_temp) %>%
