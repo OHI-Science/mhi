@@ -1,0 +1,5 @@
+The area and type of conservation districts within 1km of the coastline.
+
+#### Reference
+
+[Office of Planning](http://geoportal.hawaii.gov/datasets/conservation-district-subzones?geometry=-158.087%2C21.194%2C-157.109%2C21.418)

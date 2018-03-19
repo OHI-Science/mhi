@@ -1,0 +1,5 @@
+The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.
+
+#### Reference
+
+[Costa, Bryan; Kendall, Matthew (2016). Marine Biogeographic Assessment of the Main Hawaiian Islands: Synthesized physical and biological data offshore of the Main Hawaiian Islands from 1891-01-01 to 2015-03-01 (NCEI Accession 0155189). Version 1.1. NOAA National Centers for Environmental Information. Dataset. doi:10.7289/V56H4FG9 May 15, 2017](http://www.stateofthebirds.org/2014/extinctions/watchlist.pdf; https://www.fws.gov/endangered/)

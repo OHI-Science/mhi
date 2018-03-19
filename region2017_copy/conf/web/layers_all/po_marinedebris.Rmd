@@ -1,0 +1,5 @@
+The State of Hawaii Division of Aquatic Resources aerial imagery of marine debris from 2015.
+
+#### Reference
+
+[Moy, K. et al. Mapping coastal marine debris using aerial imagery and spatial analysis. Mar. Pollut. Bull. doi:https://doi.org/10.1016/j.marpolbul.2017.11.045; Ocean Tipping Points/DLNR-DAR](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

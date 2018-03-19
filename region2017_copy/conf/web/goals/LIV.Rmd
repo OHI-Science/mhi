@@ -1,0 +1,20 @@
+### Goal Description
+
+The jobs and revenue produced from marine-related industries are clearly of huge value to many people, even for those people who do not directly participate in marine-related industries. People value community identity, tax revenue, and indirect economic and social impacts of a stable coastal economy. This sub-goal, Livelihoods, describes job quantity and quality for people living on the coast. Livelihoods includes two equally important sub-components, the number of jobs, which is a proxy for livelihood quantity, and the per capita average annual wages, which is a proxy for job quality.
+
+### Model
+
+The Livelihood model is based on job and wage data: 
+
+- Jobs: The total number of jobs within marine sectors within a region, adjusted by sector- and development status-specific multipliers derived from DBEDT 2007 (http://files.hawaii.gov/dbedt/economic/reports/IO/2007_state_io_study.pdf). The multipliers account not only for direct employment opportunities and revenue, but also indirect and induced economic effects, since activity in the direct industry stimulates additional jobs and revenue in related industries.
+- Wage: The average wage for each marine sector.
+
+The marine sectors included in this model are: Marine Construction, Living Resources, Ship and Boat Building, Tourism and Recreation, and Marine Transportation.  
+
+### Reference points 
+
+Because there is no absolute reference point for jobs (i.e., a target number of jobs would be completely arbitrary), its reference point is calculated as a relative value on a moving baseline: the value in the current year (or most recent year) relative to the value in a recent moving reference period, defined as 5 years prior to the current year. This reflects an implicit goal of maintaining coastal livelihoods and economies on short time scales, allowing for decadal or generational shifts in what people want and expect for coastal livelihoods and economy.
+
+The reference value for average annual wages for each ocean sector was referenced to the state average wage and weighted by the proportion of jobs per sector.
+
+

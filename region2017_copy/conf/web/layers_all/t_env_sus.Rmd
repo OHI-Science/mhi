@@ -1,0 +1,5 @@
+The percent of nearhsore areas priority watersheds protected in reference to Hawaii Stanability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.
+
+#### Reference
+
+[DLNR](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

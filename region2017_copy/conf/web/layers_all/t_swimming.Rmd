@@ -1,0 +1,5 @@
+The number of visitors per km of coastline that swim and go to the beach per county standardized to the regional maximum which occurs on Oahu.
+
+#### Reference
+
+[Hawaii Tourism Authority Visitor Statistic Tables 2016](http://www.hawaiitourismauthority.org/research/reports/visitor-satisfaction/)

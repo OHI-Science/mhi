@@ -1,0 +1,5 @@
+The World Governance Indicators (WGI) six combined scores.
+
+#### Reference
+
+[global OHI](http://www.oceanhealthindex.org/methodology/components)

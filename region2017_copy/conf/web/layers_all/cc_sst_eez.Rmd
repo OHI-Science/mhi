@@ -1,0 +1,5 @@
+The difference in the annual mean sea surface temperature for Hawaii eez waters compared to the 20th century mean sea surface temperature.
+
+#### Reference
+
+[NOAA](https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v4)

@@ -1,0 +1,5 @@
+Wetlands layer clipped to 1km inland from coast. Included only wetlands that are in shallow water and coastal for use in the coastal protection goal
+
+#### Reference
+
+[HI wetlands layer (1979) and TNC marxan wetlands layer.](NA)

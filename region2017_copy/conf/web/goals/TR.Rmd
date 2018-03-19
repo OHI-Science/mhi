@@ -1,0 +1,28 @@
+### Goal Description
+
+This goal strives to measure the balance between economic growth through tourism with management and preservation of natural resources and Hawaiian culture. This is measured through tracking ocean and coastal management areas to preserve the environment and provide visitor ecotourism opportunities and the sentiment of residents of tourism.
+
+
+### Model
+
+Sustainable tourism was calculated as the average of three components: economic benefit, resident sentiment, and protection of coastal and nearshore areas. 
+
+
+Economic benefit was scored based on county estimated visitor contribution to GDP. Visitor contribution to the economy was measured in USD inflation adjusted (real) GDP from. The reference level for visitor contribution to economic growth was set at $13,280 mil by 2020 or 2.5% annual growth rate (HTA 2016 Annual Report).  Visitor generated GDP was estimated to county level by weighting GDP by the average daily number of visitors to each county (visitors defined as overnight stays DBEDT 2016 databook). 
+
+
+Sentiment scores the preservation of social and cultural values estimated though HTA visitor sentiment surveys. Three questions have been asked consistently and thus have time-series information and were used to score the agreement or sentiment of residents on the benefits and impact of tourism in Hawaiʻi. The three questions were to rate the level of impact and agreement on: 1. Rate the overall impact of tourism on your family, 2. Tourism has brought more benefits than problems, and 3. The island is being run for the tourists at the expense of the local people. The three questions were normalized for a score of 0 to 100 with 100 being positive or agreement on positive impacts of tourism for residence of Hawaii. Questions were averaged and scored to a reference value of 80% as set by the Hawaiʻi Tourism Authority as their target acceptance rate (HTA 2016 Annual Report).
+
+
+Environment scores the protection of the natural environment including ocean areas (Marine Protected Areas, Community Subsistence Fishing Areas, NOAA Sanctuary Areas) and coastal conservation areas. Ocean area protection data comes from the Aloha+ dashboard on marine managed areas with a reference rate of 30% nearshore areas effectively managed by 2030. Coastal conservation areas (referred to as coastal conservation districts) have vairying conservation protection and are weighted by protective ability. 
+
+### Reference points 
+
+The reference level for visitor contribution to economic growth was set at $13,280 mil by 2020 or 2.5% annual growth rate.
+
+The sentiment reference level was set to 80%.
+
+The coastal and nearshore ocean areas reference level was set to 30% of total nearshore and coastal area for each region.
+
+
+

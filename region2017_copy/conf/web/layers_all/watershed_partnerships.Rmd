@@ -1,0 +1,5 @@
+The ratio of watershed partnerships to historic native forest extent.
+
+#### Reference
+
+[Habitat Partnerships](http://hawp.org/about-us/accomplishments/ and http://geoportal.hawaii.gov/datasets/watershed-partnerships)

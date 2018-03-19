@@ -1,0 +1,5 @@
+A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stresser level set at 10% of watershed area.
+
+#### Reference
+
+[Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

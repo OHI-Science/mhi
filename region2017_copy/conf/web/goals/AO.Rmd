@@ -1,0 +1,22 @@
+### Goal Description
+
+<!---From Eva:
+This goal measures the opportunity for fishers to supply seafood for themselves, families, and community.
+--->
+
+Artisanal fishing, often also called subsistance fishing, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai'i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal is estimated based on access and the condition of the resource based on fish biomass. A score of 100 means the region is meeting the needs of artisanal fishermen and communities.
+
+### Model  
+
+This goal measures the benefits that the ocean provides for subsistence or artisanal fisheries and is measured by the access to the resource and the status of the resource. Access was defined as the percent of coastline that is accessible by fishers that is not zones as not-take Marine Protected Areas or military zones.  
+
+Resource condition was measured through a reef fish indicator. The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators). Reef Fish Biomass measures the mean biomass of all reef fishes other than sharks and jacks derived from underwater visual surveys of <30m hardbottom habitats. Survey biomass per location is compared against a meaningful local baseline (to account for inherent environmental and habitat differences among locations). High scores therefore represent populations that are close to their natural carrying capacity. Reef Fish Sustainability represents an index of mean size for targeted reef fish species relative to their size at first maturity. High scores therefore represent assemblages where there are still many of large individuals of targets species, those large fishes being particularly important components of the breeding stock. The Reef Fish Predators indicator is made up of 2 components: ‘reef sharks’ and ‘other reef piscivores’ with data taken respectively from towed-diver and point-count surveys by divers. High scores represent locations where upper trophic level fishes are still a conspicuous and ecologically important component of the reef ecosystem.
+
+### Reference points 
+
+The reference condition for accessibility is 100% of the fishable shoreline (fishable shoreline excludes high cliffs).
+
+The reference point for resource is an adjusted fish indicator score that compares current levels to expected levels.
+
+
+
