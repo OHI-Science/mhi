@@ -1,5 +1,0 @@
-The Shannon's Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.
-
-#### Reference
-
-[global OHI](http://www.oceanhealthindex.org/methodology/components)

@@ -1,5 +1,0 @@
-Soft bottom habitat extent was derived from the cumulative impact habitat maps.
-
-#### Reference
-
-[Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)

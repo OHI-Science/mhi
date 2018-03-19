@@ -1,5 +1,0 @@
-The number of visitors per km of coastline that surf or body-board per county standardized to the regional maximum which occurs on Oahu.
-
-#### Reference
-
-[Hawaii Tourism Authority Visitor Statistic Tables 2017](http://www.hawaiitourismauthority.org/research/reports/visitor-satisfaction/)

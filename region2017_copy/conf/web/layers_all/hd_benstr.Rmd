@@ -1,5 +1,0 @@
-Benthic structures were defined as manmade features in the offshore environment that disrupt benthic habitat and include moored buoys, channel markers, offshore cables and pipelines.
-
-#### Reference
-
-[Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

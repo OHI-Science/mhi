@@ -1,5 +1,0 @@
-The percent of native forests dominated by non-native species.
-
-#### Reference
-
-[TNC 2010](NA)

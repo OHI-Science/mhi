@@ -1,5 +1,0 @@
-The inflation adjusted usd.
-
-#### Reference
-
-[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2015/)

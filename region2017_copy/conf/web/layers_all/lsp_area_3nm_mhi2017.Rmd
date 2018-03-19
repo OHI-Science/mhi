@@ -1,5 +1,0 @@
-The offshore area to 3nm.
-
-#### Reference
-
-[EEZ boundary](http://geoportal.hawaii.gov/)

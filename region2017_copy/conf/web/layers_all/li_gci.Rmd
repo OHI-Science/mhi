@@ -1,5 +1,0 @@
-The Global Competitiveness Index (GCI) scores from the World Economic Forum.
-
-#### Reference
-
-[global OHI](http://www.oceanhealthindex.org/methodology/components)

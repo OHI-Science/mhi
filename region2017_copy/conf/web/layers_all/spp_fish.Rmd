@@ -1,5 +1,0 @@
-The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).
-
-#### Reference
-
-[NOAA CREP](NA)

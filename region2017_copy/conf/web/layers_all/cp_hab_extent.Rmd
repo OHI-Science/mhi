@@ -1,5 +1,0 @@
-The area of coastal wetlands (within 1 km of the coastline).
-
-#### Reference
-
-[NOAA C-CAP 2010/2011](https://coast.noaa.gov/ccapatlas/)

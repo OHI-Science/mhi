@@ -1,5 +1,0 @@
-Wetland condition was calculated based on percent of historical extent.
-
-#### Reference
-
-[Van Rees, CB and Reed M (2014) Wetland loss in Hawaii since human settlement. Wetlands 34:335-350](https://www.researchgate.net/profile/J_Reed/publication/259637070_Wetland_Loss_in_Hawai'i_Since_Human_Settlement/links/54202e380cf241a65a1b0d1c.pdf)

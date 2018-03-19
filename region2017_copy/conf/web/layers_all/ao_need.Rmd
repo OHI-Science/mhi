@@ -1,5 +1,0 @@
-Marine Recreational Fishery Survey (hmrfs) data on the percent of households that fish. This information is used to estimate the need per county.
-
-#### Reference
-
-[http://www.fpir.noaa.gov/SFD/SFD_rcf_hmrfs.html](http://www.fpir.noaa.gov/SFD/SFD_rcf_hmrfs.html)

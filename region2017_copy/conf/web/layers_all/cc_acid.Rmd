@@ -1,5 +1,0 @@
-Ocean acidification pressure scaled using biological thresholds.
-
-#### Reference
-
-[Halpern et al. 2008](http://www.oceanhealthindex.org/methodology/components)

@@ -1,5 +1,0 @@
-The unemployment rate.
-
-#### Reference
-
-[DBEBT](http://dbedt.hawaii.gov/economic/databook/db2015/)

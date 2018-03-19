@@ -1,5 +1,0 @@
-The coastal population density (withing 25 mi from shore)  as a proxy for intertidal habitat destruction, calculated as resident population per km of shoreline and standardized by maximum regional score.
-
-#### Reference
-
-[DBEDT average resident population per county](http://dbedt.hawaii.gov/economic/databook/db2015/)

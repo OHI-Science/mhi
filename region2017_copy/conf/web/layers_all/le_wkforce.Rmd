@@ -1,5 +1,0 @@
-The total number of jobs per county.
-
-#### Reference
-
-[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2015/)

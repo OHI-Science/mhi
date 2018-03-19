@@ -1,5 +1,0 @@
-A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation & subsistence) catch.
-
-#### Reference
-
-[McCoy and Williams in press](NA)

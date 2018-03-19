@@ -1,5 +1,0 @@
-The current number of fishponds.
-
-#### Reference
-
-[TNC updated fishpond layer](NA)

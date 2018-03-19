@@ -1,5 +1,0 @@
-The proportion of jobs in each sector per region.
-
-#### Reference
-
-[NOAA ENOW](https://coast.noaa.gov/digitalcoast/tools/enow.html)
