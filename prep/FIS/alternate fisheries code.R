@@ -1,6 +1,7 @@
-#Alternate nearshore fisheries code
-
-reef = SelectLayersData(layers, layers='fis_reef_catch', narrow = TRUE) %>%
+#Alternate nearshore fisheries code for reef fish only
+FIS = function(layers, status_year=2016){
+#reef catch data
+  reef = SelectLayersData(layers, layers='fis_reef_catch', narrow = TRUE) %>%
   select(
     rgn_id    = id_num,
     key_sp = category,

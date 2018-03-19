@@ -1,7 +1,5 @@
 FIS = function(layers, status_year=2016){
   #catch data
- FIS = function(layers, status_year=2016){
-  #catch data
   reef = SelectLayersData(layers, layers='fis_reef_catch', narrow = TRUE) %>%
     select(
       rgn_id    = id_num,
@@ -696,8 +694,8 @@ FP = function(layers, scores){
 AO = function(layers){
 
   ao_data <- SelectLayersData(layers, layers = 'ao_resource', narrow=TRUE) %>% ##resource measured as biomass of resource fish
-    select(region_id=id_num,bio=val_num,trend=category)%>%
-    left_join(r, by="region_id")
+    select(region_id=id_num,bio=val_num,trend=category)
+
 
   ao_data$bio<-ao_data$bio/100
 
@@ -1382,7 +1380,7 @@ LIV_ECO = function(layers, subgoal){ # LIV_ECO(layers, subgoal='LIV')
     dplyr::mutate(score = ifelse(score > 1, 1, score)) %>%
     dplyr::mutate(score = ifelse(score < (-1), (-1), score)) %>%
     mutate(
-      goal      = 'LIV',
+      goal      = 'ECO',
       dimension = 'trend') %>%
     dplyr::select(
       goal, dimension,
