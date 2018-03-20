@@ -1376,8 +1376,8 @@ LE = function(scores, layers){
   return(scores)
 }
 
-#this is the "Connection to Place" subgoal of sense of place
-CON = function(layers, status_year=2014){
+#this is the new recreation goal formerly the connection to place subgoal of SP
+RC = function(layers, status_year=2014){
 
   con_rec = SelectLayersData(layers, layers='con_participation') %>%
     dplyr::select(rgn_id = id_num,  percent = val_num)
@@ -1418,178 +1418,13 @@ CON = function(layers, status_year=2014){
 
   # assemble dimensions
   scores <- rbind(status, trend) %>%
-    mutate(goal='CON')
+    mutate(goal='RC')
   scores <- data.frame(scores)
 
   return(scores)
 
 
 }
-
-
-LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
-
-      trend_years = (status_year-4):status_year
-  #updated with regional protected areas offshore and inshore and number of preserved historic sites/sacred places
-  # select data ----
-
-  #listed historic places (dbedt data section 7.46)
-  #layers_data = SelectLayersData(layers, layers=c('lsp_historic_sites'))#inland protected conservation districts
-
-  # hs<- layers_data %>%
-  #   select(region_id = id_num,  year, sites=val_num) ##need to get support on choosing a reference point
-
- #managed marine areas
-  r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
-  #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
-
-  layers_data = SelectLayersData(layers, layers=c('lsp_mma_mhi2017'))#marine managed areas
-
-  mpa<- layers_data %>%
-    select(rgn_id = id_num, mpa=val_num)
-
-
-  #layers_data = SelectLayersData(layers, layers=c('lsp_mpa_nearshore'))#nearshore protected areas
-
-  #mpa<- layers_data %>%
-  #  select(region_id = id_num, type=category, mpa=val_num)
-
-  layers_data = SelectLayersData(layers, layers=c('lsp_coastal_conservation'))#inland protected conservation districts
-
-  #use if wanting to weight MPAʻs by protective ability - we did not use because wanted score
-  #to be consistent with the states 30 by 30 management goals
-  #rank <- c('zoned_w_no_take'            = 1,
-  #          'multiple_use'            = .5)
-
-  #mpa <- mpa%>%
-  #  filter(type %in% names(rank)) %>%
-  #  mutate(
-  #    rank = rank[type],
-  #    mpa = ifelse(mpa==0, NA, mpa))%>%
-  #  mutate(mpa_weighted = rank*mpa)%>%
-  #  filter(!is.na(mpa_weighted))%>%
-  #  group_by(region_id)%>%
-  #  summarize(mpa_weighted=sum(mpa_weighted))%>%
-  #  select(rgn_id=region_id, mpa=mpa_weighted)
-
-  #mpa<-as.data.frame(mpa)
-
-  ry <- layers_data %>%
-    select(region_id = id_num, condist = category, km2=val_num)
-
-
-
-
-
-  ## set ranks for each conservation district protective ability
-  rank <- c('P'            = 1,
-            'L'            = .9,
-            'R'            = .8,
-            'G'            =.7,
-            'SS'           =.6)
-
-  ## limit to conservation districts R, L, R, G, and SS, and add rank
-  ry <- ry %>%
-    filter(condist %in% names(rank)) %>%
-    mutate(
-      rank = rank[condist],
-      extent = ifelse(km2==0, NA, km2))%>%
-    mutate(weighted_cont = rank*extent)%>%
-    filter(!is.na(weighted_cont))
-
-   ry <- ry %>%
-    group_by(region_id) %>%
-    mutate(cp=sum(weighted_cont)) %>%
-    select(rgn_id=region_id, cp)
-
-  ry<-ry[1:4,]
-
-  r <- r %>%
-    dplyr::select(region_id = id_num, val_num, layer) %>%
-    spread(layer, val_num) %>%
-    select(rgn_id=region_id, area_inland1km = lsp_area_1km_coast,
-           area_offshore3nm = lsp_area_3nm_mhi2017)
-
-
-   ry <- ry %>%
-    left_join(mpa)
-
-  # fill in time series for all regions
-
-r.yrs <-r %>%
-  left_join(ry, by=c('rgn_id'))
-
-  # get percent of total area that is protected for inland1km (cp) and offshore3nm (cmpa) per year (note currently do not have time series data for protection)
-  # and calculate status score
-r.yrs = r.yrs %>%
-  mutate(pct_cp    = pmin(cp   / area_inland1km   * 100, 100),
-         pct_cmpa  = pmin(mpa / area_offshore3nm * 100, 100),
-         prop_protected    = ( pmin(pct_cp / ref_pct_cp, 1) + pmin(pct_cmpa / ref_pct_cmpa, 1) ) / 2) %>%
-  filter(!is.na(prop_protected))
-
-# extract status based on specified year
-  r.status = r.yrs %>%
-    #filter(year==status_year) %>%
-    select(region_id=rgn_id, status=prop_protected) %>%
-    mutate(status=status*100) %>%
-    select(region_id, score = status) %>%
-    mutate(dimension = "status")
-
-  # calculate trend
-
-  #adj_trend_year <- min(trend_years)
-
-  #r.trend =   r.yrs %>%
-  #  group_by(region_id) %>%
-  #  do(mdl = lm(prop_protected ~ year, data=., subset=year %in% trend_years),
-  #     adjust_trend = .$prop_protected[.$year == adj_trend_year]) %>%
-  #  summarize(region_id, trend = ifelse(coef(mdl)['year']==0, 0, coef(mdl)['year']/adjust_trend * 5)) %>%
-  #  ungroup() %>%
-  #  mutate(trend = ifelse(trend>1, 1, trend)) %>%
-  #  mutate(trend = ifelse(trend<(-1), (-1), trend)) %>%
-  #  mutate(trend = round(trend, 4)) %>%
-  #  select(region_id, score = trend) %>%
-  #  mutate(dimension = "trend")
-
-
- #currently do not have year or time series data so setting trend to 0
-    r.trend<-r.yrs %>%
-    select(region_id=rgn_id) %>%
-    mutate(score=0.31) %>% #comes from state marine managed area dashboard data estimates percent of marine managed areas per year from 1972-2009 in relation to 30% goal
-    mutate(dimension = "trend")
-
-  ## reference points
-  rp <- read.csv(file.path( 'temp/referencePoints.csv'), stringsAsFactors=FALSE) %>%
-    rbind(data.frame(goal = "LSP", method = paste0(ref_pct_cmpa, "% marine protected area; ",
-                                                   ref_pct_cp, "% coastal protected area"),
-                     reference_point = "varies by area of region's eez and 1 km inland"))
-  write.csv(rp, file.path( 'temp/referencePoints.csv'), row.names=FALSE)
-
-
-  # return scores
-  scores = bind_rows(r.status, r.trend) %>%
-    mutate(goal = "LSP")
-  return(scores[,c('region_id','goal','dimension','score')])
-}
-
-SP = function(scores){
-
-  ## to calculate the four SP dimesions, average those dimensions for CON and LSP
-  s <- scores %>%
-    filter(goal %in% c('CON','LSP'),
-           dimension %in% c('status', 'trend', 'future', 'score')) %>%
-    group_by(region_id, dimension) %>%
-    summarize(score = mean(score, na.rm=TRUE)) %>%
-    ungroup() %>%
-    arrange(region_id) %>%
-    mutate(goal = "SP") %>%
-    select(region_id, goal, dimension, score) %>%
-    data.frame()
-
-  # return all scores
-  return(rbind(scores, s))
-}
-
 
 
 HAB = function(layers){

@@ -13,7 +13,6 @@ HAB,beach,x,,x,,x,,,,,,,,,,,,
 HAB,soft_bottom,x,,x,,x,x,,,x,x,,,,,,,
 SPP,,x,x,x,,x,x,,,x,x,x,,x,,,,
 LIV,,x,x,,,,,,,x,,,x,,,,x,x
-LSP,,x,x,x,,,,,,,,,,,,,,
 MAR,,,x,,,,,,,,,,,,,,,
 TR,,,x,,x,x,x,,x,x,,,x,,,,,
-CON,,,x,,x,x,,,,,,,,,,,,
+RC,,,x,,x,x,,,,,,,,,,,,
