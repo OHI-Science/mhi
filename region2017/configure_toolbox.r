@@ -10,14 +10,13 @@
   ## 3. source configure_repo.r to ensure proper configuration
   ## 4. develop goal models in functions.r, running individual goal models line by line
 
-## load required packages after checking whether they are already installed
-pkgs_required <- c('ohicore', 'tidyverse', 'stringr', 'zoo')
-pkgs_check <- pkgs_required[!pkgs_required %in% (.packages())]
-pkgs_installed <- sapply(pkgs_check, FUN = function(x) library(x, character.only = TRUE))
-
 ## set working directory
 setwd("~eschemmel/Documents/github/mhi/region2017")
 
+## load required packages after checking whether they are already installed
+library(ohicore)   # install_github('ohi-science/ohicore')
+library(tidyverse) # install.packages('tidyverse')
+library(stringr)   # install.packages('stringr')
 
 ## load scenario configuration
 conf = ohicore::Conf('conf')
