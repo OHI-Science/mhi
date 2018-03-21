@@ -166,9 +166,9 @@ PlotFlower <- function(region_plot          = NA,
   #
 
   # overwriting angles to fine-tune for MHI
-  supra_df$myAng[1] = -50
-  supra_df$myAng[2] = 130
-  supra_df$myAng[4] = 245
+  supra_df$myAng[supra_df$name_supra == 'Food Provision\n'] = -50
+  supra_df$myAng[supra_df$name_supra == 'Livelihoods & Economies\n'] = 130
+  supra_df$myAng[supra_df$name_supra == 'Biodiversity\n'] = 245
 
 
   ## more labeling and parameters ----
@@ -216,7 +216,7 @@ PlotFlower <- function(region_plot          = NA,
 
 
   ## loop through to save flower plot for each region ----
-  for (region in region_plots) { # region = 301
+  for (region in region_plots) { # region = 0
 
     ## filter region info, setup to plot ----
     plot_df <- score_df %>%
@@ -318,12 +318,19 @@ PlotFlower <- function(region_plot          = NA,
                 size = 3,
                 color = dark_line)
 
+    ## troubleshooting 3/21
+    # supra_df
+    # name_supra pos_supra myAng
+    # 1           Food Provision\n      5.75   -50
+    # 2  Livelihoods & Economies\n      3.50    58
+    # 3             Biodiversity\n      0.50   245
+
 
     ## position supra arc and names. x is angle, y is distance from center
     supra_rad  <- 145  ## supra goal radius from center
 
+    ## add supragoal arcs
     plot_obj <- plot_obj +
-      ## add supragoal arcs
       geom_errorbar(data = supra_df, inherit.aes = FALSE,
                     aes(x = pos_supra, ymin = supra_rad, ymax = supra_rad),
                     size = 0.25, show.legend = NA)
