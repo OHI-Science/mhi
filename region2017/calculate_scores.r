@@ -41,7 +41,7 @@ unlink(fp_real)
 
 ## temporarily change CON subgoal scores to NA (to reset, rerun CalculateAll and rewrite scores.csv)
 #scores$score[scores$goal == "CON"] <- NA
-write.csv(scores, 'scores.csv', na='', row.names=FALSE)
+# write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 
 ## now plot
 PlotFlower(#region_plot = 0,
