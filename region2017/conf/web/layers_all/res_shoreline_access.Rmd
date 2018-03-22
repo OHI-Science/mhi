@@ -1,0 +1,5 @@
+Estimated fishery access land based fishing based on shoreline access (marine managed areas and military areas, roads, and steepness of shoreline.
+
+#### Reference
+
+[Modified from Ocean Tipping Points](NA)

@@ -19,15 +19,15 @@ output:
 ```
 
  
-# access 
-####[ao_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/ao_access_mhi2017.csv) {-} 
+# access to shoreline 
+####[res_shoreline_access](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/res_shoreline_access_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ao_access.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/res_shoreline_access.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -60,22 +60,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/mar_fishpond_current.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# area within 1 km of the shore 
-####[lsp_area_1km_coast](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_1km_coast_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_area_1km_coast.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -280,22 +264,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/g_cites.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# coastal conservation districts 
-####[lsp_coastal_conservation](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_coastal_conservation_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_coastal_conservation.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -963,22 +931,6 @@ output:
 ``` 
 
  
-# marine managed areas 
-####[lsp_mma_mhi2017](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_mma_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_mma_mhi2017.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # Mo'omeheu - Value of History and Culture 
 ####[sp_OHA_culture](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/sp_OHA_culture.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -1100,22 +1052,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cc_warm.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# offshore area to 3nm 
-####[lsp_area_3nm_mhi2017](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/lsp_area_3nm_mhi2017.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/lsp_area_3nm_mhi2017.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -1864,6 +1800,90 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/ss_spi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# wetland condition 
+####[hab_health_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_health_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_health_mhi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# wetland trend 
+####[cp_hab_trend](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_trend.Rmd", x)
+```
+ 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_trend_mhi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# wetland trend 
+####[cp_hab_trend](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/cp_hab_trend_mhi2017.csv) {-} 
+####[hab_trend_mhi](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/hab_trend_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/cp_hab_trend.Rmd", x)
+```
+ 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/hab_trend_mhi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# workforce 
+####[le_wkforce](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/le_wkforce_mhi2017.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/le_wkforce.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
