@@ -14,10 +14,33 @@ library(stringr)
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
 
+## source joined layers information and tidy up ----
 source(
   "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
 
+layers_join <- layers_join %>%
+  filter(targets != "spatial",
+         targets != "pressure resilience")
 
+## join full name from conf file ----
+conf_info <- read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/goals.csv')
+
+## join target names
+layers_join_target_names <- layers_join %>%
+  filter(!targets %in% c("pressure", "resilience")) %>% 
+  left_join(conf_info %>%
+              select(targets = goal, 
+                     targets_name = name), 
+            by = c('targets'))
+
+## rbind back to pressures and resilience
+layers_join <- layers_join %>%
+  filter(targets %in% c("pressure", "resilience")) %>%
+  mutate(targets_name = stringr::str_to_title(targets)) %>%
+  rbind(layers_join_target_names)
+
+
+## format for kable ----
 layers_join_kable <- layers_join %>%
   mutate(Layer = sprintf("[%s](%s/%s)", name, dir_layers_gh, filename_prep),
          Reference = if_else(!is.na(bib2), 
@@ -26,20 +49,20 @@ layers_join_kable <- layers_join %>%
   mutate(Reference = str_replace_all(Reference, "@NA", "")) %>% # blanks if @NAs
   select(Layer, 
          Description = description, 
-         Targets = targets, 
+         Targets = targets_name,
+         Targets_id = targets, # keep it temporarily for arranging below
          Reference)
 
 ## clean up Targets column 
-targets_order <-  c("AO", "CON", "CP", "FP", "FIS", "MAR", "HAB", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "resilience")
+targets_order <-  c("FP", "FIS", "AO", "MAR", "HAB", "CP", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "resilience")
  
 ## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
 layers_join_kable <- layers_join_kable %>%
-  filter(Targets != "spatial",
-         Targets != "pressure resilience",
-         Targets != "LE",
-         Targets != "FP",) %>%
-  mutate(Targets =  factor(Targets, levels = targets_order)) %>%
-  arrange(Targets)    
+  filter(Targets_id != "LE",
+         Targets_id != "FP") %>%
+  mutate(Targets_id =  factor(Targets_id, levels = targets_order)) %>%
+  arrange(Targets_id) %>%
+  select(-Targets_id)
 
 
 knitr::kable(layers_join_kable)
