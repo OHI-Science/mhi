@@ -1065,7 +1065,7 @@ growth$n_score<-growth$n_score*100
 
 
 #need to join economic indicators of tourism vs & growth
- econ<-join(vs,growth, by=c("year", "rgn_id"))
+ econ<-left_join(vs,growth, by=c("year", "rgn_id"))
  econ<-econ %>%
    mutate(econ_score=(sp_score+n_score)/2) %>%
    select(year, rgn_id, econ_score)
