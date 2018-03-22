@@ -68,7 +68,6 @@ layers_join_kable <- layers_join_kable %>%
 knitr::kable(layers_join_kable)
 readr::write_csv(layers_join_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
 
-
 ```
 
 ## References
