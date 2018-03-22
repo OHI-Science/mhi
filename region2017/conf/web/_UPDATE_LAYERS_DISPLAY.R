@@ -9,6 +9,8 @@ source("conf/web/create_layers_rmds.R")
 source("conf/web/combine_layers_rmds.R")
 # This will check if there are any mismatches between layers listed in the `layers_join` object and the layer .Rmd files
 
+##3.5 need to push to get layers to github
+
 ## 4. Inspect layers_all.Rmd and knit
 
 ## 5. Commit and push
