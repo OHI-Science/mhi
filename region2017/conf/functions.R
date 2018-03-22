@@ -995,7 +995,7 @@ CP <- function(layers){
 }
 
 
-TR = function(layers, status_year=2015) {
+TR = function(layers, status_year=2016) {
 #formula
   #t_sentiment is average score our of 100 of three consistent HTA questions on resident feelings towards tourism
   #t_sentiment reference from HTA report goal of 80% of Hawaii residents that agree that tourism has brought more benefits than problems
@@ -1019,7 +1019,6 @@ TR = function(layers, status_year=2015) {
     select(
       year,
       rgn_id    = id_num,
-      value      = category,
       county_gdp         = val_num)
   env = SelectLayersData(layers, layers='t_env_sus', narrow = TRUE) %>% #update to include %of priority watersheds protected=freshwater capacity
     select(
@@ -1027,18 +1026,26 @@ TR = function(layers, status_year=2015) {
       rgn_id    = id_num,
       percent         = val_num)
 
+  vs = SelectLayersData(layers, layers='st_visitor_spending', narrow = TRUE) %>% #update to include %of priority watersheds protected=freshwater capacity
+    select(
+      year,
+      rgn_id    = id_num,
+      percent         = val_num)
+
+
  # need to scale the t_sentiment score to a reference level of 80 or 80%
 sent$score<-sent$value/80*100
+sent<-subset(sent, year!=2011)
 
   #need to scale estimated county growth to a reference of 2.5% increase per year
 
 growth<-growth %>% group_by(rgn_id) %>%
-  arrange(value)%>%
+  arrange(rgn_id, year)%>%
   mutate(growth_rate=((county_gdp-lag(county_gdp,1))/lag(county_gdp,1))) #takes the difference between county gdp each year
-
+#fill in 2011 with NA or remove from data
 
 #growth rate calucaltion not accurate for 2010 - remove to get last 5 years
-growth<-subset(growth, year!=2010)
+growth<-subset(growth, year!=2011)
 #need to normalize score between 0 and 1.
 #if greater than 2.5% than score =1
 
@@ -1048,6 +1055,21 @@ growth$n_score<-ifelse(growth$growth_rate>=0, 1,ifelse(growth$growth_rate<0.0 & 
 #if growth is <0 to -0.025% or more gets score of 0.9. Loss 10 points for each 2.5%.
 
 growth$n_score<-growth$n_score*100
+
+#visitor spending#
+ str(vs)
+ vs<-subset(vs, year!=2017) #removing 2017 since it is not in the other ST data to keep same time range
+ vs$sp_score<-ifelse(vs$percent>=0, 1,ifelse(vs$percent<0.0 & vs$percent>=-2.5, .90, 0.8))#if growth rate is >0% than perfect score = 1
+ #if average visitor spending is <0 to -0.025% or more gets score of 0.9. Loss 10 points for each 2.5%.
+ vs$sp_score<- vs$sp_score*100
+
+
+#need to join economic indicators of tourism vs & growth
+ econ<-join(vs,growth, by=c("year", "rgn_id"))
+ econ<-econ %>%
+   mutate(econ_score=(sp_score+n_score)/2) %>%
+   select(year, rgn_id, econ_score)
+
 #need to score environmental data to reference - use 30%
 env$env_score<-ifelse(env$percent>30, 100,(env$percent/30)*100)
 env<-env %>%
@@ -1068,23 +1090,20 @@ tr_data <- sent %>%
   left_join(env,by=c('rgn_id', 'year'))%>%
   select(rgn_id, year, score, env_score)
 tr_data<-tr_data %>%
-  left_join(growth,by=c('rgn_id', 'year'))%>%
-  select(rgn_id, year, score, env_score,n_score)
+  left_join(econ,by=c('rgn_id', 'year'))%>%
+  select(rgn_id, year, score, env_score,econ_score)
 
 #Tourism goal is an average of the enivronmental protection, resident sentiment about tourism, and growth rate
-tr_data$status<-rowMeans(tr_data[,c("score","env_score","n_score")])
-tr_data_sum<-tr_data
+tr_data$status<-rowMeans(tr_data[,c("score","env_score","econ_score")])
+#tr_data_sum<-tr_data
 
-
-tr_data_sum <- tr_data %>%
-  group_by(rgn_id) %>%
-  summarize(status=mean(status))
 
 # ------------------------------------------------------------------------
 #Get yearly status and trend
 # -----------------------------------------------------------------------
 
-status <-  tr_data_sum %>%
+status <-  tr_data %>%
+  filter(year==status_year) %>%
   mutate(
     score     = round(status, 1),
     dimension = 'status') %>%
