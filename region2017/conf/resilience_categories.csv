@@ -16,3 +16,4 @@ fp_MPA_eez,ecological,regulatory,fishing_pressure,1
 hd_MPA_eez,ecological,regulatory,habitat_destruction,1
 res_hab_health,ecological,ecosystem,ecological,1
 hd_watersheds,ecological,regulatory,habitat_destruction,1
+res_shoreline_access,ecological,regulatory,fishing_pressure,1
