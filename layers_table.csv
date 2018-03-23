@@ -2,11 +2,10 @@ Layer,Description,Targets,Reference
 [commerical coastal pelagic fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv),Coastal pelagic fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
 [bottom fisheries commercial catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv),Bottomfish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
 [pelagic fisheries commerical catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv),Pelagic fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
-[commercial reef fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_mhi2017.csv),Reef fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
-[recreational catch multiplier](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_reef_catch_multiplier_mhi2017.csv),A multiplier for reported commercial catch of nearshore fish used to estimate the contribution of non-commercial (recreation & subsistence) catch.,Offshore Fisheries,@McCoy2018
+[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Offshore Fisheries,
+[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Offshore Fisheries,
 [sustainability of bottomfishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Bottomfish stock assessment.,Offshore Fisheries,@Langseth2018
 [sustainability of pelagic fishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Pelagic (tuna and swordfish) stock assessments.,Offshore Fisheries,@WCPFC; @ISC
-[sustainability of reef fishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Reef fish stock assessment.,Offshore Fisheries,@Nadon
 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Nearshore Fisheries,
 [resource](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_resource_mhi2017.csv),"Resource condition was measured through a reef fish indicator. The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).",Nearshore Fisheries,@Williams2015; @Williams2017
 [area of active fishponds](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_current_mhi2017.csv),The area of current fishponds per county.,Mariculture,@OgdenEnvironmentalServices1994
