@@ -2,8 +2,6 @@ Layer,Description,Targets,Reference
 [commerical coastal pelagic fisheries catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_coast_pelagic_updated_mhi2017.csv),Coastal pelagic fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
 [bottom fisheries commercial catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_deep_catch_mhi2017.csv),Bottomfish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
 [pelagic fisheries commerical catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv),Pelagic fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Offshore Fisheries,
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Offshore Fisheries,
 [sustainability of bottomfishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Bottomfish stock assessment.,Offshore Fisheries,@Langseth2018
 [sustainability of pelagic fishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Pelagic (tuna and swordfish) stock assessments.,Offshore Fisheries,@WCPFC; @ISC
 [NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Nearshore Fisheries,
@@ -64,7 +62,6 @@ Layer,Description,Targets,Reference
 [weakness of governance](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ss_wgi_gl2016.csv),The Inverse of World Governance Indicators (WGI) calculated as the six combined scores.,Pressure,@Halpern2008
 [sea level rise](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_sealevel_mhi2017.csv),The estimated pressure on coastal areas from a 3.2 ft prediction of the near future sea level rise.,Pressure,@HawaiiClimateChangeMitigationandAdaptationCommission
 [economic loss from sea level rise](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/cc_slr_eco_mhi2017.csv),The estimated economic loss from a predicted near future 3.2 ft sea level rise.,Pressure,@HawaiiClimateChangeMitigationandAdaptationCommission
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Pressure,
 [aquarium fishing](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_aquarium_mhi2017.csv),"The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR, standardized to km2 of hardbottom habitat.",Pressure,@Wedding2017; @OTP
 [reef fishing catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fp_reeffish_t_mhi2017.csv),The modeled reef fish catch from commercial and recreational fishery taking into account shoreline accessibility.,Pressure,@Wedding2017; @OTP
 [habitat destruction of benthic structures](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/hd_benstr_mhi2017.csv),"Benthic structures were defined as manmade features in the offshore environment that disrupt benthic habitat and include moored buoys, channel markers, offshore cables and pipelines.",Pressure,@Wedding2017; @OTP
