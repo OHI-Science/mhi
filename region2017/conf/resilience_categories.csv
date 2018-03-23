@@ -1,10 +1,7 @@
 layer,category,category_type,subcategory,weight
-sp_alien_species,ecological,regulatory,alien_species,1
 g_cites,ecological,regulatory,goal,0.5
 fp_mora,ecological,regulatory,fishing_pressure,1
-fp_mora_artisanal,ecological,regulatory,fishing_pressure,1
 tourism_experience,social,social,social,1
-li_sector_evenness,social,social,social,1
 wgi_all,social,social,social,1
 res_spi,social,social,social,1
 watershed_partnerships,ecological,regulatory,habitat_destruction,1

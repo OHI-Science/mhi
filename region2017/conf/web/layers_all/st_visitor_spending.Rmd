@@ -1,0 +1,5 @@
+Annual percent change in daily visitor spending
+
+#### Reference
+
+[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2016/)
