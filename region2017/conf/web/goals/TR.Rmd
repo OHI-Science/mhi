@@ -8,7 +8,7 @@ This goal strives to measure the balance between economic growth through tourism
 Sustainable tourism was calculated as the average of three components: economic benefit, resident sentiment, and protection of coastal and nearshore areas. 
 
 
-Economic benefit was scored based on county estimated visitor contribution to GDP. Visitor contribution to the economy was measured in USD inflation adjusted (real) GDP from. The reference level for visitor contribution to economic growth was set at $13,280 mil by 2020 or 2.5% annual growth rate (HTA 2016 Annual Report).  Visitor generated GDP was estimated to county level by weighting GDP by the average daily number of visitors to each county (visitors defined as overnight stays DBEDT 2016 databook). 
+Economic benefit was was scored based on two indicators of the economic contribution of visitors to Hawaiʻi: 1. Annual visitor expenditures and 2. Averge daily visitor spending.  These indicators reflect Hawaii's economic reliance on visitor spending and recognize the stakeholder identified need to reduce the social and environmental impact of visitors while maintaining visitor generated revenue through increased visitor spending and while maintaining or decreasing the annual number of visitors. Visitor expenditures were adjusted by inflation by the implicit price deflator (DBEDT 2016) . The reference level for visitor contribution to economic growth was set at 2.5% annual growth rate (HTA, 2016). Visitor generated total expenditures was estimated to county level by weighting expenditures by the average daily number of visitors to each county (visitors defined as overnight stays (DBEDT 2016)). Average daily visitor spending was assessed as the annual percent change in visitor spending.  
 
 
 Sentiment scores the preservation of social and cultural values estimated though HTA visitor sentiment surveys. Three questions have been asked consistently and thus have time-series information and were used to score the agreement or sentiment of residents on the benefits and impact of tourism in Hawaiʻi. The three questions were to rate the level of impact and agreement on: 1. Rate the overall impact of tourism on your family, 2. Tourism has brought more benefits than problems, and 3. The island is being run for the tourists at the expense of the local people. The three questions were normalized for a score of 0 to 100 with 100 being positive or agreement on positive impacts of tourism for residence of Hawaii. Questions were averaged and scored to a reference value of 80% as set by the Hawaiʻi Tourism Authority as their target acceptance rate (HTA 2016 Annual Report).
@@ -18,7 +18,7 @@ Environment scores the protection of the natural environment including ocean are
 
 ### Reference points 
 
-The reference level for visitor contribution to economic growth was set at $13,280 mil by 2020 or 2.5% annual growth rate.
+The reference level for visitor contribution to economic growth and visitor spedning was set at a 2.5% annual growth rate.
 
 The sentiment reference level was set to 80%.
 
