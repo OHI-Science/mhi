@@ -15,22 +15,22 @@ source(
 ## rename for rendering below
 layers_csv <- layers_join
 
-# ## check to make sure filenames all match
+## check to make sure filenames all match
 # check <- layers_join %>%
 #   select(targets, layer, filename_conf, filename_prep) %>%
 #   mutate(isequal = filename_conf == filename_prep)
 # 
-# ## fails our check 
+# ## fails our check
 # checkfails <- check %>%
 #   filter(is.na(isequal) | isequal == FALSE) %>%
 #   write_csv('layers_filename_fails.csv')
-#   
+
 
 
 ```
 
 
-## Food Provision: Fisheries
+## Food Provision: Offshore Fisheries
 
 ```{r, echo=FALSE, results='hide'}
 
@@ -57,6 +57,33 @@ st <- layers_csv %>%
 cat(paste(st$info, collapse="\n\n"))
 ```
 
+---- 
+## Food Provision: Nearshore Fisheries
+
+```{r, echo=FALSE, results='hide'}
+
+        x <- tempfile(fileext = 'Rmd')
+        on.exit(unlink(x))
+        download.file(file.path(short_goal_web, "AO.Rmd"), x) 
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+### Data used in model
+
+**Status & trend**
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
+st <- layers_csv %>%
+  filter(targets=="AO") %>%
+  mutate(web_name = gsub(" ", "_", name)) %>%
+  mutate(web_name = tolower(web_name)) %>%
+  mutate(web_name = gsub("/", "", web_name)) %>%
+  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
+
+cat(paste(st$info, collapse="\n\n"))
+```
 ---- 
 
 ## Food Provision: Mariculture
@@ -85,37 +112,6 @@ st <- layers_csv %>%
 
 cat(paste(st$info, collapse="\n\n"))
 ```
-
----- 
-
-## Artisanal Fishing Opportunity 
-
-```{r, echo=FALSE, results='hide'}
-
-        x <- tempfile(fileext = 'Rmd')
-        on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "AO.Rmd"), x) 
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-### Data used in model
-
-**Status & trend**
-
-```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
-st <- layers_csv %>%
-  filter(targets=="AO") %>%
-  mutate(web_name = gsub(" ", "_", name)) %>%
-  mutate(web_name = tolower(web_name)) %>%
-  mutate(web_name = gsub("/", "", web_name)) %>%
-  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
-
-cat(paste(st$info, collapse="\n\n"))
-```
-
----- 
 
 ---- 
 
@@ -241,7 +237,7 @@ cat(paste(st$info, collapse="\n\n"))
 
 ---- 
 
-## Sense of Place: Connection to Place
+## Sense of Place
 
 ```{r, echo=FALSE, results='hide'}
 
@@ -259,44 +255,13 @@ cat(paste(st$info, collapse="\n\n"))
 
 ```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
 st <- layers_csv %>%
-  filter(targets=="CON") %>%
+  filter(targets=="RC") %>%
   mutate(web_name = gsub(" ", "_", name)) %>%
   mutate(web_name = tolower(web_name)) %>%
   mutate(web_name = gsub("/", "", web_name)) %>%
   mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
 
 cat(paste(st$info, collapse="\n\n"))
-```
-
----- 
-
-## Sense of Place: Lasting Special Places
-
-```{r, echo=FALSE, results='hide'}
-
-        x <- tempfile(fileext = 'Rmd')
-        on.exit(unlink(x))
-        download.file(file.path(short_goal_web, "LSP.Rmd"), x) 
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
-### Data used in model
-
-**Status & trend**
-
-```{r, echo=FALSE, warning=FALSE, error=FALSE, results="asis"}
-st <- layers_csv %>%
-  filter(targets=="LSP") %>%
-  mutate(web_name = gsub(" ", "_", name)) %>%
-  mutate(web_name = tolower(web_name)) %>%
-  mutate(web_name = gsub("/", "", web_name)) %>%
-  mutate(info = sprintf("[%s](%s#%s) (%s): %s", name, layers_web, web_name, layer, description))
-
-cat(paste(st$info, collapse="\n\n"))
-
 ```
 
 ---- 
@@ -314,7 +279,6 @@ cat(paste(st$info, collapse="\n\n"))
 ```{r, child = x, echo=FALSE, results='asis'} 
  
 ``` 
-
 ### Data used in model
 
 **Status & trend**

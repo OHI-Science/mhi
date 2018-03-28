@@ -4,7 +4,6 @@ Layer,Description,Targets,Reference
 [pelagic fisheries commerical catch](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_pelagic_catch_mhi2017.csv),Pelagic fish catch (lbs) reported in the commercial fishery.,Offshore Fisheries,@DLNRDAR
 [sustainability of bottomfishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Bottomfish stock assessment.,Offshore Fisheries,@Langseth2018
 [sustainability of pelagic fishery](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/fis_sus_updated_mhi2017.csv),Pelagic (tuna and swordfish) stock assessments.,Offshore Fisheries,@WCPFC; @ISC
-[NA](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/NA),NA,Nearshore Fisheries,
 [resource](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/ao_resource_mhi2017.csv),"Resource condition was measured through a reef fish indicator. The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).",Nearshore Fisheries,@Williams2015; @Williams2017
 [area of active fishponds](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_current_mhi2017.csv),The area of current fishponds per county.,Mariculture,@OgdenEnvironmentalServices1994
 [fishpond status](https://github.com/OHI-Science/mhi/blob/master/region2017/layers/mar_fishpond_health_mhi2017.csv),Ratio of active fishponds to historical number,Mariculture,@OgdenEnvironmentalServices1994
