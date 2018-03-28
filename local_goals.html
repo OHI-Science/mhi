@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -332,64 +334,50 @@ div.tocify {
 <p><a href="http://ohi-science.org/mhi/layers.html#pelagic_fisheries_commerical_catch">pelagic fisheries commerical catch</a> (fis_pelagic_catch): Pelagic fish catch (lbs) reported in the commercial fishery.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#sustainability_of_bottomfishery">sustainability of bottomfishery</a> (fis_sus): Bottomfish stock assessment.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#sustainability_of_pelagic_fishery">sustainability of pelagic fishery</a> (fis_sus): Pelagic (tuna and swordfish) stock assessments.</p>
-<table style="width:7%;">
-<colgroup>
-<col width="6%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>## Food Provision: Nearshore Fisheries</td>
-</tr>
-<tr class="even">
-<td>### Goal Description</td>
-</tr>
-<tr class="odd">
-<td><!---Need to update the title of this goal to Nearshore Fisheries
----></td>
-</tr>
-<tr class="even">
-<td>Nearshore fisheries, often also called subsistance fisheries, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai’i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal is estimated based the condition of the fisheries resource.</td>
-</tr>
-<tr class="odd">
-<td>### Model This goal is in the process of being developed. Resource condition will be measured through bioindicators developed by the Division of Aquatic Resources and the Hawaiʻi Monitoring and Research Collaborative.</td>
-</tr>
-<tr class="even">
-<td>### Reference points</td>
-</tr>
-<tr class="odd">
-<td>Reference points are being developed.</td>
-</tr>
-<tr class="even">
-<td>### Data used in model</td>
-</tr>
-<tr class="odd">
-<td><strong>Status &amp; trend</strong></td>
-</tr>
-<tr class="even">
-<td><a href="http://ohi-science.org/mhi/layers.html#resource">resource</a> (ao_resource): Resource condition was measured through a reef fish indicator. The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).</td>
-</tr>
-</tbody>
-</table>
+<hr />
+</div>
+</div>
+<div id="food-provision-nearshore-fisheries" class="section level2">
+<h2>Food Provision: Nearshore Fisheries</h2>
+<div id="goal-description-1" class="section level3">
+<h3>Goal Description</h3>
+<!---Need to update the title of this goal to Nearshore Fisheries
+--->
+<p>Nearshore fisheries, often also called subsistance fisheries, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai’i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal is estimated based the condition of the fisheries resource.</p>
+</div>
+<div id="model-1" class="section level3">
+<h3>Model</h3>
+<p>This goal is in the process of being developed. Resource condition will be measured through bioindicators developed by the Division of Aquatic Resources and the Hawaiʻi Monitoring and Research Collaborative.</p>
+</div>
+<div id="reference-points-1" class="section level3">
+<h3>Reference points</h3>
+<p>Reference points are being developed.</p>
+</div>
+<div id="data-used-in-model-1" class="section level3">
+<h3>Data used in model</h3>
+<p><strong>Status &amp; trend</strong></p>
+<p><a href="http://ohi-science.org/mhi/layers.html#resource">resource</a> (ao_resource): Resource condition was measured through a reef fish indicator. The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).</p>
+<hr />
 </div>
 </div>
 <div id="food-provision-mariculture" class="section level2">
 <h2>Food Provision: Mariculture</h2>
-<div id="goal-description-1" class="section level3">
+<div id="goal-description-2" class="section level3">
 <h3>Goal Description</h3>
 <p>This subgoal measures the sustainable production potential of seafood from fishponds, known locally as loko ʻia, and current production of seafood weighted by a sustainability score.</p>
 </div>
-<div id="model-1" class="section level3">
+<div id="model-2" class="section level3">
 <h3>Model</h3>
 <p>The scores are an average of the state reported seafood produciton (mariculture) and fishpond potential.</p>
 <p>The species that are reported on the State Department of Land and Natural Resources Division of Aquatic Resources that are produced locally for seafood consumption include: abalone (Haliotus sp), oysters (Crassostrea gigas and Crassostrea sikamea), clams (Venerupis philippinarum), kahala (Seriola dumerili), Pacific white shrimp (Penaeus vannamei), and limu (Gracilaria sp.). Moi (Pacific Threadfin) is not on the State of Hawaii Department of Agriculture list but it is produced locally for out planting in fishponds.</p>
 <p>The sustainability of the species produced was assessed as the average of the feed sustainability score (0 protein based, 1 plant based; 0 imported feed, 1 local feed) and the biosecurity risk scored as species status (1 native, 0.75 introduced, or 0 invasive) and the pathogen and virus susceptibility (0 highly susceptible, 0.5 susceptible but preventative measures in place (biosecurity practices such as sterilization and wastewater treatment practices).</p>
 <p>The production (lbs of seafood) is reported at the state level to prevent disclosure of sensitive information. To get county level estimates of production the lbs of finfish and shellfish produced at the state level were multiplied by the estimated number of finfish and shellfish operators by county. The number of operators are reported to USDA via census every 5 years (2002, 2007, 2012) (<a href="https://www.nass.usda.gov/Statistics_by_State/Hawaii/" class="uri">https://www.nass.usda.gov/Statistics_by_State/Hawaii/</a> ). To fill in annual data gaps linear regression models were used.</p>
 </div>
-<div id="reference-points-1" class="section level3">
+<div id="reference-points-2" class="section level3">
 <h3>Reference points</h3>
 <p>The mariculture score is calculated as the ratio of the lbs produced by county to the maximum lbs produced across regions.The fishpond score is the ratio of fishponds that are operation or being restored to 30% of the historic number. A region score will reach 100 when the region produces the maximum seafood produciton for the state and has a mimimum of 30% of the traditional fishponds restored or in the process of being restored.</p>
 </div>
-<div id="data-used-in-model-1" class="section level3">
+<div id="data-used-in-model-2" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#area_of_active_fishponds">area of active fishponds</a> (mar_fishpond_current): The area of current fishponds per county.</p>
@@ -402,7 +390,7 @@ div.tocify {
 </div>
 <div id="coastal-protection" class="section level2">
 <h2>Coastal Protection</h2>
-<div id="goal-description-2" class="section level3">
+<div id="goal-description-3" class="section level3">
 <h3>Goal Description</h3>
 <!---From Eva:
 
@@ -410,11 +398,11 @@ This goal measures the natural protection of coastal habitats measured as the ex
 --->
 <p>This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas. A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safegaurd coastlines.</p>
 </div>
-<div id="model-2" class="section level3">
+<div id="model-3" class="section level3">
 <h3>Model</h3>
 <p>The model is based on the health of the habitats that provide shoreline protection. Habitats that are included and provide substantial coastal protection are: beaches, coral reefs, and wetlands.</p>
 </div>
-<div id="reference-points-2" class="section level3">
+<div id="reference-points-3" class="section level3">
 <h3>Reference points</h3>
 <p>Coral Reefs</p>
 <p>Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu). The coral reef health index comes from the NOAA Hawai’i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).</p>
@@ -423,7 +411,7 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <p>Wetlands</p>
 <p>Wetland condition was measured as the percent loss of historical coastal wetlands (Van Rees and Reed 2014). Wetland extent was assessed from National Oceanic and Atmospheric Administration Coastal Change Analysis Program (NOAA C-CAP) data clipped to within 1 km inland from the coast to capture coastal wetlands extent. All estuary categories were included in this assessment that were within 1km of the coastline as these habitats within 1km of the shoreline will mitigate against flooding and wave inundation. NOAA C-CAP surveys are repeated every 5 years to measure changes in land cover. The trend in coastal wetlands was assessed as the difference in coastal wetland extend from 1992 to 2011.</p>
 </div>
-<div id="data-used-in-model-2" class="section level3">
+<div id="data-used-in-model-3" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#reef_condition">reef condition</a> (cp_hab_condition): The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.</p>
@@ -444,24 +432,24 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </div>
 <div id="sustainable-tourism" class="section level2">
 <h2>Sustainable Tourism</h2>
-<div id="goal-description-3" class="section level3">
+<div id="goal-description-4" class="section level3">
 <h3>Goal Description</h3>
 <p>This goal strives to measure the balance between economic growth through tourism with management and preservation of natural resources and Hawaiian culture. This is measured through tracking ocean and coastal management areas to preserve the environment and provide visitor ecotourism opportunities and the sentiment of residents of tourism.</p>
 </div>
-<div id="model-3" class="section level3">
+<div id="model-4" class="section level3">
 <h3>Model</h3>
 <p>Sustainable tourism was calculated as the average of three components: economic benefit, resident sentiment, and protection of coastal and nearshore areas.</p>
 <p>Economic benefit was was scored based on two indicators of the economic contribution of visitors to Hawaiʻi: 1. Annual visitor expenditures and 2. Averge daily visitor spending. These indicators reflect Hawaii’s economic reliance on visitor spending and recognize the stakeholder identified need to reduce the social and environmental impact of visitors while maintaining visitor generated revenue through increased visitor spending and while maintaining or decreasing the annual number of visitors. Visitor expenditures were adjusted by inflation by the implicit price deflator (DBEDT 2016) . The reference level for visitor contribution to economic growth was set at 2.5% annual growth rate (HTA, 2016). Visitor generated total expenditures was estimated to county level by weighting expenditures by the average daily number of visitors to each county (visitors defined as overnight stays (DBEDT 2016)). Average daily visitor spending was assessed as the annual percent change in visitor spending.</p>
 <p>Sentiment scores the preservation of social and cultural values estimated though HTA visitor sentiment surveys. Three questions have been asked consistently and thus have time-series information and were used to score the agreement or sentiment of residents on the benefits and impact of tourism in Hawaiʻi. The three questions were to rate the level of impact and agreement on: 1. Rate the overall impact of tourism on your family, 2. Tourism has brought more benefits than problems, and 3. The island is being run for the tourists at the expense of the local people. The three questions were normalized for a score of 0 to 100 with 100 being positive or agreement on positive impacts of tourism for residence of Hawaii. Questions were averaged and scored to a reference value of 80% as set by the Hawaiʻi Tourism Authority as their target acceptance rate (HTA 2016 Annual Report).</p>
 <p>Environment scores the protection of the natural environment including ocean areas (Marine Protected Areas, Community Subsistence Fishing Areas, NOAA Sanctuary Areas) and coastal conservation areas. Ocean area protection data comes from the Aloha+ dashboard on marine managed areas with a reference rate of 30% nearshore areas effectively managed by 2030. Coastal conservation areas (referred to as coastal conservation districts) have vairying conservation protection and are weighted by protective ability.</p>
 </div>
-<div id="reference-points-3" class="section level3">
+<div id="reference-points-4" class="section level3">
 <h3>Reference points</h3>
 <p>The reference level for visitor contribution to economic growth and visitor spedning was set at a 2.5% annual growth rate.</p>
 <p>The sentiment reference level was set to 80%.</p>
 <p>The coastal and nearshore ocean areas reference level was set to 30% of total nearshore and coastal area for each region.</p>
 </div>
-<div id="data-used-in-model-3" class="section level3">
+<div id="data-used-in-model-4" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#environmental_protection">environmental protection</a> (t_env_sus): The percent of nearhsore areas priority watersheds protected in reference to Hawaii Stanability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.</p>
@@ -473,11 +461,11 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </div>
 <div id="livelihoods-economies-livelihoods" class="section level2">
 <h2>Livelihoods &amp; Economies: Livelihoods</h2>
-<div id="goal-description-4" class="section level3">
+<div id="goal-description-5" class="section level3">
 <h3>Goal Description</h3>
 <p>The jobs and revenue produced from marine-related industries are clearly of huge value to many people, even for those people who do not directly participate in marine-related industries. People value community identity, tax revenue, and indirect economic and social impacts of a stable coastal economy. This sub-goal, Livelihoods, describes job quantity and quality for people living on the coast. Livelihoods includes two equally important sub-components, the number of jobs, which is a proxy for livelihood quantity, and the per capita average annual wages, which is a proxy for job quality.</p>
 </div>
-<div id="model-4" class="section level3">
+<div id="model-5" class="section level3">
 <h3>Model</h3>
 <p>The Livelihood model is based on job and wage data:</p>
 <ul>
@@ -486,12 +474,12 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </ul>
 <p>The marine sectors included in this model are: Marine Construction, Living Resources, Ship and Boat Building, Tourism and Recreation, and Marine Transportation.</p>
 </div>
-<div id="reference-points-4" class="section level3">
+<div id="reference-points-5" class="section level3">
 <h3>Reference points</h3>
 <p>Because there is no absolute reference point for jobs (i.e., a target number of jobs would be completely arbitrary), its reference point is calculated as a relative value on a moving baseline: the value in the current year (or most recent year) relative to the value in a recent moving reference period, defined as 5 years prior to the current year. This reflects an implicit goal of maintaining coastal livelihoods and economies on short time scales, allowing for decadal or generational shifts in what people want and expect for coastal livelihoods and economy.</p>
 <p>The reference value for average annual wages for each ocean sector was referenced to the state average wage and weighted by the proportion of jobs per sector.</p>
 </div>
-<div id="data-used-in-model-4" class="section level3">
+<div id="data-used-in-model-5" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#ocean_and_coastal_jobs">ocean and coastal jobs</a> (le_jobs): The total number of jobs per ocean sector for each county.</p>
@@ -505,20 +493,20 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </div>
 <div id="livelihoods-economies-economies" class="section level2">
 <h2>Livelihoods &amp; Economies: Economies</h2>
-<div id="goal-description-5" class="section level3">
+<div id="goal-description-6" class="section level3">
 <h3>Goal Description</h3>
 <p>Economies captures the economic value associated with marine industries using revenue from marine sectors. It is composed of a single component, revenue.</p>
 </div>
-<div id="model-5" class="section level3">
+<div id="model-6" class="section level3">
 <h3>Model</h3>
 <p>The model assesses revenue from these marine sectors: Marine Construction, Living Resources, Ship and Boat Building, Tourism and Recreation, and Marine Transportation.</p>
 <p>Revenue is adjusted by sector- and development status-specific multipliers derived from the literature to account not only for direct revenue, but also indirect and induced economic effects, since activity in the direct industry stimulates additional jobs and revenue in related industries.</p>
 </div>
-<div id="reference-points-5" class="section level3">
+<div id="reference-points-6" class="section level3">
 <h3>Reference points</h3>
 <p>Because there is no absolute reference point for revenue (i.e., a target number of revenue would be completely arbitrary), its reference point is calculated as a relative value on a moving baseline: the value in the current year (or most recent year) relative to the value in a recent moving reference period, defined as 5 years prior to the current year. This reflects an implicit goal of maintaining coastal livelihoods and economies on short time scales, allowing for decadal or generational shifts in what people want and expect for coastal livelihoods and economy.</p>
 </div>
-<div id="data-used-in-model-5" class="section level3">
+<div id="data-used-in-model-6" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#ocean_and_coastal_revenue">ocean and coastal revenue</a> (le_gdp): The revenue generated per ocean sector for each county.</p>
@@ -529,15 +517,15 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <h2>Sense of Place</h2>
 <!---Need to update the title of this goal to Sense of Place
 --->
-<div id="goal-description-6" class="section level3">
+<div id="goal-description-7" class="section level3">
 <h3>Goal Description</h3>
 <p>Sense of Place measures the relationship that people have with the ocean and coastal areas. How we use ocean areas can in part define our connection and values towards them. There were many very valuable suggestions on how to measure Sense of Place including the use and knowledge of Hawaiian place names. Hawaiian names often reflect the activities, history, and the environment of the place. Unfortunately, there was no available and consistent way to measure the use of Hawaiian place names. This is a data gap and need that was identified during the development process for this goal. Therefore, Sense of Place was measured through activities that take place in each place, assessed as the participation rate in ocean and coastal activities.</p>
 </div>
-<div id="model-6" class="section level3">
+<div id="model-7" class="section level3">
 <h3>Model</h3>
 <p>Participation in ocean activities was collected across the state by the NOAA Coral Reef Conservation Program socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii (NOAA 2014).</p>
 </div>
-<div id="reference-points-6" class="section level3">
+<div id="reference-points-7" class="section level3">
 <h3>Reference points</h3>
 <p>Participation in a coastal ocean recreational or cultural activity at least once per month. ### Data used in model</p>
 <p><strong>Status &amp; trend</strong></p>
@@ -547,20 +535,20 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </div>
 <div id="biodiversity-species" class="section level2">
 <h2>Biodiversity: Species</h2>
-<div id="goal-description-7" class="section level3">
+<div id="goal-description-8" class="section level3">
 <h3>Goal Description</h3>
 <p>People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, the Biodiversity goal assesses the conservation status of species based on assessments of fish, marine mammals, turtles and birds, and coastal plants.</p>
 </div>
-<div id="model-7" class="section level3">
+<div id="model-8" class="section level3">
 <h3>Model</h3>
 <p>Hawaiʻi has a high rate of endangered species. The latest assessment lists 501 Endangered species (77 animal) (Environmental Conservation Online System 02/13/2015). The Endangered Species Act (ESA) was established in 1973 provides for the conservation of species that are endangered or threatened (likely to become endangered in the near future without protection) throughout all or a significant portion of their range, and the conservation of the ecosystems on which they depend. To assess species status, we combined information on local reef fish species status indicators (NOAA report card/ HMARC), and ESA status of marine mammals, turtles, and birds, and coastal plants. We incorporated reef fish indicators even though many of Hawaiʻi’s reef fish are not considered threatened or endangered. Local indicators of reef fish populations and status are important for understanding the health of coral reefs and biodiversity and therefore were included through a reef fish indicator.</p>
 <p>The reef fish indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the draft NOAA Status Report and is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators). Reef Fish Biomass measures the mean biomass of all reef fishes other than sharks and jacks derived from underwater visual surveys of &lt;30m hardbottom habitats. Survey biomass per location is compared against a meaningful local baseline (to account for inherent environmental and habitat differences among locations). High scores therefore represent populations that are close to their natural carrying capacity. Reef Fish Sustainability represents an index of mean size for targeted reef fish species relative to their size at first maturity. High scores therefore represent assemblages where there are still many of large individuals of targets species, those large fishes being particularly important components of the breeding stock. The Reef Fish Predators indicator is made up of 2 components: ‘reef sharks’ and ‘other reef piscivores’ with data taken respectively from towed-diver and point-count surveys by divers. High scores represent locations where upper trophic level fishes are still a conspicuous and ecologically important component of the reef ecosystem.</p>
 </div>
-<div id="reference-points-7" class="section level3">
+<div id="reference-points-8" class="section level3">
 <h3>Reference points</h3>
 <p>All marine mammals, turtles, and coastal plants are not threatended or endangered. Reef fish biomass is equal to the local baseline for fish biomass (natural carrying capacity). Reef fish harvest is sustainable with large, reproductively mature fish represented in the local populations. Reef fish predators (sharks and piscivores) are present and close to baseline conditions (abundance and biomass before human impacts).</p>
 </div>
-<div id="data-used-in-model-6" class="section level3">
+<div id="data-used-in-model-7" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#fish_indicator">fish indicator</a> (spp_fish): The reef fish indicator is the average of 3 components (Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators).</p>
@@ -572,15 +560,15 @@ This goal measures the natural protection of coastal habitats measured as the ex
 </div>
 <div id="biodiversity-habitats" class="section level2">
 <h2>Biodiversity: Habitats</h2>
-<div id="goal-description-8" class="section level3">
+<div id="goal-description-9" class="section level3">
 <h3>Goal Description</h3>
 <p>The Habitats sub-goal of Biodiversity measures the extent and condition of ocean and coastal habitats.</p>
 </div>
-<div id="model-8" class="section level3">
+<div id="model-9" class="section level3">
 <h3>Model</h3>
 <p>The habitat model assessed all habitats for which data were available to evaluate extent and condition, specifically: coral reefs, coastal wetlands, beaches, and subtidal soft-bottom habitats. Status was calculated as the average of the condition estimates for each habitat present in a region, measured as the loss of habitat and/or percent degradation of remaining habitat.</p>
 </div>
-<div id="reference-points-8" class="section level3">
+<div id="reference-points-9" class="section level3">
 <h3>Reference points</h3>
 <p>Coral Reefs</p>
 <p>Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators from, for example, coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu). The coral reef indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the NOAA Status Report. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).</p>
@@ -591,7 +579,7 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <p>Subtidal Softbottom</p>
 <p>Near shore soft bottom habitat extent was mapped to a depth of 100 meters. The condition was measured as the proportion of soft bottom habitat that was not dredged. Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels (<a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data" class="uri">http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data</a>).</p>
 </div>
-<div id="data-used-in-model-7" class="section level3">
+<div id="data-used-in-model-8" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
 <p><a href="http://ohi-science.org/mhi/layers.html#soft_bottom_extent">soft bottom extent</a> (hab_extent_mhi): Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>

@@ -58,6 +58,7 @@ cat(paste(st$info, collapse="\n\n"))
 ```
 
 ---- 
+
 ## Food Provision: Nearshore Fisheries
 
 ```{r, echo=FALSE, results='hide'}
@@ -84,6 +85,7 @@ st <- layers_csv %>%
 
 cat(paste(st$info, collapse="\n\n"))
 ```
+
 ---- 
 
 ## Food Provision: Mariculture
