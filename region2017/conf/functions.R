@@ -858,7 +858,7 @@ CP <- function(layers){
     select(rgn_id, habitat, km2) %>%
     mutate(habitat = as.character(habitat))
 
-  health <-  layers$data[['cp_hab_condition']] %>%
+  health <-  layers$data[['cp_hab_condition']] %>%  #can use different coastal wetland condition data by changing data layer ʻcp_hab_condition_updatedʻ vs ʻcp_hab_conditionʻ
     select(rgn_id, habitat, health) %>%
     mutate(habitat = as.character(habitat))
 

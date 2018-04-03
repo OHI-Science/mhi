@@ -1,0 +1,17 @@
+﻿rgn_id,habitat,health,
+1,beach,0.28,
+2,beach,0.15,
+3,beach,0.4,
+4,beach,0.29,
+1,reef,0.81,
+2,reef,0.7,
+3,reef,0.6,
+4,reef,0.61,
+1,wetland,0.07,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
+2,wetland,1,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
+3,wetland,0.67,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
+4,wetland,0.92,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
+1,fishpond,0.97,fishpond updated layer by tnc 2017 (30% of historic area)
+2,fishpond,0.35,fishpond updated layer by tnc 2017 (30% of historic area)
+3,fishpond,0.35,fishpond updated layer by tnc 2017 (30% of historic area)
+4,fishpond,1,fishpond updated layer by tnc 2017 (30% of historic area)
