@@ -6,7 +6,7 @@ library(plyr)
 library(reshape2)
 library(plyr)
 
-dir_layers <- file.path('~/github/mhi/prep/mar')
+dir_layers <- file.path('~/documents/github/mhi/prep/mar')
 
 
 #naming convention of the data file: it is "goalcode_layername_assessmentYEAR.csv".

@@ -5,7 +5,7 @@
 This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. 
 --->
 
-This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas.  A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safegaurd coastlines.
+This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas.  A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safeguard coastlines.
 
 ### Model 
 
@@ -16,7 +16,7 @@ The model is based on the health of the habitats that provide shoreline protecti
 Coral Reefs
 
 Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
-The coral reef health index comes from the NOAA Hawai'i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+The coral reef indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the NOAA Status Report. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
 
 Beaches
 
