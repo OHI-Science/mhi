@@ -14,3 +14,9 @@ hd_MPA_eez,ecological,regulatory,habitat_destruction,1
 res_hab_health,ecological,ecosystem,ecological,1
 hd_watersheds,ecological,regulatory,habitat_destruction,1
 res_shoreline_access,ecological,regulatory,fishing_pressure,1
+res_shoreline_access_points,ecological,social,social,1
+res_adoption_CCA,ecological,regulatory,goal,1
+res_wastewater_recycled,ecological,regulatory,ecological,1
+res_makai_watch,ecological,regulatory,fishing_pressure,1
+res_commercial_fis_compliance,ecological,regulatory,fishing_pressure,1
+res_fishpond_restoration,ecological,regulatory,goal,1
