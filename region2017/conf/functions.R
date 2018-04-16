@@ -591,26 +591,20 @@ MAR = function(layers){
 
 
 FP = function(layers, scores){
+  ## we have hard-coded the 3 subgoal weights here and deleted fp_wildcaught_weight_mhi, which wasn't being used in flower plot presentation anyways.
 
-  # weights
-  w <-  SelectLayersData(layers, layers='fp_wildcaught_weight_mhi', narrow = TRUE) %>%
-    select(region_id = id_num,  w_FIS = val_num); head(w)
+  ## weights for FIS, MAR, AO
+  w_FIS = 0.33
+  w_MAR = 0.33
+  w_AO  = 0.33
 
-  # scores
- # s <- scores %>%
-#    filter(goal %in% c('FIS', 'MAR')) %>%
-#    filter(!(dimension %in% c('pressures', 'resilience'))) %>%
-#    left_join(w, by="region_id")  %>%
-#    mutate(w_MAR = 1 - w_FIS) %>%
-#    mutate(weight = ifelse(goal == "FIS", w_FIS, w_MAR))
-
-  #to give equal weight to mar and fis
+  ## to give equal weight to mar and fis
   s <- scores %>%
-    filter(goal %in% c('FIS', 'MAR')) %>%
+    filter(goal %in% c('FIS', 'MAR', 'AO')) %>%
     filter(!(dimension %in% c('pressures', 'resilience'))) %>%
-    left_join(w, by="region_id")  %>%
-    mutate(w_MAR = 1 - 0.5) %>%
-    mutate(weight = ifelse(goal == "FIS", w_FIS, w_MAR))
+    mutate(weight = case_when(goal == "FIS" ~ w_FIS,
+                              goal == "MAR" ~ w_MAR,
+                              goal == "AO"  ~ w_AO))
 
 
   ## Some warning messages due to potential mismatches in data:
@@ -636,6 +630,7 @@ FP = function(layers, scores){
     warning(paste0("Check: these regions have a MAR score but no weight: ",
                    paste(as.character(tmp$region_id), collapse = ", ")))}
 
+  ## finalize scores output
   s <- s  %>%
     dplyr::group_by(region_id, dimension) %>%
     dplyr::summarize(score = weighted.mean(score, weight, na.rm=TRUE)) %>%
