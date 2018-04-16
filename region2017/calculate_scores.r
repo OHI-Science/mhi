@@ -30,20 +30,7 @@ write.csv(scores, 'scores.csv', na='', row.names=FALSE)
 ## Flower plots for each region ----
 source('plot_flower_local.R') # source local MHI copy, not ARC copy
 
-## to create flower plots with equal weighting for FIS/MAR: since this relies on the `fp_wildcaught_weigth*` csv that is also used for calculating it, we'll rename it temporarily
-fp_real <- 'layers/fp_wildcaught_weight_mhi2017.csv'
-fp_temp <- 'layers/fp_TEMP_COPY_wildcaught.csv'
-
-## temporarily rename fp file and delete original
-readr::read_csv(fp_real) %>%
-  write_csv(fp_temp)
-unlink(fp_real)
-
-## temporarily change CON subgoal scores to NA (to reset, rerun CalculateAll and rewrite scores.csv)
-#scores$score[scores$goal == "CON"] <- NA
-# write.csv(scores, 'scores.csv', na='', row.names=FALSE)
-
-## now plot
+##  plot
 PlotFlower(#region_plot = 0,
            assessment_name = "Main Hawaiian Islands",
            display_region_title = FALSE,
