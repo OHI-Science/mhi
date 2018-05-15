@@ -1,17 +1,13 @@
-rgn_id,habitat,health,
-1,beach,0.28,
-2,beach,0.15,
-3,beach,0.4,
-4,beach,0.29,
-1,reef,0.81,
-2,reef,0.7,
-3,reef,0.6,
-4,reef,0.61,
-1,wetland,0.25,
-2,wetland,0.75,
-3,wetland,0.29,
-4,wetland,0.85,
-1,fishpond,0.97,fishpond updated layer by tnc 2017 (30% of historic area)
-2,fishpond,0.35,fishpond updated layer by tnc 2017 (30% of historic area)
-3,fishpond,0.35,fishpond updated layer by tnc 2017 (30% of historic area)
-4,fishpond,1,fishpond updated layer by tnc 2017 (30% of historic area)
+rgn_id,habitat,health
+1,beach,0.28
+2,beach,0.15
+3,beach,0.4
+4,beach,0.29
+1,reef,0.81
+2,reef,0.7
+3,reef,0.6
+4,reef,0.61
+1,wetland,0.25
+2,wetland,0.75
+3,wetland,0.29
+4,wetland,0.85
