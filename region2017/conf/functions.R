@@ -405,31 +405,34 @@ MAR = function(layers){
     arrange(rgn_id, commodity, year)
 
 #fishpond number and area
-  mar_fp_current <- SelectLayersData(layers, layers='mar_fishpond_current', narrow = TRUE) %>%
-    select(rgn_id=id_num, Area_acres=val_num)
+  mar_fp_historic <- SelectLayersData(layers, layers='mar_fishpond_historic', narrow = TRUE) %>%
+    select(rgn_id=id_num, historic=val_num)
 
 
   mar_fp_number<- SelectLayersData(layers, layers='mar_fishpond_numbers', narrow = TRUE) %>%
     select(rgn_id=id_num, current=val_num)
 
 
-  mar_fp_health<- SelectLayersData(layers, layers='mar_fishpond_health', narrow = TRUE) %>% #potential of fishponds/mariculture
-    select(rgn_id=id_num, status=val_num)
+  #mar_fp_health<- SelectLayersData(layers, layers='mar_fishpond_health', narrow = TRUE) %>% #potential of fishponds/mariculture
+   # select(rgn_id=id_num, status=val_num)
 
 
   #join area and fp potential data
-  mar_fp<-mar_fp_current %>%
+  mar_fp<-mar_fp_historic %>%
     left_join(mar_fp_number, by=c('rgn_id'))
 
-  mar_fp<-mar_fp %>%
-    left_join(mar_fp_health, by=c('rgn_id'))
+ # mar_fp<-mar_fp %>%
+  #  left_join(mar_fp_health, by=c('rgn_id'))
 
   mar_fp<-mar_fp%>%
-    dplyr::mutate(total_area=sum(Area_acres))
+    dplyr::mutate(sum_c=sum(current))%>%
+    dplyr::mutate(sum_h=sum(historic))%>%
+    dplyr::mutate(fishpond_status=sum_c/sum_h)%>%
+    select(rgn_id, fishpond_status)
 
-  mar_fp<-mar_fp%>%
-    dplyr::mutate(value=status/.30)%>%
-    dplyr::mutate(value= ifelse(value>1, 1, value))
+  # mar_fp<-mar_fp%>%
+  #   dplyr::mutate(value=status/.30)%>%
+  #   dplyr::mutate(value= ifelse(value>1, 1, value))
 
   #join operator and harvest data
 #determine % of production by rgn as an estimate based on #operators per island/#state operators
@@ -472,7 +475,7 @@ MAR = function(layers){
     #dplyr::mutate(score=est_harv/total_harvest)#spatial reference score
     #dplyr::ungroup()
   mar_d<-mar_d%>%
-    dplyr::group_by(rgn_id,commodity, year)%>%
+    dplyr::group_by(rgn_id,commodity)%>%
     dplyr::mutate(ref=max(est_harv))%>%
     dplyr::ungroup()
 
@@ -544,7 +547,7 @@ MAR = function(layers){
   #merge fp and opperater data - mariculture score is an average of fp and opperators
   mar_data<-mar_d %>%
     left_join(mar_fp)%>%
-    dplyr::mutate(score=(score+value)/2)%>%
+    dplyr::mutate(score=(score+fishpond_status)/2)%>%
     select(rgn_id, year, score)
 
   status <- mar_data %>%
