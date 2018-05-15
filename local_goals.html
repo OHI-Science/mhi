@@ -380,8 +380,8 @@ div.tocify {
 <div id="data-used-in-model-2" class="section level3">
 <h3>Data used in model</h3>
 <p><strong>Status &amp; trend</strong></p>
-<p><a href="http://ohi-science.org/mhi/layers.html#area_of_active_fishponds">area of active fishponds</a> (mar_fishpond_current): The area of current fishponds per county.</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#fishpond_status">fishpond status</a> (mar_fishpond_health): Ratio of active fishponds to historical number</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#number_of_fishponds_in_1990_survey">number of fishponds in 1990 survey</a> (mar_fishpond_historic): The number of fishponds per county from the 1990 assessment.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#NA">NA</a> (mar_fishpond_health): NA</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#number_of_fishponds">number of fishponds</a> (mar_fishpond_numbers): The current number of fishponds.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#mariculture_yield">mariculture yield</a> (mar_harvest): Production of shellfish and foodfish from mariculture facilities</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#operations">operations</a> (mar_operations): The number of mariculture operators.</p>
@@ -396,7 +396,7 @@ div.tocify {
 
 This goal measures the natural protection of coastal habitats measured as the extent and condition of beaches/sand dunes, coral reefs, wetlands that provide coastal protection from inundation and erosion. The target for wetlands is no net loss of wetlands and/or number of acres effectively managed. The target for beaches/sand dunes will be a temporal reference to the historical extent. The condition for coral reefs will be measured through percent coral cover and/or the ratio of cacifiers to non-calcifiers. Goal also could include other indicators of coastal protective ability including intertidal area, slope and rugosity of the nearshore environment, and the ratio of coastal development to the natural environment. 
 --->
-<p>This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas. A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safegaurd coastlines.</p>
+<p>This goal assesses the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas. A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions, allowing for the full benefits of these habitats to safeguard coastlines.</p>
 </div>
 <div id="model-3" class="section level3">
 <h3>Model</h3>
@@ -405,7 +405,7 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <div id="reference-points-3" class="section level3">
 <h3>Reference points</h3>
 <p>Coral Reefs</p>
-<p>Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu). The coral reef health index comes from the NOAA Hawai’i coral reef report card. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).</p>
+<p>Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu). The coral reef indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the NOAA Status Report. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).</p>
 <p>Beaches</p>
 <p>Beach erosion is expected to increase with climate change and sea level rise, reducing coastal protection ability of beaches in Hawai’i.Beach condition was measured as the percent of beaches remaining stable (not eroding). The beach trend is the long term erosion rate (past century) calculated from Fletcher et al. 2012.</p>
 <p>Wetlands</p>
@@ -418,15 +418,13 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <p><a href="http://ohi-science.org/mhi/layers.html#reef_condition">reef condition</a> (cp_hab_condition): The benthic condition of coral reefs assessed through a combination of variables including percent coral cover, percent macroalgae cover, demography, and mortality.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#beach_condition">beach condition</a> (cp_hab_condition): The condition of coastal habitats measured as the percent of beaches erroding per region.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#coastal_wetland_condition">coastal wetland condition</a> (cp_hab_condition): Wetland condition was calculated based on percent of historical extent.</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#fishpond_condition">fishpond condition</a> (cp_hab_condition): The ratio of current to historic fishpond area.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#reef_extent">reef extent</a> (cp_hab_extent): The hardbottom extent out to 80 meters modified from NOAA habitat maps.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#beach_extent">beach extent</a> (cp_hab_extent): Beach extent was caluclated from the from ESI GIS layer (Beaches (3,4,5 classifications)). The data units are in km not km2 like other habitats.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#coastal_wetland_extent">coastal wetland extent</a> (cp_hab_extent): The area of coastal wetlands (within 1 km of the coastline).</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#fishpond_extent">fishpond extent</a> (cp_hab_extent): The current area of fishponds.</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#wetland_trend">wetland trend</a> (cp_hab_trend): The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#wetland_trend">wetland trend</a> (cp_hab_trend): The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#beach_trend">beach trend</a> (cp_hab_trend): The average short-term errosine rate of beaches, estimated at -0.06 m per year.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#reef_trend">reef trend</a> (cp_hab_trend): The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#fishpond_trend">fishpond trend</a> (cp_hab_trend): No trend data is available for this layer</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#NA">NA</a> (cp_hab_condition_updated): NA</p>
 <hr />
 </div>
 </div>
@@ -590,7 +588,7 @@ This goal measures the natural protection of coastal habitats measured as the ex
 <p><a href="http://ohi-science.org/mhi/layers.html#beach_condition">beach condition</a> (hab_health_mhi): The condition of coastal habitats measured as the percent of beaches erroding per region.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#wetland_condition">wetland condition</a> (hab_health_mhi): Wetland condition was calculated based on percent of historical extent.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#soft_bottom_trend">soft bottom trend</a> (hab_trend_mhi): Trend was not evaluated for soft bottom habitats.</p>
-<p><a href="http://ohi-science.org/mhi/layers.html#wetland_trend">wetland trend</a> (hab_trend_mhi): The annual percent change in wetland extend based on NOAA C-CAP data comparisions from 2005 to 2010/2011.</p>
+<p><a href="http://ohi-science.org/mhi/layers.html#wetland_trend">wetland trend</a> (hab_trend_mhi): The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#beach_trend">beach trend</a> (hab_trend_mhi): The average short-term errosine rate of beaches, estimated at -0.06 m per year.</p>
 <p><a href="http://ohi-science.org/mhi/layers.html#reef_trend">reef trend</a> (hab_trend_mhi): The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.</p>
 </div>
