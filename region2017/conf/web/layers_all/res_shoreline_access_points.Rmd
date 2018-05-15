@@ -1,0 +1,5 @@
+The increase in shoreline access points from the ORMP. Reference value is the mean number of access points added over the last five years.
+
+#### Reference
+
+[ORMP](https://dashboard.hawaii.gov/stat/goals/25ji-kwv7)

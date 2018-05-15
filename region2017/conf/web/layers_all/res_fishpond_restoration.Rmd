@@ -1,0 +1,5 @@
+The percent of county fishponds that recieve technical assistance from the State.
+
+#### Reference
+
+[ORMP](https://dashboard.hawaii.gov/stat/goals/25ji-kwv7)

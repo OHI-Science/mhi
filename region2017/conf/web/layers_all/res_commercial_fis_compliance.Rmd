@@ -1,0 +1,5 @@
+The annual compliance rate of commerical fisheries reports (taget is 100%).
+
+#### Reference
+
+[DLNR-DAR](https://dashboard.hawaii.gov/stat/goals/25ji-kwv7)
