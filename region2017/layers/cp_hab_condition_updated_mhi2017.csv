@@ -1,12 +1,12 @@
 ﻿rgn_id,habitat,health,
-1,beach,0.28,
-2,beach,0.15,
-3,beach,0.4,
-4,beach,0.29,
-1,reef,0.81,
-2,reef,0.7,
-3,reef,0.6,
-4,reef,0.61,
+1,beach,0.28,Fletcher_et_al_2012
+2,beach,0.15,Fletcher_et_al_2012
+3,beach,0.4,Fletcher_et_al_2012
+4,beach,0.29,Fletcher_et_al_2012
+1,reef,0.66,NOAA status report
+2,reef,0.64,NOAA status report
+3,reef,0.6,NOAA status report
+4,reef,0.61,NOAA status report
 1,wetland,0.07,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
 2,wetland,1,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
 3,wetland,0.67,NOAA CCAP percent of 1992 coastal wetlands (within 1 km of the shoreline)
