@@ -7,11 +7,11 @@ output: html_document
 
 ----
 
-## Why is this study being done in Hawaii?
+## Why was this study done in Hawaii?
 
-There is a need to assess and track the health of Hawaii’s natural environment and chart a path forward to increase economic opportunities and human wellbeing while sustainably managing these critical resources.
+There was a need to assess and track the health of Hawaii’s natural environment and chart a path forward to increase economic opportunities and human wellbeing while sustainably managing these critical resources.
 
-We will be developing shared metrics for measuring progress toward sustainable economic growth and ocean health through:
+We developed shared metrics for measuring progress toward sustainable economic growth and ocean health through:
 
 1. Building a coalition for sustainable ocean management, 
 2. Collaborating with coastal stakeholders, natural resource managers, scientific experts, and communities, 
@@ -20,33 +20,33 @@ We will be developing shared metrics for measuring progress toward sustainable e
 
 <br>
 
-## What is the ultimate goal of this project?
+## What was the ultimate goal of this project?
 
-Enable the State of Hawaiʻi, community stakeholders, the corporate and finance sectors and non-profit organizations to prioritize investments and policy decisions that affect the sustainability of Hawaii’s economic and ocean health.
+Enable the State of Hawaii, community stakeholders, the corporate and finance sectors and non-profit organizations to prioritize investments and policy decisions that affect the sustainability of Hawaii’s economic and ocean health.
 
 <br>
 
 ## How far along is this project?
 
-We are undergoing stakeholder review and the assessement will be released April, 2018. 
+The first assessment, the Hawaii 2018 Ocean Health Index, will be released June 8th on World Oceans Day. Repeat assessments will be done to track our progress towards meeting our ocean sustainability goals. 
 
 <br>
 
 ## How it will the OHI assessment for Hawaii be shared and communicated?
 
-This website [**ohi-science.org/mhi**](http://ohi-science.org/mhi) is the best place to learn about the assessment as it progresses. It will also be on the Aloha+ state dashboard [**dashboard.hawaii.gov**](https://dashboard.hawaii.gov/). We will also share on social media, radio, and through scientific publications.
+This website [**ohi-science.org/mhi**](http://ohi-science.org/mhi) is the best place to learn about the assessment. It will also be on the Aloha+ state dashboard [**dashboard.hawaii.gov**](https://dashboard.hawaii.gov/). We will also share on social media, radio, and through scientific publications.
 
 <br>
 
 ## Will the data layers be available?
 
-Yes. All data layers will be available on this website when they are finalized. And, many of the data layers are already publicly available datasets housed on [**geoportal.hawaii.gov**](http://geoportal.hawaii.gov/) and [pacioos.hawaii.edu/data](http://www.pacioos.hawaii.edu/data/).
+Yes. All data layers are available on this website. And, many of the data layers are already publicly available datasets housed on [**geoportal.hawaii.gov**](http://geoportal.hawaii.gov/) and [pacioos.hawaii.edu/data](http://www.pacioos.hawaii.edu/data/).
 
 <br>
 
 ## What year does this OHI assessment represent? 
 
-The first assessment will be completed by 2018. This first assessment will serve as our baseline for future assessments. The most recent data available will be incorporated into the assessment for each goal, and we rely on data that will continue to be updated in the future.
+The first assessment will be completed by 2018. This first assessment will serve as our baseline for future assessments. The most recent data available was incorporated into the assessment for each goal, and we rely on data that will continue to be updated in the future.
 
 <br>
 
@@ -71,7 +71,7 @@ Goals are developed with stakeholders and experts. Reference points are specific
 
 ## What proportion of the index contains things that local management can change or influence? 
 
-Goal scores will respond to management targets through interactions with resilience layers. Some of the goals have management targets as set reference points and so those goals will directly change as we approach those targets. 
+Goal scores respond to management targets through interactions with resilience layers. Some of the goals have management targets as set reference points and so those goals will directly change as we approach those targets. 
 
 <br>
 
