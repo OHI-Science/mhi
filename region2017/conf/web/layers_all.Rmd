@@ -387,7 +387,7 @@ output:
 ``` 
 
  
-# commercial fishery hi-bycatcb 
+# commercial fishery high-bycatch 
 ####[fp_com_hb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_hb_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
@@ -403,7 +403,7 @@ output:
 ``` 
 
  
-# commercial fishery lo-bycatcb 
+# commercial fishery low-bycatch 
 ####[fp_com_lb](https://github.com/OHI-Science/mhi/tree/master/region2017/layers/fp_com_lb_mhi2017.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
