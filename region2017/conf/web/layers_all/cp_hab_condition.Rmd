@@ -1,4 +1,4 @@
-The condition of coastal habitats measured as the percent of beaches erroding per region.
+The condition of coastal habitats measured as the percent of beaches eroding per region.
 
 #### Reference
 

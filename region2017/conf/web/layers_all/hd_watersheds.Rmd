@@ -1,4 +1,4 @@
-The percent of priority watersheds that are fenced to protect againts invasive animals.
+The percent of priority watersheds that are fenced to protect against invasive animals.
 
 #### Reference
 

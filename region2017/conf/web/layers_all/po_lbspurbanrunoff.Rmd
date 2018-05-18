@@ -1,4 +1,4 @@
-A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stresser level set at 10% of watershed area.
+A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stressor level set at 10% of watershed area.
 
 #### Reference
 

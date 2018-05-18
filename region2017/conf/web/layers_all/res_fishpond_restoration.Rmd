@@ -1,4 +1,4 @@
-The percent of county fishponds that recieve technical assistance from the State.
+The percent of county fishponds that receive technical assistance from the State.
 
 #### Reference
 

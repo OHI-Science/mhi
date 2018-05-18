@@ -2,4 +2,4 @@ The ratio of management areas (BRFA, Longline, Monument) to the total ocean area
 
 #### Reference
 
-[NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and santucary waters](http://geoportal.hawaii.gov/datasets/noaa-marine-protected-area-mpa-inventory)
+[NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and sanctuary waters](http://geoportal.hawaii.gov/datasets/noaa-marine-protected-area-mpa-inventory)
