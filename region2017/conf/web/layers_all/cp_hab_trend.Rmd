@@ -1,4 +1,4 @@
-The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.
+The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Ecosystem Program.
 
 #### Reference
 
