@@ -1056,7 +1056,6 @@ growth$n_score<-growth$n_score*100
 
 #visitor spending#
  str(vs)
- vs<-subset(vs, year!=2017) #removing 2017 since it is not in the other ST data to keep same time range
  vs$sp_score<-ifelse(vs$percent>=0, 1,ifelse(vs$percent<0.0 & vs$percent>=-2.5, .90, 0.8))#if growth rate is >0% than perfect score = 1
  #if average visitor spending is <0 to -0.025% or more gets score of 0.9. Loss 10 points for each 2.5%.
  vs$sp_score<- vs$sp_score*100
