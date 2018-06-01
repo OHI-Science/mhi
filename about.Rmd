@@ -15,23 +15,19 @@ Determining ocean health requires an approach that integrates social, economic, 
 
 ## Assessing Ocean Health in the Main Hawaiian Islands
  
-We have built a scientifically robust index of ocean health for Hawaii that is supported by local stakeholders and integrated into ongoing policy initiatives to support sustainable ocean management. We used the OHI framework to facilitate repeatable assessments of the index goals overtime allowing for progress toward a common vision for a healthy ocean and sustainable ocean management.  
+We have built a scientifically robust index of ocean health for Hawai‘i that is supported by local stakeholders and integrated into ongoing policy initiatives to support sustainable ocean management. We used the OHI framework to facilitate repeatable assessments of the index goals overtime allowing for progress toward a common vision for a healthy ocean and sustainable ocean management.  
 
-The process of developing and adapting the OHI for Hawaii was through working groups, support of local experts, stakeholder surveys, workshops and community meetings and integration with ongoing initiatives. 
+The process of developing and adapting the OHI for Hawai‘i was through working groups, support of local experts, stakeholder surveys, workshops and community meetings and integration with ongoing initiatives. 
 
-<br> 
-
-This website will serve as a communication platform as we work so that we can share the process as well as final results. <!--- Our code is available [here](https://github.com/OHI-Science/mhi). --->
-
-<br> 
+<br>
 
 ## Scale of Assessment
 
-The Hawaii OHI assessment will use the scientifically robust framework of the Ocean Health Index at the scale of the Main Hawaiian Islands. 
+The Hawai‘i OHI assessment will use the scientifically robust framework of the Ocean Health Index at the scale of the Main Hawaiian Islands. 
 
-The Hawaii Statewide assessment focuses on the Main Hawaiian Islands and with subregions at the county level. 
+The Hawai‘i Statewide assessment focuses on the Main Hawaiian Islands and with subregions at the county level. 
 
-To produce the spatial boundaries of these reporting units we use the Hawaii USA Exclusive Economic Zones (EEZ). A nearshore spatial scale is computed as the offshore 3nm boundary for Hawaii islands. The OHI focus is on the entire EEZ, however, some goals are assessed on the nearshore (3 nm scale). 
+To produce the spatial boundaries of these reporting units we use the Hawai‘i USA Exclusive Economic Zones (EEZ). A nearshore spatial scale is computed as the offshore 3nm boundary for Hawai‘i islands. The OHI focus is on the entire EEZ, however, some goals are assessed on the nearshore (3 nm scale). 
 
 
 ## The Ocean Health Index project

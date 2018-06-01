@@ -1,5 +1,5 @@
 ---
-title: <center>An Ocean Health Index for Hawaii
+title: <center>An Ocean Health Index for Hawai‘i
 author:  
 output:
   html_document:
@@ -9,13 +9,12 @@ output:
 ----
 
 
-The Hawaii Ocean Health Index measures and tracks the benefits and services that the ocean provides for people now and into the future. This index was developed with the support of local stakeholders to better understand how to sustainably balance current and future ocean use.
+The Hawai‘i Ocean Health Index measures and tracks the benefits and services that the ocean provides for people now and into the future. This index was developed with the support of local stakeholders to better understand how to sustainably balance current and future ocean use.
 
 Ocean health is defined as a state of being that is pono (sustainable/respectful); where functions and processes can exist, perpetuate, and evolve, including the presence and role of humans. 
 
-Our vision for the Hawaii's ocean is a resilient and productive system that provides services and resources to sustain Hawaii residents and economy now and into the future. To achieve this vision several measures were suggested by stakeholder which included: getting control of shoreline development and its impacts, reducing land-based pollution sources, feral cat control, sustainable fishing practices, invasive species management, healthy tourism and visitor education focused on sustainable use and conservation, and incorporation of traditional Hawaiian resource management practices and values.
+Our vision for the Hawai‘i's ocean is a resilient and productive system that provides services and resources to sustain Hawai‘i residents and economy now and into the future. To achieve this vision several measures were suggested by stakeholders which included: getting control of shoreline development and its impacts, reducing land-based pollution sources, feral cat control, sustainable fishing practices, invasive species management, healthy tourism and visitor education focused on sustainable use and conservation, and incorporation of traditional Hawaiian resource management practices and values.
 
 <br><br>
 
-##Join our mailing list to [stay connected.](https://goo.gl/forms/8Dl0JxfHmT6kCdUv1)
 <center><img src="images/coastline.jpg" width="1200px"></center>  

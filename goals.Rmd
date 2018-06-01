@@ -15,7 +15,7 @@ source("./_site.R")
 ```
 
 
-The global Ocean Health Index developed 10 goals that encompass ocean health: Food Provision, Natural Products, Clean Water, Coastal Protection, Carbon Storage, Biodiversity, Tourism & Recreation, Livelihoods & Economies, Artisanal Fishing Opportunities, and Sense of Place. These goals for the OHI were adapted from the global framework into 6 goals for ocean health in Hawaiʻi: Food Provision, Coastal Protection, Biodiversity, Sustainable Tourism, Livelihoods & Economies, and Sense of Place. 
+The global Ocean Health Index developed 10 goals that encompass ocean health: Food Provision, Natural Products, Clean Water, Coastal Protection, Carbon Storage, Biodiversity, Tourism & Recreation, Livelihoods & Economies, Artisanal Fishing Opportunities, and Sense of Place. These goals for the OHI were adapted from the global framework into 6 goals for ocean health in Hawaiʻi: Food Provision, Coastal Protection, Biodiversity, Sustainable Tourism, Livelihoods & Economies, and Sense of Place. This assessment is for the Main Hawaiian Islands and does not include the Northwestern Hawaiian Islands as these goals assess the sustainable use of our ocean resources as they benefit people now and into the future.
 
 <br><br>
 

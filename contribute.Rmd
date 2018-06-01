@@ -5,14 +5,9 @@ date:
 output: html_document
 ---
 ----
-##Give Feedback
-Please take a few minutes to provide information on your value for our ocean resources. [Take our survey.](https://www.surveymonkey.com/r/OHI-Hawaii) Your responses will be incorporated into the Hawaii Ocean Health Index and will be used to communicate the importance of our ocean to the rest of the community, managers, and industry leaders.
-
-
-<br><br>
 
 ##Contact Us
-To provide additional feedback or for additional questions please contact:
+To provide feedback or comments please contact:
 
 Eva Schemmel
 
