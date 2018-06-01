@@ -3,14 +3,14 @@
 <!---Need to update the title of this goal to Nearshore Fisheries
 --->
 
-Nearshore fisheries, often also called subsistance fisheries, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai'i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal is estimated based the condition of the fisheries resource. 
+Nearshore fisheries, often also called subsistance fisheries, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world. In Hawai'i this is the opportunity for fishers to supply seafood for themselves, families, and community. This goal is estimated based the condition of the fisheries resources. 
 
 ### Model  
-This goal is in the process of being developed. Resource condition will be measured through bioindicators developed by the Division of Aquatic Resources and the Hawaiʻi Monitoring and Research Collaborative.
+Fisheries resources were measured as the average of 3 components: Reef Fish Biomass, Reef Fish Sustainability, and Reef Fish Predators (NOAA Coral Reef Conservation Program and University of Maryland Center for Environmental Science). Reef Fish Biomass measures the mean biomass of all reef fishes other than sharks and jacks derived from underwater visual surveys of <30m hard bottom habitats. Survey biomass per location is compared against a meaningful local baseline (to account for inherent environmental and habitat differences among locations). High scores therefore represent populations that are close to their natural carrying capacity. Reef Fish Sustainability represents an index of mean size for targeted reef fish species relative to their size at first maturity. High scores therefore represent assemblages where there are still many of large individuals of targets species, those large fishes being particularly important components of the breeding stock. The Reef Fish Predators indicator is made up of 2 components: 'reef sharks' and 'other reef piscivores' with data taken respectively from towed-diver and point-count surveys by divers. High scores represent locations where upper trophic level fishes are still a conspicuous and ecologically important component of the reef ecosystem.
 
 ### Reference points 
 
-Reference points are being developed. 
+Reference points were set in relation to expected reef fish biomass, reef fish sustainability (fish size), and reef fish predators in relation to ecosystem productivity and without human impacts.
 
 
 

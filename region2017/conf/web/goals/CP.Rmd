@@ -15,12 +15,11 @@ The model is based on the health of the habitats that provide shoreline protecti
 ### Reference points 
 Coral Reefs
 
-Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
-The coral reef indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the NOAA Status Report. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+Coral reef extent was assessed from the cumulative impact mapping layers that combine hard bottom and coral reef habitats to a depth of 30 meters. Coral reef condition was assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu), coral mortality, juvenile coral density, and adult coral density. The coral reef index comes from the NOAA Hawai‘i coral reef status report (NOAA Coral Reef Conservation Program and University of Maryland Center for Environmental Science). Trend in coral reef health is the recent (5 year) trend in coral cover and was assessed as the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (McCoy et al., 2017).
 
 Beaches
 
-Beach erosion is expected to increase with climate change and sea level rise, reducing coastal protection ability of beaches in Hawai'i.Beach condition was measured as the percent of beaches remaining stable (not eroding). The beach trend is the long term erosion rate (past century) calculated from Fletcher et al. 2012.
+Beach erosion is expected to increase with climate change and sea level rise, reducing coastal protection ability of beaches in Hawai‘i.Beach condition was measured as the percent of beaches remaining stable (not eroding). The beach trend is the long term erosion rate (past century) calculated from Fletcher et al. 2012.
 
 Wetlands
 

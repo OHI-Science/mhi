@@ -10,8 +10,7 @@ The habitat model assessed all habitats for which data were available to evaluat
 
 Coral Reefs
 
-Coral reef condition is assessed through a coral reef index, which is a measure of coral reef health from combined indicators from, for example, coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu).
-The coral reef indicator is being reassessed by the Division of Aquatic Resources and the Hawaii Monitoring and Research Collaborative. The draft indicator comes from the NOAA Status Report. Trend in coral reef health comes from the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (NOAA CREP 2016).
+Coral reef condition was assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu), coral mortality, juvenile coral density, and adult coral density. The coral reef index comes from the NOAA Hawai‘i coral reef status report (NOAA Coral Reef Conservation Program and University of Maryland Center for Environmental Science). Trend in coral reef health is the recent (5 year) trend in coral cover and was assessed as the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (McCoy et al., 2017).
 
 Beaches
 
@@ -23,5 +22,5 @@ Wetland condition was measured as the percent loss of historical coastal wetland
 
 Subtidal Softbottom 
 
-Near shore soft bottom habitat extent was mapped to a depth of 100 meters. The condition was measured as the proportion of soft bottom habitat that was not dredged. Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data). 
+Near shore softbottom habitat extent was mapped to a depth of 100 meters. The condition was measured as the proportion of soft bottom habitat that was not dredged. Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data). 
 

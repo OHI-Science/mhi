@@ -15,6 +15,5 @@ The production (lbs of seafood) is reported at the state level to prevent disclo
 
 ### Reference points 
 
-The mariculture score is calculated as the ratio of the lbs produced by county to the maximum lbs produced across regions.The fishpond score is the ratio of fishponds that are operation or being restored to 30% of the historic number. 
-A region score will reach 100 when the region produces the maximum seafood produciton for the state and has a mimimum of 30% of the traditional fishponds restored or in the process of being restored.
+The mariculture score is calculated as the ratio of the lbs produced by county to the maximum lbs produced within the county over the last 5 year reporting period.The fishpond score is the ratio of the current number of fishponds today to the estimatd number of fishponds reported in 1990 (DHM inc et al., 1990).
 
