@@ -15,7 +15,7 @@ Ocean Health Index scores are calculated for each region for each goal before be
 
 Flower plots display preliminary scores, with each petal representing an individual goal. Petal lengths convey the score of the goal, thus longer petals are closer to achieving their target. All scores are on a scale from 0-100, and the center number is the region's Index score.
 
-For more information on how these scores are calculated see [Goals](http://ohi-science.org/mhi/goals.html) and our technical report [here]().
+For more information on how these scores are calculated see [Goals](http://ohi-science.org/mhi/goals.html) and our [technical report](https://drive.google.com/file/d/1a84dqfM82y1jXh4IFdvKNFgpZXdbJ7vE/view?usp=sharing).
 
 ----
 
