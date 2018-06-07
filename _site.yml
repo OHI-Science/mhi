@@ -1,31 +1,30 @@
-name: "Ocean Health Index - Main Hawaiian Islands"
+name: Ocean Health Index - Main Hawaiian Islands
 navbar:
-  title: "Home"
+  title: Home
   left:
-    - text: "About"
-      href: about.html
-    - text: "Scores"
-      href: scores.html
-    - text: "Goals"
-      href: goals.html
-    - text: "Layers"
-      href: layers_table.html
-    - text: "Pressures"
-      href: pressures.html
-    - text: "Frequently Asked Questions"
-      href: frequentlyaskedquestions.html
-    - text: "Contribute"
-      href: contribute.html
-output_dir: "."
+  - text: About
+    href: about.html
+  - text: Scores
+    href: scores.html
+  - text: Goals
+    href: goals.html
+  - text: Layers
+    href: layers_table.html
+  - text: Pressures
+    href: pressures.html
+  - text: Frequently Asked Questions
+    href: frequentlyaskedquestions.html
+  - text: Contribute
+    href: contribute.html
+output_dir: .
 output:
   html_document:
     theme: yeti
     highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
 exclude:
 - layers_all.Rmd
 - local_goals.Rmd
 - local_layers_all.Rmd
-#- layers.Rmd
-
-
 
