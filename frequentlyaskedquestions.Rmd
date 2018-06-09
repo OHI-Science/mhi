@@ -28,13 +28,13 @@ Enable the State of Hawai‘i, community stakeholders, the corporate and finance
 
 ## How far along is this project?
 
-The first assessment, the Hawai‘i 2018 Ocean Health Index, will be released June 8th on World Oceans Day. Repeat assessments will be done to track our progress towards meeting our ocean sustainability goals. 
+The first assessment, the Hawai‘i 2018 Ocean Health Index, was released June 8th on World Oceans Day. Repeat assessments will be done to track our progress towards meeting our ocean sustainability goals. 
 
 <br>
 
 ## How it will the OHI assessment for Hawai‘i be shared and communicated?
 
-This website [**ohi-science.org/mhi**](http://ohi-science.org/mhi) is the best place to learn about the assessment. It will also be on the Aloha+ state dashboard [**dashboard.Hawai‘i.gov**](https://dashboard.Hawai‘i.gov/). We will also share on social media, radio, and through scientific publications.
+This website [**ohi-science.org/mhi**](http://ohi-science.org/mhi) is the best place to learn about the assessment. It is also on the Aloha+ state dashboard [**dashboard.Hawai‘i.gov**](https://dashboard.Hawai‘i.gov/). 
 
 <br>
 
@@ -46,7 +46,7 @@ Yes. All data layers are available on this website. And, many of the data layers
 
 ## What year does this OHI assessment represent? 
 
-The first assessment will be completed by 2018. This first assessment will serve as our baseline for future assessments. The most recent data available was incorporated into the assessment for each goal, and we rely on data that will continue to be updated in the future.
+The first assessment was completed June 8th, 2018. This first assessment serves as our baseline for future assessments. The most recent data available was incorporated into the assessment for each goal, and we rely on data that will continue to be updated in the future.
 
 <br>
 
@@ -89,15 +89,14 @@ To produce the spatial boundaries of these reporting units we use the Hawai‘i 
 
 | Goal |Sub-Goal | Spatial Scale |
 | ---- | ---- | ---- |
-|Food Provision |	Fisheries |	EEZ & Nearshore |
+|Food Provision |	Offshore Fisheries |	EEZ |
 | |	Mariculture	| Nearshore |
-| Artisanal Fishing Opportunities	|Nearshore |
-| Coastal Protection |Nearshore |
+| |Nearshore Fisheries	|Nearshore |
+| Coastal Protection ||Nearshore 
 | Coastal Livelihoods & Economies |	Livelihoods |	EEZ |
 | | Economies	| EEZ |
-| Sustainable Tourism	 | Nearshore |
-| Sense of Place	| Lasting Special Places |	Nearshore |
-| |	Connection to Place	| Nearshore |
+| Sustainable Tourism	 | |Nearshore 
+| Sense of Place |	|Nearshore 
 | Biodiversity | Species | EEZ |
 | |	Habitats | Nearshore |
 
